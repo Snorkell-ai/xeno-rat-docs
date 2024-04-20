@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.SampleProviders.SampleToWaveProvider" name="NAudio.Wave.SampleProviders.SampleToWaveProvider">
+<area shape="rect" id="Node000001" title="Helper class for when you need to convert back to an IWaveProvider from an ISampleProvider...." alt="" coords="38,134,238,234"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,5,103,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,82,112,133,107,135,77,85"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="127,5,320,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,72,178,121,173,118,203,69"/>
+</map>

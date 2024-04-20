@@ -1,0 +1,18 @@
+<map id="NAudio.Wave.SampleProviders.SignalGenerator" name="NAudio.Wave.SampleProviders.SignalGenerator">
+<area shape="rect" id="Node000001" title="Signal Generator Sin, Square, Triangle, SawTooth, White Noise, Pink Noise, Sweep." alt="" coords="412,777,612,1077"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="104,399,213,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,478,172,524,184,576,202,631,228,683,268,736,315,784,365,827,414,863,411,867,362,831,311,788,264,739,223,685,197,633,178,578,167,525,160,479"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="238,179,437,684"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="392,683,416,752,419,760,414,762,411,754,387,684"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,147,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="76,70,81,113,89,135,102,153,115,163,129,167,157,168,189,167,207,170,226,178,223,183,205,175,189,172,157,173,128,173,113,167,98,157,84,137,76,115,71,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="190,5,231,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="212,71,213,111,219,154,234,192,229,194,213,155,207,111,206,71"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="411,5,437,71"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="439,43,469,62,484,76,496,94,505,130,512,191,519,364,521,569,518,760,513,760,515,569,514,365,507,192,500,131,491,96,480,80,465,66,436,48"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="412,46,375,63,355,77,341,96,326,128,317,163,311,161,321,126,336,93,352,74,372,58,410,41"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="595,399,709,464"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="646,465,561,762,556,760,641,463"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="733,399,784,464"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="762,464,761,509,756,565,744,626,724,685,704,723,680,759,626,825,621,822,675,756,699,720,719,683,739,625,751,564,756,508,757,464"/>
+</map>

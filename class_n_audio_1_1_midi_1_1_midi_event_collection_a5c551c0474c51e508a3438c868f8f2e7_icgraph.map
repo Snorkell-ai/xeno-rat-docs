@@ -1,0 +1,6 @@
+<map id="NAudio.Midi.MidiEventCollection.AddTrack" name="NAudio.Midi.MidiEventCollection.AddTrack">
+<area shape="rect" id="Node000001" title="Adds a list of MIDI events to the track and returns the combined list of events." alt="" coords="244,29,460,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="393,16,378,10,352,8,328,10,313,15,308,21,310,28,305,29,302,19,310,10,327,5,352,3,379,5,395,11"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_file.html#a8b288d8e81803e8a8ad9591ec02533f9" title=" " alt="" coords="5,37,196,63"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="228,52,196,52,196,47,228,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Dsp.EnvelopeGenerator" name="NAudio.Dsp.EnvelopeGenerator">
+<area shape="rect" id="Node000001" title="Envelope generator (ADSR)" alt="" coords="5,284,209,629"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="13,5,111,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,70,89,267,84,267,63,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="135,5,173,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,71,131,267,126,267,148,70"/>
+</map>

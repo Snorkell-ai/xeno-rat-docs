@@ -1,0 +1,13 @@
+<map id="NAudio.Midi.MidiOut" name="NAudio.Midi.MidiOut">
+<area shape="rect" id="Node000001" title="Represents a MIDI out device." alt="" coords="105,477,254,762"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="5,249,87,314"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,327,126,476,121,478,61,329"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="111,249,157,314"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,314,133,378,138,453,139,460,134,460,133,453,128,378,129,314"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="206,249,243,314"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,314,203,460,198,460,218,313"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="267,149,419,414"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="291,415,272,454,264,471,259,469,268,452,286,413"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="330,5,357,71"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="346,70,346,132,341,132,341,70"/>
+</map>

@@ -1,0 +1,47 @@
+<map id="xeno_rat_server.Forms.CustomPictureBox.TriggerWndProc" name="xeno_rat_server.Forms.CustomPictureBox.TriggerWndProc">
+<area shape="rect" id="Node000001" title="Triggers the window procedure for processing Windows messages." alt="" coords="5,320,210,361"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="258,320,462,361"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,338,242,338,242,343,210,343"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="1067,37,1274,78"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,318,393,284,424,242,463,199,509,162,574,126,644,98,717,77,790,63,862,53,931,48,1052,47,1052,52,932,53,863,59,791,68,718,83,646,103,576,131,511,167,467,203,428,245,397,287,375,321"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a6fd202b56bb2a04df9637483ef1b2f9c" title="Retrieves the status of the specified virtual key. The status specifies whether the key is up,..." alt="" coords="515,291,719,331"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="462,326,499,322,499,327,463,331"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a42d8fa8741cbda40c8784fc9ce8b2db7" title="Gets the modified key corresponding to the input character." alt="" coords="515,405,719,446"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="424,359,539,397,538,402,422,364"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a7ef096a40399d0a57be5ccf36b2d469e" title="Translates the specified virtual&#45;key code and keyboard state to the corresponding character or charac..." alt="" coords="782,348,987,389"/>
+<area shape="poly" id="edge21_Node000002_Node000006" title=" " alt="" coords="463,343,767,359,767,365,462,348"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="1067,233,1274,274"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="400,317,451,295,509,276,654,253,801,242,937,240,1052,243,1052,249,937,245,801,248,655,259,511,282,453,300,402,322"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#abf78a3c35658cf3e755285c3d59ddd59" title="Checks if the input character is alphanumeric." alt="" coords="515,471,719,511"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="384,359,439,407,474,433,511,455,525,462,523,467,509,460,471,437,436,411,380,363"/>
+<area shape="rect" id="Node000010" href="$classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="526,176,708,217"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="385,317,440,276,509,233,535,220,537,225,511,237,443,280,388,322"/>
+<area shape="rect" id="Node000019" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a9ba6bd36eae383838cebee58ef3e56ed" title="Translates the coordinates from the original screen size to the target control&#39;s image size and retur..." alt="" coords="510,536,723,577"/>
+<area shape="poly" id="edge22_Node000002_Node000019" title=" " alt="" coords="375,360,396,395,427,438,466,483,512,521,521,526,518,531,508,525,462,486,423,441,392,398,370,363"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="714,402,771,390,772,395,715,407"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ada0c260322500d4349f18549ab012077" title="Translates a Unicode character to the corresponding virtual&#45;key code and shift state for the current ..." alt="" coords="782,413,987,454"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="719,426,767,427,767,433,719,431"/>
+<area shape="rect" id="Node000011" href="$classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="775,190,994,216"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="708,196,760,197,760,203,708,201"/>
+<area shape="rect" id="Node000012" href="$classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="781,101,988,142"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="692,173,794,144,795,149,693,178"/>
+<area shape="poly" id="edge11_Node000011_Node000011" title=" " alt="" coords="841,192,832,182,837,172,855,166,885,164,918,166,934,174,932,179,917,172,884,169,856,171,840,176,837,181,844,188"/>
+<area shape="poly" id="edge18_Node000012_Node000003" title=" " alt="" coords="978,98,1061,79,1063,84,979,103"/>
+<area shape="poly" id="edge20_Node000012_Node000008" title=" " alt="" coords="979,140,999,152,1016,169,1024,186,1032,203,1047,218,1056,224,1053,228,1044,222,1028,206,1019,188,1011,172,996,156,977,145"/>
+<area shape="rect" id="Node000013" href="$classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="1071,103,1270,143"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="988,119,1055,120,1055,125,988,125"/>
+<area shape="rect" id="Node000018" href="$classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="1079,168,1262,209"/>
+<area shape="poly" id="edge19_Node000012_Node000018" title=" " alt="" coords="975,140,1066,161,1065,166,974,145"/>
+<area shape="rect" id="Node000014" href="$classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1359,5,1557,46"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="1261,100,1294,87,1318,72,1342,57,1360,49,1362,54,1344,61,1320,77,1296,92,1263,105"/>
+<area shape="rect" id="Node000015" href="$classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1359,71,1557,111"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="1270,109,1342,101,1343,106,1270,115"/>
+<area shape="rect" id="Node000016" href="$classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1359,136,1557,177"/>
+<area shape="poly" id="edge16_Node000013_Node000016" title=" " alt="" coords="1270,132,1343,140,1342,146,1270,137"/>
+<area shape="rect" id="Node000017" href="$classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1343,201,1572,242"/>
+<area shape="poly" id="edge17_Node000013_Node000017" title=" " alt="" coords="1263,141,1296,154,1321,170,1344,186,1361,193,1359,198,1342,191,1318,174,1294,159,1261,146"/>
+<area shape="rect" id="Node000020" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ad2d6181322edfc502c03b929df4383c2" title="Translates and unzooms the given point based on the zoom factor and displayed image rectangle of the ..." alt="" coords="771,536,998,577"/>
+<area shape="poly" id="edge23_Node000019_Node000020" title=" " alt="" coords="724,554,756,554,756,559,724,559"/>
+<area shape="rect" id="Node000021" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#aa7addce06628519cadac2c853023fe97" title="Gets the display rectangle for the image in the specified PictureBox." alt="" coords="1046,536,1295,577"/>
+<area shape="poly" id="edge24_Node000020_Node000021" title=" " alt="" coords="998,554,1030,554,1030,559,998,559"/>
+</map>

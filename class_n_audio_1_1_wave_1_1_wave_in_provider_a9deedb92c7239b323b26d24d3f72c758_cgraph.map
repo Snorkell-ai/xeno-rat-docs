@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveInProvider.OnDataAvailable" name="NAudio.Wave.WaveInProvider.OnDataAvailable">
+<area shape="rect" id="Node000001" title="Adds the available data to the buffered wave provider." alt="" coords="5,5,206,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_buffered_wave_provider.html#a2f65eef2dec3b49b9f1ce760a940b627" title="Adds the specified samples to the circular buffer." alt="" coords="254,5,441,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,23,238,23,238,28,206,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#ae15a838e7d3ebbded66be8eb63a65d2a" title="Writes the specified number of bytes from the input data &#160;array to the internal buffer,..." alt="" coords="489,5,671,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="442,23,473,23,473,28,442,28"/>
+</map>

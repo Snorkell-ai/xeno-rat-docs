@@ -1,0 +1,7 @@
+<map id="Plugin.Main.SetVolume" name="Plugin.Main.SetVolume">
+<area shape="rect" id="Node000001" title="Sets the volume level of the default audio endpoint device." alt="" coords="5,35,163,60"/>
+<area shape="rect" id="Node000002" href="$interface_plugin_1_1_i_m_m_device.html#aabac56df04525da89366f6ea06fef5a8" title=" " alt="" coords="219,5,400,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,35,203,29,204,35,164,40"/>
+<area shape="rect" id="Node000003" href="$interface_plugin_1_1_i_audio_endpoint_volume.html#ae7920f36d492961914fbf2237708aed5" title=" " alt="" coords="211,55,408,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,55,195,59,195,64,163,60"/>
+</map>

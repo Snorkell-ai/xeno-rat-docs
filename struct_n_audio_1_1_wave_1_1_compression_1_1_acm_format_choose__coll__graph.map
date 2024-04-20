@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.Compression.AcmFormatChoose" name="NAudio.Wave.Compression.AcmFormatChoose">
+<area shape="rect" id="Node000001" title="ACMFORMATCHOOSE http://msdn.microsoft.com/en&#45;us/library/dd742911%28VS.85%29.aspx." alt="" coords="350,408,527,488"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="13,113,40,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="20,178,12,224,9,279,11,307,17,334,28,360,44,382,63,396,90,408,163,426,249,437,333,442,333,447,249,442,162,431,88,413,60,401,40,386,23,363,12,336,6,308,3,279,6,223,15,177"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="111,113,299,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,178,200,223,202,277,214,333,226,359,242,383,261,401,284,415,334,434,333,439,281,420,258,405,238,386,221,362,209,335,196,278,194,223,198,178"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="324,113,369,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="339,179,328,222,321,274,324,331,330,358,341,383,349,395,344,398,336,386,325,359,318,331,316,274,323,221,333,177"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="517,113,563,178"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="546,178,547,221,544,274,534,331,513,386,506,397,501,394,508,383,529,330,539,273,542,220,540,178"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="629,113,776,178"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="711,178,716,223,715,279,703,336,691,362,674,386,653,401,622,413,545,433,543,428,621,408,651,396,670,382,686,360,698,334,709,278,711,223,706,178"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html" title="Interop definitions for Windows ACM (Audio Compression Manager) API." alt="" coords="800,5,1005,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="888,286,865,340,849,365,828,386,808,399,780,410,708,427,625,438,544,445,544,440,624,433,707,421,778,405,806,394,825,382,845,362,861,338,883,284"/>
+</map>

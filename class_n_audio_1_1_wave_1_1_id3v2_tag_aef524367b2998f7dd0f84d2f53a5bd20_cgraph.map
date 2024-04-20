@@ -1,0 +1,14 @@
+<map id="NAudio.Wave.Id3v2Tag.CreateId3v2TagStream" name="NAudio.Wave.Id3v2Tag.CreateId3v2TagStream">
+<area shape="rect" id="Node000001" title="Creates an ID3v2 tag stream based on the provided tags." alt="" coords="5,72,207,113"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#ac5ca72f8e2fe3dc92b00c71cae78ac3d" title="Creates an ID3v2 frame with the specified key and value." alt="" coords="255,39,456,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,76,239,72,240,77,208,81"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a70fba60a8153bba2baf8e36e03073681" title="Creates an ID3v2 tag header based on the provided frames and returns the resulting tag header." alt="" coords="255,104,456,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="208,103,240,107,239,112,207,108"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_byte_array_extensions.html#ada86231ea4a8f13d341729983194c53d" title="Concatenates multiple byte arrays into a single byte array and returns the result." alt="" coords="504,71,730,111"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,69,489,73,488,78,456,74"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a00c0c1be309165eba8bb7560c0fa7dce" title="Converts the frame size to a byte array and returns the result." alt="" coords="518,5,717,46"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="456,44,502,38,502,43,457,49"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="456,109,488,105,489,110,457,114"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#afa57fd617f156553b8ed051eddc1c9cd" title="Gets the ID3 tag header size as an array of bytes." alt="" coords="526,136,709,177"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="457,134,511,141,510,146,456,139"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Hvnc.CreateImageNode" name="xeno_rat_server.Forms.Hvnc.CreateImageNode">
+<area shape="rect" id="Node000001" title="Creates an image node and returns it. If the image node already exists, returns the existing node." alt="" coords="519,5,712,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#ac4f8a4918c5536107d4ac78e013dc293" title="Initializes the asynchronous task by creating an image node, adding temporary on disconnect actions,..." alt="" coords="278,5,471,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="504,28,471,28,471,23,504,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a8209e6a5de9c8c13ac4acff1fea18283" title=" " alt="" coords="5,13,230,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="262,28,230,28,230,23,262,23"/>
+</map>

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['q6_0',['q6',['../class_n_audio_1_1_codecs_1_1_g722_codec.html#a5f008135a3d6106811d7c50b480feb4c',1,'NAudio::Codecs::G722Codec']]],
+  ['qm2_1',['qm2',['../class_n_audio_1_1_codecs_1_1_g722_codec.html#ab1da7138231dcd8680daa51517ca9ce2',1,'NAudio::Codecs::G722Codec']]],
+  ['qm4_2',['qm4',['../class_n_audio_1_1_codecs_1_1_g722_codec.html#a3a6bf11d0aea9da79905bb516188433b',1,'NAudio::Codecs::G722Codec']]],
+  ['qm5_3',['qm5',['../class_n_audio_1_1_codecs_1_1_g722_codec.html#ae4ae6915ff3434782df5224ad21536c1',1,'NAudio::Codecs::G722Codec']]],
+  ['qm6_4',['qm6',['../class_n_audio_1_1_codecs_1_1_g722_codec.html#af904a1792ff5730e0b84083e6f753af7',1,'NAudio::Codecs::G722Codec']]],
+  ['qmf_5fcoeffs_5',['qmf_coeffs',['../class_n_audio_1_1_codecs_1_1_g722_codec.html#a2a3e4064bbeea45b584f5b6b425fc399',1,'NAudio::Codecs::G722Codec']]],
+  ['quality_6',['quality',['../class_plugin_1_1_main.html#a2ce772014174617c2f7ffef72fce1918',1,'Plugin::Main']]],
+  ['qualitydefault_7',['QualityDefault',['../struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_i3_d_l2_reverb_1_1_params.html#af8770055a4804432f3c4781d2f80ca61',1,'NAudio::Dmo::Effect::DmoI3DL2Reverb::Params']]],
+  ['qualitymax_8',['QualityMax',['../struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_i3_d_l2_reverb_1_1_params.html#a808804a1e57ba5ccecb6f0812a660d7a',1,'NAudio::Dmo::Effect::DmoI3DL2Reverb::Params']]],
+  ['qualitymin_9',['QualityMin',['../struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_i3_d_l2_reverb_1_1_params.html#a06fc43099d76243c1922fea5389c16b5',1,'NAudio::Dmo::Effect::DmoI3DL2Reverb::Params']]],
+  ['qualitys_10',['qualitys',['../classxeno__rat__server_1_1_forms_1_1_hvnc.html#a6e7ef3b19cbd06ebc18e957802df30e3',1,'xeno_rat_server.Forms.Hvnc.qualitys'],['../classxeno__rat__server_1_1_forms_1_1_screen_control.html#afd3c973c232548a4c2a0cc0caf5eec44',1,'xeno_rat_server.Forms.ScreenControl.qualitys'],['../classxeno__rat__server_1_1_forms_1_1_web_cam.html#ad9d708d221416a0c803a2d2cbd527dcf',1,'xeno_rat_server.Forms.WebCam.qualitys']]],
+  ['queuedbuffers_11',['queuedBuffers',['../class_n_audio_1_1_wave_1_1_wave_out.html#acb91a1d4c740c4e52850df98c7ecb362',1,'NAudio::Wave::WaveOut']]],
+  ['qwbytecountprocessed_12',['qwByteCountProcessed',['../class_n_audio_1_1_media_foundation_1_1_m_f___s_i_n_k___w_r_i_t_e_r___s_t_a_t_i_s_t_i_c_s.html#a359f862d5fa865b979ad7b1b440e01df',1,'NAudio::MediaFoundation::MF_SINK_WRITER_STATISTICS']]],
+  ['qwnumsamplesencoded_13',['qwNumSamplesEncoded',['../class_n_audio_1_1_media_foundation_1_1_m_f___s_i_n_k___w_r_i_t_e_r___s_t_a_t_i_s_t_i_c_s.html#ac9636628be9b44f03ffc5e3154f68e8b',1,'NAudio::MediaFoundation::MF_SINK_WRITER_STATISTICS']]],
+  ['qwnumsamplesprocessed_14',['qwNumSamplesProcessed',['../class_n_audio_1_1_media_foundation_1_1_m_f___s_i_n_k___w_r_i_t_e_r___s_t_a_t_i_s_t_i_c_s.html#a76424d2f55d9d04160ad22ac87e98e96',1,'NAudio::MediaFoundation::MF_SINK_WRITER_STATISTICS']]],
+  ['qwnumsamplesreceived_15',['qwNumSamplesReceived',['../class_n_audio_1_1_media_foundation_1_1_m_f___s_i_n_k___w_r_i_t_e_r___s_t_a_t_i_s_t_i_c_s.html#a2374fdcd31ac8deca52dd6c8efc87f9a',1,'NAudio::MediaFoundation::MF_SINK_WRITER_STATISTICS']]],
+  ['qwnumstreamticksreceived_16',['qwNumStreamTicksReceived',['../class_n_audio_1_1_media_foundation_1_1_m_f___s_i_n_k___w_r_i_t_e_r___s_t_a_t_i_s_t_i_c_s.html#a80445170e434afd33758d6fbe58a8430',1,'NAudio::MediaFoundation::MF_SINK_WRITER_STATISTICS']]]
+];

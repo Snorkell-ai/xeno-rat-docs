@@ -1,0 +1,9 @@
+<map id="NAudio.Utils.IEEE.UnsignedToFloat" name="NAudio.Utils.IEEE.UnsignedToFloat">
+<area shape="rect" id="Node000001" title="Converts the unsigned 64&#45;bit integer to a floating&#45;point number." alt="" coords="712,5,902,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a177755932531d390e066ca1046d76e53" title="Converts the given IEEE extended byte array to a double value." alt="" coords="484,5,664,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="697,28,665,28,665,23,697,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#a5eb16b178b9d6e031efe3fe424b77601" title="Reads the AIFF header from the provided stream and extracts the wave format, data chunk position,..." alt="" coords="245,5,436,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="468,28,437,28,437,23,468,23"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#ae9075221902376de4191d0b4bc9be7e4" title="Creates an Aiff File Reader based on an input stream." alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

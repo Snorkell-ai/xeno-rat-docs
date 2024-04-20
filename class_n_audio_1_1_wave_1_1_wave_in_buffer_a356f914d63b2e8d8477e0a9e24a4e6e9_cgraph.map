@@ -1,0 +1,6 @@
+<map id="NAudio.Wave.WaveInBuffer.~WaveInBuffer" name="NAudio.Wave.WaveInBuffer.~WaveInBuffer">
+<area shape="rect" id="Node000001" title="Finalizer for this wave buffer." alt="" coords="5,29,193,70"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in_buffer.html#aa64a1d38381ae46017fdd67388405d1c" title="Releases the managed and unmanaged resources used by the WaveInRecorder." alt="" coords="241,29,428,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,47,225,47,225,52,193,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="290,29,288,19,295,10,311,5,334,3,360,5,375,11,373,16,358,10,334,8,312,10,298,15,293,21,295,28"/>
+</map>

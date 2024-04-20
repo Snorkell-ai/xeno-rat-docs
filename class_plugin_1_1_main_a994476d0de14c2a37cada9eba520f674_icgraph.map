@@ -1,0 +1,5 @@
+<map id="Plugin.Main.ShutdownComputer" name="Plugin.Main.ShutdownComputer">
+<area shape="rect" id="Node000001" title="Shuts down the computer immediately." alt="" coords="171,5,379,31"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs actions based on the received data." alt="" coords="5,5,123,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,21,123,21,123,16,155,16"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.AiffFileReader.AiffChunk" name="NAudio.Wave.AiffFileReader.AiffChunk">
+<area shape="rect" id="Node000001" title="AIFF Chunk." alt="" coords="5,149,188,229"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,5,62,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="38,70,38,97,44,124,48,133,43,136,38,126,32,98,32,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="139,5,172,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,71,128,126,125,134,120,132,124,124,143,70"/>
+</map>

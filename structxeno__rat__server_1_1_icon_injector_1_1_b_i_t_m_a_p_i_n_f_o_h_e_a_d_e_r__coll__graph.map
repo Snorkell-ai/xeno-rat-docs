@@ -1,0 +1,9 @@
+<map id="xeno_rat_server.IconInjector.BITMAPINFOHEADER" name="xeno_rat_server.IconInjector.BITMAPINFOHEADER">
+<area shape="rect" id="Node000001" title=" " alt="" coords="48,194,228,274"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,39,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="24,70,30,119,38,144,50,168,59,180,55,183,45,171,33,146,25,120,19,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="125,5,151,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,70,141,177,135,177,135,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="240,5,289,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="267,71,259,120,251,147,238,171,227,184,223,181,233,168,246,145,254,119,262,70"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Compression.AcmStream.Reposition" name="NAudio.Wave.Compression.AcmStream.Reposition">
+<area shape="rect" id="Node000001" title="Repositions the stream header." alt="" coords="5,5,192,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header.html#a0f4960041b28c6b9ecec1fa27d41ad74" title="Sets the flag &#39;firstTime&#39; to true, indicating that the repositioning is being performed for the first..." alt="" coords="240,5,437,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,23,224,23,224,28,192,28"/>
+</map>

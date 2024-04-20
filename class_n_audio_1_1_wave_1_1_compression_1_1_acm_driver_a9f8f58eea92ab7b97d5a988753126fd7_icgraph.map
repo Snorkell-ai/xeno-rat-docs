@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Compression.AcmDriver.Close" name="NAudio.Wave.Compression.AcmDriver.Close">
+<area shape="rect" id="Node000001" title="Closes the driver handle if it is not already closed." alt="" coords="240,5,426,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a8eb24fe7ab039d715967d9c4af59a185" title="Disposes of the resources used by the current instance." alt="" coords="5,5,192,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,28,192,28,192,23,224,23"/>
+</map>

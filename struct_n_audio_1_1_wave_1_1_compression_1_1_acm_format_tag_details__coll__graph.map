@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.Compression.AcmFormatTagDetails" name="NAudio.Wave.Compression.AcmFormatTagDetails">
+<area shape="rect" id="Node000001" title=" " alt="" coords="135,209,313,289"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,32,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="18,70,21,127,30,157,46,183,79,211,120,229,118,234,77,215,42,186,25,159,16,128,13,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="127,5,321,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="227,70,227,192,221,192,221,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="345,5,391,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="365,71,349,127,336,158,318,186,307,199,303,196,314,183,331,156,344,126,360,70"/>
+</map>

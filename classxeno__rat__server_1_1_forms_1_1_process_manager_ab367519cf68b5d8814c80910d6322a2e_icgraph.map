@@ -1,0 +1,10 @@
+<map id="xeno_rat_server.Forms.ProcessManager.DeserializeProcessNode" name="xeno_rat_server.Forms.ProcessManager.DeserializeProcessNode">
+<area shape="rect" id="Node000001" title="Deserializes a ProcessNode from the provided BinaryReader and returns the deserialized ProcessNode." alt="" coords="770,29,989,70"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="922,16,906,10,879,8,854,10,839,15,833,21,836,28,831,29,828,19,836,10,853,5,880,3,908,5,924,11"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_process_manager.html#a00a913e171fdbb8502e121f8567fd2fa" title="Deserializes the byte array into a list of ProcessNode objects." alt="" coords="514,29,722,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="755,52,723,52,723,47,755,47"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_process_manager.html#a9017439d866e89a4f8083fe6ef1c6ef7" title="Asynchronously receives data from the client and processes it." alt="" coords="260,29,466,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="498,52,466,52,466,47,498,47"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_process_manager.html#aac713480b9c0f02e8045e2171d8b61ca" title=" " alt="" coords="5,29,212,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="244,52,212,52,212,47,244,47"/>
+</map>

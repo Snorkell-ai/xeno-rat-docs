@@ -1,0 +1,23 @@
+<map id="NAudio.Midi.MetaEvent" name="NAudio.Midi.MetaEvent">
+<area shape="rect" id="Node000001" title="Represents a MIDI meta event." alt="" coords="751,632,902,837"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_midi_1_1_key_signature_event.html" title="Represents a MIDI key signature event event." alt="" coords="5,938,171,1158"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="737,738,617,745,547,754,473,768,397,787,322,813,250,846,184,887,159,911,137,940,133,937,155,908,181,883,248,841,320,808,395,782,472,763,546,749,617,740,736,733"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_midi_1_1_raw_meta_event.html" title="Represents a MIDI meta event with raw data." alt="" coords="195,985,373,1111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="737,751,657,768,565,795,472,834,428,859,387,887,364,909,344,934,312,987,307,984,339,931,360,906,384,883,425,854,469,829,563,790,655,763,736,746"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_midi_1_1_sequencer_specific_event.html" title="Represents a Sequencer Specific event." alt="" coords="397,958,595,1138"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="740,787,673,833,609,887,578,922,550,960,546,957,573,919,605,883,670,828,737,783"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_midi_1_1_smpte_offset_event.html" title="SMPTE Offset Event." alt="" coords="619,885,815,1211"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="788,853,776,887,771,885,783,851"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_midi_1_1_tempo_event.html" title="Represents a MIDI tempo event." alt="" coords="839,955,1035,1141"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="870,850,907,955,902,956,865,852"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_midi_1_1_text_event.html" title="Represents a MIDI text event." alt="" coords="1060,955,1207,1141"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="916,779,985,825,1019,853,1050,884,1076,917,1097,954,1093,957,1071,920,1046,887,1016,857,982,830,913,784"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_midi_1_1_time_signature_event.html" title="Represents a MIDI time signature event." alt="" coords="1231,888,1417,1208"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="917,751,988,770,1067,797,1147,835,1185,858,1220,883,1233,895,1230,899,1217,887,1182,862,1145,840,1065,802,987,775,916,756"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_midi_1_1_track_sequence_number_event.html" title="Represents a MIDI track sequence number event event." alt="" coords="1441,968,1644,1128"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="917,736,1028,747,1161,772,1231,791,1301,815,1368,846,1431,883,1473,922,1506,967,1501,970,1469,925,1428,887,1366,851,1299,820,1230,796,1160,777,1027,753,916,742"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="751,119,903,584"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="829,599,829,632,824,632,824,599"/>
+<area shape="rect" id="Node000003" href="$class_i_cloneable.html" title=" " alt="" coords="789,5,864,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="829,85,829,119,824,119,824,85"/>
+</map>

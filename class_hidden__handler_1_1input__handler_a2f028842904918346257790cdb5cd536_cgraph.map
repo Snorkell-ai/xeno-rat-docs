@@ -1,0 +1,43 @@
+<map id="Hidden_handler.input_handler.Input" name="Hidden_handler.input_handler.Input">
+<area shape="rect" id="Node000001" title="Handles input messages and performs corresponding actions based on the message type." alt="" coords="5,627,148,667"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1input__handler.html#a903692dc090dbf7c3e66d3b1c6766dc7" title="Retrieves a handle to the child window at the specified point." alt="" coords="196,5,406,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,626,87,510,108,340,124,252,143,171,166,104,179,77,194,57,197,54,201,58,198,61,184,80,171,106,148,172,129,253,113,341,92,511,82,627"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1input__handler.html#a43e433e26e6dba7aefe30ee9ceff44e7" title="Finds a window with the specified class name and window name." alt="" coords="228,71,374,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="77,626,89,522,112,371,128,293,147,222,169,163,194,123,212,108,216,112,198,126,173,165,152,224,133,294,117,372,94,522,82,627"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1input__handler.html#a9aad70cb102e3fa0c555d7d78343f5a4" title="Extracts the x&#45;coordinate from the specified lParam ." alt="" coords="213,136,389,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="78,626,92,533,116,402,132,335,151,273,171,223,194,188,198,184,202,187,198,191,176,225,156,275,137,336,122,403,97,534,83,627"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1input__handler.html#a296282fc95205398ebd9e45fe7bae026" title="Extracts the Y coordinate from the given Windows message lParam ." alt="" coords="213,201,389,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="75,626,79,556,95,456,110,402,130,348,158,298,194,253,198,249,202,253,198,257,162,301,135,351,115,404,100,457,84,556,80,626"/>
+<area shape="rect" id="Node000006" href="$class_hidden__handler_1_1input__handler.html#a7f4cf9957884d21d9212fdab540394b7" title="Retrieves the menu item identifier of a menu item located at the specified position in a menu." alt="" coords="218,267,384,307"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="77,626,84,566,103,484,118,439,138,396,163,355,194,318,203,311,206,315,198,322,167,358,142,398,123,441,108,485,89,567,82,626"/>
+<area shape="rect" id="Node000007" href="$class_hidden__handler_1_1input__handler.html#acdfcc76e387a49f6f2ffc1745d1a12a7" title="Retrieves a handle to the drop&#45;down menu activated by the specified menu item." alt="" coords="226,332,376,373"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="79,626,90,577,111,512,145,443,167,412,194,384,211,372,214,376,197,388,172,415,150,446,116,514,95,578,84,627"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1input__handler.html#ad51d7fc1ab066cd304c518f16cd602db" title="Retrieves information about the specified window. The function also retrieves the value at a specifie..." alt="" coords="216,397,386,438"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="82,626,97,588,120,540,153,491,194,449,201,444,204,448,197,453,157,495,125,543,102,590,87,627"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1input__handler.html#a15c1b0fccf65ad33ab7ffd6a8b3c77a9" title="Retrieves the show state and the restored, minimized, and maximized positions of the specified window..." alt="" coords="199,463,403,503"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="89,625,132,570,161,540,194,514,204,508,207,513,197,519,165,544,136,573,93,628"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1input__handler.html#a4735c94fa3b28fcd3efd4e046d918cae" title="Retrieves the dimensions of the bounding rectangle of the specified window." alt="" coords="216,528,386,569"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="110,624,195,579,213,572,215,577,197,584,113,628"/>
+<area shape="rect" id="Node000011" href="$class_hidden__handler_1_1input__handler.html#aea7911a2f0731289b2d7ce05ea85c27e" title="Combines the specified low and high words into a single IntPtr value." alt="" coords="219,593,383,634"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="148,634,203,625,204,631,148,639"/>
+<area shape="rect" id="Node000012" href="$class_hidden__handler_1_1input__handler.html#ad0d6c1393558fff69f22a5c0fb9a4180" title="Retrieves the menu item that is at the specified location." alt="" coords="205,659,397,699"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="148,654,190,661,189,666,148,660"/>
+<area shape="rect" id="Node000013" href="$class_hidden__handler_1_1input__handler.html#a9b41ef998427260279b7d386cb0ab14e" title="Moves and resizes the specified window." alt="" coords="225,724,377,765"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="113,665,197,709,215,716,213,721,195,713,111,670"/>
+<area shape="rect" id="Node000014" href="$class_hidden__handler_1_1input__handler.html#a11155c641d1915d336ea9da00cff3d6e" title="Sends the specified message to a window or windows. The function calls the window procedure for the s..." alt="" coords="224,789,378,830"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="93,666,136,720,165,749,197,774,211,782,208,787,194,779,161,753,132,723,89,669"/>
+<area shape="rect" id="Node000015" href="$class_hidden__handler_1_1input__handler.html#aaed5aa6a0035447efc8d97ca8a7c64ba" title="Determines whether the specified point is within the specified rectangle." alt="" coords="230,855,372,895"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="87,667,102,704,126,751,157,799,197,840,217,852,214,856,194,844,153,802,121,753,97,706,82,669"/>
+<area shape="rect" id="Node000016" href="$class_hidden__handler_1_1input__handler.html#ac83d06835b72f173e7684be7a41f645a" title="Retrieves the name of the window class to which the specified window belongs." alt="" coords="200,920,402,961"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="84,667,95,716,116,780,150,847,172,878,197,905,203,909,199,913,194,909,168,881,145,850,112,782,90,717,79,669"/>
+<area shape="rect" id="Node000017" href="$class_hidden__handler_1_1input__handler.html#a6004dc6f347a225b27eb2ce39cd25ce3" title="Transforms screen coordinates into client&#45;area coordinates." alt="" coords="220,985,382,1026"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="82,668,89,727,108,808,123,852,143,895,167,935,198,970,208,979,204,983,194,974,163,938,138,897,118,854,103,810,84,728,77,668"/>
+<area shape="rect" id="Node000018" href="$class_hidden__handler_1_1input__handler.html#abb6a789d001fc464a4b7719cdd2770b6" title="Sends the specified message to a window or windows. The SendMessage function calls the window procedu..." alt="" coords="223,1051,379,1091"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="80,668,84,737,100,836,115,890,135,942,163,992,198,1036,210,1046,207,1050,194,1040,158,995,130,945,110,891,95,837,79,738,75,668"/>
+<area shape="rect" id="Node000019" href="$class_hidden__handler_1_1input__handler.html#a666b8f335c939fe807945fb1bfdfed9e" title="Sets the desktop for the current thread to the specified desktop." alt="" coords="210,1116,392,1157"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="83,667,97,760,122,890,138,957,156,1018,176,1068,198,1101,201,1105,197,1108,194,1105,171,1070,151,1020,132,958,116,891,92,761,78,668"/>
+<area shape="rect" id="Node000020" href="$class_hidden__handler_1_1input__handler.html#a220f0fcf5be300d6133852cd382e804b" title="Changes an attribute of the specified window. The function also sets a new value for the attribute,..." alt="" coords="217,1181,385,1222"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="82,667,94,771,117,922,133,999,152,1069,173,1127,198,1167,206,1174,202,1178,194,1170,169,1130,147,1071,128,1000,112,922,89,772,77,668"/>
+<area shape="rect" id="Node000021" href="$class_hidden__handler_1_1input__handler.html#a1d09e69e816c0ad9506c78577818a604" title="Retrieves a handle to the window that contains the specified point." alt="" coords="211,1247,391,1287"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="82,667,92,783,113,953,129,1040,148,1121,171,1187,184,1213,198,1232,201,1235,197,1239,194,1235,179,1215,166,1189,143,1122,124,1042,108,953,87,784,77,668"/>
+</map>

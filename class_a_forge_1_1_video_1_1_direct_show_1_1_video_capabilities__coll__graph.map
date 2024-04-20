@@ -1,0 +1,7 @@
+<map id="AForge.Video.DirectShow.VideoCapabilities" name="AForge.Video.DirectShow.VideoCapabilities">
+<area shape="rect" id="Node000001" title="Capabilities of video device such as frame size and frame rate." alt="" coords="5,164,171,384"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,5,55,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="36,70,36,104,40,139,41,147,36,148,34,140,31,104,31,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="128,5,155,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,71,119,148,114,147,132,70"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.WdlResampler.SetFilterParms" name="NAudio.Dsp.WdlResampler.SetFilterParms">
+<area shape="rect" id="Node000001" title="Sets the filter parameters with default values for position and quality factor." alt="" coords="285,13,470,54"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#a8ac65db56545c4569f1651e9e54fb143" title="Constructs a new resampler." alt="" coords="5,5,237,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,36,237,36,237,31,269,31"/>
+</map>

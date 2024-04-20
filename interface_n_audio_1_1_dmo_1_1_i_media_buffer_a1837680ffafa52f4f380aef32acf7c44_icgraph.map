@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.IMediaBuffer.SetLength" name="NAudio.Dmo.IMediaBuffer.SetLength">
+<area shape="rect" id="Node000001" title="Set Length." alt="" coords="336,39,513,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_file_formats_1_1_mp3_1_1_dmo_mp3_frame_decompressor.html#ac36b78a96a963e7bbc5f8856003ca5cb" title="Decompresses the provided MP3 frame and writes the decompressed data to the specified destination buf..." alt="" coords="5,5,288,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="320,49,288,45,288,40,320,44"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html#ab6da9d010e62d3a6b41ce8a06525f333" title="Reads a specified number of bytes from the input stream and writes them to the buffer." alt="" coords="48,71,245,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="320,74,246,82,245,77,320,68"/>
+</map>

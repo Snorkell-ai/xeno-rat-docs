@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.MmTime" name="NAudio.Wave.MmTime">
+<area shape="rect" id="Node000001" title=" " alt="" coords="86,239,234,304"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,32,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="18,71,17,103,20,140,29,179,47,213,73,237,70,241,43,216,24,181,14,141,11,103,12,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="134,5,186,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,70,163,222,157,222,157,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="273,5,313,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="299,70,299,103,295,141,285,180,266,216,250,234,246,230,262,213,280,178,290,140,293,103,293,70"/>
+</map>

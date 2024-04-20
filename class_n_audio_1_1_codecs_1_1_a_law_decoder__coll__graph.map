@@ -1,0 +1,5 @@
+<map id="NAudio.Codecs.ALawDecoder" name="NAudio.Codecs.ALawDecoder">
+<area shape="rect" id="Node000001" title="a&#45;law decoder based on code from: http://hazelware.luggle.com/tutorials/mulawcompression...." alt="" coords="5,134,196,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="78,5,123,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,70,103,116,98,116,98,70"/>
+</map>

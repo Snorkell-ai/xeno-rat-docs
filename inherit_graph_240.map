@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$interface_n_audio_1_1_wave_1_1_sample_providers_1_1_i_pan_strategy.html" title="Required Interface for a Panning Strategy." alt="" coords="5,104,214,145"/>
+<area shape="rect" id="Node000001" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_linear_pan_strategy.html" title="Linear Pan." alt="" coords="262,5,470,46"/>
+<area shape="poly" id="edge198_Node000000_Node000001" title=" " alt="" coords="169,95,261,57,296,44,298,49,263,61,171,100"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_sin_pan_strategy.html" title="Sinus Pan, thanks to Yuval Naveh." alt="" coords="262,71,470,111"/>
+<area shape="poly" id="edge199_Node000000_Node000002" title=" " alt="" coords="229,106,261,102,261,107,229,111"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_square_root_pan_strategy.html" title="Square Root Pan, thanks to Yuval Naveh." alt="" coords="262,136,470,177"/>
+<area shape="poly" id="edge200_Node000000_Node000003" title=" " alt="" coords="229,137,261,141,261,146,229,142"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo_balance_strategy.html" title="Simplistic &quot;balance&quot; control &#45; treating the mono input as if it was stereo In the centre,..." alt="" coords="262,201,470,242"/>
+<area shape="poly" id="edge201_Node000000_Node000004" title=" " alt="" coords="172,149,263,186,298,198,296,203,261,191,170,154"/>
+</map>

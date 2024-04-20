@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.SampleProviders.Mono16SampleChunkConverter.LoadNextChunk" name="NAudio.Wave.SampleProviders.Mono16SampleChunkConverter.LoadNextChunk">
+<area shape="rect" id="Node000001" title="Loads the next chunk of audio data from the specified wave provider." alt="" coords="5,27,243,83"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_buffer_helpers.html#a6fcf5a452e6779e71f5dfa9b51a74f1e" title="Ensures that the input buffer has at least the specified number of samples and returns the buffer." alt="" coords="311,5,495,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,40,296,34,296,40,244,45"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="291,70,515,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,64,275,68,275,73,243,70"/>
+</map>

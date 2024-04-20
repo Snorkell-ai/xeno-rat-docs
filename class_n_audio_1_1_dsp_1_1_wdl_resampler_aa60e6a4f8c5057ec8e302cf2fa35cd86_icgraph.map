@@ -1,0 +1,7 @@
+<map id="NAudio.Dsp.WdlResampler.BuildLowPass" name="NAudio.Dsp.WdlResampler.BuildLowPass">
+<area shape="rect" id="Node000001" title="Builds a lowpass filter based on the given filter position." alt="" coords="526,5,711,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a4e017f4e931cdc4c9a1b445064063d10" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="293,5,478,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="511,28,479,28,479,23,511,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,5,245,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="277,28,245,28,245,23,277,23"/>
+</map>

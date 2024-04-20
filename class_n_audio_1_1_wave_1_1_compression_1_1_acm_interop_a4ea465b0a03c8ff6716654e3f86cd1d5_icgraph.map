@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Compression.AcmInterop.acmDriverOpen" name="NAudio.Wave.Compression.AcmInterop.acmDriverOpen">
+<area shape="rect" id="Node000001" title="Opens an Audio Compression Manager (ACM) driver and returns a handle to the driver." alt="" coords="240,39,426,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a809f3ad304af60f6b601c319ae6c4afc" title="Creates a new ACM stream to convert one format to another, using a specified driver identifier and wa..." alt="" coords="5,5,192,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,46,192,42,193,36,225,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#afc5564cfc6b143fa3ce5a86977ea8abf" title="Opens the audio driver if it is not already open." alt="" coords="5,71,192,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,76,192,81,192,76,224,71"/>
+</map>

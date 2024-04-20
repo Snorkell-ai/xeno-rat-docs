@@ -1,0 +1,19 @@
+<map id="NAudio.Utils.CircularBuffer.Write" name="NAudio.Utils.CircularBuffer.Write">
+<area shape="rect" id="Node000001" title="Writes the specified number of bytes from the input data &#160;array to the internal buffer,..." alt="" coords="1254,72,1436,113"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_buffered_wave_provider.html#a2f65eef2dec3b49b9f1ce760a940b627" title="Adds the specified samples to the circular buffer." alt="" coords="999,39,1187,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1238,81,1187,74,1187,69,1239,76"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_block_align_reduction_stream.html#a26be7b8974fa9bd30e3c6b007fe7b5ed" title="Reads a specified number of bytes from the circular buffer into the provided byte array,..." alt="" coords="980,104,1206,145"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1239,109,1207,113,1206,107,1238,103"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#a6b5f37399f6ffc2b7fb0cacea8e30aad" title="Adds audio samples to the wave provider." alt="" coords="736,5,927,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="984,48,927,41,928,35,984,42"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_in_provider.html#a9deedb92c7239b323b26d24d3f72c758" title="Adds the available data to the buffered wave provider." alt="" coords="731,71,932,111"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="984,75,933,81,932,76,984,70"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af17318ea1a2f4c983f73421462165202" title="Asynchronously receives data from MicNode and adds audio to the player if playing." alt="" coords="492,5,674,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="720,28,675,28,675,23,720,23"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#abd381cbaa6846b8f2cde2591d3908429" title="Initializes the asynchronous task by creating a mic node, adding temporary on disconnect,..." alt="" coords="251,5,435,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="476,28,435,28,435,23,476,23"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af759c97b5673c55be1690f19df16e179" title=" " alt="" coords="5,5,203,46"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="235,28,203,28,203,23,235,23"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_in_provider.html#a5d9d51cf0bb2486531e7b10153cbad3d" title="Creates a new WaveInProvider n.b. Should make sure the WaveFormat is set correctly on IWaveIn before ..." alt="" coords="483,71,683,111"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="716,94,684,94,684,88,716,88"/>
+</map>

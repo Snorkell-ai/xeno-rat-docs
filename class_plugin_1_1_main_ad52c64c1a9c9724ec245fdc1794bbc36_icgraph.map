@@ -1,0 +1,5 @@
+<map id="Plugin.Main.UnhookWindowsHookEx" name="Plugin.Main.UnhookWindowsHookEx">
+<area shape="rect" id="Node000001" title="Unhooks a Windows hook or a hook procedure installed in a hook chain by the SetWindowsHookEx function..." alt="" coords="171,5,363,46"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the keylogger on the specified node, sending key data to the node when available." alt="" coords="5,13,123,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
+</map>

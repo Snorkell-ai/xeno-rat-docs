@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.Effect.DmoWavesReverb.Params" name="NAudio.Dmo.Effect.DmoWavesReverb.Params">
+<area shape="rect" id="Node000001" title="DMO Reverb Params." alt="" coords="15,318,214,538"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,23,43,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="21,88,16,130,14,182,17,238,28,294,31,302,26,304,23,295,11,239,8,182,11,129,16,88"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_waves_reverb.html" title=" " alt="" coords="122,5,291,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,105,200,194,192,245,180,295,177,303,172,301,175,294,187,244,195,194,203,105"/>
+</map>

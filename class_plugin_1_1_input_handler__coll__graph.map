@@ -1,0 +1,7 @@
+<map id="Plugin.InputHandler" name="Plugin.InputHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="20,284,212,589"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,32,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="17,71,12,157,14,208,23,259,25,267,20,268,18,260,9,209,6,157,12,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="198,5,231,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,71,207,157,188,260,186,268,181,266,183,259,202,156,210,70"/>
+</map>

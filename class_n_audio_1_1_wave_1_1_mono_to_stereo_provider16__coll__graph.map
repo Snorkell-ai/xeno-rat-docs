@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.MonoToStereoProvider16" name="NAudio.Wave.MonoToStereoProvider16">
+<area shape="rect" id="Node000001" title="Converts from mono to stereo, allowing freedom to route all, some, or none of the incoming signal to ..." alt="" coords="127,134,309,274"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,5,103,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,79,151,132,147,136,94,83"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="127,5,309,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,70,221,117,215,117,215,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="333,5,370,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="342,72,320,111,311,122,307,119,316,108,337,69"/>
+</map>

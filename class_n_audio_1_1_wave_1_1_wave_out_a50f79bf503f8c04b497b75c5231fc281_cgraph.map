@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.WaveOut.Callback" name="NAudio.Wave.WaveOut.Callback">
+<area shape="rect" id="Node000001" title="Callback method for the wave out function." alt="" coords="5,67,220,92"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_buffer.html#a5a93e8b859a1c05cf8ac5ec2aee73f15" title="Reads data from the wave stream, writes it to the output, and returns a boolean value indicating whet..." alt="" coords="268,26,465,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,63,252,58,253,64,216,69"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_out.html#a7933f2b948f28376c221b862555586ac" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="268,91,465,132"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="220,90,252,94,252,100,219,96"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="513,5,737,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="465,33,497,29,498,35,466,38"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_out_buffer.html#ae6f9c36274c950e639fe0d97ab673423" title="Writes the audio data to the WaveOut device for playback." alt="" coords="527,55,724,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="466,55,511,60,511,65,465,60"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#ab3c605e4c71d004f248d7760c6f69704" title="Sends a data block to the specified waveform&#45;audio output device." alt="" coords="785,55,999,96"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="724,73,770,73,770,78,724,78"/>
+</map>

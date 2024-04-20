@@ -1,0 +1,9 @@
+<map id="NAudio.Midi.MidiOut.MidiOut" name="NAudio.Midi.MidiOut.MidiOut">
+<area shape="rect" id="Node000001" title="Opens a specified MIDI out device." alt="" coords="5,31,196,56"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_out.html#a22f390926327df45c7659ac7476fdd35" title="Callback function for MIDI input messages." alt="" coords="244,5,440,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,31,228,27,229,33,196,36"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="256,55,428,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,50,241,55,240,60,196,56"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="488,55,720,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="428,65,472,65,472,70,428,70"/>
+</map>

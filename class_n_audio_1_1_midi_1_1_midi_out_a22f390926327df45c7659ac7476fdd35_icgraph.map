@@ -1,0 +1,5 @@
+<map id="NAudio.Midi.MidiOut.Callback" name="NAudio.Midi.MidiOut.Callback">
+<area shape="rect" id="Node000001" title="Callback function for MIDI input messages." alt="" coords="244,5,440,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_out.html#a62514d12a46f6941e75b8f7b894210f3" title="Opens a specified MIDI out device." alt="" coords="5,5,196,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,21,196,21,196,16,228,16"/>
+</map>

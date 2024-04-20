@@ -1,0 +1,9 @@
+<map id="Hidden_handler.Process_Handler.CloneOperaGX" name="Hidden_handler.Process_Handler.CloneOperaGX">
+<area shape="rect" id="Node000001" title="Clones the Opera GX browser data to a specified directory." alt="" coords="5,39,170,79"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="218,39,380,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,56,202,56,202,62,170,62"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="438,5,645,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="380,45,422,39,422,45,381,50"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="428,71,654,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="381,67,413,71,412,77,380,72"/>
+</map>

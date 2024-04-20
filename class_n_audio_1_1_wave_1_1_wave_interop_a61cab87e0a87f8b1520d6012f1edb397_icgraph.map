@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveInterop.waveOutGetPosition" name="NAudio.Wave.WaveInterop.waveOutGetPosition">
+<area shape="rect" id="Node000001" title="Retrieves the current playback position of the specified waveform output device." alt="" coords="244,5,457,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_utils.html#a6c2d679c6e885af5cc9c3cdfe144a235" title="Retrieves the current playback position in bytes from the specified wave output device." alt="" coords="5,5,196,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,28,196,28,196,23,228,23"/>
+</map>

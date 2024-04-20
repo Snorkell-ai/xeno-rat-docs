@@ -1,0 +1,7 @@
+<map id="NAudio.Dsp.SimpleGate.Process" name="NAudio.Dsp.SimpleGate.Process">
+<area shape="rect" id="Node000001" title="Processes the input stereo data using sidechain compression." alt="" coords="5,5,222,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_att_rel_envelope.html#ad0f68a53e5b1acd573af8099a999a5a0" title=" " alt="" coords="270,5,485,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,16,254,16,254,21,222,21"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dsp_1_1_envelope_detector.html#a8248db0fc70556b3a9bf43029c7dd8c5" title="Runs the attack or release process based on the input value and state, and returns the result." alt="" coords="533,5,760,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="486,16,518,16,518,21,486,21"/>
+</map>

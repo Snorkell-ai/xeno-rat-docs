@@ -1,0 +1,10 @@
+<map id="NAudio.Codecs.G722Codec.Saturate" name="NAudio.Codecs.G722Codec.Saturate">
+<area shape="rect" id="Node000001" title="Converts an integer amplitude to a 16&#45;bit signed integer, saturating the result if necessary." alt="" coords="482,43,672,83"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_codecs_1_1_g722_codec.html#af579e8312d5f18f37823e2f8f07ba0b1" title="Performs various operations related to G722 codec state for a specific band and input value." alt="" coords="244,13,434,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="466,52,434,48,435,43,467,47"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_codecs_1_1_g722_codec.html#a25441ab8ca66d98499102d8852c7c0cd" title="Encodes the input PCM samples using the G.722 algorithm and stores the result in the output buffer." alt="" coords="5,71,196,111"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="467,72,196,88,196,83,467,67"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_codecs_1_1_g722_codec.html#ab6035ffd28f76a6143a34775778d0d3d" title="Decodes the input G722 data and returns the decoded output in the output buffer." alt="" coords="5,5,196,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,33,196,32,196,26,228,27"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="237,61,189,73,187,67,236,56"/>
+</map>

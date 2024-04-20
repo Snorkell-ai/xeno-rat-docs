@@ -1,0 +1,28 @@
+<map id="NAudio.Wave.MediaFoundationReader" name="NAudio.Wave.MediaFoundationReader">
+<area shape="rect" id="Node000001" title="Class for reading any file that Media Foundation can play Will only work in Windows Vista and above A..." alt="" coords="868,777,1064,1157"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="84,289,181,574"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,514,264,601,306,644,352,682,416,726,484,767,624,838,758,893,869,933,867,938,756,898,622,843,481,772,413,731,348,686,302,647,260,604,188,518"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,60,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="47,84,99,288,94,289,42,86"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="84,5,181,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="135,86,135,289,130,289,130,86"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="363,179,561,684"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="563,679,588,717,616,751,670,803,732,847,794,885,854,916,852,921,792,890,729,852,667,807,612,755,584,720,559,682"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="206,5,347,71"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="283,70,291,110,305,154,329,209,357,262,352,265,324,211,299,156,286,112,278,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="391,5,432,71"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="413,70,415,154,416,162,411,162,410,155,408,70"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="611,5,638,71"/>
+<area shape="poly" id="edge13_Node000001_Node000008" title=" " alt="" coords="639,43,669,62,684,76,696,93,706,118,713,148,720,219,720,300,716,388,710,557,714,628,727,683,753,735,785,783,821,828,858,869,854,872,817,832,780,787,748,737,722,685,709,629,705,557,711,387,715,300,715,219,708,149,701,120,692,96,680,80,666,66,636,48"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="613,47,576,65,557,79,541,96,527,124,514,163,509,161,522,122,537,93,554,75,573,60,610,42"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="865,399,902,464"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="889,463,917,684,929,760,924,761,911,684,884,464"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader_1_1_media_foundation_reader_settings.html" title="Allows customisation of this reader class." alt="" coords="927,371,1173,491"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1045,492,1006,753,1005,761,1000,760,1001,753,1039,491"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1198,399,1243,464"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1224,464,1218,565,1207,626,1188,685,1166,731,1138,776,1077,857,1072,853,1134,773,1161,729,1184,683,1202,624,1213,564,1219,464"/>
+<area shape="rect" id="Node000012" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_source_reader.html" title="IMFSourceReader interface http://msdn.microsoft.com/en&#45;us/library/windows/desktop/dd374655%28v=vs...." alt="" coords="1267,301,1494,561"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1325,562,1258,685,1218,741,1173,793,1125,841,1079,883,1075,879,1122,837,1169,790,1214,738,1253,683,1320,560"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1518,399,1555,464"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1544,463,1548,510,1546,568,1535,629,1524,658,1508,686,1466,737,1417,782,1362,822,1304,855,1245,884,1187,908,1081,942,1080,937,1185,903,1243,879,1302,851,1359,817,1413,778,1462,733,1504,682,1519,656,1529,628,1541,567,1542,510,1539,464"/>
+</map>

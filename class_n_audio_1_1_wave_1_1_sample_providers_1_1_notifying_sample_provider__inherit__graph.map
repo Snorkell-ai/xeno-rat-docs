@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.SampleProviders.NotifyingSampleProvider" name="NAudio.Wave.SampleProviders.NotifyingSampleProvider">
+<area shape="rect" id="Node000001" title="Simple class that raises an event on every sample." alt="" coords="25,119,225,279"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,5,115,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,84,95,118,90,120,76,86"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_notifier.html" title="An interface for WaveStreams which can report notification of individual samples." alt="" coords="139,5,242,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,86,160,120,155,118,170,84"/>
+</map>

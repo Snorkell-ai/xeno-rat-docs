@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.SampleProviders.MonoToStereoSampleProvider" name="NAudio.Wave.SampleProviders.MonoToStereoSampleProvider">
+<area shape="rect" id="Node000001" title="No nonsense mono to stereo provider, no volume adjustment, just copies input to left and right." alt="" coords="132,134,340,294"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,5,115,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,79,158,132,154,136,101,83"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="139,5,333,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,71,239,116,233,116,233,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="357,5,395,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="359,64,312,122,308,119,355,61"/>
+</map>

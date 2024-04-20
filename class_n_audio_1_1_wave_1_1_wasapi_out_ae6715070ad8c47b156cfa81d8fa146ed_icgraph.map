@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WasapiOut.FillBuffer" name="NAudio.Wave.WasapiOut.FillBuffer">
+<area shape="rect" id="Node000001" title="Fills the buffer with audio data from the specified playback provider." alt="" coords="500,5,690,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html#aafd5947cc526905670cf58f0574f8321" title="Plays the audio using the specified source provider and handles resampling if needed." alt="" coords="253,5,452,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="485,28,452,28,452,23,485,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html#a350978bf7599c806df39426c36c9d8d1" title="Starts playing the audio if the current playback state is not already playing. If the playback state ..." alt="" coords="5,13,205,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="237,28,205,28,205,23,237,23"/>
+</map>

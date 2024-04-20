@@ -1,0 +1,5 @@
+<map id="NAudio.Mixer.UnsignedMixerControl" name="NAudio.Mixer.UnsignedMixerControl">
+<area shape="rect" id="Node000001" title="Represents an unsigned mixer control." alt="" coords="5,519,187,719"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html" title="Represents a mixer control." alt="" coords="26,5,166,471"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,486,99,519,93,519,93,486"/>
+</map>

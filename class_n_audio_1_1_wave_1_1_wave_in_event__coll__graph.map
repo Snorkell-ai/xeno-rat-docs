@@ -1,0 +1,32 @@
+<map id="NAudio.Wave.WaveInEvent" name="NAudio.Wave.WaveInEvent">
+<area shape="rect" id="Node000001" title="Recording using waveIn api with event callbacks. Use this for recording in non&#45;gui applications Event..." alt="" coords="363,625,569,1031"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_in.html" title="Generic interface for wave recording." alt="" coords="5,407,124,492"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,503,137,561,191,616,250,668,364,756,361,760,247,672,188,620,133,564,92,506"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="309,179,391,244"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,238,217,279,175,307,137,339,109,373,87,409,82,406,104,370,133,335,172,303,214,275,294,233"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_in_buffer.html" title="A buffer of Wave samples." alt="" coords="734,337,910,562"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="397,251,443,284,495,311,526,319,553,323,602,320,651,318,679,323,710,335,736,350,733,354,708,339,678,328,651,323,603,325,553,328,525,325,493,315,440,288,394,255"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="148,417,309,482"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="250,480,356,647,351,650,246,483"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="334,417,486,482"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="414,482,425,601,426,608,421,609,420,602,409,482"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="598,5,643,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="613,71,586,159,558,269,540,361,529,434,507,602,506,609,501,608,502,601,524,434,534,361,552,267,581,158,608,70"/>
+<area shape="poly" id="edge16_Node000008_Node000006" title=" " alt="" coords="619,71,617,151,623,198,636,243,666,282,725,345,721,348,662,285,631,245,617,199,612,152,614,71"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_wave_header.html" title="WaveHeader interop structure (WAVEHDR) http://msdn.microsoft.com/en&#45;us/library/dd743837%28VS...." alt="" coords="736,179,908,244"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="645,66,683,109,729,153,750,168,747,172,726,157,679,113,641,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="561,417,696,482"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="618,483,562,611,557,609,613,481"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="736,545,583,707,579,704,733,542"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="825,244,825,320,819,320,819,244"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="794,5,821,71"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="808,70,811,154,812,162,807,163,806,155,803,70"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="874,5,994,71"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="935,71,927,113,918,136,907,156,896,169,892,166,902,153,914,133,921,112,930,70"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="932,179,973,244"/>
+<area shape="poly" id="edge13_Node000008_Node000012" title=" " alt="" coords="937,245,923,269,892,323,888,321,918,267,932,242"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="998,179,1035,244"/>
+<area shape="poly" id="edge14_Node000008_Node000013" title=" " alt="" coords="1015,244,1006,279,990,314,960,351,925,384,921,380,956,348,985,312,1001,277,1010,243"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1060,179,1133,244"/>
+<area shape="poly" id="edge15_Node000008_Node000014" title=" " alt="" coords="1091,245,1077,280,1055,315,1026,343,994,368,927,408,924,403,991,363,1022,339,1051,311,1072,278,1086,243"/>
+</map>

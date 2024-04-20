@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.XingHeader.LoadXingHeader" name="NAudio.Wave.XingHeader.LoadXingHeader">
+<area shape="rect" id="Node000001" title="Loads the Xing header from the provided Mp3Frame." alt="" coords="5,39,210,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_xing_header.html#a79596ac097f7c3e5b33af43e5518c6f4" title="Reads a 32&#45;bit integer from the specified buffer in big&#45;endian format." alt="" coords="258,5,465,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,43,242,39,243,44,211,48"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_xing_header.html#a541bbfd1063c3accc85660a1ebf1ca75" title="Sees if a frame contains a Xing header." alt="" coords="260,71,463,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,69,245,74,244,79,210,75"/>
+</map>

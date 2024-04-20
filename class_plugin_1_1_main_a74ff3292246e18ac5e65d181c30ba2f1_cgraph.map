@@ -1,0 +1,13 @@
+<map id="Plugin.Main.HookCallback" name="Plugin.Main.HookCallback">
+<area shape="rect" id="Node000001" title="Callback function for keyboard hook." alt="" coords="5,84,181,110"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#afd89aa15e78b284686f14d30d1f85970" title="Passes the hook information to the next hook procedure in the hook chain. A hook procedure can call t..." alt="" coords="236,5,427,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,81,228,40,251,33,253,38,230,45,125,86"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a22bde71f8f1f8fdb288a284aa71a673e" title="Retrieves the status of the specified virtual key. The status specifies whether the key is up,..." alt="" coords="229,55,434,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,83,213,79,213,85,181,89"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#afda958380f390386a32bd28e84e57af2" title="Retrieves the character corresponding to the specified virtual key code, considering the Shift key st..." alt="" coords="246,105,417,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="181,104,230,110,230,116,181,110"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_main.html#a9ea787364ec480c2cf4a9be76ca01c0a" title="Retrieves the status of the specified virtual key. The status specifies whether the key is up,..." alt="" coords="247,169,416,195"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="122,108,171,131,230,154,255,162,254,167,228,159,169,136,119,113"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_main.html#a796a218f7d24b18933526deadb8cfc41" title="Translates the specified virtual key code and keyboard state to the corresponding Unicode character o..." alt="" coords="482,112,637,138"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="417,122,466,122,466,128,417,128"/>
+</map>

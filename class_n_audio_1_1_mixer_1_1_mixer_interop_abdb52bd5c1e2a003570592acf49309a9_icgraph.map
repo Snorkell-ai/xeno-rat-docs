@@ -1,0 +1,8 @@
+<map id="NAudio.Mixer.MixerInterop.mixerGetLineControls" name="NAudio.Mixer.MixerInterop.mixerGetLineControls">
+<area shape="rect" id="Node000001" title="Retrieves the controls for a specified audio mixer line." alt="" coords="464,35,675,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a1bf06341334b698003b7f510ebf563ae" title="Retrieves the specified mixer control." alt="" coords="235,5,416,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="448,43,416,39,417,34,449,38"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a005659ffbfe9f198212e7f224bf7d897" title="Retrieves the mixer controls associated with the specified mixer line." alt="" coords="5,35,187,75"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="448,60,416,60,235,60,187,60,187,54,235,55,416,55,448,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,42,187,46,187,41,219,37"/>
+</map>

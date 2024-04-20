@@ -1,0 +1,14 @@
+<map id="Plugin.Main.CreateToolhelp32Snapshot" name="Plugin.Main.CreateToolhelp32Snapshot">
+<area shape="rect" id="Node000001" title="Creates a snapshot of the specified processes, heaps, modules, and threads." alt="" coords="682,27,877,68"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#abfd21cc1bbcaeaf43a475ce2bf42eadf" title="Retrieves the parent process ID of the specified process." alt="" coords="423,5,634,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="667,37,635,33,635,28,667,32"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_main.html#ad18960a3d5a0e2918abea431a5d494a8" title="Asynchronously retrieves the parent process ID for the given process." alt="" coords="429,55,629,96"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="667,63,629,67,629,62,666,57"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a095a0b17c37ef329196f6aa0363a5567" title="Gets the root processes from the provided process map." alt="" coords="171,8,375,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="408,22,376,22,376,17,407,17"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the node and sends process information to the connected node." alt="" coords="5,35,123,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="156,38,123,43,122,37,155,33"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_main.html#a23ee008309bb72c7d78568c8d7de7716" title="Builds a process tree based on the input processes and their file paths." alt="" coords="175,59,371,84"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="413,76,372,76,372,70,413,71"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="159,61,123,57,123,52,160,56"/>
+</map>

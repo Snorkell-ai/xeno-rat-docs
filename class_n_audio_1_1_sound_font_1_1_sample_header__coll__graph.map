@@ -1,0 +1,15 @@
+<map id="NAudio.SoundFont.SampleHeader" name="NAudio.SoundFont.SampleHeader">
+<area shape="rect" id="Node000001" title="A SoundFont Sample Header." alt="" coords="212,194,425,259"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,51,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="27,70,29,121,37,146,51,168,73,182,108,194,196,211,195,216,106,199,71,187,47,172,32,148,24,122,21,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="133,5,166,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,70,149,120,156,145,169,168,199,193,195,197,165,171,151,147,144,121,142,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="241,5,279,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,70,254,118,257,144,264,169,270,179,266,182,260,171,252,145,249,118,251,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="355,5,400,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="375,71,366,118,351,171,347,180,342,178,345,169,361,117,370,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="486,5,535,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="513,71,503,122,493,148,477,172,442,198,439,193,473,168,488,146,498,120,507,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="573,5,670,71"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="626,71,619,122,609,149,592,172,568,187,532,199,443,216,442,210,531,193,566,182,589,168,605,146,614,121,620,70"/>
+</map>

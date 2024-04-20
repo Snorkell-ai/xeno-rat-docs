@@ -1,0 +1,19 @@
+<map id="NAudio.CoreAudioApi.AudioEndpointVolume" name="NAudio.CoreAudioApi.AudioEndpointVolume">
+<area shape="rect" id="Node000001" title="Audio Endpoint Volume." alt="" coords="73,894,251,1214"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="5,113,87,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,193,71,464,90,646,115,831,127,894,122,895,110,832,85,647,66,464,46,193"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_core_audio_api_1_1_audio_endpoint_volume.html" title="Audio Endpoint Volume." alt="" coords="148,348,325,668"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="66,190,107,284,151,364,146,366,102,287,61,193"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,5,330,285"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,286,138,349,126,416,119,486,115,625,122,759,134,877,129,877,116,759,110,625,114,485,121,416,133,348,152,285"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="231,285,233,332,228,332,226,285"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="209,731,419,831"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="289,832,261,882,256,880,285,830"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="321,732,319,693,318,685,323,684,325,692,326,731"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="349,476,545,541"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="443,556,424,630,409,671,390,709,371,733,367,730,385,706,404,668,419,629,437,555"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="269,667,281,706,284,715,279,717,275,708,264,669"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="467,113,507,178"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="504,177,535,253,550,300,561,348,577,438,587,510,587,545,583,582,561,669,538,723,507,773,472,820,432,863,347,938,266,996,263,991,344,934,428,859,468,816,503,770,533,720,555,667,578,581,582,545,582,511,572,439,555,349,545,301,530,255,500,179"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="474,179,433,249,405,289,373,326,356,338,340,350,338,352,334,348,336,346,353,334,370,322,400,286,428,246,470,176"/>
+</map>

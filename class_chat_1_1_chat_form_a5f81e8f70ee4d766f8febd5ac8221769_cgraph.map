@@ -1,0 +1,8 @@
+<map id="Chat.ChatForm.Heartbeat" name="Chat.ChatForm.Heartbeat">
+<area shape="rect" id="Node000001" title="Waits for the heartbeat from the server and disconnects if not received within a specified time." alt="" coords="5,43,178,68"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_node.html#ae4ae581752fcdbda5191a2a55270e88b" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="227,5,439,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,39,230,31,231,37,179,45"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__client_1_1_node.html#aed8a6b3de6ee0efa48945c8b1e6c763e" title="Disconnects the current socket and clears the subNodes list, and invokes the OnDisconnect event if it..." alt="" coords="226,79,440,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,66,228,73,227,78,178,71"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="293,80,285,70,290,60,306,54,333,52,363,55,378,62,375,67,361,60,333,57,307,59,293,64,290,69,297,77"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.SmbPitchShiftingSampleProvider.Limiter" name="NAudio.Wave.SampleProviders.SmbPitchShiftingSampleProvider.Limiter">
+<area shape="rect" id="Node000001" title="Applies a limiting function to the input sample and returns the result." alt="" coords="302,5,519,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider.html#a5c4b14e77609cbe2d76207702423b36c" title="Reads audio samples from the source stream into the buffer and applies pitch shifting if necessary." alt="" coords="5,13,254,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="286,36,254,36,254,31,286,31"/>
+</map>

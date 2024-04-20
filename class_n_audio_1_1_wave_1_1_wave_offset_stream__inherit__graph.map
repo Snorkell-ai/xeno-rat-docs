@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveOffsetStream" name="NAudio.Wave.WaveOffsetStream">
+<area shape="rect" id="Node000001" title="Simply shifts the input stream in time, optionally clipping its start and end. (n...." alt="" coords="5,452,213,937"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="61,119,158,404"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,419,112,452,107,452,107,419"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="33,5,87,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="73,85,80,118,75,120,68,86"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="111,5,209,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="152,86,144,120,139,118,147,85"/>
+</map>

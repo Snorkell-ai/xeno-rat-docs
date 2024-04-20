@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveFormat.ConvertLatencyToByteSize" name="NAudio.Wave.WaveFormat.ConvertLatencyToByteSize">
+<area shape="rect" id="Node000001" title="Converts the given latency in milliseconds to the corresponding byte size based on the average bytes ..." alt="" coords="508,23,737,64"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#a0c9137c7a5bc8394b9e3b01db0cfa1df" title="Initializes the audio output with the specified wave provider." alt="" coords="262,5,443,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="492,34,443,29,444,24,493,29"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a59f8399d92816fb1170ce3e8586c357e" title="Initializes the WaveOut device with the specified wave provider." alt="" coords="245,55,460,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="493,58,461,61,460,55,492,52"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#a50e278569d197c1ba2d6bae4df19f251" title=" " alt="" coords="5,47,197,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="229,70,197,70,197,65,229,65"/>
+</map>

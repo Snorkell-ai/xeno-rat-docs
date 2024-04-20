@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveFormatConversionProvider.Read" name="NAudio.Wave.WaveFormatConversionProvider.Read">
+<area shape="rect" id="Node000001" title="Reads data from the input buffer and returns the number of bytes read." alt="" coords="299,5,544,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a0df2a83dda6580760db5c3423d6249a4" title="Reads a sequence of bytes from the current stream and advances the position within the stream by the ..." alt="" coords="5,5,251,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="283,28,251,28,251,23,283,23"/>
+</map>

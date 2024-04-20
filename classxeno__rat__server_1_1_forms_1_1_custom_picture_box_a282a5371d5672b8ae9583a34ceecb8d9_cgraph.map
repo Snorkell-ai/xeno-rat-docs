@@ -1,0 +1,11 @@
+<map id="xeno_rat_server.Forms.CustomPictureBox.GetClipboardFormat" name="xeno_rat_server.Forms.CustomPictureBox.GetClipboardFormat">
+<area shape="rect" id="Node000001" title="Retrieves the data format currently on the clipboard and performs corresponding actions based on the ..." alt="" coords="5,104,212,145"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#adef53668f3d9293f3ccd697fcb8045c0" title="Closes the clipboard." alt="" coords="282,5,487,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,101,259,57,284,48,285,53,261,61,154,106"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a9393c882eb5b491cadf4e14739dfbc78" title="Retrieves data from the clipboard in a specified format." alt="" coords="282,71,487,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,109,266,103,267,108,213,114"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a070ad1ac015b0b2cfa4f84897dc70bb2" title="Determines whether the specified clipboard format is available." alt="" coords="260,136,509,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,134,244,137,244,143,212,139"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab885ae269fe9b43d7161f8c81a84f69d" title="Opens the clipboard for examination and prevents other applications from modifying the clipboard cont..." alt="" coords="282,201,487,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="155,143,261,186,286,194,284,199,259,191,153,148"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.Effect.DmoGargle.Dispose" name="NAudio.Dmo.Effect.DmoGargle.Dispose">
+<area shape="rect" id="Node000001" title="Disposes the media objects if they are not null." alt="" coords="5,27,215,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a3383eff6cf87a8e751e670d64e66c735" title="Releases the unmanaged resources used by the media object." alt="" coords="263,5,488,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,33,247,30,247,35,215,39"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_object_in_place.html#a5b5bf2fc090974c196273a78383882f4" title="Releases the unmanaged resources used by the MediaObjectInPlace and optionally releases the managed r..." alt="" coords="283,55,468,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,56,268,62,267,67,215,61"/>
+</map>

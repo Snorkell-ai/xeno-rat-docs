@@ -1,0 +1,5 @@
+<map id="NAudio.MediaFoundation.MediaType.MediaType" name="NAudio.MediaFoundation.MediaType.MediaType">
+<area shape="rect" id="Node000001" title="Creates and wraps a new IMFMediaType object." alt="" coords="5,5,212,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a87f6600a7b55fae9f4b789e0129bb2b7" title="Creates a new instance of IMFMediaType." alt="" coords="260,5,470,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,23,244,23,244,28,212,28"/>
+</map>

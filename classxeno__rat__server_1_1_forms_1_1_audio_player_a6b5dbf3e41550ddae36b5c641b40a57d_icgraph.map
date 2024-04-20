@@ -1,0 +1,5 @@
+<map id="xeno_rat_server.Forms.AudioPlayer.Dispose" name="xeno_rat_server.Forms.AudioPlayer.Dispose">
+<area shape="rect" id="Node000001" title="Stops the audio playback and disposes of the resources used by the WaveOut player." alt="" coords="244,5,435,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af26723a44cb5880fd08168a5dcc94b49" title="Releases the unmanaged resources used by the Form and its components when the form is closing." alt="" coords="5,5,196,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,28,196,28,196,23,228,23"/>
+</map>

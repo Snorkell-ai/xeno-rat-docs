@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.VolumeWaveProvider16.Read" name="NAudio.Wave.VolumeWaveProvider16.Read">
+<area shape="rect" id="Node000001" title="Reads data from the source provider into the buffer and applies volume adjustments if necessary." alt="" coords="5,5,285,31"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="333,5,557,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,16,317,16,317,21,285,21"/>
+</map>

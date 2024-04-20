@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.AudioClientProcessLoopbackParams" name="NAudio.CoreAudioApi.AudioClientProcessLoopbackParams">
+<area shape="rect" id="Node000001" title="AUDIOCLIENT_PROCESS_LOOPBACK_PARAMS https://docs.microsoft.com/en&#45;us/windows/win32/api/audioclientact..." alt="" coords="5,134,201,214"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="19,5,52,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="33,70,34,90,39,109,44,119,40,121,34,111,29,91,28,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="98,5,247,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,71,146,111,140,120,136,118,141,108,159,69"/>
+</map>

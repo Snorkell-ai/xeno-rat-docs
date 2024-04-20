@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.IMediaObject.FreeStreamingResources" name="NAudio.Dmo.IMediaObject.FreeStreamingResources">
+<area shape="rect" id="Node000001" title=" " alt="" coords="506,5,687,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#ace80c19c1ba2013fd6784bde7196978d" title="Frees the streaming resources used by the media object." alt="" coords="255,5,458,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="490,28,458,28,458,23,490,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_dmo_effect_wave_provider.html#aadb55de7099dab8b0712324a7c57662e" title="Disposes the resources used by the effector." alt="" coords="5,5,207,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>

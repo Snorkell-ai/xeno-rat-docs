@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveOutBuffer.OnDone" name="NAudio.Wave.WaveOutBuffer.OnDone">
+<area shape="rect" id="Node000001" title="Reads data from the wave stream, writes it to the output, and returns a boolean value indicating whet..." alt="" coords="5,27,203,68"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="251,5,475,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,34,235,30,236,35,204,39"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out_buffer.html#ae6f9c36274c950e639fe0d97ab673423" title="Writes the audio data to the WaveOut device for playback." alt="" coords="264,55,462,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,56,249,61,248,66,203,61"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#ab3c605e4c71d004f248d7760c6f69704" title="Sends a data block to the specified waveform&#45;audio output device." alt="" coords="523,55,736,96"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="462,73,507,73,507,78,462,78"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Mixer.MixerInterop" name="NAudio.Mixer.MixerInterop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="62,209,230,454"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,57,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="29,71,26,125,28,155,35,184,55,225,50,227,30,186,23,156,20,125,23,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="241,5,283,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="261,71,252,125,235,186,232,194,227,192,230,184,247,124,256,70"/>
+</map>

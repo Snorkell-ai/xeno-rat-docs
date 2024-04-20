@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.Compression.AcmStream.SuggestPcmFormat" name="NAudio.Wave.Compression.AcmStream.SuggestPcmFormat">
+<area shape="rect" id="Node000001" title="Suggests a PCM format based on the given compressed format." alt="" coords="5,104,216,145"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a14ba02700b84dcc9265515d80d2b63db" title="Suggests a destination format for converting an audio format." alt="" coords="272,5,485,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,101,263,57,286,49,288,54,265,61,157,106"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a4ae1cf5fe788f4ef0bb18fe03ab6e114" title="Marshals a WaveFormat structure from the specified pointer." alt="" coords="264,71,493,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,109,248,105,248,110,217,114"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a8ac2acc4d7ca485fca7c3077f25a6814" title="Marshals the WaveFormat structure to a pointer." alt="" coords="264,136,493,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,134,248,138,248,143,216,140"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="293,201,464,227"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="157,143,208,165,264,186,293,194,292,199,263,191,206,170,154,148"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="541,201,773,227"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="464,211,526,211,526,216,464,216"/>
+</map>

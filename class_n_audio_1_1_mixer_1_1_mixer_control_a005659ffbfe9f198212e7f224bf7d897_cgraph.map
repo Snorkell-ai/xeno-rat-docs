@@ -1,0 +1,18 @@
+<map id="NAudio.Mixer.MixerControl.GetMixerControls" name="NAudio.Mixer.MixerControl.GetMixerControls">
+<area shape="rect" id="Node000001" title="Retrieves the mixer controls associated with the specified mixer line." alt="" coords="5,267,187,307"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a1bf06341334b698003b7f510ebf563ae" title="Retrieves the specified mixer control." alt="" coords="235,201,416,242"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,264,236,244,238,249,170,269"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_mixer_1_1_mixer_interop.html#abdb52bd5c1e2a003570592acf49309a9" title="Retrieves the controls for a specified audio mixer line." alt="" coords="464,332,675,373"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="187,297,449,333,448,338,187,302"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#aa5f03a6c7f9d1d7008fbcda445aee114" title="Checks if the given MixerControlType is a boolean control type." alt="" coords="479,5,660,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,199,386,130,421,91,462,57,472,51,475,56,466,61,425,94,390,133,341,202"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a3581f0fa357b1857154fc6af849c316d" title="Checks if the given MixerControlType is custom." alt="" coords="479,71,660,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="349,199,400,160,463,122,478,115,480,120,465,127,403,165,353,203"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a71701b30dec3033b5043242ecd6db7d6" title="Checks if the given MixerControlType is a type of control list text." alt="" coords="479,136,660,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="403,198,475,179,477,184,404,203"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a38099bab907b13dd473681fc72bc706a" title="Checks if the given MixerControlType is signed." alt="" coords="479,201,660,242"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="417,219,464,219,464,224,417,224"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a53db43551b5e40ef607ec9d622931415" title="Determines if the given MixerControlType is of an unsigned type." alt="" coords="479,267,660,307"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="404,240,477,259,475,265,403,245"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="353,240,403,279,465,317,480,323,478,328,463,321,400,283,349,245"/>
+</map>

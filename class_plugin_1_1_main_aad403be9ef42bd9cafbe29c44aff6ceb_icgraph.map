@@ -1,0 +1,5 @@
+<map id="Plugin.Main.Capture" name="Plugin.Main.Capture">
+<area shape="rect" id="Node000001" title="Captures a frame and sends it to the specified ImageNode if playing is true." alt="" coords="218,5,357,31"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="5,5,170,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,21,170,21,170,16,202,16"/>
+</map>

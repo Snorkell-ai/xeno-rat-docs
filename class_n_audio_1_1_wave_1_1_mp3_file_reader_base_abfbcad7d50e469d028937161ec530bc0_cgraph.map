@@ -1,0 +1,6 @@
+<map id="NAudio.Wave.Mp3FileReaderBase.ReadNextFrame" name="NAudio.Wave.Mp3FileReaderBase.ReadNextFrame">
+<area shape="rect" id="Node000001" title="Reads the next mp3 frame." alt="" coords="5,29,199,70"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_mp3_frame.html#aacebf32e12cd788f543c16aa388c827f" title="Loads an MP3 frame from the given input stream and returns the frame." alt="" coords="247,29,446,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,47,231,47,231,52,199,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="300,29,298,19,306,10,322,5,346,3,373,5,388,11,386,16,371,10,346,8,323,10,309,15,303,21,306,28"/>
+</map>

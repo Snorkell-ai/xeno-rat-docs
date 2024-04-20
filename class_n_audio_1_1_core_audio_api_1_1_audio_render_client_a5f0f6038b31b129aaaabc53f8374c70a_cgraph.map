@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioRenderClient.GetBuffer" name="NAudio.CoreAudioApi.AudioRenderClient.GetBuffer">
+<area shape="rect" id="Node000001" title="Requests a buffer of audio data for rendering and returns a pointer to the buffer." alt="" coords="5,5,191,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_render_client.html#adf4b5cf7b1e0404f54f83c1a4d2dacf8" title=" " alt="" coords="239,5,453,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,23,223,23,223,28,191,28"/>
+</map>

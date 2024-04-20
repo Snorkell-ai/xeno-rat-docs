@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.IWavePlayer.Init" name="NAudio.Wave.IWavePlayer.Init">
+<area shape="rect" id="Node000001" title="Initialise playback." alt="" coords="250,13,450,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_extension_methods.html#aef2b1403d7734c4e9e57cb21f183ba45" title="Initializes the specified wave player with the given sample provider and optional 16&#45;bit conversion." alt="" coords="5,5,202,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
+</map>

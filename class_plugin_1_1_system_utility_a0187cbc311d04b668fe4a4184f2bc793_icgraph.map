@@ -1,0 +1,5 @@
+<map id="Plugin.SystemUtility.ExecuteProcessUnElevated" name="Plugin.SystemUtility.ExecuteProcessUnElevated">
+<area shape="rect" id="Node000001" title="Executes a process without elevation." alt="" coords="171,5,361,46"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs different system commands based on the input data received from the node and sends back the resu..." alt="" coords="5,13,123,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
+</map>

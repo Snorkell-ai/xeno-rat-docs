@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.MidiIn.Dispose" name="NAudio.Midi.MidiIn.Dispose">
+<area shape="rect" id="Node000001" title="Closes the MIDI out device." alt="" coords="5,5,189,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="237,5,408,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,16,221,16,221,21,189,21"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="456,5,688,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="408,16,440,16,440,21,408,21"/>
+</map>

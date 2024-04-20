@@ -1,0 +1,16 @@
+<map id="NAudio.CoreAudioApi.WasapiCapture.Dispose" name="NAudio.CoreAudioApi.WasapiCapture.Dispose">
+<area shape="rect" id="Node000001" title="Disposes of the resources used for audio recording." alt="" coords="5,137,201,178"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#a912dabf6205f4decb860f0804186fec2" title="Performs the disposal of resources used by the audio client." alt="" coords="254,104,439,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,142,238,136,239,142,202,147"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a0cdd5e102c20a6452010975bdd1e1167" title="Stops the recording if it is currently in progress." alt="" coords="249,169,444,210"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="202,168,234,172,233,177,201,173"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#a13dad19c8f4569fb5f9d6196b821d2ea" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="492,5,677,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="390,101,491,57,509,49,511,54,493,61,393,106"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_audio_clock_client.html#a850fd4084b0edac0ff0f5b081affa7f6" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="492,71,677,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="439,109,476,103,477,109,440,114"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_core_audio_api_1_1_audio_render_client.html#a583aad472add9195e9f173664df7ccdb" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="492,136,677,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="440,134,477,139,476,144,439,139"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_core_audio_api_1_1_audio_stream_volume.html#a77ecf4b506503480f6f224e8ccbfb2d2" title="Releases the unmanaged resources used by the AudioStreamVolume object." alt="" coords="492,225,677,266"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="416,143,445,155,470,170,493,186,539,215,536,219,491,191,467,174,443,160,414,148"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="540,225,538,215,545,206,561,201,585,199,610,201,626,207,624,212,609,206,585,204,562,206,548,211,543,217,545,224"/>
+</map>

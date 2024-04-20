@@ -1,0 +1,24 @@
+<map id="NAudio.Dmo.Effect.DmoDistortion" name="NAudio.Dmo.Effect.DmoDistortion">
+<area shape="rect" id="Node000001" title="DMO Distortion Effect." alt="" coords="308,957,523,1082"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_dmo_effector.html" title=" " alt="" coords="5,644,196,764"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,776,167,835,211,892,258,932,310,965,307,970,255,936,207,896,162,838,129,778"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_object.html" title="Media Object." alt="" coords="421,514,626,894"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="496,894,482,934,477,944,472,941,477,932,491,893"/>
+<area shape="rect" id="Node000004" href="$class_i_disposable.html" title=" " alt="" coords="328,105,409,171"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="384,184,474,513,469,514,379,186"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_dmo_1_1_media_object_in_place.html" title="Media Object InPlace." alt="" coords="221,614,397,794"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="370,186,362,322,347,490,328,615,323,614,342,489,357,322,364,186"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html" title="defined in mediaobj.h" alt="" coords="433,5,603,271"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="522,271,524,497,519,497,517,271"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="627,105,654,171"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="643,170,638,310,628,400,611,490,609,498,604,496,606,489,623,399,632,310,638,170"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="320,793,334,862,357,932,361,941,356,943,352,934,329,864,315,794"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="124,78,304,198"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="209,198,205,259,203,332,206,411,217,489,233,544,255,597,250,599,228,546,212,490,200,412,197,332,199,259,204,198"/>
+<area shape="rect" id="Node000009" href="$struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html" title="DMO Distortion Params." alt="" coords="654,554,873,854"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="676,855,640,896,591,934,539,966,536,962,588,930,636,892,672,852"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="873,105,910,171"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="892,170,878,310,865,400,846,490,832,538,827,537,841,489,860,399,873,309,887,170"/>
+<area shape="rect" id="Node000011" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_distortion.html" title=" " alt="" coords="679,88,848,188"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="766,188,766,536,761,536,761,188"/>
+</map>

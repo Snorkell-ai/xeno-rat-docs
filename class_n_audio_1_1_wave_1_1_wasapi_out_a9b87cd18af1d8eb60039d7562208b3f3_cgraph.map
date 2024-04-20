@@ -1,0 +1,6 @@
+<map id="NAudio.Wave.WasapiOut.GetFallbackFormat" name="NAudio.Wave.WasapiOut.GetFallbackFormat">
+<area shape="rect" id="Node000001" title="Gets the fallback WaveFormat to be used in case the provided format is not supported,..." alt="" coords="5,29,200,70"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#ab0849e5192f4ab65257d9857e2c6f402" title="Checks if the specified audio format is supported for the given share mode and returns the closest ma..." alt="" coords="248,29,433,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,47,232,47,232,52,200,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="296,29,293,19,301,10,316,5,340,3,366,5,381,11,379,16,365,10,340,8,318,10,304,15,299,21,301,28"/>
+</map>

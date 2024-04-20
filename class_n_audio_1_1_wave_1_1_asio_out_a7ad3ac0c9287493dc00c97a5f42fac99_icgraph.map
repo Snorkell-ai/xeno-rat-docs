@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.AsioOut.Dispose" name="NAudio.Wave.AsioOut.Dispose">
+<area shape="rect" id="Node000001" title="Releases the resources used by the driver and sets the driver to null." alt="" coords="210,13,414,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_out.html#ad7b253da516b22892f2b74862c7642eb" title="Releases unmanaged resources and performs other cleanup operations before the AsioOut is reclaimed by..." alt="" coords="5,5,162,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,28,162,28,162,23,195,23"/>
+</map>

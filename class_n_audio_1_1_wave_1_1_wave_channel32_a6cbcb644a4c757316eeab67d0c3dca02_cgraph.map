@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveChannel32.WaveChannel32" name="NAudio.Wave.WaveChannel32.WaveChannel32">
+<area shape="rect" id="Node000001" title="Creates a new WaveChannel32." alt="" coords="5,39,210,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a2dd0e9ea4097e54981725d6ad7c3290d" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="258,5,480,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,43,242,39,243,44,211,49"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_channel32.html#a25d6acdfd6bec5e1aaddc28448d2b0ad" title="Converts the size of the source bytes to the size of the destination bytes based on the sample sizes ..." alt="" coords="267,71,471,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,69,251,74,251,79,210,74"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="528,5,744,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="480,23,513,23,513,28,480,28"/>
+</map>

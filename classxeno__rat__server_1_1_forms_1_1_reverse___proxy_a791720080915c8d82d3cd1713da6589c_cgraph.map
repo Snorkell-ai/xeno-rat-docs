@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Reverse_Proxy.StartNegotiations" name="xeno_rat_server.Forms.Reverse_Proxy.StartNegotiations">
+<area shape="rect" id="Node000001" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="5,39,213,79"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a7f678a0df40d5d9619a8e4160ff843e7" title="Receives all the data from the socket of the specified size and returns it as a byte array." alt="" coords="261,5,468,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,43,245,39,246,44,213,48"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5c173a005e10d95dd971ca61810c4638" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="261,71,468,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,69,246,73,245,79,213,75"/>
+</map>

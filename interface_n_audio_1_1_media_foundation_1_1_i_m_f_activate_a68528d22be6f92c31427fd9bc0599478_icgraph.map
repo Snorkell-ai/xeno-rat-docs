@@ -1,0 +1,9 @@
+<map id="NAudio.MediaFoundation.IMFActivate.ShutdownObject" name="NAudio.MediaFoundation.IMFActivate.ShutdownObject">
+<area shape="rect" id="Node000001" title="Shuts down the created object." alt="" coords="555,39,801,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a6b141f6ffd478016f956ad11dde43a59" title="Releases the unmanaged resources used by the component and optionally releases the managed resources." alt="" coords="303,5,507,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="539,45,507,41,508,36,540,39"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a3a3883bb1914e415144dd8931e9cdc98" title="Releases the specified COM object from memory." alt="" coords="303,71,507,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="540,78,508,82,507,76,539,73"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,71,255,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="287,94,255,94,255,88,287,88"/>
+</map>

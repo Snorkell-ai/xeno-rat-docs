@@ -1,0 +1,10 @@
+<map id="NAudio.Midi.MidiEvent.ReadVarInt" name="NAudio.Midi.MidiEvent.ReadVarInt">
+<area shape="rect" id="Node000001" title="Reads a variable&#45;length encoded integer from the provided BinaryReader and returns the result." alt="" coords="723,35,913,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_meta_event.html#a42202bbde63421b85a34a92e4574655b" title="Reads a meta event from the provided BinaryReader and returns the corresponding MetaEvent object." alt="" coords="481,5,675,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="708,44,675,40,676,35,708,39"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event.html#aa07c093ef6d5c60dfc2bf669bd179c86" title="Reads the next MIDI event from the BinaryReader and returns the corresponding MidiEvent." alt="" coords="244,35,433,75"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="708,60,675,60,481,60,434,60,434,54,481,55,675,55,707,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="466,42,434,46,433,41,465,37"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_midi_1_1_midi_file.html#a8b288d8e81803e8a8ad9591ec02533f9" title=" " alt="" coords="5,42,196,68"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="228,58,196,58,196,52,228,52"/>
+</map>

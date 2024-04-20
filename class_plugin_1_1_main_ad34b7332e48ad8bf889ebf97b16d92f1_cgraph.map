@@ -1,0 +1,21 @@
+<map id="Plugin.Main.HandleCloneBrave" name="Plugin.Main.HandleCloneBrave">
+<area shape="rect" id="Node000001" title="Handles the cloning of the Brave browser." alt="" coords="5,126,208,152"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a70bc25f5028b70f49493e02beb94d1c0" title="Clones the Brave browser data to a specified directory." alt="" coords="265,53,428,94"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,123,254,96,255,101,157,128"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_main.html#a40f3ba09712707d0b952e7d77cae7c08" title="Retrieves the process ID of a specified process based on the command line and search string." alt="" coords="256,119,437,159"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="208,136,240,136,240,142,208,142"/>
+<area shape="rect" id="Node000007" href="$class_hidden__handler_1_1_process___handler.html#a3b2869a58885edf9efe4e53cc686428a" title="Starts the Brave browser with specified settings." alt="" coords="265,184,428,225"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="157,150,255,177,254,182,156,155"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="485,53,647,94"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="428,71,470,71,470,76,428,76"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="705,5,912,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="647,55,689,47,690,52,648,60"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="695,71,922,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="648,77,680,79,680,84,648,82"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="485,168,647,209"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="428,196,469,193,470,198,428,201"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1_process___handler.html#a747cbde9a3abd0004ac71a7c8987cb3e" title="Retrieves the installation path of the Brave browser." alt="" coords="485,233,647,274"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="429,220,470,229,469,235,427,225"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="727,168,890,209"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="648,186,711,186,711,191,648,191"/>
+</map>

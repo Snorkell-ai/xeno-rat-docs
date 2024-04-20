@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOut.EnqueueBuffers" name="NAudio.Wave.WaveOut.EnqueueBuffers">
+<area shape="rect" id="Node000001" title="Enqueues the available buffers for playback." alt="" coords="243,5,457,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#ae5ba27d7979139f3aeaa7bf3cff106d3" title="Plays the audio if the playback state is stopped, or resumes playing if the state is paused." alt="" coords="5,13,195,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,28,195,28,195,23,227,23"/>
+</map>

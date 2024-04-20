@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.MMDeviceCollection" name="NAudio.CoreAudioApi.MMDeviceCollection">
+<area shape="rect" id="Node000001" title="Multimedia Device Collection." alt="" coords="95,168,302,308"/>
+<area shape="rect" id="Node000002" href="$class_i_enumerable.html" title=" " alt="" coords="5,23,179,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,99,161,167,156,170,116,102"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_m_m_device_collection.html" title=" " alt="" coords="203,5,408,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="279,106,250,155,245,153,274,104"/>
+</map>

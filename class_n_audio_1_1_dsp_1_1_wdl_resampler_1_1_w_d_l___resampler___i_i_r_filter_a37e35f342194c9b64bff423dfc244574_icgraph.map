@@ -1,0 +1,9 @@
+<map id="NAudio.Dsp.WdlResampler.WDL_Resampler_IIRFilter.denormal_filter" name="NAudio.Dsp.WdlResampler.WDL_Resampler_IIRFilter.denormal_filter">
+<area shape="rect" id="Node000001" title="Filters the input value to prevent denormalization and returns the filtered value." alt="" coords="785,5,1017,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#ac7881f23e3aea7b35774e35bbc417e8f" title="Applies a filter to the input buffer and stores the result in the output buffer." alt="" coords="526,13,737,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="770,36,738,36,738,31,770,31"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a4e017f4e931cdc4c9a1b445064063d10" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="293,13,478,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="510,36,478,36,478,31,510,31"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,13,245,54"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="277,36,245,36,245,31,277,31"/>
+</map>

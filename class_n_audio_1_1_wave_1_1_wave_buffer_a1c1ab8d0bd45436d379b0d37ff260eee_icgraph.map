@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveBuffer.BindTo" name="NAudio.Wave.WaveBuffer.BindTo">
+<area shape="rect" id="Node000001" title="Binds the provided byte array to the WaveBuffer instance." alt="" coords="263,13,479,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_buffer.html#acfd3d12bfc41c24292e75326417ea18f" title="Initializes a new instance of the WaveBuffer class binded to a specific byte buffer." alt="" coords="5,5,215,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
+</map>

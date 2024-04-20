@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioSessionEventsCallback.OnStateChanged" name="NAudio.CoreAudioApi.AudioSessionEventsCallback.OnStateChanged">
+<area shape="rect" id="Node000001" title="Notifies the handler when the audio session state changes." alt="" coords="5,13,270,54"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_events_handler.html#a4fe10cb1e0517ebea2a391d19155598e" title="notification of the client that the stream&#45;activity state of the session has changed" alt="" coords="318,5,560,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,31,302,31,302,36,270,36"/>
+</map>

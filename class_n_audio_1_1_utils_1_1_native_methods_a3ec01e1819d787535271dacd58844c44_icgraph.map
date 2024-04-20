@@ -1,0 +1,5 @@
+<map id="NAudio.Utils.NativeMethods.LoadLibrary" name="NAudio.Utils.NativeMethods.LoadLibrary">
+<area shape="rect" id="Node000001" title="Loads the specified dynamic&#45;link library (DLL) into the address space of the calling process." alt="" coords="240,5,431,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a03a504f0493dca9c60cb90438edacdd4" title="Adds a local driver from the specified file and returns the driver information." alt="" coords="5,5,192,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,28,192,28,192,23,224,23"/>
+</map>

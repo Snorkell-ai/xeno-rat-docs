@@ -1,0 +1,23 @@
+<map id="NAudio.MediaFoundation.MediaFoundationApi.CreateSample" name="NAudio.MediaFoundation.MediaFoundationApi.CreateSample">
+<area shape="rect" id="Node000001" title="Creates a new Media Foundation sample." alt="" coords="895,109,1102,150"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a40eaac1682ec94c148ed968e98949f9c" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="611,48,815,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="885,108,810,92,812,87,886,103"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#abe03f9a99a95fda9d8919b0a0172772a" title="Reads data from the source provider and creates an IMFSample object." alt="" coords="272,109,523,150"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="880,132,523,132,523,127,880,127"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#adf0d8d3679e677e3ea3b64dbef65b195" title="Reads data from the transform and returns the length of the output buffer." alt="" coords="579,167,847,207"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="880,156,819,169,817,163,879,151"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a715fad15106b0bd11e29ff3d0de6c996" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="295,44,500,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="595,70,500,68,500,63,595,64"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a56428796df5aa6b97bdd8120ee45f8da" title="Encodes a file." alt="" coords="8,5,213,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="279,51,213,42,214,37,280,46"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aebccd4140a11632dc259156dea1f4018" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="8,71,213,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="280,78,213,84,213,79,279,73"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a4160a1e1c1f6e3a33396732ac3cf5d8c" title="Reads data from the input buffer and processes it using the transform, returning the number of bytes ..." alt="" coords="7,163,214,203"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="270,156,215,166,214,161,269,151"/>
+<area shape="poly" id="edge11_Node000008_Node000007" title=" " alt="" coords="564,189,214,186,214,181,564,183"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a4e0410a804ef3b6d090a6f4e4f04d1a7" title="Ends the stream and drains the transform." alt="" coords="264,224,531,265"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="583,213,514,226,513,221,582,208"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="284,223,208,207,209,201,285,218"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#abb46cfa8fc0e34a2068cf0ceacaa0234" title="Repositions the object for streaming if it is initialized for streaming, by ending the stream and dra..." alt="" coords="5,228,216,269"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="248,249,216,250,216,244,248,244"/>
+</map>

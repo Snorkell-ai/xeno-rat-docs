@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.MediaFoundationResampler.FreeComObject" name="NAudio.Wave.MediaFoundationResampler.FreeComObject">
+<area shape="rect" id="Node000001" title="Releases the specified COM object from memory." alt="" coords="5,5,210,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_activate.html#a68528d22be6f92c31427fd9bc0599478" title="Shuts down the created object." alt="" coords="258,5,504,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,23,242,23,242,28,210,28"/>
+</map>

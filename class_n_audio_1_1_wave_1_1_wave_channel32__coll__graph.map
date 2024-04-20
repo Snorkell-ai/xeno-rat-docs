@@ -1,0 +1,36 @@
+<map id="NAudio.Wave.WaveChannel32" name="NAudio.Wave.WaveChannel32">
+<area shape="rect" id="Node000001" title="Represents Channel for the WaveMixerStream 32 bit output and 16 bit input It&#39;s output is always stere..." alt="" coords="697,762,889,1087"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="5,289,103,574"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,587,87,638,100,661,116,682,179,740,250,788,328,827,409,857,489,880,566,896,697,915,697,920,565,902,488,885,407,862,326,832,248,793,175,744,112,686,95,664,82,640,64,589"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="19,5,73,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="50,86,54,289,48,289,44,86"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="253,289,425,574"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="86,74,132,114,186,152,201,159,215,162,228,166,242,177,263,202,281,229,308,288,304,290,277,232,259,205,239,181,226,171,214,167,200,164,183,157,129,118,82,78"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="97,5,195,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="138,86,90,289,85,288,133,84"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="181,81,213,126,243,177,293,288,288,290,238,180,208,129,177,84"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_wave_1_1_i_sample_notifier.html" title="An interface for WaveStreams which can report notification of individual samples." alt="" coords="127,399,229,464"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="180,479,184,525,194,579,213,634,226,659,243,682,291,731,346,772,405,807,468,837,530,861,591,880,697,906,696,911,589,885,528,866,465,842,403,812,343,777,287,735,239,686,222,662,208,636,189,581,179,526,175,479"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="381,573,406,630,439,682,492,742,555,793,620,837,683,871,680,876,617,841,552,798,489,746,435,686,402,632,376,575"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="449,179,648,684"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="590,683,614,737,647,787,686,832,682,835,642,790,609,739,585,685"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="219,5,361,71"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="290,70,293,114,301,135,313,153,326,163,340,168,368,168,401,167,418,170,437,178,435,183,417,175,400,172,369,173,339,173,324,168,309,157,296,137,288,115,284,71"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="401,5,443,71"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="423,71,424,111,430,154,445,192,440,194,425,155,419,111,418,71"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="622,5,649,71"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="650,43,680,62,695,76,707,94,716,134,721,202,723,387,722,573,725,684,738,745,732,746,720,684,717,573,718,387,716,202,711,135,702,96,691,80,677,66,647,48"/>
+<area shape="poly" id="edge11_Node000007_Node000010" title=" " alt="" coords="624,46,586,63,567,77,552,96,538,128,528,163,523,161,533,126,547,93,563,74,583,58,621,41"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="875,399,913,464"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="893,464,880,563,859,685,845,746,840,745,854,683,875,562,888,463"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="937,399,974,464"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="959,464,957,518,950,588,935,665,908,739,899,759,894,756,904,737,930,663,945,587,951,518,953,464"/>
+<area shape="rect" id="Node000013" href="$interface_n_audio_1_1_wave_1_1_sample_providers_1_1_i_sample_chunk_converter.html" title="Sample provider interface to make WaveChannel32 extensible Still a bit ugly, hence internal at the mo..." alt="" coords="998,371,1198,491"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="1082,492,1038,610,1006,676,970,739,938,783,902,824,898,820,933,780,965,737,1002,674,1033,607,1077,490"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1222,399,1270,464"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="1252,464,1255,510,1251,568,1239,629,1227,658,1212,685,1182,724,1147,758,1109,789,1068,816,984,861,905,893,903,888,982,856,1065,812,1106,785,1144,754,1178,720,1208,683,1223,656,1234,627,1246,567,1249,510,1247,464"/>
+<area shape="rect" id="Node000015" href="$class_n_audio_1_1_wave_1_1_sample_event_args.html" title="Sample event arguments." alt="" coords="1295,389,1496,474"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="1390,475,1376,533,1351,604,1314,676,1291,710,1264,740,1224,774,1181,803,1135,829,1087,851,992,885,906,907,905,902,991,879,1085,846,1132,824,1178,799,1221,769,1260,736,1287,706,1310,673,1346,602,1371,531,1385,473"/>
+<area shape="rect" id="Node000016" href="$class_event_args.html" title=" " alt="" coords="1359,5,1432,71"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="1398,86,1398,389,1393,389,1393,86"/>
+</map>

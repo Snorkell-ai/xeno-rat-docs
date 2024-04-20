@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.WdlResampler.Reset" name="NAudio.Dsp.WdlResampler.Reset">
+<area shape="rect" id="Node000001" title="Resets the history of the resampler by creating a new history array." alt="" coords="239,5,424,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#ac090e1c19e0dab4f31959ae8f875581e" title="Creates a new Resampler." alt="" coords="5,5,191,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,28,191,28,191,23,223,23"/>
+</map>

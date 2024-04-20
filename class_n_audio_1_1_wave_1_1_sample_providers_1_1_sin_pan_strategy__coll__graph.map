@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.SampleProviders.SinPanStrategy" name="NAudio.Wave.SampleProviders.SinPanStrategy">
+<area shape="rect" id="Node000001" title="Sinus Pan, thanks to Yuval Naveh." alt="" coords="11,134,211,214"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_sample_providers_1_1_i_pan_strategy.html" title="Required Interface for a Panning Strategy." alt="" coords="5,5,117,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,84,99,133,94,135,76,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="141,5,179,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,71,133,118,128,117,146,70"/>
+</map>

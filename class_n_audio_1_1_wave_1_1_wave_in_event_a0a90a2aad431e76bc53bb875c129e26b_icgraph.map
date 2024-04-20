@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveInEvent.DoRecording" name="NAudio.Wave.WaveInEvent.DoRecording">
+<area shape="rect" id="Node000001" title="Initiates the audio recording process and handles buffer reusability and data availability events." alt="" coords="682,5,870,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a154ce733214319a645e089b317bd2fd9" title="Records the thread and raises the recording stopped event." alt="" coords="447,5,634,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,28,635,28,635,23,666,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a31de1b9a63d36392f78ec102cbc081bc" title="Starts recording audio." alt="" coords="212,5,399,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,28,399,28,399,23,431,23"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ad3edeeb801a9b8d82ad07c5a7de4da5b" title="Asynchronously receives data from the specified node and processes it based on the received commands." alt="" coords="5,13,164,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="196,28,164,28,164,23,196,23"/>
+</map>

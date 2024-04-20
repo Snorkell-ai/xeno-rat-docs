@@ -1,0 +1,9 @@
+<map id="NAudio.Mixer.MixerInterop.mixerGetLineInfo" name="NAudio.Mixer.MixerInterop.mixerGetLineInfo">
+<area shape="rect" id="Node000001" title="Retrieves information about a specified audio mixer line." alt="" coords="505,23,716,64"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_line.html#ae9be7b872050db2534939258665b89db" title="Creates a new Mixer Source For a Specified Source." alt="" coords="238,5,457,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="489,35,457,31,458,26,490,29"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mixer_1_1_mixer_line.html#a4ccce20870344c88b5f987d188242a24" title="Creates a new mixer destination." alt="" coords="238,55,457,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="490,57,458,60,457,55,489,52"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mixer_1_1_mixer_line.html#ac3a4925c621065d0678eda68d78cd917" title="Retrieves the mixer line at the specified source index." alt="" coords="5,47,190,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="222,70,190,70,190,65,222,65"/>
+</map>

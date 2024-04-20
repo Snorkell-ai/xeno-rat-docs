@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.Compression.AcmDriver.AcmDriver" name="NAudio.Wave.Compression.AcmDriver.AcmDriver">
+<area shape="rect" id="Node000001" title="Creates a new ACM Driver object." alt="" coords="767,39,954,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a03a504f0493dca9c60cb90438edacdd4" title="Adds a local driver from the specified file and returns the driver information." alt="" coords="523,5,709,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="751,47,709,41,710,36,752,42"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a6c0962b932d6f66efd1c05f869cf4007" title="Callback function for enumerating ACM drivers." alt="" coords="513,71,719,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="752,76,720,80,720,75,752,71"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#ade7c4fbd4962b8b84487d6d24d55364b" title="Enumerates the available audio compression managers (ACM) drivers and returns a collection of AcmDriv..." alt="" coords="247,71,465,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="498,94,466,94,466,88,498,88"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a7dd757372be5fbfc5da0112ad982245d" title="Finds an AcmDriver by its short name." alt="" coords="5,37,199,78"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="231,77,199,73,199,68,231,72"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#afc543c9e0bee05c2c046a37bb4554c25" title="Checks if a codec with the specified short name is installed." alt="" coords="9,103,195,143"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="231,109,196,114,195,109,231,104"/>
+</map>

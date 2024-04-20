@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioSessionControl.UnRegisterEventClient" name="NAudio.CoreAudioApi.AudioSessionControl.UnRegisterEventClient">
+<area shape="rect" id="Node000001" title="Unregisters the specified audio session event client." alt="" coords="5,5,220,61"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_control.html#a67f517e28a280ff7f092c790812a0e35" title="Deletes a previous registration by the client to receive notifications." alt="" coords="268,5,512,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,31,252,31,252,36,220,36"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.DmoMediaType.GetWaveFormat" name="NAudio.Dmo.DmoMediaType.GetWaveFormat">
+<area shape="rect" id="Node000001" title="Gets the structure as a Wave format (if it is one)" alt="" coords="5,5,201,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a4ae1cf5fe788f4ef0bb18fe03ab6e114" title="Marshals a WaveFormat structure from the specified pointer." alt="" coords="249,5,478,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,23,233,23,233,28,201,28"/>
+</map>

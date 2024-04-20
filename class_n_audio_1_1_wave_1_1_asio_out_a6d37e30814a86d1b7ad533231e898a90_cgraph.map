@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.AsioOut.Play" name="NAudio.Wave.AsioOut.Play">
+<area shape="rect" id="Node000001" title="Starts playing the media if it is not already playing." alt="" coords="5,13,188,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a580717c5cabb9bb92ad1144cb20c1740" title="Starts the driver." alt="" coords="236,5,432,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,23,220,23,220,28,188,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a91fc0917283735a61f546bdb391b5f2d" title="Starts the ASIO driver." alt="" coords="480,5,679,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="432,23,464,23,464,28,432,28"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a76105cefc713c3dcc7e9bfd8dba74735" title="Handles the exception for the ASIO method." alt="" coords="727,5,927,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="680,23,712,23,712,28,680,28"/>
+</map>

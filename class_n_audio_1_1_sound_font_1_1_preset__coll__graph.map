@@ -1,0 +1,7 @@
+<map id="NAudio.SoundFont.Preset" name="NAudio.SoundFont.Preset">
+<area shape="rect" id="Node000001" title="A SoundFont Preset." alt="" coords="29,164,194,289"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,55,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="28,70,27,104,34,139,39,148,34,151,29,141,22,105,22,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="177,5,211,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,71,167,141,163,150,158,148,162,139,185,70"/>
+</map>

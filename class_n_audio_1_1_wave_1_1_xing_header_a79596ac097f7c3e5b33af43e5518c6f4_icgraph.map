@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.XingHeader.ReadBigEndian" name="NAudio.Wave.XingHeader.ReadBigEndian">
+<area shape="rect" id="Node000001" title="Reads a 32&#45;bit integer from the specified buffer in big&#45;endian format." alt="" coords="499,5,706,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_xing_header.html#a8360d4066fe6e494ff7ebf6c688d7beb" title="Loads the Xing header from the provided Mp3Frame." alt="" coords="247,5,451,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="483,28,451,28,451,23,483,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ef942cc623142a9827edcff17f55e12" title=" " alt="" coords="5,5,199,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
+</map>

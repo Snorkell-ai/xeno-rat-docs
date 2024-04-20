@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.DmoEffectWaveProvider.Dispose" name="NAudio.Wave.DmoEffectWaveProvider.Dispose">
+<area shape="rect" id="Node000001" title="Disposes the resources used by the effector." alt="" coords="5,5,207,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#ace80c19c1ba2013fd6784bde7196978d" title="Frees the streaming resources used by the media object." alt="" coords="255,5,458,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,23,239,23,239,28,207,28"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html#aa896efcbd08a4741c53262694d33da84" title=" " alt="" coords="506,5,687,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="458,23,491,23,491,28,458,28"/>
+</map>

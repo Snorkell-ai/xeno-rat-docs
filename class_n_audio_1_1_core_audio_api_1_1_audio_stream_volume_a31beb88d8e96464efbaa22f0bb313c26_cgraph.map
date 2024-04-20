@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.AudioStreamVolume.GetAllVolumes" name="NAudio.CoreAudioApi.AudioStreamVolume.GetAllVolumes">
+<area shape="rect" id="Node000001" title="Retrieves the volume levels for all audio channels and returns an array of volume levels." alt="" coords="5,39,204,79"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_stream_volume.html#aec10c2ee504a5a1da2284698cb69cfe3" title=" " alt="" coords="260,5,496,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,44,244,39,245,45,205,50"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_stream_volume.html#a0c1cf399c50f10fe19d320592e22e9fe" title=" " alt="" coords="252,71,504,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,68,236,72,236,77,204,73"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="Plugin.Socks5Handler" name="Plugin.Socks5Handler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="271,830,435,976"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_node.html" title=" " alt="" coords="267,482,438,767"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="355,767,355,813,350,813,350,767"/>
+<area shape="poly" id="edge8_Node000002_Node000002" title=" " alt="" coords="439,592,457,603,465,624,462,638,455,648,451,645,457,636,459,625,453,607,437,597"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,236,159,316"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,315,137,364,173,417,258,519,254,523,169,421,132,367,102,317"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="183,244,365,309"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="284,308,319,465,314,466,279,310"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__client_1_1_socket_handler.html" title=" " alt="" coords="389,134,589,419"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="436,420,417,467,412,465,431,418"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="351,5,405,71"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="391,69,407,109,411,117,406,119,402,111,386,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="430,5,467,71"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="451,70,453,109,454,116,449,117,448,110,445,71"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="613,5,639,71"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="642,57,659,94,659,110,655,200,653,272,649,305,640,340,625,378,603,420,572,464,535,504,494,538,454,568,451,563,491,534,531,500,568,461,598,418,620,376,635,339,644,304,648,271,650,200,654,110,654,95,637,59"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="615,54,580,96,565,120,560,117,576,93,611,50"/>
+</map>

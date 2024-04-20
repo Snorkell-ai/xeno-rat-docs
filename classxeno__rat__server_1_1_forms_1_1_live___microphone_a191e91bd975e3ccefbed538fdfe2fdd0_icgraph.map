@@ -1,0 +1,17 @@
+<map id="xeno_rat_server.Forms.Live_Microphone.SetMicroPhone" name="xeno_rat_server.Forms.Live_Microphone.SetMicroPhone">
+<area shape="rect" id="Node000001" title="Sets the microphone using the specified index." alt="" coords="1050,49,1238,90"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#a2c3186975fee0a5187f7d00444306c68" title="Handles the SelectedIndexChanged event of comboBox1." alt="" coords="743,5,1002,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1034,57,1002,53,1002,48,1035,52"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#a5e81cad83ca14167353288b458bfe122" title="Asynchronously refreshes the list of microphones and updates the UI components accordingly." alt="" coords="781,85,964,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1035,86,965,96,964,90,1034,81"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#aa22c949501255089648411e3411d8a46" title="Initializes the components of the form including the combo box, labels, and buttons." alt="" coords="251,62,465,103"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="728,43,513,61,466,67,465,62,513,56,728,38"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af759c97b5673c55be1690f19df16e179" title=" " alt="" coords="5,96,203,136"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="236,101,203,105,203,100,235,96"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#a0601340bcdbbfdfc4e34746cf391a6d0" title="Asynchronously refreshes the microphones and updates the UI." alt="" coords="513,70,695,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="766,102,695,98,696,93,766,97"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#abd381cbaa6846b8f2cde2591d3908429" title="Initializes the asynchronous task by creating a mic node, adding temporary on disconnect,..." alt="" coords="266,128,450,168"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="766,119,696,125,451,144,450,139,695,120,766,113"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="497,90,465,89,466,83,497,84"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="250,137,203,131,203,126,251,132"/>
+</map>

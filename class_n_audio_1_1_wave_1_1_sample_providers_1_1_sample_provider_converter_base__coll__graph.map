@@ -1,0 +1,17 @@
+<map id="NAudio.Wave.SampleProviders.SampleProviderConverterBase" name="NAudio.Wave.SampleProviders.SampleProviderConverterBase">
+<area shape="rect" id="Node000001" title="Helper base class for classes converting to ISampleProvider." alt="" coords="197,747,408,867"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,399,115,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,479,71,524,83,578,101,632,129,682,161,719,199,749,196,753,157,722,124,686,97,634,78,579,66,525,60,479"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="139,399,320,464"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,463,290,730,285,731,233,464"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="345,179,543,684"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="358,685,342,724,339,732,334,730,338,722,353,683"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="239,5,380,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="317,70,337,154,342,169,337,171,332,155,312,71"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="423,5,465,71"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="447,71,447,162,441,162,441,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="557,5,584,71"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="566,71,544,155,541,163,536,162,539,154,561,70"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="568,399,605,464"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="594,464,598,510,597,568,585,629,574,659,558,686,531,716,498,741,462,762,425,778,423,773,460,757,495,737,527,712,554,682,569,656,580,628,592,568,593,511,589,464"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="xeno_rat_server.Forms.CustomPictureBox.UnzoomedAndAdjusted" name="xeno_rat_server.Forms.CustomPictureBox.UnzoomedAndAdjusted">
+<area shape="rect" id="Node000001" title="Translates and unzooms the given point based on the zoom factor and displayed image rectangle of the ..." alt="" coords="5,5,232,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#aa7addce06628519cadac2c853023fe97" title="Gets the display rectangle for the image in the specified PictureBox." alt="" coords="280,5,529,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,23,264,23,264,28,232,28"/>
+</map>

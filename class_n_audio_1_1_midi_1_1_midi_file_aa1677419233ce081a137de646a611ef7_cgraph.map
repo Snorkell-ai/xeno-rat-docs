@@ -1,0 +1,9 @@
+<map id="NAudio.Midi.MidiFile.Export" name="NAudio.Midi.MidiFile.Export">
+<area shape="rect" id="Node000001" title="Exports the MIDI events to a file with the specified filename." alt="" coords="5,78,189,104"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html#abc5dddfff2cac0fa2003ca9a0af50fb1" title="Checks if the provided MIDI event is an end track event." alt="" coords="241,5,411,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,75,236,48,238,53,145,80"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_file.html#a585d1243e5294e24abd11b8a3b1f37a9" title="Swaps the high and low bytes of the input unsigned 16&#45;bit integer and returns the result." alt="" coords="237,71,415,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,88,221,88,221,94,189,94"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_midi_1_1_midi_file.html#a0ba7d53ce539fbf5bc10013503f1837f" title="Swaps the bytes of a 32&#45;bit unsigned integer and returns the result." alt="" coords="237,136,415,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="145,102,238,129,236,134,144,107"/>
+</map>

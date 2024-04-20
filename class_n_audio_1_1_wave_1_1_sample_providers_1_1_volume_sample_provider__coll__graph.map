@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.SampleProviders.VolumeSampleProvider" name="NAudio.Wave.SampleProviders.VolumeSampleProvider">
+<area shape="rect" id="Node000001" title="Very simple sample provider supporting adjustable gain." alt="" coords="48,134,248,254"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,5,115,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,82,117,132,112,135,83,85"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="139,5,333,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,72,192,120,188,118,216,69"/>
+</map>

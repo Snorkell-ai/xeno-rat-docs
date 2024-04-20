@@ -1,0 +1,77 @@
+<map id="xeno_rat_server.Forms.File_manager.DeleteMenuItem_Click" name="xeno_rat_server.Forms.File_manager.DeleteMenuItem_Click">
+<area shape="rect" id="Node000001" title="Deletes the file associated with the selected menu item and updates the list view." alt="" coords="5,433,220,474"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#a80e0d60e11d5db4978539e5a4ede2f1d" title="Deletes a file at the specified path." alt="" coords="296,325,476,366"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,430,317,369,319,374,167,435"/>
+<area shape="rect" id="Node000028" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#a083a998d5ecaef109c8d416336dfa32a" title="Updates the list view without invoking the UI thread, using the provided file path." alt="" coords="268,465,504,506"/>
+<area shape="poly" id="edge42_Node000001_Node000028" title=" " alt="" coords="220,463,253,467,252,472,220,469"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#a0bb0d51607854ad0bc4f05d05892167b" title="Creates a sub&#45;sub node for the given client node and returns the created node." alt="" coords="552,242,749,283"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="453,322,568,286,569,291,454,327"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="1069,440,1270,480"/>
+<area shape="poly" id="edge40_Node000002_Node000006" title=" " alt="" coords="435,364,504,392,594,424,694,455,798,477,858,485,905,485,1013,477,1053,474,1054,479,1014,483,905,491,858,490,797,483,693,460,592,430,502,397,433,369"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="1325,225,1543,250"/>
+<area shape="poly" id="edge39_Node000002_Node000007" title=" " alt="" coords="410,322,472,273,564,209,618,178,676,149,736,124,797,105,931,78,987,71,1040,70,1092,75,1147,85,1278,126,1317,143,1353,166,1410,212,1407,216,1350,170,1314,148,1276,131,1146,90,1091,80,1040,75,988,77,932,83,798,111,737,129,678,153,621,182,567,214,476,277,413,326"/>
+<area shape="rect" id="Node000016" href="$classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="1078,274,1261,315"/>
+<area shape="poly" id="edge41_Node000002_Node000016" title=" " alt="" coords="476,337,1063,299,1063,304,476,342"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_node.html#a74e11089eb6a14e6921d8f024e40f85b" title="Creates a sub node asynchronously and returns the created node." alt="" coords="810,382,1001,423"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="691,281,855,372,852,377,688,286"/>
+<area shape="poly" id="edge30_Node000003_Node000006" title=" " alt="" coords="664,282,685,317,714,359,753,400,775,418,799,432,861,456,927,469,993,473,1054,472,1054,477,993,479,926,474,859,461,796,437,772,422,749,404,710,362,680,320,660,285"/>
+<area shape="poly" id="edge28_Node000003_Node000007" title=" " alt="" coords="666,240,719,186,756,158,796,138,838,125,880,116,966,110,1053,115,1137,129,1216,149,1287,172,1393,215,1391,220,1285,177,1214,154,1136,134,1052,120,966,115,881,122,839,130,798,143,758,163,723,190,670,244"/>
+<area shape="poly" id="edge31_Node000003_Node000016" title=" " alt="" coords="750,266,1063,286,1063,291,749,271"/>
+<area shape="rect" id="Node000025" href="$classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="1591,78,1798,119"/>
+<area shape="poly" id="edge29_Node000003_Node000025" title=" " alt="" coords="725,240,747,223,759,209,765,194,768,163,773,133,781,119,796,106,845,76,898,52,952,34,1009,20,1066,10,1124,5,1240,4,1351,14,1454,31,1544,51,1617,71,1615,76,1543,56,1453,36,1351,20,1240,10,1125,10,1067,16,1010,25,954,39,900,57,848,81,799,110,786,122,778,135,774,164,770,196,763,212,751,227,728,244"/>
+<area shape="rect" id="Node000026" href="$classxeno__rat__server_1_1_utils.html#a030bdf9f1fd71038666ffc036e855412" title="Asynchronously sets the ID for type 2 node and returns the set ID." alt="" coords="821,152,990,192"/>
+<area shape="poly" id="edge32_Node000003_Node000026" title=" " alt="" coords="701,239,796,203,819,195,821,200,798,208,703,244"/>
+<area shape="rect" id="Node000027" href="$classxeno__rat__server_1_1_utils.html#aa71da7ab50cb922a86010128ab2b94f1" title="Sends a byte array with opcode 3 to the specified subNode if the SockType is 2." alt="" coords="797,217,1014,258"/>
+<area shape="poly" id="edge37_Node000003_Node000027" title=" " alt="" coords="750,250,781,247,782,252,750,256"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="1062,390,1277,416"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1001,400,1046,400,1046,405,1001,405"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1002,421,1058,433,1057,438,1001,426"/>
+<area shape="poly" id="edge17_Node000004_Node000016" title=" " alt="" coords="966,379,1013,362,1109,319,1111,324,1015,367,968,384"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1261,437,1275,426,1290,406,1297,386,1298,345,1299,303,1307,281,1323,261,1328,257,1331,261,1327,265,1312,284,1304,304,1303,345,1302,387,1295,409,1279,430,1265,441"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="1331,462,1537,503"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="1270,466,1316,470,1315,475,1270,471"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="1391,226,1383,216,1388,206,1405,200,1434,198,1466,201,1482,208,1480,213,1465,206,1434,203,1406,205,1391,210,1388,215,1395,222"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="1591,405,1798,446"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="1529,459,1584,447,1585,452,1530,464"/>
+<area shape="rect" id="Node000010" href="$classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="1857,650,2064,691"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="1538,469,1599,467,1666,471,1734,483,1799,506,1843,533,1882,567,1915,603,1940,636,1935,639,1911,607,1878,571,1840,537,1797,510,1733,489,1665,477,1599,473,1538,474"/>
+<area shape="rect" id="Node000011" href="$classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="1595,340,1794,380"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="1466,460,1523,425,1590,391,1608,384,1610,389,1592,396,1525,430,1469,464"/>
+<area shape="rect" id="Node000013" href="$classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="1603,520,1786,560"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="1530,501,1588,514,1587,519,1529,506"/>
+<area shape="rect" id="Node000014" href="$classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="1591,650,1798,691"/>
+<area shape="poly" id="edge14_Node000008_Node000014" title=" " alt="" coords="1453,502,1510,567,1549,603,1593,635,1604,641,1601,646,1590,640,1546,608,1506,571,1449,505"/>
+<area shape="rect" id="Node000015" href="$classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="1591,585,1798,626"/>
+<area shape="poly" id="edge16_Node000008_Node000015" title=" " alt="" coords="1469,501,1525,535,1592,570,1610,577,1608,582,1590,574,1523,540,1466,506"/>
+<area shape="rect" id="Node000012" href="$classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1861,340,2060,380"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="1794,357,1846,357,1846,363,1794,363"/>
+<area shape="poly" id="edge15_Node000014_Node000010" title=" " alt="" coords="1798,668,1841,668,1841,673,1798,673"/>
+<area shape="poly" id="edge18_Node000016_Node000007" title=" " alt="" coords="1260,272,1356,251,1357,257,1261,278"/>
+<area shape="rect" id="Node000017" href="$classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="1331,274,1537,315"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="1261,292,1315,292,1315,297,1261,297"/>
+<area shape="rect" id="Node000018" href="$classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="1595,209,1794,250"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="1517,271,1595,252,1596,257,1519,276"/>
+<area shape="rect" id="Node000023" href="$classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="1591,144,1798,184"/>
+<area shape="poly" id="edge25_Node000017_Node000023" title=" " alt="" coords="1522,272,1542,261,1557,245,1565,229,1573,212,1590,195,1598,190,1601,194,1593,199,1578,215,1570,231,1561,248,1545,265,1525,276"/>
+<area shape="rect" id="Node000024" href="$classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="1603,274,1786,315"/>
+<area shape="poly" id="edge26_Node000017_Node000024" title=" " alt="" coords="1538,292,1587,292,1587,297,1538,297"/>
+<area shape="poly" id="edge27_Node000017_Node000025" title=" " alt="" coords="1527,272,1541,261,1554,245,1561,230,1565,197,1569,164,1576,147,1589,130,1594,126,1597,130,1593,134,1581,150,1574,165,1570,198,1566,231,1559,248,1545,265,1530,276"/>
+<area shape="rect" id="Node000019" href="$classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1861,209,2060,250"/>
+<area shape="poly" id="edge21_Node000018_Node000019" title=" " alt="" coords="1794,227,1846,227,1846,232,1794,232"/>
+<area shape="rect" id="Node000020" href="$classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1861,274,2060,315"/>
+<area shape="poly" id="edge22_Node000018_Node000020" title=" " alt="" coords="1781,248,1861,268,1859,273,1780,253"/>
+<area shape="rect" id="Node000021" href="$classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1861,78,2060,119"/>
+<area shape="poly" id="edge23_Node000018_Node000021" title=" " alt="" coords="1775,206,1796,194,1811,179,1819,163,1828,146,1844,130,1853,124,1856,129,1847,134,1832,149,1824,165,1815,182,1799,198,1777,211"/>
+<area shape="rect" id="Node000022" href="$classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1846,144,2075,184"/>
+<area shape="poly" id="edge24_Node000018_Node000022" title=" " alt="" coords="1780,206,1859,186,1861,191,1781,211"/>
+<area shape="poly" id="edge35_Node000026_Node000006" title=" " alt="" coords="992,186,1016,204,1035,232,1043,261,1043,289,1040,317,1037,345,1037,372,1045,399,1064,426,1065,428,1061,431,1060,430,1040,401,1032,373,1032,345,1035,317,1038,289,1038,262,1030,234,1012,207,989,190"/>
+<area shape="poly" id="edge36_Node000026_Node000016" title=" " alt="" coords="982,190,1015,203,1122,264,1119,269,1013,208,980,195"/>
+<area shape="poly" id="edge33_Node000026_Node000023" title=" " alt="" coords="990,169,1576,163,1576,168,990,174"/>
+<area shape="poly" id="edge34_Node000026_Node000025" title=" " alt="" coords="990,158,1061,149,1338,123,1575,104,1576,110,1338,129,1062,155,991,163"/>
+<area shape="poly" id="edge38_Node000027_Node000016" title=" " alt="" coords="1003,256,1064,269,1063,274,1002,261"/>
+<area shape="rect" id="Node000029" href="$classxeno__rat__server_1_1_forms_1_1_file_view.html#a5ce44efa20d5f3a71da3260cbfe2e80f" title="Retrieves information about the files and directories at the specified path." alt="" coords="816,548,995,588"/>
+<area shape="poly" id="edge43_Node000028_Node000029" title=" " alt="" coords="457,504,553,527,681,546,801,558,800,563,680,551,551,532,456,509"/>
+<area shape="poly" id="edge45_Node000029_Node000006" title=" " alt="" coords="966,545,1013,527,1109,485,1111,490,1015,532,968,550"/>
+<area shape="poly" id="edge44_Node000029_Node000010" title=" " alt="" coords="972,586,1119,627,1216,650,1323,672,1438,689,1558,702,1679,706,1797,700,1854,692,1855,697,1798,705,1679,711,1558,707,1438,695,1322,677,1214,655,1118,633,971,592"/>
+<area shape="poly" id="edge46_Node000029_Node000016" title=" " alt="" coords="921,546,1060,376,1124,322,1127,326,1064,379,926,549"/>
+</map>

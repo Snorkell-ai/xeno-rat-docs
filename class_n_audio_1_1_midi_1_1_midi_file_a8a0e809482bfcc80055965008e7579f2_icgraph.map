@@ -1,0 +1,5 @@
+<map id="NAudio.Midi.MidiFile.FindNoteOn" name="NAudio.Midi.MidiFile.FindNoteOn">
+<area shape="rect" id="Node000001" title="Finds and updates the corresponding NoteOnEvent in the list of outstandingNoteOns with the provided N..." alt="" coords="244,5,414,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_file.html#a8b288d8e81803e8a8ad9591ec02533f9" title=" " alt="" coords="5,13,196,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,28,196,28,196,23,228,23"/>
+</map>

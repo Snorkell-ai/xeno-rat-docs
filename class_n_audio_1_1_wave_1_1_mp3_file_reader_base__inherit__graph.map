@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.Mp3FileReaderBase" name="NAudio.Wave.Mp3FileReaderBase">
+<area shape="rect" id="Node000001" title="Class for reading from MP3 files." alt="" coords="5,452,220,1057"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="64,119,161,404"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,419,115,452,110,452,110,419"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="36,5,91,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,85,84,118,79,120,71,86"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="115,5,212,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="155,86,148,120,142,118,150,85"/>
+</map>

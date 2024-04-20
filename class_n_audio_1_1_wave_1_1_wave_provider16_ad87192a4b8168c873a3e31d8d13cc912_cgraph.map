@@ -1,0 +1,4 @@
+<map id="NAudio.Wave.WaveProvider16.Read" name="NAudio.Wave.WaveProvider16.Read">
+<area shape="rect" id="Node000001" title="Reads a specified number of samples from the buffer starting at the specified offset." alt="" coords="5,29,241,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="84,31,76,21,81,11,97,5,123,3,152,5,166,12,164,17,150,11,123,8,98,10,85,15,82,20,88,27"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="NAudio.Utils.ChunkIdentifier.ChunkIdentifierToInt32" name="NAudio.Utils.ChunkIdentifier.ChunkIdentifierToInt32">
+<area shape="rect" id="Node000001" title="Converts a four&#45;character string to a 32&#45;bit signed integer." alt="" coords="558,63,748,103"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_file_formats_1_1_wav_1_1_wave_file_chunk_reader.html#a048d308162d02579dc5c0e42b525445d" title="Reads the ds64 chunk from the binary reader and updates the relevant properties." alt="" coords="285,5,510,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="544,61,491,49,492,44,545,56"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_file_formats_1_1_wav_1_1_wave_file_chunk_reader.html#aa0a4b8337e549d69198662c6247c1f74" title="Reads the wave header from the provided stream and initializes the necessary fields." alt="" coords="5,63,237,103"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="543,86,237,86,237,80,543,80"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_file_formats_1_1_wav_1_1_wave_file_chunk_reader.html#a3b5261ee0db4f8a3cfc64cd5420d1158" title="Reads the RIFF header from the provided BinaryReader and sets the isRf64 flag if the header is &quot;RF64&quot;..." alt="" coords="288,120,507,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="545,110,492,122,491,117,544,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="282,52,223,65,222,59,281,47"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="281,119,222,107,223,101,282,114"/>
+</map>

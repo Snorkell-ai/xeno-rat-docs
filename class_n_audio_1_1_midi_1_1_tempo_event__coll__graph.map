@@ -1,0 +1,19 @@
+<map id="NAudio.Midi.TempoEvent" name="NAudio.Midi.TempoEvent">
+<area shape="rect" id="Node000001" title="Represents a MIDI tempo event." alt="" coords="5,812,201,977"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_meta_event.html" title="Represents a MIDI meta event." alt="" coords="275,597,401,762"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,749,195,814,192,810,263,745"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="506,149,658,534"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="500,530,496,536,451,588,402,632,399,628,447,584,492,532,496,527"/>
+<area shape="rect" id="Node000004" href="$class_i_cloneable.html" title=" " alt="" coords="545,5,619,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="585,85,585,149,579,149,579,85"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="643,5,771,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="697,71,667,143,662,141,692,69"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="233,5,259,71"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="235,64,194,145,142,269,119,341,100,417,88,495,85,573,98,795,92,795,79,573,82,495,94,416,114,339,137,267,189,143,230,61"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="244,70,236,152,232,268,237,401,246,468,261,533,279,581,274,583,255,535,241,469,232,401,226,268,231,152,239,70"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="260,44,327,80,418,122,455,131,473,136,494,147,492,152,471,141,454,136,416,127,324,85,258,49"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="457,5,494,71"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="482,70,493,124,503,154,498,155,488,125,477,71"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="378,309,482,374"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="424,374,367,582,362,580,419,373"/>
+</map>

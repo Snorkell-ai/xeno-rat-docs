@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveProvider16.WaveProvider16" name="NAudio.Wave.WaveProvider16.WaveProvider16">
+<area shape="rect" id="Node000001" title="Initializes a new instance of the WaveProvider16 class with the specified sample rate and number of c..." alt="" coords="5,5,210,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_provider16.html#a5fe73cba0a340a9c573ddfe906bb5709" title="Sets the wave format using the specified sample rate and number of channels." alt="" coords="258,5,462,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,23,242,23,242,28,210,28"/>
+</map>

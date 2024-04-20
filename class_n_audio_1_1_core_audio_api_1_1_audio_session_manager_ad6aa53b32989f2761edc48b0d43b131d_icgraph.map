@@ -1,0 +1,13 @@
+<map id="NAudio.CoreAudioApi.AudioSessionManager.UnregisterNotifications" name="NAudio.CoreAudioApi.AudioSessionManager.UnregisterNotifications">
+<area shape="rect" id="Node000001" title="Unregisters the notifications for audio sessions and sets the sessions to null." alt="" coords="849,71,1104,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#abffe8651b4e968b2e301b3db07cadc8f" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="598,37,783,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="834,77,783,71,784,66,834,72"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#adc5e673760805a49b77f04ce86cb8a5e" title="Refreshes the audio sessions and registers for notifications." alt="" coords="580,103,801,143"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="834,110,802,113,801,108,833,104"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#ac05387903a1ee66c2f48e646da582df1" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="293,5,512,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="582,48,512,40,513,35,583,43"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#ab2702609da38eb4308b5b2343052957c" title="Finalizer." alt="" coords="273,71,532,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="583,73,533,79,532,73,582,67"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#a95c24da223ab4d8e0af8945e33629c24" title="Finalizer." alt="" coords="5,5,225,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="277,28,225,28,225,23,277,23"/>
+</map>

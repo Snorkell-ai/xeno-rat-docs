@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.DmoEnumerator.GetDmos" name="NAudio.Dmo.DmoEnumerator.GetDmos">
+<area shape="rect" id="Node000001" title="Retrieves a collection of DMO descriptors for a specified category." alt="" coords="5,23,204,64"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_dmo_interop.html#a771a4d4ed7887384fc3034c5d0729815" title="Enumerates the DMOs (DirectX Media Objects) that are registered in the system and returns an enumerat..." alt="" coords="252,5,489,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,31,236,28,236,34,204,37"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_dmo_1_1_i_enum_dmo.html#a213cea3e76de2c78396174ad5c05df13" title=" " alt="" coords="271,55,470,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,50,256,55,256,60,204,55"/>
+</map>

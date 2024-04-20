@@ -1,0 +1,5 @@
+<map id="Plugin.InputHandler.SimulateMouseMove" name="Plugin.InputHandler.SimulateMouseMove">
+<area shape="rect" id="Node000001" title="Simulates a mouse move to the specified screen coordinates." alt="" coords="5,5,195,46"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_input_handler.html#a3851e203188c9968230d9740b0560b63" title="Sets the cursor position to the specified coordinates." alt="" coords="243,13,463,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,23,227,23,227,28,195,28"/>
+</map>

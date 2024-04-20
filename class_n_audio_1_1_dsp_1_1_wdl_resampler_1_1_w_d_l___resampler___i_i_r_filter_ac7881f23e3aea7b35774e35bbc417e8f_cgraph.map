@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.WdlResampler.WDL_Resampler_IIRFilter.Apply" name="NAudio.Dsp.WdlResampler.WDL_Resampler_IIRFilter.Apply">
+<area shape="rect" id="Node000001" title="Applies a filter to the input buffer and stores the result in the output buffer." alt="" coords="5,13,217,54"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#a37e35f342194c9b64bff423dfc244574" title="Filters the input value to prevent denormalization and returns the filtered value." alt="" coords="265,5,496,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,31,249,31,249,36,217,36"/>
+</map>

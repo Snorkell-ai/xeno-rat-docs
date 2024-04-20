@@ -1,0 +1,8 @@
+<map id="NAudio.Wave.SampleProviders.MixingSampleProvider.MixingSampleProvider" name="NAudio.Wave.SampleProviders.MixingSampleProvider.MixingSampleProvider">
+<area shape="rect" id="Node000001" title="Creates a new MixingSampleProvider, based on the given inputs." alt="" coords="5,22,242,78"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_mixing_sample_provider.html#a87bb196b4b35dfe51c294acf28bbf0e5" title="Adds a new input to the mixer." alt="" coords="290,29,528,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,47,274,47,274,52,242,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="357,29,354,19,363,10,381,5,409,3,439,5,457,11,455,16,438,10,409,8,382,10,365,15,359,21,362,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_provider_converters.html#a6fd3492cb2723b1defaa5c69c77c16ad" title="Converts the specified WaveProvider into a SampleProvider." alt="" coords="576,22,803,78"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="529,47,560,47,560,52,529,52"/>
+</map>

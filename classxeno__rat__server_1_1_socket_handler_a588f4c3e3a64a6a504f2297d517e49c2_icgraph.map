@@ -1,0 +1,67 @@
+<map id="xeno_rat_server.SocketHandler.ResetRecvTimeout" name="xeno_rat_server.SocketHandler.ResetRecvTimeout">
+<area shape="rect" id="Node000001" title="Resets the receive timeout for the socket." alt="" coords="979,823,1185,863"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_node.html#a98d3162a6e6e742ddc8f512ea876c0ce" title="Authenticates the client with the server using a random key exchange and returns a boolean indicating..." alt="" coords="705,789,931,830"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="963,831,931,827,931,821,963,825"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_node.html#aba8851268895033d5d6c03791de3c351" title="Resets the receive timeout for the socket." alt="" coords="724,855,912,895"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="963,860,912,866,912,861,963,855"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_utils.html#a49fc57040f062689a8b8ef4b4ee505c9" title="Connects to a socket, sets up a node using the provided key and ID, and returns the node." alt="" coords="460,397,657,438"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="793,778,571,440,576,437,797,775"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_main_form.html#a50b1960a103811fc004621bcec9c16f5" title="Handles the connection of a socket and performs necessary setup operations." alt="" coords="233,5,412,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="550,383,536,315,511,229,492,184,470,140,442,98,410,61,394,49,397,44,414,57,447,95,474,137,497,182,516,227,542,314,555,382"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_main_form.html#a10da4cbe96d264b615a74b1b89b24101" title=" " alt="" coords="5,5,185,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="217,28,185,28,185,23,217,23"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_utils.html#a0f72f1a55c5355b598dbc0adbad14b5d" title="Asynchronously loads a DLL into the specified node and returns a boolean indicating the success of th..." alt="" coords="471,855,647,895"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="709,878,647,878,647,872,709,872"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_main_form.html#abc2d48f76d2ce066f2c2e2f852cb64ac" title="Completes tasks on connection with the client node." alt="" coords="233,71,412,111"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="546,840,505,673,457,450,451,377,445,282,434,190,424,153,410,126,396,114,400,110,414,123,429,151,440,189,451,281,456,376,463,449,510,671,551,839"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_main_form.html#a4573557fdb061bfa1a1e523f45fa0a62" title="Displays a message box using the provided client and message text." alt="" coords="233,136,412,177"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="546,840,506,672,457,450,452,409,450,373,453,310,451,282,445,253,432,223,410,191,396,179,400,175,414,188,437,221,450,251,457,281,458,310,456,373,457,409,463,449,512,671,551,839"/>
+<area shape="rect" id="Node000010" href="$classxeno__rat__server_1_1_main_form.html#aff9859727471e4ef338d149f1dfe02d0" title="Starts the blue screen process by creating a subnode, loading a DLL, and sending a byte array." alt="" coords="233,201,412,242"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="547,840,469,501,410,256,396,245,399,241,414,254,474,500,552,839"/>
+<area shape="rect" id="Node000011" href="$classxeno__rat__server_1_1_main_form.html#aea3aded3d8fe69ac2863a1cf2201a697" title="Starts a chat with the specified client node." alt="" coords="233,267,412,307"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="547,840,483,552,443,403,425,350,410,322,395,310,399,306,414,319,430,348,448,401,488,551,553,839"/>
+<area shape="rect" id="Node000012" href="$classxeno__rat__server_1_1_main_form.html#a651239e4b707a24f8476dd5504759eea" title="Asynchronously starts the Cmstp UAC bypass on the specified client node." alt="" coords="233,332,412,373"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="554,840,548,750,540,692,527,630,509,565,484,501,451,441,410,388,395,375,398,371,414,384,456,438,489,499,514,563,532,628,545,691,553,749,560,839"/>
+<area shape="rect" id="Node000013" href="$classxeno__rat__server_1_1_main_form.html#a21e23474595712331670ab5f8ee49ce7" title="Asynchronously starts the de&#45;escalation of permissions for the specified client node." alt="" coords="233,397,412,438"/>
+<area shape="poly" id="edge12_Node000007_Node000013" title=" " alt="" coords="552,840,542,761,519,658,501,603,477,549,447,498,410,453,394,441,398,436,414,449,451,495,482,546,506,601,524,656,548,760,558,839"/>
+<area shape="rect" id="Node000014" href="$classxeno__rat__server_1_1_main_form.html#a89a375593c10726517bcf9688e05cfcc" title="Asynchronously starts the file manager for the specified client node." alt="" coords="233,463,412,503"/>
+<area shape="poly" id="edge13_Node000007_Node000014" title=" " alt="" coords="550,840,536,773,511,687,492,641,470,597,442,555,410,518,394,506,397,502,414,514,447,552,474,594,497,639,516,685,542,771,555,839"/>
+<area shape="rect" id="Node000015" href="$classxeno__rat__server_1_1_main_form.html#a2b362826734f4d02bfad578e5d989303" title="Starts the FodHelper Bypass process using the specified client node." alt="" coords="233,528,412,569"/>
+<area shape="poly" id="edge14_Node000007_Node000015" title=" " alt="" coords="546,840,529,784,502,716,462,645,438,613,410,584,393,571,396,567,414,580,442,609,467,642,506,713,534,782,551,838"/>
+<area shape="rect" id="Node000016" href="$classxeno__rat__server_1_1_main_form.html#a5f4c1b812f599f3bff874c2e812a2b36" title="Asynchronously starts the FunMenu for the specified client node." alt="" coords="233,593,412,634"/>
+<area shape="poly" id="edge15_Node000007_Node000016" title=" " alt="" coords="541,841,521,798,492,746,455,694,410,649,391,637,394,632,414,645,459,691,497,744,526,795,546,839"/>
+<area shape="rect" id="Node000017" href="$classxeno__rat__server_1_1_main_form.html#a810bcfa72d1d6b33964218bdd348e1aa" title="Asynchronously starts the HVNC (Hidden VNC) functionality for the specified client node." alt="" coords="233,659,412,699"/>
+<area shape="poly" id="edge16_Node000007_Node000017" title=" " alt="" coords="533,843,481,779,448,744,411,715,388,702,391,697,413,710,451,740,485,775,537,840"/>
+<area shape="rect" id="Node000018" href="$classxeno__rat__server_1_1_main_form.html#a0680d2dda8896b373cc6a501322728dd" title="Asynchronously starts the information grabbing process using the provided client ." alt="" coords="233,724,412,765"/>
+<area shape="poly" id="edge17_Node000007_Node000018" title=" " alt="" coords="517,848,467,813,411,780,384,768,386,763,413,775,470,809,520,843"/>
+<area shape="rect" id="Node000019" href="$classxeno__rat__server_1_1_main_form.html#aa8edea5ebf056213ec21c6133c5c8a2d" title="Asynchronously starts the key logger for the specified client node." alt="" coords="233,789,412,830"/>
+<area shape="poly" id="edge18_Node000007_Node000019" title=" " alt="" coords="467,853,398,833,399,828,469,847"/>
+<area shape="rect" id="Node000020" href="$classxeno__rat__server_1_1_main_form.html#a826a8db645ae8c08992769a858fd94b7" title="Asynchronously starts the live microphone functionality for the specified client node." alt="" coords="233,855,412,895"/>
+<area shape="poly" id="edge19_Node000007_Node000020" title=" " alt="" coords="455,878,412,878,412,872,455,872"/>
+<area shape="rect" id="Node000021" href="$classxeno__rat__server_1_1_main_form.html#a13db169027d7d28675d6a43fe03b51ea" title="Asynchronously starts the offline keylogger for the specified client node." alt="" coords="233,920,412,961"/>
+<area shape="poly" id="edge20_Node000007_Node000021" title=" " alt="" coords="469,903,399,922,398,917,467,897"/>
+<area shape="rect" id="Node000022" href="$classxeno__rat__server_1_1_main_form.html#afdd8e5316ffdbf8c9bcaae0a1aaf54e3" title="Starts the process manager for the specified client node." alt="" coords="233,985,412,1026"/>
+<area shape="poly" id="edge21_Node000007_Node000022" title=" " alt="" coords="520,907,470,941,413,975,386,987,384,982,411,970,467,937,517,902"/>
+<area shape="rect" id="Node000023" href="$classxeno__rat__server_1_1_main_form.html#ac5e9e4b94257b2984ee8073a4b51c968" title="Asynchronously starts the registry manager for the specified client ." alt="" coords="233,1051,412,1091"/>
+<area shape="poly" id="edge22_Node000007_Node000023" title=" " alt="" coords="537,910,485,975,451,1010,413,1040,391,1053,388,1048,411,1035,448,1006,481,971,533,907"/>
+<area shape="rect" id="Node000024" href="$classxeno__rat__server_1_1_main_form.html#ae988a50a028d8a4bb571a9bd9e3a7794" title="Asynchronously starts the process of removing the startup using the provided client ." alt="" coords="233,1116,412,1157"/>
+<area shape="poly" id="edge23_Node000007_Node000024" title=" " alt="" coords="546,911,526,955,497,1006,459,1059,414,1105,394,1118,391,1113,410,1101,455,1056,492,1004,521,952,541,909"/>
+<area shape="rect" id="Node000025" href="$classxeno__rat__server_1_1_main_form.html#a386f78d100d1def239d9e0adc7b365d9" title="Initiates a request for admin privileges using the Uacbypass plugin." alt="" coords="233,1181,412,1222"/>
+<area shape="poly" id="edge24_Node000007_Node000025" title=" " alt="" coords="551,912,534,968,506,1037,467,1108,442,1141,414,1170,396,1183,393,1179,410,1166,438,1137,462,1105,502,1034,529,966,546,910"/>
+<area shape="rect" id="Node000026" href="$classxeno__rat__server_1_1_main_form.html#acf363790f854fbaab52c2bbb6478f7e2" title="Asynchronously starts or restarts the specified client node." alt="" coords="233,1247,412,1287"/>
+<area shape="poly" id="edge25_Node000007_Node000026" title=" " alt="" coords="555,911,542,979,516,1065,497,1111,474,1156,447,1198,414,1236,397,1248,394,1244,410,1232,442,1195,470,1153,492,1109,511,1063,536,977,550,910"/>
+<area shape="rect" id="Node000027" href="$classxeno__rat__server_1_1_main_form.html#a899ea8731655cb84f056b3a31a9fa640" title="Asynchronously starts a reverse proxy using the provided client node." alt="" coords="233,1312,412,1353"/>
+<area shape="poly" id="edge26_Node000007_Node000027" title=" " alt="" coords="558,911,548,990,524,1094,506,1149,482,1204,451,1255,414,1301,398,1314,394,1309,410,1297,447,1252,477,1201,501,1147,519,1092,542,989,552,910"/>
+<area shape="rect" id="Node000028" href="$classxeno__rat__server_1_1_main_form.html#a93fe6efd32c628fc6a65bb4e73a8eb4d" title="Asynchronously starts the screen control for the specified client node." alt="" coords="233,1377,412,1418"/>
+<area shape="poly" id="edge27_Node000007_Node000028" title=" " alt="" coords="560,911,553,1001,545,1059,532,1122,514,1187,489,1251,456,1312,414,1366,398,1379,395,1375,410,1362,451,1309,484,1249,509,1185,527,1120,540,1058,548,1000,554,910"/>
+<area shape="rect" id="Node000029" href="$classxeno__rat__server_1_1_main_form.html#a2b1fe21cd6f4771c8110859c3f537199" title="Asynchronously starts the shell for the specified client." alt="" coords="233,1443,412,1483"/>
+<area shape="poly" id="edge28_Node000007_Node000029" title=" " alt="" coords="561,911,558,1011,552,1077,540,1149,522,1224,496,1298,460,1369,414,1431,399,1444,395,1440,410,1428,456,1366,491,1296,517,1223,535,1148,547,1076,553,1011,556,911"/>
+<area shape="rect" id="Node000030" href="$classxeno__rat__server_1_1_main_form.html#ad2a2e667b6e0108be3959743a7ec83d3" title="Initiates the shutdown process for the specified client &#160;node by performing the following steps:" alt="" coords="233,1508,412,1549"/>
+<area shape="poly" id="edge29_Node000007_Node000030" title=" " alt="" coords="556,911,539,1040,510,1214,490,1303,468,1384,442,1450,414,1497,399,1509,396,1505,410,1493,438,1448,463,1382,485,1302,504,1213,534,1039,551,911"/>
+<area shape="rect" id="Node000031" href="$classxeno__rat__server_1_1_main_form.html#a51a16d9169605628d34f1518581814eb" title="Asynchronously starts the startup process for the provided client node." alt="" coords="233,1573,412,1614"/>
+<area shape="poly" id="edge30_Node000007_Node000031" title=" " alt="" coords="557,911,542,1052,514,1246,494,1345,471,1435,445,1510,430,1539,414,1562,399,1575,396,1571,410,1559,425,1537,440,1508,466,1434,489,1344,508,1245,537,1051,552,911"/>
+<area shape="rect" id="Node000032" href="$classxeno__rat__server_1_1_main_form.html#aa881835cbfa46f24822e36cdb9b3f93c" title="Asynchronously starts the webcam functionality for the specified client node." alt="" coords="233,1639,412,1679"/>
+<area shape="poly" id="edge31_Node000007_Node000032" title=" " alt="" coords="558,911,544,1064,518,1277,498,1387,475,1487,447,1570,431,1602,414,1627,400,1640,396,1636,410,1624,427,1599,442,1568,470,1485,493,1385,512,1276,539,1063,552,911"/>
+<area shape="rect" id="Node000033" href="$classxeno__rat__server_1_1_main_form.html#aef1af183341ff26312747a5aeb8da7da" title="Asynchronously starts the WinDirBypass process using the provided client ." alt="" coords="233,1704,412,1745"/>
+<area shape="poly" id="edge32_Node000007_Node000033" title=" " alt="" coords="558,911,547,1075,522,1308,503,1428,479,1538,449,1629,433,1665,414,1693,400,1705,396,1701,410,1689,428,1662,444,1627,474,1537,497,1427,516,1308,542,1075,553,910"/>
+</map>

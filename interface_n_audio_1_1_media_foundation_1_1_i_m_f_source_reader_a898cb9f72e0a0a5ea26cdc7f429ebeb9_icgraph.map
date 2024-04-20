@@ -1,0 +1,13 @@
+<map id="NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection" name="NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection">
+<area shape="rect" id="Node000001" title="Selects or deselects one or more streams." alt="" coords="807,72,1043,113"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a545925036e89d986fb8b2e7c873b07ed" title="Creates a Media Foundation source reader with the specified settings." alt="" coords="555,72,759,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="792,95,760,95,760,90,792,90"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a030e2baaaa4d3a16ebe5430fdc06332f" title="Initializes the MediaFoundationReader with the specified settings." alt="" coords="303,39,507,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="539,79,507,75,508,70,540,74"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#afaf4f9f9600398af89c9f57a52d78653" title="Reads a sequence of bytes from the current stream and advances the position within the stream by the ..." alt="" coords="303,104,507,145"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="540,110,508,114,507,109,539,105"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a478c60af06406213cd899a93ec6c51ab" title="Creates a new MediaFoundationReader based on the supplied file." alt="" coords="26,5,234,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="287,47,234,41,234,36,288,42"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html#ad4b042f9d2fb5e83ae115deac0a104ac" title="Constructs a new media foundation reader from a stream." alt="" coords="5,71,255,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="287,75,256,79,255,74,287,70"/>
+</map>

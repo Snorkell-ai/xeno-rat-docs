@@ -1,0 +1,3 @@
+<map id="NAudio.Wave.ISampleProvider" name="NAudio.Wave.ISampleProvider">
+<area shape="rect" id="Node000001" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,5,199,71"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain" name="NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain">
+<area shape="rect" id="Node000001" title="Creates a BiQuad filter for a band&#45;pass filter with constant skirt gain." alt="" coords="5,5,223,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#ae4cd91ac1442dcb60453b248da898177" title=" " alt="" coords="271,5,442,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,23,255,23,255,28,223,28"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.MediaFoundation.MediaFoundationTransform.InitializeTransformForStreaming" name="NAudio.MediaFoundation.MediaFoundationTransform.InitializeTransformForStreaming">
+<area shape="rect" id="Node000001" title="Initializes the transform for streaming by processing specific messages and setting the initializedFo..." alt="" coords="264,31,519,87"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a4160a1e1c1f6e3a33396732ac3cf5d8c" title="Reads data from the input buffer and processes it using the transform, returning the number of bytes ..." alt="" coords="7,5,214,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,45,214,41,214,35,248,39"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#abb46cfa8fc0e34a2068cf0ceacaa0234" title="Repositions the object for streaming if it is initialized for streaming, by ending the stream and dra..." alt="" coords="5,71,216,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,78,216,82,216,76,248,73"/>
+</map>

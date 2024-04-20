@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.BufferedWaveProvider.Read" name="NAudio.Wave.BufferedWaveProvider.Read">
+<area shape="rect" id="Node000001" title="Reads data from the circular buffer into the specified byte array." alt="" coords="5,5,193,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a931afd5040c689e3b1062ac05db8a6cb" title="Reads data from the buffer into the specified byte array." alt="" coords="241,13,454,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,23,225,23,225,28,193,28"/>
+</map>

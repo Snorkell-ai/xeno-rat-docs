@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.DirectSoundOut.Feed" name="NAudio.Wave.DirectSoundOut.Feed">
+<area shape="rect" id="Node000001" title="Reads data from the wave stream and copies it to the secondary buffer. If the buffer is lost,..." alt="" coords="5,42,237,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a98508b4a01ed4153885d0f1a8ee108a2" title="Checks if the secondary buffer is lost and returns a boolean value indicating the result." alt="" coords="296,5,498,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,40,280,35,280,41,237,45"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="285,70,509,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,64,269,67,269,73,237,69"/>
+</map>

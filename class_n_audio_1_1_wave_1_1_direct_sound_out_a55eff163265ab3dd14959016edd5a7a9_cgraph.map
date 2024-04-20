@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.DirectSoundOut.InitializeDirectSound" name="NAudio.Wave.DirectSoundOut.InitializeDirectSound">
+<area shape="rect" id="Node000001" title="Initializes the DirectSound and creates primary and secondary sound buffers for audio playback." alt="" coords="5,71,208,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a91ca3230b6a0e1afdd06e85845f8cc31" title="Creates a DirectSound object that represents the default sound device." alt="" coords="256,5,458,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,67,261,48,262,53,188,73"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a95ce868c252c89b87f1a2bb7da32db40" title="Retrieves a handle to the desktop window. The desktop window covers the entire screen...." alt="" coords="256,71,458,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,88,240,88,240,94,208,94"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a982c14b3cc8618ffb038ba8148557cc8" title="Converts milliseconds to bytes based on the average bytes per second of the wave format." alt="" coords="256,136,458,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,109,262,129,261,134,187,115"/>
+</map>

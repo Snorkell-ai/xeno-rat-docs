@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.MediaFoundationReader.Reposition" name="NAudio.Wave.MediaFoundationReader.Reposition">
+<area shape="rect" id="Node000001" title="Repositions the media player to the desired position in time." alt="" coords="5,39,210,79"/>
+<area shape="rect" id="Node000002" href="$struct_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_prop_variant.html#ac1a6682c408346db5a88dbad8007b58f" title="Creates a new PropVariant containing a long value." alt="" coords="268,5,483,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,44,253,38,253,44,211,49"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_source_reader.html#a44ed4b0ad1dc1982f790f24887de9d04" title="Seeks to a new position in the media source." alt="" coords="258,71,493,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,69,242,72,242,78,210,74"/>
+</map>

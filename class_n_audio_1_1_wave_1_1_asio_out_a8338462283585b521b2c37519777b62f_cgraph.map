@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.AsioOut.driver_BufferUpdate" name="NAudio.Wave.AsioOut.driver_BufferUpdate">
+<area shape="rect" id="Node000001" title="Updates the buffer with input and output channels for audio processing." alt="" coords="5,23,194,64"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="242,5,466,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,31,226,28,226,34,194,37"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a97d84c3f3c2505e7cad7769065c4d68a" title="Stops the playback and resets the playback state to Stopped." alt="" coords="262,55,446,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,50,247,55,246,60,194,55"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a052efe78bbe2c49c6d7ce746dd749ece" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="517,14,707,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="446,53,501,46,502,51,446,58"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a2a766495e3da6cf139ba6da1e5cddb0a" title="Stops the driver." alt="" coords="514,79,710,120"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="446,76,498,83,498,88,446,82"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a15c87a396c55cfe0d357689331b75055" title="Stops the ASIO driver and returns any error that occurred during the operation." alt="" coords="758,87,985,112"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="711,97,743,97,743,102,711,102"/>
+</map>

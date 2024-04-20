@@ -1,0 +1,24 @@
+<map id="Plugin.InputHandler.mouse_event" name="Plugin.InputHandler.mouse_event">
+<area shape="rect" id="Node000001" title="Simulates mouse input by moving the cursor to the specified coordinates or by generating mouse button..." alt="" coords="408,201,585,242"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_input_handler.html#afab2bce758da051316e17c1d54228b54" title="Simulates a mouse click at the specified screen coordinates." alt="" coords="171,5,360,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="473,190,426,125,394,91,358,61,337,49,339,44,362,57,398,87,430,121,478,187"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_input_handler.html#a6dfdfe9039ce19353dfc228ad16c7c4e" title="Simulates a double click of the left mouse button at the specified screen coordinates." alt="" coords="171,71,360,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="458,193,412,159,359,127,331,114,334,109,361,122,415,155,461,189"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_input_handler.html#a8baefc6bceb74d8a621ab3f18aa74335" title="Simulates a mouse button press at the specified screen coordinates." alt="" coords="171,136,360,177"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="407,199,339,180,341,175,409,194"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_input_handler.html#a9a9579d4111881fe138fa78c539972b4" title="Simulates a middle mouse click at the specified screen coordinates." alt="" coords="171,201,360,242"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="392,224,361,224,361,219,392,219"/>
+<area shape="rect" id="Node000007" href="$class_plugin_1_1_input_handler.html#a8630517bf45edf4db614156ced6f1a6a" title="Simulates a right&#45;click of the mouse at the specified screen coordinates." alt="" coords="171,267,360,307"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="409,249,341,269,339,263,407,244"/>
+<area shape="rect" id="Node000008" href="$class_plugin_1_1_input_handler.html#acf5e76a7be18c26c96d62f4af03135d0" title="Simulates mouse scrolling at the specified screen coordinates by the given scroll amount." alt="" coords="171,332,360,373"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="461,254,415,288,361,321,334,334,331,329,359,317,412,284,458,250"/>
+<area shape="rect" id="Node000009" href="$class_plugin_1_1_input_handler.html#a2287281b323d701947ab1c398f21cc71" title="Simulates a mouse up event at the specified screen coordinates." alt="" coords="171,397,360,438"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="478,257,430,322,398,356,362,387,339,399,337,394,358,382,394,353,426,319,473,253"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the specified node and performs various actions based on the received data." alt="" coords="5,177,123,203"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="181,56,172,61,140,89,112,122,75,178,70,175,108,119,136,86,169,57,178,51"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="187,120,172,127,125,153,86,179,83,174,122,148,169,122,185,115"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="156,177,124,183,123,177,155,172"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="155,207,123,202,124,196,156,202"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="185,263,169,256,122,230,83,205,86,201,125,226,172,251,187,258"/>
+<area shape="poly" id="edge13_Node000009_Node000003" title=" " alt="" coords="175,391,169,386,147,365,129,341,99,289,78,240,66,204,71,202,83,238,103,286,133,338,151,361,172,382,178,387"/>
+</map>

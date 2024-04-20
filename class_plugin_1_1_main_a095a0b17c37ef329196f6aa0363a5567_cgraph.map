@@ -1,0 +1,11 @@
+<map id="Plugin.Main.GetRootProcesses" name="Plugin.Main.GetRootProcesses">
+<area shape="rect" id="Node000001" title="Gets the root processes from the provided process map." alt="" coords="5,70,210,96"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#abfd21cc1bbcaeaf43a475ce2bf42eadf" title="Retrieves the parent process ID of the specified process." alt="" coords="258,70,469,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,80,242,80,242,86,210,86"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a9b9d62c37794c3be0dae9bccaf23494d" title="Creates a snapshot of the specified processes, heaps, modules, and threads." alt="" coords="517,5,711,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,67,506,48,508,53,423,72"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#a64ab1a0d01d4f0a1d4a1fe34c33dbd0f" title="Retrieves information about the first process encountered in a system snapshot." alt="" coords="524,70,705,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="470,80,508,80,508,86,470,86"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_main.html#ad1a696a6d1d4ed486b50e461b89ee463" title="Retrieves information about the next process recorded in a system snapshot." alt="" coords="523,120,706,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="433,94,531,113,530,119,432,99"/>
+</map>

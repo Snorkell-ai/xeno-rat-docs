@@ -1,0 +1,21 @@
+<map id="Plugin.Main.HandleCloneEdge" name="Plugin.Main.HandleCloneEdge">
+<area shape="rect" id="Node000001" title="Handles the cloning of the Edge browser." alt="" coords="5,126,204,152"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a3f653e80f4fa9730c6217ee84d5bba26" title="Clones the Microsoft Edge user data to a specified directory." alt="" coords="261,53,424,94"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,123,250,96,252,101,155,128"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_main.html#a40f3ba09712707d0b952e7d77cae7c08" title="Retrieves the process ID of a specified process based on the command line and search string." alt="" coords="252,119,433,159"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="204,136,236,136,236,142,204,142"/>
+<area shape="rect" id="Node000007" href="$class_hidden__handler_1_1_process___handler.html#a25f21e60131b5ee2c286afe7d56f371b" title="Starts the Edge browser with specific configurations and user data directory." alt="" coords="261,184,424,225"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="155,150,252,177,250,182,153,155"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="481,53,643,94"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,71,466,71,466,76,424,76"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="701,5,908,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="643,55,685,47,686,52,644,60"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="691,71,918,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="644,77,676,79,676,84,644,82"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="481,168,643,209"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="424,196,465,193,466,198,424,201"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1_process___handler.html#ad460daca4bc66b21b476efef0d9d86d6" title="Retrieves the installation path of Microsoft Edge browser." alt="" coords="481,233,643,274"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="425,220,466,229,465,235,423,225"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="723,168,886,209"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="644,186,707,186,707,191,644,191"/>
+</map>

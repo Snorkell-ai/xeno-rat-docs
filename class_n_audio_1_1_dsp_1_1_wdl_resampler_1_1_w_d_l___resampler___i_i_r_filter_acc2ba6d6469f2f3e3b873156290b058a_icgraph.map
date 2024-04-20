@@ -1,0 +1,9 @@
+<map id="NAudio.Dsp.WdlResampler.WDL_Resampler_IIRFilter.Reset" name="NAudio.Dsp.WdlResampler.WDL_Resampler_IIRFilter.Reset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="495,41,708,82"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a99dfc42acac91699a824b7e507a12a49" title="Resets the history of the resampler by creating a new history array." alt="" coords="250,5,436,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,47,436,41,436,36,480,42"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#afad9eea7787911c60919429257f396af" title=" " alt="" coords="239,70,447,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="480,81,448,86,447,80,479,76"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#ac090e1c19e0dab4f31959ae8f875581e" title="Creates a new Resampler." alt="" coords="5,5,191,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,28,191,28,191,23,235,23"/>
+</map>

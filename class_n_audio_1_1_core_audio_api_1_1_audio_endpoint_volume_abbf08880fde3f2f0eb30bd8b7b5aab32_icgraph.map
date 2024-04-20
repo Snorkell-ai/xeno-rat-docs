@@ -1,0 +1,9 @@
+<map id="NAudio.CoreAudioApi.AudioEndpointVolume.Dispose" name="NAudio.CoreAudioApi.AudioEndpointVolume.Dispose">
+<area shape="rect" id="Node000001" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="577,39,762,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#ac05387903a1ee66c2f48e646da582df1" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="291,5,511,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="561,48,511,42,511,37,562,43"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_audio_endpoint_volume.html#a432b54698ee9d8d4c2d9d95b30c1d4c4" title="Finalizer." alt="" coords="273,71,529,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="562,75,530,78,529,73,561,69"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#a95c24da223ab4d8e0af8945e33629c24" title="Finalizer." alt="" coords="5,5,225,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="276,28,225,28,225,23,276,23"/>
+</map>

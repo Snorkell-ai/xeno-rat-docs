@@ -1,0 +1,5 @@
+<map id="xeno_rat_client.Utils.HWID" name="xeno_rat_client.Utils.HWID">
+<area shape="rect" id="Node000001" title="Generates a unique hardware identifier (HWID) based on various system parameters." alt="" coords="5,5,187,31"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_utils.html#a958dbb5542a23b0b8436bbb1d0fa0228" title="Computes the MD5 hash of the input string and returns the first 20 characters in uppercase." alt="" coords="235,5,431,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,16,219,16,219,21,187,21"/>
+</map>

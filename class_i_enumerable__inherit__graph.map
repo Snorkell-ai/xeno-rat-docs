@@ -1,0 +1,7 @@
+<map id="IEnumerable" name="IEnumerable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="181,5,266,71"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device_collection.html" title="Multimedia Device Collection." alt="" coords="5,259,212,419"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,86,141,260,136,258,203,84"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html" title="A helper class to manage collection of MIDI events It has the ability to organise them in tracks." alt="" coords="236,119,440,559"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,84,257,118,252,120,238,86"/>
+</map>

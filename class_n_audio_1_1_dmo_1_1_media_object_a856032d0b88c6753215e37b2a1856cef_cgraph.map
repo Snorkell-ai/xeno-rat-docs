@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.MediaObject.CreateDmoMediaTypeForWaveFormat" name="NAudio.Dmo.MediaObject.CreateDmoMediaTypeForWaveFormat">
+<area shape="rect" id="Node000001" title="Creates a DMO media type for the specified WaveFormat." alt="" coords="5,39,222,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_dmo_interop.html#a61ba482bd86a39c209bfd007b0be9f20" title="Initializes a media type using the specified format block size." alt="" coords="272,5,463,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,42,256,38,257,43,222,47"/>
+<area shape="rect" id="Node000003" href="$struct_n_audio_1_1_dmo_1_1_dmo_media_type.html#a8500917647fce295eb3f92ba2256daec" title="Sets this object up to point to a wave format." alt="" coords="270,71,465,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,70,254,74,254,79,222,75"/>
+</map>

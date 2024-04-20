@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.WaveRecorder.Dispose" name="NAudio.Wave.WaveRecorder.Dispose">
+<area shape="rect" id="Node000001" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,71,200,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#aea4aae5af23f69630e9a4028555462b6" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="248,71,444,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,88,232,88,232,94,200,94"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#ab50c1f10814b936065f8d7f5d3584fa2" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="492,71,688,111"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,88,476,88,476,94,444,94"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#ae2171b19388f0cac6b6d6fc9db3b1a6b" title="Updates the data chunk size in the binary writer at the specified position." alt="" coords="736,5,933,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="668,68,740,48,742,53,669,73"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#ad95029cf35ce3067e0443e3442d88971" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="736,71,933,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="689,88,721,88,721,94,689,94"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#aaadca2c6d420c19cf9c5642a7c2a6cda" title="Updates the RIFF chunk in the output stream with the correct size." alt="" coords="736,136,933,177"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="669,109,742,129,740,134,668,114"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="981,71,1177,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="933,88,965,88,965,94,933,94"/>
+</map>

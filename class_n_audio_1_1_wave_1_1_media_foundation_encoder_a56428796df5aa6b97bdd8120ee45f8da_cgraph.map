@@ -1,0 +1,41 @@
+<map id="NAudio.Wave.MediaFoundationEncoder.Encode" name="NAudio.Wave.MediaFoundationEncoder.Encode">
+<area shape="rect" id="Node000001" title="Encodes a file." alt="" coords="5,292,210,333"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a4b1a69cd09122c174671717702b60e2f" title="Creates a sink writer for writing media data to the specified output stream with the given transcode ..." alt="" coords="258,224,462,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,289,267,267,268,272,186,294"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a715fad15106b0bd11e29ff3d0de6c996" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="258,328,462,369"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="210,324,242,329,242,334,210,330"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a79bf1b1dffc57fe119fa35b93086cf40" title="Creates a new instance of IMFAttributes with the specified initial size." alt="" coords="531,152,737,193"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="438,221,509,202,537,194,538,200,511,207,439,226"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a64eb8dc6772b30fb8d124de4b8a25566" title="Creates a sink writer for a specified output URL." alt="" coords="510,217,757,272"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="463,242,494,242,494,247,463,247"/>
+<area shape="rect" id="Node000006" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a34c46486dd9565dbfd8bb6ed8e016b0c" title="Initializes the sink writer for writing." alt="" coords="524,296,744,337"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="462,334,508,328,508,334,463,339"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a40eaac1682ec94c148ed968e98949f9c" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="532,361,736,402"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="463,358,517,365,516,370,462,363"/>
+<area shape="rect" id="Node000020" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a0a64976d3d1c8e38361776f5116cd0ca" title="(Finalize) Completes all writing operations on the sink writer." alt="" coords="524,427,744,467"/>
+<area shape="poly" id="edge19_Node000005_Node000020" title=" " alt="" coords="405,367,511,411,536,419,534,424,509,416,403,372"/>
+<area shape="rect" id="Node000008" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#aa888a0108dedcb8132671b7ac50450b5" title="Adds a buffer to the end of the list of buffers in the sample." alt="" coords="805,5,1048,46"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="734,363,755,347,778,311,787,276,785,240,779,204,772,168,771,131,779,94,803,57,806,54,810,58,807,61,784,96,776,132,778,167,784,203,791,240,792,276,783,313,759,350,738,367"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aaef6fd2223fa67f05d404221eec18fc2" title="Converts the specified number of bytes to the corresponding position in nanoseconds based on the prov..." alt="" coords="824,71,1029,111"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="735,362,755,346,774,319,782,292,782,265,779,237,775,208,776,180,784,151,803,123,810,116,814,120,807,126,789,153,781,181,781,208,784,236,788,264,787,293,779,322,759,350,738,366"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a10e796baf1844183c986b2c88397228a" title="Creates a memory buffer of the specified size and returns it." alt="" coords="812,136,1041,177"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="735,361,755,346,770,328,777,309,779,269,780,228,788,208,803,188,808,184,811,188,807,191,793,210,786,229,784,269,782,310,775,330,759,350,738,365"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#acf45f8cc1d8dbc17ee152df0c7ffef34" title="Creates a new Media Foundation sample." alt="" coords="823,201,1030,242"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="734,360,756,346,773,324,779,301,785,277,803,253,810,248,813,252,807,257,790,279,784,302,777,327,759,350,737,364"/>
+<area shape="rect" id="Node000012" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a4a078af9d4ac93b072d79ecd925b7e79" title="Retrieves the allocated size of the buffer." alt="" coords="812,267,1041,307"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="722,358,756,346,780,332,804,318,825,310,826,315,806,323,783,337,758,351,724,363"/>
+<area shape="rect" id="Node000013" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a1af64854b06c4a042646213b10832302" title="Gives the caller access to the memory in the buffer." alt="" coords="812,332,1041,373"/>
+<area shape="poly" id="edge12_Node000007_Node000013" title=" " alt="" coords="736,369,796,363,796,368,737,374"/>
+<area shape="rect" id="Node000014" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="814,397,1039,423"/>
+<area shape="poly" id="edge13_Node000007_Node000014" title=" " alt="" coords="737,389,799,395,799,400,736,394"/>
+<area shape="rect" id="Node000015" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a5d7ded3ec01df8d9cc7c257e77d5ef59" title="Sets the length of the valid data in the buffer." alt="" coords="812,447,1041,487"/>
+<area shape="poly" id="edge14_Node000007_Node000015" title=" " alt="" coords="718,400,758,412,806,432,827,439,825,444,804,438,756,418,717,405"/>
+<area shape="rect" id="Node000016" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ad413a99c862f3a5ed2aa7c12ae8b8bd9" title="Sets the duration of the sample." alt="" coords="805,512,1048,553"/>
+<area shape="poly" id="edge15_Node000007_Node000016" title=" " alt="" coords="738,400,759,413,777,434,784,456,791,477,807,497,814,502,811,506,804,501,786,480,779,458,772,437,756,417,735,404"/>
+<area shape="rect" id="Node000017" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ab3aecd2b653d71957f5ffdebf1b2e024" title="Sets the presentation time of the sample." alt="" coords="805,577,1048,618"/>
+<area shape="poly" id="edge16_Node000007_Node000017" title=" " alt="" coords="738,398,759,413,774,432,782,451,784,489,786,527,793,545,807,563,811,566,808,570,803,566,789,547,781,528,779,490,776,452,769,435,755,417,735,402"/>
+<area shape="rect" id="Node000018" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a0d299795ca9afd20128108c9d6522557" title="Unlocks a buffer that was previously locked." alt="" coords="812,643,1041,683"/>
+<area shape="poly" id="edge17_Node000007_Node000018" title=" " alt="" coords="738,397,759,413,778,440,786,468,787,495,784,523,781,549,782,576,789,602,807,628,811,631,807,635,803,631,784,604,776,577,776,549,779,522,782,495,781,469,774,443,755,417,735,401"/>
+<area shape="rect" id="Node000019" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a32045a9349d913b5f6539a0b66527263" title="Delivers a sample to the sink writer." alt="" coords="816,708,1037,749"/>
+<area shape="poly" id="edge18_Node000007_Node000019" title=" " alt="" coords="738,396,759,413,783,449,791,485,790,520,784,555,778,590,777,625,785,659,807,693,810,696,806,700,803,697,780,661,771,625,773,590,779,554,785,520,786,485,778,451,755,417,734,401"/>
+</map>

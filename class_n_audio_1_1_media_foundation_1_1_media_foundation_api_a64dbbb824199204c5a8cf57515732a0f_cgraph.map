@@ -1,0 +1,5 @@
+<map id="NAudio.MediaFoundation.MediaFoundationApi.Startup" name="NAudio.MediaFoundation.MediaFoundationApi.Startup">
+<area shape="rect" id="Node000001" title="Initializes the Media Foundation platform if not already initialized." alt="" coords="5,5,212,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a97a12e88647b8859903e5be40b3c6b1c" title="Initializes the Media Foundation platform." alt="" coords="260,5,466,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,23,244,23,244,28,212,28"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IMMDevice.Activate" name="NAudio.CoreAudioApi.Interfaces.IMMDevice.Activate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="273,136,487,177"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#ac1e66c8fa090bb8fe781f44e36f5d9ca" title="Retrieves the audio client associated with the device interface." alt="" coords="5,5,225,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="337,129,284,94,224,61,192,49,194,44,226,57,287,90,340,125"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#a8fbf40ed5e79465f626cf970cd9a66fc" title="Retrieves the audio endpoint volume." alt="" coords="5,71,225,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="279,134,200,115,201,109,280,129"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#a5133d8a7039b802a7394cf3b6ced5b3e" title="Retrieves the audio meter information from the device interface and initializes the AudioMeterInforma..." alt="" coords="5,136,225,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,159,225,159,225,154,257,154"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#aaf4316a8b90c2af69c9a4e5c71173f9c" title="Retrieves the audio session manager for the device interface." alt="" coords="5,201,225,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="280,184,201,203,200,198,279,178"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#a5ba0f6c3c5e9714f6600077a91710d16" title="Retrieves the device topology and initializes the DeviceTopology object." alt="" coords="5,267,225,307"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="340,188,287,223,226,256,194,269,192,264,224,251,284,218,337,184"/>
+</map>

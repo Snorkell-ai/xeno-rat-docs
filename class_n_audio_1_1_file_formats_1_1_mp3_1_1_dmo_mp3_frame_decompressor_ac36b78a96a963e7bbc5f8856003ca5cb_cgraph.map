@@ -1,0 +1,21 @@
+<map id="NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame" name="NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame">
+<area shape="rect" id="Node000001" title="Decompresses the provided MP3 frame and writes the decompressed data to the specified destination buf..." alt="" coords="5,145,288,186"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a9e9d6348d5c3a96e06774b469783d69d" title="Flushes the media object." alt="" coords="346,13,555,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,143,244,94,288,69,335,47,353,41,355,46,337,52,291,74,247,99,176,147"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dmo_1_1_media_buffer.html#a639d33e8eed3756ae99fca61288cbe85" title="Loads the specified data into the buffer." alt="" coords="336,62,565,88"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,142,335,98,367,89,369,94,336,103,204,147"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a3f2053ae18a4f1057cf67e9fd1c9c74b" title="Processes the input data using the specified media buffer and flags." alt="" coords="338,112,563,153"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="288,147,322,144,322,149,289,153"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a4916561a92ee170b63630c61870ebe7b" title="Processes the output data buffers using the specified flags and output buffer count." alt="" coords="338,177,563,218"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="289,178,322,182,322,187,288,183"/>
+<area shape="rect" id="Node000009" href="$struct_n_audio_1_1_dmo_1_1_dmo_output_data_buffer.html#a277dfdb5791407f8450807fbe0f4366f" title="Retrives the data in this buffer." alt="" coords="353,243,548,283"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="208,184,336,227,363,235,361,240,335,232,206,189"/>
+<area shape="rect" id="Node000010" href="$interface_n_audio_1_1_dmo_1_1_i_media_buffer.html#a1837680ffafa52f4f380aef32acf7c44" title="Set Length." alt="" coords="362,308,539,349"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="174,184,245,238,290,267,337,293,353,300,351,305,335,297,287,272,242,242,171,189"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html#aa582047da14a50d9c6a0a8d190feabb4" title=" " alt="" coords="613,5,794,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="555,23,598,23,598,28,555,28"/>
+<area shape="rect" id="Node000006" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html#a94cd0f652c020cfff0f32c8909ed465c" title=" " alt="" coords="613,112,794,153"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="563,130,597,130,597,135,563,135"/>
+<area shape="rect" id="Node000008" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html#a535cbed25d31e3b076fe38953258d59f" title=" " alt="" coords="613,177,794,218"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="563,195,597,195,597,200,563,200"/>
+</map>

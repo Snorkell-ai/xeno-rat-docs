@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.MultiplexingWaveProvider" name="NAudio.Wave.MultiplexingWaveProvider">
+<area shape="rect" id="Node000001" title="Allows any number of inputs to be patched to outputs Uses could include swapping left and right chann..." alt="" coords="234,178,415,358"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,13,103,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,85,236,191,232,195,102,89"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="127,5,314,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,84,273,153,277,162,273,164,269,155,236,86"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="338,13,365,78"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="341,74,328,110,322,161,317,161,323,109,335,72"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="415,13,541,78"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="477,78,468,117,451,156,429,186,424,183,446,153,463,115,472,77"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="565,13,602,78"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="578,79,563,118,537,156,487,198,432,230,429,225,484,194,533,153,558,115,573,77"/>
+</map>

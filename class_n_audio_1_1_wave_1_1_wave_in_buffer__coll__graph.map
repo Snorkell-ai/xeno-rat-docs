@@ -1,0 +1,20 @@
+<map id="NAudio.Wave.WaveInBuffer" name="NAudio.Wave.WaveInBuffer">
+<area shape="rect" id="Node000001" title="A buffer of Wave samples." alt="" coords="306,337,482,562"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="5,179,87,244"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,255,93,284,118,311,163,344,212,373,307,416,305,421,209,378,160,349,115,315,89,288,68,258"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_header.html" title="WaveHeader interop structure (WAVEHDR) http://msdn.microsoft.com/en&#45;us/library/dd743837%28VS...." alt="" coords="251,179,423,244"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="345,243,360,312,362,320,357,321,355,314,340,245"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="162,5,207,71"/>
+<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="170,72,155,108,142,152,139,199,142,221,149,243,177,288,212,328,252,362,293,391,290,396,249,367,209,332,173,291,145,245,137,222,133,199,137,151,150,106,165,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="197,69,215,111,244,153,260,167,256,171,240,156,211,114,192,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="309,5,335,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="323,70,326,154,327,162,322,163,321,155,318,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="389,5,509,71"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="449,71,441,113,433,136,422,156,410,169,406,166,417,153,428,133,436,112,444,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="447,179,488,244"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="450,245,437,269,420,321,415,320,433,267,445,242"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="513,179,550,244"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="528,244,519,279,504,314,494,333,489,331,500,312,514,277,523,243"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="575,179,648,244"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="604,245,589,280,567,315,534,351,497,383,494,379,530,347,563,311,584,277,599,243"/>
+</map>

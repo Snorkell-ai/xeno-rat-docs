@@ -1,0 +1,7 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.Grabber.BufferCB" name="AForge.Video.DirectShow.VideoCaptureDevice.Grabber.BufferCB">
+<area shape="rect" id="Node000001" title="Copies the image data from the buffer to a new Bitmap and notifies the parent." alt="" coords="5,39,254,79"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a4327140fbd6f2cb4442268df9a359b51" title="Updates the frame count and bytes received, and triggers the NewFrame event with the provided image." alt="" coords="316,5,542,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,43,300,37,300,43,254,48"/>
+<area shape="rect" id="Node000003" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a043f80dd6167e6c129bf40395285a523" title="Handles the snapshot frame event by processing the provided image ." alt="" coords="302,71,556,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="254,70,286,73,286,78,254,75"/>
+</map>

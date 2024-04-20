@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Live_Microphone.CreateMicNode" name="xeno_rat_server.Forms.Live_Microphone.CreateMicNode">
+<area shape="rect" id="Node000001" title="Creates a MicNode and returns it. If MicNode already exists, returns the existing MicNode." alt="" coords="483,5,673,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#abd381cbaa6846b8f2cde2591d3908429" title="Initializes the asynchronous task by creating a mic node, adding temporary on disconnect,..." alt="" coords="251,5,435,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="468,28,436,28,436,23,468,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af759c97b5673c55be1690f19df16e179" title=" " alt="" coords="5,5,203,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,28,203,28,203,23,235,23"/>
+</map>

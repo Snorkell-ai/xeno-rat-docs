@@ -1,0 +1,9 @@
+<map id="NAudio.Utils.CircularBuffer" name="NAudio.Utils.CircularBuffer">
+<area shape="rect" id="Node000001" title="A very basic circular buffer implementation." alt="" coords="11,164,181,349"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,43,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="33,70,52,139,55,147,50,149,47,140,28,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="72,5,120,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="99,70,99,147,93,147,93,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="184,5,211,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="193,71,170,141,166,149,162,147,166,139,188,70"/>
+</map>

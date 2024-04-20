@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.IMediaObject.GetInputType" name="NAudio.Dmo.IMediaObject.GetInputType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="498,5,679,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a0052d4f89e4070fdcd0fd76661b2d40e" title="Retrieves the input type for a specified input stream and input type index." alt="" coords="252,5,450,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="482,28,451,28,451,23,482,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a8d5af2afea48386df25d3da209fb8be3" title="Retrieves the input types for the specified input stream index." alt="" coords="5,5,204,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="236,28,204,28,204,23,236,23"/>
+</map>

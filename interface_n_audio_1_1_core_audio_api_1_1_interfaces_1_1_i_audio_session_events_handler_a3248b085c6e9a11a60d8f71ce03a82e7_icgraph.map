@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged" name="NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged">
+<area shape="rect" id="Node000001" title="notification of icon path changed" alt="" coords="287,5,550,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_events_callback.html#a319252df6a95165e32312a36cb39454a" title="Notifies that the icon path has changed and triggers the associated event handler." alt="" coords="5,5,239,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,36,239,36,239,31,271,31"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.MixingWaveProvider32" name="NAudio.Wave.MixingWaveProvider32">
+<area shape="rect" id="Node000001" title="WaveProvider that can mix together multiple 32 bit floating point input provider All channels must ha..." alt="" coords="5,119,235,364"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="71,5,169,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,85,123,119,117,119,117,85"/>
+</map>

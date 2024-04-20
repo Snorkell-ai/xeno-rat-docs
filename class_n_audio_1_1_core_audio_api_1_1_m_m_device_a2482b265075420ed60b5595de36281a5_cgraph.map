@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.MMDevice.GetPropertyInformation" name="NAudio.CoreAudioApi.MMDevice.GetPropertyInformation">
+<area shape="rect" id="Node000001" title="Retrieves the property information of the device using the specified storage access mode." alt="" coords="5,5,225,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_m_m_device.html#aa84a531221c8ad802214b2b7a700d3f2" title=" " alt="" coords="273,5,487,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,23,257,23,257,28,225,28"/>
+</map>

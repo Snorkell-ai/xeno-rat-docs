@@ -1,0 +1,5 @@
+<map id="xeno_rat_server.Node.ResetRecvTimeout" name="xeno_rat_server.Node.ResetRecvTimeout">
+<area shape="rect" id="Node000001" title="Resets the receive timeout for the socket." alt="" coords="5,5,193,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_socket_handler.html#a588f4c3e3a64a6a504f2297d517e49c2" title="Resets the receive timeout for the socket." alt="" coords="241,5,447,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,23,225,23,225,28,193,28"/>
+</map>

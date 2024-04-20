@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveInterop.waveInGetPosition" name="NAudio.Wave.WaveInterop.waveInGetPosition">
+<area shape="rect" id="Node000001" title="Retrieves the current position in the audio stream being played or recorded." alt="" coords="275,27,488,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#af3824acf0dcd1f7dce3a8f8b07912bdd" title="Retrieves the current input position of the audio device in bytes." alt="" coords="5,5,227,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,37,227,33,227,28,260,31"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a60bde7c6d4b8dc217d7a1314a08e0f95" title="Retrieves the current input device position in bytes." alt="" coords="22,55,210,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="260,63,210,68,210,63,259,58"/>
+</map>

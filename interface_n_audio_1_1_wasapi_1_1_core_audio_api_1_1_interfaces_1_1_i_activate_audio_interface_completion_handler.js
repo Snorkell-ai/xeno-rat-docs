@@ -1,0 +1,4 @@
+var interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_completion_handler =
+[
+    [ "ActivateCompleted", "interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_completion_handler.html#a5de477eb57e14a2951b66a14c841b163", null ]
+];

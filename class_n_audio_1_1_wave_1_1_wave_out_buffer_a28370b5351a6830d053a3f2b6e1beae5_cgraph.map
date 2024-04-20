@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveOutBuffer.WaveOutBuffer" name="NAudio.Wave.WaveOutBuffer.WaveOutBuffer">
+<area shape="rect" id="Node000001" title="creates a new wavebuffer" alt="" coords="5,27,203,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="272,5,443,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,33,256,27,256,33,204,39"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a1dbecc07cd3ba339b3c36302ae64a640" title="Prepares the header for playback on a waveform&#45;audio output device." alt="" coords="251,55,464,96"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,56,235,59,235,65,203,61"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="512,5,744,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,16,497,16,497,21,444,21"/>
+</map>

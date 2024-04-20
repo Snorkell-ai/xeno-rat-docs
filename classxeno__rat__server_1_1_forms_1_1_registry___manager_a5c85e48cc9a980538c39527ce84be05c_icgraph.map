@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Registry_Manager.StartAdd" name="xeno_rat_server.Forms.Registry_Manager.StartAdd">
+<area shape="rect" id="Node000001" title="Asynchronously starts the process of adding registry information to the tree view." alt="" coords="261,39,468,79"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_registry___manager.html#a08fce7cf1593b0345876938460a9424f" title="Clears the text in textBox1, clears the items in listView1, clears the nodes in treeView1,..." alt="" coords="5,5,213,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,46,213,42,213,37,245,41"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_registry___manager.html#a2746ea04ea3ae64d1f5764316741da37" title=" " alt="" coords="5,71,213,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,77,213,81,213,75,245,71"/>
+</map>

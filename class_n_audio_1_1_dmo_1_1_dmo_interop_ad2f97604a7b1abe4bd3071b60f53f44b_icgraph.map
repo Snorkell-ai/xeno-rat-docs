@@ -1,0 +1,31 @@
+<map id="NAudio.Dmo.DmoInterop.MoFreeMediaType" name="NAudio.Dmo.DmoInterop.MoFreeMediaType">
+<area shape="rect" id="Node000001" title="Frees the memory associated with the specified Direct Media Object (DMO) media type." alt="" coords="592,201,782,242"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a0052d4f89e4070fdcd0fd76661b2d40e" title="Retrieves the input type for a specified input stream and input type index." alt="" coords="330,5,529,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="663,190,613,124,580,90,543,61,519,49,521,44,545,57,583,86,617,121,667,187"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a5e56a057a857d271de1dc9876f256c67" title="Retrieves the current output media type for the specified output stream index." alt="" coords="330,71,529,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="647,194,599,159,543,127,512,114,514,109,545,122,602,154,650,189"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a9b82a46d9790b22c08cf6f575ef79952" title="Retrieves the output type for a specified output stream and output type index." alt="" coords="330,136,529,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="589,200,512,180,513,175,590,194"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a69f1819c0ea9aec354950e91d10a2c39" title="Sets the input wave format for the specified input stream." alt="" coords="331,397,528,438"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="667,257,617,323,583,357,545,387,521,399,519,394,543,382,580,353,613,319,663,253"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_dmo_1_1_media_object.html#aeedd463b32c463e9f0a25d901d0ec615" title="Sets the output wave format for the specified output stream." alt="" coords="331,201,528,242"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="576,224,528,224,528,219,576,219"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a2d155802fe47a0bb1be75f99a2ed8027" title="Checks if the specified input stream supports the given wave format." alt="" coords="315,267,544,307"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="590,249,513,269,512,263,589,244"/>
+<area shape="rect" id="Node000012" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a979aa06634413b6949e1d7a61ff7f356" title="Checks if the specified output stream supports the given wave format." alt="" coords="315,332,544,373"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="650,254,602,289,545,321,514,334,512,329,543,317,599,284,647,250"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a8d5af2afea48386df25d3da209fb8be3" title="Retrieves the input types for the specified input stream index." alt="" coords="37,5,235,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="314,28,236,28,236,23,314,23"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a6332cad86abfe1672632903640d036fd" title="Retrieves the output types for the specified output stream index." alt="" coords="37,136,235,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="314,159,236,159,236,154,314,154"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_file_formats_1_1_mp3_1_1_dmo_mp3_frame_decompressor.html#a8d70da9499d742480e80d300af3dbcf2" title="Initializes a new instance of the DMO MP3 Frame decompressor." alt="" coords="5,257,267,312"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="323,392,313,386,297,371,288,356,280,341,265,326,245,315,248,310,268,322,284,338,293,353,301,368,316,382,325,388"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html#a79fd72de1823c37903441f8625dca05b" title="WaveStream to resample using the DMO Resampler." alt="" coords="36,336,236,377"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="315,397,236,380,237,375,316,391"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="317,248,268,259,266,254,316,243"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="324,252,316,257,301,274,293,291,285,309,268,326,238,342,235,337,265,322,281,306,288,289,296,271,313,253,321,247"/>
+<area shape="poly" id="edge13_Node000011_Node000008" title=" " alt="" coords="299,288,267,288,267,283,299,283"/>
+<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="326,314,226,338,224,333,325,309"/>
+<area shape="poly" id="edge16_Node000012_Node000008" title=" " alt="" coords="323,331,258,315,259,310,325,325"/>
+<area shape="poly" id="edge17_Node000012_Node000009" title=" " alt="" coords="299,357,237,358,237,352,299,351"/>
+</map>

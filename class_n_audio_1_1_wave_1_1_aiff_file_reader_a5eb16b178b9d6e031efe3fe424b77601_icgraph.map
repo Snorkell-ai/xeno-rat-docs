@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.AiffFileReader.ReadAiffHeader" name="NAudio.Wave.AiffFileReader.ReadAiffHeader">
+<area shape="rect" id="Node000001" title="Reads the AIFF header from the provided stream and extracts the wave format, data chunk position,..." alt="" coords="245,5,436,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#ae9075221902376de4191d0b4bc9be7e4" title="Creates an Aiff File Reader based on an input stream." alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

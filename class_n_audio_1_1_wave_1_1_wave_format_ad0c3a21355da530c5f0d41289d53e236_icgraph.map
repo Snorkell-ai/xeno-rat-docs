@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.WaveFormat.Equals" name="NAudio.Wave.WaveFormat.Equals">
+<area shape="rect" id="Node000001" title="Determines whether the current WaveFormat object is equal to another object." alt="" coords="586,46,809,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#a36cddc41fc702b48e6730b6262e0e847" title="Adds an input audio stream to the mixer." alt="" coords="296,5,538,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="570,47,538,43,539,37,571,41"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#a80c4032e16125acba88f0a7b5c28d48e" title="Adds an input audio stream to the mixer." alt="" coords="302,71,532,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="571,76,533,80,532,75,570,71"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#a9f4a7b29e35effa58de222c2d85c3b34" title="Creates a new 32 bit MixingWaveProvider32." alt="" coords="5,5,248,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="280,28,248,28,248,23,280,23"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#a395ec8a09ca71b0f58fc4534270faca7" title="Creates a new 32 bit WaveMixerStream." alt="" coords="11,71,242,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="286,94,242,94,242,88,286,88"/>
+</map>

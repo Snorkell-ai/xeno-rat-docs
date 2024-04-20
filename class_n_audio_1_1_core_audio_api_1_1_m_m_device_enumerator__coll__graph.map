@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.MMDeviceEnumerator" name="NAudio.CoreAudioApi.MMDeviceEnumerator">
+<area shape="rect" id="Node000001" title="MM Device Enumerator." alt="" coords="27,258,233,527"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="5,67,87,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,146,94,257,89,259,57,148"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_m_m_device_enumerator.html" title=" " alt="" coords="111,5,317,195"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,195,176,242,171,241,184,194"/>
+</map>

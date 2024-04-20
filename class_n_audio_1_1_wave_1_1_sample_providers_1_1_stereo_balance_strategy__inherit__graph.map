@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.StereoBalanceStrategy" name="NAudio.Wave.SampleProviders.StereoBalanceStrategy">
+<area shape="rect" id="Node000001" title="Simplistic &quot;balance&quot; control &#45; treating the mono input as if it was stereo In the centre,..." alt="" coords="5,119,205,199"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_sample_providers_1_1_i_pan_strategy.html" title="Required Interface for a Panning Strategy." alt="" coords="49,5,161,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,85,108,119,103,119,103,85"/>
+</map>

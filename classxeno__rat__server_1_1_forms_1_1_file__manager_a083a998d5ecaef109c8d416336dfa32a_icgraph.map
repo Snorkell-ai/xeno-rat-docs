@@ -1,0 +1,21 @@
+<map id="xeno_rat_server.Forms.File_manager.UpdateListViewNonInvoke" name="xeno_rat_server.Forms.File_manager.UpdateListViewNonInvoke">
+<area shape="rect" id="Node000001" title="Updates the list view without invoking the UI thread, using the provided file path." alt="" coords="790,125,1027,166"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#a52b4bc7ed29e3d23318af10975ba41ba" title="Asynchronously updates the list view with the contents of the specified directory without requiring a..." alt="" coords="527,125,706,166"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="775,148,707,148,707,143,775,143"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#aca28d2353ab43040e4910f115f3888e8" title="Deletes the file associated with the selected menu item and updates the list view." alt="" coords="510,7,724,47"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="850,121,741,72,682,50,684,45,743,67,853,116"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#aea9c6d166f9c6f554e8aaa3db9783ab3" title="Initializes the object asynchronously by creating a FileViewer, sending type, and updating the list v..." alt="" coords="248,71,428,111"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="796,125,742,116,575,102,428,95,428,90,576,96,743,111,796,119"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#a02fec52a8333ac9e996db61c9facf5d4" title="Handles the event when the user double&#45;clicks on an item in the list view." alt="" coords="491,191,742,231"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="800,173,711,193,710,187,799,167"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#a58670d546f9e584049d6db1c5c51bcd1" title="Handles the KeyDown event for textBox1 and updates the ListView if the Enter key is pressed." alt="" coords="518,256,715,297"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="866,177,809,212,743,245,709,258,707,253,741,241,807,208,864,173"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#a5494a4a5c5c535545adc45ee3a0d438a" title="Initializes the components of the form, including tab controls, buttons, text boxes,..." alt="" coords="240,136,436,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="511,152,437,155,436,150,511,147"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#a7ed7c5b7981d18cefff899f885faa89b" title=" " alt="" coords="5,104,185,145"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="224,144,185,139,186,134,224,139"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#aa875185f0c0df6b530838d86fff9a442" title="Handles the mouse click event on the listView1 control, and displays a context menu with options base..." alt="" coords="233,5,443,46"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="494,29,443,29,443,24,494,24"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="233,108,185,115,185,109,232,103"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="511,253,490,245,424,213,369,179,371,175,426,208,492,241,513,248"/>
+</map>

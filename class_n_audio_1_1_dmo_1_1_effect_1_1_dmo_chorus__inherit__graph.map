@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.Effect.DmoChorus" name="NAudio.Dmo.Effect.DmoChorus">
+<area shape="rect" id="Node000001" title="DMO Chorus Effect." alt="" coords="5,173,207,359"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_dmo_effector.html" title=" " alt="" coords="17,5,195,125"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,140,109,174,103,174,103,140"/>
+</map>

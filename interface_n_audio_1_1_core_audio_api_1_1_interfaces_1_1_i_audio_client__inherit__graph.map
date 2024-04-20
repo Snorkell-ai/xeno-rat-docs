@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IAudioClient" name="NAudio.CoreAudioApi.Interfaces.IAudioClient">
+<area shape="rect" id="Node000001" title="Windows CoreAudio IAudioClient interface Defined in AudioClient.h." alt="" coords="5,5,211,305"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_client2.html" title="https://docs.microsoft.com/en&#45;us/windows/win32/api/audioclient/nn&#45;audioclient&#45;iaudioclient2" alt="" coords="5,353,211,473"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,320,111,354,105,354,105,320"/>
+</map>

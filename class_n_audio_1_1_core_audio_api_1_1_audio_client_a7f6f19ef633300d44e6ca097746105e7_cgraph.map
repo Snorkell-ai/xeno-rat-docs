@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.AudioClient.ActivateAsync" name="NAudio.CoreAudioApi.AudioClient.ActivateAsync">
+<area shape="rect" id="Node000001" title="Activates an audio client asynchronously and returns the activated AudioClient." alt="" coords="5,39,191,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_native_methods.html#aecd18ffd21ad2cb805b8041582f5a78c" title="Activates an audio interface asynchronously." alt="" coords="239,5,521,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,45,223,42,224,47,191,51"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#afffcb0fdb08a78b4fc57d698ee720620" title=" " alt="" coords="287,71,473,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,67,272,76,271,81,191,72"/>
+</map>

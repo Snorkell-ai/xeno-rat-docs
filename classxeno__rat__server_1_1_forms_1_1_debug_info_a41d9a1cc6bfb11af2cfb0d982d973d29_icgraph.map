@@ -1,0 +1,9 @@
+<map id="xeno_rat_server.Forms.DebugInfo.PopulateConsoleOutput" name="xeno_rat_server.Forms.DebugInfo.PopulateConsoleOutput">
+<area shape="rect" id="Node000001" title="Populates the console output in the RichTextBox control asynchronously." alt="" coords="738,5,935,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_debug_info.html#a3b7fb0d6d31bf0b87f5329c0ab4d37dc" title="Populates the console output asynchronously." alt="" coords="494,5,690,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="723,28,691,28,691,23,723,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_debug_info.html#aef290e66c26d9d01c59eb776b515dda6" title="Initializes the components of the form including the list view, buttons, labels, and text boxes." alt="" coords="250,5,446,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="479,28,447,28,447,23,479,23"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_debug_info.html#a4a2bb8c2aa6f1ac20bdbb21d33060875" title=" " alt="" coords="5,5,202,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
+</map>

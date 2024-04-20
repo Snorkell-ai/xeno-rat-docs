@@ -1,0 +1,6 @@
+<map id="xeno_rat_server.Forms.Reverse_Proxy.button2_Click" name="xeno_rat_server.Forms.Reverse_Proxy.button2_Click">
+<area shape="rect" id="Node000001" title="Clears the killnodes list, disconnects each node, closes the new_socket if not null,..." alt="" coords="5,22,213,63"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="261,29,479,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,40,245,40,245,45,213,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="327,31,318,21,324,11,341,5,370,3,402,5,418,13,416,17,401,11,370,8,342,10,327,15,324,20,331,27"/>
+</map>

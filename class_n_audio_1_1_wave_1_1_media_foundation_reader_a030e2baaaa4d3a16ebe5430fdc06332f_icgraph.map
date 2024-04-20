@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.MediaFoundationReader.Init" name="NAudio.Wave.MediaFoundationReader.Init">
+<area shape="rect" id="Node000001" title="Initializes the MediaFoundationReader with the specified settings." alt="" coords="303,39,507,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a478c60af06406213cd899a93ec6c51ab" title="Creates a new MediaFoundationReader based on the supplied file." alt="" coords="26,5,234,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="287,47,234,41,234,36,288,42"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html#ad4b042f9d2fb5e83ae115deac0a104ac" title="Constructs a new media foundation reader from a stream." alt="" coords="5,71,255,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="287,75,256,79,255,74,287,70"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="xeno_rat_server.IconInjector.IconFile" name="xeno_rat_server.IconInjector.IconFile">
+<area shape="rect" id="Node000001" title=" " alt="" coords="209,322,389,442"/>
+<area shape="rect" id="Node000002" href="$structxeno__rat__server_1_1_icon_injector_1_1_i_c_o_n_d_i_r.html" title=" " alt="" coords="5,179,185,259"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,256,213,309,210,313,143,261"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="119,5,168,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,63,108,78,99,96,92,128,91,162,85,162,86,128,94,94,104,75,117,60"/>
+<area shape="rect" id="Node000004" href="$structxeno__rat__server_1_1_icon_injector_1_1_i_c_o_n_d_i_r_e_n_t_r_y.html" title=" " alt="" coords="209,179,389,259"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="160,69,184,111,216,153,229,166,225,170,212,156,180,114,156,72"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="302,258,302,305,297,305,297,258"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="426,5,463,71"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="466,65,478,94,484,125,478,155,460,199,435,240,407,278,378,311,374,308,403,275,431,237,455,197,473,154,478,125,473,95,461,67"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="429,60,400,96,385,126,368,156,358,168,354,165,364,153,380,124,395,93,424,57"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="270,5,297,71"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="285,70,288,154,289,161,283,162,282,155,279,70"/>
+</map>

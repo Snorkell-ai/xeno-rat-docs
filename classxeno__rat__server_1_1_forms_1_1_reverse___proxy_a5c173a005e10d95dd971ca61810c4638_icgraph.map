@@ -1,0 +1,18 @@
+<map id="xeno_rat_server.Forms.Reverse_Proxy.replyMethodSelection" name="xeno_rat_server.Forms.Reverse_Proxy.replyMethodSelection">
+<area shape="rect" id="Node000001" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="1541,39,1749,79"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="1282,5,1493,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1525,46,1494,42,1494,37,1526,41"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a791720080915c8d82d3cd1713da6589c" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="1284,71,1491,111"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1526,76,1492,81,1491,75,1526,71"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,39,1234,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1267,44,1235,48,1234,43,1266,39"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,39,979,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1011,62,979,62,979,56,1011,56"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,39,723,79"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="756,62,724,62,724,56,756,56"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,39,468,79"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="500,62,468,62,468,56,500,56"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,39,213,79"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="245,62,213,62,213,56,245,56"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="1268,79,1234,75,1235,69,1269,74"/>
+</map>

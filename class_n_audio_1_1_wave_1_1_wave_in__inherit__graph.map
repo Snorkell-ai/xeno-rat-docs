@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveIn" name="NAudio.Wave.WaveIn">
+<area shape="rect" id="Node000001" title="Allows recording using the Windows waveIn APIs Events are raised as recorded buffers are made availab..." alt="" coords="5,252,177,857"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_in.html" title="Generic interface for wave recording." alt="" coords="32,119,151,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,219,94,252,89,252,89,219"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="51,5,132,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,85,94,119,89,119,89,85"/>
+</map>

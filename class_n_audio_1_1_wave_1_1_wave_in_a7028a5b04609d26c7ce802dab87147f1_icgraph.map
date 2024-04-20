@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveIn.OpenWaveInDevice" name="NAudio.Wave.WaveIn.OpenWaveInDevice">
+<area shape="rect" id="Node000001" title="Opens the wave input device and creates necessary buffers." alt="" coords="235,5,452,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#ac73083af2ea40dab1577caf35c79c7cd" title="Starts the audio recording process." alt="" coords="5,5,187,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
+</map>

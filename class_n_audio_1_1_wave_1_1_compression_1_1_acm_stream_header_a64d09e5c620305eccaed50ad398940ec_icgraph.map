@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.Compression.AcmStreamHeader.Unprepare" name="NAudio.Wave.Compression.AcmStreamHeader.Unprepare">
+<area shape="rect" id="Node000001" title="Unprepares the audio stream for conversion by updating the stream header and unpreparing the header u..." alt="" coords="1098,39,1293,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header.html#a7228c03c6b6a75d2b8277e3933737552" title="Converts the specified number of bytes using the Audio Compression Manager (ACM) and returns the numb..." alt="" coords="863,39,1050,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1082,62,1050,62,1050,56,1082,56"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#aa240cf20a99f383a3b7a794a6fe27335" title="Converts the specified number of bytes and returns the converted bytes count." alt="" coords="629,39,815,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="848,62,816,62,816,56,848,56"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html#ac610794603b1a5da03071f32b1a8a501" title="Decompresses the provided Mp3Frame and copies the decompressed data to the destination array starting..." alt="" coords="299,5,581,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="613,49,581,45,582,40,614,44"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_provider.html#ac3e887b918c465fbe87326700b2cf79c" title="Reads data from the input buffer and returns the number of bytes read." alt="" coords="317,71,563,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="614,74,563,80,563,74,613,69"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a0df2a83dda6580760db5c3423d6249a4" title="Reads a sequence of bytes from the current stream and advances the position within the stream by the ..." alt="" coords="5,71,251,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="301,94,251,94,251,88,301,88"/>
+</map>

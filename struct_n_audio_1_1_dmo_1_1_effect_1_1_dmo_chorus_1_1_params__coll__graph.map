@@ -1,0 +1,11 @@
+<map id="NAudio.Dmo.Effect.DmoChorus.Params" name="NAudio.Dmo.Effect.DmoChorus.Params">
+<area shape="rect" id="Node000001" title="DMO Chorus Params." alt="" coords="140,318,345,658"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,23,43,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="21,88,16,130,15,183,21,239,38,293,56,325,78,354,129,406,125,410,74,358,51,328,33,295,16,240,10,183,11,130,16,87"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="79,23,233,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,88,156,181,160,238,168,294,170,302,165,303,163,295,154,238,150,181,151,88"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="257,23,385,88"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="321,88,309,181,291,295,289,302,284,301,285,294,303,180,315,88"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="410,5,579,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="485,106,456,196,435,247,410,296,358,370,354,367,406,293,430,245,451,194,480,104"/>
+</map>

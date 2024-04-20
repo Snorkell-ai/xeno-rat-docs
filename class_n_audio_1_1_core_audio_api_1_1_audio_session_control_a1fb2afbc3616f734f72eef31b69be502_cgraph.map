@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioSessionControl.RegisterEventClient" name="NAudio.CoreAudioApi.AudioSessionControl.RegisterEventClient">
+<area shape="rect" id="Node000001" title="Registers an event client for handling audio session events." alt="" coords="5,13,237,54"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_control.html#ad5b6cfa52d2a9cd681056f8e80fd1dab" title="Registers the client to receive notifications of session events, including changes in the session sta..." alt="" coords="285,5,518,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,31,269,31,269,36,237,36"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="NAudio.Wave.Asio.AsioDriverExt.SetSampleRate" name="NAudio.Wave.Asio.AsioDriverExt.SetSampleRate">
+<area shape="rect" id="Node000001" title="Sets the sample rate for the driver and updates the capabilities." alt="" coords="5,296,202,337"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a4d8c8082920803501cfe51095064209a" title="Builds the capabilities of the ASIO driver, including driver name, input/output channels,..." alt="" coords="251,201,448,242"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,293,279,246,281,251,159,298"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a9ab5496ddf3f7572a1c9ea967432f8e4" title="Sets the sample rate for the ASIO driver." alt="" coords="250,328,449,369"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="202,326,234,331,234,336,202,332"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#ae71d8b791f4be3c4e68ad2fbe7c5dd88" title="Retrieves the buffer size information from the ASIO driver." alt="" coords="497,5,696,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,199,415,130,453,91,495,57,505,51,508,55,499,61,456,95,419,134,366,203"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a0097264cfac08cc18b7a7b68c0d2245e" title="Retrieves the information about the specified channel." alt="" coords="497,71,696,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="376,199,430,160,496,122,511,115,513,120,498,127,433,165,379,203"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a6b1146266c5a2417ed80be6411b98ad4" title="Retrieves the number of input and output channels available." alt="" coords="497,136,696,177"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="428,198,501,179,503,184,430,203"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#ae07aee2172b0a429129a05c7844e05c9" title="Retrieves the name of the ASIO driver." alt="" coords="497,201,696,242"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="448,219,482,219,482,224,448,224"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a5cd7dfeb49a5aa1a77d35aba9ca55acc" title="Retrieves the input and output latencies of the ASIO driver." alt="" coords="497,267,696,307"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="430,240,503,260,501,265,428,245"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a9b675df63cb0492a589581316375f7e8" title="Retrieves the sample rate from the ASIO driver." alt="" coords="497,332,696,373"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="379,240,433,278,498,317,513,323,511,328,496,321,430,283,376,245"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a76105cefc713c3dcc7e9bfd8dba74735" title="Handles the exception for the ASIO method." alt="" coords="744,136,944,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="668,44,698,57,755,90,805,124,802,129,752,94,695,61,666,49"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="677,109,750,129,749,134,676,115"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="697,154,729,154,729,159,697,159"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="672,329,695,317,733,287,767,253,819,188,823,191,771,257,736,291,698,321,674,334"/>
+<area shape="poly" id="edge13_Node000010_Node000004" title=" " alt="" coords="398,367,461,388,538,404,578,407,619,405,658,397,695,382,721,364,745,343,783,291,811,237,830,191,835,193,816,240,788,294,749,346,725,369,698,387,660,402,619,411,578,413,537,409,460,393,397,372"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="NAudio.Wave.WaveFormatConversionStream.CreatePcmStream" name="NAudio.Wave.WaveFormatConversionStream.CreatePcmStream">
+<area shape="rect" id="Node000001" title="Creates a PCM stream from the given source stream." alt="" coords="5,193,251,234"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a8560106a6c931d00eca5a850b6cb8fb7" title="Suggests a PCM format based on the given compressed format." alt="" coords="318,136,529,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,190,303,177,304,182,237,195"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a524b0dca3af9e1ba0c6efe8841160e4b" title="Create a new WaveFormat conversion stream." alt="" coords="299,225,548,266"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="252,224,284,228,283,233,251,230"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a14ba02700b84dcc9265515d80d2b63db" title="Suggests a destination format for converting an audio format." alt="" coords="612,5,825,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="454,133,518,95,595,57,616,49,617,54,597,61,520,100,457,138"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a4ae1cf5fe788f4ef0bb18fe03ab6e114" title="Marshals a WaveFormat structure from the specified pointer." alt="" coords="604,71,833,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="518,133,608,113,609,118,519,138"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a8ac2acc4d7ca485fca7c3077f25a6814" title="Marshals the WaveFormat structure to a pointer." alt="" coords="604,136,833,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="529,154,588,154,588,159,529,159"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="633,201,804,227"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="530,174,634,195,633,200,529,179"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="889,201,1122,227"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="805,211,873,211,873,216,805,216"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#abcfcbf101f043b62401d462313a04d9e" title="Estimates the destination position based on the source position." alt="" coords="596,251,841,291"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="549,254,581,256,580,262,548,259"/>
+</map>

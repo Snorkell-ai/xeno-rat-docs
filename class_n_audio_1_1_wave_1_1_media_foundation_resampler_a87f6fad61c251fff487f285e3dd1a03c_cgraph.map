@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.MediaFoundationResampler.CreateResamplerComObject" name="NAudio.Wave.MediaFoundationResampler.CreateResamplerComObject">
+<area shape="rect" id="Node000001" title="Creates and returns a resampler COM object based on the platform." alt="" coords="5,13,261,54"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a8d8f5fbf5318edc19774c40623ad076a" title="Creates a resampler COM object using the Activator." alt="" coords="309,5,564,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,31,293,31,293,36,261,36"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#aad9c82163178fdbbaefad47ccd1958a7" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="612,13,849,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="564,31,596,31,596,36,564,36"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a99952d1ef154226e93c108c63b3e964e" title="Enumerates Media Foundation transforms (MFTs) that match the specified search criteria." alt="" coords="897,13,1104,54"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="850,31,882,31,882,36,850,36"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.AudioStreamVolume.GetChannelVolume" name="NAudio.CoreAudioApi.AudioStreamVolume.GetChannelVolume">
+<area shape="rect" id="Node000001" title="Retrieves the volume level of the specified audio channel." alt="" coords="5,39,230,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_stream_volume.html#a9e890e6cbb06def0e461a9656e046886" title="Checks if the provided channel index is within the valid range." alt="" coords="294,5,523,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,43,278,38,278,43,231,49"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_stream_volume.html#a322e6c450bb067de6b0084e7a926be46" title=" " alt="" coords="278,71,539,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,69,262,72,262,78,230,74"/>
+</map>

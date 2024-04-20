@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.MetaEvent.ReadMetaEvent" name="NAudio.Midi.MetaEvent.ReadMetaEvent">
+<area shape="rect" id="Node000001" title="Reads a meta event from the provided BinaryReader and returns the corresponding MetaEvent object." alt="" coords="481,5,675,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html#aa07c093ef6d5c60dfc2bf669bd179c86" title="Reads the next MIDI event from the BinaryReader and returns the corresponding MidiEvent." alt="" coords="244,5,433,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="465,28,433,28,433,23,465,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_file.html#a8b288d8e81803e8a8ad9591ec02533f9" title=" " alt="" coords="5,13,196,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,28,196,28,196,23,228,23"/>
+</map>

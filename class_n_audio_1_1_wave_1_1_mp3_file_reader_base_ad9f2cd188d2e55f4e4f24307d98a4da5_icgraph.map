@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Mp3FileReaderBase.ValidateFrameFormat" name="NAudio.Wave.Mp3FileReaderBase.ValidateFrameFormat">
+<area shape="rect" id="Node000001" title="Validates the format of the MP3 frame." alt="" coords="488,5,681,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a1c78303cd515a3b9c7f7a0133b7703a5" title="Creates a table of contents for the MP3 file by reading the frames and populating the table of conten..." alt="" coords="247,5,440,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="473,28,440,28,440,23,473,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ef942cc623142a9827edcff17f55e12" title=" " alt="" coords="5,5,199,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
+</map>

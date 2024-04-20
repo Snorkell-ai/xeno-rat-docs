@@ -1,0 +1,8 @@
+<map id="NAudio.Dsp.AttRelEnvelope" name="NAudio.Dsp.AttRelEnvelope">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,387,184,512"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="69,5,120,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,71,89,164,89,309,92,370,86,370,83,309,83,164,89,70"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dsp_1_1_envelope_detector.html" title=" " alt="" coords="188,164,380,309"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="122,63,205,150,201,153,118,67"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,311,163,376,159,373,218,307"/>
+</map>

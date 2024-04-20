@@ -1,0 +1,11 @@
+<map id="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL" name="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL">
+<area shape="rect" id="Node000001" title="Creates a sink writer for a specified output URL." alt="" coords="510,31,757,87"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a848810bce9785fd7039a6969fba91c08" title=" " alt="" coords="258,5,462,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,45,462,41,463,35,495,39"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a4b1a69cd09122c174671717702b60e2f" title="Creates a sink writer for writing media data to the specified output stream with the given transcode ..." alt="" coords="258,71,462,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="495,78,463,82,462,76,494,73"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a56428796df5aa6b97bdd8120ee45f8da" title="Encodes a file." alt="" coords="5,37,210,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="242,78,210,74,211,69,243,73"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aebccd4140a11632dc259156dea1f4018" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="5,103,210,143"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="243,109,211,113,210,107,242,103"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.WasapiCapture.InitializeCaptureDevice" name="NAudio.CoreAudioApi.WasapiCapture.InitializeCaptureDevice">
+<area shape="rect" id="Node000001" title="Initializes the capture device for audio recording." alt="" coords="249,5,455,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a9eb95d2da72e384fefe2e071c64784ee" title="Starts the recording process." alt="" coords="5,5,201,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,28,201,28,201,23,233,23"/>
+</map>

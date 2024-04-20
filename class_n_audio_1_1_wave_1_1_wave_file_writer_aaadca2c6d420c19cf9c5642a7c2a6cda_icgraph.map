@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.WaveFileWriter.UpdateRiffChunk" name="NAudio.Wave.WaveFileWriter.UpdateRiffChunk">
+<area shape="rect" id="Node000001" title="Updates the RIFF chunk in the output stream with the correct size." alt="" coords="738,72,935,113"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#ab50c1f10814b936065f8d7f5d3584fa2" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="494,72,690,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="723,95,691,95,691,90,723,90"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#aea4aae5af23f69630e9a4028555462b6" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="250,39,446,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="478,79,446,75,447,70,479,74"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a36afa5daa41363d0303dd37a363f16d9" title="Updates the header and flushes the underlying stream." alt="" coords="250,104,446,145"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="479,110,447,114,446,109,478,105"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_recorder.html#aed186a830758160c74ec883780dc79b8" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="6,5,201,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="234,46,201,42,201,36,235,41"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a1fb5e2e471f0015a03c9b203900374d9" title="Finaliser &#45; should only be called if the user forgot to close this WaveFileWriter." alt="" coords="5,71,202,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="235,77,203,81,202,75,234,71"/>
+</map>

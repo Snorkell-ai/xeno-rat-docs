@@ -1,0 +1,76 @@
+<map id="xeno_rat_client.SocketHandler.RecvAllAsync_ddos_unsafer" name="xeno_rat_client.SocketHandler.RecvAllAsync_ddos_unsafer">
+<area shape="rect" id="Node000001" title="Asynchronously receives all the data of the specified size from the connected socket and returns it a..." alt="" coords="1699,473,1901,514"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_socket_handler.html#ac05e4943d4ffdb6a72fa80e8f4bbede6" title="Asynchronously receives data and performs various operations on it, such as decryption,..." alt="" coords="1448,473,1651,514"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1683,496,1651,496,1651,491,1683,491"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__client_1_1_node.html#a1921e91abd598cf2ea5580bee86a89f2" title="Authenticates the connection based on the specified type and optional ID." alt="" coords="1179,223,1400,263"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1514,464,1310,266,1314,262,1518,460"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__client_1_1_node.html#a5e2f1397fe3500c1f49ae17e4b91cde4" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="1192,505,1388,546"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="1433,511,1389,516,1388,511,1433,505"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__client_1_1_utils.html#a1b80c734536096188c0fd2f6140ad285" title="Connects to a socket, sets up a node, and authenticates it asynchronously." alt="" coords="938,5,1131,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1265,212,1208,140,1171,101,1129,67,1098,49,1100,44,1133,62,1174,97,1212,136,1269,209"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__client_1_1_node.html#a8cd530137de59c6bc9f192e779dc26f3" title="Asynchronously connects a sub socket and sets up the connection with the specified parameters." alt="" coords="685,40,883,81"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="923,44,884,49,883,44,922,39"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__client_1_1_program.html#a8e01c4689de41166b75a03fda71d12f0" title="Main function for the XenoUpdateManager application." alt="" coords="5,52,200,77"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="922,28,678,31,419,44,201,59,200,54,419,39,678,26,922,22"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__client_1_1_handler.html#ad71391058f264e78c9c31d0dcbc19007" title="Asynchronously creates a sub socket based on the provided data." alt="" coords="463,105,624,146"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="693,88,622,107,621,102,692,83"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__client_1_1_handler.html#af958615880e2daf8a8d0ede5f4c53363" title="Asynchronously receives data and performs different actions based on the received opcode." alt="" coords="248,105,409,146"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="447,128,410,128,410,123,447,123"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="235,103,152,80,153,75,237,98"/>
+<area shape="poly" id="edge42_Node000009_Node000007" title=" " alt="" coords="1270,493,1247,453,1216,406,1176,361,1130,323,1069,289,1014,268,964,257,914,252,809,246,748,239,678,226,399,149,400,144,679,220,748,234,809,241,915,246,964,252,1016,263,1071,284,1132,318,1180,357,1220,403,1252,450,1274,490"/>
+<area shape="rect" id="Node000010" href="$class_plugin_1_1_main.html#a4c91e07145615a0b386f6fa9c8e22c9f" title="Asynchronously accepts a sub&#45;node and adds it to the current node&#39;s sub&#45;nodes." alt="" coords="678,412,890,437"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="1260,496,1204,442,1169,418,1130,399,1090,388,1048,382,1005,382,963,384,886,397,825,413,824,408,885,392,962,379,1005,376,1048,377,1091,383,1132,394,1171,413,1208,438,1264,492"/>
+<area shape="rect" id="Node000011" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="485,690,602,716"/>
+<area shape="poly" id="edge34_Node000009_Node000011" title=" " alt="" coords="1265,494,1241,462,1210,427,1172,395,1130,371,1064,345,1004,326,948,315,896,312,844,319,792,335,738,362,680,401,646,433,618,470,596,512,579,555,558,635,549,690,544,689,552,634,574,553,591,510,614,468,642,429,677,397,735,358,790,330,843,314,895,307,949,310,1005,321,1066,340,1132,366,1176,391,1214,423,1245,459,1269,491"/>
+<area shape="rect" id="Node000012" href="$class_plugin_1_1_main.html#a4bde254856f1641e9514ad25ef538962" title="Asynchronously deletes a file from the specified path and sends a success signal if the operation is ..." alt="" coords="958,438,1111,464"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="1211,503,1130,478,1091,467,1092,462,1132,472,1213,498"/>
+<area shape="rect" id="Node000013" href="$class_plugin_1_1_main.html#ae17a6824e13f8994fa8203747ef5e008" title="Handles file management operations based on the type of request received from the node." alt="" coords="679,537,889,563"/>
+<area shape="poly" id="edge20_Node000009_Node000013" title=" " alt="" coords="1252,498,1197,459,1165,441,1130,428,1077,414,1034,409,991,413,939,428,893,451,853,481,820,513,798,538,794,535,817,509,850,477,891,446,937,423,990,408,1034,403,1078,409,1132,423,1167,436,1200,454,1255,493"/>
+<area shape="rect" id="Node000014" href="$classxeno__rat__client_1_1_dll_handler.html#aa28cc98e44e6f05ee0109d4211d69f67" title="Handles the DLL node by receiving, loading, and invoking the specified DLL." alt="" coords="946,120,1123,161"/>
+<area shape="poly" id="edge15_Node000009_Node000014" title=" " alt="" coords="1271,492,1190,308,1151,222,1129,181,1104,164,1107,159,1133,177,1156,219,1195,306,1276,490"/>
+<area shape="rect" id="Node000015" href="$classxeno__rat__client_1_1_handler.html#ad419768db746814c3500009dd29101b8" title="Asynchronously receives data from the specified subServer node and processes it based on the received..." alt="" coords="703,105,865,146"/>
+<area shape="poly" id="edge45_Node000009_Node000015" title=" " alt="" coords="1269,493,1225,396,1176,276,1169,249,1166,225,1166,182,1164,163,1158,145,1148,128,1129,111,1111,102,1085,96,1016,95,939,102,865,113,865,108,938,97,1016,90,1085,91,1112,97,1133,106,1152,124,1163,143,1169,162,1171,182,1172,225,1175,248,1182,274,1230,394,1274,491"/>
+<area shape="rect" id="Node000016" href="$class_plugin_1_1_main.html#aaa393e2cb3b72c100332f223fb64e352" title="Downloads a file from the specified node and saves it to the specified path." alt="" coords="943,488,1126,513"/>
+<area shape="poly" id="edge18_Node000009_Node000016" title=" " alt="" coords="1176,517,1126,512,1127,507,1176,512"/>
+<area shape="rect" id="Node000017" href="$class_plugin_1_1_main.html#a9cefbf6142aea997fd2ebfe27847d8d3" title="Asynchronously uploads a file to the specified node." alt="" coords="951,537,1118,563"/>
+<area shape="poly" id="edge21_Node000009_Node000017" title=" " alt="" coords="1176,539,1118,544,1118,539,1176,534"/>
+<area shape="rect" id="Node000018" href="$class_plugin_1_1_main.html#af9b221ceac69986fcf58eeee66b687cf" title="Asynchronously retrieves and sends directory and file information to the connected node." alt="" coords="957,586,1112,612"/>
+<area shape="poly" id="edge23_Node000009_Node000018" title=" " alt="" coords="1211,554,1132,578,1092,588,1091,583,1130,572,1209,549"/>
+<area shape="rect" id="Node000019" href="$class_plugin_1_1_socks5_handler.html#ab8f78f7ae0a2ac192b96ddcaabfd9360" title="Asynchronously receives and sends data between the remote socket and subnode using the specified buff..." alt="" coords="942,736,1127,777"/>
+<area shape="poly" id="edge25_Node000009_Node000019" title=" " alt="" coords="1271,561,1214,639,1176,682,1133,720,1101,738,1099,733,1129,715,1172,678,1210,636,1266,557"/>
+<area shape="rect" id="Node000020" href="$class_plugin_1_1_socks5_handler.html#a547513c97f841935dd30a4939fd11ded" title="Asynchronously starts the communication process with the specified destination address and port." alt="" coords="693,690,875,716"/>
+<area shape="poly" id="edge37_Node000009_Node000020" title=" " alt="" coords="1267,560,1211,622,1173,652,1132,676,1068,698,1000,710,934,714,875,714,875,709,934,709,999,704,1066,693,1130,671,1170,648,1207,618,1263,557"/>
+<area shape="rect" id="Node000021" href="$class_chat_1_1_chat_form.html#a1b537d412a1f6730c92a2d1022488fd6" title="Asynchronously receives data from the server and updates the UI with the received message." alt="" coords="941,953,1128,979"/>
+<area shape="poly" id="edge28_Node000009_Node000021" title=" " alt="" coords="1287,562,1274,639,1248,739,1228,792,1202,844,1171,892,1133,936,1102,955,1100,950,1129,932,1166,889,1197,841,1223,790,1243,737,1269,637,1282,561"/>
+<area shape="rect" id="Node000024" href="$class_plugin_1_1_main.html#ad3edeeb801a9b8d82ad07c5a7de4da5b" title="Asynchronously receives data from the specified node and processes it based on the received commands." alt="" coords="955,1002,1114,1028"/>
+<area shape="poly" id="edge31_Node000009_Node000024" title=" " alt="" coords="1290,562,1281,649,1272,705,1258,766,1238,827,1211,888,1176,944,1133,993,1116,1005,1113,1000,1129,989,1172,941,1206,885,1233,825,1253,764,1267,704,1276,649,1285,561"/>
+<area shape="rect" id="Node000025" href="$class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronously receives data from the specified node and processes it accordingly." alt="" coords="702,748,866,773"/>
+<area shape="poly" id="edge32_Node000009_Node000025" title=" " alt="" coords="1282,562,1264,616,1234,680,1214,712,1190,742,1163,769,1132,791,1091,808,1048,817,1003,819,959,815,877,798,816,776,817,771,879,792,960,810,1003,813,1047,812,1090,803,1130,786,1160,765,1186,739,1209,709,1229,677,1259,614,1277,560"/>
+<area shape="rect" id="Node000026" href="$class_plugin_1_1_main.html#a77e32ee26efec350dcd99f36a14a929a" title="Displays a message box with the specified text." alt="" coords="683,812,885,837"/>
+<area shape="poly" id="edge35_Node000009_Node000026" title=" " alt="" coords="1284,562,1268,622,1239,695,1219,732,1195,766,1166,797,1132,823,1095,841,1055,852,1014,858,973,859,895,853,831,840,832,835,896,848,973,854,1014,853,1054,847,1093,836,1130,818,1162,793,1190,763,1214,729,1234,693,1263,621,1279,561"/>
+<area shape="rect" id="Node000027" href="$class_plugin_1_1_main.html#a3b39782a6964bd214686773f154a5bb9" title="Asynchronously starts a file specified by the path received from the node and sends a success signal ..." alt="" coords="963,636,1106,661"/>
+<area shape="poly" id="edge38_Node000009_Node000027" title=" " alt="" coords="1251,557,1196,593,1132,627,1102,637,1100,632,1130,622,1193,589,1248,553"/>
+<area shape="rect" id="Node000028" href="$class_plugin_1_1_main.html#a0e6e68e33adc30ba69d88b3a02dca906" title="Starts a loop to continuously receive and process commands from the specified node." alt="" coords="709,892,859,917"/>
+<area shape="poly" id="edge40_Node000009_Node000028" title=" " alt="" coords="1286,562,1271,628,1243,711,1223,754,1198,795,1168,832,1133,864,1101,883,1067,898,994,915,922,920,859,917,859,912,922,914,993,909,1065,893,1098,878,1129,860,1164,829,1194,792,1218,752,1238,709,1266,627,1280,561"/>
+<area shape="rect" id="Node000029" href="$classxeno__rat__client_1_1_handler.html#a465e861a4d3ea4abcb82e33678598d1f" title="Asynchronously receives heartbeat messages from the specified subServer and sends a heartbeat reply i..." alt="" coords="703,171,865,211"/>
+<area shape="poly" id="edge43_Node000009_Node000029" title=" " alt="" coords="1272,492,1244,426,1208,347,1167,276,1148,249,1129,232,1099,214,1066,201,996,185,927,180,865,183,865,177,927,175,997,180,1068,196,1101,210,1133,228,1152,245,1172,273,1212,345,1249,424,1277,490"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="758,449,680,526,606,619,556,691,551,688,602,616,676,523,754,445"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="958,471,939,477,868,508,810,539,808,534,865,504,937,473,956,466"/>
+<area shape="poly" id="edge14_Node000013_Node000011" title=" " alt="" coords="751,574,567,692,564,687,748,569"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="930,137,865,133,865,128,931,132"/>
+<area shape="poly" id="edge17_Node000015_Node000006" title=" " alt="" coords="688,128,625,128,625,123,688,123"/>
+<area shape="poly" id="edge19_Node000016_Node000013" title=" " alt="" coords="951,519,853,539,852,534,950,514"/>
+<area shape="poly" id="edge22_Node000017_Node000013" title=" " alt="" coords="935,552,889,552,889,547,935,547"/>
+<area shape="poly" id="edge24_Node000018_Node000013" title=" " alt="" coords="950,585,852,566,853,561,951,580"/>
+<area shape="poly" id="edge26_Node000019_Node000020" title=" " alt="" coords="926,736,847,719,848,714,928,731"/>
+<area shape="poly" id="edge27_Node000020_Node000011" title=" " alt="" coords="678,706,603,706,603,700,678,700"/>
+<area shape="rect" id="Node000022" href="$class_chat_1_1_chat_form.html#a9926347bab99ceaacd2173799af2e901" title="Initializes the asynchronous operations by calling the Heartbeat method and awaiting the RecvThread m..." alt="" coords="702,945,866,986"/>
+<area shape="poly" id="edge29_Node000021_Node000022" title=" " alt="" coords="926,968,866,968,866,963,926,963"/>
+<area shape="rect" id="Node000023" href="$class_chat_1_1_chat_form.html#a2410965bff10ab9e4b1dce9d09a5104e" title=" " alt="" coords="457,953,630,979"/>
+<area shape="poly" id="edge30_Node000022_Node000023" title=" " alt="" coords="687,968,631,968,631,963,687,963"/>
+<area shape="poly" id="edge33_Node000025_Node000011" title=" " alt="" coords="712,746,600,719,601,714,713,741"/>
+<area shape="poly" id="edge36_Node000026_Node000011" title=" " alt="" coords="726,808,677,788,613,752,562,719,565,714,616,747,680,783,728,803"/>
+<area shape="poly" id="edge39_Node000027_Node000013" title=" " alt="" coords="956,633,937,627,865,596,808,566,810,561,868,591,939,622,958,628"/>
+<area shape="poly" id="edge41_Node000028_Node000011" title=" " alt="" coords="735,887,677,852,637,817,602,779,552,718,557,715,606,776,641,813,680,848,738,882"/>
+<area shape="poly" id="edge44_Node000029_Node000006" title=" " alt="" coords="692,169,621,149,622,144,693,164"/>
+</map>

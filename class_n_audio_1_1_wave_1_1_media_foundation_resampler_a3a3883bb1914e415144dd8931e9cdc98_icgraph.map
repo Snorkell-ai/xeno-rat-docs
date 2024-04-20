@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.MediaFoundationResampler.FreeComObject" name="NAudio.Wave.MediaFoundationResampler.FreeComObject">
+<area shape="rect" id="Node000001" title="Releases the specified COM object from memory." alt="" coords="303,5,507,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,5,255,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="287,28,255,28,255,23,287,23"/>
+</map>

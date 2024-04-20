@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.SampleToWaveProvider24" name="NAudio.Wave.SampleProviders.SampleToWaveProvider24">
+<area shape="rect" id="Node000001" title="Converts a sample provider to 24 bit PCM, optionally clipping and adjusting volume along the way." alt="" coords="5,119,205,319"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="57,5,154,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,86,108,119,103,119,103,86"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="NAudio.Mixer.MixerControl" name="NAudio.Mixer.MixerControl">
+<area shape="rect" id="Node000001" title="Represents a mixer control." alt="" coords="402,5,571,471"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_boolean_mixer_control.html" title="Boolean mixer control." alt="" coords="5,559,179,679"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="393,330,193,521,152,561,148,557,189,517,390,326"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mixer_1_1_custom_mixer_control.html" title="Custom Mixer control." alt="" coords="203,569,376,669"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="397,416,317,570,312,568,393,414"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mixer_1_1_list_text_mixer_control.html" title="List text mixer control." alt="" coords="400,569,573,669"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="489,486,489,569,484,569,484,486"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_mixer_1_1_signed_mixer_control.html" title="Represents a signed mixer control." alt="" coords="598,519,765,719"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="580,416,633,517,628,520,576,418"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_mixer_1_1_unsigned_mixer_control.html" title="Represents an unsigned mixer control." alt="" coords="789,519,971,719"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="584,329,791,529,788,532,580,333"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Shell.button2_Click" name="xeno_rat_server.Forms.Shell.button2_Click">
+<area shape="rect" id="Node000001" title="Clears the text in the textBox and sends an asynchronous message to the client with the byte value 2." alt="" coords="484,5,718,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_shell.html#af10a3ac1a2f0d4c191277f4411f4cde3" title="Initializes the components of the form including buttons, text boxes, and event handlers." alt="" coords="245,5,436,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="468,28,436,28,436,23,468,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_shell.html#ad594c934f18466fc392c2419fd78e1a9" title=" " alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

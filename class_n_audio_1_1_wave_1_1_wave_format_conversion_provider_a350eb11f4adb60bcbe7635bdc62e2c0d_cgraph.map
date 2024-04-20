@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveFormatConversionProvider.Reposition" name="NAudio.Wave.WaveFormatConversionProvider.Reposition">
+<area shape="rect" id="Node000001" title="Repositions the conversion stream and resets leftover bytes and offsets." alt="" coords="5,5,251,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a8388afd6d6f8982effb2a61ed2fffdb0" title="Repositions the stream header." alt="" coords="299,5,485,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,23,283,23,283,28,251,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header.html#a0f4960041b28c6b9ecec1fa27d41ad74" title="Sets the flag &#39;firstTime&#39; to true, indicating that the repositioning is being performed for the first..." alt="" coords="533,5,730,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="486,23,518,23,518,28,486,28"/>
+</map>

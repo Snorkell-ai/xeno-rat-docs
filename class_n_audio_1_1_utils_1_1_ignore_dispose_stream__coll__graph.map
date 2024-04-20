@@ -1,0 +1,5 @@
+<map id="NAudio.Utils.IgnoreDisposeStream" name="NAudio.Utils.IgnoreDisposeStream">
+<area shape="rect" id="Node000001" title="Pass&#45;through stream that ignores Dispose Useful for dealing with MemoryStreams that you want to re&#45;us..." alt="" coords="5,119,180,439"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="65,5,120,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,85,95,119,90,119,90,85"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveMixerStream32.WaveMixerStream32" name="NAudio.Wave.WaveMixerStream32.WaveMixerStream32">
+<area shape="rect" id="Node000001" title="Creates a new 32 bit WaveMixerStream." alt="" coords="5,5,236,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a2dd0e9ea4097e54981725d6ad7c3290d" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="284,5,506,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,23,268,23,268,28,236,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="554,5,770,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="506,23,539,23,539,28,506,28"/>
+</map>

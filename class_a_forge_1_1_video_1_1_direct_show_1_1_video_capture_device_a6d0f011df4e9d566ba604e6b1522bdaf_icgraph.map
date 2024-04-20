@@ -1,0 +1,10 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.WorkerThread" name="AForge.Video.DirectShow.VideoCaptureDevice.WorkerThread">
+<area shape="rect" id="Node000001" title="Worker thread for capturing video and snapshots from a device." alt="" coords="510,49,736,90"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="670,36,652,30,623,27,596,29,579,34,573,40,576,47,570,49,568,39,576,30,595,24,623,22,654,25,672,31"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#af44099a936b1c6795c9e90347d7ec987" title="Checks if the crossbar is available and returns the result." alt="" coords="218,5,462,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,55,462,51,463,46,495,50"/>
+<area shape="rect" id="Node000003" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ab3c665b4d2e664d067321b2a43edd01b" title="Starts the video capture process." alt="" coords="253,85,427,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="495,88,428,97,427,91,495,83"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="5,92,170,118"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,108,170,108,170,103,237,103"/>
+</map>

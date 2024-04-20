@@ -1,0 +1,5 @@
+<map id="Hidden_handler.input_handler.PostMessage" name="Hidden_handler.input_handler.PostMessage">
+<area shape="rect" id="Node000001" title="Sends the specified message to a window or windows. The function calls the window procedure for the s..." alt="" coords="196,5,349,46"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1input__handler.html#a2f028842904918346257790cdb5cd536" title="Handles input messages and performs corresponding actions based on the message type." alt="" coords="5,5,148,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,28,148,28,148,23,180,23"/>
+</map>

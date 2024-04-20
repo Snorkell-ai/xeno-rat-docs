@@ -1,0 +1,7 @@
+<map id="Plugin.Main.GetCharacterFromKey" name="Plugin.Main.GetCharacterFromKey">
+<area shape="rect" id="Node000001" title="Retrieves the character corresponding to the specified virtual key code, considering the Shift key st..." alt="" coords="394,5,565,46"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a74ff3292246e18ac5e65d181c30ba2f1" title="Callback function for keyboard hook." alt="" coords="171,13,346,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="379,28,347,28,347,23,379,23"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the keylogger on the specified node, sending key data to the node when available." alt="" coords="5,13,123,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
+</map>

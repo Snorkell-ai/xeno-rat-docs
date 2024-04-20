@@ -1,0 +1,23 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_event_args.html" title=" " alt="" coords="5,288,88,314"/>
+<area shape="rect" id="Node000001" href="$class_a_forge_1_1_video_1_1_new_frame_event_args.html" title="Arguments for new frame event from video source." alt="" coords="136,5,365,31"/>
+<area shape="poly" id="edge5_Node000000_Node000001" title=" " alt="" coords="46,272,52,222,66,160,92,96,111,67,134,41,152,29,155,34,137,46,115,70,96,99,71,162,57,223,52,273"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_video_source_error_event_args.html" title="Arguments for video source error event from video source." alt="" coords="161,55,340,96"/>
+<area shape="poly" id="edge6_Node000000_Node000002" title=" " alt="" coords="50,272,60,235,76,190,101,145,134,107,159,91,162,95,137,111,105,149,81,193,65,236,56,274"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_in_message_event_args.html" title="MIDI In Message Information." alt="" coords="158,121,343,161"/>
+<area shape="poly" id="edge7_Node000000_Node000003" title=" " alt="" coords="58,272,87,221,109,195,134,172,157,159,159,164,137,176,113,198,92,224,62,275"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_midi_1_1_midi_in_sysex_message_event_args.html" title="MIDI In Sysex Message Information." alt="" coords="140,186,361,227"/>
+<area shape="poly" id="edge8_Node000000_Node000004" title=" " alt="" coords="74,276,102,256,134,237,165,225,167,230,137,242,105,260,77,280"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_asio_audio_available_event_args.html" title="Raised when ASIO data has been recorded. It is important to handle this as quickly as possible as it ..." alt="" coords="142,251,359,292"/>
+<area shape="poly" id="edge9_Node000000_Node000005" title=" " alt="" coords="103,290,141,285,142,290,103,295"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_sample_event_args.html" title="Sample event arguments." alt="" coords="145,316,356,342"/>
+<area shape="poly" id="edge10_Node000000_Node000006" title=" " alt="" coords="104,306,153,313,152,318,103,311"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_provider_event_args.html" title="SampleProvider event args." alt="" coords="146,366,355,407"/>
+<area shape="poly" id="edge11_Node000000_Node000007" title=" " alt="" coords="80,320,137,352,166,363,164,368,135,357,78,325"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_stream_volume_event_args.html" title="Event args for aggregated stream volume." alt="" coords="146,431,355,472"/>
+<area shape="poly" id="edge12_Node000000_Node000008" title=" " alt="" coords="63,326,93,373,114,396,137,416,159,428,157,433,134,420,110,400,89,376,59,329"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_stopped_event_args.html" title="Stopped Event Args." alt="" coords="143,496,358,522"/>
+<area shape="poly" id="edge13_Node000000_Node000009" title=" " alt="" coords="56,328,66,363,82,405,105,447,137,481,157,493,154,498,134,486,101,450,77,407,60,365,51,329"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_wave_in_event_args.html" title="Event Args for WaveInStream event." alt="" coords="145,545,356,571"/>
+<area shape="poly" id="edge14_Node000000_Node000010" title=" " alt="" coords="53,329,59,374,74,429,99,485,116,510,137,532,153,543,150,547,134,536,112,514,94,488,69,431,54,375,47,329"/>
+</map>

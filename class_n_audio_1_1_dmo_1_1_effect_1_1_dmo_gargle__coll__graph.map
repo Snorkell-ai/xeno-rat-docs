@@ -1,0 +1,26 @@
+<map id="NAudio.Dmo.Effect.DmoGargle" name="NAudio.Dmo.Effect.DmoGargle">
+<area shape="rect" id="Node000001" title="DMO Gargle Effect." alt="" coords="299,807,496,932"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_dmo_effector.html" title=" " alt="" coords="5,494,179,614"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,626,151,686,171,715,193,742,244,786,300,821,298,826,241,790,189,746,166,718,147,689,116,629"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_object.html" title="Media Object." alt="" coords="403,364,608,744"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="478,744,464,784,459,794,454,791,459,782,473,743"/>
+<area shape="rect" id="Node000004" href="$class_i_disposable.html" title=" " alt="" coords="325,105,406,171"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,184,444,363,439,365,378,186"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_dmo_1_1_media_object_in_place.html" title="Media Object InPlace." alt="" coords="203,464,379,644"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="364,186,344,340,317,464,312,463,339,339,359,185"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html" title="defined in mediaobj.h" alt="" coords="482,5,651,271"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="550,271,540,340,539,347,534,346,535,339,545,270"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="431,105,457,171"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="446,170,446,295,445,317,446,339,447,346,441,347,440,340,439,317,440,295,441,170"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="302,643,316,712,339,782,343,791,338,793,334,784,311,714,297,644"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="121,78,301,198"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="208,198,207,266,214,339,227,394,246,447,241,449,222,396,208,340,201,266,203,198"/>
+<area shape="rect" id="Node000009" href="$struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_1_1_params.html" title="DMO Gargle Params." alt="" coords="719,484,921,624"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="757,626,693,686,622,746,589,767,555,785,512,809,509,804,552,780,586,762,618,742,690,682,753,622"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="869,105,902,171"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="883,171,836,467,831,466,878,170"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="931,105,1088,171"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="1009,171,995,250,983,296,966,341,930,409,888,472,884,469,926,407,962,339,978,294,990,248,1003,170"/>
+<area shape="rect" id="Node000012" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_gargle.html" title=" " alt="" coords="675,88,845,188"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="770,188,810,467,805,467,764,188"/>
+</map>

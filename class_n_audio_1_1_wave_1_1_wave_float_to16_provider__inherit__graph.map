@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveFloatTo16Provider" name="NAudio.Wave.WaveFloatTo16Provider">
+<area shape="rect" id="Node000001" title="Converts IEEE float to 16 bit PCM, optionally clipping and adjusting volume along the way." alt="" coords="5,119,192,319"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="50,5,147,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,86,101,119,96,119,96,86"/>
+</map>

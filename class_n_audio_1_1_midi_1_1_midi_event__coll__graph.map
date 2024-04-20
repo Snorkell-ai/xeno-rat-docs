@@ -1,0 +1,11 @@
+<map id="NAudio.Midi.MidiEvent" name="NAudio.Midi.MidiEvent">
+<area shape="rect" id="Node000001" title="Represents an individual MIDI event." alt="" coords="155,149,307,534"/>
+<area shape="rect" id="Node000002" href="$class_i_cloneable.html" title=" " alt="" coords="5,5,80,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,82,157,217,152,220,68,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="104,5,232,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,70,172,124,173,132,168,133,167,125,164,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="281,5,308,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="291,71,278,133,272,132,285,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="368,5,405,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="376,72,350,126,317,191,312,189,346,123,371,69"/>
+</map>

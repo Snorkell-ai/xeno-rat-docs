@@ -1,0 +1,11 @@
+<map id="Plugin.Main.GetEncoderInfo" name="Plugin.Main.GetEncoderInfo">
+<area shape="rect" id="Node000001" title="Retrieves the image codec information for the specified image format." alt="" coords="467,31,651,56"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#aad403be9ef42bd9cafbe29c44aff6ceb" title="Captures a frame and sends it to the specified ImageNode if playing is true." alt="" coords="249,5,388,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="451,35,388,28,389,23,452,30"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#a8ff102f9e5edba6134e0ba5d8ddf6e2e" title="Takes a screenshot and sends it to the ImageNode asynchronously." alt="" coords="218,55,419,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="452,57,420,60,419,55,451,52"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="5,5,170,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,21,170,21,170,16,234,16"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="29,55,146,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="203,70,147,70,147,65,203,65"/>
+</map>

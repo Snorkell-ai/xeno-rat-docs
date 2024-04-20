@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.AiffFileReader.ConvertShort" name="NAudio.Wave.AiffFileReader.ConvertShort">
+<area shape="rect" id="Node000001" title="Converts a byte array to a short integer and returns the result." alt="" coords="484,5,675,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#a5eb16b178b9d6e031efe3fe424b77601" title="Reads the AIFF header from the provided stream and extracts the wave format, data chunk position,..." alt="" coords="245,5,436,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="468,28,437,28,437,23,468,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#ae9075221902376de4191d0b4bc9be7e4" title="Creates an Aiff File Reader based on an input stream." alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

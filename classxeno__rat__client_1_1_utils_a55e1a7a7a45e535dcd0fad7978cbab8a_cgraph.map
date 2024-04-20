@@ -1,0 +1,7 @@
+<map id="xeno_rat_client.Utils.RemoveStartup" name="xeno_rat_client.Utils.RemoveStartup">
+<area shape="rect" id="Node000001" title="Removes any startup entries related to the specified executable path." alt="" coords="5,5,199,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_utils.html#a31e3ba86a48b05c2c323c7d50feed60c" title="Checks if the current user is an admin and returns a boolean value indicating the result." alt="" coords="247,5,402,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,23,231,23,231,28,199,28"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__client_1_1_utils.html#a1581cd0fb37a96a7490c745efa5ce035" title="Determines whether the current user is a member of the administrator group." alt="" coords="450,5,605,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,23,434,23,434,28,402,28"/>
+</map>

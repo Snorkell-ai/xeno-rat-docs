@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Asio.AsioDriverExt.ShowControlPanel" name="NAudio.Wave.Asio.AsioDriverExt.ShowControlPanel">
+<area shape="rect" id="Node000001" title="Shows the control panel by invoking the driver&#39;s ControlPanel method." alt="" coords="243,5,439,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_out.html#af6230744c0e5f94ac2312f2a4f123f1b" title="Shows the control panel." alt="" coords="5,5,195,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,28,195,28,195,23,227,23"/>
+</map>

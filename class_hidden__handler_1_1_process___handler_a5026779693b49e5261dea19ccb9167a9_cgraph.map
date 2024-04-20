@@ -1,0 +1,9 @@
+<map id="Hidden_handler.Process_Handler.CloneChrome" name="Hidden_handler.Process_Handler.CloneChrome">
+<area shape="rect" id="Node000001" title="Clones the Chrome user data directory to a specified location." alt="" coords="5,39,168,79"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="216,39,378,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,56,200,56,200,62,168,62"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="436,5,643,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="378,45,420,39,420,45,379,50"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="426,71,652,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="379,67,411,71,410,77,378,72"/>
+</map>

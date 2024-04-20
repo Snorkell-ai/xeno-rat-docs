@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_client.html" title="Windows CoreAudio IAudioClient interface Defined in AudioClient.h." alt="" coords="5,5,220,46"/>
+<area shape="rect" id="Node000001" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_client2.html" title="https://docs.microsoft.com/en&#45;us/windows/win32/api/audioclient/nn&#45;audioclient&#45;iaudioclient2" alt="" coords="268,5,482,46"/>
+<area shape="poly" id="edge174_Node000000_Node000001" title=" " alt="" coords="235,23,267,23,267,28,235,28"/>
+</map>

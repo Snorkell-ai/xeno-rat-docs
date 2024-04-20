@@ -1,0 +1,19 @@
+<map id="Hidden_handler._ProcessHelper.GetRestrictedSessionUserToken" name="Hidden_handler._ProcessHelper.GetRestrictedSessionUserToken">
+<area shape="rect" id="Node000001" title="Retrieves a restricted session user token and returns it." alt="" coords="5,201,218,242"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1___process_helper.html#a1fcacc2ad894dbddf51f6db9d37bb317" title="Converts a string representation of a security identifier (SID) to a binary SID and returns a value i..." alt="" coords="266,5,476,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,199,180,130,220,91,264,57,275,51,278,55,267,61,223,95,184,133,129,203"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1___process_helper.html#a3fa91d6360cdb590996433351b716528" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="266,71,476,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,198,196,160,264,122,281,115,283,120,267,127,199,165,142,203"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1___process_helper.html#a34637f16b886e4b38c1086cd27ce8162" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="266,136,476,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="194,198,272,178,273,184,196,203"/>
+<area shape="rect" id="Node000006" href="$class_hidden__handler_1_1___process_helper.html#af8b61acfaee6a0c034cdbd9fdd415352" title="Closes a SAFER level handle." alt="" coords="266,201,476,242"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="218,219,250,219,250,224,218,224"/>
+<area shape="rect" id="Node000007" href="$class_hidden__handler_1_1___process_helper.html#a1eb4aabd0fc0cfae5aebbdd9966f7ff7" title="Computes a token from the specified level handle and input access token, and returns the result." alt="" coords="266,267,476,307"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="196,240,273,260,272,265,194,245"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1___process_helper.html#a9b567703cdeea8195097dcde8aed9d94" title="Creates a new Safer level and returns a handle to the level." alt="" coords="266,332,476,373"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="142,240,199,278,267,317,283,324,281,328,264,321,196,283,139,245"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1___process_helper.html#a0bdf88a53051df6800aa52b8539f790c" title="Sets the token information for a specified token." alt="" coords="266,397,476,438"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="129,241,184,310,223,349,267,382,278,388,275,393,264,387,220,353,180,313,125,244"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1___process_helper.html#a663ea20e04ca87e424a9ba029c1b7eba" title="Closes an open object handle." alt="" coords="524,136,734,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="477,154,508,154,508,159,477,159"/>
+</map>

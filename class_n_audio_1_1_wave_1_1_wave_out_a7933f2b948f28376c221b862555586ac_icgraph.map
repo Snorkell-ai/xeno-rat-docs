@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.WaveOut.RaisePlaybackStoppedEvent" name="NAudio.Wave.WaveOut.RaisePlaybackStoppedEvent">
+<area shape="rect" id="Node000001" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="533,23,730,64"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#a50f79bf503f8c04b497b75c5231fc281" title="Callback method for the wave out function." alt="" coords="271,5,485,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="517,35,485,32,486,26,518,29"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_out.html#aacf6645597ef347a6a9b31f184e76fd4" title="Stops the audio playback." alt="" coords="283,55,473,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="518,57,474,61,473,56,517,52"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out.html#a2ca777214c663cb1b5e48129f5c13b70" title="Opens a WaveOut device." alt="" coords="5,5,223,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="255,21,223,21,223,16,255,16"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_out.html#aed20ebeae9ab860494eadf19941e3cd6" title="Closes the WaveOut device and disposes of buffers." alt="" coords="8,55,220,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="267,70,220,70,220,65,267,65"/>
+</map>

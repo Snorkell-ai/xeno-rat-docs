@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.IMediaObject.GetInputMaxLatency" name="NAudio.Dmo.IMediaObject.GetInputMaxLatency">
+<area shape="rect" id="Node000001" title=" " alt="" coords="252,5,433,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a497d18beb43e69b455c47d093f01534d" title="Retrieves the maximum latency for the specified input stream." alt="" coords="5,5,204,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,28,204,28,204,23,236,23"/>
+</map>

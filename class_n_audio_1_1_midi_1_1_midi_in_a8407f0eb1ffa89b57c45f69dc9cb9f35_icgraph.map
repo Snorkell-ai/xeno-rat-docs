@@ -1,0 +1,8 @@
+<map id="NAudio.Midi.MidiIn.Dispose" name="NAudio.Midi.MidiIn.Dispose">
+<area shape="rect" id="Node000001" title="Releases the unmanaged resources used by the MidiIn class and optionally releases the managed resourc..." alt="" coords="223,35,406,60"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="353,22,340,16,314,13,291,15,278,20,275,25,281,33,277,36,270,26,274,16,289,10,314,8,342,11,356,18"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_in.html#a1a8d2ef64fe44269fb7b93534bf5196d" title="Closes the current object by calling the Dispose method." alt="" coords="5,5,175,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,36,175,32,176,27,207,31"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_in.html#a23eb1a86b6f97c0ad5e7e9cfa88f8690" title="Cleanup." alt="" coords="22,55,158,96"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="207,64,159,70,158,64,207,58"/>
+</map>

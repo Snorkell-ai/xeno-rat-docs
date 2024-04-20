@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.WaveFileWriter.CreateWaveFile" name="NAudio.Wave.WaveFileWriter.CreateWaveFile">
+<area shape="rect" id="Node000001" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="5,35,202,75"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="250,13,474,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,41,234,38,234,43,203,46"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="264,63,460,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,63,248,68,248,73,202,68"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a878304d9021095d970bced3f7a13b98d" title="Creates a fact chunk in the output stream if it does not already exist." alt="" coords="541,5,737,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="460,60,525,46,526,52,461,65"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a21fddf07498dcaee579f2a552ab8e4e8" title="Serializes the wave format data and writes it to the specified BinaryWriter." alt="" coords="522,70,755,96"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="461,80,506,80,506,86,461,86"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#adad938c56bbade273ab89ad84fd3024c" title="Writes the data chunk header to the output stream." alt="" coords="541,120,737,161"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="461,101,526,114,525,120,460,106"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="803,5,1000,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="737,23,788,23,788,28,737,28"/>
+</map>

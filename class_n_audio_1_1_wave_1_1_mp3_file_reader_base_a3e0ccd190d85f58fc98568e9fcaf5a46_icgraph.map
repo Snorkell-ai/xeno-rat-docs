@@ -1,0 +1,10 @@
+<map id="NAudio.Wave.Mp3FileReaderBase.ReadNextFrame" name="NAudio.Wave.Mp3FileReaderBase.ReadNextFrame">
+<area shape="rect" id="Node000001" title="Reads the next MP3 frame from the stream and advances the position by one frame." alt="" coords="488,39,681,79"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="624,26,609,20,585,17,562,19,548,24,542,30,544,37,539,39,537,29,545,20,560,14,585,12,611,14,626,21"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a1c78303cd515a3b9c7f7a0133b7703a5" title="Creates a table of contents for the MP3 file by reading the frames and populating the table of conten..." alt="" coords="247,5,440,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="472,46,440,42,441,36,473,41"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ecfcf60c530ed0d893e1b4d9e3113dd" title="Reads a specified number of bytes from the MP3 file into the sample buffer." alt="" coords="247,71,440,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="473,76,441,81,440,76,472,71"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ef942cc623142a9827edcff17f55e12" title=" " alt="" coords="5,5,199,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
+</map>

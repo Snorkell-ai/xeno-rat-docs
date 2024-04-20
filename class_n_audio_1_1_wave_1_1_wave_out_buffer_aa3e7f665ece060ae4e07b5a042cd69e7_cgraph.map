@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOutBuffer.Dispose" name="NAudio.Wave.WaveOutBuffer.Dispose">
+<area shape="rect" id="Node000001" title="Releases resources held by this WaveBuffer." alt="" coords="5,5,203,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#ad47f52cccd2091f1c38a3b4695bac635" title="Notifies the audio device driver that it can return a buffer to the application." alt="" coords="251,5,464,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,23,235,23,235,28,203,28"/>
+</map>

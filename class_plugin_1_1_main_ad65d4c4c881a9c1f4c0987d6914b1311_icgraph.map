@@ -1,0 +1,9 @@
+<map id="Plugin.Main.ExtractFilePathFromCommandLine" name="Plugin.Main.ExtractFilePathFromCommandLine">
+<area shape="rect" id="Node000001" title="Extracts the file path from the given command line input." alt="" coords="396,39,579,79"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a4c4520bc1e6410ce8600a092e1e001c4" title="Retrieves the file paths of all running processes and returns them in a dictionary with process IDs a..." alt="" coords="171,5,348,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="380,46,348,41,349,36,381,41"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a798d0374f15e378792f963d0a608eadc" title="Retrieves the file paths of all running processes and returns them as a dictionary with process IDs a..." alt="" coords="171,71,348,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="381,77,349,81,348,76,380,71"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the node and sends process information to the connected node." alt="" coords="5,78,123,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="155,94,123,94,123,88,155,88"/>
+</map>

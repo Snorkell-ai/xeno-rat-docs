@@ -1,0 +1,9 @@
+<map id="xeno_rat_server.Forms.OfflineKeylogger.StartKeylogger" name="xeno_rat_server.Forms.OfflineKeylogger.StartKeylogger">
+<area shape="rect" id="Node000001" title="Starts the keylogger by sending a byte array with value 1 to the client asynchronously." alt="" coords="739,5,936,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#a13d3fb326afdca257f120155191317a0" title="Starts the keylogger and updates the status." alt="" coords="495,5,691,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="724,28,692,28,692,23,724,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#afb7dbc37c064ebca17865a478e0f16cc" title="Initializes the components of the form including labels, text boxes, list view, and buttons." alt="" coords="250,5,447,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="479,28,447,28,447,23,479,23"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#a640737785afab614c817698a30ebf60c" title=" " alt="" coords="5,5,202,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
+</map>

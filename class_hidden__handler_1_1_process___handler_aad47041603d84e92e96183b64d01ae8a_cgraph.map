@@ -1,0 +1,9 @@
+<map id="Hidden_handler.Process_Handler.StartChrome" name="Hidden_handler.Process_Handler.StartChrome">
+<area shape="rect" id="Node000001" title="Starts the Chrome browser with specified options and user data directory." alt="" coords="5,39,168,79"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="218,5,381,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,44,202,38,203,43,168,49"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a7663c222b8466b862211758315d530f9" title="Retrieves the file path for the installed Chrome browser." alt="" coords="216,71,383,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="168,69,200,73,200,79,167,74"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="431,5,594,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,23,416,23,416,28,381,28"/>
+</map>

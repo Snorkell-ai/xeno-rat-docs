@@ -1,0 +1,5 @@
+<map id="NAudio.MediaFoundation.MediaFoundationApi.EnumerateTransforms" name="NAudio.MediaFoundation.MediaFoundationApi.EnumerateTransforms">
+<area shape="rect" id="Node000001" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="5,5,243,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a99952d1ef154226e93c108c63b3e964e" title="Enumerates Media Foundation transforms (MFTs) that match the specified search criteria." alt="" coords="291,5,497,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,23,275,23,275,28,243,28"/>
+</map>

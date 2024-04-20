@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOutBuffer.WriteToWaveOut" name="NAudio.Wave.WaveOutBuffer.WriteToWaveOut">
+<area shape="rect" id="Node000001" title="Writes the audio data to the WaveOut device for playback." alt="" coords="5,5,203,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#ab3c605e4c71d004f248d7760c6f69704" title="Sends a data block to the specified waveform&#45;audio output device." alt="" coords="251,5,464,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,23,235,23,235,28,203,28"/>
+</map>

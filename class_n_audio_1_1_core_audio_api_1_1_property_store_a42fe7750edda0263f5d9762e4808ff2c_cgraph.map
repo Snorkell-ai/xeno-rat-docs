@@ -1,0 +1,9 @@
+<map id="NAudio.CoreAudioApi.PropertyStore.GetValue" name="NAudio.CoreAudioApi.PropertyStore.GetValue">
+<area shape="rect" id="Node000001" title="Retrieves the value at the specified index and returns it as a PropVariant." alt="" coords="5,39,207,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_property_store.html#aa932d0fd8dfa814abe44d2da9ee47290" title="Retrieves the PropertyKey at the specified index." alt="" coords="261,5,463,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,43,245,38,246,43,207,49"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_property_store.html#a7b84e0d45d4cc112da23f027f449a28b" title=" " alt="" coords="255,71,469,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,69,239,73,239,78,207,74"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_property_store.html#a8567473c3c2cf8b8a87903dcbb44d5d5" title=" " alt="" coords="517,5,731,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="463,23,501,23,501,28,463,28"/>
+</map>

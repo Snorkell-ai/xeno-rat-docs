@@ -1,0 +1,13 @@
+<map id="xeno_rat_server.Forms.AudioPlayer.Stop" name="xeno_rat_server.Forms.AudioPlayer.Stop">
+<area shape="rect" id="Node000001" title="Stops the audio playback and clears the buffer." alt="" coords="752,39,944,79"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#a6093c75b405861fcfaa531aea0e56896" title="Handles the click event for button3, stopping the player and sending a stop signal to the client." alt="" coords="518,5,700,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="737,46,700,41,701,36,737,41"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#a6b5dbf3e41550ddae36b5c641b40a57d" title="Stops the audio playback and disposes of the resources used by the WaveOut player." alt="" coords="513,71,704,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="737,76,705,81,705,76,736,71"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#aa22c949501255089648411e3411d8a46" title="Initializes the components of the form including the combo box, labels, and buttons." alt="" coords="251,5,465,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="502,28,465,28,465,23,502,23"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af759c97b5673c55be1690f19df16e179" title=" " alt="" coords="5,5,203,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="235,28,203,28,203,23,235,23"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af26723a44cb5880fd08168a5dcc94b49" title="Releases the unmanaged resources used by the Form and its components when the form is closing." alt="" coords="263,71,453,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="497,94,454,94,454,88,497,88"/>
+</map>

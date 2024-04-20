@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOutEvent.Init" name="NAudio.Wave.WaveOutEvent.Init">
+<area shape="rect" id="Node000001" title="Initializes the WaveOut device with the specified wave provider." alt="" coords="245,13,460,39"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#a50e278569d197c1ba2d6bae4df19f251" title=" " alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

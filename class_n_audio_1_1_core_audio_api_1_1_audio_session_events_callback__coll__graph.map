@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.AudioSessionEventsCallback" name="NAudio.CoreAudioApi.AudioSessionEventsCallback">
+<area shape="rect" id="Node000001" title="AudioSessionEvents callback implementation." alt="" coords="110,268,314,488"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_events.html" title="Windows CoreAudio IAudioSessionControl interface Defined in AudioPolicy.h." alt="" coords="5,13,197,198"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,211,170,267,165,269,142,213"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_events_handler.html" title="interface to receive session related events" alt="" coords="221,5,427,205"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,206,266,254,261,252,281,204"/>
+</map>

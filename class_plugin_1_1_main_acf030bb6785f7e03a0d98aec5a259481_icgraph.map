@@ -1,0 +1,9 @@
+<map id="Plugin.Main.recvThread" name="Plugin.Main.recvThread">
+<area shape="rect" id="Node000001" title="Receives data from the client and sends a response back using the specified socket." alt="" coords="416,31,574,56"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#ab7a83cb31713b6de0573d22ad6cfc905" title="Opens a new instance of Google Chrome with remote debugging enabled and connects to it using a socket..." alt="" coords="171,5,368,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="401,36,368,32,369,27,401,30"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs audio operations." alt="" coords="211,55,328,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="401,56,329,64,328,59,400,51"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ab408ab30be9061e78c741b24ddcac4de" title="Sends a byte array to the specified node, checks for available browsers, and forwards the request to ..." alt="" coords="5,5,123,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,21,123,21,123,16,155,16"/>
+</map>

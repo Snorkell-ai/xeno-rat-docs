@@ -1,0 +1,35 @@
+var _mixer_control_type_8cs =
+[
+    [ "MixerControlType", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58", [
+      [ "Custom", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a90589c47f06eb971d548591f23c285af", null ],
+      [ "BooleanMeter", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a18b224f2457842662f7b6e55b6d3cd72", null ],
+      [ "SignedMeter", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58aec7f49a7d74b31fdaf3fc09fd2ce53fb", null ],
+      [ "PeakMeter", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58ad2b4d23e6324ace577ac078bfa2e851f", null ],
+      [ "UnsignedMeter", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a1583c5e8c47b540f58420bff88f48764", null ],
+      [ "Boolean", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a27226c864bac7454a8504f8edb15d95b", null ],
+      [ "OnOff", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58ab456f74540e23a21eb8dddc98de528b7", null ],
+      [ "Mute", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a00cd7be4cb21c59179316d7844a8cfc4", null ],
+      [ "Mono", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a5d9b47bd3b65072e0d5daf55f01da086", null ],
+      [ "Loudness", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a6a3af4e93fc6350e7b0a2d773833c2f0", null ],
+      [ "StereoEnhance", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58aa0de0ca2f84c436717e34d0b8c0590bf", null ],
+      [ "Button", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a87b7760f14fbff78d8819291f36ab9a0", null ],
+      [ "Decibels", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a496fc3173c8d0dd4c3c334dd156d0718", null ],
+      [ "Signed", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a71fed0c3428bf1a2e19af257c4bac379", null ],
+      [ "Unsigned", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58aa1a914735b205424ba6c40b85528d78a", null ],
+      [ "Percent", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58aadaaee4b22041c27198d410c68d952c9", null ],
+      [ "Slider", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a2d9b9a764fb0be4be10e1b2fce63f561", null ],
+      [ "Pan", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58af6d4a17b27da35c2d90ce13801f36782", null ],
+      [ "QSoundPan", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a4d2fbe6420e0885ef319115870d2bfce", null ],
+      [ "Fader", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58ae2ab411666fc635dd5d29fd5e143d4ef", null ],
+      [ "Volume", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58abd7a9717d29c5ddcab1bc175eda1e298", null ],
+      [ "Bass", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58aca4103a5e6809c7e14ec7f4fcf676bb5", null ],
+      [ "Treble", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a56694ab2f8017b01b4284af08186b5fd", null ],
+      [ "Equalizer", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58ab9fb964f2edf7245f6c0eb6ea5562c82", null ],
+      [ "SingleSelect", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a46fb49833801b679f5da12e40a7e07a5", null ],
+      [ "Mux", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58ab464e7ce32ef74e4dc12b182dcc6c16f", null ],
+      [ "MultipleSelect", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a9986b207ba037f02e120278302dd1a68", null ],
+      [ "Mixer", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a709f0e10529e0ed7b4840b3bfeb5b58e", null ],
+      [ "MicroTime", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a6ec8a5736d338713cd878f85a4950e81", null ],
+      [ "MilliTime", "_mixer_control_type_8cs.html#a778c180fba396c9e482eab3808828e58a96fa87a038a9eec3cbc05aee25f9a0ec", null ]
+    ] ]
+];

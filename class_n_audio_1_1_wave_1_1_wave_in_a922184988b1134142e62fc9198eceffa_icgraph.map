@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveIn.CloseWaveInDevice" name="NAudio.Wave.WaveIn.CloseWaveInDevice">
+<area shape="rect" id="Node000001" title="Closes the wave input device and releases associated resources." alt="" coords="500,27,687,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#ab5fbb89bcdf578ec5a5f3c515112fe78" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="243,5,444,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="484,37,444,33,445,27,485,32"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a7028a5b04609d26c7ce802dab87147f1" title="Opens the wave input device and creates necessary buffers." alt="" coords="235,55,452,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="485,62,453,66,452,61,484,57"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_in.html#ac73083af2ea40dab1577caf35c79c7cd" title="Starts the audio recording process." alt="" coords="5,55,187,96"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="219,78,187,78,187,73,219,73"/>
+</map>

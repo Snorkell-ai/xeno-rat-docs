@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.AsioOut.Pause" name="NAudio.Wave.AsioOut.Pause">
+<area shape="rect" id="Node000001" title="Pauses the playback." alt="" coords="5,13,199,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a2a766495e3da6cf139ba6da1e5cddb0a" title="Stops the driver." alt="" coords="247,5,443,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,23,231,23,231,28,199,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a15c87a396c55cfe0d357689331b75055" title="Stops the ASIO driver and returns any error that occurred during the operation." alt="" coords="491,13,717,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,23,475,23,475,28,444,28"/>
+</map>

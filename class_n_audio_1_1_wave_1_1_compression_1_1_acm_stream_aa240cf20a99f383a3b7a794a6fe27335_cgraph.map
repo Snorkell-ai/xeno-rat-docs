@@ -1,0 +1,20 @@
+<map id="NAudio.Wave.Compression.AcmStream.Convert" name="NAudio.Wave.Compression.AcmStream.Convert">
+<area shape="rect" id="Node000001" title="Converts the specified number of bytes and returns the converted bytes count." alt="" coords="5,100,192,141"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header.html#a7228c03c6b6a75d2b8277e3933737552" title="Converts the specified number of bytes using the Audio Compression Manager (ACM) and returns the numb..." alt="" coords="240,100,426,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,118,224,118,224,123,192,123"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a322ac0a817eb56e78f1de404b060b73e" title="Converts audio data from one format to another using the Audio Compression Manager (ACM)." alt="" coords="474,5,679,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="378,97,473,57,493,49,495,54,475,61,380,102"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header.html#a39855cd61036728505da12278ad9fe01" title="Prepares the audio stream header for processing." alt="" coords="484,71,670,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="426,106,468,101,468,107,427,112"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="765,133,936,159"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="426,122,749,138,749,143,426,128"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header.html#a64d09e5c620305eccaed50ad398940ec" title="Unprepares the audio stream for conversion by updating the stream header and unpreparing the header u..." alt="" coords="479,187,674,227"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="393,139,504,178,502,183,392,144"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#ac02a51767e18070a001fd4932af8b03e" title="Prepares the header for an Audio Compression Manager (ACM) stream." alt="" coords="727,68,974,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="670,87,712,87,712,92,670,93"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="671,107,768,127,767,132,670,112"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="1022,133,1254,159"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="936,143,1006,143,1006,148,936,148"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#ab64de4c7aef4a1484793afb6da86edb3" title="Unprepares the header for an Audio Compression Manager (ACM) stream." alt="" coords="741,183,960,239"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="675,206,726,207,726,212,675,211"/>
+</map>

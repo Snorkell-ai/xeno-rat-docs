@@ -1,0 +1,36 @@
+<map id="Plugin.Main.ScreenShotThread" name="Plugin.Main.ScreenShotThread">
+<area shape="rect" id="Node000001" title="Takes screenshots and sends them to the connected image node." alt="" coords="5,208,207,233"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_node.html#ae4ae581752fcdbda5191a2a55270e88b" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="255,150,466,176"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,204,285,177,286,182,167,209"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__client_1_1_node.html#afe8db11f190f0a3b146e16a7b14ef490" title="Asynchronously sends the specified data over the socket connection." alt="" coords="271,200,450,241"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,218,256,218,256,223,207,223"/>
+<area shape="rect" id="Node000014" href="$class_plugin_1_1_screenshot_taker.html#addf9a980176f5e9e60c081f15f59eefd" title="Takes a screenshot of the specified screen and returns the image data as a byte array." alt="" coords="265,289,456,330"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="146,231,287,281,285,286,144,236"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__client_1_1_node.html#aed8a6b3de6ee0efa48945c8b1e6c763e" title="Disconnects the current socket and clears the subNodes list, and invokes the OnDisconnect event if it..." alt="" coords="516,150,730,176"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="450,198,545,177,546,182,451,203"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__client_1_1_socket_handler.html#a4970cfbc960dd288436a9fe80814531d" title="Asynchronously sends the specified data over the socket after compressing, encrypting,..." alt="" coords="522,200,724,241"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="450,218,507,218,507,223,450,223"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="581,152,572,142,577,132,595,126,623,124,655,126,671,133,669,138,654,131,623,129,596,131,581,136,578,141,585,148"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__client_1_1_compression.html#ab25c4ae61c5c162bdb353676a7d01ca6" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="784,103,979,143"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="704,197,731,186,755,170,779,154,795,147,797,152,782,159,758,175,734,191,706,202"/>
+<area shape="rect" id="Node000011" href="$classxeno__rat__client_1_1_socket_handler.html#aff56eb3e00bf2bb85e2d7696318b4468" title="Concatenates two byte arrays and returns the result." alt="" coords="780,168,983,209"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="724,205,764,200,765,205,725,210"/>
+<area shape="rect" id="Node000012" href="$classxeno__rat__client_1_1_encryption.html#a807a6407c09f993138a2684be0899cb3" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="792,233,971,274"/>
+<area shape="poly" id="edge12_Node000005_Node000012" title=" " alt="" coords="725,231,777,238,776,243,724,236"/>
+<area shape="rect" id="Node000013" href="$classxeno__rat__client_1_1_socket_handler.html#a9b4df15d86fe97e366771e3c0568761d" title="Converts an integer to a byte array." alt="" coords="780,299,983,339"/>
+<area shape="poly" id="edge13_Node000005_Node000013" title=" " alt="" coords="706,239,734,250,758,267,782,283,797,290,794,295,779,288,755,271,731,255,704,244"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__client_1_1_compression.html#abc065f053d0258dd1a7acae93f8332d0" title="Allocates memory in the local heap." alt="" coords="1048,5,1243,46"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="926,100,1030,57,1053,49,1055,54,1032,61,928,105"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__client_1_1_compression.html#a0d2aafc746f145f698a8f1d310ccfbb2" title="Frees the memory block allocated by the LocalAlloc or LocalReAlloc function." alt="" coords="1048,71,1243,111"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="979,109,1032,102,1033,107,979,114"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__client_1_1_compression.html#a9f7d50afed4c3c988eb3e7691cb94581" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1048,136,1243,177"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="979,133,1033,139,1032,145,979,138"/>
+<area shape="rect" id="Node000010" href="$classxeno__rat__client_1_1_compression.html#ae6d3ee0c8538f67cd80635e6bc1bad03" title="Retrieves the size of the workspace required for compression." alt="" coords="1031,201,1260,242"/>
+<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="954,141,984,154,1008,170,1032,186,1048,193,1046,198,1029,191,1005,175,981,159,952,146"/>
+<area shape="rect" id="Node000015" href="$class_plugin_1_1_screenshot_taker.html#ac50eaab8458b614689908c94413e10df" title="Draws an icon at the specified coordinates on the device context." alt="" coords="514,265,732,291"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="456,295,498,290,499,295,456,301"/>
+<area shape="rect" id="Node000016" href="$class_plugin_1_1_screenshot_taker.html#aded9ead46bd3b25fabae5de96c35db4b" title="Retrieves information about the global cursor." alt="" coords="532,315,715,355"/>
+<area shape="poly" id="edge16_Node000014_Node000016" title=" " alt="" coords="456,316,516,322,516,327,456,322"/>
+<area shape="rect" id="Node000017" href="$class_plugin_1_1_screenshot_taker.html#a45b472b870502fd52f55da27c066b69e" title="Retrieves the encoder information for the specified image format." alt="" coords="532,380,715,421"/>
+<area shape="poly" id="edge17_Node000014_Node000017" title=" " alt="" coords="416,328,515,364,538,372,537,377,513,370,414,333"/>
+</map>

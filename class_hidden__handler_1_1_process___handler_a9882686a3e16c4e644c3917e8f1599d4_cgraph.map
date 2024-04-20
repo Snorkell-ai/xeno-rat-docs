@@ -1,0 +1,7 @@
+<map id="Hidden_handler.Process_Handler.CopyDirAsync" name="Hidden_handler.Process_Handler.CopyDirAsync">
+<area shape="rect" id="Node000001" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="5,39,168,79"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="225,5,433,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,45,209,39,210,45,169,50"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="216,71,442,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,67,201,71,200,77,168,72"/>
+</map>

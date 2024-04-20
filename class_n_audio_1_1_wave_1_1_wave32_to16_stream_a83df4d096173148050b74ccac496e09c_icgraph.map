@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Wave32To16Stream.Convert32To16" name="NAudio.Wave.Wave32To16Stream.Convert32To16">
+<area shape="rect" id="Node000001" title="Converts 32&#45;bit audio samples to 16&#45;bit audio samples and writes the result to the destination buffer..." alt="" coords="311,5,537,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave32_to16_stream.html#a9f4c8d5fada7e157fe38bcadb6aeeec8" title="Reads data from the source stream, converts it to 16&#45;bit and writes it to the destination buffer." alt="" coords="5,13,263,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="295,28,263,28,263,23,295,23"/>
+</map>

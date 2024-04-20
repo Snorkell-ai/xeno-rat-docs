@@ -1,0 +1,4 @@
+var _i_activate_audio_interface_completion_handler_8cs =
+[
+    [ "NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler", "interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_completion_handler.html", "interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_completion_handler" ]
+];

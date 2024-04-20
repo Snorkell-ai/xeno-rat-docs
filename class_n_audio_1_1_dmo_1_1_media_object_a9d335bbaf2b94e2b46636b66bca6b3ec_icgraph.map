@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.MediaObject.IsAcceptingData" name="NAudio.Dmo.MediaObject.IsAcceptingData">
+<area shape="rect" id="Node000001" title="Checks if the specified input stream is accepting data." alt="" coords="250,5,438,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html#ab6da9d010e62d3a6b41ce8a06525f333" title="Reads a specified number of bytes from the input stream and writes them to the buffer." alt="" coords="5,5,202,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
+</map>

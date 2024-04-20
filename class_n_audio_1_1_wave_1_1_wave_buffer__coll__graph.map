@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.WaveBuffer" name="NAudio.Wave.WaveBuffer">
+<area shape="rect" id="Node000001" title="WaveBuffer class use to store wave datas. Data can be manipulated with arrays (ByteBuffer,..." alt="" coords="218,309,383,714"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_buffer.html" title="IWaveBuffer interface use to store wave datas. Data can be manipulated with arrays (ByteBuffer,..." alt="" coords="5,5,129,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,235,220,370,216,373,135,237"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="154,85,181,151"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,150,179,213,195,284,214,337,209,339,190,285,174,214,167,151"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="282,85,319,151"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="303,151,303,292,298,292,298,151"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="381,85,418,151"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="398,151,373,285,371,293,366,292,367,284,392,150"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="477,85,519,151"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="494,151,478,214,451,286,425,337,395,386,390,383,420,334,446,284,473,213,489,149"/>
+</map>

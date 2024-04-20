@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveOut.Init" name="NAudio.Wave.WaveOut.Init">
+<area shape="rect" id="Node000001" title="Initializes the audio output with the specified wave provider." alt="" coords="5,42,187,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html#af046f7ad8a6841a7f10cabf6bec945d7" title="Converts the given latency in milliseconds to the corresponding byte size based on the average bytes ..." alt="" coords="235,5,464,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,42,219,38,220,43,187,47"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="264,70,435,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,62,248,69,248,74,187,68"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="512,70,744,96"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="435,80,497,80,497,86,435,86"/>
+</map>

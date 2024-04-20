@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.Compression.AcmDriver.GetFormats" name="NAudio.Wave.Compression.AcmDriver.GetFormats">
+<area shape="rect" id="Node000001" title="Retrieves a collection of audio formats associated with the specified format tag." alt="" coords="5,71,192,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a6aed096a03f4aaf93b243eac152eac05" title="Enumerates the available formats for an ACM driver." alt="" coords="263,5,456,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,67,260,48,261,53,183,73"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a61ba2be386c7a1562d074afbc2433a10" title="Callback function for enumerating ACM format details." alt="" coords="240,71,479,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,88,224,88,224,94,192,94"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="274,136,445,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="191,109,240,120,280,129,279,134,239,126,190,115"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="527,136,759,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="445,146,512,146,512,151,445,151"/>
+</map>

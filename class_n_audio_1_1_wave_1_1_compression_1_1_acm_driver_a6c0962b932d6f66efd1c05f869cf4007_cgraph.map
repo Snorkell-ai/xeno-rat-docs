@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.Compression.AcmDriver.DriverEnumCallback" name="NAudio.Wave.Compression.AcmDriver.DriverEnumCallback">
+<area shape="rect" id="Node000001" title="Callback function for enumerating ACM drivers." alt="" coords="5,35,212,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#aa4d323709deb552385d8c28c195ceb01" title="Creates a new ACM Driver object." alt="" coords="260,35,446,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,52,244,52,244,58,212,58"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a274a894b0cc0ec82be0cfd6b620d41a6" title="Retrieves details about an Audio Compression Manager (ACM) driver." alt="" coords="494,5,687,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="446,41,478,37,479,42,447,46"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="505,70,676,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="447,63,490,69,489,74,446,69"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="735,70,968,96"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="677,80,720,80,720,86,677,86"/>
+</map>

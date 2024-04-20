@@ -1,0 +1,6 @@
+<map id="NAudio.CoreAudioApi.MMDeviceEnumerator.GetDefaultAudioEndpoint" name="NAudio.CoreAudioApi.MMDeviceEnumerator.GetDefaultAudioEndpoint">
+<area shape="rect" id="Node000001" title="Retrieves the default audio endpoint for the specified data flow and role." alt="" coords="290,29,528,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="456,16,438,10,409,8,381,10,365,15,358,21,361,28,356,29,353,19,362,10,380,5,409,3,439,5,458,11"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wasapi_loopback_capture.html#a1672abc2a2e878052d899144b0690862" title="Retrieves the default loopback capture device for audio rendering." alt="" coords="5,22,242,78"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="274,52,242,52,242,47,274,47"/>
+</map>

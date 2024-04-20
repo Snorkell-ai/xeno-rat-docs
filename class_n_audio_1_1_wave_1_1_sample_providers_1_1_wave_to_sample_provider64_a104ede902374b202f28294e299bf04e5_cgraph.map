@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.SampleProviders.WaveToSampleProvider64.Read" name="NAudio.Wave.SampleProviders.WaveToSampleProvider64.Read">
+<area shape="rect" id="Node000001" title="Reads data from the source buffer and converts it to float values, storing them in the specified buff..." alt="" coords="5,46,215,87"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_provider_converter_base.html#acdcb6e7350e2c11526bf7c6980fbebc3" title="Ensures that the source buffer has enough capacity to accommodate the specified number of bytes requi..." alt="" coords="263,5,508,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,51,247,47,247,53,216,56"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="273,86,498,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="216,76,258,81,258,86,215,81"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_buffer_helpers.html#a6fcf5a452e6779e71f5dfa9b51a74f1e" title="Ensures that the input buffer has at least the specified number of samples and returns the buffer." alt="" coords="556,13,739,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="509,31,540,31,540,36,509,36"/>
+</map>

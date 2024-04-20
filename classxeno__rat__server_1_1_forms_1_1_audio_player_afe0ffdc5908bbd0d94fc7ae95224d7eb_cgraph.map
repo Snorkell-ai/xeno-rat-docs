@@ -1,0 +1,21 @@
+<map id="xeno_rat_server.Forms.AudioPlayer.Start" name="xeno_rat_server.Forms.AudioPlayer.Start">
+<area shape="rect" id="Node000001" title="Clears the buffer and starts playing audio." alt="" coords="5,60,197,101"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_buffered_wave_provider.html#ab07f7e58f4995af1723fde11ddb9bcaf" title="Clears the circular buffer." alt="" coords="263,27,450,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,65,247,59,247,64,197,70"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a48d131f28d34800e5455fb6997401c57" title="Plays the audio." alt="" coords="245,96,468,121"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,88,229,92,229,97,197,93"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a1399ff4a96831595ce722ee03906b778" title="Resets the state of the object." alt="" coords="524,15,706,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="450,40,508,37,508,43,450,45"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a401e1389850f550230123905db0a0760" title="Resets the internal state of the object." alt="" coords="777,5,959,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="706,29,761,27,761,32,707,34"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a9c282c7977098920ae1c7adf1bd59934" title="Executes the DoPlayback method in a separate thread and raises the PlaybackStopped event upon complet..." alt="" coords="516,88,713,129"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="468,106,500,106,500,111,468,111"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#ac286d1ddcbb0a8d5aa55841330f5a461" title="Resumes playback if the current state is paused." alt="" coords="516,169,713,210"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="401,119,534,162,532,167,399,124"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a0ffe20076eb914567e2260e1cf1e6e59" title="Performs the audio playback operation." alt="" coords="769,71,967,111"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="714,99,754,96,754,101,714,104"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#ac5bbb966d79a5baf4ab2e8c6212de1ae" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="769,136,967,177"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="714,124,754,132,753,137,713,130"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a3f3d47cd8932f63f3fdded0857290e8e" title="Restarts playback on the specified waveform&#45;audio output device." alt="" coords="761,201,975,242"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="714,200,746,204,746,209,714,205"/>
+</map>

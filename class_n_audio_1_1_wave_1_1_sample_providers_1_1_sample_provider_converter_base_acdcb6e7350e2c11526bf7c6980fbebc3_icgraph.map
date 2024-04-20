@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.SampleProviders.SampleProviderConverterBase.EnsureSourceBuffer" name="NAudio.Wave.SampleProviders.SampleProviderConverterBase.EnsureSourceBuffer">
+<area shape="rect" id="Node000001" title="Ensures that the source buffer has enough capacity to accommodate the specified number of bytes requi..." alt="" coords="272,162,517,218"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_pcm16_bit_to_sample_provider.html#afcaa8a769798d192b3921d33de332e0c" title="Reads a specified number of floating&#45;point values from the source buffer and stores them in the provi..." alt="" coords="5,5,224,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="350,153,292,106,222,61,194,49,196,44,225,57,295,102,354,149"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_pcm24_bit_to_sample_provider.html#a6f30d083699042e51ebe8964df19c36c" title="Reads data from the source buffer and converts it to floating point numbers, storing the result in th..." alt="" coords="5,71,224,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="307,158,223,127,185,114,187,109,225,122,309,153"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_pcm32_bit_to_sample_provider.html#a410245dca96da80b8c0bec9f51850d91" title="Reads floating&#45;point numbers from the source buffer and stores them in the specified buffer." alt="" coords="5,136,224,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="256,176,224,172,224,167,256,171"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_pcm8_bit_to_sample_provider.html#a9cc954d6702bc3fcefee2d43e639b077" title="Reads data from the source into the buffer and returns the number of bytes read." alt="" coords="9,201,220,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="256,208,221,212,220,207,256,203"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_wave_to_sample_provider.html#a4bb5757d171b28b128dae9ba83a8d0e9" title="Reads floating&#45;point numbers from the source buffer into the specified destination buffer." alt="" coords="10,267,219,307"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="308,226,225,256,186,269,185,264,223,251,306,221"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_wave_to_sample_provider64.html#a104ede902374b202f28294e299bf04e5" title="Reads data from the source buffer and converts it to float values, storing them in the specified buff..." alt="" coords="10,332,219,373"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="353,230,295,277,225,321,196,334,194,329,222,317,292,273,350,226"/>
+</map>

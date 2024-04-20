@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.PropertyKey" name="NAudio.CoreAudioApi.PropertyKey">
+<area shape="rect" id="Node000001" title="PROPERTYKEY is defined in wtypes.h." alt="" coords="5,134,221,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="48,5,88,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,70,68,90,72,109,76,118,71,121,67,111,62,91,62,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="145,5,172,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,71,133,118,128,117,145,69"/>
+</map>

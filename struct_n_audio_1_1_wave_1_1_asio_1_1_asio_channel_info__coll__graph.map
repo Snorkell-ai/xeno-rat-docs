@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.Asio.AsioChannelInfo" name="NAudio.Wave.Asio.AsioChannelInfo">
+<area shape="rect" id="Node000001" title="ASIO Channel Info." alt="" coords="73,149,295,214"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,32,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="21,70,26,98,39,123,60,141,57,145,35,126,21,100,16,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="113,5,151,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,70,134,97,141,124,146,133,141,136,136,126,129,98,127,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="175,5,286,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,71,202,133,197,132,218,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="311,5,356,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="313,67,255,127,240,140,236,136,251,123,309,63"/>
+</map>

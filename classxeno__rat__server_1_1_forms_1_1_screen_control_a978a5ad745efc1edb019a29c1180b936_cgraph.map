@@ -1,0 +1,39 @@
+<map id="xeno_rat_server.Forms.ScreenControl.InitializeComponent" name="xeno_rat_server.Forms.ScreenControl.InitializeComponent">
+<area shape="rect" id="Node000001" title="Initializes the components of the form including picture box, combo boxes, buttons,..." alt="" coords="5,589,205,630"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#aae33bcd840368837fce393af3459b05e" title="Asynchronously refreshes the monsters." alt="" coords="280,5,479,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,589,123,479,154,319,174,237,196,161,222,99,251,57,264,46,268,50,255,61,227,102,201,163,179,238,159,320,128,480,112,589"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a6ba5e20df4cde7efe76101aabdb2f6e2" title="Initiates the start method asynchronously and sets the &#39;playing&#39; flag to true." alt="" coords="280,71,479,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,589,107,504,113,444,125,378,143,309,169,242,205,178,251,122,265,112,268,116,255,126,209,181,174,244,148,311,130,379,119,445,112,504,109,589"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#ad97f01a0c239ea9166fb56b2bbd6ec5f" title="Stops the current operation and sets the &#39;playing&#39; flag to false." alt="" coords="280,136,479,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="104,589,112,513,133,405,152,347,177,289,210,235,251,188,264,177,268,182,254,192,214,238,182,291,157,349,138,407,117,514,110,589"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a24dec7c956afd18d163da2aa7a9bc912" title="Handles the CheckedChanged event of checkBox1 and updates the text based on the checked state." alt="" coords="258,201,501,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="106,588,117,523,141,432,160,383,184,335,214,290,251,252,254,249,258,253,254,256,218,294,189,338,165,385,146,434,122,524,111,589"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#af7cd3256850e15a95d6f91908cb23dcd" title="Handles the SelectedIndexChanged event of comboBox1." alt="" coords="266,266,493,322"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="109,588,125,537,153,468,195,395,221,361,251,332,256,328,259,332,254,336,225,365,199,398,158,470,130,538,114,590"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#ab29d17cb1e30fa824fe9120ed9a9d921" title="Handles the SelectedIndexChanged event of comboBox2. Sets the quality based on the selected index in ..." alt="" coords="266,346,493,402"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="114,588,134,550,165,503,204,454,251,412,258,407,261,412,254,416,208,457,169,506,139,553,118,590"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a350c17defcad07a8733a0599a4a87543" title="Event handler for the Click event of pictureBox1." alt="" coords="280,425,479,466"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="122,587,176,532,212,502,251,477,266,470,268,474,254,481,215,506,180,536,126,591"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a01c3958ce7af9dbf49c3a18cceec631f" title="Handles the mouse click event on pictureBox1 by sending the coordinates and opcode to the server." alt="" coords="273,491,486,531"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="147,586,252,542,277,534,278,539,254,547,150,591"/>
+<area shape="rect" id="Node000010" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a9d901f8e439d8e7f89d1ec0e1b2b0834" title="Handles the double&#45;click event on the picture box." alt="" coords="253,556,506,597"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="205,595,237,591,237,596,206,600"/>
+<area shape="rect" id="Node000011" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a985c13f859ad71ccf4dbb544fa797073" title="Handles the mouse down event for pictureBox1." alt="" coords="271,621,488,662"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="205,619,256,625,255,630,205,624"/>
+<area shape="rect" id="Node000012" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a4d5a3289d3fb3448f98bfc340b69232d" title="Handles the mouse movement event for pictureBox1." alt="" coords="272,687,487,727"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="150,628,254,671,279,679,277,684,252,676,148,633"/>
+<area shape="rect" id="Node000013" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#ac45807ad2b43717c2dcbad2064c37046" title="Handles the mouse up event for pictureBox1." alt="" coords="280,752,479,793"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="126,629,180,683,215,712,254,737,268,743,266,748,251,741,212,716,176,687,122,632"/>
+<area shape="rect" id="Node000014" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a17c93dd18ed1317eb8b99ab238e22607" title="Handles the PreviewKeyDown event for the pictureBox1 control." alt="" coords="256,817,503,858"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="118,629,138,667,168,714,207,762,254,802,263,808,261,812,251,806,203,765,164,717,134,669,114,632"/>
+<area shape="rect" id="Node000015" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a8b3f20ffca0b0627b68b258f0003585b" title="Updates the scale size when the size of the picture box changes." alt="" coords="269,883,490,923"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="114,630,131,679,159,743,200,811,225,841,254,868,261,873,258,877,251,872,221,845,196,814,154,746,126,681,109,631"/>
+<area shape="rect" id="Node000016" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a3f03406a78ff99c6307e02354c3e36a2" title="Handles the KeyDown event for the screen control." alt="" coords="272,948,487,989"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="112,630,125,690,150,772,169,816,192,859,221,899,254,933,261,938,257,942,251,937,217,902,188,862,164,818,145,774,119,691,107,631"/>
+<area shape="rect" id="Node000017" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a3f79295f273ea16c56d29fa6797c1ece" title="Handles the KeyPress event for the screen control." alt="" coords="272,1013,487,1054"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="110,630,119,700,142,800,160,854,185,907,216,956,255,998,260,1003,257,1007,251,1002,212,959,180,909,155,856,137,801,114,701,105,631"/>
+<area shape="rect" id="Node000018" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a843ddacc3b2c63f9e762ae1e206bb5d9" title="Handles the KeyUp event for screen control." alt="" coords="280,1079,479,1119"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="109,630,114,711,122,767,134,828,152,892,177,954,211,1013,255,1064,268,1074,264,1078,251,1068,207,1016,173,957,147,893,129,829,116,768,109,712,104,631"/>
+<area shape="rect" id="Node000019" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#ad4332350d740c3d7a2ab6e8244552968" title="Called when the screen control is loaded." alt="" coords="280,1144,479,1185"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="108,631,110,721,115,785,126,856,144,929,170,1002,207,1070,229,1101,254,1129,268,1140,264,1144,251,1133,225,1104,202,1073,165,1004,139,931,121,857,110,786,104,722,103,631"/>
+</map>

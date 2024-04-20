@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Id3v2Tag.CreateId3v2TagHeader" name="NAudio.Wave.Id3v2Tag.CreateId3v2TagHeader">
+<area shape="rect" id="Node000001" title="Creates an ID3v2 tag header based on the provided frames and returns the resulting tag header." alt="" coords="504,5,705,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#aef524367b2998f7dd0f84d2f53a5bd20" title="Creates an ID3v2 tag stream based on the provided tags." alt="" coords="255,5,456,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="488,28,456,28,456,23,488,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a7b8a11cb9080c3cfc8d0c4a3e25d372b" title="Creates an ID3v2 tag from the given collection of key&#45;value pairs and returns the created tag." alt="" coords="5,13,207,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>

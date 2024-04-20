@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.SampleProviders.MultiplexingSampleProvider.MultiplexingSampleProvider" name="NAudio.Wave.SampleProviders.MultiplexingSampleProvider.MultiplexingSampleProvider">
+<area shape="rect" id="Node000001" title="Creates a multiplexing sample provider, allowing re&#45;patching of input channels to different output ch..." alt="" coords="5,5,260,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a2dd0e9ea4097e54981725d6ad7c3290d" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="308,13,530,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,31,292,31,292,36,260,36"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="578,13,794,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="530,31,563,31,563,36,530,36"/>
+</map>

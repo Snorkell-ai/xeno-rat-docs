@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.AudioStreamVolume.SetChannelVolume" name="NAudio.CoreAudioApi.AudioStreamVolume.SetChannelVolume">
+<area shape="rect" id="Node000001" title="Sets the volume level for the specified audio channel." alt="" coords="5,39,229,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_stream_volume.html#a9e890e6cbb06def0e461a9656e046886" title="Checks if the provided channel index is within the valid range." alt="" coords="292,5,522,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,44,276,38,277,43,229,49"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_stream_volume.html#a7b63ad0ae35498793c61bcce70aa5429" title=" " alt="" coords="277,71,537,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="229,69,261,72,261,78,229,74"/>
+</map>

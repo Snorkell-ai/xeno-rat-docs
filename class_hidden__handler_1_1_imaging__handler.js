@@ -1,0 +1,56 @@
+var class_hidden__handler_1_1_imaging__handler =
+[
+    [ "RECT", "struct_hidden__handler_1_1_imaging__handler_1_1_r_e_c_t.html", "struct_hidden__handler_1_1_imaging__handler_1_1_r_e_c_t" ],
+    [ "DESKTOP_ACCESS", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87c", [
+      [ "DESKTOP_NONE", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87ca927ad5c7ebd15a306e40b18e74218057", null ],
+      [ "DESKTOP_READOBJECTS", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87caceeff1690441a90c4ebe519321492b21", null ],
+      [ "DESKTOP_CREATEWINDOW", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87ca11f02a50211ee34ceeb0181a195c1def", null ],
+      [ "DESKTOP_CREATEMENU", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87cab5643097ece7cb58c81fe5231656aa6f", null ],
+      [ "DESKTOP_HOOKCONTROL", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87cab95c11eb85c45eb92a2a214a6acfd2cd", null ],
+      [ "DESKTOP_JOURNALRECORD", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87ca7645ce6ce93f248e62e87b8f6497f18e", null ],
+      [ "DESKTOP_JOURNALPLAYBACK", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87ca379afc73eba44eddce344e9ca6ca3fc5", null ],
+      [ "DESKTOP_ENUMERATE", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87ca5d8f0705bf7c7671bb108e7e1840ffea", null ],
+      [ "DESKTOP_WRITEOBJECTS", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87cac9725e25f1d3f7ac64aa5e059d8393d3", null ],
+      [ "DESKTOP_SWITCHDESKTOP", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87ca1661976fa5d0a4abbd6625b4f89a272d", null ],
+      [ "GENERIC_ALL", "class_hidden__handler_1_1_imaging__handler.html#a64e90df11e1f0bae682515aca2a5f87ca72fba92b4a5665b5d642e948f878be1d", null ]
+    ] ],
+    [ "DeviceCap", "class_hidden__handler_1_1_imaging__handler.html#a1310a235bac132e86d1284acb0ccbf30", [
+      [ "VERTRES", "class_hidden__handler_1_1_imaging__handler.html#a1310a235bac132e86d1284acb0ccbf30a79815e680f095611fba438abdb958995", null ],
+      [ "DESKTOPVERTRES", "class_hidden__handler_1_1_imaging__handler.html#a1310a235bac132e86d1284acb0ccbf30a094a6ea1210a236e7d99b00c320a7023", null ]
+    ] ],
+    [ "GetWindowType", "class_hidden__handler_1_1_imaging__handler.html#a9033a41952fcc24132438c2c1f9d67a1", [
+      [ "GW_HWNDFIRST", "class_hidden__handler_1_1_imaging__handler.html#a9033a41952fcc24132438c2c1f9d67a1a397c71e045a102d3352482ed0cba12c7", null ],
+      [ "GW_HWNDLAST", "class_hidden__handler_1_1_imaging__handler.html#a9033a41952fcc24132438c2c1f9d67a1af99be7508bdc91ade2cfe04d230a1708", null ],
+      [ "GW_HWNDNEXT", "class_hidden__handler_1_1_imaging__handler.html#a9033a41952fcc24132438c2c1f9d67a1a9f96f4ff36f95656d397e4f1ba11b216", null ],
+      [ "GW_HWNDPREV", "class_hidden__handler_1_1_imaging__handler.html#a9033a41952fcc24132438c2c1f9d67a1ae710485e2c37f70fadc441e44d2e2497", null ],
+      [ "GW_OWNER", "class_hidden__handler_1_1_imaging__handler.html#a9033a41952fcc24132438c2c1f9d67a1aa504fe11b2cfe3b0f97cf618f153e70a", null ],
+      [ "GW_CHILD", "class_hidden__handler_1_1_imaging__handler.html#a9033a41952fcc24132438c2c1f9d67a1a488013a10d3a63d7d7e83aa68eba2950", null ],
+      [ "GW_ENABLEDPOPUP", "class_hidden__handler_1_1_imaging__handler.html#a9033a41952fcc24132438c2c1f9d67a1a44c996b34c9b1e9a9600dc83716d5131", null ]
+    ] ],
+    [ "Imaging_handler", "class_hidden__handler_1_1_imaging__handler.html#a032e7a9428faddff21843c81631955fc", null ],
+    [ "CloseDesktop", "class_hidden__handler_1_1_imaging__handler.html#abb3aa96dc71b7636bfb768898555a864", null ],
+    [ "CreateCompatibleBitmap", "class_hidden__handler_1_1_imaging__handler.html#a5a96cd1b6915e0c57764258d7991400d", null ],
+    [ "CreateCompatibleDC", "class_hidden__handler_1_1_imaging__handler.html#a3d94ca24043ce806736e58d4811271ab", null ],
+    [ "CreateDesktop", "class_hidden__handler_1_1_imaging__handler.html#a4a6bacf8f1f65ff47bfe0fb7a816e29f", null ],
+    [ "DeleteDC", "class_hidden__handler_1_1_imaging__handler.html#a710b3498588a623c512330e944b2418f", null ],
+    [ "DeleteObject", "class_hidden__handler_1_1_imaging__handler.html#a29d9c92b2313978def8aa7554370559b", null ],
+    [ "Dispose", "class_hidden__handler_1_1_imaging__handler.html#af5ed6ce877f2046db35882bf6f197370", null ],
+    [ "DrawApplication", "class_hidden__handler_1_1_imaging__handler.html#a308aeab0144edcbab28c19b3eb965e13", null ],
+    [ "DrawHwnd", "class_hidden__handler_1_1_imaging__handler.html#ad1ec219b3d1d6eae2f45680a731d7a5e", null ],
+    [ "DrawTopDown", "class_hidden__handler_1_1_imaging__handler.html#ac4213900b49202fa62f772d8d2b13b92", null ],
+    [ "GetDC", "class_hidden__handler_1_1_imaging__handler.html#a48364fbdab616380ccdc4d5899de1334", null ],
+    [ "GetDesktopWindow", "class_hidden__handler_1_1_imaging__handler.html#aa80cf08eadb2597480855c7c6d33a8a1", null ],
+    [ "GetDeviceCaps", "class_hidden__handler_1_1_imaging__handler.html#af9e0279905915bf2dc2627a039993d7b", null ],
+    [ "GetScalingFactor", "class_hidden__handler_1_1_imaging__handler.html#a5eb3f0ab3d4467c9299b4ba662bbf8cf", null ],
+    [ "GetTopWindow", "class_hidden__handler_1_1_imaging__handler.html#af38e63731e3d6f51a9c6e7f430ecce57", null ],
+    [ "GetWindow", "class_hidden__handler_1_1_imaging__handler.html#a3ea770aadfb2f9ab97d587d2d3ac2cb5", null ],
+    [ "GetWindowRect", "class_hidden__handler_1_1_imaging__handler.html#a5fb4ec825aebc883b9708b78b3ac9722", null ],
+    [ "IsWindowVisible", "class_hidden__handler_1_1_imaging__handler.html#a0f031ac030a56919b1e75d2b43ccd62a", null ],
+    [ "OpenDesktop", "class_hidden__handler_1_1_imaging__handler.html#ad3f64a25be40ce87dfc7bda79fab2524", null ],
+    [ "PrintWindow", "class_hidden__handler_1_1_imaging__handler.html#acd1f4e35f963cec5a44ac001712cb0e1", null ],
+    [ "ReleaseDC", "class_hidden__handler_1_1_imaging__handler.html#a1870ae840f22c076c00c466baa599c88", null ],
+    [ "Screenshot", "class_hidden__handler_1_1_imaging__handler.html#aa1d241521b20524c3b3028a52dbce083", null ],
+    [ "SelectObject", "class_hidden__handler_1_1_imaging__handler.html#a202738e4e2e349732fc644d3036171f1", null ],
+    [ "SetThreadDesktop", "class_hidden__handler_1_1_imaging__handler.html#a2000ddb0e1190b49e1783a112f2734d2", null ],
+    [ "Desktop", "class_hidden__handler_1_1_imaging__handler.html#a52b2cc1e8998500ba4537da413f8fe68", null ]
+];

@@ -1,0 +1,26 @@
+var class_n_audio_1_1_wave_1_1_mp3_frame =
+[
+    [ "Mp3Frame", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a424237cf58748d2f924e32f01b8f3e15", null ],
+    [ "IsValidHeader", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a0f1440391263c43ece732186b496e564", null ],
+    [ "LoadFromStream", "class_n_audio_1_1_wave_1_1_mp3_frame.html#aacebf32e12cd788f543c16aa388c827f", null ],
+    [ "LoadFromStream", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a1479b3b1bdbdd1937bb4e6c4f58b821d", null ],
+    [ "bitRates", "class_n_audio_1_1_wave_1_1_mp3_frame.html#abc25c3013a2cf5bdeff4e494a8ebeeb6", null ],
+    [ "MaxFrameLength", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a1641ffd256092030a9c3c314b4240860", null ],
+    [ "sampleRatesVersion1", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a2f56a2857bebcba730be4c473967c47b", null ],
+    [ "sampleRatesVersion2", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a275af69d34f08099f1db5b919d753d8d", null ],
+    [ "sampleRatesVersion25", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a2c2ea4fb658323f7aa10d3f6c6c85914", null ],
+    [ "samplesPerFrame", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a04c1d511173d78f0cf85f6aafcba8536", null ],
+    [ "BitRate", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a7afc76f88deeda3c810316c8b28e565b", null ],
+    [ "BitRateIndex", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a83ff790166480e05a23e90e024b05c19", null ],
+    [ "ChannelExtension", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a24253a20038fb771dbc760f605f2bb94", null ],
+    [ "ChannelMode", "class_n_audio_1_1_wave_1_1_mp3_frame.html#af26f2e60194a35fc5630bbac49052664", null ],
+    [ "Copyright", "class_n_audio_1_1_wave_1_1_mp3_frame.html#acf83637bb66c8f5fdd06565a7de09d2b", null ],
+    [ "CrcPresent", "class_n_audio_1_1_wave_1_1_mp3_frame.html#ae0177be5207e1c43f34007f72c636eca", null ],
+    [ "FileOffset", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a6c21a64391a0537f423df307e0baf6d4", null ],
+    [ "FrameLength", "class_n_audio_1_1_wave_1_1_mp3_frame.html#aa1ae41162bee68d9566c26497ec31405", null ],
+    [ "MpegLayer", "class_n_audio_1_1_wave_1_1_mp3_frame.html#ae091013c4b97031f4719c0688ae0532e", null ],
+    [ "MpegVersion", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a415e4cca7a19e155e2d7873553500bf1", null ],
+    [ "RawData", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a450d0f30745201ec9b6e56a7b83971a2", null ],
+    [ "SampleCount", "class_n_audio_1_1_wave_1_1_mp3_frame.html#aca3274568cb63dab4b0618c302f2288a", null ],
+    [ "SampleRate", "class_n_audio_1_1_wave_1_1_mp3_frame.html#a08e0d1047f14b6eefe63c42e13eeefe4", null ]
+];

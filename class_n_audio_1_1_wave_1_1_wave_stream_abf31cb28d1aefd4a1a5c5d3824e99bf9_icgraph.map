@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveStream.HasData" name="NAudio.Wave.WaveStream.HasData">
+<area shape="rect" id="Node000001" title="Checks if there is data available at the current position." alt="" coords="274,46,510,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_channel32.html#ae67b47df9ea6c61f8b1e9233a2ccbbe8" title="Checks if the source stream has data available based on the specified count." alt="" coords="13,5,218,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="265,46,218,41,218,35,265,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_offset_stream.html#aa77f5f5c07edbb42c1139e9c0765bcad" title="Checks if the source stream has data available." alt="" coords="5,71,226,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="261,77,227,81,226,76,260,72"/>
+</map>

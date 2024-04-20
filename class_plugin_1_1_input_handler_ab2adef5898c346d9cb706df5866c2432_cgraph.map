@@ -1,0 +1,5 @@
+<map id="Plugin.InputHandler.SimulateKeyPress" name="Plugin.InputHandler.SimulateKeyPress">
+<area shape="rect" id="Node000001" title="Simulates a key press for the specified key code." alt="" coords="5,5,195,46"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_input_handler.html#ad97ef6954bb64564d9b792827a6cb413" title="Simulates a keyboard event by generating a sequence of key&#45;down and key&#45;up messages for a specified v..." alt="" coords="243,5,416,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,23,227,23,227,28,195,28"/>
+</map>

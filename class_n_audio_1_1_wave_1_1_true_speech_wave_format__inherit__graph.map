@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.TrueSpeechWaveFormat" name="NAudio.Wave.TrueSpeechWaveFormat">
+<area shape="rect" id="Node000001" title="DSP Group TrueSpeech." alt="" coords="5,699,205,799"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="6,5,205,651"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,666,108,699,103,699,103,666"/>
+</map>

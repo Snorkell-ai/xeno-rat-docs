@@ -1,0 +1,5 @@
+<map id="NAudio.MediaFoundation.IMFActivate" name="NAudio.MediaFoundation.IMFActivate">
+<area shape="rect" id="Node000001" title="IMFActivate, defined in mfobjects.h." alt="" coords="5,319,239,584"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_attributes.html" title="Provides a generic way to store key/value pairs on an object. http://msdn.microsoft...." alt="" coords="59,5,185,271"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,286,125,319,119,319,119,286"/>
+</map>

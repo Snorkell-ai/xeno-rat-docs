@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.SimpleAudioVolume" name="NAudio.CoreAudioApi.SimpleAudioVolume">
+<area shape="rect" id="Node000001" title="Windows CoreAudio SimpleAudioVolume." alt="" coords="38,208,222,348"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="5,43,87,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,121,104,208,99,210,62,123"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="111,5,317,145"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,146,168,194,163,192,183,144"/>
+</map>

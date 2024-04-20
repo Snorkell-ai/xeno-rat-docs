@@ -1,0 +1,21 @@
+<map id="NAudio.Wave.SimpleCompressorEffect" name="NAudio.Wave.SimpleCompressorEffect">
+<area shape="rect" id="Node000001" title="A simple compressor." alt="" coords="341,790,549,1010"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,612,115,677"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,687,128,725,180,763,235,798,343,853,340,858,233,802,177,768,125,729,88,690"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="139,612,333,677"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,675,347,776,343,779,260,678"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_simple_compressor.html" title=" " alt="" coords="357,562,555,727"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="451,727,450,751,449,773,443,773,444,751,446,727"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dsp_1_1_att_rel_envelope.html" title=" " alt="" coords="460,387,583,512"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="498,528,486,563,481,561,493,526"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="463,5,513,71"/>
+<area shape="poly" id="edge8_Node000004_Node000006" title=" " alt="" coords="485,71,466,208,457,297,451,387,451,512,452,545,447,545,445,512,445,387,451,296,461,207,480,70"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="491,70,494,176,503,309,511,370,506,370,498,309,489,176,486,71"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_dsp_1_1_envelope_detector.html" title=" " alt="" coords="603,164,795,309"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="515,61,612,151,608,154,511,65"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="641,311,586,376,582,373,637,307"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="580,612,607,677"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="593,677,584,721,566,767,561,777,556,775,562,765,579,720,587,676"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="660,612,708,677"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="679,678,663,722,637,768,603,803,565,834,561,830,599,799,633,764,658,720,674,676"/>
+</map>

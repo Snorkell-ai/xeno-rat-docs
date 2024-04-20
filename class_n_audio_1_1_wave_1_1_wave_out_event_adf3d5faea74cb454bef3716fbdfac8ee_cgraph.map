@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOutEvent.CloseWaveOut" name="NAudio.Wave.WaveOutEvent.CloseWaveOut">
+<area shape="rect" id="Node000001" title="Closes the wave output device and releases associated resources." alt="" coords="5,5,203,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a9bfe4605db74d845aafb637240db3cd6" title="Closes the specified waveform output device." alt="" coords="251,5,464,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,23,235,23,235,28,203,28"/>
+</map>

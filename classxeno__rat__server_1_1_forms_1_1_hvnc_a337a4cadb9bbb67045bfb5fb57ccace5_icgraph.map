@@ -1,0 +1,15 @@
+<map id="xeno_rat_server.Forms.Hvnc.StartProc" name="xeno_rat_server.Forms.Hvnc.StartProc">
+<area shape="rect" id="Node000001" title="Starts a process by sending the specified path to the client." alt="" coords="803,71,997,111"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aa965aed6eec12d167ccf007efbe8f286" title="Starts a process using the specified file path." alt="" coords="519,5,755,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="800,69,721,49,723,44,801,64"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#ace859083498d0f66dc281e75e2af4299" title="Initiates a new process for the command prompt." alt="" coords="519,71,755,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="788,94,756,94,756,88,788,88"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#acb5653bb1603ab9711bef46861f98509" title="Initiates a PowerShell process asynchronously." alt="" coords="519,136,755,177"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="801,118,723,138,721,133,800,113"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aac81e0caa44da1e51b186fb2a1f6fd6d" title="Initializes the components of the form." alt="" coords="278,71,471,111"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="538,53,460,73,458,67,537,48"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a8209e6a5de9c8c13ac4acff1fea18283" title=" " alt="" coords="5,78,230,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="262,94,230,94,230,88,262,88"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="503,94,472,94,472,88,503,88"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="537,134,458,115,460,109,538,129"/>
+</map>

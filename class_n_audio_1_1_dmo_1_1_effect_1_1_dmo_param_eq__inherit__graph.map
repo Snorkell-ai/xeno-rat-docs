@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.Effect.DmoParamEq" name="NAudio.Dmo.Effect.DmoParamEq">
+<area shape="rect" id="Node000001" title="DMO Parametric Equalizer Effect." alt="" coords="5,173,219,359"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_dmo_effector.html" title=" " alt="" coords="17,5,207,125"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,140,115,174,109,174,109,140"/>
+</map>

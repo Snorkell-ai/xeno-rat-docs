@@ -1,0 +1,9 @@
+<map id="NAudio.Dmo.Effect.DmoEcho.Params" name="NAudio.Dmo.Effect.DmoEcho.Params">
+<area shape="rect" id="Node000001" title="DMO Echo Params." alt="" coords="77,318,270,558"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,23,43,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="24,88,24,130,26,182,35,239,52,293,69,325,65,327,48,295,30,240,21,183,18,130,19,88"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="105,23,241,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,88,176,301,171,301,171,88"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_echo.html" title=" " alt="" coords="266,5,435,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="347,106,328,196,312,247,292,296,281,314,277,312,287,293,307,245,323,195,342,105"/>
+</map>

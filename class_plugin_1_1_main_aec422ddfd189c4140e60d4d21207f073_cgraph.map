@@ -1,0 +1,21 @@
+<map id="Plugin.Main.HandleCloneOpera" name="Plugin.Main.HandleCloneOpera">
+<area shape="rect" id="Node000001" title="Handles the cloning of the Opera browser." alt="" coords="5,126,209,152"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a72151c3db1f9b348fe603e44d390f92d" title="Clones the Opera browser data to a specified directory." alt="" coords="266,53,429,94"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,123,254,96,256,101,158,128"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_main.html#a40f3ba09712707d0b952e7d77cae7c08" title="Retrieves the process ID of a specified process based on the command line and search string." alt="" coords="257,119,438,159"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="209,136,241,136,241,142,209,142"/>
+<area shape="rect" id="Node000007" href="$class_hidden__handler_1_1_process___handler.html#ad0d426f0b0d1099e4ad40cbd3ca1590f" title="Starts the Opera browser with specified settings and user data directory." alt="" coords="266,184,429,225"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="158,150,256,177,254,182,156,155"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="486,53,648,94"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="429,71,471,71,471,76,429,76"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="706,5,913,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="648,55,690,47,691,52,649,60"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="696,71,923,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="649,77,681,79,681,84,649,82"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="486,168,648,209"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="429,196,470,193,471,198,429,201"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1_process___handler.html#afe1048462106a655e0e0aa9016e4e131" title="Retrieves the installation path of the Opera browser." alt="" coords="486,233,648,274"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="430,220,471,229,470,235,428,225"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="728,168,891,209"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="649,186,712,186,712,191,649,191"/>
+</map>

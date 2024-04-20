@@ -1,0 +1,9 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification" name="NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification">
+<area shape="rect" id="Node000001" title="Deletes a previous registration by the client to receive notifications." alt="" coords="560,34,804,90"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_control.html#afbf747a2b57f94561be6f7d4e88dd599" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="312,5,498,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="544,46,498,40,498,35,545,41"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_control.html#a866af1014f88a15508ec276c6531e290" title="Unregisters the specified audio session event client." alt="" coords="298,70,512,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="545,82,513,86,512,81,544,77"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_control.html#ade98be2204229b71865adfd42154777b" title="Finalizer." alt="" coords="5,5,250,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,28,250,28,250,23,297,23"/>
+</map>

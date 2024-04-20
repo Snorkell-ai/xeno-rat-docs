@@ -1,0 +1,3 @@
+<map id="NAudio.Wave.IWaveBuffer" name="NAudio.Wave.IWaveBuffer">
+<area shape="rect" id="Node000001" title="IWaveBuffer interface use to store wave datas. Data can be manipulated with arrays (ByteBuffer,..." alt="" coords="5,5,175,231"/>
+</map>

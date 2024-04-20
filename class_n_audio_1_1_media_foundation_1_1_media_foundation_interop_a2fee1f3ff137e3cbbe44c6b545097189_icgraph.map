@@ -1,0 +1,7 @@
+<map id="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream" name="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream">
+<area shape="rect" id="Node000001" title="Creates a source reader from a byte stream." alt="" coords="578,5,806,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a64cc923ba18f727765207097cb26198a" title="Creates a source reader from the specified byte stream." alt="" coords="300,5,530,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="563,36,531,36,531,31,563,31"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html#a00de24df139f58814872dbc2352ea783" title="Creates a new instance of IMFSourceReader with the specified settings." alt="" coords="5,13,252,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,36,252,36,252,31,284,31"/>
+</map>

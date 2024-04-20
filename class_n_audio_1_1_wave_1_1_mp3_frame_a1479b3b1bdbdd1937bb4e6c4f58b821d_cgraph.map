@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Mp3Frame.LoadFromStream" name="NAudio.Wave.Mp3Frame.LoadFromStream">
+<area shape="rect" id="Node000001" title="Reads an MP3Frame from a stream." alt="" coords="5,39,205,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_mp3_frame.html#a0f1440391263c43ece732186b496e564" title="Checks if the provided header bytes and Mp3Frame are valid and returns a boolean value indicating the..." alt="" coords="253,5,463,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,43,237,39,237,44,206,48"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_mp3_frame.html#a424237cf58748d2f924e32f01b8f3e15" title="Constructs an MP3 frame." alt="" coords="260,71,456,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,69,244,74,244,79,205,74"/>
+</map>

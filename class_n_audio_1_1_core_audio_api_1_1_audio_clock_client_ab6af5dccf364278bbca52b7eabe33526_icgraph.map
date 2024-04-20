@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioClockClient.GetPosition" name="NAudio.CoreAudioApi.AudioClockClient.GetPosition">
+<area shape="rect" id="Node000001" title="Retrieves the current position of the audio clock and the corresponding QPC (QueryPerformanceCounter)..." alt="" coords="248,5,433,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html#a75e449c474c7c1bd6b6eae8b88c24c9b" title="Gets the current playback position in bytes." alt="" coords="5,5,200,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,28,200,28,200,23,232,23"/>
+</map>

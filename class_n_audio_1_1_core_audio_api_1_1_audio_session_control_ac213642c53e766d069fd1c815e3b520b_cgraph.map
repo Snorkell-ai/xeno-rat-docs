@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioSessionControl.SetGroupingParam" name="NAudio.CoreAudioApi.AudioSessionControl.SetGroupingParam">
+<area shape="rect" id="Node000001" title="Sets the grouping parameter for the audio session control interface." alt="" coords="5,5,230,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_control.html#a4ed59ca4e03908c52890b67f3610a38c" title="Assigns a session to a grouping of sessions." alt="" coords="278,5,539,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,23,262,23,262,28,230,28"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.ResamplerDmoStream.InputToOutputPosition" name="NAudio.Wave.ResamplerDmoStream.InputToOutputPosition">
+<area shape="rect" id="Node000001" title="Converts the input position to the corresponding output position based on the ratio of average bytes ..." alt="" coords="254,5,450,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html#a79fd72de1823c37903441f8625dca05b" title="WaveStream to resample using the DMO Resampler." alt="" coords="5,5,206,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,28,206,28,206,23,238,23"/>
+</map>

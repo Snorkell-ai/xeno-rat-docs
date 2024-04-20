@@ -1,0 +1,7 @@
+<map id="NAudio.Utils.NativeMethods.FreeLibrary" name="NAudio.Utils.NativeMethods.FreeLibrary">
+<area shape="rect" id="Node000001" title="Frees the loaded dynamic&#45;link library (DLL) module and returns a value indicating success." alt="" coords="255,39,446,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a03a504f0493dca9c60cb90438edacdd4" title="Adds a local driver from the specified file and returns the driver information." alt="" coords="13,5,199,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,47,199,41,200,36,240,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a21ee8c741d4208c73f318959faa80040" title="Removes the local driver and frees the associated resources." alt="" coords="5,71,207,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,76,207,80,207,75,239,71"/>
+</map>

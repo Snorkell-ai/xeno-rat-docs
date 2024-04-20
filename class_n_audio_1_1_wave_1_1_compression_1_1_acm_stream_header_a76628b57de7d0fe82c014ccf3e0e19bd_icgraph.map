@@ -1,0 +1,8 @@
+<map id="NAudio.Wave.Compression.AcmStreamHeader.Dispose" name="NAudio.Wave.Compression.AcmStreamHeader.Dispose">
+<area shape="rect" id="Node000001" title="Disposes of the allocated resources." alt="" coords="308,39,494,79"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="445,26,428,20,401,17,375,19,359,24,353,30,356,37,351,39,348,29,356,20,374,14,401,12,430,14,447,21"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#ae4d3c107dd047bc129565bfc282284b6" title="Frees resources associated with this ACM Stream." alt="" coords="39,5,226,46"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="292,48,226,40,227,35,293,43"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header.html#a8cbab0960477996cf092c27f6e22dd0d" title=" " alt="" coords="5,71,260,111"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="293,75,260,78,260,73,292,69"/>
+</map>

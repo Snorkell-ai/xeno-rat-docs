@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.WaveInterop.waveOutClose" name="NAudio.Wave.WaveInterop.waveOutClose">
+<area shape="rect" id="Node000001" title="Closes the specified waveform output device." alt="" coords="767,63,981,103"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#adf3d5faea74cb454bef3716fbdfac8ee" title="Closes the wave output device and releases associated resources." alt="" coords="515,33,712,74"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="751,72,712,67,713,62,752,67"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_out.html#aed20ebeae9ab860494eadf19941e3cd6" title="Closes the WaveOut device and disposes of buffers." alt="" coords="508,98,719,124"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="752,99,720,102,719,97,751,93"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a8727e44cb5737ff4a5449bb7f0b66347" title="Closes the WaveOut device and disposes of buffers." alt="" coords="254,5,451,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="499,44,451,39,452,34,500,39"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a59f8399d92816fb1170ce3e8586c357e" title="Initializes the WaveOut device with the specified wave provider." alt="" coords="245,70,460,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="500,69,461,74,460,68,499,64"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#a50e278569d197c1ba2d6bae4df19f251" title=" " alt="" coords="5,63,197,103"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="229,86,197,86,197,80,229,80"/>
+</map>

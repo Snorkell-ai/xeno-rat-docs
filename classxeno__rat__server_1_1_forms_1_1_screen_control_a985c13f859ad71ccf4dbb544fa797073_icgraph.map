@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.ScreenControl.pictureBox1_MouseDown" name="xeno_rat_server.Forms.ScreenControl.pictureBox1_MouseDown">
+<area shape="rect" id="Node000001" title="Handles the mouse down event for pictureBox1." alt="" coords="500,5,716,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a978a5ad745efc1edb019a29c1180b936" title="Initializes the components of the form including picture box, combo boxes, buttons,..." alt="" coords="253,5,452,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="484,28,452,28,452,23,484,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_screen_control.html#a8dcd76d0a3c4f5f80fec22e746ea85cb" title=" " alt="" coords="5,5,205,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="237,28,205,28,205,23,237,23"/>
+</map>

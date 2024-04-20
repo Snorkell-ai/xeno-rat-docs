@@ -1,0 +1,20 @@
+<map id="NAudio.Wave.Id3v2Tag.Create" name="NAudio.Wave.Id3v2Tag.Create">
+<area shape="rect" id="Node000001" title="Creates an ID3v2 tag from the given collection of key&#45;value pairs and returns the created tag." alt="" coords="5,140,207,165"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#aef524367b2998f7dd0f84d2f53a5bd20" title="Creates an ID3v2 tag stream based on the provided tags." alt="" coords="261,103,463,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,138,246,134,246,139,207,143"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a402d29d71aa5d32148f5370e01714e7c" title="Reads an ID3v2 tag from the input stream and returns the tag." alt="" coords="255,168,469,193"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="207,161,239,164,239,170,207,166"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#ac5ca72f8e2fe3dc92b00c71cae78ac3d" title="Creates an ID3v2 frame with the specified key and value." alt="" coords="524,37,725,78"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="446,99,525,80,526,85,447,105"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a70fba60a8153bba2baf8e36e03073681" title="Creates an ID3v2 tag header based on the provided frames and returns the resulting tag header." alt="" coords="524,103,725,143"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="463,120,509,120,509,126,463,126"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_utils_1_1_byte_array_extensions.html#ada86231ea4a8f13d341729983194c53d" title="Concatenates multiple byte arrays into a single byte array and returns the result." alt="" coords="780,71,1007,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="726,68,765,72,764,78,726,73"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a00c0c1be309165eba8bb7560c0fa7dce" title="Converts the frame size to a byte array and returns the result." alt="" coords="794,5,993,46"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="726,43,778,37,779,42,726,48"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="726,108,764,104,765,109,726,114"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#afa57fd617f156553b8ed051eddc1c9cd" title="Gets the ID3 tag header size as an array of bytes." alt="" coords="802,136,985,177"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="726,133,787,140,786,146,726,138"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a91dd0a39bebbb29b61a147d93cabf84c" title=" " alt="" coords="517,168,732,193"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="469,178,502,178,502,183,469,183"/>
+</map>

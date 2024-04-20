@@ -1,0 +1,5 @@
+<map id="Hidden_handler.input_handler.CloseDesktop" name="Hidden_handler.input_handler.CloseDesktop">
+<area shape="rect" id="Node000001" title="Closes the specified desktop." alt="" coords="196,5,352,46"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1input__handler.html#ab134ef89b810dc30e331f9ee69e31ad5" title="Disposes the resources associated with the current object." alt="" coords="5,5,148,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,28,148,28,148,23,180,23"/>
+</map>

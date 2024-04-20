@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioCaptureClient.ReleaseBuffer" name="NAudio.CoreAudioApi.AudioCaptureClient.ReleaseBuffer">
+<area shape="rect" id="Node000001" title="Releases the buffer containing audio data after writing a specified number of frames." alt="" coords="5,5,194,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_capture_client.html#ab78b4108c06a95f8093334068ed53cc3" title=" " alt="" coords="242,5,467,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,23,226,23,226,28,194,28"/>
+</map>

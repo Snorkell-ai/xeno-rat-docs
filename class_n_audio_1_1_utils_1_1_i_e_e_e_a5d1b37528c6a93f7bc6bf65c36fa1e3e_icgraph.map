@@ -1,0 +1,9 @@
+<map id="NAudio.Utils.IEEE.ConvertToIeeeExtended" name="NAudio.Utils.IEEE.ConvertToIeeeExtended">
+<area shape="rect" id="Node000001" title="Converts a double&#45;precision floating&#45;point number to its IEEE 754 extended precision representation." alt="" coords="699,5,880,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa4e2a77e28e7c0348c06d8b6150a5f21" title="Creates a &#39;COMM&#39; chunk in the WAV file." alt="" coords="468,5,651,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="684,28,652,28,652,23,684,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#a38debf484e59f64adfcbf0bf57b6b5ec" title="AiffFileWriter that actually writes to a stream." alt="" coords="237,5,420,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="453,28,421,28,421,23,453,23"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#ac0f55bd7ae4da4df57bd11fc1dab79fb" title="Creates an AIFF audio file from the provided WaveStream." alt="" coords="5,5,189,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="221,28,189,28,189,23,221,23"/>
+</map>

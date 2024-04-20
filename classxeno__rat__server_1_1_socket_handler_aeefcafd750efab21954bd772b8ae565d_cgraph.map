@@ -1,0 +1,5 @@
+<map id="xeno_rat_server.SocketHandler.ParseHeader" name="xeno_rat_server.SocketHandler.ParseHeader">
+<area shape="rect" id="Node000001" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="5,5,212,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="260,5,466,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,23,244,23,244,28,212,28"/>
+</map>

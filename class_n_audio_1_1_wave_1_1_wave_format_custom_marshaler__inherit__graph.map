@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveFormatCustomMarshaler" name="NAudio.Wave.WaveFormatCustomMarshaler">
+<area shape="rect" id="Node000001" title="Custom marshaller for WaveFormat structures." alt="" coords="5,119,223,299"/>
+<area shape="rect" id="Node000002" href="$class_i_custom_marshaler.html" title=" " alt="" coords="54,5,174,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,86,117,119,111,119,111,86"/>
+</map>

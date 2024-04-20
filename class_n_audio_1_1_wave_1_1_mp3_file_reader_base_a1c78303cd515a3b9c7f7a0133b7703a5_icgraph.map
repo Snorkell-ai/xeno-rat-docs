@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Mp3FileReaderBase.CreateTableOfContents" name="NAudio.Wave.Mp3FileReaderBase.CreateTableOfContents">
+<area shape="rect" id="Node000001" title="Creates a table of contents for the MP3 file by reading the frames and populating the table of conten..." alt="" coords="247,5,440,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ef942cc623142a9827edcff17f55e12" title=" " alt="" coords="5,5,199,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
+</map>

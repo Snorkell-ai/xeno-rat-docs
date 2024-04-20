@@ -1,0 +1,9 @@
+<map id="NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO" name="NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO">
+<area shape="rect" id="Node000001" title="Contains information about an input stream on a Media Foundation transform (MFT)" alt="" coords="71,178,260,258"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,43,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="30,77,39,116,58,153,70,166,66,169,54,156,34,117,24,78"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="67,5,264,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,85,168,161,163,161,163,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="288,13,315,78"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="290,72,266,113,234,156,224,168,220,164,230,153,261,110,286,70"/>
+</map>

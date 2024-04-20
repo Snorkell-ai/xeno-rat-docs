@@ -1,0 +1,5 @@
+<map id="NAudio.MediaFoundation.MediaFoundationApi.CreateByteStream" name="NAudio.MediaFoundation.MediaFoundationApi.CreateByteStream">
+<area shape="rect" id="Node000001" title="Creates an IMFByteStream from the given stream object." alt="" coords="5,13,222,54"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#acc84ebe5cb639b83a3295de2fa5c9d10" title="Creates a byte stream object based on the provided stream object." alt="" coords="270,5,503,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,31,254,31,254,36,222,36"/>
+</map>

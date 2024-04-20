@@ -1,0 +1,9 @@
+<map id="NAudio.Dmo.Effect.DmoGargle.Params" name="NAudio.Dmo.Effect.DmoGargle.Params">
+<area shape="rect" id="Node000001" title="DMO Gargle Params." alt="" coords="51,198,252,338"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,23,39,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="26,87,33,130,49,173,56,184,52,187,45,176,28,131,21,88"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="73,23,230,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,88,154,181,149,181,149,88"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_gargle.html" title=" " alt="" coords="255,5,424,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="324,106,306,142,283,176,267,193,263,189,279,173,302,139,319,104"/>
+</map>

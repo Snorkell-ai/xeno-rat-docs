@@ -1,0 +1,13 @@
+<map id="NAudio.MediaFoundation.MediaFoundationInterop.MFStartup" name="NAudio.MediaFoundation.MediaFoundationInterop.MFStartup">
+<area shape="rect" id="Node000001" title="Initializes the Media Foundation platform." alt="" coords="854,72,1061,113"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a64dbbb824199204c5a8cf57515732a0f" title="Initializes the Media Foundation platform if not already initialized." alt="" coords="600,72,806,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="839,95,807,95,807,90,839,90"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a030e2baaaa4d3a16ebe5430fdc06332f" title="Initializes the MediaFoundationReader with the specified settings." alt="" coords="325,39,530,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="584,81,530,74,530,69,585,75"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="303,104,552,145"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="584,109,553,112,552,107,584,103"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a478c60af06406213cd899a93ec6c51ab" title="Creates a new MediaFoundationReader based on the supplied file." alt="" coords="26,5,234,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="309,48,234,40,234,35,310,43"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html#ad4b042f9d2fb5e83ae115deac0a104ac" title="Constructs a new media foundation reader from a stream." alt="" coords="5,71,255,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="310,74,256,80,255,75,309,69"/>
+</map>

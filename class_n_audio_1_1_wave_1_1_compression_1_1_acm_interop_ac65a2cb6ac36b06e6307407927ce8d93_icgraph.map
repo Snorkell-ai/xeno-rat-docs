@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.Compression.AcmInterop.acmStreamSize" name="NAudio.Wave.Compression.AcmInterop.acmStreamSize">
+<area shape="rect" id="Node000001" title="Retrieves the size of the output buffer required for the specified input buffer size and conversion p..." alt="" coords="474,39,660,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#ab9b3f5b2d0d0f6c67e330200e31e980a" title="Converts the specified destination value to the source format and returns the result." alt="" coords="240,5,426,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="458,46,426,42,427,36,459,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a673fd43e0771c321da2c6d3d43380e25" title="Converts the source value to destination and returns the result." alt="" coords="240,71,426,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="459,76,427,81,426,76,458,71"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a809f3ad304af60f6b601c319ae6c4afc" title="Creates a new ACM stream to convert one format to another, using a specified driver identifier and wa..." alt="" coords="5,37,192,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="224,78,192,74,193,68,225,73"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a63db5a6e10bee35b5796bf199cc5e203" title="Creates a new ACM stream to convert one format to another. Note that not all conversions can be done ..." alt="" coords="5,103,192,143"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="225,108,192,113,192,108,224,103"/>
+</map>

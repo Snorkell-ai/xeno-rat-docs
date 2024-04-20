@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.MediaFoundationEncoder" name="NAudio.Wave.MediaFoundationEncoder">
+<area shape="rect" id="Node000001" title="Media Foundation Encoder class allows you to use Media Foundation to encode an IWaveProvider to any s..." alt="" coords="125,997,321,1457"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="5,758,87,824"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,837,100,933,128,1000,123,1002,96,935,59,838"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_media_foundation_1_1_media_type.html" title="Media Type helper class, simplifying working with IMFMediaType (will probably change in the future,..." alt="" coords="111,648,336,934"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,934,226,980,221,980,221,934"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_type.html" title="Represents a description of a media format. http://msdn.microsoft.com/en&#45;us/library/windows/desktop/m..." alt="" coords="99,320,348,585"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,585,226,631,221,631,221,585"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_attributes.html" title="Provides a generic way to store key/value pairs on an object. http://msdn.microsoft...." alt="" coords="161,5,286,271"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="226,285,226,320,221,320,221,285"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="361,758,398,824"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="376,824,351,934,330,1001,325,999,346,933,371,823"/>
+</map>

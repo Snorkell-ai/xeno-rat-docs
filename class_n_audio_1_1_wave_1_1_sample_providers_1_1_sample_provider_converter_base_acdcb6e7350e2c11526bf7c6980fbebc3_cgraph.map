@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.SampleProviderConverterBase.EnsureSourceBuffer" name="NAudio.Wave.SampleProviders.SampleProviderConverterBase.EnsureSourceBuffer">
+<area shape="rect" id="Node000001" title="Ensures that the source buffer has enough capacity to accommodate the specified number of bytes requi..." alt="" coords="5,5,251,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_buffer_helpers.html#a6fcf5a452e6779e71f5dfa9b51a74f1e" title="Ensures that the input buffer has at least the specified number of samples and returns the buffer." alt="" coords="299,13,482,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,31,283,31,283,36,251,36"/>
+</map>

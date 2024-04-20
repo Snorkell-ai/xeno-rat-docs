@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IPropertyStore.GetValue" name="NAudio.CoreAudioApi.Interfaces.IPropertyStore.GetValue">
+<area shape="rect" id="Node000001" title=" " alt="" coords="255,5,469,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_property_store.html#a42fe7750edda0263f5d9762e4808ff2c" title="Retrieves the value at the specified index and returns it as a PropVariant." alt="" coords="5,5,207,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>

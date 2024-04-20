@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.BufferedWaveProvider.ClearBuffer" name="NAudio.Wave.BufferedWaveProvider.ClearBuffer">
+<area shape="rect" id="Node000001" title="Clears the circular buffer." alt="" coords="5,5,193,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a1399ff4a96831595ce722ee03906b778" title="Resets the state of the object." alt="" coords="241,5,423,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,23,225,23,225,28,193,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a401e1389850f550230123905db0a0760" title="Resets the internal state of the object." alt="" coords="471,5,653,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="423,23,455,23,455,28,423,28"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="xeno_rat_server.Forms.CustomPictureBox.GetImageDisplayRectangle" name="xeno_rat_server.Forms.CustomPictureBox.GetImageDisplayRectangle">
+<area shape="rect" id="Node000001" title="Gets the display rectangle for the image in the specified PictureBox." alt="" coords="1287,5,1536,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ad2d6181322edfc502c03b929df4383c2" title="Translates and unzooms the given point based on the zoom factor and displayed image rectangle of the ..." alt="" coords="1013,5,1239,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1271,28,1240,28,1240,23,1271,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a9ba6bd36eae383838cebee58ef3e56ed" title="Translates the coordinates from the original screen size to the target control&#39;s image size and retur..." alt="" coords="751,5,965,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="997,28,965,28,965,23,997,23"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,5,703,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="736,28,704,28,704,23,736,23"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="484,28,451,28,451,23,484,23"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
+</map>

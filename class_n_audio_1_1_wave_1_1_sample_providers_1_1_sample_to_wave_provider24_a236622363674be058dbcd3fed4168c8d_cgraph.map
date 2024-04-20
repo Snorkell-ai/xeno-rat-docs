@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.SampleProviders.SampleToWaveProvider24.Read" name="NAudio.Wave.SampleProviders.SampleToWaveProvider24.Read">
+<area shape="rect" id="Node000001" title="Reads audio samples from the source provider and writes them to the destination buffer." alt="" coords="5,35,215,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_buffer_helpers.html#a6fcf5a452e6779e71f5dfa9b51a74f1e" title="Ensures that the input buffer has at least the specified number of samples and returns the buffer." alt="" coords="289,5,472,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,41,273,35,273,40,215,46"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html#a5d289f74be04dfee607e40fa967072ca" title="Fill the specified buffer with 32 bit floating point samples." alt="" coords="263,70,498,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,63,247,67,247,72,215,69"/>
+</map>

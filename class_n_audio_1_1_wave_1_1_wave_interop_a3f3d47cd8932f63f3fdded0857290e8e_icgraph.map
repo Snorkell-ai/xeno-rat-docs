@@ -1,0 +1,19 @@
+<map id="NAudio.Wave.WaveInterop.waveOutRestart" name="NAudio.Wave.WaveInterop.waveOutRestart">
+<area shape="rect" id="Node000001" title="Restarts playback on the specified waveform&#45;audio output device." alt="" coords="1514,27,1728,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#a516bd14a2413573f3f3c04f597bc94b6" title="Resumes playback of the audio." alt="" coords="1254,5,1466,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1499,36,1466,33,1467,27,1499,31"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#ac286d1ddcbb0a8d5aa55841330f5a461" title="Resumes playback if the current state is paused." alt="" coords="1262,55,1459,96"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1499,63,1459,68,1459,62,1499,58"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out.html#ae5ba27d7979139f3aeaa7bf3cff106d3" title="Plays the audio if the playback state is stopped, or resumes playing if the state is paused." alt="" coords="1000,5,1189,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1239,21,1190,21,1190,16,1239,16"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a48d131f28d34800e5455fb6997401c57" title="Plays the audio." alt="" coords="983,63,1206,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1246,78,1207,78,1207,73,1246,73"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#afe0ffdc5908bbd0d94fc7ae95224d7eb" title="Clears the buffer and starts playing audio." alt="" coords="743,55,935,96"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="967,78,935,78,935,73,967,73"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#a3eb48a241f160315b9974191a26929c9" title="Starts the player and sends a signal to the client to start playing." alt="" coords="513,55,695,96"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="728,78,696,78,696,73,728,73"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#aa22c949501255089648411e3411d8a46" title="Initializes the components of the form including the combo box, labels, and buttons." alt="" coords="251,55,465,96"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="497,78,465,78,465,73,497,73"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af759c97b5673c55be1690f19df16e179" title=" " alt="" coords="5,55,203,96"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="235,78,203,78,203,73,235,73"/>
+</map>

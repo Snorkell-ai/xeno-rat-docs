@@ -1,0 +1,6 @@
+<map id="xeno_rat_server.Forms.Live_Microphone.TempOnDisconnect" name="xeno_rat_server.Forms.Live_Microphone.TempOnDisconnect">
+<area shape="rect" id="Node000001" title="Disconnects the client and microphone node if they match the provided node, and closes the form if it..." alt="" coords="5,22,220,63"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="268,29,486,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,40,252,40,252,45,220,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="334,31,325,21,330,11,348,5,377,3,410,5,426,13,424,17,408,11,377,8,349,10,333,15,330,20,337,27"/>
+</map>

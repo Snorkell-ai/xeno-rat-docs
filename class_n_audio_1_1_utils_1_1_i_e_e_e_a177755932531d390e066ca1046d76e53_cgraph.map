@@ -1,0 +1,7 @@
+<map id="NAudio.Utils.IEEE.ConvertFromIeeeExtended" name="NAudio.Utils.IEEE.ConvertFromIeeeExtended">
+<area shape="rect" id="Node000001" title="Converts the given IEEE extended byte array to a double value." alt="" coords="5,27,186,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a581705619f4fe799b9005f0a91e2cb6c" title="Returns x multiplied by 2 raised to the power of exp." alt="" coords="246,5,411,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,34,230,28,230,33,186,39"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a925c5a402f093983bbb3178d7050cf9c" title="Converts the unsigned 64&#45;bit integer to a floating&#45;point number." alt="" coords="234,55,423,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,56,218,60,218,65,185,61"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.AsioOut.Stop" name="NAudio.Wave.AsioOut.Stop">
+<area shape="rect" id="Node000001" title="Stops the playback and resets the playback state to Stopped." alt="" coords="5,46,189,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a052efe78bbe2c49c6d7ce746dd749ece" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="240,5,430,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,43,224,38,225,44,190,49"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a2a766495e3da6cf139ba6da1e5cddb0a" title="Stops the driver." alt="" coords="237,71,433,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,69,222,73,221,78,189,74"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a15c87a396c55cfe0d357689331b75055" title="Stops the ASIO driver and returns any error that occurred during the operation." alt="" coords="481,78,707,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="434,88,465,88,465,94,434,94"/>
+</map>

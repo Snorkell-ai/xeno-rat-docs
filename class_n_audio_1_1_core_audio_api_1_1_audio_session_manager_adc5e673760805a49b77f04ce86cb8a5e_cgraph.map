@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioSessionManager.RefreshSessions" name="NAudio.CoreAudioApi.AudioSessionManager.RefreshSessions">
+<area shape="rect" id="Node000001" title="Refreshes the audio sessions and registers for notifications." alt="" coords="5,5,227,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#ad6aa53b32989f2761edc48b0d43b131d" title="Unregisters the notifications for audio sessions and sets the sessions to null." alt="" coords="275,5,529,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,23,259,23,259,28,227,28"/>
+</map>

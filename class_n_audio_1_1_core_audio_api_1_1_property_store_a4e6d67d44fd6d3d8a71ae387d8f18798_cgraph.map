@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.PropertyStore.Contains" name="NAudio.CoreAudioApi.PropertyStore.Contains">
+<area shape="rect" id="Node000001" title="Checks if the collection contains the specified key ." alt="" coords="5,5,207,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_property_store.html#aa932d0fd8dfa814abe44d2da9ee47290" title="Retrieves the PropertyKey at the specified index." alt="" coords="255,5,456,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,23,239,23,239,28,207,28"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_property_store.html#a8567473c3c2cf8b8a87903dcbb44d5d5" title=" " alt="" coords="504,5,718,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,23,488,23,488,28,456,28"/>
+</map>

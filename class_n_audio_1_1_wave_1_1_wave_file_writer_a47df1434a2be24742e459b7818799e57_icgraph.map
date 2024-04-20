@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveFileWriter.WriteSample" name="NAudio.Wave.WaveFileWriter.WriteSample">
+<area shape="rect" id="Node000001" title="Writes the specified audio sample to the wave file." alt="" coords="494,5,690,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a3760a90fc51cb812d42e7e0b0a15f26e" title="Writes audio samples to the output stream based on the specified format and data." alt="" coords="250,5,446,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,28,447,28,447,23,479,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a80042849d0a47659334b9a6e86579ee8" title="Writes 16 bit samples to the Wave file." alt="" coords="5,5,202,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
+</map>

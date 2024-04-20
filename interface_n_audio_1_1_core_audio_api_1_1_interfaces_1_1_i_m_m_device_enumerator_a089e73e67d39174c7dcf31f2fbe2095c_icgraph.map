@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IMMDeviceEnumerator.RegisterEndpointNotificationCallback" name="NAudio.CoreAudioApi.Interfaces.IMMDeviceEnumerator.RegisterEndpointNotificationCallback">
+<area shape="rect" id="Node000001" title=" " alt="" coords="311,5,569,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_m_m_device_enumerator.html#a3211a4689f8019e90ef09da49eb4382f" title="Registers a notification callback for changes to the endpoint devices and returns the result." alt="" coords="5,5,263,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="295,36,263,36,263,31,295,31"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Midi.MidiIn.Callback" name="NAudio.Midi.MidiIn.Callback">
+<area shape="rect" id="Node000001" title="Callback function for handling MIDI input messages." alt="" coords="224,5,410,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_in.html#aab520b6c8489dd27aedebc0d583f5667" title="Opens a specified MIDI in device." alt="" coords="5,5,176,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,21,176,21,176,16,208,16"/>
+</map>

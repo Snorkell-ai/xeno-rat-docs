@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.Effect.DmoI3DL2Reverb" name="NAudio.Dmo.Effect.DmoI3DL2Reverb">
+<area shape="rect" id="Node000001" title="DMO I3DL2Reverb Effect." alt="" coords="15,173,208,373"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_dmo_effector.html" title=" " alt="" coords="5,5,217,125"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,140,114,174,109,174,109,140"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.Stop" name="AForge.Video.DirectShow.VideoCaptureDevice.Stop">
+<area shape="rect" id="Node000001" title="Stops the running thread if it is currently running." alt="" coords="5,5,180,46"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a246d532c8b0b574db65a8e7b1466263e" title="Waits for the thread to stop and then frees any resources associated with it." alt="" coords="228,5,445,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,23,212,23,212,28,180,28"/>
+<area shape="rect" id="Node000003" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ae2059b862d1485b9ecf485e02a6694be" title="Frees the resources used by the thread and releases the events." alt="" coords="493,5,667,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="446,23,477,23,477,28,446,28"/>
+</map>

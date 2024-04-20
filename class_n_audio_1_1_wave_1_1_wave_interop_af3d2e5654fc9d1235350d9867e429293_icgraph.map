@@ -1,0 +1,28 @@
+<map id="NAudio.Wave.WaveInterop.waveInReset" name="NAudio.Wave.WaveInterop.waveInReset">
+<area shape="rect" id="Node000001" title="Resets the specified waveform&#45;audio input device." alt="" coords="948,127,1161,167"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a922184988b1134142e62fc9198eceffa" title="Closes the wave input device and releases associated resources." alt="" coords="712,61,900,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="959,125,885,105,887,100,960,120"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a4350bf5d2ccaac7bc0f5c702345df4c2" title="Closes the wave input device and releases associated resources." alt="" coords="712,127,900,167"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="932,150,900,150,900,144,932,144"/>
+<area shape="rect" id="Node000012" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#ae1ebb94727fb6b5a87db6b1f6e7be21e" title="Stops the audio recording if it is currently in progress." alt="" coords="712,192,900,233"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="960,174,887,194,885,189,959,169"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in.html#ab5fbb89bcdf578ec5a5f3c515112fe78" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="455,70,656,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="697,85,657,85,657,80,697,80"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a7028a5b04609d26c7ce802dab87147f1" title="Opens the wave input device and creates necessary buffers." alt="" coords="447,5,664,46"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="697,60,649,49,650,44,698,55"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_in.html#ac73083af2ea40dab1577caf35c79c7cd" title="Starts the audio recording process." alt="" coords="215,5,396,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="431,28,396,28,396,23,431,23"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a29b989a5b21f61beafa2973638a088e5" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="462,191,649,231"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="710,174,639,193,637,188,708,169"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a9acd52251653b2da8c05f923819a8926" title="Opens the wave input device and creates necessary buffers." alt="" coords="462,121,649,162"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="697,147,650,146,650,141,697,142"/>
+<area shape="rect" id="Node000008" href="$class_plugin_1_1_main.html#ad3edeeb801a9b8d82ad07c5a7de4da5b" title="Asynchronously receives data from the specified node and processes it based on the received commands." alt="" coords="5,172,164,197"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="446,208,164,191,164,186,447,202"/>
+<area shape="rect" id="Node000009" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs audio operations." alt="" coords="247,222,364,248"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="447,224,365,232,364,227,446,219"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a31de1b9a63d36392f78ec102cbc081bc" title="Starts recording audio." alt="" coords="212,107,399,147"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="446,138,399,135,399,130,447,133"/>
+<area shape="poly" id="edge11_Node000011_Node000008" title=" " alt="" coords="211,154,138,173,136,168,209,149"/>
+<area shape="poly" id="edge13_Node000012_Node000007" title=" " alt="" coords="697,214,650,214,650,209,697,209"/>
+<area shape="poly" id="edge14_Node000012_Node000008" title=" " alt="" coords="721,240,617,263,489,281,419,285,349,284,279,277,211,263,178,250,147,234,100,200,103,196,150,229,180,246,212,258,280,272,349,279,419,280,488,276,616,258,720,235"/>
+</map>

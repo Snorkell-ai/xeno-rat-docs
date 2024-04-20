@@ -1,0 +1,26 @@
+<map id="xeno_rat_server.Forms.FunMenu.button2_Click" name="xeno_rat_server.Forms.FunMenu.button2_Click">
+<area shape="rect" id="Node000001" title="Sends a byte array to the client asynchronously." alt="" coords="5,175,186,215"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="234,175,416,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,192,218,192,218,198,186,198"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="464,153,682,179"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,182,448,178,449,183,417,187"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="470,203,676,243"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="417,203,455,207,454,212,416,208"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="532,154,524,144,529,134,546,128,573,126,604,129,619,136,617,141,603,134,573,131,547,134,532,138,529,144,536,151"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="734,104,933,145"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="654,200,681,189,705,172,729,155,744,148,747,153,732,160,708,177,684,193,656,205"/>
+<area shape="rect" id="Node000010" href="$classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="730,169,937,210"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="676,207,715,202,715,207,677,212"/>
+<area shape="rect" id="Node000011" href="$classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="742,235,925,275"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="677,233,727,239,726,245,676,238"/>
+<area shape="rect" id="Node000012" href="$classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="730,300,937,341"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="624,241,731,285,752,292,750,297,729,289,622,246"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1000,5,1199,46"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="878,101,984,57,1007,49,1009,54,986,61,880,106"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1000,71,1199,111"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="933,109,984,103,985,108,934,115"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1000,136,1199,177"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="934,134,985,140,984,145,933,139"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="985,201,1214,242"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="907,143,938,155,962,171,986,186,1003,193,1001,198,983,191,959,175,935,160,905,148"/>
+</map>

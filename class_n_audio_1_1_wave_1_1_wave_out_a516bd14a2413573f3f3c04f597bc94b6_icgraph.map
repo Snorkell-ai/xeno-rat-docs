@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOut.Resume" name="NAudio.Wave.WaveOut.Resume">
+<area shape="rect" id="Node000001" title="Resumes playback of the audio." alt="" coords="243,5,455,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#ae5ba27d7979139f3aeaa7bf3cff106d3" title="Plays the audio if the playback state is stopped, or resumes playing if the state is paused." alt="" coords="5,5,195,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,21,195,21,195,16,227,16"/>
+</map>

@@ -1,0 +1,32 @@
+<map id="Hidden_handler.Imaging_handler.DrawHwnd" name="Hidden_handler.Imaging_handler.DrawHwnd">
+<area shape="rect" id="Node000001" title="Draws the specified window on the given graphics object using the provided device context." alt="" coords="5,528,166,569"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_imaging__handler.html#a308aeab0144edcbab28c19b3eb965e13" title="Captures the application window and draws it on the specified graphics object." alt="" coords="215,267,383,307"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,526,269,318,273,321,106,529"/>
+<area shape="rect" id="Node000012" href="$class_hidden__handler_1_1_imaging__handler.html#ac4213900b49202fa62f772d8d2b13b92" title="Draws the windows from top to bottom on the screen." alt="" coords="219,528,379,569"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="166,554,203,555,203,560,166,560"/>
+<area shape="rect" id="Node000015" href="$class_hidden__handler_1_1_imaging__handler.html#a0f031ac030a56919b1e75d2b43ccd62a" title="Determines whether the specified window is visible." alt="" coords="214,593,384,634"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="155,567,216,586,215,591,153,572"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_imaging__handler.html#a5a96cd1b6915e0c57764258d7991400d" title="Creates a bitmap compatible with the specified device context (DC) and returns a handle to the bitmap..." alt="" coords="432,5,651,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="304,265,320,222,346,166,382,107,405,80,430,57,437,52,441,56,434,61,409,84,387,111,350,168,325,224,309,267"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_imaging__handler.html#a3d94ca24043ce806736e58d4811271ab" title="Creates a memory device context (DC) compatible with the specified device." alt="" coords="443,71,641,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="309,265,356,195,390,156,430,122,440,116,443,121,434,126,394,160,360,198,314,268"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1_imaging__handler.html#a710b3498588a623c512330e944b2418f" title="Deletes a device context (DC) from memory." alt="" coords="462,136,622,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="322,264,370,225,431,187,446,180,448,185,433,192,373,230,325,268"/>
+<area shape="rect" id="Node000006" href="$class_hidden__handler_1_1_imaging__handler.html#a29d9c92b2313978def8aa7554370559b" title="Deletes a logical pen, brush, font, bitmap, region, or palette, freeing all system resources associat..." alt="" coords="462,201,622,242"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="376,264,448,244,449,249,378,269"/>
+<area shape="rect" id="Node000007" href="$class_hidden__handler_1_1_imaging__handler.html#a5eb3f0ab3d4467c9299b4ba662bbf8cf" title="Retrieves the scaling factor of the screen." alt="" coords="455,267,629,307"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="383,284,439,284,439,290,383,290"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1_imaging__handler.html#a5fb4ec825aebc883b9708b78b3ac9722" title="Retrieves the dimensions of the bounding rectangle of the specified window." alt="" coords="457,332,626,373"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="378,305,449,325,448,330,376,310"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1_imaging__handler.html#acd1f4e35f963cec5a44ac001712cb0e1" title="The PrintWindow function retrieves the contents of a window or control that is currently being displa..." alt="" coords="462,397,622,438"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="325,306,373,344,433,382,448,389,446,394,431,387,370,349,322,310"/>
+<area shape="rect" id="Node000011" href="$class_hidden__handler_1_1_imaging__handler.html#a202738e4e2e349732fc644d3036171f1" title="Selects an object into the specified device context (DC)." alt="" coords="462,463,622,503"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="314,306,360,376,394,414,434,447,449,456,446,461,430,452,390,418,356,379,309,309"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1_imaging__handler.html#af9e0279905915bf2dc2627a039993d7b" title="Retrieves device&#45;specific information for the specified device." alt="" coords="699,267,866,307"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="629,284,684,284,684,290,629,290"/>
+<area shape="poly" id="edge12_Node000012_Node000001" title=" " alt="" coords="218,542,181,542,181,537,218,537"/>
+<area shape="rect" id="Node000013" href="$class_hidden__handler_1_1_imaging__handler.html#af38e63731e3d6f51a9c6e7f430ecce57" title="Retrieves a handle to the top&#45;level window whose class name and window name match the specified strin..." alt="" coords="461,528,623,569"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="379,546,445,546,445,551,379,551"/>
+<area shape="rect" id="Node000014" href="$class_hidden__handler_1_1_imaging__handler.html#a3ea770aadfb2f9ab97d587d2d3ac2cb5" title="Retrieves a handle to the window that has the specified relationship to the specified window." alt="" coords="462,593,622,634"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="378,567,449,586,448,591,376,572"/>
+</map>

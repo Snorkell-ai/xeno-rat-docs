@@ -1,0 +1,7 @@
+<map id="xeno_rat_client.Utils.AddToStartupNonAdmin" name="xeno_rat_client.Utils.AddToStartupNonAdmin">
+<area shape="rect" id="Node000001" title="Adds the specified executable to the current user&#39;s startup registry without requiring admin privileg..." alt="" coords="248,23,415,64"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_program.html#a8e01c4689de41166b75a03fda71d12f0" title="Main function for the XenoUpdateManager application." alt="" coords="5,5,200,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,35,200,32,200,26,232,30"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the specified node and performs various operations based on the received data." alt="" coords="44,55,161,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,57,162,64,161,59,232,51"/>
+</map>

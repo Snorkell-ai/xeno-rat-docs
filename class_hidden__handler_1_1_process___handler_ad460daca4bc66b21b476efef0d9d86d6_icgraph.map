@@ -1,0 +1,10 @@
+<map id="Hidden_handler.Process_Handler.GetEdgePath" name="Hidden_handler.Process_Handler.GetEdgePath">
+<area shape="rect" id="Node000001" title="Retrieves the installation path of Microsoft Edge browser." alt="" coords="627,23,790,64"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a25f21e60131b5ee2c286afe7d56f371b" title="Starts the Edge browser with specific configurations and user data directory." alt="" coords="417,23,579,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="612,46,580,46,580,41,612,41"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="171,5,369,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="401,35,369,32,370,27,402,30"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="402,46,123,46,123,41,402,41"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="156,35,123,39,123,34,155,30"/>
+</map>

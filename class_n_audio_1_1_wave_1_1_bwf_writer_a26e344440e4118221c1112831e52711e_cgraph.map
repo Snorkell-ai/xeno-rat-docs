@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.BwfWriter.Flush" name="NAudio.Wave.BwfWriter.Flush">
+<area shape="rect" id="Node000001" title="Flushes the underlying writer and ensures the WAV file is always playable after the flush operation." alt="" coords="5,13,203,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_bwf_writer.html#a0c99aa8f9da83ecfbe7334046499eabf" title="Fixes up the chunk sizes in the WAV file." alt="" coords="251,5,434,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,23,235,23,235,28,203,28"/>
+</map>

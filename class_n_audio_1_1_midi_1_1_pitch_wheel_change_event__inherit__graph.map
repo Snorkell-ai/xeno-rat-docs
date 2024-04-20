@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.PitchWheelChangeEvent" name="NAudio.Midi.PitchWheelChangeEvent">
+<area shape="rect" id="Node000001" title="Represents a MIDI pitch wheel change event." alt="" coords="5,632,205,812"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="29,119,181,584"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,599,108,632,103,632,103,599"/>
+<area shape="rect" id="Node000003" href="$class_i_cloneable.html" title=" " alt="" coords="68,5,143,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,85,108,119,103,119,103,85"/>
+</map>

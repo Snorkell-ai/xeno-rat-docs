@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.MultiplexingWaveProvider" name="NAudio.Wave.MultiplexingWaveProvider">
+<area shape="rect" id="Node000001" title="Allows any number of inputs to be patched to outputs Uses could include swapping left and right chann..." alt="" coords="5,119,187,419"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="47,5,145,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,86,99,119,93,119,93,86"/>
+</map>

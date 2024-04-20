@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveIn.WaveIn" name="NAudio.Wave.WaveIn.WaveIn">
+<area shape="rect" id="Node000001" title="Prepares a Wave input device for recording." alt="" coords="5,46,203,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a5d6d09fc232b02f67063410e809b6e0b" title="Callback method for handling wave input messages." alt="" coords="251,46,455,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,56,235,56,235,62,203,62"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in.html#acb9f7cdc0183b104eaa6560639367c50" title="Raises the DataAvailable event with the provided WaveInBuffer data." alt="" coords="503,5,690,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="451,43,487,38,488,43,452,48"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a85b8f08d114ae526f79f53155889bf4e" title="Raises the RecordingStopped event with the specified exception." alt="" coords="503,71,690,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="456,70,488,74,487,79,455,75"/>
+</map>

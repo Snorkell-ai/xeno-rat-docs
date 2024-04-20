@@ -1,0 +1,9 @@
+<map id="NAudio.Mixer.MixerLine.GetMixerIdForWaveIn" name="NAudio.Mixer.MixerLine.GetMixerIdForWaveIn">
+<area shape="rect" id="Node000001" title="Retrieves the mixer ID associated with the specified wave input device." alt="" coords="5,35,190,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_interop.html#acd520eb668200ab10223209834db20f9" title="Retrieves the identifier of a mixer device associated with the specified mixer handle." alt="" coords="238,5,449,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,41,222,37,222,43,190,47"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="258,70,429,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,63,242,69,242,74,190,68"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="497,70,729,96"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="430,80,481,80,481,86,430,86"/>
+</map>

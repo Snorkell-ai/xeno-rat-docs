@@ -1,0 +1,15 @@
+<map id="Plugin.Main.Run" name="Plugin.Main.Run">
+<area shape="rect" id="Node000001" title="Sends a byte array to the specified node, checks for available browsers, and forwards the request to ..." alt="" coords="5,80,123,106"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a4482a558dfb2be702ab5fe07f7c648f4" title="Retrieves the file path of the Chrome executable." alt="" coords="175,5,364,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,77,170,40,190,33,191,38,172,45,91,82"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ab7a83cb31713b6de0573d22ad6cfc905" title="Opens a new instance of Google Chrome with remote debugging enabled and connects to it using a socket..." alt="" coords="171,55,368,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,83,155,79,155,84,123,88"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_main.html#aa360ee8e8fa9b1d27980779b80b45b23" title="Retrieves the path to the Firefox executable." alt="" coords="178,104,361,130"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="123,97,163,102,162,107,123,102"/>
+<area shape="rect" id="Node000007" href="$class_plugin_1_1_main.html#aee85d37b2d188d2d8aae41a32ecf2c5e" title="Forwards the given node to the specified Firefox path." alt="" coords="174,153,365,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="91,104,172,140,192,146,190,151,170,145,89,109"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#acf030bb6785f7e03a0d98aec5a259481" title="Receives data from the client and sends a response back using the specified socket." alt="" coords="418,31,576,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="368,54,402,51,402,56,369,60"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_main.html#a9687be8277f440977f6bdd22cf10c229" title="Listens for incoming data on the specified sock &#160;and sends it to the client ." alt="" coords="416,80,577,106"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="369,76,401,79,400,85,368,81"/>
+</map>

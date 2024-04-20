@@ -1,0 +1,17 @@
+<map id="NAudio.Mixer.CustomMixerControl" name="NAudio.Mixer.CustomMixerControl">
+<area shape="rect" id="Node000001" title="Custom Mixer control." alt="" coords="270,947,443,1047"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html" title="Represents a mixer control." alt="" coords="287,532,427,897"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,913,359,947,354,947,354,913"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mixer_1_1_mixer_interop.html" title=" " alt="" coords="62,209,230,454"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="154,453,171,507,192,545,218,581,276,644,272,647,214,585,188,548,166,509,149,455"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,57,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="29,71,26,125,28,155,35,184,55,225,50,227,30,186,23,156,20,125,23,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="241,5,283,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="261,71,252,125,235,186,232,194,227,192,230,184,247,124,256,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="277,299,322,364"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="300,364,298,430,303,508,304,515,299,516,298,508,293,430,294,364"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="401,299,427,364"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="412,364,389,516,384,515,407,363"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="479,299,557,364"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="514,364,497,432,471,509,437,582,432,580,466,507,492,430,509,363"/>
+</map>

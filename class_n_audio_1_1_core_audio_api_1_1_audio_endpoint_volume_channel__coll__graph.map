@@ -1,0 +1,9 @@
+<map id="NAudio.CoreAudioApi.AudioEndpointVolumeChannel" name="NAudio.CoreAudioApi.AudioEndpointVolumeChannel">
+<area shape="rect" id="Node000001" title="Audio Endpoint Volume Channel." alt="" coords="66,348,274,468"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,113,39,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="26,177,34,229,42,257,54,284,70,310,90,334,86,338,66,313,49,287,37,259,29,230,21,178"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="63,5,277,285"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,285,173,331,167,331,167,285"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="315,113,355,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="340,178,340,211,336,249,326,289,308,326,288,349,284,345,304,323,321,287,331,248,335,210,335,178"/>
+</map>

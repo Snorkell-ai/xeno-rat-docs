@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioSessionEventsCallback.OnChannelVolumeChanged" name="NAudio.CoreAudioApi.AudioSessionEventsCallback.OnChannelVolumeChanged">
+<area shape="rect" id="Node000001" title="Notifies the handler that the volume level of a channel in the audio session has changed." alt="" coords="5,5,235,61"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_events_handler.html#a141995eb53941c89b13ea2facc6504bd" title="notification of the client that the volume level of an audio channel in the session submix has change..." alt="" coords="283,5,542,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,31,267,31,267,36,235,36"/>
+</map>

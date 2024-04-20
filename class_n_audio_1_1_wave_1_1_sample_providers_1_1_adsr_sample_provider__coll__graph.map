@@ -1,0 +1,14 @@
+<map id="NAudio.Wave.SampleProviders.AdsrSampleProvider" name="NAudio.Wave.SampleProviders.AdsrSampleProvider">
+<area shape="rect" id="Node000001" title="ADSR sample provider allowing you to specify attack, decay, sustain and release values." alt="" coords="211,692,411,852"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,424,115,489"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,502,94,565,110,597,129,627,168,670,213,707,209,711,164,674,125,631,105,600,89,567,68,504"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="139,424,333,489"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,488,291,675,285,676,241,489"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_envelope_generator.html" title="Envelope generator (ADSR)" alt="" coords="357,284,561,629"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="380,630,358,678,353,676,375,628"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="397,5,494,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="448,70,450,260,450,267,445,267,444,260,442,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="555,5,592,71"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="587,70,614,171,627,240,636,316,638,397,630,478,611,557,595,595,576,630,546,667,509,697,469,721,428,740,425,735,466,717,506,693,542,663,571,628,590,592,606,556,625,477,632,397,630,317,621,241,608,172,581,71"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="557,54,535,72,517,96,505,153,488,267,483,267,500,152,512,94,531,68,553,50"/>
+</map>

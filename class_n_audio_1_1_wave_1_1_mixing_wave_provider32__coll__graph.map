@@ -1,0 +1,16 @@
+<map id="NAudio.Wave.MixingWaveProvider32" name="NAudio.Wave.MixingWaveProvider32">
+<area shape="rect" id="Node000001" title="WaveProvider that can mix together multiple 32 bit floating point input provider All channels must ha..." alt="" coords="203,747,433,932"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,399,103,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,479,64,524,74,577,92,632,118,683,157,730,205,770,202,774,154,734,113,685,87,634,69,578,59,525,53,479"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="127,399,354,464"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,463,300,730,295,731,244,464"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="379,179,577,684"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="381,685,363,732,358,730,376,683"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="209,5,350,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="281,70,286,113,293,134,305,153,319,163,334,165,351,167,368,177,369,178,365,182,364,181,349,172,333,170,317,168,301,157,289,136,281,114,275,71"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="393,5,435,71"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="415,70,418,154,419,161,414,162,413,155,410,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="614,5,641,71"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="642,43,672,62,687,76,699,93,705,110,705,124,699,155,694,238,692,311,690,436,682,495,665,554,636,617,592,686,562,720,527,749,488,774,449,795,447,790,486,770,524,745,558,716,588,682,632,614,660,552,677,494,685,436,687,311,688,238,694,154,699,124,699,111,694,96,683,80,669,66,639,48"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="616,46,579,64,560,78,544,96,531,124,519,163,514,161,526,122,539,93,556,75,576,60,613,41"/>
+</map>

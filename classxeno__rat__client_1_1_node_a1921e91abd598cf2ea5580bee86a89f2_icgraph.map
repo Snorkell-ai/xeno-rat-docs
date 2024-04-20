@@ -1,0 +1,14 @@
+<map id="xeno_rat_client.Node.AuthenticateAsync" name="xeno_rat_client.Node.AuthenticateAsync">
+<area shape="rect" id="Node000001" title="Authenticates the connection based on the specified type and optional ID." alt="" coords="1153,35,1374,75"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_utils.html#a1b80c734536096188c0fd2f6140ad285" title="Connects to a socket, sets up a node, and authenticates it asynchronously." alt="" coords="912,35,1105,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1137,58,1105,58,1105,52,1137,52"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__client_1_1_node.html#a8cd530137de59c6bc9f192e779dc26f3" title="Asynchronously connects a sub socket and sets up the connection with the specified parameters." alt="" coords="666,5,864,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="896,44,864,40,864,35,897,39"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__client_1_1_program.html#a8e01c4689de41166b75a03fda71d12f0" title="Main function for the XenoUpdateManager application." alt="" coords="5,42,200,68"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="896,60,864,60,248,60,200,60,200,54,248,55,864,55,896,55"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__client_1_1_handler.html#ad71391058f264e78c9c31d0dcbc19007" title="Asynchronously creates a sub socket based on the provided data." alt="" coords="457,5,618,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="651,28,619,28,619,23,651,23"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__client_1_1_handler.html#af958615880e2daf8a8d0ede5f4c53363" title="Asynchronously receives data and performs different actions based on the received opcode." alt="" coords="248,5,409,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="441,28,409,28,409,23,441,23"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="233,41,200,45,200,40,232,35"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="NAudio.Wave.AiffFileWriter" name="NAudio.Wave.AiffFileWriter">
+<area shape="rect" id="Node000001" title="This class writes audio data to a .aif file on disk." alt="" coords="219,762,391,1327"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,399,60,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="24,479,15,533,10,599,13,669,20,704,30,737,46,773,66,808,115,873,168,930,221,977,217,981,165,934,111,877,62,811,41,776,25,739,14,705,8,670,4,599,10,533,19,478"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="38,463,56,586,74,662,100,737,124,786,151,834,211,923,206,926,147,837,119,789,96,739,69,664,51,587,33,464"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="101,399,185,464"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="146,464,154,585,164,661,179,737,215,845,210,847,174,739,158,662,149,586,141,464"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="210,399,247,464"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="228,464,220,584,221,661,227,738,228,745,222,746,221,738,215,661,215,584,223,463"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="398,5,425,71"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="412,71,404,179,397,336,395,459,389,582,373,738,372,745,366,745,367,738,384,581,389,459,391,336,398,179,406,70"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="509,179,708,684"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="420,70,434,111,457,153,465,161,474,164,483,169,493,177,501,186,497,190,489,181,481,173,472,169,463,165,453,156,429,114,415,71"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="512,648,494,685,401,868,396,865,489,683,507,646"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="547,5,689,71"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="620,71,618,162,612,162,615,71"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="732,5,773,71"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="749,71,726,155,716,183,711,181,721,154,743,70"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="733,399,778,464"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="760,464,761,509,757,566,746,627,723,685,692,735,656,781,616,825,574,865,487,935,407,989,404,984,484,930,570,861,613,821,652,778,688,732,718,683,741,626,752,565,756,509,755,464"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="813,399,850,464"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="836,464,837,521,829,594,821,632,809,671,792,707,769,740,729,783,685,824,589,897,493,956,407,1001,405,996,491,951,586,892,682,820,726,780,765,736,787,704,804,669,816,631,824,593,831,521,831,464"/>
+</map>

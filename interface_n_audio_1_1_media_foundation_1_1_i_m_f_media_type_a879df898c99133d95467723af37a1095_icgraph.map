@@ -1,0 +1,5 @@
+<map id="NAudio.MediaFoundation.IMFMediaType.GetGUID" name="NAudio.MediaFoundation.IMFMediaType.GetGUID">
+<area shape="rect" id="Node000001" title="Retrieves a GUID value associated with a key." alt="" coords="260,5,489,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_type.html#a42f1a7a5f7626777e39a8df211d9ec5f" title="Retrieves the GUID value associated with the specified key." alt="" coords="5,5,212,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,28,212,28,212,23,244,23"/>
+</map>

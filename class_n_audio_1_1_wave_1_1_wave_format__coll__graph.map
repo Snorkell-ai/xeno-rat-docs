@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveFormat" name="NAudio.Wave.WaveFormat">
+<area shape="rect" id="Node000001" title="Represents a Wave file format." alt="" coords="111,179,310,684"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,147,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,70,104,154,109,169,104,171,99,155,79,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="190,5,231,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,71,213,162,208,162,208,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="324,5,351,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="333,71,311,155,308,163,303,162,305,154,328,70"/>
+</map>

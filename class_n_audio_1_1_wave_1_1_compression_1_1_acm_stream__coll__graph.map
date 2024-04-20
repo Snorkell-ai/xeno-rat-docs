@@ -1,0 +1,29 @@
+<map id="NAudio.Wave.Compression.AcmStream" name="NAudio.Wave.Compression.AcmStream">
+<area shape="rect" id="Node000001" title="AcmStream encapsulates an Audio Compression Manager Stream used to convert audio from one format to a..." alt="" coords="161,1080,339,1380"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="100,414,181,479"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,493,175,718,215,1017,226,1080,220,1081,210,1017,170,719,143,494"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header.html" title=" " alt="" coords="225,777,403,1017"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="149,493,165,589,178,644,195,698,208,726,224,752,239,776,235,779,220,754,203,728,190,700,173,646,160,590,144,494"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="405,5,450,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="406,44,340,55,251,80,205,100,161,125,122,157,90,195,61,246,39,300,23,355,13,413,9,471,9,530,22,648,47,764,82,874,122,975,163,1064,158,1066,117,977,77,876,42,765,16,649,4,530,3,471,8,412,18,354,34,298,56,244,85,192,118,153,158,121,203,95,249,75,339,50,405,39"/>
+<area shape="poly" id="edge10_Node000004_Node000003" title=" " alt="" coords="430,70,430,209,426,407,415,608,406,691,394,754,392,762,387,760,389,752,401,690,410,608,421,407,425,209,425,70"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header_struct.html" title="Interop structure for ACM stream headers. ACMSTREAMHEADER http://msdn.microsoft.com/en&#45;us/library/dd7..." alt="" coords="540,406,717,486"/>
+<area shape="poly" id="edge8_Node000005_Node000003" title=" " alt="" coords="443,69,466,117,498,168,511,180,524,192,554,242,580,294,615,389,610,391,575,296,550,244,520,195,508,183,494,171,462,120,438,72"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="294,1017,285,1064,280,1063,289,1016"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="620,487,584,587,557,645,524,701,474,762,417,817,414,813,470,759,520,697,553,643,579,585,615,485"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="821,5,847,71"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="822,45,774,61,747,76,724,96,711,133,690,211,645,390,640,389,685,210,706,131,720,93,744,72,771,56,820,40"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="903,194,1101,699"/>
+<area shape="poly" id="edge15_Node000010_Node000006" title=" " alt="" coords="849,51,866,70,882,93,897,130,907,169,910,177,905,178,902,170,891,132,877,96,862,73,845,54"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="528,5,721,71"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="628,70,628,170,631,389,625,390,623,170,622,70"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="205,414,279,479"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="238,479,229,532,223,600,223,677,235,752,237,760,232,762,230,754,218,677,217,600,224,531,233,478"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="329,414,366,479"/>
+<area shape="poly" id="edge11_Node000004_Node000009" title=" " alt="" coords="348,479,327,760,322,760,342,479"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="905,552,352,1127,348,1123,901,549"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1150,5,1291,71"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="1217,71,1204,119,1185,171,1151,235,1113,297,1109,294,1146,233,1180,169,1199,117,1212,70"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1073,5,1115,71"/>
+<area shape="poly" id="edge14_Node000010_Node000012" title=" " alt="" coords="1090,71,1067,170,1066,178,1060,177,1062,169,1085,70"/>
+</map>

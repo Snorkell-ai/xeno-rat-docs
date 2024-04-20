@@ -1,0 +1,23 @@
+<map id="NAudio.Midi.NoteOnEvent" name="NAudio.Midi.NoteOnEvent">
+<area shape="rect" id="Node000001" title="Represents a MIDI note on event." alt="" coords="92,845,258,1031"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_note_event.html" title="Represents a note MIDI event." alt="" coords="12,597,164,782"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,796,145,845,140,847,123,797"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="383,149,535,534"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="375,527,366,536,342,554,320,562,268,576,225,585,207,589,186,599,165,613,162,608,183,595,205,584,224,580,266,570,319,557,340,549,363,532,372,523"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_midi_1_1_note_event.html" title="Represents a note MIDI event." alt="" coords="196,597,348,782"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="404,549,391,574,372,601,350,626,346,622,368,598,386,572,400,546"/>
+<area shape="rect" id="Node000004" href="$class_i_cloneable.html" title=" " alt="" coords="343,5,418,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="395,85,412,148,407,150,390,86"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="442,5,570,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="503,71,499,95,493,133,488,132,494,94,498,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="267,5,294,71"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="268,44,225,52,166,70,134,84,105,102,78,124,57,150,32,201,16,256,9,313,9,370,14,428,24,482,50,580,45,582,19,484,9,428,4,371,4,312,11,255,27,199,52,147,74,120,102,97,132,79,164,65,224,46,267,38"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="296,68,312,96,332,123,349,134,366,147,375,158,371,161,363,151,346,139,328,127,307,99,291,70"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="283,71,276,580,271,580,277,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="603,5,640,71"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="615,71,595,126,546,215,542,212,590,124,610,69"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="146,309,191,374"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="169,374,164,410,154,452,138,495,114,536,104,544,93,548,84,551,77,559,69,581,64,579,72,557,81,547,92,543,101,540,110,532,133,493,149,450,158,409,163,373"/>
+<area shape="poly" id="edge12_Node000009_Node000008" title=" " alt="" coords="168,374,166,465,172,519,186,572,191,583,186,585,181,574,167,520,161,465,162,374"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="239,783,220,831,215,829,234,781"/>
+</map>

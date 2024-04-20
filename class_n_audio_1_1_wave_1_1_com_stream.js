@@ -1,0 +1,28 @@
+var class_n_audio_1_1_wave_1_1_com_stream =
+[
+    [ "ComStream", "class_n_audio_1_1_wave_1_1_com_stream.html#aef2e1638f6ba6c00276211ff797c3f84", null ],
+    [ "Clone", "class_n_audio_1_1_wave_1_1_com_stream.html#ab387950d43dfd2b3fa0bea95beaeccd0", null ],
+    [ "Close", "class_n_audio_1_1_wave_1_1_com_stream.html#a14ce21667d4e4b58a760ad53249d3139", null ],
+    [ "Commit", "class_n_audio_1_1_wave_1_1_com_stream.html#ac73b0379fc8d91df5f100c893319397a", null ],
+    [ "CopyTo", "class_n_audio_1_1_wave_1_1_com_stream.html#a0c9f4d533ba6c52d2048ba9ebc96e55f", null ],
+    [ "Dispose", "class_n_audio_1_1_wave_1_1_com_stream.html#a686c330ebff70848841134b4ed3eba47", null ],
+    [ "Flush", "class_n_audio_1_1_wave_1_1_com_stream.html#a3d4949fe22702c94e5463d2878cabfbf", null ],
+    [ "LockRegion", "class_n_audio_1_1_wave_1_1_com_stream.html#afa8f8947adadacd294e7dfe1246c77a7", null ],
+    [ "Read", "class_n_audio_1_1_wave_1_1_com_stream.html#a8d0e9d0a2b489410ce250cc97ec6e640", null ],
+    [ "Read", "class_n_audio_1_1_wave_1_1_com_stream.html#a4a0163c643dd888479c087e9df80e4a1", null ],
+    [ "Revert", "class_n_audio_1_1_wave_1_1_com_stream.html#a63a679b56e6e55ac1f75e1148865c19d", null ],
+    [ "Seek", "class_n_audio_1_1_wave_1_1_com_stream.html#a76f9c9c9d1cdcaffb58a9373c45e0a35", null ],
+    [ "Seek", "class_n_audio_1_1_wave_1_1_com_stream.html#a9f97954d7693df06e957932806117042", null ],
+    [ "SetLength", "class_n_audio_1_1_wave_1_1_com_stream.html#a731241aec54a851cc0d006829cd01146", null ],
+    [ "SetSize", "class_n_audio_1_1_wave_1_1_com_stream.html#aaf6298c0e61cae63f12401f8cb7cbca9", null ],
+    [ "Stat", "class_n_audio_1_1_wave_1_1_com_stream.html#a86a554f77304b469d01b97455a81de01", null ],
+    [ "UnlockRegion", "class_n_audio_1_1_wave_1_1_com_stream.html#a6fb4c3ec49d24a6f5976ee1c8b2f395a", null ],
+    [ "Write", "class_n_audio_1_1_wave_1_1_com_stream.html#a48143ff0a342991aeaeec66481658ade", null ],
+    [ "Write", "class_n_audio_1_1_wave_1_1_com_stream.html#af31f7d598d5f487e1e9200a775f8ff5d", null ],
+    [ "stream", "class_n_audio_1_1_wave_1_1_com_stream.html#affc599e515348d74be894645ddfecf7b", null ],
+    [ "CanRead", "class_n_audio_1_1_wave_1_1_com_stream.html#a47f276e23d289f478fa62a712b24fd9f", null ],
+    [ "CanSeek", "class_n_audio_1_1_wave_1_1_com_stream.html#a21fd06b4364281004f8c8045b928f080", null ],
+    [ "CanWrite", "class_n_audio_1_1_wave_1_1_com_stream.html#a05916d379b3ec5052e2977325c2fce95", null ],
+    [ "Length", "class_n_audio_1_1_wave_1_1_com_stream.html#a7438858e6a4b7b49d6c83b839416b38e", null ],
+    [ "Position", "class_n_audio_1_1_wave_1_1_com_stream.html#a1382f3a0b83cde13978d8f1d62b3e586", null ]
+];

@@ -1,0 +1,11 @@
+<map id="xeno_rat_client.Utils.GetCaptionOfActiveWindow" name="xeno_rat_client.Utils.GetCaptionOfActiveWindow">
+<area shape="rect" id="Node000001" title="Retrieves the caption of the active window." alt="" coords="5,104,171,145"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_utils.html#a76137e2513dc3ef6548266819d1e12d4" title="Retrieves a handle to the foreground window (the window with which the user is currently working)." alt="" coords="220,5,385,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,101,218,57,233,50,235,55,220,61,130,106"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__client_1_1_utils.html#ae967900f3a46d43ed0aafdd011bb542f" title="Retrieves the text of the specified window&#39;s title bar, if it has one." alt="" coords="220,71,385,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,109,204,104,205,109,172,114"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__client_1_1_utils.html#a72857744df54899f7e2c6f254a97fa83" title="Retrieves the length, in characters, of the specified window&#39;s title bar text (if it has one)...." alt="" coords="220,136,385,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,134,205,139,204,144,171,139"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__client_1_1_utils.html#ac3b7483f24930357220d8ee361da4fae" title="Retrieves the identifier of the thread that created the specified window and, optionally,..." alt="" coords="219,201,386,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="131,143,220,186,235,193,233,197,218,191,129,148"/>
+</map>

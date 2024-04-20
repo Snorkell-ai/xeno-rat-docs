@@ -1,0 +1,24 @@
+<map id="Hidden_handler._ProcessHelper.RunAsRestrictedUser" name="Hidden_handler._ProcessHelper.RunAsRestrictedUser">
+<area shape="rect" id="Node000001" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="5,81,216,122"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1___process_helper.html#a663ea20e04ca87e424a9ba029c1b7eba" title="Closes an open object handle." alt="" coords="782,69,993,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,78,276,47,417,17,495,7,575,3,656,6,735,18,790,36,840,59,837,64,788,40,734,23,656,11,575,8,495,13,418,23,277,52,171,83"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1___process_helper.html#a001f8668c1ed15d6abda4b7884a5863e" title="Creates a new process using the specified user token and startup information." alt="" coords="265,81,475,122"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,99,249,99,249,104,216,104"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="264,195,476,235"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="160,120,309,186,307,190,158,125"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1___process_helper.html#a1fcacc2ad894dbddf51f6db9d37bb317" title="Converts a string representation of a security identifier (SID) to a binary SID and returns a value i..." alt="" coords="524,32,734,73"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="398,192,474,132,497,106,507,95,523,83,534,77,537,82,525,88,511,99,501,110,478,135,402,196"/>
+<area shape="rect" id="Node000006" href="$class_hidden__handler_1_1___process_helper.html#a3fa91d6360cdb590996433351b716528" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="524,97,734,138"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="417,191,523,148,545,141,547,146,525,153,419,196"/>
+<area shape="rect" id="Node000007" href="$class_hidden__handler_1_1___process_helper.html#a34637f16b886e4b38c1086cd27ce8162" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="524,163,734,203"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="476,199,508,195,509,200,477,204"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1___process_helper.html#af8b61acfaee6a0c034cdbd9fdd415352" title="Closes a SAFER level handle." alt="" coords="524,228,734,269"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="477,226,509,230,508,235,476,231"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1___process_helper.html#a1eb4aabd0fc0cfae5aebbdd9966f7ff7" title="Computes a token from the specified level handle and input access token, and returns the result." alt="" coords="524,293,734,334"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="418,233,525,278,546,285,544,290,523,283,416,238"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1___process_helper.html#a9b567703cdeea8195097dcde8aed9d94" title="Creates a new Safer level and returns a handle to the level." alt="" coords="524,359,734,399"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="392,234,449,288,486,317,525,343,538,350,536,355,523,348,482,322,445,292,388,237"/>
+<area shape="rect" id="Node000011" href="$class_hidden__handler_1_1___process_helper.html#a0bdf88a53051df6800aa52b8539f790c" title="Sets the token information for a specified token." alt="" coords="524,424,734,465"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="384,234,405,271,437,318,478,367,526,409,534,414,531,419,522,413,474,371,433,322,401,274,379,237"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="697,159,733,147,821,114,823,119,735,152,699,165"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.MediaFoundationEncoder" name="NAudio.Wave.MediaFoundationEncoder">
+<area shape="rect" id="Node000001" title="Media Foundation Encoder class allows you to use Media Foundation to encode an IWaveProvider to any s..." alt="" coords="5,119,201,599"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="63,5,144,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,86,106,119,101,119,101,86"/>
+</map>

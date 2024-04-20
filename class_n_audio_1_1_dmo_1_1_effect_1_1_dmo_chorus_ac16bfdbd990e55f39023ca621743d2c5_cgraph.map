@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.Effect.DmoChorus.Dispose" name="NAudio.Dmo.Effect.DmoChorus.Dispose">
+<area shape="rect" id="Node000001" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,27,219,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a3383eff6cf87a8e751e670d64e66c735" title="Releases the unmanaged resources used by the media object." alt="" coords="267,5,492,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,33,251,30,252,35,219,38"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_object_in_place.html#a5b5bf2fc090974c196273a78383882f4" title="Releases the unmanaged resources used by the MediaObjectInPlace and optionally releases the managed r..." alt="" coords="287,55,472,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,56,272,62,271,67,219,61"/>
+</map>

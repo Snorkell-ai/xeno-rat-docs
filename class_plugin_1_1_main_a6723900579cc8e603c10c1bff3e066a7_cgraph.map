@@ -1,0 +1,24 @@
+<map id="Plugin.Main.HandleCloneFirefox" name="Plugin.Main.HandleCloneFirefox">
+<area shape="rect" id="Node000001" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="5,184,214,209"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a57909ef2fb8c1b15ef0f52f7a0401084" title="Clones the Firefox profile data to a specified directory." alt="" coords="271,111,434,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,180,259,153,260,159,161,186"/>
+<area shape="rect" id="Node000007" href="$class_plugin_1_1_main.html#a40f3ba09712707d0b952e7d77cae7c08" title="Retrieves the process ID of a specified process based on the command line and search string." alt="" coords="262,176,443,217"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="214,194,246,194,246,199,214,199"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1_process___handler.html#a7769ce118d803b0f67168fb66ec1b8b4" title="Starts the Firefox browser with a specific profile and returns a boolean indicating success." alt="" coords="271,241,434,282"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="161,207,260,234,259,239,159,212"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="509,37,671,78"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="419,108,506,81,507,86,421,113"/>
+<area shape="rect" id="Node000006" href="$class_hidden__handler_1_1_process___handler.html#a0aa478a461064948bd41a87f78c93a7d" title="Recursively searches for a file with the specified name in the given directory and its subdirectories..." alt="" coords="491,127,688,167"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="434,134,476,137,475,142,434,139"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="746,5,953,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="671,45,730,38,730,43,672,50"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="736,71,963,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="672,65,721,72,721,77,671,71"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="545,127,543,117,550,108,566,102,590,100,615,102,630,109,628,114,614,108,590,105,567,107,553,112,548,118,550,125"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="509,224,671,265"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="434,253,493,249,493,254,434,258"/>
+<area shape="rect" id="Node000011" href="$class_hidden__handler_1_1_process___handler.html#a90cbe175bfb9e6d874d68873fd27b33e" title="Retrieves the installation path of Mozilla Firefox from the Windows registry." alt="" coords="508,289,672,330"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="434,275,493,287,492,293,433,281"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="768,224,931,265"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="671,242,753,242,753,247,671,247"/>
+</map>

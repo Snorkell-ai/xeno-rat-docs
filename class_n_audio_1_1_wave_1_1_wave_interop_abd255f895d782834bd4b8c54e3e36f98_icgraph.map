@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveInterop.waveOutGetDevCaps" name="NAudio.Wave.WaveInterop.waveOutGetDevCaps">
+<area shape="rect" id="Node000001" title="Retrieves the capabilities of a specified waveform&#45;audio output device." alt="" coords="306,5,519,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#a6f50ccc3b20fa8e75d0a6f8dcb12e11a" title="Retrieves the capabilities of the specified audio output device." alt="" coords="5,13,258,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="290,28,258,28,258,23,290,23"/>
+</map>

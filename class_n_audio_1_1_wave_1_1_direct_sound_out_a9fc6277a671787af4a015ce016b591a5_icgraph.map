@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.DirectSoundOut.StopPlayback" name="NAudio.Wave.DirectSoundOut.StopPlayback">
+<area shape="rect" id="Node000001" title="Stops the playback of the sound." alt="" coords="532,5,734,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#aa17626b3aaef2e58714a418dda681461" title="This method represents the playback thread function. It initializes the DirectSound,..." alt="" coords="282,5,484,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="516,28,484,28,484,23,516,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a584271eb97002e12993c090b65bf8156" title="Starts playing the audio. If the playback state is stopped, it creates a new thread to process sample..." alt="" coords="5,13,234,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="266,28,234,28,234,23,266,23"/>
+</map>

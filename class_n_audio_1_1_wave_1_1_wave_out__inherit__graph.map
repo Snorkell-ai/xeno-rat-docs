@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveOut" name="NAudio.Wave.WaveOut">
+<area shape="rect" id="Node000001" title="Represents a wave out device." alt="" coords="53,332,254,997"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_player.html" title="Represents the interface to a device that can play a WaveFile." alt="" coords="5,119,141,284"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,299,98,332,93,333,87,299"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="33,5,114,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,85,76,119,71,119,71,85"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_position.html" title="Interface for IWavePlayers that can report position." alt="" coords="165,169,301,234"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="228,249,213,333,208,332,223,249"/>
+</map>

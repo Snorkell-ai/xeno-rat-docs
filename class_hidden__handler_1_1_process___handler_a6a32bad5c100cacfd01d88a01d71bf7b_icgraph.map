@@ -1,0 +1,36 @@
+<map id="Hidden_handler.Process_Handler.CopyFilesInParallelAsync" name="Hidden_handler.Process_Handler.CopyFilesInParallelAsync">
+<area shape="rect" id="Node000001" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="864,169,1090,210"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="653,169,816,210"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="848,192,816,192,816,187,848,187"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a70bc25f5028b70f49493e02beb94d1c0" title="Clones the Brave browser data to a specified directory." alt="" coords="442,5,604,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="706,159,661,109,604,61,582,49,585,44,607,57,665,106,710,155"/>
+<area shape="rect" id="Node000006" href="$class_hidden__handler_1_1_process___handler.html#a5026779693b49e5261dea19ccb9167a9" title="Clones the Chrome user data directory to a specified location." alt="" coords="442,71,604,111"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="680,164,604,127,576,114,578,109,606,122,683,160"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1_process___handler.html#a3f653e80f4fa9730c6217ee84d5bba26" title="Clones the Microsoft Edge user data to a specified directory." alt="" coords="442,136,604,177"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="638,177,604,172,605,167,638,172"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1_process___handler.html#a57909ef2fb8c1b15ef0f52f7a0401084" title="Clones the Firefox profile data to a specified directory." alt="" coords="442,201,604,242"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="638,207,605,212,604,207,638,202"/>
+<area shape="rect" id="Node000012" href="$class_hidden__handler_1_1_process___handler.html#a72151c3db1f9b348fe603e44d390f92d" title="Clones the Opera browser data to a specified directory." alt="" coords="442,267,604,307"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="681,220,606,256,578,268,576,264,604,251,679,215"/>
+<area shape="rect" id="Node000014" href="$class_hidden__handler_1_1_process___handler.html#a1153c1ec4e407e17b850e314778a690a" title="Clones the Opera GX browser data to a specified directory." alt="" coords="441,332,605,373"/>
+<area shape="poly" id="edge17_Node000002_Node000014" title=" " alt="" coords="709,224,664,273,607,321,585,334,582,329,604,317,661,269,705,221"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="181,24,383,49"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="427,33,384,35,383,29,426,27"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,181,123,207"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="210,57,172,76,141,101,113,131,76,182,71,179,109,127,137,97,169,71,207,52"/>
+<area shape="rect" id="Node000007" href="$class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="175,86,389,112"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="427,97,389,98,389,93,426,92"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="219,120,172,137,126,160,88,183,85,178,124,155,170,133,218,115"/>
+<area shape="rect" id="Node000009" href="$class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="183,148,381,173"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="426,161,381,161,381,156,426,155"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="179,179,123,187,123,182,179,173"/>
+<area shape="rect" id="Node000011" href="$class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="178,205,386,231"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="426,223,386,222,386,217,427,217"/>
+<area shape="poly" id="edge13_Node000011_Node000005" title=" " alt="" coords="162,207,122,203,123,197,163,202"/>
+<area shape="rect" id="Node000013" href="$class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="180,266,384,292"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="427,286,384,285,384,280,427,281"/>
+<area shape="poly" id="edge16_Node000013_Node000005" title=" " alt="" coords="220,263,170,245,91,210,93,205,172,241,222,258"/>
+<area shape="rect" id="Node000015" href="$class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,324,393,349"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="425,349,393,346,394,341,425,343"/>
+<area shape="poly" id="edge19_Node000015_Node000005" title=" " alt="" coords="198,320,169,307,138,283,111,256,72,209,76,205,115,253,142,279,172,302,201,316"/>
+</map>

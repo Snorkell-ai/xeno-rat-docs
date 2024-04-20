@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.SampleProviders.WdlResamplingSampleProvider.WdlResamplingSampleProvider" name="NAudio.Wave.SampleProviders.WdlResamplingSampleProvider.WdlResamplingSampleProvider">
+<area shape="rect" id="Node000001" title="Constructs a new resampler." alt="" coords="5,129,237,184"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a2dd0e9ea4097e54981725d6ad7c3290d" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="285,5,507,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,126,218,91,284,57,301,49,303,54,286,61,221,95,164,130"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#aa9322aa989bfdd7502dd720a66007d42" title="Sets the feed mode for the system." alt="" coords="303,71,489,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="236,126,292,113,294,118,238,131"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a2ef298d92f0dd748430f0c9860236c25" title="Sets the filter parameters with default values for position and quality factor." alt="" coords="303,136,489,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="237,154,288,154,288,159,237,159"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a36a11dcfe3c6846445d3bf7b2e280d84" title="Sets the mode for resampling with optional sinc interpolation and filter count." alt="" coords="303,201,489,242"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="238,181,294,195,292,200,236,186"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a0d2658da0cba6df6c4128c1db63091ac" title="Sets the input and output rates, ensuring they are at least 1.0, and updates the internal ratio if th..." alt="" coords="303,267,489,307"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="164,182,221,217,286,251,303,258,301,263,284,256,218,222,161,187"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="555,5,771,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="507,23,540,23,540,28,507,28"/>
+</map>

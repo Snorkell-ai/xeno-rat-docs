@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.WaveOut.WaveOut" name="NAudio.Wave.WaveOut.WaveOut">
+<area shape="rect" id="Node000001" title="Opens a WaveOut device." alt="" coords="5,67,223,92"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#a50f79bf503f8c04b497b75c5231fc281" title="Callback method for the wave out function." alt="" coords="271,67,485,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,77,255,77,255,82,223,82"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out_buffer.html#a5a93e8b859a1c05cf8ac5ec2aee73f15" title="Reads data from the wave stream, writes it to the output, and returns a boolean value indicating whet..." alt="" coords="533,26,730,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="480,63,517,58,518,64,481,69"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_out.html#a7933f2b948f28376c221b862555586ac" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="533,91,730,132"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="485,90,518,94,517,100,485,96"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="778,5,1003,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="731,33,763,29,763,35,731,38"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_out_buffer.html#ae6f9c36274c950e639fe0d97ab673423" title="Writes the audio data to the WaveOut device for playback." alt="" coords="792,55,989,96"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="731,55,777,60,776,65,731,60"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#ab3c605e4c71d004f248d7760c6f69704" title="Sends a data block to the specified waveform&#45;audio output device." alt="" coords="1051,55,1264,96"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="990,73,1035,73,1035,78,990,78"/>
+</map>

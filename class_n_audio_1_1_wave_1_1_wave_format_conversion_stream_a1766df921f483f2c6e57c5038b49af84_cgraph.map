@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveFormatConversionStream.SourceToDest" name="NAudio.Wave.WaveFormatConversionStream.SourceToDest">
+<area shape="rect" id="Node000001" title="Estimates the destination value from the given source value." alt="" coords="5,5,251,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#abcfcbf101f043b62401d462313a04d9e" title="Estimates the destination position based on the source position." alt="" coords="299,5,544,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,23,283,23,283,28,251,28"/>
+</map>

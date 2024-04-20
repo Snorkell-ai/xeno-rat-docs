@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.MidiInterop.MIDIHDR" name="NAudio.Midi.MidiInterop.MIDIHDR">
+<area shape="rect" id="Node000001" title=" " alt="" coords="7,194,163,274"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,51,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="25,71,23,118,25,144,32,169,37,178,32,181,27,171,20,145,17,118,20,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="131,5,157,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,71,132,118,117,170,114,179,109,177,112,169,127,117,136,70"/>
+</map>

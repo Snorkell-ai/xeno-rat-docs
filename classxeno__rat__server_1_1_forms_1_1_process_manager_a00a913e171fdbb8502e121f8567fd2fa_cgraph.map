@@ -1,0 +1,6 @@
+<map id="xeno_rat_server.Forms.ProcessManager.DeserializeProcessList" name="xeno_rat_server.Forms.ProcessManager.DeserializeProcessList">
+<area shape="rect" id="Node000001" title="Deserializes the byte array into a list of ProcessNode objects." alt="" coords="5,29,214,70"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_process_manager.html#ab367519cf68b5d8814c80910d6322a2e" title="Deserializes a ProcessNode from the provided BinaryReader and returns the deserialized ProcessNode." alt="" coords="262,29,480,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,47,246,47,246,52,214,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="322,29,320,19,328,10,345,5,371,3,399,5,416,11,414,16,398,10,371,8,346,10,330,15,325,21,327,28"/>
+</map>

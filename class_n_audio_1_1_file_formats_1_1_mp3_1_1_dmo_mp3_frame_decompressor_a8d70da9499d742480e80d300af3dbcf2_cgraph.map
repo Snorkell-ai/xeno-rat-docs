@@ -1,0 +1,35 @@
+<map id="NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DmoMp3FrameDecompressor" name="NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DmoMp3FrameDecompressor">
+<area shape="rect" id="Node000001" title="Initializes a new instance of the DMO MP3 Frame decompressor." alt="" coords="5,97,267,152"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a69f1819c0ea9aec354950e91d10a2c39" title="Sets the input wave format for the specified input stream." alt="" coords="331,5,528,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,93,314,56,339,48,341,54,316,62,212,98"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_dmo_1_1_media_object.html#aeedd463b32c463e9f0a25d901d0ec615" title="Sets the output wave format for the specified output stream." alt="" coords="331,136,528,177"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="267,136,315,141,315,147,267,141"/>
+<area shape="rect" id="Node000012" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a2d155802fe47a0bb1be75f99a2ed8027" title="Checks if the specified input stream supports the given wave format." alt="" coords="315,71,544,111"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="267,107,299,103,299,108,267,112"/>
+<area shape="rect" id="Node000013" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a979aa06634413b6949e1d7a61ff7f356" title="Checks if the specified output stream supports the given wave format." alt="" coords="315,201,544,242"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="214,150,316,186,341,194,339,199,314,191,212,155"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a856032d0b88c6753215e37b2a1856cef" title="Creates a DMO media type for the specified WaveFormat." alt="" coords="592,71,808,111"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="517,44,599,64,598,69,516,49"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_dmo_1_1_dmo_interop.html#ad2f97604a7b1abe4bd3071b60f53f44b" title="Frees the memory associated with the specified Direct Media Object (DMO) media type." alt="" coords="605,136,795,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="523,44,546,57,562,73,570,90,579,106,594,121,602,126,599,131,590,125,574,109,566,92,558,76,542,61,520,49"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a14c32884d227752a0c2bb690bd9de140" title="Sets the input type for the specified input stream using the given media type." alt="" coords="602,5,799,46"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="529,23,586,23,586,28,529,28"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dmo_1_1_dmo_interop.html#a61ba482bd86a39c209bfd007b0be9f20" title="Initializes a media type using the specified format block size." alt="" coords="859,71,1049,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="809,88,843,88,843,94,809,94"/>
+<area shape="rect" id="Node000005" href="$struct_n_audio_1_1_dmo_1_1_dmo_media_type.html#a8500917647fce295eb3f92ba2256daec" title="Sets this object up to point to a wave format." alt="" coords="856,136,1052,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="783,109,858,129,857,134,781,115"/>
+<area shape="rect" id="Node000008" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html#a2e36c935d4862eccb9eaa901b4c78781" title=" " alt="" coords="863,5,1045,46"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="799,23,848,23,848,28,799,28"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="516,133,598,113,599,118,517,138"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="529,154,589,154,589,159,529,159"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_dmo_1_1_media_object.html#aaa4d3e4180bf6bcba5e505836440bf62" title="Sets the output type for the specified output stream using the provided media type." alt="" coords="602,201,799,242"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="517,175,599,195,598,200,516,180"/>
+<area shape="rect" id="Node000011" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html#a42201eddcdc0ad63841c6bbb1da8639c" title=" " alt="" coords="863,201,1045,242"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="799,219,848,219,848,224,799,224"/>
+<area shape="poly" id="edge14_Node000012_Node000003" title=" " alt="" coords="544,88,577,88,577,94,544,94"/>
+<area shape="poly" id="edge15_Node000012_Node000006" title=" " alt="" coords="517,109,599,129,598,134,516,115"/>
+<area shape="poly" id="edge16_Node000012_Node000007" title=" " alt="" coords="516,67,598,48,599,53,517,73"/>
+<area shape="poly" id="edge18_Node000013_Node000003" title=" " alt="" coords="520,198,542,186,558,171,566,155,574,139,590,122,599,117,602,121,594,126,579,142,570,158,562,174,546,190,523,203"/>
+<area shape="poly" id="edge19_Node000013_Node000006" title=" " alt="" coords="516,198,598,178,599,183,517,203"/>
+<area shape="poly" id="edge20_Node000013_Node000010" title=" " alt="" coords="544,219,586,219,586,224,544,224"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="NAudio.Wave.Mp3FileReaderBase.Read" name="NAudio.Wave.Mp3FileReaderBase.Read">
+<area shape="rect" id="Node000001" title="Reads a specified number of bytes from the MP3 file into the sample buffer." alt="" coords="5,95,199,135"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_mp3_frame_decompressor.html#a018b7f5c77e88abb41a10c1ad7426b30" title="Decompress a single MP3 frame." alt="" coords="247,5,506,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,92,246,56,273,48,275,53,248,62,153,97"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a3e0ccd190d85f58fc98568e9fcaf5a46" title="Reads the next MP3 frame from the stream and advances the position by one frame." alt="" coords="280,95,473,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,112,264,112,264,118,199,118"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_mp3_frame_decompressor.html#a8471f95738e023cae6ad13fe3a34da2c" title="Tell the decoder that we have repositioned." alt="" coords="247,160,506,201"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="191,133,274,153,272,158,190,139"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="325,95,323,85,331,76,349,70,376,68,406,70,423,77,421,82,405,76,376,73,350,75,334,80,328,86,330,93"/>
+</map>

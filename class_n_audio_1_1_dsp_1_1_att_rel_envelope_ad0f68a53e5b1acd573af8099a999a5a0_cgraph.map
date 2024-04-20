@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.AttRelEnvelope.Run" name="NAudio.Dsp.AttRelEnvelope.Run">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,221,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_envelope_detector.html#a8248db0fc70556b3a9bf43029c7dd8c5" title="Runs the attack or release process based on the input value and state, and returns the result." alt="" coords="269,5,496,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,16,253,16,253,21,221,21"/>
+</map>

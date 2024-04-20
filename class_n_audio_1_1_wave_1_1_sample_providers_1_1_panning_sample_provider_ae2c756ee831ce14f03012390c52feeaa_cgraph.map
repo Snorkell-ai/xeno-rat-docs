@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.PanningSampleProvider.UpdateMultipliers" name="NAudio.Wave.SampleProviders.PanningSampleProvider.UpdateMultipliers">
+<area shape="rect" id="Node000001" title="Updates the multipliers for the strategy based on the current pan." alt="" coords="5,5,270,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_sample_providers_1_1_i_pan_strategy.html#a057606a243a873b7693a1ccf8be041c2" title="Returns the multipliers for left and right audio channels based on the input panning value." alt="" coords="318,5,526,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,23,302,23,302,28,270,28"/>
+</map>

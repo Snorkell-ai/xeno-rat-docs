@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Id3v2Tag.CreateId3v2TagHeader" name="NAudio.Wave.Id3v2Tag.CreateId3v2TagHeader">
+<area shape="rect" id="Node000001" title="Creates an ID3v2 tag header based on the provided frames and returns the resulting tag header." alt="" coords="5,39,207,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_byte_array_extensions.html#ada86231ea4a8f13d341729983194c53d" title="Concatenates multiple byte arrays into a single byte array and returns the result." alt="" coords="255,5,481,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,44,239,39,239,45,208,49"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#afa57fd617f156553b8ed051eddc1c9cd" title="Gets the ID3 tag header size as an array of bytes." alt="" coords="276,71,460,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,69,261,75,261,81,207,74"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.WaveFileWriter.UpdateHeader" name="NAudio.Wave.WaveFileWriter.UpdateHeader">
+<area shape="rect" id="Node000001" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="5,71,202,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#ae2171b19388f0cac6b6d6fc9db3b1a6b" title="Updates the data chunk size in the binary writer at the specified position." alt="" coords="250,5,446,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,68,254,48,255,53,183,73"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#ad95029cf35ce3067e0443e3442d88971" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="250,71,446,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,88,234,88,234,94,202,94"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#aaadca2c6d420c19cf9c5642a7c2a6cda" title="Updates the RIFF chunk in the output stream with the correct size." alt="" coords="250,136,446,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="183,109,255,129,254,134,181,114"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="494,71,690,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="446,88,478,88,478,94,446,94"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.WasapiCapture.GetAudioClientStreamFlags" name="NAudio.CoreAudioApi.WasapiCapture.GetAudioClientStreamFlags">
+<area shape="rect" id="Node000001" title="Gets the audio client stream flags for the audio client stream." alt="" coords="503,5,736,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a2a989b2192707877eb2f24b85f0ffacc" title="Initializes the capture device for audio recording." alt="" coords="249,5,455,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="487,28,456,28,456,23,487,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a9eb95d2da72e384fefe2e071c64784ee" title="Starts the recording process." alt="" coords="5,5,201,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="233,28,201,28,201,23,233,23"/>
+</map>

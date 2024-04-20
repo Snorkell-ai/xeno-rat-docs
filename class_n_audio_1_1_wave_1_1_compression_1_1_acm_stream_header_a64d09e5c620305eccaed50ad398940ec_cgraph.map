@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Compression.AcmStreamHeader.Unprepare" name="NAudio.Wave.Compression.AcmStreamHeader.Unprepare">
+<area shape="rect" id="Node000001" title="Unprepares the audio stream for conversion by updating the stream header and unpreparing the header u..." alt="" coords="5,13,201,54"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#ab64de4c7aef4a1484793afb6da86edb3" title="Unprepares the header for an Audio Compression Manager (ACM) stream." alt="" coords="249,5,468,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,31,233,31,233,36,201,36"/>
+</map>

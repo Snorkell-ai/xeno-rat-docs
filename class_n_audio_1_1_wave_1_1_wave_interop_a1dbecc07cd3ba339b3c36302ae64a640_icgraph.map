@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveInterop.waveOutPrepareHeader" name="NAudio.Wave.WaveInterop.waveOutPrepareHeader">
+<area shape="rect" id="Node000001" title="Prepares the header for playback on a waveform&#45;audio output device." alt="" coords="251,5,464,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_buffer.html#a28370b5351a6830d053a3f2b6e1beae5" title="creates a new wavebuffer" alt="" coords="5,5,203,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,28,203,28,203,23,235,23"/>
+</map>

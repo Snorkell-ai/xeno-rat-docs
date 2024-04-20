@@ -1,0 +1,17 @@
+<map id="NAudio.Utils.IEEE.ldexp" name="NAudio.Utils.IEEE.ldexp">
+<area shape="rect" id="Node000001" title="Returns x multiplied by 2 raised to the power of exp." alt="" coords="944,46,1109,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a177755932531d390e066ca1046d76e53" title="Converts the given IEEE extended byte array to a double value." alt="" coords="715,5,896,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="928,47,896,42,896,37,929,42"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a5d1b37528c6a93f7bc6bf65c36fa1e3e" title="Converts a double&#45;precision floating&#45;point number to its IEEE 754 extended precision representation." alt="" coords="715,71,896,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="929,76,896,81,896,75,928,71"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#a5eb16b178b9d6e031efe3fe424b77601" title="Reads the AIFF header from the provided stream and extracts the wave format, data chunk position,..." alt="" coords="476,5,667,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="699,28,668,28,668,23,699,23"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#ae9075221902376de4191d0b4bc9be7e4" title="Creates an Aiff File Reader based on an input stream." alt="" coords="237,5,428,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="460,28,429,28,429,23,460,23"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa4e2a77e28e7c0348c06d8b6150a5f21" title="Creates a &#39;COMM&#39; chunk in the WAV file." alt="" coords="480,71,663,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="700,94,664,94,664,88,700,88"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#a38debf484e59f64adfcbf0bf57b6b5ec" title="AiffFileWriter that actually writes to a stream." alt="" coords="241,71,424,111"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="464,94,425,94,425,88,464,88"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#ac0f55bd7ae4da4df57bd11fc1dab79fb" title="Creates an AIFF audio file from the provided WaveStream." alt="" coords="5,71,189,111"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="225,94,189,94,189,88,225,88"/>
+</map>

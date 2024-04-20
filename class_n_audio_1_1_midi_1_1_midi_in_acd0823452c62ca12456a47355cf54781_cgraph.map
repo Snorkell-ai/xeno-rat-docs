@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.MidiIn.CreateSysexBuffers" name="NAudio.Midi.MidiIn.CreateSysexBuffers">
+<area shape="rect" id="Node000001" title="Creates sysex buffers for MIDI input." alt="" coords="5,5,180,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="228,13,399,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,23,212,23,212,28,180,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="447,13,679,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="399,23,431,23,431,28,399,28"/>
+</map>

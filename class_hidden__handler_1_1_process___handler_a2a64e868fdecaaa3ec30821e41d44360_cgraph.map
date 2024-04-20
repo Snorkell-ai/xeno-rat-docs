@@ -1,0 +1,34 @@
+<map id="Hidden_handler.Process_Handler.StartExplorer" name="Hidden_handler.Process_Handler.StartExplorer">
+<area shape="rect" id="Node000001" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="5,71,168,111"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="240,5,402,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,68,230,48,231,53,162,73"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__client_1_1_utils.html#a31e3ba86a48b05c2c323c7d50feed60c" title="Checks if the current user is an admin and returns a boolean value indicating the result." alt="" coords="243,71,399,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="168,88,228,88,228,94,168,94"/>
+<area shape="rect" id="Node000006" href="$class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="216,160,426,201"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="143,109,252,152,250,156,141,114"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="499,5,662,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,23,483,23,483,28,402,28"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__client_1_1_utils.html#a1581cd0fb37a96a7490c745efa5ce035" title="Determines whether the current user is a member of the administrator group." alt="" coords="503,71,658,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="399,88,487,88,487,94,399,94"/>
+<area shape="rect" id="Node000007" href="$class_hidden__handler_1_1___process_helper.html#a663ea20e04ca87e424a9ba029c1b7eba" title="Closes an open object handle." alt="" coords="993,223,1203,263"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="426,163,535,152,665,147,806,151,877,159,945,171,1001,189,1050,212,1048,217,999,194,944,176,876,164,806,156,665,152,535,157,427,168"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1___process_helper.html#a001f8668c1ed15d6abda4b7884a5863e" title="Creates a new process using the specified user token and startup information." alt="" coords="475,185,685,226"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="427,188,460,191,459,197,426,193"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="474,348,686,389"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="352,199,540,337,537,341,349,203"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1___process_helper.html#a1fcacc2ad894dbddf51f6db9d37bb317" title="Converts a string representation of a security identifier (SID) to a binary SID and returns a value i..." alt="" coords="734,185,945,226"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="599,346,656,292,693,262,733,237,746,230,749,235,736,241,696,267,659,296,603,349"/>
+<area shape="rect" id="Node000011" href="$class_hidden__handler_1_1___process_helper.html#a3fa91d6360cdb590996433351b716528" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="734,251,945,291"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="628,345,733,302,755,294,757,299,735,307,630,350"/>
+<area shape="rect" id="Node000012" href="$class_hidden__handler_1_1___process_helper.html#a34637f16b886e4b38c1086cd27ce8162" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="734,316,945,357"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="686,353,719,349,719,354,687,358"/>
+<area shape="rect" id="Node000013" href="$class_hidden__handler_1_1___process_helper.html#af8b61acfaee6a0c034cdbd9fdd415352" title="Closes a SAFER level handle." alt="" coords="734,381,945,422"/>
+<area shape="poly" id="edge13_Node000009_Node000013" title=" " alt="" coords="687,379,719,384,719,389,686,385"/>
+<area shape="rect" id="Node000014" href="$class_hidden__handler_1_1___process_helper.html#a1eb4aabd0fc0cfae5aebbdd9966f7ff7" title="Computes a token from the specified level handle and input access token, and returns the result." alt="" coords="734,447,945,487"/>
+<area shape="poly" id="edge14_Node000009_Node000014" title=" " alt="" coords="628,387,735,431,756,439,754,444,733,436,626,392"/>
+<area shape="rect" id="Node000015" href="$class_hidden__handler_1_1___process_helper.html#a9b567703cdeea8195097dcde8aed9d94" title="Creates a new Safer level and returns a handle to the level." alt="" coords="734,512,945,553"/>
+<area shape="poly" id="edge15_Node000009_Node000015" title=" " alt="" coords="602,387,659,441,696,471,736,497,749,503,746,508,733,501,693,475,655,445,598,391"/>
+<area shape="rect" id="Node000016" href="$class_hidden__handler_1_1___process_helper.html#a0bdf88a53051df6800aa52b8539f790c" title="Sets the token information for a specified token." alt="" coords="734,577,945,618"/>
+<area shape="poly" id="edge16_Node000009_Node000016" title=" " alt="" coords="594,387,616,425,648,472,688,520,736,562,744,568,742,572,733,566,684,524,643,475,611,428,590,390"/>
+<area shape="poly" id="edge12_Node000012_Node000007" title=" " alt="" coords="907,313,944,300,1031,267,1033,272,946,306,909,318"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.MediaFoundationResampler.CreateTransform" name="NAudio.Wave.MediaFoundationResampler.CreateTransform">
+<area shape="rect" id="Node000001" title="Creates and configures a resampler transform for media format conversion." alt="" coords="5,49,210,90"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#ad696d151e32131cfe49553e795444462" title="Creates a new IMFMediaType object from the provided WaveFormat." alt="" coords="265,5,506,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,53,249,48,250,53,210,59"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a87f6fad61c251fff487f285e3dd1a03c" title="Creates and returns a resampler COM object based on the platform." alt="" coords="258,85,513,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="210,80,242,84,242,89,210,85"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a87f6600a7b55fae9f4b789e0129bb2b7" title="Creates a new instance of IMFMediaType." alt="" coords="584,13,794,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="506,31,568,31,568,36,506,36"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a8d8f5fbf5318edc19774c40623ad076a" title="Creates a resampler COM object using the Activator." alt="" coords="561,77,816,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="513,103,545,103,545,108,513,108"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#aad9c82163178fdbbaefad47ccd1958a7" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="864,85,1102,126"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="817,103,849,103,849,108,817,108"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a99952d1ef154226e93c108c63b3e964e" title="Enumerates Media Foundation transforms (MFTs) that match the specified search criteria." alt="" coords="1150,85,1356,126"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1102,103,1134,103,1134,108,1102,108"/>
+</map>

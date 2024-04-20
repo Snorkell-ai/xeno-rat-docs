@@ -1,0 +1,11 @@
+<map id="NAudio.Dsp.BiQuadFilter.SetCoefficients" name="NAudio.Dsp.BiQuadFilter.SetCoefficients">
+<area shape="rect" id="Node000001" title="Precomputes the coefficients for the given parameters." alt="" coords="225,104,396,145"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a01b3a9a33903c66c725d41291e4835f1" title=" " alt="" coords="5,5,177,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,99,176,61,146,49,148,44,178,57,257,94"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a52dd40133cba64f2b2cc1c9198634775" title="Sets the coefficients for a high&#45;pass filter based on the provided sample rate, cutoff frequency,..." alt="" coords="5,71,177,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,112,177,107,178,101,210,106"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#accb351f27634e55210098c043a8da1b8" title="Sets the coefficients for a low&#45;pass filter based on the given sample rate, cutoff frequency,..." alt="" coords="5,136,177,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="210,142,178,146,177,141,209,136"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a9df3de7b23af787acf52bf1cc75a147a" title="Sets the coefficients for a peaking equalizer filter based on the given parameters." alt="" coords="5,201,177,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="255,154,178,191,148,203,146,198,176,186,253,150"/>
+</map>

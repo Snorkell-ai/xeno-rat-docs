@@ -1,0 +1,5 @@
+<map id="NAudio.MediaFoundation.IMFMediaType" name="NAudio.MediaFoundation.IMFMediaType">
+<area shape="rect" id="Node000001" title="Represents a description of a media format. http://msdn.microsoft.com/en&#45;us/library/windows/desktop/m..." alt="" coords="5,319,255,584"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_attributes.html" title="Provides a generic way to store key/value pairs on an object. http://msdn.microsoft...." alt="" coords="67,5,193,271"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,286,133,319,127,319,127,286"/>
+</map>

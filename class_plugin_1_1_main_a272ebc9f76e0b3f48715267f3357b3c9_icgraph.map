@@ -1,0 +1,5 @@
+<map id="Plugin.Main.SetProcessDpiAwareness" name="Plugin.Main.SetProcessDpiAwareness">
+<area shape="rect" id="Node000001" title="Sets the awareness level of the current process to the specified DPI awareness level." alt="" coords="171,5,352,46"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
+</map>

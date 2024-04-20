@@ -1,0 +1,7 @@
+<map id="Plugin.Main.ChromeForwarder" name="Plugin.Main.ChromeForwarder">
+<area shape="rect" id="Node000001" title="Opens a new instance of Google Chrome with remote debugging enabled and connects to it using a socket..." alt="" coords="5,31,203,56"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#acf030bb6785f7e03a0d98aec5a259481" title="Receives data from the client and sends a response back using the specified socket." alt="" coords="252,5,411,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,30,236,26,237,31,204,35"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a9687be8277f440977f6bdd22cf10c229" title="Listens for incoming data on the specified sock &#160;and sends it to the client ." alt="" coords="251,55,412,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,51,235,55,235,60,203,57"/>
+</map>

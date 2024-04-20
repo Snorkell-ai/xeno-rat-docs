@@ -1,0 +1,9 @@
+<map id="Plugin.Main.LongToBytes" name="Plugin.Main.LongToBytes">
+<area shape="rect" id="Node000001" title="Converts a long integer to an array of bytes." alt="" coords="642,5,812,31"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a9cefbf6142aea997fd2ebfe27847d8d3" title="Asynchronously uploads a file to the specified node." alt="" coords="428,5,594,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="627,21,595,21,595,16,627,16"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae17a6824e13f8994fa8203747ef5e008" title="Handles file management operations based on the type of request received from the node." alt="" coords="171,5,380,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,21,381,21,381,16,412,16"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the node and handles communication with connected nodes." alt="" coords="5,5,123,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="155,21,123,21,123,16,155,16"/>
+</map>

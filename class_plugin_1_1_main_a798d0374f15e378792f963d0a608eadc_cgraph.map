@@ -1,0 +1,5 @@
+<map id="Plugin.Main.GetAllProcessFilePathsAsync" name="Plugin.Main.GetAllProcessFilePathsAsync">
+<area shape="rect" id="Node000001" title="Retrieves the file paths of all running processes and returns them as a dictionary with process IDs a..." alt="" coords="5,5,183,46"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#ad65d4c4c881a9c1f4c0987d6914b1311" title="Extracts the file path from the given command line input." alt="" coords="231,5,414,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,23,215,23,215,28,183,28"/>
+</map>

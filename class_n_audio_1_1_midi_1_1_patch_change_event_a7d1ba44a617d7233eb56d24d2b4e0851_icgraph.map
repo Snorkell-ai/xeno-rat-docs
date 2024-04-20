@@ -1,0 +1,5 @@
+<map id="NAudio.Midi.PatchChangeEvent.GetPatchName" name="NAudio.Midi.PatchChangeEvent.GetPatchName">
+<area shape="rect" id="Node000001" title="Retrieves the patch name corresponding to the given patch number." alt="" coords="267,5,480,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_patch_change_event.html#afa00bef8e52830f450a9d2408aef462f" title="Returns a string that represents the current object, including the patch name." alt="" coords="5,5,219,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,28,219,28,219,23,251,23"/>
+</map>

@@ -1,0 +1,28 @@
+<map id="NAudio.Utils.CircularBuffer.ResetInner" name="NAudio.Utils.CircularBuffer.ResetInner">
+<area shape="rect" id="Node000001" title="Resets the internal state of the object." alt="" coords="1496,39,1679,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a77753450ffcc14f059c2b9d82b689ea9" title="Advances the read position in the buffer by the specified count." alt="" coords="1266,5,1448,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1481,46,1449,42,1449,36,1481,41"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a1399ff4a96831595ce722ee03906b778" title="Resets the state of the object." alt="" coords="1266,71,1448,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1481,76,1449,81,1449,76,1481,71"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_block_align_reduction_stream.html#a26be7b8974fa9bd30e3c6b007fe7b5ed" title="Reads a specified number of bytes from the circular buffer into the provided byte array,..." alt="" coords="992,5,1218,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1250,28,1219,28,1219,23,1250,23"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_buffered_wave_provider.html#ab07f7e58f4995af1723fde11ddb9bcaf" title="Clears the circular buffer." alt="" coords="1011,71,1199,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1250,94,1199,94,1199,88,1250,88"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#afe0ffdc5908bbd0d94fc7ae95224d7eb" title="Clears the buffer and starts playing audio." alt="" coords="752,37,944,78"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="995,80,944,73,944,67,996,74"/>
+<area shape="rect" id="Node000010" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#a2d8f73d6883fd19cbb044ebb67a32bda" title="Stops the audio playback and clears the buffer." alt="" coords="752,103,944,143"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="996,107,944,114,944,108,995,102"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#a3eb48a241f160315b9974191a26929c9" title="Starts the player and sends a signal to the client to start playing." alt="" coords="518,37,700,78"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="737,60,700,60,700,55,737,55"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#aa22c949501255089648411e3411d8a46" title="Initializes the components of the form including the combo box, labels, and buttons." alt="" coords="251,71,465,111"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="502,74,466,79,465,74,502,69"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af759c97b5673c55be1690f19df16e179" title=" " alt="" coords="5,71,203,111"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="235,94,203,94,203,88,235,88"/>
+<area shape="rect" id="Node000011" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#a6093c75b405861fcfaa531aea0e56896" title="Handles the click event for button3, stopping the player and sending a stop signal to the client." alt="" coords="518,103,700,143"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="737,126,700,126,700,120,737,120"/>
+<area shape="rect" id="Node000012" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#a6b5dbf3e41550ddae36b5c641b40a57d" title="Stops the audio playback and disposes of the resources used by the WaveOut player." alt="" coords="513,168,704,209"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="758,150,687,170,685,165,756,145"/>
+<area shape="poly" id="edge11_Node000011_Node000008" title=" " alt="" coords="502,112,465,107,466,102,502,107"/>
+<area shape="rect" id="Node000013" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af26723a44cb5880fd08168a5dcc94b49" title="Releases the unmanaged resources used by the Form and its components when the form is closing." alt="" coords="263,168,453,209"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="497,191,454,191,454,186,497,186"/>
+</map>

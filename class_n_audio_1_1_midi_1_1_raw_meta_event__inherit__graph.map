@@ -1,0 +1,9 @@
+<map id="NAudio.Midi.RawMetaEvent" name="NAudio.Midi.RawMetaEvent">
+<area shape="rect" id="Node000001" title="Represents a MIDI meta event with raw data." alt="" coords="5,885,183,1011"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_meta_event.html" title="Represents a MIDI meta event." alt="" coords="31,632,157,837"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,852,97,886,91,886,91,852"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="18,119,170,584"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,599,97,632,91,632,91,599"/>
+<area shape="rect" id="Node000004" href="$class_i_cloneable.html" title=" " alt="" coords="57,5,131,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,85,97,119,91,119,91,85"/>
+</map>

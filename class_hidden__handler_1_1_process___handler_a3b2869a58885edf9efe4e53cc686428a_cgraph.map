@@ -1,0 +1,9 @@
+<map id="Hidden_handler.Process_Handler.StartBrave" name="Hidden_handler.Process_Handler.StartBrave">
+<area shape="rect" id="Node000001" title="Starts the Brave browser with specified settings." alt="" coords="5,39,168,79"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="216,5,378,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,43,200,38,201,44,169,49"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a747cbde9a3abd0004ac71a7c8987cb3e" title="Retrieves the installation path of the Brave browser." alt="" coords="216,71,378,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="169,69,201,74,200,79,168,74"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="426,5,589,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,23,410,23,410,28,379,28"/>
+</map>

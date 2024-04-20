@@ -1,0 +1,21 @@
+<map id="xeno_rat_client.SocketHandler.SetRecvTimeout" name="xeno_rat_client.SocketHandler.SetRecvTimeout">
+<area shape="rect" id="Node000001" title="Sets the receive timeout for the socket." alt="" coords="1422,66,1625,107"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_node.html#a1921e91abd598cf2ea5580bee86a89f2" title="Authenticates the connection based on the specified type and optional ID." alt="" coords="1153,33,1374,74"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1407,74,1374,70,1375,65,1407,69"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__client_1_1_node.html#a08f9db251284968cf0f90f9c57ad0759" title="Sets the receive timeout for the socket." alt="" coords="1180,98,1348,139"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="1407,103,1349,111,1348,106,1407,98"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__client_1_1_utils.html#a1b80c734536096188c0fd2f6140ad285" title="Connects to a socket, sets up a node, and authenticates it asynchronously." alt="" coords="912,33,1105,74"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1137,56,1105,56,1105,51,1137,51"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__client_1_1_node.html#a8cd530137de59c6bc9f192e779dc26f3" title="Asynchronously connects a sub socket and sets up the connection with the specified parameters." alt="" coords="666,33,864,74"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="896,56,864,56,864,51,896,51"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__client_1_1_program.html#a8e01c4689de41166b75a03fda71d12f0" title="Main function for the XenoUpdateManager application." alt="" coords="5,12,200,38"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="912,32,863,24,680,11,497,9,332,13,200,20,200,15,331,8,497,3,680,6,864,19,913,26"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__client_1_1_handler.html#ad71391058f264e78c9c31d0dcbc19007" title="Asynchronously creates a sub socket based on the provided data." alt="" coords="457,33,618,74"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="651,56,619,56,619,51,651,51"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__client_1_1_handler.html#af958615880e2daf8a8d0ede5f4c53363" title="Asynchronously receives data and performs different actions based on the received opcode." alt="" coords="248,33,409,74"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="441,56,409,56,409,51,441,51"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="232,44,200,40,200,35,233,39"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__client_1_1_handler.html#a465e861a4d3ea4abcb82e33678598d1f" title="Asynchronously receives heartbeat messages from the specified subServer and sends a heartbeat reply i..." alt="" coords="684,98,846,139"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="1164,121,846,121,846,116,1164,116"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="677,96,610,77,612,72,679,91"/>
+</map>

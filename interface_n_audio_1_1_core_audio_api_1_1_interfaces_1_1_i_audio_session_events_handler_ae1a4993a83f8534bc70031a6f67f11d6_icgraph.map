@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged" name="NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged">
+<area shape="rect" id="Node000001" title="notification of volume changes including muting of audio session" alt="" coords="275,5,530,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_events_callback.html#a9570371264a40508ab11007ae5651809" title="Notifies the handler when the volume of the audio session changes and returns 0." alt="" coords="5,5,227,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,36,227,36,227,31,259,31"/>
+</map>

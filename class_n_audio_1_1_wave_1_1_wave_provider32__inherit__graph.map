@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveProvider32" name="NAudio.Wave.WaveProvider32">
+<area shape="rect" id="Node000001" title="Base class for creating a 32 bit floating point wave provider Can also be used as a base class for an..." alt="" coords="22,119,214,284"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,5,103,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,83,88,118,83,120,69,85"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="127,5,237,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,85,153,120,148,118,162,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.SmbPitchShifter.PitchShift" name="NAudio.Dsp.SmbPitchShifter.PitchShift">
+<area shape="rect" id="Node000001" title="Pitch Shift." alt="" coords="5,5,200,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_smb_pitch_shifter.html#adfe92f1206aa87de3c11e0e61160901d" title="Performs the Short Time Fourier Transform on the input FFT buffer." alt="" coords="248,5,442,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,23,232,23,232,28,200,28"/>
+</map>

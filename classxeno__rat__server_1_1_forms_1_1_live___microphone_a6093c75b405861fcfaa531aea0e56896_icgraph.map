@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Live_Microphone.button3_Click" name="xeno_rat_server.Forms.Live_Microphone.button3_Click">
+<area shape="rect" id="Node000001" title="Handles the click event for button3, stopping the player and sending a stop signal to the client." alt="" coords="513,5,695,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#aa22c949501255089648411e3411d8a46" title="Initializes the components of the form including the combo box, labels, and buttons." alt="" coords="251,5,465,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="497,28,465,28,465,23,497,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af759c97b5673c55be1690f19df16e179" title=" " alt="" coords="5,5,203,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,28,203,28,203,23,235,23"/>
+</map>

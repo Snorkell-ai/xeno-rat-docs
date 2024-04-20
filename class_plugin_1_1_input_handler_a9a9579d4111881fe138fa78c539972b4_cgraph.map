@@ -1,0 +1,7 @@
+<map id="Plugin.InputHandler.SimulateMouseMiddleClick" name="Plugin.InputHandler.SimulateMouseMiddleClick">
+<area shape="rect" id="Node000001" title="Simulates a middle mouse click at the specified screen coordinates." alt="" coords="5,35,195,75"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_input_handler.html#aac74206bdc456cfa1da233978c20859e" title="Simulates mouse input by moving the cursor to the specified coordinates or by generating mouse button..." alt="" coords="264,5,442,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,41,249,35,249,40,196,47"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_input_handler.html#a3851e203188c9968230d9740b0560b63" title="Sets the cursor position to the specified coordinates." alt="" coords="243,70,463,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,63,227,66,227,72,195,68"/>
+</map>

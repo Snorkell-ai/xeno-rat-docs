@@ -1,0 +1,9 @@
+<map id="NAudio.Midi.SmpteOffsetEvent" name="NAudio.Midi.SmpteOffsetEvent">
+<area shape="rect" id="Node000001" title="SMPTE Offset Event." alt="" coords="5,885,201,1211"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_meta_event.html" title="Represents a MIDI meta event." alt="" coords="41,632,166,837"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,852,106,886,101,886,101,852"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="27,119,179,584"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,599,106,632,101,632,101,599"/>
+<area shape="rect" id="Node000004" href="$class_i_cloneable.html" title=" " alt="" coords="66,5,141,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="106,85,106,119,101,119,101,85"/>
+</map>

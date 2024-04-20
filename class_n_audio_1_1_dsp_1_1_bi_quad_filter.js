@@ -1,0 +1,28 @@
+var class_n_audio_1_1_dsp_1_1_bi_quad_filter =
+[
+    [ "BiQuadFilter", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#ae4cd91ac1442dcb60453b248da898177", null ],
+    [ "BiQuadFilter", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a01b3a9a33903c66c725d41291e4835f1", null ],
+    [ "AllPassFilter", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a09b9293e0fd3175e459b0d53f3965616", null ],
+    [ "BandPassFilterConstantPeakGain", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a28be518b5cad28fec7f4846463cbed6a", null ],
+    [ "BandPassFilterConstantSkirtGain", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#acf912bd0231a3a62a641ac598c529b05", null ],
+    [ "HighPassFilter", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a3cdf88a1a022ef9ba00209c5a2cd0ae2", null ],
+    [ "HighShelf", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a130633ff70e7eaa98c0cbb00f01401e6", null ],
+    [ "LowPassFilter", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#acfbfad2bcf662234e2ab0cdca00d7f81", null ],
+    [ "LowShelf", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a888460d017a38651460bfd0360fe1c34", null ],
+    [ "NotchFilter", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#ad3ec3d1f2fdc0171b088684d2d71115b", null ],
+    [ "PeakingEQ", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a75f20e5e9455dd57f79f6a0eb454262e", null ],
+    [ "SetCoefficients", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a9bedd991252bfb3c489ed4d6961d5868", null ],
+    [ "SetHighPassFilter", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a52dd40133cba64f2b2cc1c9198634775", null ],
+    [ "SetLowPassFilter", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#accb351f27634e55210098c043a8da1b8", null ],
+    [ "SetPeakingEq", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a9df3de7b23af787acf52bf1cc75a147a", null ],
+    [ "Transform", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a8e2cf1d1b8aa495b2568554889fd7b8a", null ],
+    [ "a0", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#acae9a54f2b114df862d3a3a9e1108938", null ],
+    [ "a1", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#aea2cc13b895e4e40ee4ab385e232f0e3", null ],
+    [ "a2", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#ab845ec2f9b1ac1c5c417b38c3cca6ba2", null ],
+    [ "a3", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a0539e1f1b12ce88b42ea60e9fb61c0f0", null ],
+    [ "a4", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#ae6d39ab6815f3116d37ff7e87e34f580", null ],
+    [ "x1", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#aa12428e058f587f5988650932e17f22d", null ],
+    [ "x2", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a8e80eff0441323fb0cce963487350643", null ],
+    [ "y1", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#ad7d7de4315b2f18707e8d593220c1961", null ],
+    [ "y2", "class_n_audio_1_1_dsp_1_1_bi_quad_filter.html#a98b6d2264a37ba94a10792a1ce23ada0", null ]
+];

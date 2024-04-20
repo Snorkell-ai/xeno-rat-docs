@@ -1,0 +1,15 @@
+<map id="NAudio.Mixer.MixerControl.GetMixerControl" name="NAudio.Mixer.MixerControl.GetMixerControl">
+<area shape="rect" id="Node000001" title="Retrieves the specified mixer control." alt="" coords="5,169,187,210"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#aa5f03a6c7f9d1d7008fbcda445aee114" title="Checks if the given MixerControlType is a boolean control type." alt="" coords="250,5,431,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,167,162,113,196,83,233,57,245,50,248,55,236,61,200,87,166,116,116,171"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a3581f0fa357b1857154fc6af849c316d" title="Checks if the given MixerControlType is custom." alt="" coords="250,71,431,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,166,234,122,254,114,256,119,236,127,139,171"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a71701b30dec3033b5043242ecd6db7d6" title="Checks if the given MixerControlType is a type of control list text." alt="" coords="250,136,431,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,175,234,168,235,173,188,180"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a38099bab907b13dd473681fc72bc706a" title="Checks if the given MixerControlType is signed." alt="" coords="250,201,431,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="188,199,235,205,234,210,187,204"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a53db43551b5e40ef607ec9d622931415" title="Determines if the given MixerControlType is of an unsigned type." alt="" coords="250,267,431,307"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="139,208,236,251,256,259,254,264,234,256,137,213"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_mixer_1_1_mixer_interop.html#abdb52bd5c1e2a003570592acf49309a9" title="Retrieves the controls for a specified audio mixer line." alt="" coords="235,332,446,373"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="116,209,167,263,200,292,236,317,248,323,245,328,233,321,197,296,163,266,112,212"/>
+</map>

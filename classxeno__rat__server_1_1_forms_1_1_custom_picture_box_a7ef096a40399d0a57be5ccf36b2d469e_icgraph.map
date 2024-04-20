@@ -1,0 +1,12 @@
+<map id="xeno_rat_server.Forms.CustomPictureBox.ToAscii" name="xeno_rat_server.Forms.CustomPictureBox.ToAscii">
+<area shape="rect" id="Node000001" title="Translates the specified virtual&#45;key code and keyboard state to the corresponding character or charac..." alt="" coords="1004,35,1208,75"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a42d8fa8741cbda40c8784fc9ce8b2db7" title="Gets the modified key corresponding to the input character." alt="" coords="751,5,956,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="988,44,956,40,956,35,989,39"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,35,703,75"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="988,60,956,60,751,60,704,60,704,54,751,55,956,55,988,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="736,42,704,46,704,40,736,37"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,35,451,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="484,58,451,58,451,52,484,52"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,35,199,75"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="231,58,199,58,199,52,231,52"/>
+</map>

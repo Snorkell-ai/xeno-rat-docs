@@ -1,0 +1,19 @@
+<map id="xeno_rat_server.Forms.AudioPlayer.AudioPlayer" name="xeno_rat_server.Forms.AudioPlayer.AudioPlayer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,136,197,177"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a59f8399d92816fb1170ce3e8586c357e" title="Initializes the WaveOut device with the specified wave provider." alt="" coords="245,144,460,169"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,154,229,154,229,159,197,159"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#adf3d5faea74cb454bef3716fbdfac8ee" title="Closes the wave output device and releases associated resources." alt="" coords="524,5,721,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="370,141,429,100,507,57,525,49,527,54,509,61,432,104,373,145"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_format.html#af046f7ad8a6841a7f10cabf6bec945d7" title="Converts the given latency in milliseconds to the corresponding byte size based on the average bytes ..." alt="" coords="508,71,737,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="408,140,520,113,521,118,409,146"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a06d473b83fe57b7d0521c7a666d22b1f" title="Disposes all the buffers and sets them to null." alt="" coords="524,136,721,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="461,154,509,154,509,159,461,159"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="537,201,708,227"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="417,167,545,194,543,200,416,172"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a39049aaded18792ed850ed71112bbfb2" title="Opens a waveform&#45;audio output device for playback." alt="" coords="516,251,729,291"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="376,167,435,201,509,237,526,243,524,248,507,241,433,206,374,172"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a9bfe4605db74d845aafb637240db3cd6" title="Closes the specified waveform output device." alt="" coords="795,5,1008,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="722,23,779,23,779,28,722,28"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="785,201,1018,227"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="709,211,770,211,770,216,709,216"/>
+</map>

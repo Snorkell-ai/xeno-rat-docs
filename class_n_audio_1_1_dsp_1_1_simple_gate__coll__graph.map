@@ -1,0 +1,11 @@
+<map id="NAudio.Dsp.SimpleGate" name="NAudio.Dsp.SimpleGate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,577,161,662"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_att_rel_envelope.html" title=" " alt="" coords="89,402,211,527"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,542,104,578,99,576,115,540"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="102,5,153,71"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="124,71,104,186,83,333,79,402,79,527,81,560,76,560,74,527,74,402,78,333,98,185,119,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,70,143,309,147,385,142,385,137,309,126,71"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_envelope_detector.html" title=" " alt="" coords="242,164,434,309"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="154,61,251,151,247,154,151,65"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="281,310,214,391,210,387,277,307"/>
+</map>

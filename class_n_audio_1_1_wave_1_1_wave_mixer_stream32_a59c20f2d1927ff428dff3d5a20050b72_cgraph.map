@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveMixerStream32.Read" name="NAudio.Wave.WaveMixerStream32.Read">
+<area shape="rect" id="Node000001" title="Reads a specified number of bytes from the current stream into a byte array and advances the position..." alt="" coords="5,13,267,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#a7484336a5378039e2ac9ed7b3660326d" title="Sums 32&#45;bit audio samples from the source buffer to the destination buffer." alt="" coords="315,5,545,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,23,299,23,299,28,267,28"/>
+</map>

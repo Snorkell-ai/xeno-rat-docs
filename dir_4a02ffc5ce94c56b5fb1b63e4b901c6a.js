@@ -1,0 +1,26 @@
+var dir_4a02ffc5ce94c56b5fb1b63e4b901c6a =
+[
+    [ "IAMCameraControl.cs", "_i_a_m_camera_control_8cs.html", null ],
+    [ "IAMCrossbar.cs", "_i_a_m_crossbar_8cs.html", null ],
+    [ "IAMStreamConfig.cs", "_i_a_m_stream_config_8cs.html", null ],
+    [ "IAMVideoControl.cs", "_i_a_m_video_control_8cs.html", null ],
+    [ "IBaseFilter.cs", "_i_base_filter_8cs.html", null ],
+    [ "ICaptureGraphBuilder2.cs", "_i_capture_graph_builder2_8cs.html", null ],
+    [ "ICreateDevEnum.cs", "_i_create_dev_enum_8cs.html", null ],
+    [ "IEnumFilters.cs", "_i_enum_filters_8cs.html", null ],
+    [ "IEnumPins.cs", "_i_enum_pins_8cs.html", null ],
+    [ "IFilterGraph.cs", "_i_filter_graph_8cs.html", null ],
+    [ "IFilterGraph2.cs", "_i_filter_graph2_8cs.html", null ],
+    [ "IGraphBuilder.cs", "_i_graph_builder_8cs.html", null ],
+    [ "IMediaControl.cs", "_i_media_control_8cs.html", null ],
+    [ "IMediaEventEx.cs", "_i_media_event_ex_8cs.html", null ],
+    [ "IPin.cs", "_i_pin_8cs.html", null ],
+    [ "IPropertyBag.cs", "_i_property_bag_8cs.html", null ],
+    [ "IReferenceClock.cs", "_i_reference_clock_8cs.html", null ],
+    [ "ISampleGrabber.cs", "_i_sample_grabber_8cs.html", null ],
+    [ "ISampleGrabberCB.cs", "_i_sample_grabber_c_b_8cs.html", null ],
+    [ "ISpecifyPropertyPages.cs", "_i_specify_property_pages_8cs.html", null ],
+    [ "Structures.cs", "_structures_8cs.html", null ],
+    [ "Uuids.cs", "_internals_2_uuids_8cs.html", null ],
+    [ "Win32.cs", "_win32_8cs.html", null ]
+];

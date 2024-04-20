@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.AsioOut.~AsioOut" name="NAudio.Wave.AsioOut.~AsioOut">
+<area shape="rect" id="Node000001" title="Releases unmanaged resources and performs other cleanup operations before the AsioOut is reclaimed by..." alt="" coords="5,100,162,141"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a7ad3ac0c9287493dc00c97a5f42fac99" title="Releases the resources used by the driver and sets the driver to null." alt="" coords="210,108,414,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,118,194,118,194,123,162,123"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a624a3e2671bf91e71d0ceace11574e6c" title="Releases the driver resources and COM ASIO driver." alt="" coords="462,67,658,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,104,446,100,447,105,413,110"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a2a766495e3da6cf139ba6da1e5cddb0a" title="Stops the driver." alt="" coords="462,132,658,173"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="415,131,447,135,446,140,414,136"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#abf9d5ce17b2e7ff0f993b8349a18dc11" title="Disposes the ASIO buffers and frees the allocated memory." alt="" coords="720,5,919,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="648,63,716,47,717,53,650,69"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#aaa33751c9601d711e0e90adf20434ff7" title="Releases the COM object associated with the ASIO driver." alt="" coords="720,71,919,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="659,86,705,87,704,92,659,91"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a15c87a396c55cfe0d357689331b75055" title="Stops the ASIO driver and returns any error that occurred during the operation." alt="" coords="706,140,933,165"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="659,150,691,150,691,155,659,155"/>
+</map>

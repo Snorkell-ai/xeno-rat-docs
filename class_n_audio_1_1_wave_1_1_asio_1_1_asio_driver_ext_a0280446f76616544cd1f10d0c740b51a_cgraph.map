@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Asio.AsioDriverExt.BufferSwitchCallBack" name="NAudio.Wave.Asio.AsioDriverExt.BufferSwitchCallBack">
+<area shape="rect" id="Node000001" title="Callback function for switching buffers and invoking the fill buffer callback." alt="" coords="5,5,202,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a8b950cc131c67e1be12da29173ce60ec" title="Checks if the output is ready and returns an AsioError." alt="" coords="250,5,449,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
+</map>

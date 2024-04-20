@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WasapiOut.GetFallbackFormat" name="NAudio.Wave.WasapiOut.GetFallbackFormat">
+<area shape="rect" id="Node000001" title="Gets the fallback WaveFormat to be used in case the provided format is not supported,..." alt="" coords="245,5,439,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html#a26a53294854cb94a54d0959b3c09c6f6" title="Initializes the audio output with the specified waveProvider ." alt="" coords="5,13,197,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

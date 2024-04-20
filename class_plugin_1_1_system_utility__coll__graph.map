@@ -1,0 +1,7 @@
+<map id="Plugin.SystemUtility" name="Plugin.SystemUtility">
+<area shape="rect" id="Node000001" title=" " alt="" coords="14,194,210,259"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,32,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="14,71,10,119,13,145,22,168,31,180,27,184,18,171,8,146,4,119,8,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="183,5,228,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,71,198,120,190,146,178,171,170,183,166,180,174,168,185,144,193,118,201,70"/>
+</map>

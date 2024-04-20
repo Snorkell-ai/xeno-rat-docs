@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioCaptureClient.GetBuffer" name="NAudio.CoreAudioApi.AudioCaptureClient.GetBuffer">
+<area shape="rect" id="Node000001" title="Retrieves a pointer to the buffer that is ready for the next capture." alt="" coords="5,5,191,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_capture_client.html#ac83ebe2e1c382521185bdcab7c0a97e1" title=" " alt="" coords="239,5,453,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,23,223,23,223,28,191,28"/>
+</map>

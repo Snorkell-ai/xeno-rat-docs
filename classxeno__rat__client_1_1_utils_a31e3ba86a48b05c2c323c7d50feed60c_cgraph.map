@@ -1,0 +1,5 @@
+<map id="xeno_rat_client.Utils.IsAdmin" name="xeno_rat_client.Utils.IsAdmin">
+<area shape="rect" id="Node000001" title="Checks if the current user is an admin and returns a boolean value indicating the result." alt="" coords="5,5,161,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_utils.html#a1581cd0fb37a96a7490c745efa5ce035" title="Determines whether the current user is a member of the administrator group." alt="" coords="209,5,364,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,23,193,23,193,28,161,28"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.IMediaObject.GetOutputCurrentType" name="NAudio.Dmo.IMediaObject.GetOutputCurrentType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="252,5,433,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a5e56a057a857d271de1dc9876f256c67" title="Retrieves the current output media type for the specified output stream index." alt="" coords="5,5,204,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,28,204,28,204,23,236,23"/>
+</map>

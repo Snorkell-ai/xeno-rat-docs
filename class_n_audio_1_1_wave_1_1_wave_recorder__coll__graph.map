@@ -1,0 +1,30 @@
+<map id="NAudio.Wave.WaveRecorder" name="NAudio.Wave.WaveRecorder">
+<area shape="rect" id="Node000001" title="Utility class to intercept audio from an IWaveProvider and save it to disk." alt="" coords="127,1505,309,1611"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,1077,103,1142"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,1157,61,1216,70,1289,88,1367,116,1441,137,1474,162,1504,158,1507,133,1477,112,1444,83,1368,65,1290,56,1217,52,1157"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="127,1077,208,1142"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,1157,215,1505,210,1506,170,1157"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html" title="This class writes WAV data to a .wav file on disk." alt="" coords="232,777,417,1442"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="248,1443,237,1490,232,1489,243,1441"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="101,399,156,464"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="116,479,101,539,94,611,95,649,101,685,113,720,132,751,141,760,151,764,173,764,197,763,209,767,221,775,234,789,230,792,218,779,207,772,196,768,173,769,150,769,138,764,128,755,108,722,96,687,90,649,88,611,96,538,111,478"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="138,463,187,684,193,719,203,752,212,763,222,776,227,786,222,789,217,778,208,767,198,754,188,720,182,684,133,464"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="197,399,281,464"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="246,463,282,753,283,760,278,761,277,753,241,464"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="306,399,343,464"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="327,464,327,760,322,760,322,464"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="368,179,567,684"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="477,684,469,720,456,754,445,767,432,779,428,786,423,783,428,775,441,763,452,752,464,718,472,683"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="262,5,403,71"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="341,70,361,154,365,169,360,171,355,155,336,71"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="447,5,488,71"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="470,71,470,162,465,162,465,71"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="581,5,607,71"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="589,71,567,155,565,163,560,162,562,154,584,70"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="591,399,637,464"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="618,464,618,509,613,565,602,626,582,685,557,726,519,755,494,764,472,765,452,767,432,779,431,780,427,776,428,775,450,762,472,760,493,759,517,751,553,723,577,683,597,625,608,564,612,508,613,464"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="671,399,709,464"/>
+<area shape="poly" id="edge13_Node000004_Node000013" title=" " alt="" coords="698,464,703,526,700,606,692,648,679,688,659,724,630,755,606,770,582,776,557,775,533,771,484,764,459,768,432,781,430,776,457,763,484,759,534,765,558,770,581,770,604,765,627,751,654,721,674,685,687,646,695,605,698,526,693,464"/>
+<area shape="rect" id="Node000014" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="442,1077,623,1142"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="533,1142,526,1203,509,1282,479,1367,458,1407,432,1444,409,1468,383,1489,326,1521,323,1517,380,1484,405,1464,428,1441,453,1404,474,1365,504,1281,521,1202,528,1142"/>
+</map>

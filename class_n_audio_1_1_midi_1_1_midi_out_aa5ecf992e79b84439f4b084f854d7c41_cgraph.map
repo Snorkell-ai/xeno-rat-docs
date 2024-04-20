@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.MidiOut.DeviceInfo" name="NAudio.Midi.MidiOut.DeviceInfo">
+<area shape="rect" id="Node000001" title="Retrieves the capabilities of the specified MIDI output device." alt="" coords="5,5,214,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="262,5,433,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,16,246,16,246,21,214,21"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="481,5,713,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="433,16,465,16,465,21,433,21"/>
+</map>

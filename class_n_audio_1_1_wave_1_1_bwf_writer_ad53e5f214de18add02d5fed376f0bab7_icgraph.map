@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.BwfWriter.GetAsBytes" name="NAudio.Wave.BwfWriter.GetAsBytes">
+<area shape="rect" id="Node000001" title="Converts the input string to a byte array of the specified size and returns the result." alt="" coords="242,5,428,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_bwf_writer.html#aae4b97b92099cb65d217293aec8b96bb" title="Createa a new BwfWriter." alt="" coords="5,5,194,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,28,194,28,194,23,226,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveOutEvent.PlaybackThread" name="NAudio.Wave.WaveOutEvent.PlaybackThread">
+<area shape="rect" id="Node000001" title="Executes the DoPlayback method in a separate thread and raises the PlaybackStopped event upon complet..." alt="" coords="5,39,203,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a0ffe20076eb914567e2260e1cf1e6e59" title="Performs the audio playback operation." alt="" coords="251,5,448,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,43,235,39,235,44,203,48"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#ac5bbb966d79a5baf4ab2e8c6212de1ae" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="251,71,448,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,69,235,73,235,79,203,75"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="NAudio.Dsp.EnvelopeDetector.Run" name="NAudio.Dsp.EnvelopeDetector.Run">
+<area shape="rect" id="Node000001" title="Runs the attack or release process based on the input value and state, and returns the result." alt="" coords="797,42,1025,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_att_rel_envelope.html#ad0f68a53e5b1acd573af8099a999a5a0" title=" " alt="" coords="534,42,749,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="782,58,750,58,750,52,782,52"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dsp_1_1_simple_compressor.html#adf64c414bce58e81b790a15c126154c7" title="Processes the input signals using a dynamic range compressor." alt="" coords="273,5,483,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="518,44,483,40,484,35,518,39"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dsp_1_1_simple_gate.html#a532c445a72f13b1a0d34ed3251a77f9a" title="Processes the input stereo data using sidechain compression." alt="" coords="270,70,486,96"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="519,71,487,74,486,69,518,65"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_simple_compressor_effect.html#a6456b375729571116efd4ecf74b486d2" title="Reads audio samples from the source stream into the specified array." alt="" coords="5,5,222,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="257,28,222,28,222,23,257,23"/>
+</map>

@@ -1,0 +1,28 @@
+<map id="NAudio.Wave.WasapiOut.Init" name="NAudio.Wave.WasapiOut.Init">
+<area shape="rect" id="Node000001" title="Initializes the audio output with the specified waveProvider ." alt="" coords="5,330,197,356"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#a912dabf6205f4decb860f0804186fec2" title="Performs the disposal of resources used by the audio client." alt="" coords="249,136,435,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,327,301,184,304,188,121,332"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html#a9b87cd18af1d8eb60039d7562208b3f3" title="Gets the fallback WaveFormat to be used in case the provided format is not supported,..." alt="" coords="245,265,439,306"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="158,327,238,308,239,313,159,332"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#ab0849e5192f4ab65257d9857e2c6f402" title="Checks if the specified audio format is supported for the given share mode and returns the closest ma..." alt="" coords="502,315,687,355"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="197,339,486,334,486,339,197,344"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#a534c725e8ee48a46bcf98fcf0ff922ed" title="Initializes the audio client with the specified parameters." alt="" coords="249,380,435,421"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="159,354,239,373,238,378,158,359"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#a8f660ec35cb2bb3ba1c9d72becdf0b51" title="Sets the event handle for the audio client interface." alt="" coords="249,445,435,486"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="122,354,176,391,246,430,261,437,259,442,243,435,173,395,119,358"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#a13dad19c8f4569fb5f9d6196b821d2ea" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="502,5,687,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="367,133,420,95,486,57,502,49,504,54,488,61,423,99,370,138"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_audio_clock_client.html#a850fd4084b0edac0ff0f5b081affa7f6" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="502,71,687,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="423,133,497,113,499,118,424,138"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_core_audio_api_1_1_audio_render_client.html#a583aad472add9195e9f173664df7ccdb" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="502,136,687,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="435,154,486,154,486,159,435,159"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_core_audio_api_1_1_audio_stream_volume.html#a77ecf4b506503480f6f224e8ccbfb2d2" title="Releases the unmanaged resources used by the AudioStreamVolume object." alt="" coords="502,225,687,266"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="403,175,521,217,519,222,401,180"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="547,225,545,215,552,206,569,201,594,199,621,201,637,207,636,212,620,206,594,204,570,206,555,211,550,217,552,224"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="440,302,487,311,486,317,439,307"/>
+<area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="547,315,545,305,552,296,569,290,594,288,621,290,637,297,636,302,620,296,594,293,570,295,555,300,550,306,552,313"/>
+<area shape="rect" id="Node000010" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_client.html#af34f2e347539298396eabd35f604828d" title=" " alt="" coords="487,380,701,421"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="435,398,471,398,471,403,435,403"/>
+<area shape="rect" id="Node000012" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_client.html#a6b478991ea9e65b796915ed603a435d6" title=" " alt="" coords="487,445,701,486"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="435,463,471,463,471,468,435,468"/>
+</map>

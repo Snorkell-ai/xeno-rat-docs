@@ -1,0 +1,9 @@
+<map id="NAudio.Dmo.Effect.DmoI3DL2Reverb.Params" name="NAudio.Dmo.Effect.DmoI3DL2Reverb.Params">
+<area shape="rect" id="Node000001" title="DMO I3DL2Reverb Params." alt="" coords="69,398,262,1018"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,63,32,128"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="22,128,27,237,35,306,47,374,66,447,61,448,41,375,29,306,22,238,16,128"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="147,63,184,128"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,128,168,381,163,381,163,128"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_i3_d_l2_reverb.html" title=" " alt="" coords="249,5,418,185"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="333,185,325,277,307,375,271,486,266,484,301,374,319,277,328,184"/>
+</map>

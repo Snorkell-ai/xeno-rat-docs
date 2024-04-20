@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveInEventArgs" name="NAudio.Wave.WaveInEventArgs">
+<area shape="rect" id="Node000001" title="Event Args for WaveInStream event." alt="" coords="21,134,223,219"/>
+<area shape="rect" id="Node000002" href="$class_event_args.html" title=" " alt="" coords="5,5,79,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,82,100,132,95,135,66,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="103,5,141,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="125,70,125,116,119,116,119,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="181,5,207,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,71,167,111,162,120,157,118,162,108,180,69"/>
+</map>

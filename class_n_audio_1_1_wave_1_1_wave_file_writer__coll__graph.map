@@ -1,0 +1,22 @@
+<map id="NAudio.Wave.WaveFileWriter" name="NAudio.Wave.WaveFileWriter">
+<area shape="rect" id="Node000001" title="This class writes WAV data to a .wav file on disk." alt="" coords="136,777,321,1442"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,399,60,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="29,479,23,535,20,604,24,679,37,752,56,811,80,869,139,976,134,978,75,872,51,813,31,754,19,679,15,604,18,535,23,478"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="41,463,66,590,106,752,133,841,128,842,101,754,61,591,36,464"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="101,399,185,464"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="150,463,186,753,187,760,182,761,181,753,145,464"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="210,399,247,464"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="231,464,231,760,226,760,226,464"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="272,179,471,684"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="371,684,361,754,329,871,324,869,355,752,366,683"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="166,5,307,71"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="245,70,265,154,269,169,264,171,259,155,240,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="351,5,392,71"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="374,71,374,162,369,162,369,71"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="485,5,511,71"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="493,71,471,155,469,163,464,162,466,154,488,70"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="495,399,541,464"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="520,464,513,564,502,625,486,685,454,762,416,837,375,908,333,972,329,969,370,905,412,834,449,760,481,683,497,624,507,563,515,464"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="575,399,613,464"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="597,464,595,520,586,595,569,676,556,716,539,754,495,828,444,898,389,961,336,1016,332,1012,385,957,439,894,491,825,534,752,551,714,564,674,581,594,589,520,592,464"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveIn.Callback" name="NAudio.Wave.WaveIn.Callback">
+<area shape="rect" id="Node000001" title="Callback method for handling wave input messages." alt="" coords="5,46,210,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#acb9f7cdc0183b104eaa6560639367c50" title="Raises the DataAvailable event with the provided WaveInBuffer data." alt="" coords="258,5,445,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,43,242,38,243,43,207,48"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a85b8f08d114ae526f79f53155889bf4e" title="Raises the RecordingStopped event with the specified exception." alt="" coords="258,71,445,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,70,242,74,242,79,210,75"/>
+</map>

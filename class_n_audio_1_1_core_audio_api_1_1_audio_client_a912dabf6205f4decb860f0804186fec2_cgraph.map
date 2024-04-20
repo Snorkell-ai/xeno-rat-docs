@@ -1,0 +1,12 @@
+<map id="NAudio.CoreAudioApi.AudioClient.Dispose" name="NAudio.CoreAudioApi.AudioClient.Dispose">
+<area shape="rect" id="Node000001" title="Performs the disposal of resources used by the audio client." alt="" coords="5,104,191,145"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#a13dad19c8f4569fb5f9d6196b821d2ea" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="239,5,424,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,101,238,57,255,49,257,54,240,61,142,106"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_audio_clock_client.html#a850fd4084b0edac0ff0f5b081affa7f6" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="239,71,424,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,108,223,104,223,109,192,114"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_audio_render_client.html#a583aad472add9195e9f173664df7ccdb" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="239,136,424,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,134,223,139,223,144,191,140"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_core_audio_api_1_1_audio_stream_volume.html#a77ecf4b506503480f6f224e8ccbfb2d2" title="Releases the unmanaged resources used by the AudioStreamVolume object." alt="" coords="239,225,424,266"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="140,143,278,215,276,220,138,148"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="287,225,285,215,292,206,308,201,331,199,357,201,371,207,369,212,355,206,331,204,309,206,296,211,290,217,293,224"/>
+</map>

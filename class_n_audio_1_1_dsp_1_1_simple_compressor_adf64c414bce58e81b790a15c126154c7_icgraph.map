@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.SimpleCompressor.Process" name="NAudio.Dsp.SimpleCompressor.Process">
+<area shape="rect" id="Node000001" title="Processes the input signals using a dynamic range compressor." alt="" coords="270,5,480,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_simple_compressor_effect.html#a6456b375729571116efd4ecf74b486d2" title="Reads audio samples from the source stream into the specified array." alt="" coords="5,5,222,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,28,222,28,222,23,254,23"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="NAudio.Wave.AiffFileReader.ConvertInt" name="NAudio.Wave.AiffFileReader.ConvertInt">
+<area shape="rect" id="Node000001" title="Converts a byte array to an unsigned integer." alt="" coords="723,5,915,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#a5eb16b178b9d6e031efe3fe424b77601" title="Reads the AIFF header from the provided stream and extracts the wave format, data chunk position,..." alt="" coords="245,5,436,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="707,25,675,24,484,24,437,25,437,20,484,19,675,19,707,20"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#a0538ac3cf78a3c787cf8570842a79df2" title="Reads the header of a chunk from the provided BinaryReader and returns an AiffChunk object." alt="" coords="484,33,675,74"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="708,41,676,45,676,40,707,36"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#ae9075221902376de4191d0b4bc9be7e4" title="Creates an Aiff File Reader based on an input stream." alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="468,43,436,40,437,34,469,38"/>
+</map>

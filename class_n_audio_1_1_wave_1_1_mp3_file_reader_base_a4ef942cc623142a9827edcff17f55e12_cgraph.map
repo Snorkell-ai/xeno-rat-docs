@@ -1,0 +1,25 @@
+<map id="NAudio.Wave.Mp3FileReaderBase.Mp3FileReaderBase" name="NAudio.Wave.Mp3FileReaderBase.Mp3FileReaderBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,237,199,278"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a1c78303cd515a3b9c7f7a0133b7703a5" title="Creates a table of contents for the MP3 file by reading the frames and populating the table of conten..." alt="" coords="257,83,451,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,235,174,185,208,158,245,134,259,127,261,132,248,139,212,162,178,189,125,239"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_mp3_frame.html#aacebf32e12cd788f543c16aa388c827f" title="Loads an MP3 frame from the given input stream and returns the frame." alt="" coords="254,172,454,213"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="183,234,257,215,259,220,184,239"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_xing_header.html#a8360d4066fe6e494ff7ebf6c688d7beb" title="Loads the Xing header from the provided Mp3Frame." alt="" coords="252,237,456,278"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="199,255,236,255,236,260,199,260"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a402d29d71aa5d32148f5370e01714e7c" title="Reads an ID3v2 tag from the input stream and returns the tag." alt="" coords="247,302,461,328"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="195,276,280,296,279,301,194,281"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#af88057a5f4bcdc21619aae08f319ab7c" title="Calculates the total seconds based on the total samples and sample rate." alt="" coords="257,352,451,393"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="136,276,187,307,248,338,263,344,261,349,246,343,185,312,133,281"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a3e0ccd190d85f58fc98568e9fcaf5a46" title="Reads the next MP3 frame from the stream and advances the position by one frame." alt="" coords="520,29,713,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="450,81,504,70,505,75,451,86"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#ad9f2cd188d2e55f4e4f24307d98a4da5" title="Validates the format of the MP3 frame." alt="" coords="520,95,713,135"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="451,105,505,107,505,113,451,110"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="568,29,565,19,573,10,590,5,617,3,645,5,662,11,660,16,644,10,617,8,591,10,576,15,570,21,573,28"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="307,172,304,162,312,153,329,147,354,145,381,148,397,154,395,159,380,153,354,151,330,153,315,157,309,163,312,171"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_xing_header.html#a79596ac097f7c3e5b33af43e5518c6f4" title="Reads a 32&#45;bit integer from the specified buffer in big&#45;endian format." alt="" coords="513,172,720,213"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="438,234,517,214,518,220,439,239"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_xing_header.html#a541bbfd1063c3accc85660a1ebf1ca75" title="Sees if a frame contains a Xing header." alt="" coords="516,237,718,278"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="456,255,500,255,500,260,456,260"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a91dd0a39bebbb29b61a147d93cabf84c" title=" " alt="" coords="509,302,724,328"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="461,312,494,312,494,318,461,318"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="xeno_rat_server.Utils.CalculateSha256Bytes" name="xeno_rat_server.Utils.CalculateSha256Bytes">
+<area shape="rect" id="Node000001" title="Computes the SHA&#45;256 hash value for the input string and returns the result as an array of bytes." alt="" coords="276,104,479,145"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_main_form.html#a52e5596b8244bd2f52297703e978bc1f" title="Handles the click event of button2. Builds the client with the specified configurations and saves it ..." alt="" coords="5,5,228,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="318,100,227,61,190,49,192,44,229,57,320,95"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_main_form.html#ac66c35748e54b6c8aaa13ccbeb221958" title="Updates the label text with the current password and calculates the SHA256 hash of the input password..." alt="" coords="5,71,228,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="260,112,228,108,228,103,260,107"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_main_form.html#a422d6f67329a6981b31a0665057b6f01" title="Deserializes control data from JSON string and populates the UI controls with the deserialized values..." alt="" coords="20,136,213,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="261,141,214,147,213,142,260,136"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_main_form.html#a10da4cbe96d264b615a74b1b89b24101" title=" " alt="" coords="27,201,206,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="318,154,229,191,192,203,190,198,227,186,316,149"/>
+</map>

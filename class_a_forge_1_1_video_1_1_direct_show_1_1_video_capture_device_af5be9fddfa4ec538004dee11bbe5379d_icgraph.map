@@ -1,0 +1,7 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.SignalToStop" name="AForge.Video.DirectShow.VideoCaptureDevice.SignalToStop">
+<area shape="rect" id="Node000001" title="Signals the thread to stop." alt="" coords="218,23,440,64"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="5,5,170,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,33,170,29,170,24,203,28"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs necessary operations, such as sending a byte array to indicate c..." alt="" coords="29,55,146,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,59,147,64,146,59,202,53"/>
+</map>

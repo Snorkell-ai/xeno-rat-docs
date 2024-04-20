@@ -1,0 +1,12 @@
+<map id="Hidden_handler.Process_Handler.CloneFirefox" name="Hidden_handler.Process_Handler.CloneFirefox">
+<area shape="rect" id="Node000001" title="Clones the Firefox profile data to a specified directory." alt="" coords="5,83,168,123"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="233,37,396,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,84,218,74,219,79,168,90"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1_process___handler.html#a0aa478a461064948bd41a87f78c93a7d" title="Recursively searches for a file with the specified name in the given directory and its subdirectories..." alt="" coords="216,127,413,167"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="168,116,201,122,200,128,167,121"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="471,5,678,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,45,455,38,455,43,396,50"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="461,71,687,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="396,65,446,72,445,77,396,71"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="271,127,269,117,276,108,291,102,314,100,339,102,354,109,351,114,338,108,314,105,293,107,279,112,274,118,277,125"/>
+</map>

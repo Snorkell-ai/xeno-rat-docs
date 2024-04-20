@@ -1,0 +1,18 @@
+<map id="NAudio.Dmo.DmoResampler" name="NAudio.Dmo.DmoResampler">
+<area shape="rect" id="Node000001" title="DMO Resampler." alt="" coords="340,792,522,877"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="14,105,96,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,186,21,293,12,362,8,436,12,513,24,590,50,662,67,696,89,727,105,741,128,755,192,779,267,799,340,815,339,820,266,804,190,784,126,759,101,745,85,730,63,698,45,664,19,591,6,514,3,436,7,361,16,292,39,185"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_object.html" title="Media Object." alt="" coords="99,349,304,729"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="74,184,135,348,130,350,69,185"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="306,718,346,766,360,779,357,783,343,770,302,722"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html" title="defined in mediaobj.h" alt="" coords="120,5,289,271"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="206,270,206,332,200,332,201,270"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="314,105,340,171"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="325,171,313,242,293,325,291,333,286,332,288,324,308,241,320,170"/>
+<area shape="rect" id="Node000006" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_property_store.html" title="is defined in propsys.h" alt="" coords="328,459,534,619"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="434,619,434,775,428,775,428,619"/>
+<area shape="rect" id="Node000007" href="$interface_n_audio_1_1_dmo_1_1_i_w_m_resampler_props.html" title="Windows Media Resampler Props wmcodecdsp.h." alt="" coords="558,496,776,581"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="662,582,651,625,634,674,609,725,575,770,539,798,536,793,572,766,605,722,629,672,646,623,657,581"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_dmo_1_1_resampler_media_com_object.html" title="From wmcodecsdp.h Implements:" alt="" coords="800,499,990,579"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="885,579,866,627,836,681,795,732,771,753,743,770,693,791,640,806,539,826,538,821,639,801,691,786,740,765,767,749,791,728,832,678,861,625,880,577"/>
+</map>

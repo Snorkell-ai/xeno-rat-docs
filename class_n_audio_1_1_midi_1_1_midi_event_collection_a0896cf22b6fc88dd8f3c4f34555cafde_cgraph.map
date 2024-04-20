@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.MidiEventCollection.PrepareForExport" name="NAudio.Midi.MidiEventCollection.PrepareForExport">
+<area shape="rect" id="Node000001" title="Prepares the MIDI data for export by performing the following steps:" alt="" coords="5,39,222,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html#abc5dddfff2cac0fa2003ca9a0af50fb1" title="Checks if the provided MIDI event is an end track event." alt="" coords="293,5,463,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,43,277,36,278,41,222,48"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#a2a5898ba654bdd5deef14538a7616cba" title="Removes the track at the specified index from the track events collection." alt="" coords="270,71,486,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,69,254,73,254,79,222,75"/>
+</map>

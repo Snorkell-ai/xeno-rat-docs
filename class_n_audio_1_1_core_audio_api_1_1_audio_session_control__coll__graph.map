@@ -1,0 +1,17 @@
+<map id="NAudio.CoreAudioApi.AudioSessionControl" name="NAudio.CoreAudioApi.AudioSessionControl">
+<area shape="rect" id="Node000001" title="AudioSessionControl object for information regarding an audio session." alt="" coords="251,697,443,1057"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="5,431,87,496"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,510,73,570,86,602,102,632,135,679,173,724,254,800,250,804,169,728,131,683,97,635,81,605,68,572,52,512"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_control.html" title="Windows CoreAudio IAudioSessionControl interface Defined in AudioPolicy.h." alt="" coords="111,344,349,584"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,583,259,672,261,680,256,681,254,673,236,584"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_control2.html" title="Windows CoreAudio IAudioSessionControl interface Defined in AudioPolicy.h." alt="" coords="373,294,610,634"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="451,634,438,674,435,681,430,680,433,672,446,633"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_control.html" title="Windows CoreAudio IAudioSessionControl interface Defined in AudioPolicy.h." alt="" coords="373,5,610,231"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="494,245,494,294,489,294,489,245"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_events_callback.html" title="AudioSessionEvents callback implementation." alt="" coords="635,354,839,574"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="695,575,667,626,632,674,592,715,549,753,459,816,456,811,545,749,589,711,628,671,662,623,691,572"/>
+<area shape="rect" id="Node000007" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_events.html" title="Windows CoreAudio IAudioSessionControl interface Defined in AudioPolicy.h." alt="" coords="637,25,829,211"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="737,226,738,354,733,354,731,226"/>
+<area shape="rect" id="Node000008" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_events_handler.html" title="interface to receive session related events" alt="" coords="853,18,1058,218"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="895,219,817,341,813,338,890,216"/>
+</map>

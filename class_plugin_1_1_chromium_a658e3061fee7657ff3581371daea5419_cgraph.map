@@ -1,0 +1,6 @@
+<map id="Plugin.Chromium.GetCookies" name="Plugin.Chromium.GetCookies">
+<area shape="rect" id="Node000001" title="Retrieves cookies from the specified path using the provided master key and returns a list of cookies..." alt="" coords="5,29,200,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="61,31,53,21,58,11,75,5,103,3,134,5,149,13,147,17,132,11,102,8,76,10,62,15,58,20,65,27"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_chromium.html#a1138e262be907703bf2988551a1fb4c6" title="Retrieves the master key from the specified file path and returns it after decryption." alt="" coords="248,29,457,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="200,40,232,40,232,45,200,45"/>
+</map>

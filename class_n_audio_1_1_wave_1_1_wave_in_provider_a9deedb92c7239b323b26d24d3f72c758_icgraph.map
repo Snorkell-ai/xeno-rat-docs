@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveInProvider.OnDataAvailable" name="NAudio.Wave.WaveInProvider.OnDataAvailable">
+<area shape="rect" id="Node000001" title="Adds the available data to the buffered wave provider." alt="" coords="254,5,454,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in_provider.html#a5d9d51cf0bb2486531e7b10153cbad3d" title="Creates a new WaveInProvider n.b. Should make sure the WaveFormat is set correctly on IWaveIn before ..." alt="" coords="5,5,206,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,28,206,28,206,23,238,23"/>
+</map>

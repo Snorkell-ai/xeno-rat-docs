@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.MainForm.button2_Click" name="xeno_rat_server.MainForm.button2_Click">
+<area shape="rect" id="Node000001" title="Handles the click event of button2. Builds the client with the specified configurations and saves it ..." alt="" coords="5,39,228,79"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_utils.html#a80ddb11716d6bd6eaf582d40be4ae341" title="Computes the SHA&#45;256 hash value for the input string and returns the result as an array of bytes." alt="" coords="276,5,479,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,42,260,38,260,43,228,47"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_icon_injector.html#a98388a237d295025661e555efc86b67b" title="Injects an icon into the specified executable file." alt="" coords="283,71,472,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,70,268,75,267,80,228,75"/>
+</map>

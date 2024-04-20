@@ -1,0 +1,11 @@
+<map id="xeno_rat_server.Compression.Compress" name="xeno_rat_server.Compression.Compress">
+<area shape="rect" id="Node000001" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="5,104,204,145"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="267,5,466,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,101,251,57,274,48,276,54,253,61,150,106"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="267,71,466,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,109,251,103,252,108,205,114"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="267,136,466,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="205,134,252,140,251,145,204,139"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="252,201,481,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="150,143,253,186,276,194,274,199,251,191,148,148"/>
+</map>

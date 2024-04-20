@@ -1,0 +1,20 @@
+<map id="NAudio.Wave.Asio.AsioDriverExt.BuildCapabilities" name="NAudio.Wave.Asio.AsioDriverExt.BuildCapabilities">
+<area shape="rect" id="Node000001" title="Builds the capabilities of the ASIO driver, including driver name, input/output channels,..." alt="" coords="5,169,202,210"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#ae71d8b791f4be3c4e68ad2fbe7c5dd88" title="Retrieves the buffer size information from the ASIO driver." alt="" coords="250,5,449,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,167,175,113,210,83,248,57,260,50,263,55,251,61,213,87,178,116,125,171"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a0097264cfac08cc18b7a7b68c0d2245e" title="Retrieves the information about the specified channel." alt="" coords="250,71,449,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="147,166,249,122,268,115,270,120,251,127,149,171"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a6b1146266c5a2417ed80be6411b98ad4" title="Retrieves the number of input and output channels available." alt="" coords="250,136,449,177"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="202,174,234,169,234,175,202,179"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#ae07aee2172b0a429129a05c7844e05c9" title="Retrieves the name of the ASIO driver." alt="" coords="250,201,449,242"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="202,200,234,204,234,209,202,205"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a5cd7dfeb49a5aa1a77d35aba9ca55acc" title="Retrieves the input and output latencies of the ASIO driver." alt="" coords="250,267,449,307"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="150,208,251,251,271,259,269,264,249,256,148,213"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a9b675df63cb0492a589581316375f7e8" title="Retrieves the sample rate from the ASIO driver." alt="" coords="250,332,449,373"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="125,209,178,262,213,291,251,317,263,323,260,328,248,321,210,295,175,266,121,212"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a76105cefc713c3dcc7e9bfd8dba74735" title="Handles the exception for the ASIO method." alt="" coords="497,104,696,145"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,44,450,57,539,95,537,100,448,61,414,49"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="450,102,482,106,481,111,449,107"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="449,141,481,137,482,142,450,146"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="426,329,447,317,489,280,525,237,554,194,576,157,580,160,559,197,529,241,493,284,451,321,429,334"/>
+</map>

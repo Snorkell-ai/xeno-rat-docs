@@ -1,0 +1,9 @@
+<map id="NAudio.CoreAudioApi.WasapiCapture" name="NAudio.CoreAudioApi.WasapiCapture">
+<area shape="rect" id="Node000001" title="Audio Capture using Wasapi See http://msdn.microsoft.com/en&#45;us/library/dd370800%28VS...." alt="" coords="5,252,205,892"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wasapi_loopback_capture.html" title="WASAPI Loopback Capture based on a contribution from &quot;Pygmy&quot; &#45; http://naudio.codeplex...." alt="" coords="7,940,203,1095"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="108,907,108,940,103,940,103,907"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_in.html" title="Generic interface for wave recording." alt="" coords="46,119,165,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,219,108,252,103,252,103,219"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="65,5,146,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,85,108,119,103,119,103,85"/>
+</map>

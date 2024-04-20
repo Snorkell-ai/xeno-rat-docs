@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.FileView.SendType" name="xeno_rat_server.Forms.FileView.SendType">
+<area shape="rect" id="Node000001" title="Sends the specified type using the client&#39;s SendAsync method." alt="" coords="460,5,639,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#aea9c6d166f9c6f554e8aaa3db9783ab3" title="Initializes the object asynchronously by creating a FileViewer, sending type, and updating the list v..." alt="" coords="233,5,412,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,28,413,28,413,23,445,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#a7ed7c5b7981d18cefff899f885faa89b" title=" " alt="" coords="5,5,185,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,28,185,28,185,23,217,23"/>
+</map>

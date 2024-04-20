@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.SampleProviders.IPanStrategy" name="NAudio.Wave.SampleProviders.IPanStrategy">
+<area shape="rect" id="Node000001" title="Required Interface for a Panning Strategy." alt="" coords="341,5,541,85"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_linear_pan_strategy.html" title="Linear Pan." alt="" coords="5,133,205,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="328,92,206,137,204,132,327,87"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_sin_pan_strategy.html" title="Sinus Pan, thanks to Yuval Naveh." alt="" coords="229,133,429,213"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="399,98,366,135,362,132,395,95"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_square_root_pan_strategy.html" title="Square Root Pan, thanks to Yuval Naveh." alt="" coords="453,133,653,213"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="488,95,521,132,517,135,484,98"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo_balance_strategy.html" title="Simplistic &quot;balance&quot; control &#45; treating the mono input as if it was stereo In the centre,..." alt="" coords="677,133,877,213"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="556,87,679,132,677,137,554,92"/>
+</map>

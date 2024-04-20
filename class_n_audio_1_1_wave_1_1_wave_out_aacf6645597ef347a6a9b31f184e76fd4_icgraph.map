@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOut.Stop" name="NAudio.Wave.WaveOut.Stop">
+<area shape="rect" id="Node000001" title="Stops the audio playback." alt="" coords="265,5,455,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#aed20ebeae9ab860494eadf19941e3cd6" title="Closes the WaveOut device and disposes of buffers." alt="" coords="5,5,217,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,21,217,21,217,16,249,16"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveFormatExtensible.ToStandardWaveFormat" name="NAudio.Wave.WaveFormatExtensible.ToStandardWaveFormat">
+<area shape="rect" id="Node000001" title="Converts the current audio format to a standard WaveFormat." alt="" coords="271,5,515,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_extension_methods.html#a509ebdd972bca76e50c0268ef847f0b3" title="Converts the input WaveFormat to standard WaveFormat and returns the result." alt="" coords="5,5,223,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,28,223,28,223,23,255,23"/>
+</map>

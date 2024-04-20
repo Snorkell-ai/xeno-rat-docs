@@ -1,0 +1,9 @@
+<map id="NAudio.MediaFoundation.MediaFoundationTransform" name="NAudio.MediaFoundation.MediaFoundationTransform">
+<area shape="rect" id="Node000001" title="An abstract base class for simplifying working with Media Foundation Transforms You need to override ..." alt="" coords="5,119,221,679"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html" title="The Media Foundation Resampler Transform." alt="" coords="13,727,213,1061"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,693,116,727,111,727,111,693"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="9,5,106,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,85,72,118,67,119,62,86"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="130,5,211,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,86,161,119,155,118,161,85"/>
+</map>

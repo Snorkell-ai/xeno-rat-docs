@@ -1,0 +1,6 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.DisplayPropertyPage" name="AForge.Video.DirectShow.VideoCaptureDevice.DisplayPropertyPage">
+<area shape="rect" id="Node000001" title="Displays the property page for the specified source object in the given parent window." alt="" coords="5,29,274,70"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="89,29,87,19,95,10,113,5,140,3,168,5,186,11,184,16,167,10,139,8,114,10,98,15,92,21,94,28"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_filter_info.html#a39d1fd6eeb6bc8ab895b0b80a3d788cd" title="Creates a filter object based on the provided filter moniker." alt="" coords="322,29,496,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="274,47,306,47,306,52,274,52"/>
+</map>

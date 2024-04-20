@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.WaveProvider32" name="NAudio.Wave.WaveProvider32">
+<area shape="rect" id="Node000001" title="Base class for creating a 32 bit floating point wave provider Can also be used as a base class for an..." alt="" coords="86,747,278,892"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,399,103,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,478,85,574,118,683,145,746,141,748,113,685,80,575,59,479"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="127,399,237,464"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,479,185,747,179,747,179,479"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="261,179,460,684"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="264,658,251,685,228,733,223,730,246,683,259,655"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="155,5,297,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="234,70,254,154,259,169,254,171,249,155,229,71"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="340,5,381,71"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="363,71,363,162,358,162,358,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="474,5,501,71"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="483,71,461,155,458,163,453,162,455,154,478,70"/>
+</map>

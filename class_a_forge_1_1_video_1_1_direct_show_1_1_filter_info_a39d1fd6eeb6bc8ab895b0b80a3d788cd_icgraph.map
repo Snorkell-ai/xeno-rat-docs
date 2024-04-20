@@ -1,0 +1,15 @@
+<map id="AForge.Video.DirectShow.FilterInfo.CreateFilter" name="AForge.Video.DirectShow.FilterInfo.CreateFilter">
+<area shape="rect" id="Node000001" title="Creates a filter object based on the provided filter moniker." alt="" coords="596,152,770,193"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#afe4aed1b8dfc4bb4e6e0c89424281fa9" title="Displays the property page for the specified source object in the given parent window." alt="" coords="280,29,548,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="640,145,596,117,547,91,499,73,501,68,549,86,599,112,643,141"/>
+<area shape="rect" id="Node000003" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#acca04cefecda4dacf7a6a89bafadd1d9" title=" " alt="" coords="5,59,232,99"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="605,150,547,135,382,107,232,90,232,85,383,102,549,130,606,144"/>
+<area shape="rect" id="Node000004" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a7854a386aeda16500c51acc5446f4ae1" title="Gets the specified camera property value and control flags." alt="" coords="308,145,520,200"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="581,175,520,175,520,170,581,170"/>
+<area shape="rect" id="Node000005" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ac5a7f541452bc28eb7c91bb85acf9389" title="Retrieves the range of values for a specified camera control property." alt="" coords="308,225,520,280"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="598,200,511,226,509,221,597,195"/>
+<area shape="rect" id="Node000006" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a4a48035887aa3c72da60b32ae3415dd3" title="Sets the specified camera property to the given value." alt="" coords="308,305,520,360"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="656,206,609,252,580,275,549,295,521,308,519,303,547,290,577,270,605,248,652,202"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="458,16,442,10,414,8,388,10,372,15,366,21,369,28,364,29,361,19,369,10,387,5,414,3,443,5,460,11"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="264,67,232,70,232,65,264,62"/>
+</map>

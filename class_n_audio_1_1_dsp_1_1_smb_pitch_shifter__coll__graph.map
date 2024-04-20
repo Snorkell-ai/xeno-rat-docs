@@ -1,0 +1,9 @@
+<map id="NAudio.Dsp.SmbPitchShifter" name="NAudio.Dsp.SmbPitchShifter">
+<area shape="rect" id="Node000001" title="SMB Pitch Shifter." alt="" coords="115,284,306,389"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,51,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="25,71,22,111,23,161,33,212,43,236,55,258,76,280,102,298,99,302,73,284,51,261,38,238,28,213,18,161,17,111,20,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="192,5,229,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,70,213,267,208,267,208,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="313,5,351,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="337,70,338,110,335,159,325,212,305,261,298,272,293,269,300,258,320,210,330,159,333,110,332,70"/>
+</map>

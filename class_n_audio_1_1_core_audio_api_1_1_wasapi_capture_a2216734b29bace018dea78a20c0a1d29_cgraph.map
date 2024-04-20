@@ -1,0 +1,15 @@
+<map id="NAudio.CoreAudioApi.WasapiCapture.ReadNextPacket" name="NAudio.CoreAudioApi.WasapiCapture.ReadNextPacket">
+<area shape="rect" id="Node000001" title="Reads the next packet from the AudioCaptureClient and invokes the DataAvailable event with the captur..." alt="" coords="5,71,201,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#ae74d4bb48eebb73044d484c5ddce295e" title="Retrieves a pointer to the buffer that is ready for the next capture." alt="" coords="267,5,452,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,67,261,48,263,53,186,73"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#a3002db667f228b4eeb0176eabc316e5c" title="Retrieves the size of the next audio packet and returns the number of frames in the packet." alt="" coords="249,71,470,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="201,88,233,88,233,94,201,94"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#a556b86b5a690f64917eed058f293c865" title="Releases the buffer containing audio data after writing a specified number of frames." alt="" coords="265,136,454,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="186,109,263,129,261,134,185,115"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_capture_client.html#ac83ebe2e1c382521185bdcab7c0a97e1" title=" " alt="" coords="540,5,754,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="452,23,525,23,525,28,452,28"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_capture_client.html#a30a549766a58730b9cdf6f65f7ba131d" title=" " alt="" coords="518,71,776,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="471,88,502,88,502,94,471,94"/>
+<area shape="rect" id="Node000007" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_capture_client.html#ab78b4108c06a95f8093334068ed53cc3" title=" " alt="" coords="535,136,760,177"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="454,154,519,154,519,159,454,159"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="Hidden_handler.Imaging_handler.GetWindow" name="Hidden_handler.Imaging_handler.GetWindow">
+<area shape="rect" id="Node000001" title="Retrieves a handle to the window that has the specified relationship to the specified window." alt="" coords="837,5,997,46"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_imaging__handler.html#ac4213900b49202fa62f772d8d2b13b92" title="Draws the windows from top to bottom on the screen." alt="" coords="628,5,789,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="821,28,789,28,789,23,821,23"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_imaging__handler.html#ad1ec219b3d1d6eae2f45680a731d7a5e" title="Draws the specified window on the given graphics object using the provided device context." alt="" coords="420,5,580,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="613,37,581,37,581,32,613,32"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_imaging__handler.html#aa1d241521b20524c3b3028a52dbce083" title="Takes a screenshot of the desktop and returns it as a Bitmap." alt="" coords="420,71,580,111"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="628,54,568,73,567,67,627,48"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="596,14,628,14,628,20,596,19"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_main.html#a8ff102f9e5edba6134e0ba5d8ddf6e2e" title="Takes a screenshot and sends it to the ImageNode asynchronously." alt="" coords="171,78,372,104"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="404,94,372,94,372,88,404,88"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,78,123,104"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="155,94,123,94,123,88,155,88"/>
+</map>

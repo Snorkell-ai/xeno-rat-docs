@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Asio.AsioDriverExt.Start" name="NAudio.Wave.Asio.AsioDriverExt.Start">
+<area shape="rect" id="Node000001" title="Starts the driver." alt="" coords="236,5,432,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a6d37e30814a86d1b7ad533231e898a90" title="Starts playing the media if it is not already playing." alt="" coords="5,13,188,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,28,188,28,188,23,220,23"/>
+</map>

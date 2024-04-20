@@ -1,0 +1,5 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.ColletCrossbarVideoInputs" name="AForge.Video.DirectShow.VideoCaptureDevice.ColletCrossbarVideoInputs">
+<area shape="rect" id="Node000001" title="Collects the available video inputs from the specified IAMCrossbar and returns an array of VideoInput..." alt="" coords="280,5,512,61"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#acca04cefecda4dacf7a6a89bafadd1d9" title=" " alt="" coords="5,13,232,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,36,232,36,232,31,264,31"/>
+</map>

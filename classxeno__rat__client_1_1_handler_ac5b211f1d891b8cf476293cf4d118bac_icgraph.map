@@ -1,0 +1,9 @@
+<map id="xeno_rat_client.Handler.OnDisconnect" name="xeno_rat_client.Handler.OnDisconnect">
+<area shape="rect" id="Node000001" title="Event handler for the disconnect event of a node." alt="" coords="666,5,828,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_handler.html#ad71391058f264e78c9c31d0dcbc19007" title="Asynchronously creates a sub socket based on the provided data." alt="" coords="457,5,618,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="651,28,619,28,619,23,651,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__client_1_1_handler.html#af958615880e2daf8a8d0ede5f4c53363" title="Asynchronously receives data and performs different actions based on the received opcode." alt="" coords="248,5,409,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="441,28,409,28,409,23,441,23"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__client_1_1_program.html#a8e01c4689de41166b75a03fda71d12f0" title="Main function for the XenoUpdateManager application." alt="" coords="5,13,200,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="232,28,200,28,200,23,232,23"/>
+</map>

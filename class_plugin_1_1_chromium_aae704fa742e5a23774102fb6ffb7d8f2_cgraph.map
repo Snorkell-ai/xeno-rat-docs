@@ -1,0 +1,20 @@
+<map id="Plugin.Chromium.GetWebHistory" name="Plugin.Chromium.GetWebHistory">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,78,220,104"/>
+<area shape="rect" id="Node000002" href="$class_info_grab_1_1_s_q_lite_handler.html#acf694b14619cc5cd016fbfa79012a34a" title="Gets the number of rows in the table." alt="" coords="273,5,457,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,75,268,48,269,53,166,80"/>
+<area shape="rect" id="Node000003" href="$class_info_grab_1_1_s_q_lite_handler.html#af61c386365604d6c3652b44b548c3c3c" title="Retrieves the value at the specified row and field." alt="" coords="273,71,457,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,88,257,88,257,94,220,94"/>
+<area shape="rect" id="Node000004" href="$class_info_grab_1_1_s_q_lite_handler.html#a2ede45dfc58996a373e0159446a881e2" title="Reads the specified table and returns a boolean indicating success or failure." alt="" coords="268,136,462,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="166,102,269,129,268,134,164,107"/>
+<area shape="rect" id="Node000005" href="$class_info_grab_1_1_s_q_lite_handler.html#a50ac748c0c8463acd55e8767c2abfaf6" title="Reads a table from the specified offset and populates the table entries." alt="" coords="510,136,704,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="463,154,495,154,495,159,463,159"/>
+<area shape="poly" id="edge9_Node000005_Node000005" title=" " alt="" coords="562,136,559,126,567,117,583,111,607,109,633,112,649,118,647,123,632,117,607,115,584,117,570,121,565,127,567,135"/>
+<area shape="rect" id="Node000006" href="$class_info_grab_1_1_s_q_lite_handler.html#a49875eb1d8c88c7c501d4f6cdf231f2b" title="Converts a sequence of bytes to an unsigned integer." alt="" coords="752,53,962,94"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="666,133,751,103,771,97,773,102,753,108,667,138"/>
+<area shape="rect" id="Node000007" href="$class_info_grab_1_1_s_q_lite_handler.html#a633e4f2a42497bab44077194ca88656f" title="Converts a range of bytes to a long integer and returns the result." alt="" coords="762,118,952,144"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="704,144,746,140,747,145,705,149"/>
+<area shape="rect" id="Node000008" href="$class_info_grab_1_1_s_q_lite_handler.html#afea6448b1f2f481398b3d8f911049112" title="Returns the index of the first non&#45;128 byte in the array starting from the specified index." alt="" coords="762,168,952,193"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="705,163,747,167,746,172,705,168"/>
+<area shape="rect" id="Node000009" href="$class_info_grab_1_1_s_q_lite_handler.html#a475267e2c0435ef96e6342edd1492fa6" title="Determines if the given value is odd." alt="" coords="758,217,956,243"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="666,175,753,203,779,210,778,215,752,208,664,180"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Plugin.Chromium.GetCreditCards" name="Plugin.Chromium.GetCreditCards">
+<area shape="rect" id="Node000001" title="Retrieves credit card information from the specified path using the provided master key for decryptio..." alt="" coords="5,29,187,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="50,29,48,19,56,10,72,5,96,3,122,5,138,11,136,16,121,10,96,8,73,10,59,15,53,21,55,28"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_chromium.html#a1138e262be907703bf2988551a1fb4c6" title="Retrieves the master key from the specified file path and returns it after decryption." alt="" coords="235,37,444,63"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="187,47,219,47,219,52,187,52"/>
+</map>

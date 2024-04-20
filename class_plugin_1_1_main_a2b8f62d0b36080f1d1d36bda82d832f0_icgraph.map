@@ -1,0 +1,7 @@
+<map id="Plugin.Main.CloseCdtray" name="Plugin.Main.CloseCdtray">
+<area shape="rect" id="Node000001" title="Closes the CD tray." alt="" coords="368,5,534,31"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a0e6e68e33adc30ba69d88b3a02dca906" title="Starts a loop to continuously receive and process commands from the specified node." alt="" coords="171,5,320,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="353,21,321,21,321,16,353,16"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs different actions based on the received opcode." alt="" coords="5,5,123,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,21,123,21,123,16,155,16"/>
+</map>

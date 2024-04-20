@@ -1,0 +1,24 @@
+<map id="NAudio.Wave.WaveInterop.waveInClose" name="NAudio.Wave.WaveInterop.waveInClose">
+<area shape="rect" id="Node000001" title="Closes the specified waveform&#45;audio input device." alt="" coords="948,97,1161,137"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a922184988b1134142e62fc9198eceffa" title="Closes the wave input device and releases associated resources." alt="" coords="712,55,900,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="932,99,900,94,901,88,932,94"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a4350bf5d2ccaac7bc0f5c702345df4c2" title="Closes the wave input device and releases associated resources." alt="" coords="712,129,900,169"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="932,135,901,139,900,134,932,130"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in.html#ab5fbb89bcdf578ec5a5f3c515112fe78" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="455,5,656,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="699,54,615,34,616,29,700,49"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a7028a5b04609d26c7ce802dab87147f1" title="Opens the wave input device and creates necessary buffers." alt="" coords="447,55,664,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="696,78,665,78,665,73,696,73"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_in.html#ac73083af2ea40dab1577caf35c79c7cd" title="Starts the audio recording process." alt="" coords="215,50,396,91"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="431,76,396,75,396,69,431,70"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a29b989a5b21f61beafa2973638a088e5" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="462,129,649,169"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="697,152,650,152,650,146,697,146"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a9acd52251653b2da8c05f923819a8926" title="Opens the wave input device and creates necessary buffers." alt="" coords="462,198,649,239"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="716,176,632,200,631,195,714,171"/>
+<area shape="rect" id="Node000008" href="$class_plugin_1_1_main.html#ad3edeeb801a9b8d82ad07c5a7de4da5b" title="Asynchronously receives data from the specified node and processes it based on the received commands." alt="" coords="5,169,164,195"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="447,147,333,147,212,155,133,171,132,166,211,150,333,142,447,141"/>
+<area shape="rect" id="Node000009" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs audio operations." alt="" coords="247,165,364,191"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="447,164,365,174,364,169,446,159"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a31de1b9a63d36392f78ec102cbc081bc" title="Starts recording audio." alt="" coords="212,215,399,256"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="447,228,399,232,399,226,446,223"/>
+<area shape="poly" id="edge11_Node000011_Node000008" title=" " alt="" coords="203,214,140,198,142,193,204,208"/>
+</map>

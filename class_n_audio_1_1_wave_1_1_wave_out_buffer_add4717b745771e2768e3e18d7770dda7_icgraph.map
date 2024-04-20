@@ -1,0 +1,8 @@
+<map id="NAudio.Wave.WaveOutBuffer.Dispose" name="NAudio.Wave.WaveOutBuffer.Dispose">
+<area shape="rect" id="Node000001" title="Disposes of the managed and unmanaged resources used by the WaveOut device." alt="" coords="265,29,462,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="405,16,389,10,363,8,339,10,324,15,319,21,321,28,316,29,314,19,321,10,338,5,363,3,390,5,407,11"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#aed20ebeae9ab860494eadf19941e3cd6" title="Closes the WaveOut device and disposes of buffers." alt="" coords="5,8,217,33"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="249,39,217,35,217,30,249,34"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out_buffer.html#a68178235461e3744ff438bde7904cb47" title="Finalizer for this wave buffer." alt="" coords="12,57,210,98"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="249,65,210,69,210,64,249,60"/>
+</map>

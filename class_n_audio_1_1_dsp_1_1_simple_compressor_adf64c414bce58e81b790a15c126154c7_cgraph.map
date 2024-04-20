@@ -1,0 +1,11 @@
+<map id="NAudio.Dsp.SimpleCompressor.Process" name="NAudio.Dsp.SimpleCompressor.Process">
+<area shape="rect" id="Node000001" title="Processes the input signals using a dynamic range compressor." alt="" coords="5,71,216,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_decibels.html#a32dc24c81e00ffeeebab7171a358a56b" title="Converts a decibel value to its linear equivalent." alt="" coords="269,5,474,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,67,272,48,273,53,195,73"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_decibels.html#ad902812de74ac5ecca36949e908c4136" title="Converts a linear value to decibels." alt="" coords="277,71,466,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,88,261,88,261,94,216,94"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_att_rel_envelope.html#ad0f68a53e5b1acd573af8099a999a5a0" title=" " alt="" coords="264,136,479,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,109,295,129,294,134,206,115"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dsp_1_1_envelope_detector.html#a8248db0fc70556b3a9bf43029c7dd8c5" title="Runs the attack or release process based on the input value and state, and returns the result." alt="" coords="527,136,754,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="480,146,512,146,512,151,480,151"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="NAudio.Midi.MidiEventCollection.FlattenToOneTrack" name="NAudio.Midi.MidiEventCollection.FlattenToOneTrack">
+<area shape="rect" id="Node000001" title="Flattens the multiple tracks into a single track." alt="" coords="5,49,222,90"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html#abc5dddfff2cac0fa2003ca9a0af50fb1" title="Checks if the provided MIDI event is an end track event." alt="" coords="558,5,727,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,46,269,35,412,24,542,22,542,27,412,30,270,40,204,51"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#a0896cf22b6fc88dd8f3c4f34555cafde" title="Prepares the MIDI data for export by performing the following steps:" alt="" coords="270,49,486,90"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,67,254,67,254,72,222,72"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#a2a5898ba654bdd5deef14538a7616cba" title="Removes the track at the specified index from the track events collection." alt="" coords="534,83,750,123"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="201,88,270,99,398,106,519,106,519,111,398,112,269,104,200,93"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="486,49,542,40,542,45,487,54"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="487,81,519,85,518,90,486,86"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.ProcessManager.treeView1_NodeMouseClick" name="xeno_rat_server.Forms.ProcessManager.treeView1_NodeMouseClick">
+<area shape="rect" id="Node000001" title="Handles the mouse click event on a tree node, and displays a context menu to kill the associated proc..." alt="" coords="514,5,753,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_process_manager.html#a46b06ca523d91949b735cb1c5ab65237" title="Initializes the components of the form including a tree view and a button." alt="" coords="260,5,466,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="498,28,466,28,466,23,498,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_process_manager.html#aac713480b9c0f02e8045e2171d8b61ca" title=" " alt="" coords="5,5,212,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="244,28,212,28,212,23,244,23"/>
+</map>

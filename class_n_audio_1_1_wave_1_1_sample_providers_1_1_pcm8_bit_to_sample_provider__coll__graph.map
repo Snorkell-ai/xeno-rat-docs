@@ -1,0 +1,19 @@
+<map id="NAudio.Wave.SampleProviders.Pcm8BitToSampleProvider" name="NAudio.Wave.SampleProviders.Pcm8BitToSampleProvider">
+<area shape="rect" id="Node000001" title="Converts an IWaveProvider containing 8 bit PCM to an ISampleProvider." alt="" coords="203,902,403,1002"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_provider_converter_base.html" title="Helper base class for classes converting to ISampleProvider." alt="" coords="197,747,408,852"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="305,867,305,902,300,902,300,867"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,399,115,464"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="65,479,71,525,82,578,101,632,129,682,161,717,199,746,196,750,157,721,125,686,96,635,77,579,66,526,60,479"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="139,399,320,464"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="238,463,292,730,286,731,233,464"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="345,179,543,684"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="362,685,345,724,341,733,336,731,340,722,357,683"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="239,5,380,71"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="317,70,337,154,342,169,337,171,332,155,312,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="423,5,465,71"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="447,71,447,162,441,162,441,71"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="557,5,584,71"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="566,71,544,155,541,163,536,162,539,154,561,70"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="568,399,605,464"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="595,464,599,511,597,569,586,630,574,659,558,686,531,715,498,740,462,759,425,774,423,769,459,754,495,735,527,711,554,682,569,657,580,628,592,568,593,511,589,464"/>
+</map>

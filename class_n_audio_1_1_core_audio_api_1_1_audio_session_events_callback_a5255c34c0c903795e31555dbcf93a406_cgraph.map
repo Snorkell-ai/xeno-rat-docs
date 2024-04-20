@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioSessionEventsCallback.OnSessionDisconnected" name="NAudio.CoreAudioApi.AudioSessionEventsCallback.OnSessionDisconnected">
+<area shape="rect" id="Node000001" title="Notifies the client that the audio session has been disconnected." alt="" coords="5,5,234,61"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_events_handler.html#abd055ca13d669764784f06e8e8ab1ba0" title="notification of the client that the session has been disconnected" alt="" coords="282,5,540,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,31,266,31,266,36,234,36"/>
+</map>

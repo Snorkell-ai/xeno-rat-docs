@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveOut.Play" name="NAudio.Wave.WaveOut.Play">
+<area shape="rect" id="Node000001" title="Plays the audio if the playback state is stopped, or resumes playing if the state is paused." alt="" coords="5,42,195,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out.html#adc7d39d4ec79feeb5536453f52a42960" title="Enqueues the available buffers for playback." alt="" coords="243,5,457,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,41,227,37,227,43,195,47"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out.html#a516bd14a2413573f3f3c04f597bc94b6" title="Resumes playback of the audio." alt="" coords="244,70,456,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,63,228,67,228,72,195,68"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a3f3d47cd8932f63f3fdded0857290e8e" title="Restarts playback on the specified waveform&#45;audio output device." alt="" coords="505,63,718,103"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="457,80,489,80,489,86,457,86"/>
+</map>

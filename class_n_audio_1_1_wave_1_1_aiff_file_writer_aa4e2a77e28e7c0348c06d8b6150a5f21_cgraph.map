@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.AiffFileWriter.CreateCommChunk" name="NAudio.Wave.AiffFileWriter.CreateCommChunk">
+<area shape="rect" id="Node000001" title="Creates a &#39;COMM&#39; chunk in the WAV file." alt="" coords="5,96,189,137"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a5d1b37528c6a93f7bc6bf65c36fa1e3e" title="Converts a double&#45;precision floating&#45;point number to its IEEE 754 extended precision representation." alt="" coords="238,63,419,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,101,222,96,223,101,189,106"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa752886f7a9c0749b5d62c10cbed4e3c" title="Swaps the endianness of the input integer and returns the result as a byte array." alt="" coords="237,128,420,169"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="189,126,221,131,221,136,188,132"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#acd9d9c5307c2b8226f36934ae3d38d4d" title="Converts a floating&#45;point number to an unsigned long integer." alt="" coords="468,5,645,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="411,60,458,48,459,53,412,65"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a29c46ad0fe2e6a53381f430342f06120" title="Splits a double&#45;precision floating&#45;point value into a normalized fraction and an integral power of 2." alt="" coords="475,70,638,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="419,80,459,80,459,86,419,86"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a581705619f4fe799b9005f0a91e2cb6c" title="Returns x multiplied by 2 raised to the power of exp." alt="" coords="474,120,639,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="419,100,480,113,479,118,418,105"/>
+</map>

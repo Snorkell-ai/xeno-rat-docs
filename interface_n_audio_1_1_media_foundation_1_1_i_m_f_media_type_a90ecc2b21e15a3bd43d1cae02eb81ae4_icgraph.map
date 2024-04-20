@@ -1,0 +1,7 @@
+<map id="NAudio.MediaFoundation.IMFMediaType.GetUINT32" name="NAudio.MediaFoundation.IMFMediaType.GetUINT32">
+<area shape="rect" id="Node000001" title="Retrieves a UINT32 value associated with a key." alt="" coords="260,39,489,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_type.html#a91ecfe1e9993ece9c7fa3b17bc331abb" title="Retrieves a 32&#45;bit unsigned integer value associated with the specified key." alt="" coords="5,5,212,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,45,212,41,213,36,244,40"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_media_foundation_1_1_media_type.html#ac1a391a4c89fde585f3247750fc92a4d" title="Tries to get the UInt32 value associated with the specified key from the media type...." alt="" coords="5,71,212,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,77,213,81,212,76,244,72"/>
+</map>

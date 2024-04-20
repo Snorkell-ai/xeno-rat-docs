@@ -1,0 +1,5 @@
+<map id="xeno_rat_client.Node.ByteArrayCompare" name="xeno_rat_client.Node.ByteArrayCompare">
+<area shape="rect" id="Node000001" title="Compares two byte arrays and returns true if they are equal, otherwise returns false." alt="" coords="5,5,181,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_node.html#a05843a08ee7b3c0e5916731e274661ca" title="Compares two byte arrays and returns an integer that indicates their relationship in terms of order." alt="" coords="229,13,431,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,23,213,23,213,28,181,28"/>
+</map>

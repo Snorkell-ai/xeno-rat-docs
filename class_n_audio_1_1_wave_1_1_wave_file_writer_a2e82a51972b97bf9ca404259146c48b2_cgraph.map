@@ -1,0 +1,17 @@
+<map id="NAudio.Wave.WaveFileWriter.CreateWaveFile16" name="NAudio.Wave.WaveFileWriter.CreateWaveFile16">
+<area shape="rect" id="Node000001" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,35,202,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a564655abe5b5fb0f90e4b10bf5f83270" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,35,446,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,52,234,52,234,58,202,58"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="494,13,718,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="446,41,478,38,479,43,447,46"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="508,63,704,103"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="447,63,493,68,492,73,446,68"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a878304d9021095d970bced3f7a13b98d" title="Creates a fact chunk in the output stream if it does not already exist." alt="" coords="785,5,981,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="704,60,769,46,770,52,705,65"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a21fddf07498dcaee579f2a552ab8e4e8" title="Serializes the wave format data and writes it to the specified BinaryWriter." alt="" coords="766,70,1000,96"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="705,80,751,80,751,86,705,86"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#adad938c56bbade273ab89ad84fd3024c" title="Writes the data chunk header to the output stream." alt="" coords="785,120,981,161"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="705,101,770,114,769,120,704,106"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="1048,5,1244,46"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="982,23,1032,23,1032,28,982,28"/>
+</map>

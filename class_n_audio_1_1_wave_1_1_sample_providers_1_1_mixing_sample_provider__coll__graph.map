@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.SampleProviders.MixingSampleProvider" name="NAudio.Wave.SampleProviders.MixingSampleProvider">
+<area shape="rect" id="Node000001" title="A sample provider mixer, allowing inputs to be added and removed." alt="" coords="185,148,385,388"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,13,115,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,87,187,167,183,171,101,90"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="139,5,322,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,84,254,131,249,133,238,86"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="347,13,384,78"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="356,79,345,110,336,133,331,132,339,108,351,77"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="440,13,467,78"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="447,79,426,126,398,164,394,160,422,123,442,77"/>
+</map>

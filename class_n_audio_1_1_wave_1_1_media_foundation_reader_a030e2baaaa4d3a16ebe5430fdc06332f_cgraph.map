@@ -1,0 +1,34 @@
+<map id="NAudio.Wave.MediaFoundationReader.Init" name="NAudio.Wave.MediaFoundationReader.Init">
+<area shape="rect" id="Node000001" title="Initializes the MediaFoundationReader with the specified settings." alt="" coords="5,395,210,435"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a545925036e89d986fb8b2e7c873b07ed" title="Creates a Media Foundation source reader with the specified settings." alt="" coords="259,149,463,190"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,392,325,199,329,203,132,396"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#aaa3e900d0b52b1ab72e069196676e99e" title="Retrieves the current wave format from the specified IMFSourceReader." alt="" coords="259,361,463,402"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="210,399,243,394,244,400,210,404"/>
+<area shape="rect" id="Node000012" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#aec0b9df0bfcef23ad09d66c288ff2d67" title="Gets the length of the media source in bytes." alt="" coords="259,460,463,501"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="190,433,265,453,264,458,189,439"/>
+<area shape="rect" id="Node000015" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a64dbbb824199204c5a8cf57515732a0f" title="Initializes the Media Foundation platform if not already initialized." alt="" coords="258,557,464,598"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="142,434,259,510,315,546,313,551,256,515,139,438"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#af100e70d37e5e06dc98c12438a97ef95" title="Retrieves the current media type of the specified IMFSourceReader." alt="" coords="528,5,732,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="383,147,438,101,473,76,511,55,524,50,526,54,513,60,476,81,441,105,386,151"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a6ab02f16483d543c14965fa4cead64b0" title="Creates a source reader from the specified URL." alt="" coords="516,70,744,126"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="439,146,508,127,509,133,440,151"/>
+<area shape="rect" id="Node000006" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_source_reader.html#a5b00b00820c7ac4618200172d47b5f1f" title="Sets the media type for a stream." alt="" coords="512,149,747,190"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="464,167,497,167,497,172,464,172"/>
+<area shape="rect" id="Node000007" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_source_reader.html#a898cb9f72e0a0a5ea26cdc7f429ebeb9" title="Selects or deselects one or more streams." alt="" coords="512,215,747,255"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="448,188,529,208,528,213,447,193"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_source_reader.html#a0e3bd0837ba349cde674dc590edd19f8" title="Gets the current media type for a stream." alt="" coords="795,135,1031,175"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="718,44,748,55,814,88,871,124,868,128,811,93,746,60,716,49"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="404,359,454,336,511,315,577,299,631,293,683,286,746,265,816,226,875,183,878,187,819,230,748,269,684,291,631,299,578,305,513,320,456,341,406,363"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a2dd0e9ea4097e54981725d6ad7c3290d" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="519,329,741,370"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="463,367,503,362,503,367,464,372"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_utils_1_1_field_description_helper.html#a168ee1e61eb75be5fe4641c4533c6207" title="Describes the specified type and GUID by retrieving the description from the FieldDescriptionAttribut..." alt="" coords="533,395,726,435"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="464,392,518,398,517,404,463,397"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="805,329,1021,370"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="741,347,789,347,789,352,741,352"/>
+<area shape="rect" id="Node000013" href="$struct_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_prop_variant.html#a70608f457331ee21beb67258f2f53315" title="Clears with a known pointer." alt="" coords="523,460,737,501"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="464,478,507,478,507,483,464,483"/>
+<area shape="rect" id="Node000014" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_source_reader.html#adb0c62b11e936e200027f81192c730a3" title="Gets an attribute from the underlying media source." alt="" coords="512,525,747,566"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="448,499,529,519,528,524,447,504"/>
+<area shape="rect" id="Node000016" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a97a12e88647b8859903e5be40b3c6b1c" title="Initializes the Media Foundation platform." alt="" coords="527,591,733,631"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="465,588,512,594,511,599,464,593"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.AiffFileWriter.WriteSample" name="NAudio.Wave.AiffFileWriter.WriteSample">
+<area shape="rect" id="Node000001" title="Writes a sample to the audio writer based on the wave format." alt="" coords="5,5,189,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa752886f7a9c0749b5d62c10cbed4e3c" title="Swaps the endianness of the input integer and returns the result as a byte array." alt="" coords="237,5,420,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,23,221,23,221,28,189,28"/>
+</map>

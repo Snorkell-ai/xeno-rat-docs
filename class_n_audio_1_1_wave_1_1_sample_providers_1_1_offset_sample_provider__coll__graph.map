@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.SampleProviders.OffsetSampleProvider" name="NAudio.Wave.SampleProviders.OffsetSampleProvider">
+<area shape="rect" id="Node000001" title="Allows you to:" alt="" coords="136,209,336,509"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,5,115,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,82,156,207,151,210,82,85"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="139,5,333,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,70,239,192,233,192,233,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="357,5,384,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="369,71,357,125,339,186,335,194,330,192,333,184,352,124,363,70"/>
+</map>

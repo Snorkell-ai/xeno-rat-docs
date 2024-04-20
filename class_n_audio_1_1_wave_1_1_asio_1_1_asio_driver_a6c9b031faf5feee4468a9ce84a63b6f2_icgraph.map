@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Asio.AsioDriver.GetErrorMessage" name="NAudio.Wave.Asio.AsioDriver.GetErrorMessage">
+<area shape="rect" id="Node000001" title="Retrieves the error message from the ASIO driver and returns it as a string." alt="" coords="250,5,449,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a0fa8ddd6d287cc37ae70ea69e39f6cb6" title="Initializes a new instance of the AsioDriverExt class based on an already instantiated AsioDriver ins..." alt="" coords="5,5,202,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
+</map>

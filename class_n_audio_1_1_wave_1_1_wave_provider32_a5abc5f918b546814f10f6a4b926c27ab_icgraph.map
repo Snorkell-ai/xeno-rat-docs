@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveProvider32.SetWaveFormat" name="NAudio.Wave.WaveProvider32.SetWaveFormat">
+<area shape="rect" id="Node000001" title="Sets the wave format using the specified sample rate and number of channels." alt="" coords="258,5,462,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_provider32.html#a313167800d96d0e6f854e7c7b6f63e56" title="Initializes a new instance of the WaveProvider32 class with the specified sample rate and number of c..." alt="" coords="5,5,210,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,28,210,28,210,23,242,23"/>
+</map>

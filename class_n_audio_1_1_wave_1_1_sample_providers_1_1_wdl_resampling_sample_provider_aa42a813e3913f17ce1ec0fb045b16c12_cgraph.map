@@ -1,0 +1,23 @@
+<map id="NAudio.Wave.SampleProviders.WdlResamplingSampleProvider.Read" name="NAudio.Wave.SampleProviders.WdlResamplingSampleProvider.Read">
+<area shape="rect" id="Node000001" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,177,245,218"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html#a5d289f74be04dfee607e40fa967072ca" title="Fill the specified buffer with 32 bit floating point samples." alt="" coords="293,127,528,153"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,174,327,154,328,159,230,179"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a4e017f4e931cdc4c9a1b445064063d10" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="318,177,503,218"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,195,302,195,302,200,245,200"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a7f38e0b2f94a7f6f494521af87639334" title="Prepares the resampling process and returns the number of samples required for the resampled output." alt="" coords="318,242,503,283"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="218,216,304,236,303,241,216,221"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#ac7881f23e3aea7b35774e35bbc417e8f" title="Applies a filter to the input buffer and stores the result in the output buffer." alt="" coords="588,13,799,54"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="502,178,526,163,537,152,544,140,549,115,556,90,563,77,574,65,581,60,584,64,578,68,567,80,561,92,555,117,549,142,541,155,530,167,505,183"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#aa60e6a4f8c5057ec8e302cf2fa35cd86" title="Builds a lowpass filter based on the given filter position." alt="" coords="601,78,786,119"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="499,174,527,163,551,146,575,130,592,122,594,127,577,134,554,151,529,168,501,179"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#a3a8818d6e72312920ad0832573772904" title="Sets the parameters for the filter." alt="" coords="576,144,810,184"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="503,184,560,177,561,182,504,189"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#ad03b87b375e513fedb9afc228db73cdc" title="Performs sample rate conversion using sinc interpolation." alt="" coords="601,209,786,250"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="504,205,585,214,584,220,503,210"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#adeaf32603f012456f0095f7fc326e08b" title="Performs sinc resampling on the input buffer and writes the result to the output buffer at the specif..." alt="" coords="601,274,786,315"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="496,215,529,228,553,244,577,259,596,266,594,271,575,264,551,248,527,233,494,220"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#afb22bedf8c8e13d86435293889067753" title="Performs a sinc resampling of the input buffer and stores the result in the output buffer." alt="" coords="601,340,786,380"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="505,213,530,228,541,241,548,253,555,278,561,302,567,313,578,324,588,332,585,336,574,329,563,316,556,304,549,279,543,255,537,244,526,233,502,218"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#a37e35f342194c9b64bff423dfc244574" title="Filters the input value to prevent denormalization and returns the filtered value." alt="" coords="858,5,1090,61"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="799,31,843,31,843,36,799,36"/>
+</map>

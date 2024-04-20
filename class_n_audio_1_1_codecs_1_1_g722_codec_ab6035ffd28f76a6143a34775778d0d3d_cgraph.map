@@ -1,0 +1,7 @@
+<map id="NAudio.Codecs.G722Codec.Decode" name="NAudio.Codecs.G722Codec.Decode">
+<area shape="rect" id="Node000001" title="Decodes the input G722 data and returns the decoded output in the output buffer." alt="" coords="5,5,196,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_codecs_1_1_g722_codec.html#af579e8312d5f18f37823e2f8f07ba0b1" title="Performs various operations related to G722 codec state for a specific band and input value." alt="" coords="244,5,434,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,23,228,23,228,28,196,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_codecs_1_1_g722_codec.html#a706ff80aae4ddc20dc5f042fde92aa50" title="Converts an integer amplitude to a 16&#45;bit signed integer, saturating the result if necessary." alt="" coords="482,5,672,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,23,467,23,467,28,435,28"/>
+</map>

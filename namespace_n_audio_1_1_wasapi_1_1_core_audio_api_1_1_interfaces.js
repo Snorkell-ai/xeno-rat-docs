@@ -1,0 +1,6 @@
+var namespace_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces =
+[
+    [ "IActivateAudioInterfaceAsyncOperation", "interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_async_operation.html", "interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_async_operation" ],
+    [ "IActivateAudioInterfaceCompletionHandler", "interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_completion_handler.html", "interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_completion_handler" ],
+    [ "IAgileObject", "interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_agile_object.html", null ]
+];

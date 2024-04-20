@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveIn.StopRecording" name="NAudio.Wave.WaveIn.StopRecording">
+<area shape="rect" id="Node000001" title="Stops the recording if it is currently in progress." alt="" coords="255,5,494,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#ab5fbb89bcdf578ec5a5f3c515112fe78" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,5,207,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,21,207,21,207,16,239,16"/>
+</map>

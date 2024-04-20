@@ -1,0 +1,21 @@
+<map id="NAudio.CoreAudioApi.WasapiCapture.DoRecording" name="NAudio.CoreAudioApi.WasapiCapture.DoRecording">
+<area shape="rect" id="Node000001" title="Records audio using the provided client &#160;and manages the capture state." alt="" coords="5,137,201,178"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a2216734b29bace018dea78a20c0a1d29" title="Reads the next packet from the AudioCaptureClient and invokes the DataAvailable event with the captur..." alt="" coords="249,104,444,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,142,233,137,234,142,202,147"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#ac5e52c70a7bc0ed4cf4e35b66df6a352" title="Starts the audio client interface." alt="" coords="254,169,439,210"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="202,168,239,173,238,178,201,173"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#ae74d4bb48eebb73044d484c5ddce295e" title="Retrieves a pointer to the buffer that is ready for the next capture." alt="" coords="510,5,695,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,101,491,57,513,49,515,54,493,61,391,106"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#a3002db667f228b4eeb0176eabc316e5c" title="Retrieves the size of the next audio packet and returns the number of frames in the packet." alt="" coords="492,71,713,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="444,109,476,105,477,110,445,114"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#a556b86b5a690f64917eed058f293c865" title="Releases the buffer containing audio data after writing a specified number of frames." alt="" coords="509,136,697,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="445,134,493,140,493,145,444,139"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_capture_client.html#ac83ebe2e1c382521185bdcab7c0a97e1" title=" " alt="" coords="783,5,998,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="696,23,768,23,768,28,696,28"/>
+<area shape="rect" id="Node000006" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_capture_client.html#a30a549766a58730b9cdf6f65f7ba131d" title=" " alt="" coords="761,71,1020,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="714,88,746,88,746,94,714,94"/>
+<area shape="rect" id="Node000008" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_capture_client.html#ab78b4108c06a95f8093334068ed53cc3" title=" " alt="" coords="778,136,1003,177"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="697,154,762,154,762,159,697,159"/>
+<area shape="rect" id="Node000010" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_client.html#abff4ea76715b5491ee3f2eecc60e49ae" title=" " alt="" coords="496,201,710,242"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="440,199,480,204,480,209,439,204"/>
+</map>

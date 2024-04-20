@@ -1,0 +1,11 @@
+<map id="NAudio.Dsp.SimpleCompressor" name="NAudio.Dsp.SimpleCompressor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,562,204,727"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_att_rel_envelope.html" title=" " alt="" coords="110,387,233,512"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,528,135,563,130,561,143,526"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="113,5,163,71"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="136,71,117,208,101,387,99,450,101,512,102,545,96,545,95,512,94,450,95,387,112,207,130,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,70,144,176,153,309,161,370,156,370,148,309,139,176,136,71"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_envelope_detector.html" title=" " alt="" coords="253,164,445,309"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="165,61,262,151,258,154,161,65"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="291,311,236,376,232,373,287,307"/>
+</map>

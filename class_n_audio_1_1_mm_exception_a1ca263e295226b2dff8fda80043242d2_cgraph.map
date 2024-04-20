@@ -1,0 +1,5 @@
+<map id="NAudio.MmException.Try" name="NAudio.MmException.Try">
+<area shape="rect" id="Node000001" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="5,5,177,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="225,5,457,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,16,209,16,209,21,177,21"/>
+</map>

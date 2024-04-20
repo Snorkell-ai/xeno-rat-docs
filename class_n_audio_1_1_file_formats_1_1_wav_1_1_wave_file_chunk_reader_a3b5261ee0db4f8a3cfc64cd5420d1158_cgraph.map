@@ -1,0 +1,5 @@
+<map id="NAudio.FileFormats.Wav.WaveFileChunkReader.ReadRiffHeader" name="NAudio.FileFormats.Wav.WaveFileChunkReader.ReadRiffHeader">
+<area shape="rect" id="Node000001" title="Reads the RIFF header from the provided BinaryReader and sets the isRf64 flag if the header is &quot;RF64&quot;..." alt="" coords="5,5,225,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_chunk_identifier.html#a3e187b41b904e09f9bbe6e4f8954b06b" title="Converts a four&#45;character string to a 32&#45;bit signed integer." alt="" coords="273,5,463,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,23,257,23,257,28,225,28"/>
+</map>

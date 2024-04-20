@@ -1,0 +1,6 @@
+<map id="xeno_rat_server.Forms.Hvnc.TempOnDisconnect" name="xeno_rat_server.Forms.Hvnc.TempOnDisconnect">
+<area shape="rect" id="Node000001" title="Handles the disconnection of a node by disconnecting the client and image node if the specified node ..." alt="" coords="5,22,199,63"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="247,29,465,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,40,231,40,231,45,199,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="314,31,306,21,311,11,328,5,356,3,387,5,403,13,401,17,386,11,356,8,329,10,314,15,311,20,318,27"/>
+</map>

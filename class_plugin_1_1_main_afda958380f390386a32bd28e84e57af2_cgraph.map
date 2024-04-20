@@ -1,0 +1,5 @@
+<map id="Plugin.Main.GetCharacterFromKey" name="Plugin.Main.GetCharacterFromKey">
+<area shape="rect" id="Node000001" title="Retrieves the character corresponding to the specified virtual key code, considering the Shift key st..." alt="" coords="5,5,177,46"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a796a218f7d24b18933526deadb8cfc41" title="Translates the specified virtual key code and keyboard state to the corresponding Unicode character o..." alt="" coords="225,13,380,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,23,209,23,209,28,177,28"/>
+</map>

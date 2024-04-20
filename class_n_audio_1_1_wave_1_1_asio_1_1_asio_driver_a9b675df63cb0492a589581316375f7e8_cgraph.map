@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Asio.AsioDriver.GetSampleRate" name="NAudio.Wave.Asio.AsioDriver.GetSampleRate">
+<area shape="rect" id="Node000001" title="Retrieves the sample rate from the ASIO driver." alt="" coords="5,5,205,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a76105cefc713c3dcc7e9bfd8dba74735" title="Handles the exception for the ASIO method." alt="" coords="253,5,452,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,23,237,23,237,28,205,28"/>
+</map>

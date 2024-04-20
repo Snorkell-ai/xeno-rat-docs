@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.EnvelopeDetector.SetCoef" name="NAudio.Dsp.EnvelopeDetector.SetCoef">
+<area shape="rect" id="Node000001" title="Sets the coefficient using the formula: e^(&#45;1.0 / (0.001 * ms &#160;* sampleRate ))" alt="" coords="257,5,460,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_envelope_detector.html#adabcf8b129a44ba50335ac94dd267bc5" title=" " alt="" coords="5,5,209,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,28,209,28,209,23,241,23"/>
+</map>

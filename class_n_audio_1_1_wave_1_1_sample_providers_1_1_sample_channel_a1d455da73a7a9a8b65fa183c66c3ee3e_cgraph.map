@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.SampleProviders.SampleChannel.Read" name="NAudio.Wave.SampleProviders.SampleChannel.Read">
+<area shape="rect" id="Node000001" title="Reads audio samples from the volume provider and stores them in the buffer starting at the specified ..." alt="" coords="5,5,214,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_volume_sample_provider.html#ae1f0877b88116f7c42716dfdfe8807ce" title="Reads audio samples from the source and modifies the volume if necessary." alt="" coords="262,5,470,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,23,246,23,246,28,214,28"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html#a5d289f74be04dfee607e40fa967072ca" title="Fill the specified buffer with 32 bit floating point samples." alt="" coords="518,13,753,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="470,23,502,23,502,28,470,28"/>
+</map>

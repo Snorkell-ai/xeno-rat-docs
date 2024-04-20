@@ -1,0 +1,5 @@
+<map id="xeno_rat_server.Forms.File_manager.DeleteMenuItem_Click" name="xeno_rat_server.Forms.File_manager.DeleteMenuItem_Click">
+<area shape="rect" id="Node000001" title="Deletes the file associated with the selected menu item and updates the list view." alt="" coords="264,5,478,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#aa875185f0c0df6b530838d86fff9a442" title="Handles the mouse click event on the listView1 control, and displays a context menu with options base..." alt="" coords="5,5,216,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,28,216,28,216,23,248,23"/>
+</map>

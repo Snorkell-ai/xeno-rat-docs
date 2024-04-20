@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.WebCam.CreateImageNode" name="xeno_rat_server.Forms.WebCam.CreateImageNode">
+<area shape="rect" id="Node000001" title="Creates an image node and returns it. If the image node already exists, returns the existing node." alt="" coords="470,5,654,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_web_cam.html#a1013bbf9dc79623d3922bd4df2c06f99" title="Initializes the object asynchronously by creating an image node, adding temporary on disconnect,..." alt="" coords="238,5,422,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="454,28,423,28,423,23,454,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_web_cam.html#a04f45df1b3118b1e0f560db583e6ec09" title=" " alt="" coords="5,5,190,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,28,190,28,190,23,222,23"/>
+</map>

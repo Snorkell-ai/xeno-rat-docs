@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveChannel32.SourceToDest" name="NAudio.Wave.WaveChannel32.SourceToDest">
+<area shape="rect" id="Node000001" title="Converts the size of the source bytes to the size of the destination bytes based on the sample sizes ..." alt="" coords="258,5,462,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_channel32.html#a6cbcb644a4c757316eeab67d0c3dca02" title="Creates a new WaveChannel32." alt="" coords="5,5,210,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,28,210,28,210,23,242,23"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="NAudio.Mixer.MixerLine.MixerLine" name="NAudio.Mixer.MixerLine.MixerLine">
+<area shape="rect" id="Node000001" title="Creates a new mixer destination." alt="" coords="5,42,225,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_interop.html#a7c078054c67f9f11e094aecd37e2e5fb" title="Retrieves information about a specified audio mixer line." alt="" coords="273,5,484,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,40,257,36,257,42,225,45"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="293,70,464,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,64,278,70,277,75,225,69"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="532,70,764,96"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="465,80,516,80,516,86,465,86"/>
+</map>

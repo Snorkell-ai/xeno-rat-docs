@@ -1,0 +1,26 @@
+<map id="NAudio.MediaFoundation.MediaFoundationTransform" name="NAudio.MediaFoundation.MediaFoundationTransform">
+<area shape="rect" id="Node000001" title="An abstract base class for simplifying working with Media Foundation Transforms You need to override ..." alt="" coords="578,762,794,1102"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,399,103,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,479,59,525,68,579,86,634,100,659,116,682,165,731,220,774,280,810,343,840,406,865,468,884,579,911,577,917,467,890,405,870,341,845,278,814,217,778,161,735,112,686,95,662,82,636,63,581,54,526,50,479"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="127,399,208,464"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,479,171,525,179,579,196,633,223,682,259,724,301,761,346,794,394,822,491,868,579,900,578,905,489,873,391,827,343,798,297,765,255,728,218,686,191,635,174,580,166,526,163,479"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="233,399,414,464"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="331,463,344,519,365,589,396,665,416,702,438,736,466,770,498,802,566,856,563,860,494,806,462,774,434,740,411,705,391,668,360,591,339,520,326,465"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="439,179,637,684"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="535,683,549,737,572,787,567,790,544,739,530,685"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="179,5,321,71"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="249,70,252,114,259,135,272,153,289,165,306,170,342,169,381,165,403,168,426,178,424,183,402,173,381,170,342,174,305,176,286,170,268,157,254,137,247,115,244,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="364,5,405,71"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="382,70,382,112,386,133,394,153,401,161,409,165,418,169,428,177,431,180,426,183,424,181,415,173,407,170,397,165,389,156,380,135,376,112,377,70"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="585,5,611,71"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="613,43,643,62,658,76,670,94,679,129,686,188,693,355,695,555,693,745,687,745,689,555,688,355,681,188,674,130,665,96,654,80,639,66,610,48"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="586,46,549,63,529,77,515,96,501,128,493,162,487,161,496,126,510,93,526,74,546,58,584,41"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="825,399,862,464"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="844,464,834,564,824,624,809,685,786,747,781,746,803,683,819,623,829,563,839,464"/>
+<area shape="rect" id="Node000010" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html" title="IMFTransform, defined in mftransform.h." alt="" coords="886,299,1131,564"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="968,565,930,653,882,739,847,785,808,827,804,824,843,782,877,737,926,651,963,563"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1155,399,1193,464"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="1181,463,1185,510,1183,568,1172,629,1161,658,1146,685,1113,726,1075,763,1033,795,989,824,897,869,811,901,809,896,895,864,986,819,1030,791,1072,759,1109,723,1141,683,1156,656,1167,627,1178,567,1180,510,1176,464"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1286,399,1323,464"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="1312,463,1317,521,1314,594,1308,633,1298,671,1282,707,1260,740,1214,785,1161,823,1104,854,1043,879,982,897,921,911,811,928,810,922,920,906,980,892,1041,874,1101,849,1158,819,1211,781,1256,736,1277,705,1293,669,1303,632,1309,593,1311,521,1307,464"/>
+</map>

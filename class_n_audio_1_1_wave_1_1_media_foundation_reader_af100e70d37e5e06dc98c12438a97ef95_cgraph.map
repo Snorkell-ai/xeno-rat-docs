@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.MediaFoundationReader.GetCurrentMediaType" name="NAudio.Wave.MediaFoundationReader.GetCurrentMediaType">
+<area shape="rect" id="Node000001" title="Retrieves the current media type of the specified IMFSourceReader." alt="" coords="5,5,210,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_source_reader.html#a0e3bd0837ba349cde674dc590edd19f8" title="Gets the current media type for a stream." alt="" coords="258,5,493,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,23,242,23,242,28,210,28"/>
+</map>

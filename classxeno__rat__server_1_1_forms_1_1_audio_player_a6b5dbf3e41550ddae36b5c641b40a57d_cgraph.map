@@ -1,0 +1,18 @@
+<map id="xeno_rat_server.Forms.AudioPlayer.Dispose" name="xeno_rat_server.Forms.AudioPlayer.Dispose">
+<area shape="rect" id="Node000001" title="Stops the audio playback and disposes of the resources used by the WaveOut player." alt="" coords="5,63,197,103"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a89eb68e8885552b6d18ca044336cef5a" title="Disposes the resources used by the WaveOut device." alt="" coords="245,29,442,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,67,229,63,229,68,197,72"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#a2d8f73d6883fd19cbb044ebb67a32bda" title="Stops the audio playback and clears the buffer." alt="" coords="248,95,439,135"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="197,93,233,98,232,103,197,98"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="298,29,296,19,303,10,319,5,343,3,369,5,385,11,383,16,368,10,343,8,320,10,306,15,301,21,303,28"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_buffered_wave_provider.html#ab07f7e58f4995af1723fde11ddb9bcaf" title="Clears the circular buffer." alt="" coords="509,64,696,105"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="439,101,493,95,493,100,440,106"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a9d7f777aa21386bc3aad3250e239fbd2" title="Stops the playback." alt="" coords="490,130,714,156"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="440,123,475,127,474,132,439,128"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a1399ff4a96831595ce722ee03906b778" title="Resets the state of the object." alt="" coords="778,61,960,102"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="696,81,762,80,762,85,696,86"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a401e1389850f550230123905db0a0760" title="Resets the internal state of the object." alt="" coords="1024,61,1206,102"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="961,79,1008,79,1008,84,961,84"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#aa080e600639676ba67851a13e6d3ea50" title="Resets the specified waveform&#45;audio output device." alt="" coords="762,127,976,167"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="715,142,747,143,747,148,715,147"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="NAudio.Wave.WaveIn.Dispose" name="NAudio.Wave.WaveIn.Dispose">
+<area shape="rect" id="Node000001" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,233,207,259"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a922184988b1134142e62fc9198eceffa" title="Closes the wave input device and releases associated resources." alt="" coords="281,128,468,169"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,230,301,172,303,177,145,235"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a6ecd599e803867348a6a6f1932cdf894" title="Stops the recording if it is currently in progress." alt="" coords="255,298,494,324"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="162,256,304,291,303,297,161,262"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in_buffer.html#aa64a1d38381ae46017fdd67388405d1c" title="Releases the managed and unmanaged resources used by the WaveInRecorder." alt="" coords="555,29,742,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="425,125,541,80,564,73,566,78,543,86,427,130"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a700f666e57095399600aeb93c05150e2" title="Closes the specified waveform&#45;audio input device." alt="" coords="542,95,755,135"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="468,134,526,127,527,132,469,140"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#af3d2e5654fc9d1235350d9867e429293" title="Resets the specified waveform&#45;audio input device." alt="" coords="542,160,755,201"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="469,157,527,163,526,169,468,162"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="598,29,596,19,604,10,622,5,649,3,678,5,695,11,693,16,677,10,649,8,623,10,607,15,601,21,603,28"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_wave_in.html#acb9f7cdc0183b104eaa6560639367c50" title="Raises the DataAvailable event with the provided WaveInBuffer data." alt="" coords="555,225,742,266"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="431,295,545,268,546,273,432,300"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a85b8f08d114ae526f79f53155889bf4e" title="Raises the RecordingStopped event with the specified exception." alt="" coords="555,291,742,331"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="494,308,539,308,539,314,494,314"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="563,356,734,381"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="440,322,569,349,568,354,439,327"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a699a79d317473f9e255d783622dc8cac" title="Stops audio input on the specified waveform&#45;audio input device." alt="" coords="542,405,755,446"/>
+<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="401,322,464,355,543,391,560,397,558,402,541,396,462,360,398,327"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="803,356,1036,381"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="735,366,788,366,788,371,735,371"/>
+</map>

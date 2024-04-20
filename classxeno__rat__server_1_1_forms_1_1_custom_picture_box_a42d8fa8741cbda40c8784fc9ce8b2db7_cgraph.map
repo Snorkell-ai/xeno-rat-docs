@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.CustomPictureBox.GetModifiedKey" name="xeno_rat_server.Forms.CustomPictureBox.GetModifiedKey">
+<area shape="rect" id="Node000001" title="Gets the modified key corresponding to the input character." alt="" coords="5,39,210,79"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a7ef096a40399d0a57be5ccf36b2d469e" title="Translates the specified virtual&#45;key code and keyboard state to the corresponding character or charac..." alt="" coords="258,5,462,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,43,242,39,242,44,210,48"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ada0c260322500d4349f18549ab012077" title="Translates a Unicode character to the corresponding virtual&#45;key code and shift state for the current ..." alt="" coords="258,71,462,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,69,242,73,242,79,210,75"/>
+</map>

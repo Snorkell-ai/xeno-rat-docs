@@ -1,0 +1,11 @@
+<map id="Plugin.ScreenshotTaker.CURSORINFO" name="Plugin.ScreenshotTaker.CURSORINFO">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,292,251,357"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="25,149,66,214"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,213,61,240,73,267,81,278,77,281,68,269,56,242,48,215"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="105,149,151,214"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,214,131,275,125,275,125,214"/>
+<area shape="rect" id="Node000004" href="$struct_plugin_1_1_screenshot_taker_1_1_p_o_i_n_t_a_p_i.html" title=" " alt="" coords="175,149,391,214"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="251,216,192,270,178,283,174,279,189,266,248,212"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="269,5,296,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="285,71,285,132,280,132,280,71"/>
+</map>

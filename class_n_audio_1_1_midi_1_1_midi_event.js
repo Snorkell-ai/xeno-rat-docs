@@ -1,0 +1,25 @@
+var class_n_audio_1_1_midi_1_1_midi_event =
+[
+    [ "MidiEvent", "class_n_audio_1_1_midi_1_1_midi_event.html#ad0624950e868fac39914ea01759f33ea", null ],
+    [ "MidiEvent", "class_n_audio_1_1_midi_1_1_midi_event.html#a3cdefffb98118b9ac14d0e6dd1b806af", null ],
+    [ "Clone", "class_n_audio_1_1_midi_1_1_midi_event.html#a77abb9df49da5660476837fca6dd6877", null ],
+    [ "Clone", "class_n_audio_1_1_midi_1_1_midi_event.html#a99125bed05b29b3b78cb25f2ab7bc461", null ],
+    [ "Export", "class_n_audio_1_1_midi_1_1_midi_event.html#a51887e62958cb186200dac21e69057d3", null ],
+    [ "FromRawMessage", "class_n_audio_1_1_midi_1_1_midi_event.html#af98c3ec5e3da678bbf8aa38b74329a65", null ],
+    [ "GetAsShortMessage", "class_n_audio_1_1_midi_1_1_midi_event.html#a1769e1cd8d65bf53be99ebe19e44f2d4", null ],
+    [ "IsEndTrack", "class_n_audio_1_1_midi_1_1_midi_event.html#abc5dddfff2cac0fa2003ca9a0af50fb1", null ],
+    [ "IsNoteOff", "class_n_audio_1_1_midi_1_1_midi_event.html#acb685e4b29c1ee6ecaba26ac52b45d30", null ],
+    [ "IsNoteOn", "class_n_audio_1_1_midi_1_1_midi_event.html#af75885a058d79b10ebf87f80ac30fac1", null ],
+    [ "ReadNextEvent", "class_n_audio_1_1_midi_1_1_midi_event.html#aa07c093ef6d5c60dfc2bf669bd179c86", null ],
+    [ "ReadVarInt", "class_n_audio_1_1_midi_1_1_midi_event.html#a027a6257387a9cfaa8b6f1993b75d576", null ],
+    [ "ToString", "class_n_audio_1_1_midi_1_1_midi_event.html#ade0bc4eb0c05ece5de77b59b6a29c5b4", null ],
+    [ "WriteVarInt", "class_n_audio_1_1_midi_1_1_midi_event.html#aa97dd2bcb275ab1d603ef9984be22c2a", null ],
+    [ "absoluteTime", "class_n_audio_1_1_midi_1_1_midi_event.html#ab1a51fb5fd4a57e67a076d340770cb73", null ],
+    [ "channel", "class_n_audio_1_1_midi_1_1_midi_event.html#a48a3fec7a15ba729822e2db2263f344c", null ],
+    [ "commandCode", "class_n_audio_1_1_midi_1_1_midi_event.html#a3957c024266eec39dbc4b1fee69907a6", null ],
+    [ "deltaTime", "class_n_audio_1_1_midi_1_1_midi_event.html#a5c51e6cbafdf74ecc396228c59ac51d3", null ],
+    [ "AbsoluteTime", "class_n_audio_1_1_midi_1_1_midi_event.html#a832851e90f9b07eec6fe6f4095d76894", null ],
+    [ "Channel", "class_n_audio_1_1_midi_1_1_midi_event.html#a5d2d9c79479c56db77cc98b818592b08", null ],
+    [ "CommandCode", "class_n_audio_1_1_midi_1_1_midi_event.html#a9ff001286e4d32c42880884204f17a01", null ],
+    [ "DeltaTime", "class_n_audio_1_1_midi_1_1_midi_event.html#ac0906a9c6a3ca366047d279f37c5bdd9", null ]
+];

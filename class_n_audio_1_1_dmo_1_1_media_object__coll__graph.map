@@ -1,0 +1,9 @@
+<map id="NAudio.Dmo.MediaObject" name="NAudio.Dmo.MediaObject">
+<area shape="rect" id="Node000001" title="Media Object." alt="" coords="93,349,298,729"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="5,105,87,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,184,127,348,122,350,60,185"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html" title="defined in mediaobj.h" alt="" coords="111,5,280,271"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,270,198,332,193,332,193,270"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="305,105,331,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="315,171,295,271,285,325,282,333,277,332,279,324,290,270,309,170"/>
+</map>

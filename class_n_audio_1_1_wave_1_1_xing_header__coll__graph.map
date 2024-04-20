@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.XingHeader" name="NAudio.Wave.XingHeader">
+<area shape="rect" id="Node000001" title="Represents a Xing VBR header." alt="" coords="114,622,279,807"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="11,5,56,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="30,71,17,158,8,281,10,350,17,421,30,491,53,558,75,598,104,633,100,637,71,601,48,560,25,493,11,422,4,351,3,281,11,157,25,70"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_mp3_frame.html" title="Represents an MP3 Frame." alt="" coords="117,194,276,559"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="38,70,45,117,60,169,110,247,105,249,55,171,40,119,33,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="275,5,302,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="303,48,322,68,338,94,343,115,343,132,338,170,331,368,319,454,290,560,269,608,264,606,285,558,314,452,325,367,332,169,337,131,338,115,333,96,318,71,300,52"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="277,49,251,68,228,96,212,135,201,178,196,176,207,134,224,93,247,64,274,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="199,559,199,605,194,605,194,559"/>
+</map>

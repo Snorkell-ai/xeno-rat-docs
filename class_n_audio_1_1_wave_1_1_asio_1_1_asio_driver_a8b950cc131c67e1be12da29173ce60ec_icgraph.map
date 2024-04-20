@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.Asio.AsioDriver.OutputReady" name="NAudio.Wave.Asio.AsioDriver.OutputReady">
+<area shape="rect" id="Node000001" title="Checks if the output is ready and returns an AsioError." alt="" coords="716,39,916,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a0280446f76616544cd1f10d0c740b51a" title="Callback function for switching buffers and invoking the fill buffer callback." alt="" coords="472,5,668,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="700,46,668,42,669,36,701,41"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#af100a4cd32c5b2fec279072c823da580" title="Creates buffers for the specified number of output and input channels and returns the buffer size use..." alt="" coords="472,71,668,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="701,77,669,81,668,76,700,71"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a0fa8ddd6d287cc37ae70ea69e39f6cb6" title="Initializes a new instance of the AsioDriverExt class based on an already instantiated AsioDriver ins..." alt="" coords="228,5,424,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,28,425,28,425,23,457,23"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a27922dfd8af065caf7a2a01d0c139d5f" title="Initializes the record and playback with the specified wave provider, record channels,..." alt="" coords="239,71,413,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="457,94,413,94,413,88,457,88"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a9cb17c8419ec5fabc3bfe982974dbf59" title="Initializes the recording and playback with the specified waveProvider ." alt="" coords="5,78,180,104"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="224,94,180,94,180,88,224,88"/>
+</map>

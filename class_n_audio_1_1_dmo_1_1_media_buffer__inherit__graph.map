@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.MediaBuffer" name="NAudio.Dmo.MediaBuffer">
+<area shape="rect" id="Node000001" title="Attempting to implement the COM IMediaBuffer interface as a .NET object Not sure what will happen whe..." alt="" coords="69,159,230,424"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_dmo_1_1_i_media_buffer.html" title="IMediaBuffer Interface." alt="" coords="5,5,155,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,124,112,158,107,160,97,126"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="179,25,261,91"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,106,192,160,187,158,204,104"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.StreamMediaFoundationReader" name="NAudio.Wave.StreamMediaFoundationReader">
+<area shape="rect" id="Node000001" title="MediaFoundationReader supporting reading from a stream." alt="" coords="5,1065,243,1165"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html" title="Class for reading any file that Media Foundation can play Will only work in Windows Vista and above A..." alt="" coords="36,452,212,1017"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,1032,127,1066,121,1066,121,1032"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="75,119,173,404"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,419,127,452,121,452,121,419"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="47,5,102,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="88,85,95,118,90,120,82,86"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="126,5,223,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="167,86,159,120,154,118,162,85"/>
+</map>

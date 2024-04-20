@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.Asio.AsioDriver.GetAsioDriverNames" name="NAudio.Wave.Asio.AsioDriver.GetAsioDriverNames">
+<area shape="rect" id="Node000001" title="Retrieves the names of ASIO drivers installed on the system." alt="" coords="539,23,738,64"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a39445d5b9ce4e9525f5a4b8b50d781a7" title="Retrieves the names of the available ASIO drivers." alt="" coords="279,23,491,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="523,46,492,46,492,41,523,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_out.html#ad1ba13d0e953275fd3c5881c8bb03215" title="Opens an ASIO output device." alt="" coords="16,5,220,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="263,35,220,31,221,25,264,29"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a44aaea3d3f20f6a2852ab2f975ca3fff" title="Checks if the system supports the operation." alt="" coords="5,55,231,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="264,57,231,60,231,55,263,52"/>
+</map>

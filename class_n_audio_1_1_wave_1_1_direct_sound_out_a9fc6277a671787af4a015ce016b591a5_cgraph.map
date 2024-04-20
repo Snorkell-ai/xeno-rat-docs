@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.DirectSoundOut.StopPlayback" name="NAudio.Wave.DirectSoundOut.StopPlayback">
+<area shape="rect" id="Node000001" title="Stops the playback of the sound." alt="" coords="5,5,208,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a4960fba42f35b798f0279d8380f37054" title="Cleans up the secondary buffer by filling it with silence data." alt="" coords="256,5,458,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,23,240,23,240,28,208,28"/>
+</map>

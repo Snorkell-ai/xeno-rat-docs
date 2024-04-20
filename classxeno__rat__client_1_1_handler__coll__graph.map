@@ -1,0 +1,25 @@
+<map id="xeno_rat_client.Handler" name="xeno_rat_client.Handler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="562,830,711,1076"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_node.html" title=" " alt="" coords="402,482,573,767"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="554,766,576,814,571,816,550,768"/>
+<area shape="poly" id="edge8_Node000002_Node000002" title=" " alt="" coords="574,592,592,603,599,624,597,638,590,648,585,645,592,636,594,625,588,607,571,597"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,236,159,316"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,315,133,366,173,417,224,463,279,504,388,571,385,575,276,508,221,467,169,421,128,369,98,318"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="183,244,365,309"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="296,308,395,469,391,472,291,310"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__client_1_1_socket_handler.html" title=" " alt="" coords="389,134,589,419"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="491,419,491,465,485,465,485,419"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="313,5,366,71"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="351,70,367,108,382,134,377,137,362,111,346,72"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="391,5,429,71"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="411,70,414,109,416,117,411,118,409,110,405,71"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="574,5,601,71"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="603,57,621,94,621,110,622,197,625,266,622,335,603,420,582,475,577,473,598,418,616,334,620,266,616,198,615,110,615,95,598,59"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="576,53,558,72,541,96,530,119,525,117,537,93,554,69,572,49"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__client_1_1_dll_handler.html" title=" " alt="" coords="671,572,903,677"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="766,678,702,816,698,814,761,676"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="727,236,847,316"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="790,316,790,555,785,555,785,316"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="875,244,921,309"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="898,309,890,379,871,459,851,510,828,558,823,556,846,508,866,457,884,378,893,309"/>
+</map>

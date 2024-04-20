@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.SampleChannel" name="NAudio.Wave.SampleProviders.SampleChannel">
+<area shape="rect" id="Node000001" title="Utility class that takes an IWaveProvider input at any bit depth and exposes it as an ISampleProvider..." alt="" coords="5,119,205,339"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="51,5,160,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,86,108,119,103,119,103,86"/>
+</map>

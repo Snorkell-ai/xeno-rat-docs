@@ -1,0 +1,7 @@
+<map id="AForge.Video.DirectShow.VideoInput" name="AForge.Video.DirectShow.VideoInput">
+<area shape="rect" id="Node000001" title="Video input of a capture board." alt="" coords="5,134,171,214"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,32,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,63,62,117,58,120,29,66"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="57,5,261,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,72,119,120,114,117,140,69"/>
+</map>

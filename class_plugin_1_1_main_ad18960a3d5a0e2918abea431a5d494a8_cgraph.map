@@ -1,0 +1,9 @@
+<map id="Plugin.Main.GetParentProcessIdAsync" name="Plugin.Main.GetParentProcessIdAsync">
+<area shape="rect" id="Node000001" title="Asynchronously retrieves the parent process ID for the given process." alt="" coords="5,63,206,103"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a9b9d62c37794c3be0dae9bccaf23494d" title="Creates a snapshot of the specified processes, heaps, modules, and threads." alt="" coords="254,5,448,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,59,245,48,247,53,196,65"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a64ab1a0d01d4f0a1d4a1fe34c33dbd0f" title="Retrieves information about the first process encountered in a system snapshot." alt="" coords="260,70,442,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,80,244,80,244,86,206,86"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ad1a696a6d1d4ed486b50e461b89ee463" title="Retrieves information about the next process recorded in a system snapshot." alt="" coords="259,120,443,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,101,269,113,268,118,206,106"/>
+</map>

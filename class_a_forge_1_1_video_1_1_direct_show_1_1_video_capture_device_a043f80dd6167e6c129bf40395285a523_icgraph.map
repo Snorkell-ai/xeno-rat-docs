@@ -1,0 +1,5 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.OnSnapshotFrame" name="AForge.Video.DirectShow.VideoCaptureDevice.OnSnapshotFrame">
+<area shape="rect" id="Node000001" title="Handles the snapshot frame event by processing the provided image ." alt="" coords="302,5,556,46"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_1_1_grabber.html#aee32550ace5eeb964d765f40ddf7488a" title="Copies the image data from the buffer to a new Bitmap and notifies the parent." alt="" coords="5,5,254,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="286,28,254,28,254,23,286,23"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="NAudio.Dsp.EnvelopeGenerator.EnvelopeGenerator" name="NAudio.Dsp.EnvelopeGenerator.EnvelopeGenerator">
+<area shape="rect" id="Node000001" title="Creates and Initializes an Envelope Generator." alt="" coords="5,71,216,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_envelope_generator.html#a70bb6d42e44a581a7ba884dd5f250fff" title="Resets the state of the envelope and sets the output to 0.0f." alt="" coords="264,5,474,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,67,270,48,272,53,194,73"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dsp_1_1_envelope_generator.html#a644b054e779fad358822e41046c90559" title="Sets the target ratio for attack and updates the attack base." alt="" coords="264,71,474,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,88,248,88,248,94,216,94"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_envelope_generator.html#ad528c4eb7896996e40fe227d7064eb85" title="Sets the target ratio for decay and release and calculates the decay and release bases." alt="" coords="264,136,474,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="194,109,272,129,270,134,193,115"/>
+</map>

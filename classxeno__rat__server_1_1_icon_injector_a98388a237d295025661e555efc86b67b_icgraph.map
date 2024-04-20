@@ -1,0 +1,5 @@
+<map id="xeno_rat_server.IconInjector.InjectIcon" name="xeno_rat_server.IconInjector.InjectIcon">
+<area shape="rect" id="Node000001" title="Injects an icon into the specified executable file." alt="" coords="276,5,464,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_main_form.html#a52e5596b8244bd2f52297703e978bc1f" title="Handles the click event of button2. Builds the client with the specified configurations and saves it ..." alt="" coords="5,5,228,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,28,228,28,228,23,260,23"/>
+</map>

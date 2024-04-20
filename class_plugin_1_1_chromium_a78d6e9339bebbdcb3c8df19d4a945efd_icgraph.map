@@ -1,0 +1,6 @@
+<map id="Plugin.Chromium.GetCreditCards" name="Plugin.Chromium.GetCreditCards">
+<area shape="rect" id="Node000001" title="Retrieves credit card information from the specified path using the provided master key for decryptio..." alt="" coords="171,29,352,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="293,16,281,10,261,8,243,10,231,15,227,20,229,28,224,29,222,19,228,10,241,5,261,3,283,5,296,11"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the specified node and performs various operations based on the received opcode." alt="" coords="5,37,123,63"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="155,52,123,52,123,47,155,47"/>
+</map>

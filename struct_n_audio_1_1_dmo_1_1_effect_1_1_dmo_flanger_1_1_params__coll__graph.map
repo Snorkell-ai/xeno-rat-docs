@@ -1,0 +1,11 @@
+<map id="NAudio.Dmo.Effect.DmoFlanger.Params" name="NAudio.Dmo.Effect.DmoFlanger.Params">
+<area shape="rect" id="Node000001" title="DMO Flanger Params." alt="" coords="141,318,347,658"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,23,43,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="21,88,16,130,15,183,21,239,38,293,56,325,78,354,130,406,126,410,74,358,51,328,33,295,16,240,10,183,11,130,16,87"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="79,23,233,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,88,156,181,160,238,168,294,170,301,165,302,163,295,154,238,150,181,151,88"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="258,23,387,88"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="322,88,309,181,291,295,289,302,284,301,285,294,304,180,316,88"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_flanger.html" title=" " alt="" coords="411,5,581,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="486,106,457,196,437,247,412,296,359,370,355,367,407,293,432,245,452,194,481,104"/>
+</map>

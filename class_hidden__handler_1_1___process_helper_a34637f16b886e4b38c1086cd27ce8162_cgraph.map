@@ -1,0 +1,5 @@
+<map id="Hidden_handler._ProcessHelper.SafeCloseHandle" name="Hidden_handler._ProcessHelper.SafeCloseHandle">
+<area shape="rect" id="Node000001" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="5,5,216,46"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1___process_helper.html#a663ea20e04ca87e424a9ba029c1b7eba" title="Closes an open object handle." alt="" coords="264,5,474,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,23,248,23,248,28,216,28"/>
+</map>

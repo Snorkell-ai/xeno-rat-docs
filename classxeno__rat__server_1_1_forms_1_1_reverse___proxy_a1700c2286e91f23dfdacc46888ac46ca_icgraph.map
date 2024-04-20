@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Reverse_Proxy.button1_Click" name="xeno_rat_server.Forms.Reverse_Proxy.button1_Click">
+<area shape="rect" id="Node000001" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
+</map>

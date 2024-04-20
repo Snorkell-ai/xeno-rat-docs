@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.Id3v2Tag.Id3v2Tag" name="NAudio.Wave.Id3v2Tag.Id3v2Tag">
+<area shape="rect" id="Node000001" title=" " alt="" coords="517,35,732,60"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a402d29d71aa5d32148f5370e01714e7c" title="Reads an ID3v2 tag from the input stream and returns the tag." alt="" coords="255,35,469,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="501,50,469,50,469,45,501,45"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a7b8a11cb9080c3cfc8d0c4a3e25d372b" title="Creates an ID3v2 tag from the given collection of key&#45;value pairs and returns the created tag." alt="" coords="5,5,207,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,36,207,32,208,27,239,31"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ef942cc623142a9827edcff17f55e12" title=" " alt="" coords="9,55,203,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="239,64,204,68,203,62,239,58"/>
+</map>

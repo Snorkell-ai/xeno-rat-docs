@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.BlockAlignReductionStream.Read" name="NAudio.Wave.BlockAlignReductionStream.Read">
+<area shape="rect" id="Node000001" title="Reads a specified number of bytes from the circular buffer into the provided byte array,..." alt="" coords="5,128,232,169"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a77753450ffcc14f059c2b9d82b689ea9" title="Advances the read position in the buffer by the specified count." alt="" coords="302,5,484,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,125,209,91,279,57,298,49,300,54,281,61,211,96,153,130"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_block_align_reduction_stream.html#adee9d39bca90ab3c6210659db26f02f3" title="Returns the source buffer of the specified size, creating a new buffer if necessary." alt="" coords="280,71,506,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="219,125,277,112,278,118,220,130"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="281,136,505,161"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="232,146,265,146,265,151,232,151"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a931afd5040c689e3b1062ac05db8a6cb" title="Reads data from the buffer into the specified byte array." alt="" coords="286,185,500,211"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="233,166,303,179,303,184,232,171"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#ae15a838e7d3ebbded66be8eb63a65d2a" title="Writes the specified number of bytes from the input data &#160;array to the internal buffer,..." alt="" coords="302,235,484,275"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="161,167,217,194,281,221,299,227,298,232,279,225,215,199,159,172"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a401e1389850f550230123905db0a0760" title="Resets the internal state of the object." alt="" coords="554,5,736,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="485,23,539,23,539,28,485,28"/>
+</map>

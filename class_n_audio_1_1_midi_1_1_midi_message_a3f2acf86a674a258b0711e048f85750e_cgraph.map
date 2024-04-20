@@ -1,0 +1,5 @@
+<map id="NAudio.Midi.MidiMessage.ValidateNoteParameters" name="NAudio.Midi.MidiMessage.ValidateNoteParameters">
+<area shape="rect" id="Node000001" title="Validates the note, volume, and channel parameters for MIDI messages." alt="" coords="5,5,183,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_message.html#ab6850072b0d6a250b075bf6a707973f7" title="Validates the channel number to ensure it falls within the range of 1 to 16." alt="" coords="231,5,408,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,23,215,23,215,28,183,28"/>
+</map>

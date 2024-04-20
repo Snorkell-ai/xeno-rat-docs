@@ -1,0 +1,6 @@
+<map id="InfoGrab.SQLiteHandler.ReadMasterTable" name="InfoGrab.SQLiteHandler.ReadMasterTable">
+<area shape="rect" id="Node000001" title="Reads the master table from the specified offset." alt="" coords="257,29,451,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="394,16,379,10,354,8,330,10,316,15,310,21,313,28,308,29,305,19,313,10,329,5,354,3,380,5,396,11"/>
+<area shape="rect" id="Node000002" href="$class_info_grab_1_1_s_q_lite_handler.html#abd8513b1722207e2467a1087b69d3806" title=" " alt="" coords="5,29,209,70"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="241,52,209,52,209,47,241,47"/>
+</map>

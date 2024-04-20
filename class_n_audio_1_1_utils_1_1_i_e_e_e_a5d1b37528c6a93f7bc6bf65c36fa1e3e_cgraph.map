@@ -1,0 +1,9 @@
+<map id="NAudio.Utils.IEEE.ConvertToIeeeExtended" name="NAudio.Utils.IEEE.ConvertToIeeeExtended">
+<area shape="rect" id="Node000001" title="Converts a double&#45;precision floating&#45;point number to its IEEE 754 extended precision representation." alt="" coords="5,63,186,103"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#acd9d9c5307c2b8226f36934ae3d38d4d" title="Converts a floating&#45;point number to an unsigned long integer." alt="" coords="234,5,411,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,60,224,48,225,53,179,65"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a29c46ad0fe2e6a53381f430342f06120" title="Splits a double&#45;precision floating&#45;point value into a normalized fraction and an integral power of 2." alt="" coords="241,70,404,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,80,225,80,225,86,186,86"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a581705619f4fe799b9005f0a91e2cb6c" title="Returns x multiplied by 2 raised to the power of exp." alt="" coords="240,120,405,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,100,246,113,245,118,186,105"/>
+</map>

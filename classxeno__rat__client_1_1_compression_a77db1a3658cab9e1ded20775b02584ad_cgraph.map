@@ -1,0 +1,5 @@
+<map id="xeno_rat_client.Compression.Decompress" name="xeno_rat_client.Compression.Decompress">
+<area shape="rect" id="Node000001" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="5,5,200,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_compression.html#a9fe0a6ed3a221d799c7e1a7ba004d5fd" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="248,5,442,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,23,232,23,232,28,200,28"/>
+</map>

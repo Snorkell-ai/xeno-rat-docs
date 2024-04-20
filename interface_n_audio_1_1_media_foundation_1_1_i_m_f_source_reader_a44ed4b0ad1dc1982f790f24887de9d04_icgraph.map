@@ -1,0 +1,7 @@
+<map id="NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition" name="NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition">
+<area shape="rect" id="Node000001" title="Seeks to a new position in the media source." alt="" coords="510,5,745,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a979aa854f2ee884602885972432a43ef" title="Repositions the media player to the desired position in time." alt="" coords="258,5,462,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,28,463,28,463,23,494,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_reader.html#afaf4f9f9600398af89c9f57a52d78653" title="Reads a sequence of bytes from the current stream and advances the position within the stream by the ..." alt="" coords="5,5,210,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,28,210,28,210,23,242,23"/>
+</map>

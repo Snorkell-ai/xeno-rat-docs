@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.WaveFormatExtensible" name="NAudio.Wave.WaveFormatExtensible">
+<area shape="rect" id="Node000001" title="WaveFormatExtensible http://www.microsoft.com/whdc/device/audio/multichaud.mspx." alt="" coords="356,747,588,892"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="230,179,429,684"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="430,697,449,746,444,748,425,699"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="148,5,290,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,71,218,111,223,154,229,180,223,181,218,155,213,111,214,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="50,5,92,71"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="63,71,34,182,20,258,10,342,9,431,20,520,30,563,44,605,63,645,87,682,111,710,138,733,169,753,202,769,271,793,340,807,339,813,270,798,200,774,166,758,135,738,107,714,82,686,58,648,39,607,25,565,14,521,4,431,5,342,14,257,28,181,58,70"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="78,70,91,113,102,134,117,153,134,163,151,165,169,167,188,176,221,208,217,212,185,181,167,172,150,170,132,168,113,157,97,137,86,115,73,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="427,5,454,71"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="455,43,485,62,500,76,512,94,517,110,517,124,512,155,498,472,481,730,476,730,493,472,507,154,512,123,512,111,507,96,496,80,482,66,452,48"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="428,46,391,64,372,78,357,96,341,128,329,163,324,162,336,126,352,93,368,74,388,59,426,41"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="658,399,698,464"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="682,464,683,509,678,566,665,628,641,685,622,713,599,738,595,734,618,710,637,683,660,626,673,566,677,509,677,464"/>
+</map>

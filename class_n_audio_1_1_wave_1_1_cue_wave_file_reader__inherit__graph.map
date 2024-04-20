@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.CueWaveFileReader" name="NAudio.Wave.CueWaveFileReader">
+<area shape="rect" id="Node000001" title="A wave file reader supporting cue reading." alt="" coords="5,905,223,1011"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_reader.html" title="This class supports the reading of WAV files, providing a repositionable WaveStream that returns the ..." alt="" coords="28,452,200,857"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,872,117,906,111,906,111,872"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="65,119,163,404"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,419,117,452,111,452,111,419"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="37,5,92,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="78,85,85,118,80,120,72,86"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="116,5,213,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="157,86,149,120,144,118,152,85"/>
+</map>

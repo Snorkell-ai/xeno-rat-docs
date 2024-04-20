@@ -1,0 +1,5 @@
+<map id="Hidden_handler.Process_Handler.CreateProc" name="Hidden_handler.Process_Handler.CreateProc">
+<area shape="rect" id="Node000001" title="Creates a new process using the specified file path." alt="" coords="5,5,168,46"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="216,5,379,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,23,200,23,200,28,168,28"/>
+</map>

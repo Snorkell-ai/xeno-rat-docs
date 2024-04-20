@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Compression.AcmStream.Reposition" name="NAudio.Wave.Compression.AcmStream.Reposition">
+<area shape="rect" id="Node000001" title="Repositions the stream header." alt="" coords="336,39,522,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_provider.html#a350eb11f4adb60bcbe7635bdc62e2c0d" title="Repositions the conversion stream and resets leftover bytes and offsets." alt="" coords="24,5,269,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="320,49,269,43,270,38,320,44"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html#a8f37f74f2e2861cab9ee656ea226d77e" title="Resets the position of the conversion stream to the beginning." alt="" coords="5,71,288,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="320,74,288,78,288,72,320,69"/>
+</map>

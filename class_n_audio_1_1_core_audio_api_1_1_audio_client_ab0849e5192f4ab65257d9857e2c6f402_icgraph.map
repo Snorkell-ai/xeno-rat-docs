@@ -1,0 +1,9 @@
+<map id="NAudio.CoreAudioApi.AudioClient.IsFormatSupported" name="NAudio.CoreAudioApi.AudioClient.IsFormatSupported">
+<area shape="rect" id="Node000001" title="Checks if the specified audio format is supported for the given share mode and returns the closest ma..." alt="" coords="487,35,672,75"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="619,22,604,16,580,13,557,15,543,20,538,26,540,33,535,35,533,25,540,16,556,10,580,8,605,10,621,17"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html#a9b87cd18af1d8eb60039d7562208b3f3" title="Gets the fallback WaveFormat to be used in case the provided format is not supported,..." alt="" coords="245,5,439,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="471,44,439,40,440,35,472,39"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html#a26a53294854cb94a54d0959b3c09c6f6" title="Initializes the audio output with the specified waveProvider ." alt="" coords="5,42,197,68"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="471,60,439,60,245,60,197,60,197,54,245,55,439,55,471,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,42,198,46,197,41,229,37"/>
+</map>

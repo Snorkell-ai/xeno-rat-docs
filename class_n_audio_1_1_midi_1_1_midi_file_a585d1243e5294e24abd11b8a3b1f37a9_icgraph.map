@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.MidiFile.SwapUInt16" name="NAudio.Midi.MidiFile.SwapUInt16">
+<area shape="rect" id="Node000001" title="Swaps the high and low bytes of the input unsigned 16&#45;bit integer and returns the result." alt="" coords="244,23,422,64"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_file.html#aa1677419233ce081a137de646a611ef7" title="Exports the MIDI events to a file with the specified filename." alt="" coords="9,5,192,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,35,192,31,193,26,229,29"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_file.html#a8b288d8e81803e8a8ad9591ec02533f9" title=" " alt="" coords="5,55,196,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="229,57,196,60,196,55,228,52"/>
+</map>

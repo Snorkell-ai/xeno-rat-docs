@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.IMp3FrameDecompressor.Reset" name="NAudio.Wave.IMp3FrameDecompressor.Reset">
+<area shape="rect" id="Node000001" title="Tell the decoder that we have repositioned." alt="" coords="247,5,506,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ecfcf60c530ed0d893e1b4d9e3113dd" title="Reads a specified number of bytes from the MP3 file into the sample buffer." alt="" coords="5,5,199,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Dsp.BiQuadFilter" name="NAudio.Dsp.BiQuadFilter">
+<area shape="rect" id="Node000001" title="BiQuad filter." alt="" coords="5,194,201,588"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="45,5,95,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,70,86,177,80,177,70,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="119,5,157,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,71,127,177,122,177,132,70"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.DirectSoundOut.IsBufferLost" name="NAudio.Wave.DirectSoundOut.IsBufferLost">
+<area shape="rect" id="Node000001" title="Checks if the secondary buffer is lost and returns a boolean value indicating the result." alt="" coords="811,5,1014,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#ab6869914e5a31ec76a2035756ddcd2d3" title="Reads data from the wave stream and copies it to the secondary buffer. If the buffer is lost,..." alt="" coords="532,13,763,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="796,28,764,28,764,23,796,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#aa17626b3aaef2e58714a418dda681461" title="This method represents the playback thread function. It initializes the DirectSound,..." alt="" coords="282,5,484,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="516,28,484,28,484,23,516,23"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a584271eb97002e12993c090b65bf8156" title="Starts playing the audio. If the playback state is stopped, it creates a new thread to process sample..." alt="" coords="5,13,234,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="266,28,234,28,234,23,266,23"/>
+</map>

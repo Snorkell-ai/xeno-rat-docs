@@ -1,0 +1,7 @@
+<map id="Chat.ChatForm.RecvThread" name="Chat.ChatForm.RecvThread">
+<area shape="rect" id="Node000001" title="Asynchronously receives data from the server and updates the UI with the received message." alt="" coords="438,13,624,39"/>
+<area shape="rect" id="Node000002" href="$class_chat_1_1_chat_form.html#a9926347bab99ceaacd2173799af2e901" title="Initializes the asynchronous operations by calling the Heartbeat method and awaiting the RecvThread m..." alt="" coords="227,5,390,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="423,28,391,28,391,23,423,23"/>
+<area shape="rect" id="Node000003" href="$class_chat_1_1_chat_form.html#a2410965bff10ab9e4b1dce9d09a5104e" title=" " alt="" coords="5,13,179,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="211,28,179,28,179,23,211,23"/>
+</map>

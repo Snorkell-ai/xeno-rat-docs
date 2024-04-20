@@ -1,0 +1,5 @@
+<map id="NAudio.Utils.CircularBuffer.Advance" name="NAudio.Utils.CircularBuffer.Advance">
+<area shape="rect" id="Node000001" title="Advances the read position in the buffer by the specified count." alt="" coords="280,5,462,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_block_align_reduction_stream.html#a26be7b8974fa9bd30e3c6b007fe7b5ed" title="Reads a specified number of bytes from the circular buffer into the provided byte array,..." alt="" coords="5,5,232,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,28,232,28,232,23,264,23"/>
+</map>

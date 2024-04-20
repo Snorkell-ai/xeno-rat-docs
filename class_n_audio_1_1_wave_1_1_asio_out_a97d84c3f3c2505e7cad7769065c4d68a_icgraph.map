@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.AsioOut.Stop" name="NAudio.Wave.AsioOut.Stop">
+<area shape="rect" id="Node000001" title="Stops the playback and resets the playback state to Stopped." alt="" coords="686,13,870,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a8338462283585b521b2c37519777b62f" title="Updates the buffer with input and output channels for audio processing." alt="" coords="450,5,638,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="671,28,639,28,639,23,671,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a27922dfd8af065caf7a2a01d0c139d5f" title="Initializes the record and playback with the specified wave provider, record channels,..." alt="" coords="228,5,402,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,28,402,28,402,23,435,23"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a9cb17c8419ec5fabc3bfe982974dbf59" title="Initializes the recording and playback with the specified waveProvider ." alt="" coords="5,13,180,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="212,28,180,28,180,23,212,23"/>
+</map>

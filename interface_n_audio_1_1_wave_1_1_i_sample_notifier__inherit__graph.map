@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.ISampleNotifier" name="NAudio.Wave.ISampleNotifier">
+<area shape="rect" id="Node000001" title="An interface for WaveStreams which can report notification of individual samples." alt="" coords="121,5,308,71"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_notifying_sample_provider.html" title="Simple class that raises an event on every sample." alt="" coords="5,311,205,471"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,86,132,312,127,311,198,84"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_channel32.html" title="Represents Channel for the WaveMixerStream 32 bit output and 16 bit input It&#39;s output is always stere..." alt="" coords="229,119,421,664"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,84,242,118,237,120,226,86"/>
+</map>

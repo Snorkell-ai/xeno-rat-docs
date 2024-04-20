@@ -1,0 +1,9 @@
+<map id="xeno_rat_server.Forms.Hvnc.StartOperaGX" name="xeno_rat_server.Forms.Hvnc.StartOperaGX">
+<area shape="rect" id="Node000001" title="Starts the OperaGX application asynchronously." alt="" coords="810,5,1004,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aeb3271920e2b01eb80ca189ae3b1827a" title="Initiates the process to start the OperaGX browser asynchronously." alt="" coords="519,5,762,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="794,28,763,28,763,23,794,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aac81e0caa44da1e51b186fb2a1f6fd6d" title="Initializes the components of the form." alt="" coords="278,5,471,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="503,28,471,28,471,23,503,23"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a8209e6a5de9c8c13ac4acff1fea18283" title=" " alt="" coords="5,13,230,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="262,28,230,28,230,23,262,23"/>
+</map>

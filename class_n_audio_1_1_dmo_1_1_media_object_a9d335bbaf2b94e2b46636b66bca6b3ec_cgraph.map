@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.MediaObject.IsAcceptingData" name="NAudio.Dmo.MediaObject.IsAcceptingData">
+<area shape="rect" id="Node000001" title="Checks if the specified input stream is accepting data." alt="" coords="5,5,194,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_dmo_1_1_i_media_object.html#a521f4273882c9ecd2d1211908df367ea" title=" " alt="" coords="242,5,423,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,23,226,23,226,28,194,28"/>
+</map>

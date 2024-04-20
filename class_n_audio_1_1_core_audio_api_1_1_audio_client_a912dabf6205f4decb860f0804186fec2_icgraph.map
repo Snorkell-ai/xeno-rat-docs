@@ -1,0 +1,9 @@
+<map id="NAudio.CoreAudioApi.AudioClient.Dispose" name="NAudio.CoreAudioApi.AudioClient.Dispose">
+<area shape="rect" id="Node000001" title="Performs the disposal of resources used by the audio client." alt="" coords="275,63,460,103"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a08b9c5ce3eb56ae90d15953ec2523e25" title="Disposes of the resources used for audio recording." alt="" coords="18,5,214,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,61,208,49,209,44,261,56"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html#a5ffe1e0637f770a815133728107fd511" title="Disposes the audio client and stops the rendering if it is currently running." alt="" coords="5,70,227,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,86,227,86,227,80,259,80"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html#a26a53294854cb94a54d0959b3c09c6f6" title="Initializes the audio output with the specified waveProvider ." alt="" coords="20,120,212,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="260,107,186,121,185,116,259,102"/>
+</map>

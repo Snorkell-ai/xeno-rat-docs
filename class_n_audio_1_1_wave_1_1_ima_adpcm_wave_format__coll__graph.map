@@ -1,0 +1,12 @@
+<map id="NAudio.Wave.ImaAdpcmWaveFormat" name="NAudio.Wave.ImaAdpcmWaveFormat">
+<area shape="rect" id="Node000001" title="IMA/DVI ADPCM Wave Format Work in progress." alt="" coords="341,733,534,833"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="189,179,387,684"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,677,419,733,414,735,391,679"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,147,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="81,70,88,111,101,154,138,226,181,294,177,297,133,228,96,156,83,112,76,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="433,5,474,71"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="476,59,487,75,496,94,500,124,496,155,486,313,473,470,448,717,442,716,468,470,481,313,491,154,494,124,491,95,483,78,471,62"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="435,57,416,75,400,96,370,164,365,162,395,93,412,71,431,53"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,5,224,71"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="211,70,211,111,214,154,215,161,210,162,209,155,206,111,206,70"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.MediaFoundation.IMFTransform.ProcessInput" name="NAudio.MediaFoundation.IMFTransform.ProcessInput">
+<area shape="rect" id="Node000001" title="Delivers data to an input stream on this Media Foundation transform (MFT)." alt="" coords="260,5,517,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a4160a1e1c1f6e3a33396732ac3cf5d8c" title="Reads data from the input buffer and processes it using the transform, returning the number of bytes ..." alt="" coords="5,5,212,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,28,212,28,212,23,244,23"/>
+</map>

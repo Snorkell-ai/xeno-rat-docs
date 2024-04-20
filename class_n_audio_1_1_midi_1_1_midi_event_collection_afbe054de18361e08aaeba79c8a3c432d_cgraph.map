@@ -1,0 +1,15 @@
+<map id="NAudio.Midi.MidiEventCollection.ExplodeToManyTracks" name="NAudio.Midi.MidiEventCollection.ExplodeToManyTracks">
+<area shape="rect" id="Node000001" title="Explodes the events of the first track into multiple tracks and prepares for export." alt="" coords="5,71,222,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#a123fa3b170f3970759bef74e971812b7" title="Adds a MIDI event to the specified track." alt="" coords="270,5,486,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,67,277,48,279,53,199,73"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#affa9e3688898db9c7f194b5bb61ef2f7" title="Clears all the track events from the list." alt="" coords="270,71,486,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,88,254,88,254,94,222,94"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#a0896cf22b6fc88dd8f3c4f34555cafde" title="Prepares the MIDI data for export by performing the following steps:" alt="" coords="270,136,486,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="199,109,279,129,277,134,198,115"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#a67568e17c4389304170adea56d7fc41e" title="Ensures that the number of tracks in the trackEvents list is at least count &#160;by adding empty lists if..." alt="" coords="534,5,750,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="486,23,518,23,518,28,486,28"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_midi_1_1_midi_event.html#abc5dddfff2cac0fa2003ca9a0af50fb1" title="Checks if the provided MIDI event is an end track event." alt="" coords="558,103,727,143"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="486,140,542,133,542,138,487,145"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#a2a5898ba654bdd5deef14538a7616cba" title="Removes the track at the specified index from the track events collection." alt="" coords="534,168,750,209"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="487,167,519,171,518,176,486,172"/>
+</map>

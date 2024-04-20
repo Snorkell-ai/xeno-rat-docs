@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.MediaFoundationResampler.CreateResamplerComObject" name="NAudio.Wave.MediaFoundationResampler.CreateResamplerComObject">
+<area shape="rect" id="Node000001" title="Creates and returns a resampler COM object based on the platform." alt="" coords="303,39,558,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab241afe826a93e01d79dd284f6d70ca4" title="Creates and configures a resampler transform for media format conversion." alt="" coords="28,5,232,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="287,46,232,40,233,34,288,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,71,255,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="287,77,255,80,255,75,287,72"/>
+</map>

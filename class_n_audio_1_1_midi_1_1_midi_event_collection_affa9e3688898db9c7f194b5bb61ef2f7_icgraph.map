@@ -1,0 +1,5 @@
+<map id="NAudio.Midi.MidiEventCollection.Clear" name="NAudio.Midi.MidiEventCollection.Clear">
+<area shape="rect" id="Node000001" title="Clears all the track events from the list." alt="" coords="270,5,486,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#afbe054de18361e08aaeba79c8a3c432d" title="Explodes the events of the first track into multiple tracks and prepares for export." alt="" coords="5,5,222,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,28,222,28,222,23,254,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.Effect.DmoParamEq.Params" name="NAudio.Dmo.Effect.DmoParamEq.Params">
+<area shape="rect" id="Node000001" title="DMO ParamEq Params." alt="" coords="5,288,203,448"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="11,23,48,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="27,88,21,169,24,217,34,264,37,272,32,274,29,265,19,218,16,169,21,88"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_fx_param_eq.html" title=" " alt="" coords="94,5,263,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,106,169,181,152,265,149,273,144,272,147,264,164,180,173,105"/>
+</map>

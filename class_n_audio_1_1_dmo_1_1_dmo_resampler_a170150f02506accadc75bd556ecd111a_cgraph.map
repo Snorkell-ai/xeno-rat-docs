@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.DmoResampler.Dispose" name="NAudio.Dmo.DmoResampler.Dispose">
+<area shape="rect" id="Node000001" title="Releases the unmanaged resources used by the current instance." alt="" coords="5,5,200,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a3383eff6cf87a8e751e670d64e66c735" title="Releases the unmanaged resources used by the media object." alt="" coords="248,13,473,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,23,232,23,232,28,200,28"/>
+</map>

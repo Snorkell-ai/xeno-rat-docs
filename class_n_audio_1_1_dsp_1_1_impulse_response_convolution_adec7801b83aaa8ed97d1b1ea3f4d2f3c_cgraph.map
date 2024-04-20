@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.ImpulseResponseConvolution.Convolve" name="NAudio.Dsp.ImpulseResponseConvolution.Convolve">
+<area shape="rect" id="Node000001" title="Convolves the input array with the given impulse response and returns the resulting array." alt="" coords="5,5,207,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_impulse_response_convolution.html#a59b0d58cace0866ac89d6b7d811261ae" title="Normalizes the input array of floating&#45;point numbers by dividing each element by the maximum absolute..." alt="" coords="255,5,456,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,23,239,23,239,28,207,28"/>
+</map>

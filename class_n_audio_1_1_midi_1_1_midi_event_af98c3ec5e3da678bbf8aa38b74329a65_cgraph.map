@@ -1,0 +1,5 @@
+<map id="NAudio.Midi.MidiEvent.FromRawMessage" name="NAudio.Midi.MidiEvent.FromRawMessage">
+<area shape="rect" id="Node000001" title="Converts a raw MIDI message to a MidiEvent object." alt="" coords="5,5,194,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html#ad0624950e868fac39914ea01759f33ea" title="Default constructor." alt="" coords="242,5,424,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,23,226,23,226,28,194,28"/>
+</map>

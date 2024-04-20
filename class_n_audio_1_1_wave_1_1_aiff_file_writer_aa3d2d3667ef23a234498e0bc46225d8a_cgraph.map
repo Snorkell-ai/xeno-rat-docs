@@ -1,0 +1,17 @@
+<map id="NAudio.Wave.AiffFileWriter.~AiffFileWriter" name="NAudio.Wave.AiffFileWriter.~AiffFileWriter">
+<area shape="rect" id="Node000001" title="Finaliser &#45; should only be called if the user forgot to close this AiffFileWriter." alt="" coords="5,92,189,133"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#a951d80d62f43e145de362ccd1d08a46b" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="237,92,420,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,110,221,110,221,115,189,115"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa534036d067bd80fa227aec89c79f480" title="Updates the header of the binary writer." alt="" coords="468,92,651,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="420,110,452,110,452,115,420,115"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#a2a7b642efd5e50f84c18d7ee61e78ac1" title="Flushes the buffer of the writer." alt="" coords="699,5,883,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="615,89,719,50,721,55,617,94"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa752886f7a9c0749b5d62c10cbed4e3c" title="Swaps the endianness of the input integer and returns the result as a byte array." alt="" coords="931,120,1114,161"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="652,102,762,99,883,106,930,113,929,119,882,111,762,105,652,108"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#a6ce3fa9c0ac009ecd0adaff4c08f000a" title="Updates the communication chunk in the binary writer." alt="" coords="699,120,883,161"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="652,121,684,125,683,130,651,126"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#ac7a2fd4f47a543f922d3bef5bfee59cf" title="Updates the SSND chunk in the WAV file by writing the data chunk size in little&#45;endian format." alt="" coords="699,185,883,226"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="609,131,700,170,718,177,716,182,698,175,606,136"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="883,138,915,138,915,143,883,143"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="865,182,932,163,934,168,866,187"/>
+</map>

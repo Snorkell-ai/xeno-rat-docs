@@ -1,0 +1,9 @@
+<map id="Hidden_handler.Process_Handler.StartFirefox" name="Hidden_handler.Process_Handler.StartFirefox">
+<area shape="rect" id="Node000001" title="Starts the Firefox browser with a specific profile and returns a boolean indicating success." alt="" coords="5,39,168,79"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="217,5,379,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,44,201,38,202,44,168,49"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a90cbe175bfb9e6d874d68873fd27b33e" title="Retrieves the installation path of Mozilla Firefox from the Windows registry." alt="" coords="216,71,380,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="168,69,201,74,200,79,168,74"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="428,5,591,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,23,413,23,413,28,379,28"/>
+</map>

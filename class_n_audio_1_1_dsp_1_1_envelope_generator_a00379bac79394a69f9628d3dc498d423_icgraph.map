@@ -1,0 +1,7 @@
+<map id="NAudio.Dsp.EnvelopeGenerator.Gate" name="NAudio.Dsp.EnvelopeGenerator.Gate">
+<area shape="rect" id="Node000001" title="Sets the envelope state based on the gate condition." alt="" coords="316,46,554,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_adsr_sample_provider.html#abea8a89527276d7adbd6a837665bd7ba" title="Creates a new AdsrSampleProvider with default values." alt="" coords="5,5,268,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="300,47,268,43,268,38,301,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_adsr_sample_provider.html#a980d99a2f5de6ff58a0a83b4e50d50a9" title="Stops the ADSR envelope by setting the gate to false." alt="" coords="32,71,241,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="301,76,241,82,241,77,300,71"/>
+</map>

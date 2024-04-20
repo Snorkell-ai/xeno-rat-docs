@@ -1,0 +1,6 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.CheckIfCrossbarAvailable" name="AForge.Video.DirectShow.VideoCaptureDevice.CheckIfCrossbarAvailable">
+<area shape="rect" id="Node000001" title="Checks if the crossbar is available and returns the result." alt="" coords="5,22,250,78"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a6d0f011df4e9d566ba604e6b1522bdaf" title="Worker thread for capturing video and snapshots from a device." alt="" coords="298,29,524,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,47,282,47,282,52,250,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="358,29,355,19,364,10,383,5,411,3,441,5,459,11,457,16,440,10,411,8,384,10,367,15,361,21,363,28"/>
+</map>

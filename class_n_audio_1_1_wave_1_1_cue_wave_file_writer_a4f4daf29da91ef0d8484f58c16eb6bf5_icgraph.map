@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.CueWaveFileWriter.WriteCues" name="NAudio.Wave.CueWaveFileWriter.WriteCues">
+<area shape="rect" id="Node000001" title="Writes the cue chunks to the end of the stream." alt="" coords="274,5,494,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_cue_wave_file_writer.html#ad5e5f6aaf9d024601e22e2b186fb131b" title="Updates the header and writes cues using the provided BinaryWriter." alt="" coords="5,5,226,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,28,226,28,226,23,258,23"/>
+</map>

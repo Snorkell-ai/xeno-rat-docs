@@ -1,0 +1,21 @@
+<map id="Plugin.Main.HandleCloneOperaGX" name="Plugin.Main.HandleCloneOperaGX">
+<area shape="rect" id="Node000001" title="Handles the cloning of OperaGX browser." alt="" coords="5,126,228,152"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a1153c1ec4e407e17b850e314778a690a" title="Clones the Opera GX browser data to a specified directory." alt="" coords="284,53,449,94"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,123,270,96,272,101,169,128"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_main.html#a40f3ba09712707d0b952e7d77cae7c08" title="Retrieves the process ID of a specified process based on the command line and search string." alt="" coords="276,119,457,159"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="228,136,260,136,260,142,228,142"/>
+<area shape="rect" id="Node000007" href="$class_hidden__handler_1_1_process___handler.html#a370f0c3865011b2fb3976cfc5fb92d1a" title="Starts the Opera GX browser with specific configurations." alt="" coords="285,184,448,225"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="169,150,272,177,270,182,168,155"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="513,53,675,94"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="449,71,497,71,497,76,449,76"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="741,5,948,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="675,55,725,46,726,51,676,61"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="731,71,958,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="676,77,716,79,715,85,676,82"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="513,168,675,209"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="447,196,497,192,498,198,448,201"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1_process___handler.html#af040e423a0b3eb1245441e6a98330d04" title="Retrieves the installation path of Opera GX browser from the Windows registry." alt="" coords="505,233,683,274"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="448,219,491,229,489,234,447,224"/>
+<area shape="rect" id="Node000009" href="$class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="763,168,926,209"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="676,186,747,186,747,191,676,191"/>
+</map>

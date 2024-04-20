@@ -1,0 +1,10 @@
+<map id="NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat" name="NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat">
+<area shape="rect" id="Node000001" title="Converts the input WaveFormat to standard WaveFormat and returns the result." alt="" coords="5,35,223,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format_extensible.html#a5f1ab3ebeb48290713b76b1e055f81d5" title="Converts the current audio format to a standard WaveFormat." alt="" coords="271,35,515,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,52,255,52,255,58,223,58"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a2dd0e9ea4097e54981725d6ad7c3290d" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="563,5,785,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="515,40,547,36,547,42,516,45"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="833,35,1050,75"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="515,54,563,55,785,55,817,55,817,60,785,60,563,60,515,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="786,35,818,39,818,44,786,41"/>
+</map>

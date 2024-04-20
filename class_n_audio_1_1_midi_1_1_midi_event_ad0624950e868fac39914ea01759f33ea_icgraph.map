@@ -1,0 +1,11 @@
+<map id="NAudio.Midi.MidiEvent.MidiEvent" name="NAudio.Midi.MidiEvent.MidiEvent">
+<area shape="rect" id="Node000001" title="Default constructor." alt="" coords="526,39,708,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html#af98c3ec5e3da678bbf8aa38b74329a65" title="Converts a raw MIDI message to a MidiEvent object." alt="" coords="289,5,478,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="511,47,478,42,478,36,511,41"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_midi_1_1_midi_event.html#aa07c093ef6d5c60dfc2bf669bd179c86" title="Reads the next MIDI event from the BinaryReader and returns the corresponding MidiEvent." alt="" coords="289,71,478,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="511,76,479,81,478,75,510,71"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_in_message_event_args.html#a97e5a5e4303648e035657a8af9c434a5" title="Create a new MIDI In Message EventArgs." alt="" coords="5,5,241,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,28,241,28,241,23,274,23"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_midi_1_1_midi_file.html#a8b288d8e81803e8a8ad9591ec02533f9" title=" " alt="" coords="28,78,218,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="273,94,218,94,218,88,273,88"/>
+</map>

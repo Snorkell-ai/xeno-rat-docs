@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.MidiEventCollection.PrepareForExport" name="NAudio.Midi.MidiEventCollection.PrepareForExport">
+<area shape="rect" id="Node000001" title="Prepares the MIDI data for export by performing the following steps:" alt="" coords="270,39,486,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#afbe054de18361e08aaeba79c8a3c432d" title="Explodes the events of the first track into multiple tracks and prepares for export." alt="" coords="5,5,222,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,46,222,42,223,37,255,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#a13e49804ddde18581305140759fb2ffd" title="Flattens the multiple tracks into a single track." alt="" coords="5,71,222,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,77,223,81,222,75,254,71"/>
+</map>

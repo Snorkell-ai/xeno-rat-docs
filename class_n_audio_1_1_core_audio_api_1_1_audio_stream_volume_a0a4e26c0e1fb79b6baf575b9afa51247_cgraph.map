@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioStreamVolume.SetAllVolumes" name="NAudio.CoreAudioApi.AudioStreamVolume.SetAllVolumes">
+<area shape="rect" id="Node000001" title="Sets the volume levels for all channels in the audio stream." alt="" coords="5,5,203,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_stream_volume.html#a7f5372e01acce2dd2b8ff4fea183b6fd" title=" " alt="" coords="251,5,482,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,23,235,23,235,28,203,28"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.FileFormats.Wav.WaveFileChunkReader.ReadDs64Chunk" name="NAudio.FileFormats.Wav.WaveFileChunkReader.ReadDs64Chunk">
+<area shape="rect" id="Node000001" title="Reads the ds64 chunk from the binary reader and updates the relevant properties." alt="" coords="5,5,231,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_chunk_identifier.html#a3e187b41b904e09f9bbe6e4f8954b06b" title="Converts a four&#45;character string to a 32&#45;bit signed integer." alt="" coords="279,5,469,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,23,263,23,263,28,231,28"/>
+</map>

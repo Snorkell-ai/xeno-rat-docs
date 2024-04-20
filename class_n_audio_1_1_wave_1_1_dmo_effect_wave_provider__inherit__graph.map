@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.DmoEffectWaveProvider&lt; TDmoEffector, TEffectorParam &gt;" name="NAudio.Wave.DmoEffectWaveProvider&lt; TDmoEffector, TEffectorParam &gt;">
+<area shape="rect" id="Node000001" title="Provide WaveProvider that can apply effects in real time using DMO." alt="" coords="13,119,207,313"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,5,103,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,84,82,118,77,120,66,86"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="127,5,208,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,85,144,120,139,118,150,84"/>
+</map>

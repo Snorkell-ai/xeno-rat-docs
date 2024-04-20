@@ -1,0 +1,5 @@
+<map id="Plugin.Main.OpenCDtray" name="Plugin.Main.OpenCDtray">
+<area shape="rect" id="Node000001" title="Opens the CD tray." alt="" coords="5,5,172,31"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a9333998125c3ae0001e480a6ce641b62" title="Sends a command string to the MCI (Media Control Interface) device driver." alt="" coords="220,5,398,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,16,204,16,204,21,172,21"/>
+</map>

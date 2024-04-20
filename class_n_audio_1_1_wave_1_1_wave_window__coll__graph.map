@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveWindow" name="NAudio.Wave.WaveWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="7,334,185,419"/>
+<area shape="rect" id="Node000002" href="$class_form.html" title=" " alt="" coords="5,105,48,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="40,184,63,270,84,333,78,335,57,271,35,186"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_interop.html" title="MME Wave function interop." alt="" coords="73,5,258,271"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,271,116,318,110,317,124,270"/>
+</map>

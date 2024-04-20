@@ -1,0 +1,11 @@
+<map id="NAudio.MediaFoundation.MediaFoundationApi.EnumerateTransforms" name="NAudio.MediaFoundation.MediaFoundationApi.EnumerateTransforms">
+<area shape="rect" id="Node000001" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="909,39,1147,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a8d8f5fbf5318edc19774c40623ad076a" title="Creates a resampler COM object using the Activator." alt="" coords="606,31,861,87"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="894,62,862,62,862,56,894,56"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a87f6fad61c251fff487f285e3dd1a03c" title="Creates and returns a resampler COM object based on the platform." alt="" coords="303,39,558,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="591,62,559,62,559,56,591,56"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab241afe826a93e01d79dd284f6d70ca4" title="Creates and configures a resampler transform for media format conversion." alt="" coords="28,5,232,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="287,46,232,40,233,34,288,41"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,71,255,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="287,77,255,80,255,75,287,72"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$interface_n_audio_1_1_wave_1_1_sample_providers_1_1_i_sample_chunk_converter.html" title="Sample provider interface to make WaveChannel32 extensible Still a bit ugly, hence internal at the mo..." alt="" coords="5,235,214,275"/>
+<area shape="rect" id="Node000001" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_mono16_sample_chunk_converter.html" title=" " alt="" coords="271,5,480,46"/>
+<area shape="poly" id="edge202_Node000000_Node000001" title=" " alt="" coords="126,220,148,182,178,138,216,94,260,57,283,44,286,49,263,61,220,98,183,141,153,185,130,223"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_mono24_sample_chunk_converter.html" title=" " alt="" coords="271,71,480,111"/>
+<area shape="poly" id="edge203_Node000000_Node000002" title=" " alt="" coords="138,221,192,171,225,145,260,122,288,110,290,114,263,127,228,149,195,175,141,225"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_mono8_sample_chunk_converter.html" title=" " alt="" coords="271,136,480,177"/>
+<area shape="poly" id="edge204_Node000000_Node000003" title=" " alt="" coords="168,225,261,187,298,175,300,180,263,192,170,230"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_mono_float_sample_chunk_converter.html" title=" " alt="" coords="265,201,486,242"/>
+<area shape="poly" id="edge205_Node000000_Node000004" title=" " alt="" coords="229,237,264,233,264,238,230,243"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo16_sample_chunk_converter.html" title=" " alt="" coords="269,267,482,307"/>
+<area shape="poly" id="edge206_Node000000_Node000005" title=" " alt="" coords="229,267,269,272,269,277,229,272"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo24_sample_chunk_converter.html" title=" " alt="" coords="269,332,482,373"/>
+<area shape="poly" id="edge207_Node000000_Node000006" title=" " alt="" coords="171,280,263,316,300,329,298,334,261,322,169,285"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo8_sample_chunk_converter.html" title=" " alt="" coords="271,397,480,438"/>
+<area shape="poly" id="edge208_Node000000_Node000007" title=" " alt="" coords="141,284,195,335,228,360,263,382,291,394,289,399,260,387,225,364,192,339,138,288"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo_float_sample_chunk_converter.html" title=" " alt="" coords="262,463,489,503"/>
+<area shape="poly" id="edge209_Node000000_Node000008" title=" " alt="" coords="131,288,153,325,183,368,220,411,263,447,286,460,283,465,260,452,216,415,179,372,148,328,126,290"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.WaveOutEvent.PlaybackThread" name="NAudio.Wave.WaveOutEvent.PlaybackThread">
+<area shape="rect" id="Node000001" title="Executes the DoPlayback method in a separate thread and raises the PlaybackStopped event upon complet..." alt="" coords="1254,5,1451,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a48d131f28d34800e5455fb6997401c57" title="Plays the audio." alt="" coords="983,13,1206,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1238,28,1207,28,1207,23,1238,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#afe0ffdc5908bbd0d94fc7ae95224d7eb" title="Clears the buffer and starts playing audio." alt="" coords="743,5,935,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="967,28,935,28,935,23,967,23"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#a3eb48a241f160315b9974191a26929c9" title="Starts the player and sends a signal to the client to start playing." alt="" coords="513,5,695,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="728,28,696,28,696,23,728,23"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#aa22c949501255089648411e3411d8a46" title="Initializes the components of the form including the combo box, labels, and buttons." alt="" coords="251,5,465,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="497,28,465,28,465,23,497,23"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_live___microphone.html#af759c97b5673c55be1690f19df16e179" title=" " alt="" coords="5,5,203,46"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="235,28,203,28,203,23,235,23"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.AiffFileWriter.AiffFileWriter" name="NAudio.Wave.AiffFileWriter.AiffFileWriter">
+<area shape="rect" id="Node000001" title="AiffFileWriter that actually writes to a stream." alt="" coords="237,5,420,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#ac0f55bd7ae4da4df57bd11fc1dab79fb" title="Creates an AIFF audio file from the provided WaveStream." alt="" coords="5,5,189,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,28,189,28,189,23,221,23"/>
+</map>

@@ -1,0 +1,46 @@
+<map id="Hidden_handler.Process_Handler.CreateProcess" name="Hidden_handler.Process_Handler.CreateProcess">
+<area shape="rect" id="Node000001" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="862,349,1025,389"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="651,349,814,389"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="846,372,814,372,814,366,846,366"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,356,123,382"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="722,334,709,282,686,219,651,157,628,130,602,107,545,69,491,40,439,20,387,10,336,10,284,21,229,44,172,79,141,108,116,144,98,183,85,225,71,302,68,356,63,356,66,302,79,223,93,181,111,141,137,105,169,75,227,39,282,16,335,5,388,4,440,15,493,35,548,64,605,103,632,126,655,154,691,217,714,280,728,333"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a3b2869a58885edf9efe4e53cc686428a" title="Starts the Brave browser with specified settings." alt="" coords="441,117,603,157"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="706,338,660,276,601,208,548,160,552,156,605,204,664,272,710,334"/>
+<area shape="rect" id="Node000006" href="$class_hidden__handler_1_1_process___handler.html#aad47041603d84e92e96183b64d01ae8a" title="Starts the Chrome browser with specified options and user data directory." alt="" coords="441,218,603,259"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="684,342,555,261,558,257,687,338"/>
+<area shape="rect" id="Node000008" href="$class_hidden__handler_1_1_process___handler.html#a25f21e60131b5ee2c286afe7d56f371b" title="Starts the Edge browser with specific configurations and user data directory." alt="" coords="441,319,603,360"/>
+<area shape="poly" id="edge11_Node000002_Node000008" title=" " alt="" coords="636,358,604,354,604,348,636,353"/>
+<area shape="rect" id="Node000010" href="$class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="201,377,363,417"/>
+<area shape="poly" id="edge15_Node000002_Node000010" title=" " alt="" coords="636,378,363,395,363,389,636,372"/>
+<area shape="rect" id="Node000011" href="$class_hidden__handler_1_1_process___handler.html#a7769ce118d803b0f67168fb66ec1b8b4" title="Starts the Firefox browser with a specific profile and returns a boolean indicating success." alt="" coords="441,434,603,475"/>
+<area shape="poly" id="edge17_Node000002_Node000011" title=" " alt="" coords="667,398,576,436,573,431,665,393"/>
+<area shape="rect" id="Node000013" href="$class_hidden__handler_1_1_process___handler.html#ad0d426f0b0d1099e4ad40cbd3ca1590f" title="Starts the Opera browser with specified settings and user data directory." alt="" coords="441,535,603,576"/>
+<area shape="poly" id="edge21_Node000002_Node000013" title=" " alt="" coords="700,402,605,488,550,537,546,533,602,484,696,398"/>
+<area shape="rect" id="Node000015" href="$class_hidden__handler_1_1_process___handler.html#a370f0c3865011b2fb3976cfc5fb92d1a" title="Starts the Opera GX browser with specific configurations." alt="" coords="441,637,603,677"/>
+<area shape="poly" id="edge25_Node000002_Node000015" title=" " alt="" coords="718,405,672,492,641,542,605,589,580,616,554,638,550,634,576,612,601,586,636,539,667,489,713,402"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="457,113,393,94,318,82,280,82,242,86,206,96,172,114,143,139,121,169,103,204,90,240,74,308,69,356,63,355,69,307,84,238,98,202,116,166,140,135,169,109,204,91,241,81,280,76,319,77,394,89,459,108"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="181,124,383,150"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="425,140,383,140,383,134,425,134"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="192,159,172,171,150,192,132,216,102,270,82,320,71,357,66,355,77,318,97,267,127,213,147,189,169,167,189,154"/>
+<area shape="poly" id="edge10_Node000006_Node000003" title=" " alt="" coords="452,215,389,199,317,189,279,189,242,192,206,201,172,215,152,229,134,246,104,285,84,325,72,357,67,355,79,323,100,283,130,242,148,225,169,211,204,196,241,187,279,183,317,184,390,194,453,210"/>
+<area shape="rect" id="Node000007" href="$class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="175,225,389,251"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="425,241,389,241,389,236,425,236"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="202,259,172,273,143,292,117,316,78,357,74,354,113,312,140,288,169,268,200,254"/>
+<area shape="poly" id="edge14_Node000008_Node000003" title=" " alt="" coords="425,320,367,311,303,306,236,307,171,317,124,335,86,358,83,353,122,330,170,312,236,301,303,300,368,305,426,314"/>
+<area shape="rect" id="Node000009" href="$class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="183,327,381,352"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="425,342,381,342,381,337,425,337"/>
+<area shape="poly" id="edge13_Node000009_Node000003" title=" " alt="" coords="168,358,123,364,122,358,167,352"/>
+<area shape="poly" id="edge16_Node000010_Node000003" title=" " alt="" coords="185,387,122,379,123,374,186,382"/>
+<area shape="poly" id="edge20_Node000011_Node000003" title=" " alt="" coords="425,461,302,456,235,447,170,431,120,409,81,384,84,380,123,405,172,426,236,442,303,451,425,456"/>
+<area shape="rect" id="Node000012" href="$class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="178,492,386,518"/>
+<area shape="poly" id="edge18_Node000011_Node000012" title=" " alt="" coords="426,477,347,494,346,489,425,472"/>
+<area shape="poly" id="edge19_Node000012_Node000003" title=" " alt="" coords="200,489,169,475,139,454,112,429,73,384,77,380,116,425,142,449,172,471,202,484"/>
+<area shape="poly" id="edge24_Node000013_Node000003" title=" " alt="" coords="426,573,365,576,299,573,232,559,200,548,169,533,148,517,130,499,100,457,79,415,67,383,72,381,84,413,104,454,134,495,152,513,172,528,202,543,233,554,299,567,365,571,425,568"/>
+<area shape="rect" id="Node000014" href="$class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="180,593,384,619"/>
+<area shape="poly" id="edge22_Node000013_Node000014" title=" " alt="" coords="426,579,347,595,346,590,425,573"/>
+<area shape="poly" id="edge23_Node000014_Node000003" title=" " alt="" coords="189,589,169,576,146,554,127,528,96,473,76,421,66,383,71,382,81,419,101,471,131,526,150,550,172,572,192,585"/>
+<area shape="poly" id="edge28_Node000015_Node000003" title=" " alt="" coords="426,678,364,683,297,680,230,665,198,651,169,634,140,607,116,574,98,538,85,501,69,431,63,382,69,382,74,431,90,499,103,536,121,571,144,603,172,629,201,647,231,660,297,674,364,677,425,673"/>
+<area shape="rect" id="Node000016" href="$class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,695,393,720"/>
+<area shape="poly" id="edge26_Node000015_Node000016" title=" " alt="" coords="426,680,347,697,346,691,425,675"/>
+<area shape="poly" id="edge27_Node000016_Node000003" title=" " alt="" coords="185,690,169,678,139,642,115,602,97,559,83,516,68,437,63,382,68,382,73,436,89,514,102,557,120,600,143,639,172,674,189,686"/>
+</map>

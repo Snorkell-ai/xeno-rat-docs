@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.Effect.DmoCompressor.Params" name="NAudio.Dmo.Effect.DmoCompressor.Params">
+<area shape="rect" id="Node000001" title="DMO Compressor Params." alt="" coords="5,318,239,698"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="37,23,74,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,88,52,181,53,237,59,294,61,301,55,302,54,295,48,238,47,181,50,88"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_compressor.html" title=" " alt="" coords="105,5,275,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,105,163,295,162,302,157,301,158,294,182,105"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.Asio.AsioDriver.GetChannelInfo" name="NAudio.Wave.Asio.AsioDriver.GetChannelInfo">
+<area shape="rect" id="Node000001" title="Retrieves the information about the specified channel." alt="" coords="939,39,1138,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a4d8c8082920803501cfe51095064209a" title="Builds the capabilities of the ASIO driver, including driver name, input/output channels,..." alt="" coords="694,39,891,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="923,62,891,62,891,56,923,56"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a0fa8ddd6d287cc37ae70ea69e39f6cb6" title="Initializes a new instance of the AsioDriverExt class based on an already instantiated AsioDriver ins..." alt="" coords="450,5,646,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="679,46,647,42,647,36,679,41"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#aeeb36e91a679293ecd496c8e9dff1a4f" title="Sets the sample rate for the driver and updates the capabilities." alt="" coords="450,71,646,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="679,77,647,81,647,75,679,71"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a27922dfd8af065caf7a2a01d0c139d5f" title="Initializes the record and playback with the specified wave provider, record channels,..." alt="" coords="228,71,402,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="434,94,402,94,402,88,434,88"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a9cb17c8419ec5fabc3bfe982974dbf59" title="Initializes the recording and playback with the specified waveProvider ." alt="" coords="5,78,180,104"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="212,94,180,94,180,88,212,88"/>
+</map>

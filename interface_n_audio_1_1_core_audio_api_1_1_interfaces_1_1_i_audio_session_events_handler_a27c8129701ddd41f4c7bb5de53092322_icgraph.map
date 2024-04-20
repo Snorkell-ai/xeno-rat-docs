@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged" name="NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged">
+<area shape="rect" id="Node000001" title="notification of display name changed" alt="" coords="279,5,534,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_events_callback.html#a47815fb63dec8279b7ebece12aa909d4" title="Notifies the handler that the display name for the audio session has changed." alt="" coords="5,5,231,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,36,231,36,231,31,263,31"/>
+</map>

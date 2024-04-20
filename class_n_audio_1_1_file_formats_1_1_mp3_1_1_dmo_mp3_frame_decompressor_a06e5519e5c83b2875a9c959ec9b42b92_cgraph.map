@@ -1,0 +1,11 @@
+<map id="NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose" name="NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose">
+<area shape="rect" id="Node000001" title="Disposes the input media buffer, output buffer, and MP3 decoder if they are not null." alt="" coords="5,63,225,103"/>
+<area shape="rect" id="Node000002" href="$struct_n_audio_1_1_dmo_1_1_dmo_output_data_buffer.html#aec7fbe6a179052a8434d410c313dc0fb" title="Dispose." alt="" coords="286,5,481,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,59,270,47,271,52,214,65"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_buffer.html#a6c390ba0e3e5af17f8c1ec9affc5a04e" title="Releases the unmanaged resources used by the current instance of the ClassName class." alt="" coords="273,70,494,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,80,257,80,257,86,225,86"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dmo_1_1_windows_media_mp3_decoder.html#a8513888e2d193a70a7df1683c75782d8" title="Performs resource cleanup by releasing COM objects and disposing managed resources." alt="" coords="276,120,491,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,101,270,114,269,119,213,107"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dmo_1_1_media_object.html#a3383eff6cf87a8e751e670d64e66c735" title="Releases the unmanaged resources used by the media object." alt="" coords="542,128,767,153"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="491,138,527,138,527,143,491,143"/>
+</map>

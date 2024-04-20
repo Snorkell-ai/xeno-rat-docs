@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.DirectSoundOut.~DirectSoundOut" name="NAudio.Wave.DirectSoundOut.~DirectSoundOut">
+<area shape="rect" id="Node000001" title="Releases unmanaged resources and performs other cleanup operations before the DirectSoundOut is recla..." alt="" coords="5,5,208,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a125c83a72206209fe0cdb5ff9f4a2571" title="Stops the object and releases resources, and suppresses the finalization of the object." alt="" coords="256,5,458,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,23,240,23,240,28,208,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a9575ffd0aa3c44660c94330771de3952" title="Stops the playback." alt="" coords="506,13,735,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="458,23,490,23,490,28,458,28"/>
+</map>

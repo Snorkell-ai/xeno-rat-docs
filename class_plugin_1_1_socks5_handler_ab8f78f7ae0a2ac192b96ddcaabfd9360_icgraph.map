@@ -1,0 +1,7 @@
+<map id="Plugin.Socks5Handler.RecvSendLoop" name="Plugin.Socks5Handler.RecvSendLoop">
+<area shape="rect" id="Node000001" title="Asynchronously receives and sends data between the remote socket and subnode using the specified buff..." alt="" coords="400,5,584,46"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_socks5_handler.html#a547513c97f841935dd30a4939fd11ded" title="Asynchronously starts the communication process with the specified destination address and port." alt="" coords="171,13,352,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="384,28,352,28,352,23,384,23"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the node communication process." alt="" coords="5,13,123,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="NAudio.Wave.SampleProviders.FadeInOutSampleProvider.ClearBuffer" name="NAudio.Wave.SampleProviders.FadeInOutSampleProvider.ClearBuffer">
+<area shape="rect" id="Node000001" title="Clears a portion of the buffer by setting the specified range of elements to zero." alt="" coords="537,35,780,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_fade_in_out_sample_provider.html#a15136e7c09f5733dde62e66c3d3a47fd" title="Fades out the audio buffer by applying a multiplier to each sample based on the fade position and cou..." alt="" coords="262,5,489,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="521,43,489,40,490,35,522,38"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_fade_in_out_sample_provider.html#ab359901594ad340d6eff602c48b3157d" title="Reads audio samples from the source into the buffer and applies any active fade effects." alt="" coords="5,35,214,75"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="521,60,489,60,262,60,214,60,214,54,262,55,489,55,521,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,43,214,46,214,41,246,37"/>
+</map>

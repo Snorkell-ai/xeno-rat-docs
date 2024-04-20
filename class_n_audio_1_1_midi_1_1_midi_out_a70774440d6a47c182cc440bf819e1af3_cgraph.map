@@ -1,0 +1,6 @@
+<map id="NAudio.Midi.MidiOut.~MidiOut" name="NAudio.Midi.MidiOut.~MidiOut">
+<area shape="rect" id="Node000001" title="Cleanup." alt="" coords="5,22,151,63"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_out.html#a370fcb65c90f18007d8e83372dfc619f" title="Releases the unmanaged resources used by the T:YourClassName and optionally releases the managed reso..." alt="" coords="199,29,392,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,40,183,40,183,45,151,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="259,31,252,21,256,11,271,5,295,3,322,5,336,12,333,17,320,10,295,8,272,10,260,15,257,20,263,27"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Id3v2Tag" name="NAudio.Wave.Id3v2Tag">
+<area shape="rect" id="Node000001" title="An ID3v2 Tag." alt="" coords="5,149,171,354"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,43,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="24,71,24,97,28,124,30,132,25,133,23,125,19,97,19,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="133,5,171,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,71,126,134,121,132,140,70"/>
+</map>

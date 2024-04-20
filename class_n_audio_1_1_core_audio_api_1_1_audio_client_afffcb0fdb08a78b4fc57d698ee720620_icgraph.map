@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioClient.AudioClient" name="NAudio.CoreAudioApi.AudioClient.AudioClient">
+<area shape="rect" id="Node000001" title=" " alt="" coords="239,5,424,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#a7f6f19ef633300d44e6ca097746105e7" title="Activates an audio client asynchronously and returns the activated AudioClient." alt="" coords="5,5,191,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,28,191,28,191,23,223,23"/>
+</map>

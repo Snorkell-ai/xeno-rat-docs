@@ -1,0 +1,25 @@
+<map id="NAudio.Wave.DirectSoundOut.Play" name="NAudio.Wave.DirectSoundOut.Play">
+<area shape="rect" id="Node000001" title="Starts playing the audio. If the playback state is stopped, it creates a new thread to process sample..." alt="" coords="5,226,234,252"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#aa17626b3aaef2e58714a418dda681461" title="This method represents the playback thread function. It initializes the DirectSound,..." alt="" coords="282,219,484,259"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,236,266,236,266,242,234,242"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#ab6869914e5a31ec76a2035756ddcd2d3" title="Reads data from the wave stream and copies it to the secondary buffer. If the buffer is lost,..." alt="" coords="532,70,763,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="418,216,609,102,612,107,420,221"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a55eff163265ab3dd14959016edd5a7a9" title="Initializes the DirectSound and creates primary and secondary sound buffers for audio playback." alt="" coords="547,185,749,226"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="484,224,531,218,532,223,485,229"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a71f6886fb8cd55fd2ebe03204b3b878f" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="547,251,749,291"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="485,249,532,254,531,260,484,254"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a9fc6277a671787af4a015ce016b591a5" title="Stops the playback of the sound." alt="" coords="547,316,749,357"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="429,257,533,301,556,308,554,313,531,305,427,262"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a98508b4a01ed4153885d0f1a8ee108a2" title="Checks if the secondary buffer is lost and returns a boolean value indicating the result." alt="" coords="822,5,1025,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="712,67,807,47,808,52,714,72"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="811,70,1036,96"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="764,80,796,80,796,86,764,86"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a91ca3230b6a0e1afdd06e85845f8cc31" title="Creates a DirectSound object that represents the default sound device." alt="" coords="822,120,1025,161"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="736,182,819,162,821,167,737,187"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a95ce868c252c89b87f1a2bb7da32db40" title="Retrieves a handle to the desktop window. The desktop window covers the entire screen...." alt="" coords="822,185,1025,226"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="749,203,807,203,807,208,749,208"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a982c14b3cc8618ffb038ba8148557cc8" title="Converts milliseconds to bytes based on the average bytes per second of the wave format." alt="" coords="822,251,1025,291"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="737,224,821,244,819,249,736,229"/>
+<area shape="rect" id="Node000012" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a4960fba42f35b798f0279d8380f37054" title="Cleans up the secondary buffer by filling it with silence data." alt="" coords="822,316,1025,357"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="749,334,807,334,807,339,749,339"/>
+</map>

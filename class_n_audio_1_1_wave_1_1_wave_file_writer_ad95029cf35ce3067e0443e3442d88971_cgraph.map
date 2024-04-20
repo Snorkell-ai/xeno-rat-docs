@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveFileWriter.UpdateFactChunk" name="NAudio.Wave.WaveFileWriter.UpdateFactChunk">
+<area shape="rect" id="Node000001" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="5,5,202,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="250,5,446,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
+</map>

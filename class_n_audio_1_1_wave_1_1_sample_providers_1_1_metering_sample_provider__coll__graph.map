@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.SampleProviders.MeteringSampleProvider" name="NAudio.Wave.SampleProviders.MeteringSampleProvider">
+<area shape="rect" id="Node000001" title="Simple SampleProvider that passes through audio unchanged and raises an event every n samples with th..." alt="" coords="247,278,447,418"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,127,115,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,198,248,280,245,284,119,203"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="139,127,333,193"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,191,299,262,295,265,252,194"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="357,127,395,193"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="362,193,351,225,346,262,340,261,345,223,357,191"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="448,127,475,193"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="458,193,448,224,434,255,428,266,423,263,430,253,443,222,453,192"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_stream_volume_event_args.html" title="Event args for aggregated stream volume." alt="" coords="499,120,699,200"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="579,201,558,230,532,256,499,281,463,301,460,297,496,276,529,252,554,226,574,198"/>
+<area shape="rect" id="Node000007" href="$class_event_args.html" title=" " alt="" coords="562,5,635,71"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="601,85,601,120,596,120,596,85"/>
+</map>

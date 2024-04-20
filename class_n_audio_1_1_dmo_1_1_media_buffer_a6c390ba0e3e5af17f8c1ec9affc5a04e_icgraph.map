@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.MediaBuffer.Dispose" name="NAudio.Dmo.MediaBuffer.Dispose">
+<area shape="rect" id="Node000001" title="Releases the unmanaged resources used by the current instance of the ClassName class." alt="" coords="273,46,494,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_file_formats_1_1_mp3_1_1_dmo_mp3_frame_decompressor.html#a06e5519e5c83b2875a9c959ec9b42b92" title="Disposes the input media buffer, output buffer, and MP3 decoder if they are not null." alt="" coords="5,5,225,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,46,225,42,226,37,260,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_media_buffer.html#ad2b654098105ae16448c13edac7a6e82" title="Finalizer." alt="" coords="28,71,202,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,77,203,83,202,78,257,71"/>
+</map>

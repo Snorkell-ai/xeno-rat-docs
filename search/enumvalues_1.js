@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['backgroundcapablemedia_0',['BackgroundCapableMedia',['../namespace_n_audio_1_1_core_audio_api.html#ab467825889732cc0c779e5bec25deb5aa23e83854b558e2555afb40498c5a749f',1,'NAudio::CoreAudioApi']]],
+  ['baddeviceid_1',['BadDeviceId',['../namespace_n_audio.html#ac06b0d881b5deafee36bc1f19b20ae5aaed411bcb5e938789e798597c0dd8404e',1,'NAudio']]],
+  ['baderrornumber_2',['BadErrorNumber',['../namespace_n_audio.html#ac06b0d881b5deafee36bc1f19b20ae5aa183e1b72ae416da9c30b47f14d79fba1',1,'NAudio']]],
+  ['badregistrydatabase_3',['BadRegistryDatabase',['../namespace_n_audio.html#ac06b0d881b5deafee36bc1f19b20ae5aa8ae6d00eb8c268fca6a92f629c686fd9',1,'NAudio']]],
+  ['bankselect_4',['BankSelect',['../namespace_n_audio_1_1_midi.html#a8fde235dd088c050ddf0442525c1d92eac70da838c0e327074a595b3eb9735826',1,'NAudio::Midi']]],
+  ['bankselectlsb_5',['BankSelectLsb',['../namespace_n_audio_1_1_midi.html#a8fde235dd088c050ddf0442525c1d92eab4a6af54ff4bf3c20cccf50ec15cb31e',1,'NAudio::Midi']]],
+  ['bass_6',['Bass',['../namespace_n_audio_1_1_mixer.html#a778c180fba396c9e482eab3808828e58aca4103a5e6809c7e14ec7f4fcf676bb5',1,'NAudio::Mixer']]],
+  ['bathroom_7',['Bathroom',['../namespace_n_audio_1_1_dmo_1_1_effect.html#a021bd07b1c44865f4c8354ff09552369aa4db2121629542d3ebdcf4e93890e4da',1,'NAudio::Dmo::Effect']]],
+  ['beginloop_8',['BeginLoop',['../namespace_n_audio_1_1_wave.html#a2937291a579688c6a9bef62c3bd9071fab5b139632deacfd867c43bcb0a5b3d38',1,'NAudio::Wave']]],
+  ['bind_9',['Bind',['../class_plugin_1_1_socks5_const.html#a2091a4935803efafe54ffb8ef285233da0b172674284d79079624051d2ae11581',1,'Plugin::Socks5Const']]],
+  ['bitspersample_10',['BitsPerSample',['../namespace_n_audio_1_1_wave_1_1_compression.html#a6dc44c55153e4a1b40fd02033986a96bab5a288cd3c2b0abcae3975dbb4d60615',1,'NAudio.Wave.Compression.BitsPerSample'],['../namespace_n_audio_1_1_wave_1_1_compression.html#a8dd6d18ed3e60d4bb195052b6f41835eab5a288cd3c2b0abcae3975dbb4d60615',1,'NAudio.Wave.Compression.BitsPerSample']]],
+  ['blockalign_11',['BlockAlign',['../namespace_n_audio_1_1_wave.html#a2096e41aeec039beddac750975808852afd0bf9db6c5792b73b9c7ef052b0eb6e',1,'NAudio::Wave']]],
+  ['bool_12',['Bool',['../namespace_n_audio_1_1_dmo.html#a9746054b93e3e511a134e8f5b397cfbbac26f15e86e3de4c398a8273272aba034',1,'NAudio::Dmo']]],
+  ['boolean_13',['Boolean',['../namespace_n_audio_1_1_mixer.html#a778c180fba396c9e482eab3808828e58a27226c864bac7454a8504f8edb15d95b',1,'NAudio::Mixer']]],
+  ['booleanmeter_14',['BooleanMeter',['../namespace_n_audio_1_1_mixer.html#a778c180fba396c9e482eab3808828e58a18b224f2457842662f7b6e55b6d3cd72',1,'NAudio::Mixer']]],
+  ['breathcontroller_15',['BreathController',['../namespace_n_audio_1_1_midi.html#a8fde235dd088c050ddf0442525c1d92eac29c0f174f9bb67be159452c509349c3',1,'NAudio::Midi']]],
+  ['brooktree_16',['Brooktree',['../namespace_n_audio.html#aea1256001c34445e9395aa1a2d3a5dbaadcfcdb31542fdfc2601cda215ac656e2',1,'NAudio']]],
+  ['button_17',['Button',['../namespace_n_audio_1_1_mixer.html#a778c180fba396c9e482eab3808828e58a87b7760f14fbff78d8819291f36ab9a0',1,'NAudio::Mixer']]],
+  ['bytes_18',['Bytes',['../class_n_audio_1_1_wave_1_1_xing_header.html#a2223388b9f25c46600f0707175793e8da600e754f49b68aa0fc90a9cd64eb7051',1,'NAudio::Wave::XingHeader']]]
+];

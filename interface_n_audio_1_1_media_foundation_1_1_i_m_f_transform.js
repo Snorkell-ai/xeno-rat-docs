@@ -1,0 +1,26 @@
+var interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform =
+[
+    [ "AddInputStreams", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a2670420246803cce186c946c59a2b625", null ],
+    [ "DeleteInputStream", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a942b790f8e6446e6535d104c3933da04", null ],
+    [ "GetAttributes", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a4d8b343447bc16aaf6e2973264742344", null ],
+    [ "GetInputAvailableType", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#aaea55621c9a493cd4f64c79198d4a482", null ],
+    [ "GetInputCurrentType", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a7235a670798f1e84d51cc784411d2b48", null ],
+    [ "GetInputStatus", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#ab7869188204cd2b68b1f3a7fd623a0fb", null ],
+    [ "GetInputStreamAttributes", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#af9c21439cf7a0416ab1675d7462815e9", null ],
+    [ "GetInputStreamInfo", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#aae0d7a475adc644378662e652fcc6903", null ],
+    [ "GetOutputAvailableType", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a5c69e2f4d6846edbbfa25e5275ebbe7b", null ],
+    [ "GetOutputCurrentType", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a13e74099c7927d7bed19a3ab9ec2c2ce", null ],
+    [ "GetOutputStatus", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#aa22b4f74f45a146797903d9808723dfe", null ],
+    [ "GetOutputStreamAttributes", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a44666de3c7d796ce3cdc99f1574f4c1c", null ],
+    [ "GetOutputStreamInfo", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a125c972c74945336eb42425d32d20de5", null ],
+    [ "GetStreamCount", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a826729376279416c410680e3c4e82613", null ],
+    [ "GetStreamIds", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a8924333c828d66954547c0031a1d3d97", null ],
+    [ "GetStreamLimits", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a3624756f152ecaaff14266bbd4983bba", null ],
+    [ "ProcessEvent", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#af5d996cc4c3d42a3eb598677044f7405", null ],
+    [ "ProcessInput", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a6656f55c1878f30f8edfe2c564665e8a", null ],
+    [ "ProcessMessage", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a3a72ff2388586a9855c48aedc86acf62", null ],
+    [ "ProcessOutput", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#ae38bc27a19d67ebc4d8cc275bfe2de3f", null ],
+    [ "SetInputType", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a6ffaf8cd4c2ff021e80ca5cb4a8a30a5", null ],
+    [ "SetOutputBounds", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a2e87f76d647353f5c64dcaf4bd8555a0", null ],
+    [ "SetOutputType", "interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a4dff677d3793c266acb161ddeaa35523", null ]
+];

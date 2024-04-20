@@ -1,0 +1,20 @@
+<map id="xeno_rat_server.Forms.OfflineKeylogger.IsStarted" name="xeno_rat_server.Forms.OfflineKeylogger.IsStarted">
+<area shape="rect" id="Node000001" title="Checks if the client is started and returns a boolean value indicating the status." alt="" coords="984,104,1180,145"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#a67f6a9ec216e7686c8d30dbc9937199c" title="Updates the status and displays it on the label." alt="" coords="739,104,936,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="968,127,936,127,936,122,968,122"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#a13d3fb326afdca257f120155191317a0" title="Starts the keylogger and updates the status." alt="" coords="495,5,691,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="778,100,690,61,657,49,659,44,692,57,780,95"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#a98a1d9431b02a155b7a9ea93c342c0ef" title="Stops the keylogger and updates the status asynchronously." alt="" coords="495,71,691,111"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="724,111,692,107,692,102,724,106"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#af22cbe9b75c1d8d6154dac2d6a1ea4f9" title="Updates the status and retrieves keylogs, then populates the UI with the retrieved data." alt="" coords="495,136,691,177"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="724,142,692,146,692,141,724,137"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#a602e6be8dbdfc7592f31ffda1a908aa9" title="Asynchronously initializes the object by receiving data from the client and updating the status." alt="" coords="250,165,447,206"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="788,155,743,175,692,191,629,200,565,204,447,200,447,195,565,199,628,195,691,186,741,170,786,150"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#afb7dbc37c064ebca17865a478e0f16cc" title="Initializes the components of the form including labels, text boxes, list view, and buttons." alt="" coords="250,85,447,126"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="516,54,414,87,412,82,514,49"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_offline_keylogger.html#a640737785afab614c817698a30ebf60c" title=" " alt="" coords="5,133,202,174"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="235,131,203,137,202,132,234,125"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="480,100,447,102,447,97,479,95"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="479,135,447,129,448,123,480,130"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="234,173,202,169,202,164,235,168"/>
+</map>

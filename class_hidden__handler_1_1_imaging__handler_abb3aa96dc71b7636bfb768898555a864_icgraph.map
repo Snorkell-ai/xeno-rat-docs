@@ -1,0 +1,7 @@
+<map id="Hidden_handler.Imaging_handler.CloseDesktop" name="Hidden_handler.Imaging_handler.CloseDesktop">
+<area shape="rect" id="Node000001" title="Closes the specified desktop." alt="" coords="379,5,539,46"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1_imaging__handler.html#af5ed6ce877f2046db35882bf6f197370" title="Disposes the resources associated with the current object." alt="" coords="171,5,331,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="364,28,332,28,332,23,364,23"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.SoundFont.Instrument" name="NAudio.SoundFont.Instrument">
+<area shape="rect" id="Node000001" title="SoundFont instrument." alt="" coords="5,149,195,234"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="75,5,125,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,71,103,132,97,132,97,71"/>
+</map>

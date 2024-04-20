@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.PropertyStore.Get" name="NAudio.CoreAudioApi.PropertyStore.Get">
+<area shape="rect" id="Node000001" title="Retrieves the PropertyKey at the specified index." alt="" coords="255,39,456,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_property_store.html#a4e6d67d44fd6d3d8a71ae387d8f18798" title="Checks if the collection contains the specified key ." alt="" coords="5,5,207,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,46,207,42,207,36,239,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_property_store.html#a42fe7750edda0263f5d9762e4808ff2c" title="Retrieves the value at the specified index and returns it as a PropVariant." alt="" coords="5,71,207,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,77,207,81,207,75,239,71"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Mixer.MixerInterop.mixerGetDevCaps" name="NAudio.Mixer.MixerInterop.mixerGetDevCaps">
+<area shape="rect" id="Node000001" title="Retrieves the capabilities of a specified mixer device." alt="" coords="224,5,435,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer.html#ac1ef59b5bdc514c515280757617a0b73" title="Connects to the specified mixer." alt="" coords="5,13,176,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,28,176,28,176,23,208,23"/>
+</map>

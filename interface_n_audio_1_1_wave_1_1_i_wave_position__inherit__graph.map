@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.IWavePosition" name="NAudio.Wave.IWavePosition">
+<area shape="rect" id="Node000001" title="Interface for IWavePlayers that can report position." alt="" coords="219,5,400,71"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wasapi_out.html" title="Support for playback using Wasapi." alt="" coords="5,119,184,824"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,81,217,99,198,120,186,138,182,136,194,117,213,95,235,77"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_out.html" title="Represents a wave out device." alt="" coords="209,139,410,804"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="312,86,312,139,307,139,307,86"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html" title="Alternative WaveOut class, making use of the Event callback." alt="" coords="434,179,635,764"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="383,77,405,95,425,117,461,177,457,180,421,120,402,99,380,81"/>
+</map>

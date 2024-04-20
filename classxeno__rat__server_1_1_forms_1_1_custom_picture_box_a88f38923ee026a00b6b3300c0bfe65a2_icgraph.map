@@ -1,0 +1,5 @@
+<map id="xeno_rat_server.Forms.CustomPictureBox.TriggerWndProc" name="xeno_rat_server.Forms.CustomPictureBox.TriggerWndProc">
+<area shape="rect" id="Node000001" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
+</map>

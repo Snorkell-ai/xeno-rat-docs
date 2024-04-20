@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.WaveOutCapabilities" name="NAudio.Wave.WaveOutCapabilities">
+<area shape="rect" id="Node000001" title="WaveOutCapabilities structure (based on WAVEOUTCAPS2 from mmsystem.h) http://msdn...." alt="" coords="279,179,498,344"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,47,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="26,70,31,113,38,134,50,153,72,174,96,191,149,219,207,238,263,250,262,255,205,243,147,224,93,196,68,178,46,156,33,137,26,114,21,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="134,5,161,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,70,149,112,155,134,166,153,186,176,210,195,265,225,263,230,207,200,182,180,161,156,150,136,144,113,141,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="305,5,350,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="325,70,324,111,329,154,332,162,327,164,324,155,318,111,320,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="375,5,520,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="442,71,421,155,418,163,413,162,415,154,437,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="545,5,657,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="595,71,579,114,553,156,513,194,510,190,549,153,575,111,590,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="681,5,721,71"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="693,72,673,115,659,137,641,157,612,179,581,199,515,229,513,224,578,194,609,175,638,153,655,134,669,112,688,69"/>
+</map>

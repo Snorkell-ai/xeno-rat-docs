@@ -1,0 +1,6 @@
+<map id="NAudio.Wave.MediaFoundationEncoder.Dispose" name="NAudio.Wave.MediaFoundationEncoder.Dispose">
+<area shape="rect" id="Node000001" title="Disposes this instance." alt="" coords="281,29,485,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="426,16,410,10,383,8,358,10,342,15,336,21,339,28,334,29,331,19,339,10,357,5,383,3,411,5,428,11"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a87d20adca86859934f220685eb59e8bd" title="Finalizer." alt="" coords="5,29,233,70"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="265,52,233,52,233,47,265,47"/>
+</map>

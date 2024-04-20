@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.SampleProviders.Stereo8SampleChunkConverter" name="NAudio.Wave.SampleProviders.Stereo8SampleChunkConverter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="99,189,299,309"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_sample_providers_1_1_i_sample_chunk_converter.html" title="Sample provider interface to make WaveChannel32 extensible Still a bit ugly, hence internal at the mo..." alt="" coords="5,5,161,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,122,165,187,161,190,120,125"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="186,25,213,91"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,90,202,172,197,172,197,90"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="289,25,326,91"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="305,91,296,128,280,166,274,176,269,174,276,163,291,126,300,90"/>
+</map>

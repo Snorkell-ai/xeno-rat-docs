@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.AsioOut.AsioOut" name="NAudio.Wave.AsioOut.AsioOut">
+<area shape="rect" id="Node000001" title="Initializes a new instance of the AsioOut class with the driver name." alt="" coords="5,78,209,104"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a6b4c4484adddaf032543156544bb7d12" title="Initializes the object using the provided driver name and sets up the extended driver." alt="" coords="257,71,431,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,88,241,88,241,94,209,94"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a6dc13d1fff90997340723d3bfc3639b3" title="Retrieves the ASIO driver with the specified name." alt="" coords="484,5,683,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="420,68,491,48,492,53,421,73"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a7336209ca6f4d4f64f2c7651be304bca" title="Raises the DriverResetRequest event." alt="" coords="479,71,687,111"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="432,88,463,88,463,94,432,94"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a81041f83c4eddbcbbef68e476dca3cbd" title="Releases the resources associated with the provided AsioDriver." alt="" coords="481,136,685,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="421,109,492,129,491,134,420,114"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a13583f8b7ee3dadbcff71ad147c9e962" title="Retrieves an ASIO driver based on the specified GUID." alt="" coords="735,5,935,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="683,23,720,23,720,28,683,28"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a041c5dd57656322d91e796ee8f0a3b14" title=" " alt="" coords="983,5,1182,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="935,23,967,23,967,28,935,28"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.CoreAudioApi.WasapiCapture.DoRecording" name="NAudio.CoreAudioApi.WasapiCapture.DoRecording">
+<area shape="rect" id="Node000001" title="Records audio using the provided client &#160;and manages the capture state." alt="" coords="492,5,687,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#af5115bd377ab8a0c1d17ab0b5146bafd" title="Captures audio using the provided AudioClient and raises an event when recording is stopped." alt="" coords="249,5,444,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="476,28,444,28,444,23,476,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a9eb95d2da72e384fefe2e071c64784ee" title="Starts the recording process." alt="" coords="5,5,201,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="233,28,201,28,201,23,233,23"/>
+</map>

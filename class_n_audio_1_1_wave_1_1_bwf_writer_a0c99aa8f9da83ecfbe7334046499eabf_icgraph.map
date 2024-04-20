@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.BwfWriter.FixUpChunkSizes" name="NAudio.Wave.BwfWriter.FixUpChunkSizes">
+<area shape="rect" id="Node000001" title="Fixes up the chunk sizes in the WAV file." alt="" coords="267,23,450,64"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_bwf_writer.html#a4380dea69781af7bb67c4eaa58a4abb6" title="Disposes of the current object and releases any resources it is using." alt="" coords="5,5,219,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,35,219,32,219,26,252,30"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_bwf_writer.html#a26e344440e4118221c1112831e52711e" title="Flushes the underlying writer and ensures the WAV file is always playable after the flush operation." alt="" coords="13,55,211,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,57,211,61,211,55,251,51"/>
+</map>

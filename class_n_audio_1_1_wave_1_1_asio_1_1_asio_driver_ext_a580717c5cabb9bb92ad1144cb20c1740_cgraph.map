@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Asio.AsioDriverExt.Start" name="NAudio.Wave.Asio.AsioDriverExt.Start">
+<area shape="rect" id="Node000001" title="Starts the driver." alt="" coords="5,5,202,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a91fc0917283735a61f546bdb391b5f2d" title="Starts the ASIO driver." alt="" coords="250,5,449,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a76105cefc713c3dcc7e9bfd8dba74735" title="Handles the exception for the ASIO method." alt="" coords="497,5,696,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="449,23,482,23,482,28,449,28"/>
+</map>

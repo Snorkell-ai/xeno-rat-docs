@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveFormatConversionStream.EstimateSourceToDest" name="NAudio.Wave.WaveFormatConversionStream.EstimateSourceToDest">
+<area shape="rect" id="Node000001" title="Estimates the destination position based on the source position." alt="" coords="596,39,841,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a1766df921f483f2c6e57c5038b49af84" title="Estimates the destination value from the given source value." alt="" coords="301,5,546,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="580,46,546,42,547,37,580,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a524b0dca3af9e1ba0c6efe8841160e4b" title="Create a new WaveFormat conversion stream." alt="" coords="299,71,548,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="581,77,549,80,548,75,580,71"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a1d996e11940523e891d0fbe86731daca" title="Creates a PCM stream from the given source stream." alt="" coords="5,71,251,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="283,94,251,94,251,88,283,88"/>
+</map>

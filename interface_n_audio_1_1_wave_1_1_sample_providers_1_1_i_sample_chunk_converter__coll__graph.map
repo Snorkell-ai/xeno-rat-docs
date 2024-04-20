@@ -1,0 +1,3 @@
+<map id="NAudio.Wave.SampleProviders.ISampleChunkConverter" name="NAudio.Wave.SampleProviders.ISampleChunkConverter">
+<area shape="rect" id="Node000001" title="Sample provider interface to make WaveChannel32 extensible Still a bit ugly, hence internal at the mo..." alt="" coords="5,5,205,125"/>
+</map>

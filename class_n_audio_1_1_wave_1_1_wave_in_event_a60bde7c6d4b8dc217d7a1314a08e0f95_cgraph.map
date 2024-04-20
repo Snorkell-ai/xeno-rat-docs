@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveInEvent.GetPosition" name="NAudio.Wave.WaveInEvent.GetPosition">
+<area shape="rect" id="Node000001" title="Retrieves the current input device position in bytes." alt="" coords="5,27,193,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="262,5,433,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,34,246,27,246,33,194,39"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#aa95274e5f510f4e5ac9840d198d643c9" title="Retrieves the current position in the audio stream being played or recorded." alt="" coords="241,55,454,96"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="194,55,225,59,225,64,193,61"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="502,5,734,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="434,16,487,16,487,21,434,21"/>
+</map>

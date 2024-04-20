@@ -1,0 +1,6 @@
+<map id="xeno_rat_server.Forms.ProcessManager.DisplayProcessTree" name="xeno_rat_server.Forms.ProcessManager.DisplayProcessTree">
+<area shape="rect" id="Node000001" title="Displays the process tree in a tree view control." alt="" coords="5,29,212,70"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_process_manager.html#a3989448770abfd8e7e46f321d9cf331c" title="Populates the tree view with the process node and its children." alt="" coords="260,29,466,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,47,244,47,244,52,212,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="315,29,313,19,321,10,337,5,363,3,390,5,406,11,405,16,389,10,363,8,338,10,324,15,318,21,320,28"/>
+</map>

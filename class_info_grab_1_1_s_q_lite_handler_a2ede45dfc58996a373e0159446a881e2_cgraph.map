@@ -1,0 +1,14 @@
+<map id="InfoGrab.SQLiteHandler.ReadTable" name="InfoGrab.SQLiteHandler.ReadTable">
+<area shape="rect" id="Node000001" title="Reads the specified table and returns a boolean indicating success or failure." alt="" coords="5,88,200,129"/>
+<area shape="rect" id="Node000002" href="$class_info_grab_1_1_s_q_lite_handler.html#a50ac748c0c8463acd55e8767c2abfaf6" title="Reads a table from the specified offset and populates the table entries." alt="" coords="248,88,442,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,106,232,106,232,111,200,111"/>
+<area shape="poly" id="edge6_Node000002_Node000002" title=" " alt="" coords="299,88,297,78,305,69,321,63,345,61,371,64,386,70,384,75,370,69,345,67,322,69,308,73,302,79,304,87"/>
+<area shape="rect" id="Node000003" href="$class_info_grab_1_1_s_q_lite_handler.html#a49875eb1d8c88c7c501d4f6cdf231f2b" title="Converts a sequence of bytes to an unsigned integer." alt="" coords="490,5,699,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="403,85,489,55,509,49,511,54,491,60,405,90"/>
+<area shape="rect" id="Node000004" href="$class_info_grab_1_1_s_q_lite_handler.html#a633e4f2a42497bab44077194ca88656f" title="Converts a range of bytes to a long integer and returns the result." alt="" coords="500,70,689,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="442,96,484,92,485,97,443,101"/>
+<area shape="rect" id="Node000005" href="$class_info_grab_1_1_s_q_lite_handler.html#afea6448b1f2f481398b3d8f911049112" title="Returns the index of the first non&#45;128 byte in the array starting from the specified index." alt="" coords="500,120,689,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="443,115,485,119,484,124,442,120"/>
+<area shape="rect" id="Node000006" href="$class_info_grab_1_1_s_q_lite_handler.html#a475267e2c0435ef96e6342edd1492fa6" title="Determines if the given value is odd." alt="" coords="496,169,694,195"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="404,127,491,155,517,162,515,167,489,160,402,132"/>
+</map>

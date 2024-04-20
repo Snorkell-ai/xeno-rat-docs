@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Chat.RecvThread" name="xeno_rat_server.Forms.Chat.RecvThread">
+<area shape="rect" id="Node000001" title="Asynchronously receives data from the client and updates the UI with the received message." alt="" coords="510,5,700,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_chat.html#a7ffa83cac76f06baecec89efa383afcd" title="Initializes the asynchronous tasks for heart beat and receiving messages." alt="" coords="272,5,462,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,28,462,28,462,23,494,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_chat.html#aaec358851b55c5a14ef894579c1af4ba" title=" " alt="" coords="5,13,224,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="256,28,224,28,224,23,256,23"/>
+</map>

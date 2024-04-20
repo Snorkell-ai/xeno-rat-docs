@@ -1,0 +1,16 @@
+<map id="NAudio.Wave.Compression.AcmStream.Dispose" name="NAudio.Wave.Compression.AcmStream.Dispose">
+<area shape="rect" id="Node000001" title="Releases the unmanaged resources used by the WaveFormatConverter and optionally releases the managed ..." alt="" coords="666,104,852,145"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="806,91,788,85,759,83,732,85,715,89,709,95,712,103,707,104,704,94,713,85,731,79,759,77,789,80,807,86"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a63db5a6e10bee35b5796bf199cc5e203" title="Creates a new ACM stream to convert one format to another. Note that not all conversions can be done ..." alt="" coords="384,5,570,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="704,99,617,62,570,47,571,42,619,56,706,94"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html#a7519e310e179c34d843e369237dc4757" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="336,71,618,111"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="650,114,618,110,619,105,651,109"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_provider.html#a2ff8faa9b4d0380997fdcf12e09695ba" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="354,136,600,177"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="651,139,600,145,600,140,650,134"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#ae1c4716f728a3d286e5c6af600b24b8f" title="Frees resources associated with this ACM Stream." alt="" coords="384,201,570,242"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="705,154,619,191,571,205,570,200,617,186,703,149"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html#ad8be6f92cdc32435ecd3dafd32fc204f" title="Finalizer ensuring that resources get released properly." alt="" coords="5,71,288,111"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="320,94,288,94,288,88,320,88"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a275453c06d738c39bad434602752ade3" title="Releases the unmanaged resources used by the WaveFormatConversionStream and optionally releases the m..." alt="" coords="24,136,269,177"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="339,159,270,159,270,154,339,154"/>
+</map>

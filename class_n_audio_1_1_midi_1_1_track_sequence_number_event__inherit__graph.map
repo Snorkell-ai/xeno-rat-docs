@@ -1,0 +1,9 @@
+<map id="NAudio.Midi.TrackSequenceNumberEvent" name="NAudio.Midi.TrackSequenceNumberEvent">
+<area shape="rect" id="Node000001" title="Represents a MIDI track sequence number event event." alt="" coords="5,885,208,1045"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_meta_event.html" title="Represents a MIDI meta event." alt="" coords="44,632,169,837"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,853,109,886,104,886,104,853"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="31,119,183,584"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,599,109,632,104,632,104,599"/>
+<area shape="rect" id="Node000004" href="$class_i_cloneable.html" title=" " alt="" coords="69,5,144,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="109,85,109,119,104,119,104,85"/>
+</map>

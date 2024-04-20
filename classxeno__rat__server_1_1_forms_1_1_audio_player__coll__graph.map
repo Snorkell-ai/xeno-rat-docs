@@ -1,0 +1,58 @@
+<map id="xeno_rat_server.Forms.AudioPlayer" name="xeno_rat_server.Forms.AudioPlayer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="985,1429,1168,1589"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_buffered_wave_provider.html" title="Provides a buffered store of samples Read method will return queued samples or fill buffer with zeroe..." alt="" coords="661,1013,839,1273"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="841,1242,997,1415,993,1418,837,1245"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="767,572,864,637"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="812,653,768,1014,763,1013,807,652"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html" title="A very basic circular buffer implementation." alt="" coords="571,512,742,697"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="668,697,679,793,694,896,715,996,710,997,689,897,673,794,662,698"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="779,179,817,244"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="781,236,767,246,751,253,735,255,708,253,683,254,672,259,660,270,644,294,632,321,620,378,620,438,628,495,623,496,615,438,615,378,627,319,640,292,656,266,669,255,681,249,708,248,735,250,750,248,765,242,778,232"/>
+<area shape="rect" id="Node000017" href="$class_n_audio_1_1_wave_1_1_wave_out_buffer.html" title="A buffer of Wave samples for streaming to a Wave Output device." alt="" coords="945,512,1131,697"/>
+<area shape="poly" id="edge25_Node000017_Node000005" title=" " alt="" coords="801,243,808,286,816,307,828,326,839,335,851,338,864,342,878,350,911,383,941,420,990,496,985,499,937,423,907,387,875,354,862,347,850,344,837,340,824,330,812,310,803,287,796,244"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1073,179,1121,244"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1074,228,1007,270,988,287,975,302,961,317,939,330,912,339,887,342,842,336,821,334,800,334,779,340,756,354,727,384,704,419,687,457,675,496,670,495,682,455,699,416,722,380,752,350,776,335,799,329,821,328,843,331,887,336,911,334,937,326,958,313,971,299,984,283,1004,266,1072,223"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html" title="Alternative WaveOut class, making use of the Event callback." alt="" coords="1495,920,1696,1366"/>
+<area shape="poly" id="edge15_Node000011_Node000006" title=" " alt="" coords="1121,229,1144,241,1182,247,1234,248,1284,251,1304,257,1319,266,1342,302,1345,316,1342,327,1335,336,1324,342,1296,348,1230,350,1205,351,1193,354,1181,372,1171,395,1156,454,1149,524,1148,600,1152,676,1162,748,1176,810,1194,856,1219,897,1250,935,1285,970,1323,1001,1403,1054,1481,1094,1478,1099,1401,1059,1320,1006,1282,974,1246,939,1215,901,1189,859,1171,811,1157,749,1147,677,1142,600,1144,523,1151,453,1166,394,1177,370,1190,350,1204,346,1230,345,1295,343,1322,337,1332,332,1338,325,1340,316,1337,304,1315,270,1302,262,1283,256,1234,253,1182,252,1142,247,1119,234"/>
+<area shape="poly" id="edge27_Node000017_Node000006" title=" " alt="" coords="1095,244,1057,495,1052,495,1089,244"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="466,5,493,71"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="480,70,481,150,485,197,494,243,514,311,540,377,597,496,593,499,535,379,509,312,488,245,480,198,475,150,475,70"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="116,352,315,857"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="468,49,398,98,357,136,323,180,296,244,271,336,266,335,291,242,318,177,353,132,395,94,465,45"/>
+<area shape="rect" id="Node000018" href="$class_n_audio_1_1_wave_1_1_wave_header.html" title="WaveHeader interop structure (WAVEHDR) http://msdn.microsoft.com/en&#45;us/library/dd743837%28VS...." alt="" coords="583,179,755,244"/>
+<area shape="poly" id="edge22_Node000018_Node000007" title=" " alt="" coords="495,60,526,106,569,153,589,167,586,172,566,157,522,109,490,63"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="317,704,651,1039,647,1042,313,707"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="82,179,223,244"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="154,244,157,328,158,335,152,335,151,328,149,244"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="5,179,47,244"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="32,243,40,284,52,327,79,386,110,443,105,445,74,388,48,329,34,285,27,244"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="1496,1217,1183,1436,1180,1432,1493,1213"/>
+<area shape="rect" id="Node000012" href="$interface_n_audio_1_1_wave_1_1_i_wave_player.html" title="Represents the interface to a device that can play a WaveFile." alt="" coords="1627,522,1763,687"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="1682,702,1647,897,1643,921,1637,920,1642,896,1677,701"/>
+<area shape="rect" id="Node000013" href="$class_i_disposable.html" title=" " alt="" coords="1155,179,1236,244"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="1250,241,1304,255,1355,265,1487,305,1573,332,1617,350,1647,388,1668,432,1682,478,1691,522,1686,523,1677,479,1663,434,1642,391,1614,354,1571,337,1485,310,1353,271,1303,260,1249,246"/>
+<area shape="poly" id="edge19_Node000017_Node000013" title=" " alt="" coords="1200,259,1196,295,1183,329,1175,338,1168,343,1152,354,1126,391,1104,432,1069,513,1064,511,1099,430,1122,389,1148,350,1165,338,1172,334,1178,327,1191,293,1195,259"/>
+<area shape="rect" id="Node000014" href="$interface_n_audio_1_1_wave_1_1_i_wave_position.html" title="Interface for IWavePlayers that can report position." alt="" coords="1291,572,1427,637"/>
+<area shape="poly" id="edge14_Node000011_Node000014" title=" " alt="" coords="1374,651,1402,747,1442,856,1497,970,1492,972,1437,858,1397,749,1369,653"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="1451,572,1603,637"/>
+<area shape="poly" id="edge16_Node000011_Node000015" title=" " alt="" coords="1534,637,1565,896,1566,903,1561,904,1560,897,1528,637"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="941,5,986,71"/>
+<area shape="poly" id="edge17_Node000011_Node000016" title=" " alt="" coords="986,38,1144,49,1385,74,1512,93,1631,116,1730,144,1770,159,1801,176,1846,213,1874,250,1892,294,1909,351,1919,400,1928,462,1937,607,1937,681,1932,750,1923,811,1908,858,1891,892,1871,924,1821,982,1767,1033,1711,1075,1708,1071,1763,1029,1818,979,1866,921,1887,889,1904,856,1918,810,1927,750,1931,681,1932,607,1923,462,1914,401,1903,353,1887,296,1869,253,1842,217,1798,181,1767,164,1728,149,1630,121,1512,98,1385,80,1143,55,986,43"/>
+<area shape="poly" id="edge29_Node000017_Node000016" title=" " alt="" coords="965,70,963,184,966,256,973,328,988,413,1008,495,1003,496,983,415,967,328,961,256,958,184,959,70"/>
+<area shape="poly" id="edge21_Node000018_Node000016" title=" " alt="" coords="942,55,738,173,736,168,939,50"/>
+<area shape="poly" id="edge18_Node000011_Node000017" title=" " alt="" coords="1045,697,1052,746,1066,798,1086,849,1115,895,1152,936,1195,972,1242,1004,1290,1033,1389,1078,1479,1110,1478,1115,1387,1083,1288,1038,1239,1009,1192,976,1149,939,1111,898,1081,851,1061,800,1047,747,1040,698"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="689,242,721,292,737,313,751,326,768,334,783,338,813,337,844,336,860,341,878,350,915,380,947,417,974,456,997,496,992,499,970,459,943,420,912,384,875,354,859,346,843,342,813,342,783,343,766,339,748,330,733,316,717,295,684,245"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="609,5,729,71"/>
+<area shape="poly" id="edge23_Node000018_Node000019" title=" " alt="" coords="671,71,671,162,666,162,666,71"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="1260,179,1301,244"/>
+<area shape="poly" id="edge24_Node000017_Node000020" title=" " alt="" coords="1269,245,1244,288,1227,310,1208,330,1192,339,1178,342,1165,345,1152,354,1125,386,1102,422,1069,497,1064,495,1097,419,1120,383,1148,350,1163,340,1177,337,1190,334,1204,326,1223,307,1240,285,1265,242"/>
+<area shape="rect" id="Node000021" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="1606,179,1787,244"/>
+<area shape="poly" id="edge30_Node000011_Node000021" title=" " alt="" coords="1723,242,1753,292,1767,321,1778,351,1811,492,1820,550,1823,605,1821,660,1812,718,1778,858,1748,934,1707,1004,1703,1001,1743,931,1773,857,1807,717,1815,660,1818,605,1814,551,1806,493,1773,353,1763,323,1749,294,1718,245"/>
+<area shape="poly" id="edge26_Node000017_Node000021" title=" " alt="" coords="1611,246,1477,290,1324,331,1273,335,1231,331,1193,334,1173,341,1152,354,1121,384,1096,419,1077,457,1063,497,1058,495,1072,455,1092,416,1117,380,1148,350,1171,336,1192,328,1232,326,1273,330,1323,325,1475,285,1609,241"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="841,179,915,244"/>
+<area shape="poly" id="edge28_Node000017_Node000022" title=" " alt="" coords="877,244,876,284,882,327,897,372,917,416,963,497,958,500,912,418,892,374,877,329,871,284,872,244"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="1968,572,2111,637"/>
+<area shape="poly" id="edge31_Node000011_Node000023" title=" " alt="" coords="2039,637,2031,690,2015,758,1989,830,1972,865,1951,898,1898,957,1837,1009,1773,1054,1712,1089,1709,1085,1771,1049,1834,1005,1895,954,1947,895,1967,863,1984,828,2010,757,2025,689,2034,637"/>
+<area shape="rect" id="Node000024" title=" " alt="" coords="2135,572,2245,637"/>
+<area shape="poly" id="edge32_Node000011_Node000024" title=" " alt="" coords="2192,637,2188,684,2177,742,2158,803,2143,832,2125,859,2082,907,2034,950,1981,988,1925,1021,1814,1075,1713,1112,1711,1107,1811,1070,1922,1017,1978,983,2030,946,2079,903,2121,856,2139,830,2153,801,2172,741,2183,684,2187,637"/>
+</map>

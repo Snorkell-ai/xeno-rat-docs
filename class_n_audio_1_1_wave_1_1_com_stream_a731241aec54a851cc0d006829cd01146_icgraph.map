@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.ComStream.SetLength" name="NAudio.Wave.ComStream.SetLength">
+<area shape="rect" id="Node000001" title="Sets the length of the current stream." alt="" coords="279,5,478,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_com_stream.html#aaf6298c0e61cae63f12401f8cb7cbca9" title="Sets the size of the stream to the specified new size." alt="" coords="5,13,231,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,28,231,28,231,23,263,23"/>
+</map>

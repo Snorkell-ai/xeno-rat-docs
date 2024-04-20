@@ -1,0 +1,27 @@
+var dir_44031dafce7d83d504d6db0557482c55 =
+[
+    [ "Generator.cs", "_generator_8cs.html", "_generator_8cs" ],
+    [ "GeneratorBuilder.cs", "_generator_builder_8cs.html", null ],
+    [ "GeneratorEnum.cs", "_generator_enum_8cs.html", "_generator_enum_8cs" ],
+    [ "InfoChunk.cs", "_info_chunk_8cs.html", "_info_chunk_8cs" ],
+    [ "Instrument.cs", "_instrument_8cs.html", "_instrument_8cs" ],
+    [ "InstrumentBuilder.cs", "_instrument_builder_8cs.html", null ],
+    [ "Modulator.cs", "_modulator_8cs.html", "_modulator_8cs" ],
+    [ "ModulatorBuilder.cs", "_modulator_builder_8cs.html", "_modulator_builder_8cs" ],
+    [ "ModulatorType.cs", "_modulator_type_8cs.html", "_modulator_type_8cs" ],
+    [ "Preset.cs", "_preset_8cs.html", "_preset_8cs" ],
+    [ "PresetBuilder.cs", "_preset_builder_8cs.html", "_preset_builder_8cs" ],
+    [ "PresetsChunk.cs", "_presets_chunk_8cs.html", "_presets_chunk_8cs" ],
+    [ "RiffChunk.cs", "_file_formats_2_sound_font_2_riff_chunk_8cs.html", null ],
+    [ "SampleDataChunk.cs", "_sample_data_chunk_8cs.html", "_sample_data_chunk_8cs" ],
+    [ "SampleHeader.cs", "_sample_header_8cs.html", "_sample_header_8cs" ],
+    [ "SampleHeaderBuilder.cs", "_sample_header_builder_8cs.html", "_sample_header_builder_8cs" ],
+    [ "SampleMode.cs", "_sample_mode_8cs.html", "_sample_mode_8cs" ],
+    [ "SFSampleLink.cs", "_s_f_sample_link_8cs.html", "_s_f_sample_link_8cs" ],
+    [ "SFVersion.cs", "_s_f_version_8cs.html", "_s_f_version_8cs" ],
+    [ "SFVersionBuilder.cs", "_s_f_version_builder_8cs.html", "_s_f_version_builder_8cs" ],
+    [ "SoundFont.cs", "_sound_font_8cs.html", "_sound_font_8cs" ],
+    [ "StructureBuilder.cs", "_structure_builder_8cs.html", null ],
+    [ "Zone.cs", "_zone_8cs.html", "_zone_8cs" ],
+    [ "ZoneBuilder.cs", "_zone_builder_8cs.html", "_zone_builder_8cs" ]
+];

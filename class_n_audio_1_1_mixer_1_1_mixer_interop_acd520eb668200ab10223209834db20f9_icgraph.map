@@ -1,0 +1,5 @@
+<map id="NAudio.Mixer.MixerInterop.mixerGetID" name="NAudio.Mixer.MixerInterop.mixerGetID">
+<area shape="rect" id="Node000001" title="Retrieves the identifier of a mixer device associated with the specified mixer handle." alt="" coords="238,5,449,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_line.html#a3860614b63280f4112f646de1c4559d9" title="Retrieves the mixer ID associated with the specified wave input device." alt="" coords="5,5,190,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,28,190,28,190,23,222,23"/>
+</map>

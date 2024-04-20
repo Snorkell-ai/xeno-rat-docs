@@ -1,0 +1,23 @@
+<map id="NAudio.Wave.DirectSoundOut.PlaybackThreadFunc" name="NAudio.Wave.DirectSoundOut.PlaybackThreadFunc">
+<area shape="rect" id="Node000001" title="This method represents the playback thread function. It initializes the DirectSound,..." alt="" coords="5,219,208,259"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#ab6869914e5a31ec76a2035756ddcd2d3" title="Reads data from the wave stream and copies it to the secondary buffer. If the buffer is lost,..." alt="" coords="256,70,487,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,216,333,102,336,107,144,221"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a55eff163265ab3dd14959016edd5a7a9" title="Initializes the DirectSound and creates primary and secondary sound buffers for audio playback." alt="" coords="270,185,473,226"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="208,224,255,218,255,223,208,229"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a71f6886fb8cd55fd2ebe03204b3b878f" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="270,251,473,291"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="208,249,255,254,255,260,208,254"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a9fc6277a671787af4a015ce016b591a5" title="Stops the playback of the sound." alt="" coords="270,316,473,357"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="153,257,257,301,280,308,278,313,255,305,151,262"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a98508b4a01ed4153885d0f1a8ee108a2" title="Checks if the secondary buffer is lost and returns a boolean value indicating the result." alt="" coords="546,5,748,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="436,67,531,47,532,52,437,72"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="535,70,759,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="487,80,519,80,519,86,487,86"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a91ca3230b6a0e1afdd06e85845f8cc31" title="Creates a DirectSound object that represents the default sound device." alt="" coords="546,120,748,161"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="460,182,543,162,544,167,461,187"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a95ce868c252c89b87f1a2bb7da32db40" title="Retrieves a handle to the desktop window. The desktop window covers the entire screen...." alt="" coords="546,185,748,226"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="473,203,530,203,530,208,473,208"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a982c14b3cc8618ffb038ba8148557cc8" title="Converts milliseconds to bytes based on the average bytes per second of the wave format." alt="" coords="546,251,748,291"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="461,224,544,244,543,249,460,229"/>
+<area shape="rect" id="Node000011" href="$class_n_audio_1_1_wave_1_1_direct_sound_out.html#a4960fba42f35b798f0279d8380f37054" title="Cleans up the secondary buffer by filling it with silence data." alt="" coords="546,316,748,357"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="473,334,530,334,530,339,473,339"/>
+</map>

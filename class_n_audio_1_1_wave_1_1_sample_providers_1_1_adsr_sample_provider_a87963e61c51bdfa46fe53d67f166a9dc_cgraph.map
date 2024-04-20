@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.SampleProviders.AdsrSampleProvider.Read" name="NAudio.Wave.SampleProviders.AdsrSampleProvider.Read">
+<area shape="rect" id="Node000001" title="Reads audio samples from the source, processes them using the ADSR envelope generator,..." alt="" coords="5,35,214,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_envelope_generator.html#acd4caa06323434e67e3bc70496cf914d" title="Processes the envelope state and returns the output value." alt="" coords="274,5,485,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,41,259,36,259,41,214,46"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html#a5d289f74be04dfee607e40fa967072ca" title="Fill the specified buffer with 32 bit floating point samples." alt="" coords="262,70,497,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="214,63,246,67,246,72,214,68"/>
+</map>

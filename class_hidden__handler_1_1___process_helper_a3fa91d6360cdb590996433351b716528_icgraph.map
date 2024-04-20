@@ -1,0 +1,11 @@
+<map id="Hidden_handler._ProcessHelper.LocalFree" name="Hidden_handler._ProcessHelper.LocalFree">
+<area shape="rect" id="Node000001" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="900,5,1110,46"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,5,852,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="884,28,852,28,852,23,884,23"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="624,28,592,28,592,23,624,23"/>
+<area shape="rect" id="Node000004" href="$class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
+<area shape="rect" id="Node000005" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
+</map>

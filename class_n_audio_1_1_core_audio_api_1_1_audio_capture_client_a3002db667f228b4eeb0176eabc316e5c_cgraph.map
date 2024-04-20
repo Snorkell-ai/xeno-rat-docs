@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.AudioCaptureClient.GetNextPacketSize" name="NAudio.CoreAudioApi.AudioCaptureClient.GetNextPacketSize">
+<area shape="rect" id="Node000001" title="Retrieves the size of the next audio packet and returns the number of frames in the packet." alt="" coords="5,5,227,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_capture_client.html#a30a549766a58730b9cdf6f65f7ba131d" title=" " alt="" coords="275,5,533,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,23,259,23,259,28,227,28"/>
+</map>

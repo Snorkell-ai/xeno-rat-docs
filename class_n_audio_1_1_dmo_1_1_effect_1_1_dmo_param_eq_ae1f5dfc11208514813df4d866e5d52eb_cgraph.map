@@ -1,0 +1,11 @@
+<map id="NAudio.Dmo.Effect.DmoParamEq.DmoParamEq" name="NAudio.Dmo.Effect.DmoParamEq.DmoParamEq">
+<area shape="rect" id="Node000001" title="Create new DMO ParamEq." alt="" coords="5,23,211,64"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dmo_1_1_dmo_enumerator.html#a634bd8cd4175921212345e425194d75d" title="Retrieves the names of audio effects available and returns them as an enumerable collection of DmoDes..." alt="" coords="259,23,457,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,41,243,41,243,46,211,46"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dmo_1_1_dmo_enumerator.html#a05bf9895be9708c35129dec79fc0a57a" title="Retrieves a collection of DMO descriptors for a specified category." alt="" coords="505,23,703,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="458,41,489,41,489,46,458,46"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dmo_1_1_dmo_interop.html#a771a4d4ed7887384fc3034c5d0729815" title="Enumerates the DMOs (DirectX Media Objects) that are registered in the system and returns an enumerat..." alt="" coords="751,5,989,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="704,31,735,28,736,34,704,37"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_dmo_1_1_i_enum_dmo.html#a213cea3e76de2c78396174ad5c05df13" title=" " alt="" coords="771,55,969,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="704,50,756,55,755,60,704,55"/>
+</map>

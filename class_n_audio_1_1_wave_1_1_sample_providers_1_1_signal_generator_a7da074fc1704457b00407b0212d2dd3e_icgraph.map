@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.SignalGenerator.NextRandomTwo" name="NAudio.Wave.SampleProviders.SignalGenerator.NextRandomTwo">
+<area shape="rect" id="Node000001" title="Returns a random double value between &#45;1 and 1." alt="" coords="262,5,480,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_signal_generator.html#aface994a3592c7050a3da5829662027a" title="Reads audio samples into the buffer using the specified offset and count." alt="" coords="5,5,214,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,28,214,28,214,23,246,23"/>
+</map>

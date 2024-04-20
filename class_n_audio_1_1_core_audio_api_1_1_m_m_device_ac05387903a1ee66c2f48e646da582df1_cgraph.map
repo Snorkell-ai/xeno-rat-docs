@@ -1,0 +1,9 @@
+<map id="NAudio.CoreAudioApi.MMDevice.Dispose" name="NAudio.CoreAudioApi.MMDevice.Dispose">
+<area shape="rect" id="Node000001" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,39,225,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_endpoint_volume.html#abbf08880fde3f2f0eb30bd8b7b5aab32" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="273,5,458,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,42,257,37,258,43,226,47"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#abffe8651b4e968b2e301b3db07cadc8f" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="273,71,458,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,70,258,75,257,80,225,76"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#ad6aa53b32989f2761edc48b0d43b131d" title="Unregisters the notifications for audio sessions and sets the sessions to null." alt="" coords="506,71,760,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="459,88,490,88,490,94,459,94"/>
+</map>

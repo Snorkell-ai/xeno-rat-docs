@@ -1,0 +1,17 @@
+<map id="NAudio.Wave.SampleProviders.SampleToWaveProvider24" name="NAudio.Wave.SampleProviders.SampleToWaveProvider24">
+<area shape="rect" id="Node000001" title="Converts a sample provider to 24 bit PCM, optionally clipping and adjusting volume along the way." alt="" coords="210,762,410,882"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="5,399,103,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,479,63,524,73,577,90,632,116,683,136,708,160,731,212,769,209,773,156,735,132,711,112,685,85,634,67,579,57,525,53,479"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="127,399,320,464"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,463,242,585,256,661,275,737,278,745,272,747,270,739,251,662,237,586,223,464"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="344,179,543,684"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="391,685,370,739,365,748,360,746,365,737,386,683"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="238,5,379,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="317,70,337,154,341,169,336,171,331,155,312,71"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="423,5,464,71"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="446,71,446,162,441,162,441,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="557,5,583,71"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="565,71,543,155,541,163,536,162,538,154,560,70"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="567,399,605,464"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="593,464,596,510,595,568,583,629,572,658,558,685,531,718,499,745,463,768,427,786,424,781,460,763,495,741,527,714,553,683,568,656,578,627,589,567,591,510,588,464"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="NAudio.Dsp.SmbPitchShifter.PitchShift" name="NAudio.Dsp.SmbPitchShifter.PitchShift">
+<area shape="rect" id="Node000001" title="Performs pitch shifting on the input audio data." alt="" coords="302,29,496,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="443,16,427,10,399,8,373,10,357,15,351,21,354,28,349,29,346,19,354,10,372,5,399,3,428,5,445,11"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider.html#a5c4b14e77609cbe2d76207702423b36c" title="Reads audio samples from the source stream into the buffer and applies pitch shifting if necessary." alt="" coords="5,29,254,70"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="286,52,254,52,254,47,286,47"/>
+</map>

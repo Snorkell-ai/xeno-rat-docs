@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Registry_Manager.treeView1_AfterSelect" name="xeno_rat_server.Forms.Registry_Manager.treeView1_AfterSelect">
+<area shape="rect" id="Node000001" title="Updates the listView1 based on the selected node in treeView1." alt="" coords="516,5,727,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_registry___manager.html#a82caca77ae11efcf479f6d18d511d71f" title="Initializes the components of the form, setting up the tree view, list view, labels,..." alt="" coords="261,5,468,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="501,28,468,28,468,23,501,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_registry___manager.html#a2746ea04ea3ae64d1f5764316741da37" title=" " alt="" coords="5,5,213,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
+</map>

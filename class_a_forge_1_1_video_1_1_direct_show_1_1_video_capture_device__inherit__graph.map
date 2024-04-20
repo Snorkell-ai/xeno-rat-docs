@@ -1,0 +1,5 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice" name="AForge.Video.DirectShow.VideoCaptureDevice">
+<area shape="rect" id="Node000001" title="Video source for local video capture device (for example USB webcam)." alt="" coords="5,239,216,1353"/>
+<area shape="rect" id="Node000002" href="$interface_a_forge_1_1_video_1_1_i_video_source.html" title="Video source interface." alt="" coords="49,5,172,191"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,206,113,239,108,239,108,206"/>
+</map>

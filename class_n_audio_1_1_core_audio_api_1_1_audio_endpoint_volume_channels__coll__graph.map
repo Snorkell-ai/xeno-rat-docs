@@ -1,0 +1,12 @@
+<map id="NAudio.CoreAudioApi.AudioEndpointVolumeChannels" name="NAudio.CoreAudioApi.AudioEndpointVolumeChannels">
+<area shape="rect" id="Node000001" title="Audio Endpoint Volume Channels." alt="" coords="5,531,220,631"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="34,5,247,285"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,285,106,349,103,408,106,468,109,514,104,515,101,468,98,408,101,348,109,285"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_audio_endpoint_volume_channel.html" title="Audio Endpoint Volume Channel." alt="" coords="251,348,459,468"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="180,284,205,323,238,347,235,352,201,326,175,287"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="273,470,197,524,194,519,270,466"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="324,113,357,178"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="342,178,342,245,345,324,346,331,340,332,340,325,336,245,337,178"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="405,113,445,178"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="425,178,416,246,398,325,395,334,390,332,393,324,411,245,420,177"/>
+</map>

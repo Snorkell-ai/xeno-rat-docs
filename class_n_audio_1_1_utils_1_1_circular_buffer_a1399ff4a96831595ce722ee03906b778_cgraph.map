@@ -1,0 +1,5 @@
+<map id="NAudio.Utils.CircularBuffer.Reset" name="NAudio.Utils.CircularBuffer.Reset">
+<area shape="rect" id="Node000001" title="Resets the state of the object." alt="" coords="5,5,188,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a401e1389850f550230123905db0a0760" title="Resets the internal state of the object." alt="" coords="236,5,418,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,23,220,23,220,28,188,28"/>
+</map>

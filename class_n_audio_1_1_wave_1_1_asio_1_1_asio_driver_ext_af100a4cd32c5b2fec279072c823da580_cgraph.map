@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.Asio.AsioDriverExt.CreateBuffers" name="NAudio.Wave.Asio.AsioDriverExt.CreateBuffers">
+<area shape="rect" id="Node000001" title="Creates buffers for the specified number of output and input channels and returns the buffer size use..." alt="" coords="5,39,202,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#afa9568e223324aba2857640a84c0934b" title="Creates buffers for audio input and output." alt="" coords="250,5,449,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,43,234,39,234,44,202,48"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a8b950cc131c67e1be12da29173ce60ec" title="Checks if the output is ready and returns an AsioError." alt="" coords="250,71,449,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,69,234,73,234,79,202,74"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#a76105cefc713c3dcc7e9bfd8dba74735" title="Handles the exception for the ASIO method." alt="" coords="497,5,696,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="449,23,482,23,482,28,449,28"/>
+</map>

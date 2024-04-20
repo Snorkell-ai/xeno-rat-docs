@@ -1,0 +1,5 @@
+<map id="NAudio.MediaFoundation.MediaFoundationTransform.InitializeTransformForStreaming" name="NAudio.MediaFoundation.MediaFoundationTransform.InitializeTransformForStreaming">
+<area shape="rect" id="Node000001" title="Initializes the transform for streaming by processing specific messages and setting the initializedFo..." alt="" coords="5,5,261,61"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a3a72ff2388586a9855c48aedc86acf62" title="Sends a message to the Media Foundation transform (MFT)." alt="" coords="309,13,566,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,31,293,31,293,36,261,36"/>
+</map>

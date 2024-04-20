@@ -1,0 +1,3 @@
+<map id="NAudio.Wave.ISampleNotifier" name="NAudio.Wave.ISampleNotifier">
+<area shape="rect" id="Node000001" title="An interface for WaveStreams which can report notification of individual samples." alt="" coords="5,5,192,71"/>
+</map>

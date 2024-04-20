@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.BwfWriter.Dispose" name="NAudio.Wave.BwfWriter.Dispose">
+<area shape="rect" id="Node000001" title="Disposes of the current object and releases any resources it is using." alt="" coords="5,13,219,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_bwf_writer.html#a0c99aa8f9da83ecfbe7334046499eabf" title="Fixes up the chunk sizes in the WAV file." alt="" coords="267,5,450,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,23,251,23,251,28,219,28"/>
+</map>

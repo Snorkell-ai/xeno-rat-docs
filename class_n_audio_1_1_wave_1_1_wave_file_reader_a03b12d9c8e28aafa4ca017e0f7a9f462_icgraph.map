@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveFileReader.Read" name="NAudio.Wave.WaveFileReader.Read">
+<area shape="rect" id="Node000001" title="Reads a sequence of bytes from the current stream and advances the position within the stream by the ..." alt="" coords="510,13,745,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_reader.html#adb43e91807663429ab6267e010738a21" title="Reads the next sample frame from the audio data and returns it as an array of floats." alt="" coords="258,5,462,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,28,463,28,463,23,494,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_file_reader.html#ae6e52c6e1a0199b35e5e62b56046e366" title="Tries to read the next sample frame and returns a float value if successful." alt="" coords="5,5,210,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,28,210,28,210,23,242,23"/>
+</map>

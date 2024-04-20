@@ -1,0 +1,9 @@
+<map id="xeno_rat_server.MainForm.AddLog" name="xeno_rat_server.MainForm.AddLog">
+<area shape="rect" id="Node000001" title="Adds a log message to the list view with the specified text color." alt="" coords="460,39,639,79"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_main_form.html#abc2d48f76d2ce066f2c2e2f852cb64ac" title="Completes tasks on connection with the client node." alt="" coords="233,5,412,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="444,46,412,41,413,36,445,41"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_main_form.html#a50b1960a103811fc004621bcec9c16f5" title="Handles the connection of a socket and performs necessary setup operations." alt="" coords="233,71,412,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="445,76,413,81,412,76,444,71"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_main_form.html#a10da4cbe96d264b615a74b1b89b24101" title=" " alt="" coords="5,71,185,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="217,94,185,94,185,88,217,88"/>
+</map>

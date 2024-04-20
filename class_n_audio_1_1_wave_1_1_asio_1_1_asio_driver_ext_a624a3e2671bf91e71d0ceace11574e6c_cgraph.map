@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Asio.AsioDriverExt.ReleaseDriver" name="NAudio.Wave.Asio.AsioDriverExt.ReleaseDriver">
+<area shape="rect" id="Node000001" title="Releases the driver resources and COM ASIO driver." alt="" coords="5,39,202,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#abf9d5ce17b2e7ff0f993b8349a18dc11" title="Disposes the ASIO buffers and frees the allocated memory." alt="" coords="250,5,449,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,43,234,39,234,44,202,48"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html#aaa33751c9601d711e0e90adf20434ff7" title="Releases the COM object associated with the ASIO driver." alt="" coords="250,71,449,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,69,234,73,234,79,202,74"/>
+</map>

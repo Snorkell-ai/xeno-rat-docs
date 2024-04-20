@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveFileWriter.WriteData" name="NAudio.Wave.WaveFileWriter.WriteData">
+<area shape="rect" id="Node000001" title="Writes the specified number of samples from the given array, starting at the specified offset." alt="" coords="5,5,202,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#abe1e7f80f004e380654748b8fe285608" title="Writes the specified bytes to the WAV file." alt="" coords="250,5,446,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
+</map>

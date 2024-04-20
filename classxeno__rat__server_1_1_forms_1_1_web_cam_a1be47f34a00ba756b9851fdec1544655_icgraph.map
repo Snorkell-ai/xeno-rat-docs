@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.WebCam.button1_Click" name="xeno_rat_server.Forms.WebCam.button1_Click">
+<area shape="rect" id="Node000001" title="Asynchronously refreshes the cameras." alt="" coords="470,5,654,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_web_cam.html#adb19c9700d4da2f0dee4995eba9df355" title="Initializes the components of the WebCam form." alt="" coords="238,5,422,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="454,28,423,28,423,23,454,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_web_cam.html#a04f45df1b3118b1e0f560db583e6ec09" title=" " alt="" coords="5,5,190,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,28,190,28,190,23,222,23"/>
+</map>

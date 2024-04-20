@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.IMp3FrameDecompressor" name="NAudio.Wave.IMp3FrameDecompressor">
+<area shape="rect" id="Node000001" title="Interface for MP3 frame by frame decoder." alt="" coords="115,119,363,204"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_file_formats_1_1_mp3_1_1_dmo_mp3_frame_decompressor.html" title="MP3 Frame decompressor using the Windows Media MP3 Decoder DMO object." alt="" coords="5,252,212,492"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,218,185,254,181,251,203,215"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html" title="MP3 Frame Decompressor using ACM." alt="" coords="236,269,507,475"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="276,215,310,268,305,271,271,218"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="199,5,280,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,85,242,119,237,119,237,85"/>
+</map>

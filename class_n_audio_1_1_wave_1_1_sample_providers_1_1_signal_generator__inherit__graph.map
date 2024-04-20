@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.SignalGenerator" name="NAudio.Wave.SampleProviders.SignalGenerator">
+<area shape="rect" id="Node000001" title="Signal Generator Sin, Square, Triangle, SawTooth, White Noise, Pink Noise, Sweep." alt="" coords="5,119,205,539"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="51,5,160,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,85,108,119,103,119,103,85"/>
+</map>

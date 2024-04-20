@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveChannel32.Read" name="NAudio.Wave.WaveChannel32.Read">
+<area shape="rect" id="Node000001" title="Reads audio data from the source stream and writes it to the destination buffer." alt="" coords="5,46,241,72"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_sample_providers_1_1_i_sample_chunk_converter.html#a6bdd4aecceee325b15f8c6267d57a554" title=" " alt="" coords="289,5,550,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,43,273,39,274,45,242,48"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_channel32.html#aec223744502a636a49e910fb5eb925d5" title="Raises the Sample event with the specified left and right values." alt="" coords="317,71,522,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,69,302,76,301,81,241,74"/>
+</map>

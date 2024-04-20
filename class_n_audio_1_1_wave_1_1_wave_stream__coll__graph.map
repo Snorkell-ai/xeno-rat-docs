@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveStream" name="NAudio.Wave.WaveStream">
+<area shape="rect" id="Node000001" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="5,119,177,404"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,5,69,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,85,62,118,57,120,50,86"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="93,5,191,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,86,126,120,121,118,129,85"/>
+</map>

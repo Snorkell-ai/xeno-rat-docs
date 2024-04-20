@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.WaveProvider16" name="NAudio.Wave.WaveProvider16">
+<area shape="rect" id="Node000001" title="Base class for creating a 16 bit wave provider." alt="" coords="5,747,197,892"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="31,399,129,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,479,100,747,95,747,80,479"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="153,179,351,684"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,685,138,732,133,730,151,683"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="47,5,188,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,70,145,154,150,169,145,171,140,155,120,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="231,5,273,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="255,71,255,162,249,162,249,71"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="365,5,392,71"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="374,71,352,155,349,163,344,162,347,154,369,70"/>
+</map>

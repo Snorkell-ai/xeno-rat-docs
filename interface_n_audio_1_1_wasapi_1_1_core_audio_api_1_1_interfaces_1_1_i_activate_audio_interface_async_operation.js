@@ -1,0 +1,4 @@
+var interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_async_operation =
+[
+    [ "GetActivateResult", "interface_n_audio_1_1_wasapi_1_1_core_audio_api_1_1_interfaces_1_1_i_activate_audio_interface_async_operation.html#ab035f5e4f6bdbf22ec2a3dfb9c60526d", null ]
+];

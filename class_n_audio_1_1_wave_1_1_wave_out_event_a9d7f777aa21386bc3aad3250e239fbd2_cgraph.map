@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOutEvent.Stop" name="NAudio.Wave.WaveOutEvent.Stop">
+<area shape="rect" id="Node000001" title="Stops the playback." alt="" coords="5,13,230,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#aa080e600639676ba67851a13e6d3ea50" title="Resets the specified waveform&#45;audio output device." alt="" coords="278,5,491,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,23,262,23,262,28,230,28"/>
+</map>

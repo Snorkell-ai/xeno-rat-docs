@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.AdsrSampleProvider.AdsrSampleProvider" name="NAudio.Wave.SampleProviders.AdsrSampleProvider.AdsrSampleProvider">
+<area shape="rect" id="Node000001" title="Creates a new AdsrSampleProvider with default values." alt="" coords="5,5,268,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_envelope_generator.html#a00379bac79394a69f9628d3dc498d423" title="Sets the envelope state based on the gate condition." alt="" coords="316,13,554,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,23,300,23,300,28,268,28"/>
+</map>

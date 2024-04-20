@@ -1,0 +1,8 @@
+<map id="NAudio.Wave.AcmMp3FrameDecompressor.~AcmMp3FrameDecompressor" name="NAudio.Wave.AcmMp3FrameDecompressor.~AcmMp3FrameDecompressor">
+<area shape="rect" id="Node000001" title="Finalizer ensuring that resources get released properly." alt="" coords="5,29,288,70"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html#a7519e310e179c34d843e369237dc4757" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="336,29,618,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="288,47,320,47,320,52,288,52"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a9037fe64d3d79067ae4068ffb16ba430" title="Releases the unmanaged resources used by the WaveFormatConverter and optionally releases the managed ..." alt="" coords="666,29,852,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="618,47,650,47,650,52,618,52"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="707,29,704,19,713,10,731,5,759,3,789,5,807,11,806,16,788,10,759,8,732,10,715,15,709,21,712,28"/>
+</map>

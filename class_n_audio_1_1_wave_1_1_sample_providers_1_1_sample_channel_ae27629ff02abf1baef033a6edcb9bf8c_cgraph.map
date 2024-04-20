@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.SampleChannel.SampleChannel" name="NAudio.Wave.SampleProviders.SampleChannel.SampleChannel">
+<area shape="rect" id="Node000001" title="Initialises a new instance of SampleChannel." alt="" coords="5,13,215,54"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_provider_converters.html#a6fd3492cb2723b1defaa5c69c77c16ad" title="Converts the specified WaveProvider into a SampleProvider." alt="" coords="263,5,490,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,31,247,31,247,36,215,36"/>
+</map>

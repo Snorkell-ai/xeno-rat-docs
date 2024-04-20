@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveRecorder.Read" name="NAudio.Wave.WaveRecorder.Read">
+<area shape="rect" id="Node000001" title="Reads a specified number of bytes from the source and writes them to the writer, returning the number..." alt="" coords="5,35,231,60"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="279,5,503,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,33,263,29,263,35,231,38"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#abe1e7f80f004e380654748b8fe285608" title="Writes the specified bytes to the WAV file." alt="" coords="293,55,489,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,56,278,61,277,67,231,62"/>
+</map>

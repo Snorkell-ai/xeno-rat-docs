@@ -1,0 +1,3 @@
+<map id="NAudio.Codecs.G722CodecState" name="NAudio.Codecs.G722CodecState">
+<area shape="rect" id="Node000001" title="Stores state to be used between calls to Encode or Decode." alt="" coords="5,5,215,251"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Plugin.Main.FileDownloader" name="Plugin.Main.FileDownloader">
+<area shape="rect" id="Node000001" title="Downloads a file from the specified node and saves it to the specified path." alt="" coords="428,5,611,31"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#ae17a6824e13f8994fa8203747ef5e008" title="Handles file management operations based on the type of request received from the node." alt="" coords="171,5,380,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="412,21,380,21,380,16,412,16"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the node and handles communication with connected nodes." alt="" coords="5,5,123,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,21,123,21,123,16,155,16"/>
+</map>

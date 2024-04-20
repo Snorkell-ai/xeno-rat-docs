@@ -1,0 +1,14 @@
+<map id="xeno_rat_server.Forms.Registry_Manager.GetRegInfo" name="xeno_rat_server.Forms.Registry_Manager.GetRegInfo">
+<area shape="rect" id="Node000001" title="Retrieves registration information for the specified path." alt="" coords="792,88,1000,129"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_registry___manager.html#a5c85e48cc9a980538c39527ce84be05c" title="Asynchronously starts the process of adding registry information to the tree view." alt="" coords="527,55,734,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="776,96,734,91,735,85,777,91"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_registry___manager.html#a371086faec3a668187cfd94ce08bd828" title="Handles the BeforeExpand event of the treeView1 control." alt="" coords="516,120,744,161"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="777,125,745,129,744,124,777,120"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_registry___manager.html#a08fce7cf1593b0345876938460a9424f" title="Clears the text in textBox1, clears the items in listView1, clears the nodes in treeView1,..." alt="" coords="261,5,468,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="511,56,468,48,469,42,512,50"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_registry___manager.html#a2746ea04ea3ae64d1f5764316741da37" title=" " alt="" coords="5,92,213,133"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="511,86,213,108,213,102,511,81"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_registry___manager.html#a82caca77ae11efcf479f6d18d511d71f" title="Initializes the components of the form, setting up the tree view, list view, labels,..." alt="" coords="261,120,468,161"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="500,143,468,143,468,138,500,138"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="245,130,213,126,213,121,245,125"/>
+</map>

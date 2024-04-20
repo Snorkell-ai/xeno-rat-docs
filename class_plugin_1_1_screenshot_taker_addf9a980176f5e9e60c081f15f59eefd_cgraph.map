@@ -1,0 +1,9 @@
+<map id="Plugin.ScreenshotTaker.TakeScreenshot" name="Plugin.ScreenshotTaker.TakeScreenshot">
+<area shape="rect" id="Node000001" title="Takes a screenshot of the specified screen and returns the image data as a byte array." alt="" coords="5,55,196,96"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_screenshot_taker.html#ac50eaab8458b614689908c94413e10df" title="Draws an icon at the specified coordinates on the device context." alt="" coords="244,5,462,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,52,277,32,279,38,194,57"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_screenshot_taker.html#aded9ead46bd3b25fabae5de96c35db4b" title="Retrieves information about the global cursor." alt="" coords="261,55,445,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,73,246,73,246,78,196,78"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_screenshot_taker.html#a45b472b870502fd52f55da27c066b69e" title="Retrieves the encoder information for the specified image format." alt="" coords="261,121,445,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,94,257,113,256,119,181,99"/>
+</map>

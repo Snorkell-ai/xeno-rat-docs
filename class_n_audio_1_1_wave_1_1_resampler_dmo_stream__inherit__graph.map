@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.ResamplerDmoStream" name="NAudio.Wave.ResamplerDmoStream">
+<area shape="rect" id="Node000001" title="Wave Stream for converting between sample rates." alt="" coords="5,452,193,792"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="51,119,148,404"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,419,102,453,97,453,97,419"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="23,5,77,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="63,85,70,118,65,120,58,86"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="101,5,199,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="142,86,134,120,129,118,137,85"/>
+</map>

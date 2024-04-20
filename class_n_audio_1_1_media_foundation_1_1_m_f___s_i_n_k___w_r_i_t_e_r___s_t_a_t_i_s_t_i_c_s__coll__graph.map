@@ -1,0 +1,7 @@
+<map id="NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS" name="NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS">
+<area shape="rect" id="Node000001" title="Contains statistics about the performance of the sink writer." alt="" coords="69,284,267,364"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,5,41,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="21,71,13,111,8,160,13,212,20,236,32,258,57,284,53,287,28,261,15,238,8,213,3,160,7,111,16,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="289,5,327,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,70,317,111,314,161,304,213,294,238,281,261,271,274,266,270,276,258,289,236,298,211,309,160,311,111,309,71"/>
+</map>

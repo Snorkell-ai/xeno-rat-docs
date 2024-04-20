@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveFileWriter" name="NAudio.Wave.WaveFileWriter">
+<area shape="rect" id="Node000001" title="This class writes WAV data to a .wav file on disk." alt="" coords="17,119,203,944"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_cue_wave_file_writer.html" title="A wave file writer that adds cue support." alt="" coords="5,992,215,1117"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="113,959,113,992,107,992,107,959"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="83,5,137,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,86,113,119,107,119,107,86"/>
+</map>

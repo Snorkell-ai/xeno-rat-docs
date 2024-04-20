@@ -1,0 +1,46 @@
+var class_n_audio_1_1_wave_1_1_wave_interop =
+[
+    [ "WaveInOutOpenFlags", "class_n_audio_1_1_wave_1_1_wave_interop.html#a024bc482edc6036047123e2ac1e01a29", [
+      [ "CallbackNull", "class_n_audio_1_1_wave_1_1_wave_interop.html#a024bc482edc6036047123e2ac1e01a29a53ab39807e6b812df21d35d0a7f0fb13", null ],
+      [ "CallbackFunction", "class_n_audio_1_1_wave_1_1_wave_interop.html#a024bc482edc6036047123e2ac1e01a29acc55701f7a8364b1d2766981c6a63aff", null ],
+      [ "CallbackEvent", "class_n_audio_1_1_wave_1_1_wave_interop.html#a024bc482edc6036047123e2ac1e01a29a02a5021f7e5a3cbaf51a25647ff0dc71", null ],
+      [ "CallbackWindow", "class_n_audio_1_1_wave_1_1_wave_interop.html#a024bc482edc6036047123e2ac1e01a29ae6e3732730d711869db42a9dbc20c8ae", null ],
+      [ "CallbackThread", "class_n_audio_1_1_wave_1_1_wave_interop.html#a024bc482edc6036047123e2ac1e01a29af68465234133609a6b5ec5102f861939", null ]
+    ] ],
+    [ "WaveMessage", "class_n_audio_1_1_wave_1_1_wave_interop.html#a5ac7b4d93c7c5898233ea0627f7d2b61", [
+      [ "WaveInOpen", "class_n_audio_1_1_wave_1_1_wave_interop.html#a5ac7b4d93c7c5898233ea0627f7d2b61a4b47631973d11417e969afe790f6346a", null ],
+      [ "WaveInClose", "class_n_audio_1_1_wave_1_1_wave_interop.html#a5ac7b4d93c7c5898233ea0627f7d2b61ac573c5b2a96d5b56ed7b8d478a1e07fa", null ],
+      [ "WaveInData", "class_n_audio_1_1_wave_1_1_wave_interop.html#a5ac7b4d93c7c5898233ea0627f7d2b61a9f028096542e36e114b43eae64b457ae", null ],
+      [ "WaveOutClose", "class_n_audio_1_1_wave_1_1_wave_interop.html#a5ac7b4d93c7c5898233ea0627f7d2b61a03bae73ad7f4af293ad3286b9f83ec8b", null ],
+      [ "WaveOutDone", "class_n_audio_1_1_wave_1_1_wave_interop.html#a5ac7b4d93c7c5898233ea0627f7d2b61a27e3df3638204906b1e146923c2a44be", null ],
+      [ "WaveOutOpen", "class_n_audio_1_1_wave_1_1_wave_interop.html#a5ac7b4d93c7c5898233ea0627f7d2b61a5e60532990461323682a8c9dd7d8f33f", null ]
+    ] ],
+    [ "mmioStringToFOURCC", "class_n_audio_1_1_wave_1_1_wave_interop.html#ab486f47b2c709ed4e0cc1200d7a5e741", null ],
+    [ "WaveCallback", "class_n_audio_1_1_wave_1_1_wave_interop.html#aca9386555d46274be372d47c99d21274", null ],
+    [ "waveInAddBuffer", "class_n_audio_1_1_wave_1_1_wave_interop.html#a7932db1913b66dc363a6aef86fbf2e62", null ],
+    [ "waveInClose", "class_n_audio_1_1_wave_1_1_wave_interop.html#a700f666e57095399600aeb93c05150e2", null ],
+    [ "waveInGetDevCaps", "class_n_audio_1_1_wave_1_1_wave_interop.html#abbc3209e7a8a1f28cf8af76140f2b2cf", null ],
+    [ "waveInGetNumDevs", "class_n_audio_1_1_wave_1_1_wave_interop.html#aae40c3dccdfce68ae989910976b190aa", null ],
+    [ "waveInGetPosition", "class_n_audio_1_1_wave_1_1_wave_interop.html#aa95274e5f510f4e5ac9840d198d643c9", null ],
+    [ "waveInOpen", "class_n_audio_1_1_wave_1_1_wave_interop.html#ad1c01032af8088325ba0673c6b752580", null ],
+    [ "waveInOpenWindow", "class_n_audio_1_1_wave_1_1_wave_interop.html#a492999b8d00c55e7c1aa3ccc87894199", null ],
+    [ "waveInPrepareHeader", "class_n_audio_1_1_wave_1_1_wave_interop.html#aed63bf05150dfaa3d7f85a62f9f2ad5d", null ],
+    [ "waveInReset", "class_n_audio_1_1_wave_1_1_wave_interop.html#af3d2e5654fc9d1235350d9867e429293", null ],
+    [ "waveInStart", "class_n_audio_1_1_wave_1_1_wave_interop.html#a9781279707ba943e6b6149801ca3d0ef", null ],
+    [ "waveInStop", "class_n_audio_1_1_wave_1_1_wave_interop.html#a699a79d317473f9e255d783622dc8cac", null ],
+    [ "waveInUnprepareHeader", "class_n_audio_1_1_wave_1_1_wave_interop.html#a8fe3d02d740cbdb83326974454b1e04a", null ],
+    [ "waveOutClose", "class_n_audio_1_1_wave_1_1_wave_interop.html#a9bfe4605db74d845aafb637240db3cd6", null ],
+    [ "waveOutGetDevCaps", "class_n_audio_1_1_wave_1_1_wave_interop.html#abd255f895d782834bd4b8c54e3e36f98", null ],
+    [ "waveOutGetNumDevs", "class_n_audio_1_1_wave_1_1_wave_interop.html#ae923d379280705690c89941f6d84b903", null ],
+    [ "waveOutGetPosition", "class_n_audio_1_1_wave_1_1_wave_interop.html#a61cab87e0a87f8b1520d6012f1edb397", null ],
+    [ "waveOutGetVolume", "class_n_audio_1_1_wave_1_1_wave_interop.html#a8b7494a684476cb4b812a8aa93f7fdf3", null ],
+    [ "waveOutOpen", "class_n_audio_1_1_wave_1_1_wave_interop.html#aa06a99c75c9e12a09193b517320e7a75", null ],
+    [ "waveOutOpenWindow", "class_n_audio_1_1_wave_1_1_wave_interop.html#a39049aaded18792ed850ed71112bbfb2", null ],
+    [ "waveOutPause", "class_n_audio_1_1_wave_1_1_wave_interop.html#a079c99a507208a238c7159f4d6914b9d", null ],
+    [ "waveOutPrepareHeader", "class_n_audio_1_1_wave_1_1_wave_interop.html#a1dbecc07cd3ba339b3c36302ae64a640", null ],
+    [ "waveOutReset", "class_n_audio_1_1_wave_1_1_wave_interop.html#aa080e600639676ba67851a13e6d3ea50", null ],
+    [ "waveOutRestart", "class_n_audio_1_1_wave_1_1_wave_interop.html#a3f3d47cd8932f63f3fdded0857290e8e", null ],
+    [ "waveOutSetVolume", "class_n_audio_1_1_wave_1_1_wave_interop.html#a4c3b3a83b701c1cb30388dfc30c25804", null ],
+    [ "waveOutUnprepareHeader", "class_n_audio_1_1_wave_1_1_wave_interop.html#ad47f52cccd2091f1c38a3b4695bac635", null ],
+    [ "waveOutWrite", "class_n_audio_1_1_wave_1_1_wave_interop.html#ab3c605e4c71d004f248d7760c6f69704", null ]
+];

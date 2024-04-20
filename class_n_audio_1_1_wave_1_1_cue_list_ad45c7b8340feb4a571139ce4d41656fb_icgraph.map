@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.CueList.Add" name="NAudio.Wave.CueList.Add">
+<area shape="rect" id="Node000001" title="Adds a cue to the collection of cues." alt="" coords="274,13,451,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_cue_wave_file_writer.html#a28d580a96ff21563a7c374b5b7a720be" title="Adds a cue at the specified position with the given label." alt="" coords="5,5,226,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,28,226,28,226,23,258,23"/>
+</map>

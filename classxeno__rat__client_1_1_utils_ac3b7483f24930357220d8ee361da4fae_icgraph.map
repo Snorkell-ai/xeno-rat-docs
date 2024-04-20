@@ -1,0 +1,19 @@
+<map id="xeno_rat_client.Utils.GetWindowThreadProcessId" name="xeno_rat_client.Utils.GetWindowThreadProcessId">
+<area shape="rect" id="Node000001" title="Retrieves the identifier of the thread that created the specified window and, optionally,..." alt="" coords="1548,27,1715,68"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__client_1_1_utils.html#aec913c555ee2a11dcb25de79d50b00e8" title="Retrieves the caption of the active window." alt="" coords="1334,27,1500,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1532,50,1500,50,1500,45,1532,45"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__client_1_1_utils.html#a0449728a100f4afb94eea58ad8b1d859" title="Retrieves the caption of the active window asynchronously." alt="" coords="1085,27,1286,68"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1319,50,1287,50,1287,45,1319,45"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the keylogger on the specified node, sending key data to the node when available." alt="" coords="898,5,1015,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1069,35,1015,28,1016,23,1070,30"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__client_1_1_handler.html#a3e4202f33d90fe492b78342e136136ec" title="Sends update information to the specified node asynchronously." alt="" coords="876,55,1037,96"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1070,64,1038,68,1037,63,1070,59"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__client_1_1_handler.html#ad419768db746814c3500009dd29101b8" title="Asynchronously receives data from the specified subServer node and processes it based on the received..." alt="" coords="666,55,828,96"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="860,78,828,78,828,73,860,73"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__client_1_1_handler.html#ad71391058f264e78c9c31d0dcbc19007" title="Asynchronously creates a sub socket based on the provided data." alt="" coords="457,55,618,96"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="651,78,619,78,619,73,651,73"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__client_1_1_handler.html#af958615880e2daf8a8d0ede5f4c53363" title="Asynchronously receives data and performs different actions based on the received opcode." alt="" coords="248,55,409,96"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="441,78,409,78,409,73,441,73"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__client_1_1_program.html#a8e01c4689de41166b75a03fda71d12f0" title="Main function for the XenoUpdateManager application." alt="" coords="5,63,200,88"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="232,78,200,78,200,73,232,73"/>
+</map>

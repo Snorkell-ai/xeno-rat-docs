@@ -1,0 +1,12 @@
+<map id="InfoGrab.SQLiteHandler.ReadMasterTable" name="InfoGrab.SQLiteHandler.ReadMasterTable">
+<area shape="rect" id="Node000001" title="Reads the master table from the specified offset." alt="" coords="5,88,200,129"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="56,88,53,78,61,69,78,63,103,61,129,64,145,70,143,75,128,69,102,67,79,69,64,73,59,79,61,87"/>
+<area shape="rect" id="Node000002" href="$class_info_grab_1_1_s_q_lite_handler.html#a49875eb1d8c88c7c501d4f6cdf231f2b" title="Converts a sequence of bytes to an unsigned integer." alt="" coords="248,5,457,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,85,247,55,267,49,268,54,249,60,163,90"/>
+<area shape="rect" id="Node000003" href="$class_info_grab_1_1_s_q_lite_handler.html#a633e4f2a42497bab44077194ca88656f" title="Converts a range of bytes to a long integer and returns the result." alt="" coords="258,70,447,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,96,242,92,242,97,200,101"/>
+<area shape="rect" id="Node000004" href="$class_info_grab_1_1_s_q_lite_handler.html#afea6448b1f2f481398b3d8f911049112" title="Returns the index of the first non&#45;128 byte in the array starting from the specified index." alt="" coords="258,120,447,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="200,115,242,119,242,124,200,120"/>
+<area shape="rect" id="Node000005" href="$class_info_grab_1_1_s_q_lite_handler.html#a475267e2c0435ef96e6342edd1492fa6" title="Determines if the given value is odd." alt="" coords="253,169,452,195"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="161,127,248,155,274,162,273,167,247,160,160,132"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.Free" name="AForge.Video.DirectShow.VideoCaptureDevice.Free">
+<area shape="rect" id="Node000001" title="Frees the resources used by the thread and releases the events." alt="" coords="493,27,667,68"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a246d532c8b0b574db65a8e7b1466263e" title="Waits for the thread to stop and then frees any resources associated with it." alt="" coords="228,27,445,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="477,50,445,50,445,45,477,45"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="10,5,175,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="212,35,175,31,176,25,212,30"/>
+<area shape="rect" id="Node000004" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#aea33824ad430b4c5f2f6578871deb4de" title="Stops the running thread if it is currently running." alt="" coords="5,55,180,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="212,64,181,68,180,63,212,59"/>
+</map>

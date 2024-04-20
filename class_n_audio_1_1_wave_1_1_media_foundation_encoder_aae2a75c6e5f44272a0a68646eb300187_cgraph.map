@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.MediaFoundationEncoder.EncodeToAac" name="NAudio.Wave.MediaFoundationEncoder.EncodeToAac">
+<area shape="rect" id="Node000001" title="Helper function to simplify encoding to AAC By default, will only be available on Windows 7 and above..." alt="" coords="5,39,210,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a2e77232b67c6de976fcafd448079030b" title="Creates a new encoder that encodes to the specified output media type." alt="" coords="258,5,477,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,43,242,39,242,44,210,49"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ac773a4287e420450ca87772c27c735a9" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="265,71,470,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,69,250,74,250,79,210,74"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="525,71,729,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="470,88,509,88,509,94,470,94"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="777,5,1034,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="716,67,801,47,802,53,717,73"/>
+<area shape="rect" id="Node000006" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="777,71,1034,111"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="730,88,762,88,762,94,730,94"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="790,135,1021,191"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="709,109,781,128,780,133,708,115"/>
+</map>

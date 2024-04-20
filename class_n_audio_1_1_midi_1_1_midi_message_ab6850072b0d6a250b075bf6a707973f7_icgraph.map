@@ -1,0 +1,13 @@
+<map id="NAudio.Midi.MidiMessage.ValidateChannel" name="NAudio.Midi.MidiMessage.ValidateChannel">
+<area shape="rect" id="Node000001" title="Validates the channel number to ensure it falls within the range of 1 to 16." alt="" coords="456,71,633,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_message.html#a6be0ba89281f1eabaee979c66adf91e8" title="Changes the control value for a specific MIDI controller on the specified channel and returns the cor..." alt="" coords="231,5,408,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="457,68,391,49,393,44,458,63"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_message.html#a2ac3339c763f6364d2eb0f9605826dd3" title="Changes the patch for the specified MIDI channel and returns the corresponding MIDI message." alt="" coords="231,71,408,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="441,94,409,94,409,88,441,88"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_midi_1_1_midi_message.html#a3f2acf86a674a258b0711e048f85750e" title="Validates the note, volume, and channel parameters for MIDI messages." alt="" coords="231,136,408,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="458,119,393,138,391,133,457,114"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_midi_1_1_midi_message.html#adfde7a62de9fa0bcc203015df298951e" title="Starts a note with the specified parameters and returns the corresponding MIDI message." alt="" coords="5,103,183,143"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="215,144,183,139,184,134,216,138"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_midi_1_1_midi_message.html#a5b9abd4ddbd0ddc7fec00b923fe45f70" title="Stops the specified note on the given channel with the specified volume." alt="" coords="5,168,183,209"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="216,174,184,178,183,173,215,168"/>
+</map>

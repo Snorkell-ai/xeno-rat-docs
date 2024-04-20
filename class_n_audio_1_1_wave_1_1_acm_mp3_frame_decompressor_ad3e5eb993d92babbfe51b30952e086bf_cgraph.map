@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.AcmMp3FrameDecompressor.AcmMp3FrameDecompressor" name="NAudio.Wave.AcmMp3FrameDecompressor.AcmMp3FrameDecompressor">
+<area shape="rect" id="Node000001" title="Creates a new ACM frame decompressor." alt="" coords="5,104,288,145"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a8560106a6c931d00eca5a850b6cb8fb7" title="Suggests a PCM format based on the given compressed format." alt="" coords="336,104,546,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="288,122,320,122,320,127,288,127"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a14ba02700b84dcc9265515d80d2b63db" title="Suggests a destination format for converting an audio format." alt="" coords="602,5,815,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="486,101,593,57,616,49,618,54,595,61,488,106"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a4ae1cf5fe788f4ef0bb18fe03ab6e114" title="Marshals a WaveFormat structure from the specified pointer." alt="" coords="594,71,823,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="546,109,578,105,579,110,547,114"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a8ac2acc4d7ca485fca7c3077f25a6814" title="Marshals the WaveFormat structure to a pointer." alt="" coords="594,136,823,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="547,134,579,138,578,143,546,140"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="623,201,794,227"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="487,143,538,165,595,186,624,194,622,199,593,191,536,170,485,148"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="871,201,1104,227"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="795,211,856,211,856,216,795,216"/>
+</map>

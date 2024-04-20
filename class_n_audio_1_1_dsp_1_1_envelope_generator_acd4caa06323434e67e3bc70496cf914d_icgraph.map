@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.EnvelopeGenerator.Process" name="NAudio.Dsp.EnvelopeGenerator.Process">
+<area shape="rect" id="Node000001" title="Processes the envelope state and returns the output value." alt="" coords="262,5,472,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_adsr_sample_provider.html#a87963e61c51bdfa46fe53d67f166a9dc" title="Reads audio samples from the source, processes them using the ADSR envelope generator,..." alt="" coords="5,5,214,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,28,214,28,214,23,246,23"/>
+</map>

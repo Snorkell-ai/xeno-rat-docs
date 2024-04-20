@@ -1,0 +1,6 @@
+<map id="Plugin.Main.SerializeProcessList" name="Plugin.Main.SerializeProcessList">
+<area shape="rect" id="Node000001" title="Serializes the list of process nodes into a byte array." alt="" coords="5,29,218,55"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a22d40a3244e36970a0be9db0cee79ba7" title="Serializes the process node and writes it to the binary writer." alt="" coords="266,29,488,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,40,250,40,250,45,218,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="333,31,325,21,330,11,347,5,377,3,410,5,426,13,424,17,408,11,377,8,349,10,333,15,330,20,337,27"/>
+</map>

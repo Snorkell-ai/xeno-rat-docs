@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.WaveFormat.Serialize" name="NAudio.Wave.WaveFormat.Serialize">
+<area shape="rect" id="Node000001" title="Serializes the wave format data and writes it to the specified BinaryWriter." alt="" coords="738,46,972,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_bwf_writer.html#aae4b97b92099cb65d217293aec8b96bb" title="Createa a new BwfWriter." alt="" coords="498,5,686,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="733,46,686,40,687,35,734,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="494,71,690,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="729,77,691,82,691,76,729,72"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a564655abe5b5fb0f90e4b10bf5f83270" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,37,446,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="478,78,446,74,447,68,479,73"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#aa314b7eff712e1e522f2b481dbbad6e7" title="Writes the audio data from the specified sourceProvider &#160;to the outStream &#160;in WAV format." alt="" coords="250,103,446,143"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="479,109,447,113,446,107,478,103"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a2e82a51972b97bf9ca404259146c48b2" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,37,202,78"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="234,60,202,60,202,55,234,55"/>
+</map>

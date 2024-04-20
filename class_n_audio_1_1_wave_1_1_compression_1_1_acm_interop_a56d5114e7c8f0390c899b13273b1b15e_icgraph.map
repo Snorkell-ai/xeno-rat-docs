@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Compression.AcmInterop.acmFormatChoose" name="NAudio.Wave.Compression.AcmInterop.acmFormatChoose">
+<area shape="rect" id="Node000001" title="Displays the ACM Format Chooser common dialog box to enable a user to select a waveform&#45;audio format." alt="" coords="296,5,499,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#ab70565206d742ba2611fec56df210808" title="Displays a format selection dialog and returns the selected format and description." alt="" coords="5,5,248,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="280,28,248,28,248,23,280,23"/>
+</map>

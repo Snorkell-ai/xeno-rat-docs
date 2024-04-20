@@ -1,0 +1,6 @@
+<map id="NAudio.Wave.WaveFormatConversionProvider.Dispose" name="NAudio.Wave.WaveFormatConversionProvider.Dispose">
+<area shape="rect" id="Node000001" title="Disposes this resource." alt="" coords="322,29,567,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="495,16,476,10,444,8,415,10,397,15,390,21,393,28,388,30,385,19,394,10,414,5,444,3,477,5,496,11"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_provider.html#a3d16570e7755879e09e3af610e85899e" title="Finalizer." alt="" coords="5,29,274,70"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="306,52,274,52,274,47,306,47"/>
+</map>

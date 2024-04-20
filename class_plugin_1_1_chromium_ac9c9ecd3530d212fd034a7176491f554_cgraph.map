@@ -1,0 +1,6 @@
+<map id="Plugin.Chromium.GetLoginData" name="Plugin.Chromium.GetLoginData">
+<area shape="rect" id="Node000001" title="Retrieves login data from the specified path using the provided master key for decryption." alt="" coords="5,29,211,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="66,31,58,21,63,11,80,5,108,3,140,5,155,13,153,17,138,11,108,8,81,10,66,15,63,20,70,27"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_chromium.html#a1138e262be907703bf2988551a1fb4c6" title="Retrieves the master key from the specified file path and returns it after decryption." alt="" coords="259,29,468,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="211,40,243,40,243,45,211,45"/>
+</map>

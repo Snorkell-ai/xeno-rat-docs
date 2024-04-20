@@ -1,0 +1,15 @@
+<map id="InfoGrab.SQLiteHandler.SQLiteHandler" name="InfoGrab.SQLiteHandler.SQLiteHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,209,87"/>
+<area shape="rect" id="Node000002" href="$class_info_grab_1_1_s_q_lite_handler.html#a49875eb1d8c88c7c501d4f6cdf231f2b" title="Converts a sequence of bytes to an unsigned integer." alt="" coords="499,5,708,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,53,256,48,483,31,484,36,257,54,209,58"/>
+<area shape="rect" id="Node000003" href="$class_info_grab_1_1_s_q_lite_handler.html#a2c6ff6fde0c04236c90848265eec1492" title="Reads the master table from the specified offset." alt="" coords="257,87,451,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,81,242,86,241,91,209,86"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="414,84,498,55,519,49,520,54,500,60,416,89"/>
+<area shape="poly" id="edge7_Node000003_Node000003" title=" " alt="" coords="308,87,305,77,313,68,329,62,354,60,380,62,396,69,394,74,379,68,354,65,330,67,316,72,310,78,313,85"/>
+<area shape="rect" id="Node000004" href="$class_info_grab_1_1_s_q_lite_handler.html#a633e4f2a42497bab44077194ca88656f" title="Converts a range of bytes to a long integer and returns the result." alt="" coords="509,70,698,96"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="451,95,493,91,494,96,452,100"/>
+<area shape="rect" id="Node000005" href="$class_info_grab_1_1_s_q_lite_handler.html#afea6448b1f2f481398b3d8f911049112" title="Returns the index of the first non&#45;128 byte in the array starting from the specified index." alt="" coords="509,120,698,145"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="452,114,494,119,493,124,451,120"/>
+<area shape="rect" id="Node000006" href="$class_info_grab_1_1_s_q_lite_handler.html#a475267e2c0435ef96e6342edd1492fa6" title="Determines if the given value is odd." alt="" coords="505,169,703,195"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="411,125,500,155,525,162,524,167,498,160,409,130"/>
+</map>

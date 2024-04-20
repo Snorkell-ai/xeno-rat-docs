@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Id3v2Tag.ReadTag" name="NAudio.Wave.Id3v2Tag.ReadTag">
+<area shape="rect" id="Node000001" title="Reads an ID3v2 tag from the input stream and returns the tag." alt="" coords="5,5,220,31"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_id3v2_tag.html#a91dd0a39bebbb29b61a147d93cabf84c" title=" " alt="" coords="268,5,483,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,16,252,16,252,21,220,21"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Chat.ChatForm" name="Chat.ChatForm">
+<area shape="rect" id="Node000001" title=" " alt="" coords="48,179,216,424"/>
+<area shape="rect" id="Node000002" href="$class_form.html" title=" " alt="" coords="5,5,48,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,83,85,178,81,180,42,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="73,5,117,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,70,99,154,100,161,94,162,93,155,90,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="151,5,188,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="168,71,154,162,149,161,162,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="282,5,339,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="308,71,297,113,278,156,256,189,230,219,226,215,251,185,274,153,292,111,303,70"/>
+</map>

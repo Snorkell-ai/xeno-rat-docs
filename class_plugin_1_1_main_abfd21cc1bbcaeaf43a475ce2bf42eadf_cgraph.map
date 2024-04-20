@@ -1,0 +1,9 @@
+<map id="Plugin.Main.GetParentProcessId" name="Plugin.Main.GetParentProcessId">
+<area shape="rect" id="Node000001" title="Retrieves the parent process ID of the specified process." alt="" coords="5,70,217,96"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#a9b9d62c37794c3be0dae9bccaf23494d" title="Creates a snapshot of the specified processes, heaps, modules, and threads." alt="" coords="265,5,459,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,67,254,48,255,53,171,72"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a64ab1a0d01d4f0a1d4a1fe34c33dbd0f" title="Retrieves information about the first process encountered in a system snapshot." alt="" coords="271,70,453,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,80,255,80,255,86,217,86"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ad1a696a6d1d4ed486b50e461b89ee463" title="Retrieves information about the next process recorded in a system snapshot." alt="" coords="270,120,454,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="181,94,279,113,278,119,180,99"/>
+</map>

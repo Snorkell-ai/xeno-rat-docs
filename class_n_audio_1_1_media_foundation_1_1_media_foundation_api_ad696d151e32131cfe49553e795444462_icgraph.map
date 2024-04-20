@@ -1,0 +1,7 @@
+<map id="NAudio.MediaFoundation.MediaFoundationApi.CreateMediaTypeFromWaveFormat" name="NAudio.MediaFoundation.MediaFoundationApi.CreateMediaTypeFromWaveFormat">
+<area shape="rect" id="Node000001" title="Creates a new IMFMediaType object from the provided WaveFormat." alt="" coords="260,31,500,87"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab241afe826a93e01d79dd284f6d70ca4" title="Creates and configures a resampler transform for media format conversion." alt="" coords="6,5,211,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,45,211,41,212,36,244,40"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_media_foundation_1_1_media_type.html#afd99cd108ce044f3347da6f842dcfa11" title="Creates and wraps a new IMFMediaType object based on a WaveFormat." alt="" coords="5,71,212,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,78,212,81,212,76,244,72"/>
+</map>

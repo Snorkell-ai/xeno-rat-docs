@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.Compression.AcmStream.Convert" name="NAudio.Wave.Compression.AcmStream.Convert">
+<area shape="rect" id="Node000001" title="Converts the specified number of bytes and returns the converted bytes count." alt="" coords="629,39,815,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html#ac610794603b1a5da03071f32b1a8a501" title="Decompresses the provided Mp3Frame and copies the decompressed data to the destination array starting..." alt="" coords="299,5,581,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="613,49,581,45,582,40,614,44"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_provider.html#ac3e887b918c465fbe87326700b2cf79c" title="Reads data from the input buffer and returns the number of bytes read." alt="" coords="317,71,563,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="614,74,563,80,563,74,613,69"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a0df2a83dda6580760db5c3423d6249a4" title="Reads a sequence of bytes from the current stream and advances the position within the stream by the ..." alt="" coords="5,71,251,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,94,251,94,251,88,301,88"/>
+</map>

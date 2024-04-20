@@ -1,0 +1,30 @@
+<map id="NAudio.Wave.CueWaveFileReader" name="NAudio.Wave.CueWaveFileReader">
+<area shape="rect" id="Node000001" title="A wave file reader supporting cue reading." alt="" coords="475,1110,692,1196"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_reader.html" title="This class supports the reading of WAV files, providing a repositionable WaveStream that returns the ..." alt="" coords="408,762,580,1047"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="553,1060,571,1109,566,1111,548,1062"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="162,289,259,574"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,587,251,636,273,683,302,727,336,768,410,838,407,842,332,772,298,730,268,685,246,638,230,589"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="56,5,111,71"/>
+<area shape="poly" id="edge12_Node000002_Node000004" title=" " alt="" coords="74,71,42,180,25,255,13,338,8,426,14,516,22,560,33,602,49,644,70,683,100,723,135,758,176,788,219,814,309,854,393,880,391,885,307,859,217,819,173,793,132,762,96,726,66,685,45,646,28,604,17,561,9,516,3,427,8,338,20,254,36,179,69,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="107,83,146,178,179,289,174,290,141,180,102,85"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="148,5,246,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="201,86,208,289,203,289,196,86"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="283,179,482,684"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="400,683,413,737,415,745,410,747,408,739,395,684"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="270,5,412,71"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="343,70,345,155,345,162,340,162,340,155,337,70"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="455,5,496,71"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="471,71,449,163,444,162,465,70"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="589,5,616,71"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="602,71,591,114,580,137,565,157,547,168,530,170,513,171,496,181,495,181,492,177,493,177,511,166,529,164,546,163,562,153,576,134,586,113,597,70"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="506,399,544,464"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="523,464,510,572,499,708,497,745,492,745,493,708,505,572,518,464"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="568,399,605,464"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="589,464,582,585,574,662,559,739,558,746,552,745,554,737,568,661,577,585,583,464"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="704,399,752,464"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="732,464,731,518,724,589,709,666,696,704,679,739,641,792,595,837,591,833,637,789,675,737,691,702,703,664,719,588,726,518,726,464"/>
+<area shape="rect" id="Node000013" href="$class_n_audio_1_1_wave_1_1_cue_list.html" title="Holds a list of cues." alt="" coords="701,802,842,1007"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="703,1000,628,1098,623,1095,699,997"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="776,391,959,471"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="862,472,798,786,793,785,857,471"/>
+</map>

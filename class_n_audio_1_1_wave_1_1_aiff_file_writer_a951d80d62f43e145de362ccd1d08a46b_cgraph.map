@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.AiffFileWriter.Dispose" name="NAudio.Wave.AiffFileWriter.Dispose">
+<area shape="rect" id="Node000001" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="5,92,189,133"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa534036d067bd80fa227aec89c79f480" title="Updates the header of the binary writer." alt="" coords="237,92,420,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,110,221,110,221,115,189,115"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#a2a7b642efd5e50f84c18d7ee61e78ac1" title="Flushes the buffer of the writer." alt="" coords="468,5,651,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="384,89,488,50,490,55,386,94"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa752886f7a9c0749b5d62c10cbed4e3c" title="Swaps the endianness of the input integer and returns the result as a byte array." alt="" coords="699,120,883,161"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="420,102,531,99,652,106,699,113,698,119,651,111,531,105,421,108"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#a6ce3fa9c0ac009ecd0adaff4c08f000a" title="Updates the communication chunk in the binary writer." alt="" coords="468,120,651,161"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="420,121,453,125,452,130,420,126"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#ac7a2fd4f47a543f922d3bef5bfee59cf" title="Updates the SSND chunk in the WAV file by writing the data chunk size in little&#45;endian format." alt="" coords="468,185,651,226"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="377,131,469,170,487,177,485,182,467,175,375,136"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="651,138,684,138,684,143,651,143"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="633,182,701,163,702,168,635,187"/>
+</map>

@@ -1,0 +1,46 @@
+<map id="xeno_rat_server.Forms.Live_Microphone.button2_Click" name="xeno_rat_server.Forms.Live_Microphone.button2_Click">
+<area shape="rect" id="Node000001" title="Starts the player and sends a signal to the client to start playing." alt="" coords="5,299,188,339"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="240,233,423,274"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,296,240,276,241,281,173,301"/>
+<area shape="rect" id="Node000013" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#afe0ffdc5908bbd0d94fc7ae95224d7eb" title="Clears the buffer and starts playing audio." alt="" coords="236,364,427,405"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="173,337,241,357,240,362,171,342"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="478,184,696,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,231,511,211,512,216,423,236"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="484,233,690,274"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="423,251,468,251,468,256,423,256"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="545,185,536,175,541,165,558,159,587,157,618,160,634,167,632,172,617,165,587,162,559,164,545,169,542,174,549,181"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="750,103,949,143"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="677,230,697,220,712,204,720,188,728,171,745,154,753,149,756,153,748,158,733,174,725,190,716,207,700,224,680,235"/>
+<area shape="rect" id="Node000010" href="$classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="746,168,953,209"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="671,230,750,210,751,216,672,235"/>
+<area shape="rect" id="Node000011" href="$classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="758,233,941,274"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="690,251,742,251,742,256,690,256"/>
+<area shape="rect" id="Node000012" href="$classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="746,299,953,339"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="672,272,751,292,750,297,671,277"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1016,5,1215,46"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="895,100,1000,57,1023,48,1025,54,1002,61,897,105"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1016,71,1215,111"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="949,108,1000,102,1001,107,950,114"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1016,136,1215,177"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="950,133,1001,139,1000,145,949,138"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1001,201,1230,242"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="924,141,954,154,978,170,1002,186,1018,193,1016,198,999,191,975,175,951,159,922,146"/>
+<area shape="rect" id="Node000014" href="$class_n_audio_1_1_wave_1_1_buffered_wave_provider.html#ab07f7e58f4995af1723fde11ddb9bcaf" title="Clears the circular buffer." alt="" coords="493,364,680,405"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="427,382,477,382,477,387,427,387"/>
+<area shape="rect" id="Node000017" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a48d131f28d34800e5455fb6997401c57" title="Plays the audio." alt="" coords="475,437,698,463"/>
+<area shape="poly" id="edge17_Node000013_Node000017" title=" " alt="" coords="414,403,519,430,518,435,413,408"/>
+<area shape="rect" id="Node000015" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a1399ff4a96831595ce722ee03906b778" title="Resets the state of the object." alt="" coords="758,364,941,405"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="681,382,743,382,743,387,681,387"/>
+<area shape="rect" id="Node000016" href="$class_n_audio_1_1_utils_1_1_circular_buffer.html#a401e1389850f550230123905db0a0760" title="Resets the internal state of the object." alt="" coords="1024,299,1207,339"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="935,361,1014,341,1016,346,936,366"/>
+<area shape="rect" id="Node000018" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a9c282c7977098920ae1c7adf1bd59934" title="Executes the DoPlayback method in a separate thread and raises the PlaybackStopped event upon complet..." alt="" coords="751,429,948,470"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="699,447,735,447,735,452,699,452"/>
+<area shape="rect" id="Node000021" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#ac286d1ddcbb0a8d5aa55841330f5a461" title="Resumes playback if the current state is paused." alt="" coords="751,495,948,535"/>
+<area shape="poly" id="edge21_Node000017_Node000021" title=" " alt="" coords="642,460,751,488,750,493,641,466"/>
+<area shape="rect" id="Node000019" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a0ffe20076eb914567e2260e1cf1e6e59" title="Performs the audio playback operation." alt="" coords="1017,364,1214,405"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="935,426,1014,406,1016,412,936,431"/>
+<area shape="rect" id="Node000020" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#ac5bbb966d79a5baf4ab2e8c6212de1ae" title="Raises the PlaybackStopped event with the specified exception." alt="" coords="1017,429,1214,470"/>
+<area shape="poly" id="edge20_Node000018_Node000020" title=" " alt="" coords="949,447,1001,447,1001,452,949,452"/>
+<area shape="rect" id="Node000022" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a3f3d47cd8932f63f3fdded0857290e8e" title="Restarts playback on the specified waveform&#45;audio output device." alt="" coords="1009,495,1222,535"/>
+<area shape="poly" id="edge22_Node000021_Node000022" title=" " alt="" coords="949,512,993,512,993,518,949,518"/>
+</map>

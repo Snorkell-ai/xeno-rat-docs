@@ -1,0 +1,7 @@
+<map id="NAudio.Codecs.G722Codec.Block4" name="NAudio.Codecs.G722Codec.Block4">
+<area shape="rect" id="Node000001" title="Performs various operations related to G722 codec state for a specific band and input value." alt="" coords="244,39,434,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_codecs_1_1_g722_codec.html#ab6035ffd28f76a6143a34775778d0d3d" title="Decodes the input G722 data and returns the decoded output in the output buffer." alt="" coords="5,5,196,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,46,196,42,196,36,228,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_codecs_1_1_g722_codec.html#a25441ab8ca66d98499102d8852c7c0cd" title="Encodes the input PCM samples using the G.722 algorithm and stores the result in the output buffer." alt="" coords="5,71,196,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,77,196,81,196,76,228,71"/>
+</map>

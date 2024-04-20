@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.File_manager.StartFile" name="xeno_rat_server.Forms.File_manager.StartFile">
+<area shape="rect" id="Node000001" title="Starts a file operation using the specified path." alt="" coords="519,5,698,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#ae14c8558b1bb02012558562875d61f83" title="Opens the file associated with the selected menu item." alt="" coords="264,5,471,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="503,28,471,28,471,23,503,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_file__manager.html#aa875185f0c0df6b530838d86fff9a442" title="Handles the mouse click event on the listView1 control, and displays a context menu with options base..." alt="" coords="5,5,216,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="248,28,216,28,216,23,248,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.WaveInterop.waveOutOpenWindow" name="NAudio.Wave.WaveInterop.waveOutOpenWindow">
+<area shape="rect" id="Node000001" title="Opens a waveform&#45;audio output device for playback." alt="" coords="508,5,721,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_event.html#a59f8399d92816fb1170ce3e8586c357e" title="Initializes the WaveOut device with the specified wave provider." alt="" coords="245,13,460,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="492,28,461,28,461,23,492,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_audio_player.html#a50e278569d197c1ba2d6bae4df19f251" title=" " alt="" coords="5,5,197,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
+</map>

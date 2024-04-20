@@ -1,0 +1,12 @@
+<map id="NAudio.Wave.SampleProviders.FadeInOutSampleProvider.Read" name="NAudio.Wave.SampleProviders.FadeInOutSampleProvider.Read">
+<area shape="rect" id="Node000001" title="Reads audio samples from the source into the buffer and applies any active fade effects." alt="" coords="5,61,214,102"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_fade_in_out_sample_provider.html#aeb0d44023dd9d08f4cb8daa348339b46" title="Clears a portion of the buffer by setting the specified range of elements to zero." alt="" coords="545,32,788,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,58,199,33,261,14,342,4,424,5,502,13,570,25,569,31,501,19,424,10,342,9,262,19,201,38,148,63"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_fade_in_out_sample_provider.html#aeb96f8b3777b65f0ce946f9cd878bc7c" title="Fades in the audio buffer by multiplying each sample with a multiplier that increases gradually from ..." alt="" coords="271,28,488,69"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="214,66,255,61,256,66,214,71"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_fade_in_out_sample_provider.html#a15136e7c09f5733dde62e66c3d3a47fd" title="Fades out the audio buffer by applying a multiplier to each sample based on the fade position and cou..." alt="" coords="266,93,493,134"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,91,250,96,250,101,214,97"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html#a5d289f74be04dfee607e40fa967072ca" title="Fill the specified buffer with 32 bit floating point samples." alt="" coords="262,158,497,184"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="155,100,206,122,262,143,292,151,291,156,261,148,204,127,153,105"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="477,90,553,74,554,79,478,95"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveCallbackInfo.WaveCallbackInfo" name="NAudio.Wave.WaveCallbackInfo.WaveCallbackInfo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="243,71,432,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_callback_info.html#a173e738686c74366cb95219dac50ddfe" title="Returns a new WaveCallbackInfo object with the specified WaveCallbackStrategy and handle." alt="" coords="5,5,195,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,69,176,49,177,44,248,64"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_callback_info.html#ac950ed251adcc67eff09c26c5741e793" title="Returns a new instance of WaveCallbackInfo with WaveCallbackStrategy set to FunctionCallback and IntP..." alt="" coords="5,71,195,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="227,94,195,94,195,88,227,88"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_callback_info.html#a04ecc472ab12aefe2d779ac0116fc125" title="Creates a new instance of WaveCallbackInfo with WaveCallbackStrategy set to NewWindow and IntPtr set ..." alt="" coords="5,136,195,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="248,118,177,138,176,133,246,113"/>
+</map>

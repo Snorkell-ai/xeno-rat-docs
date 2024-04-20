@@ -1,0 +1,13 @@
+<map id="NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER" name="NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER">
+<area shape="rect" id="Node000001" title="Contains information about an output buffer for a Media Foundation transform." alt="" coords="259,648,448,728"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,420,32,485"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="19,485,23,535,32,561,46,584,88,620,137,646,190,664,242,676,241,681,189,669,135,651,85,624,42,587,27,563,18,536,14,485"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html" title="http://msdn.microsoft.com/en&#45;gb/library/windows/desktop/ms702192%28v=vs.85%29.aspx" alt="" coords="56,320,285,585"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="275,584,306,623,314,634,310,637,302,626,271,587"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_attributes.html" title="Provides a generic way to store key/value pairs on an object. http://msdn.microsoft...." alt="" coords="108,5,233,271"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="173,285,173,320,168,320,168,285"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="310,413,519,493"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="407,493,370,632,365,631,402,492"/>
+<area shape="rect" id="Node000006" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html" title="Represents a generic collection of IUnknown pointers." alt="" coords="543,370,787,535"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="592,537,534,587,448,642,445,638,530,583,588,533"/>
+</map>

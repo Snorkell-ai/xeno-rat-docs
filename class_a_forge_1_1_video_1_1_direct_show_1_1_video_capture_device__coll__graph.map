@@ -1,0 +1,35 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice" name="AForge.Video.DirectShow.VideoCaptureDevice">
+<area shape="rect" id="Node000001" title="Video source for local video capture device (for example USB webcam)." alt="" coords="729,537,940,1371"/>
+<area shape="rect" id="Node000002" href="$interface_a_forge_1_1_video_1_1_i_video_source.html" title="Video source interface." alt="" coords="5,181,128,366"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,379,121,448,139,481,161,511,224,581,295,645,371,704,450,757,527,804,602,845,731,907,728,912,599,850,525,809,447,762,368,708,292,649,221,585,157,514,135,483,117,450,89,381"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="152,241,197,306"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,306,167,349,166,402,174,459,182,486,194,511,244,584,304,650,370,709,442,761,515,807,586,847,715,906,713,911,584,851,512,812,439,766,367,713,300,653,240,587,190,514,177,488,169,460,161,403,161,349,166,306"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="552,5,579,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="564,71,558,150,555,260,563,386,573,450,588,512,614,586,647,658,684,727,723,791,718,794,680,730,643,661,609,588,583,513,568,451,558,387,550,260,552,150,559,70"/>
+<area shape="rect" id="Node000006" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capabilities.html" title="Capabilities of video device such as frame size and frame rate." alt="" coords="1376,164,1541,384"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="578,37,714,48,938,71,1061,87,1178,108,1282,132,1362,161,1360,166,1280,138,1177,113,1060,93,937,76,713,53,578,43"/>
+<area shape="rect" id="Node000014" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_input.html" title="Video input of a capture board." alt="" coords="232,234,397,314"/>
+<area shape="poly" id="edge15_Node000014_Node000004" title=" " alt="" coords="554,52,496,100,422,166,364,223,360,219,418,162,492,96,550,48"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="432,241,469,306"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="447,307,441,349,438,401,441,457,454,512,477,563,505,614,537,661,572,707,646,789,719,858,715,861,642,793,568,710,533,665,500,616,472,566,449,514,436,458,432,401,435,348,441,306"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1439,384,1419,460,1397,514,1351,576,1298,635,1242,689,1182,739,1063,826,956,892,953,887,1060,821,1179,735,1238,685,1295,631,1347,573,1392,511,1414,458,1434,382"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="1439,5,1478,71"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1461,70,1461,147,1456,147,1456,70"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="692,241,729,306"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="710,307,699,347,689,368,675,386,657,396,638,397,622,399,608,409,596,434,594,457,609,512,630,582,657,651,689,718,723,779,718,782,685,720,653,653,625,584,603,513,589,458,591,433,604,406,620,394,638,392,655,391,672,382,684,365,694,345,705,305"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="769,241,823,306"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="801,306,808,407,815,519,809,520,803,408,796,306"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="847,241,971,306"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="909,307,885,520,880,520,903,306"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="996,241,1041,306"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="1015,307,967,513,947,586,942,584,961,512,1009,306"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1203,241,1251,306"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="1229,306,1218,401,1206,458,1186,514,1137,605,1078,692,1015,772,954,840,950,837,1011,768,1074,689,1133,603,1182,512,1201,457,1213,400,1223,306"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1283,241,1352,306"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="1325,306,1330,348,1330,402,1324,459,1306,514,1274,573,1236,629,1192,681,1145,730,1047,815,956,882,952,878,1044,811,1141,726,1188,678,1231,626,1270,570,1302,512,1319,458,1325,401,1324,349,1320,306"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="306,314,297,356,291,407,294,461,300,487,309,512,345,576,389,636,440,691,495,742,553,787,610,827,716,891,713,896,607,832,550,791,492,746,437,695,385,639,340,579,304,514,294,488,289,461,286,407,291,356,300,313"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="213,5,417,71"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="317,70,317,217,312,217,312,70"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1573,241,1619,306"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="1603,306,1605,350,1602,404,1590,461,1580,489,1566,514,1505,593,1433,663,1354,724,1270,778,1185,824,1102,863,957,919,955,914,1100,858,1183,819,1267,773,1351,720,1430,659,1501,589,1562,511,1575,486,1585,460,1597,403,1599,350,1597,306"/>
+</map>

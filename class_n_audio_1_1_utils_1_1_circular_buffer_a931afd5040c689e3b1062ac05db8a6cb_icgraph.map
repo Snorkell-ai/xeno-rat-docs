@@ -1,0 +1,9 @@
+<map id="NAudio.Utils.CircularBuffer.Read" name="NAudio.Utils.CircularBuffer.Read">
+<area shape="rect" id="Node000001" title="Reads data from the buffer into the specified byte array." alt="" coords="559,46,772,72"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_buffered_wave_provider.html#a18921a539166e5867f7e397d5c714fc3" title="Reads data from the circular buffer into the specified byte array." alt="" coords="304,5,492,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="543,46,492,40,492,35,544,41"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_block_align_reduction_stream.html#a26be7b8974fa9bd30e3c6b007fe7b5ed" title="Reads a specified number of bytes from the circular buffer into the provided byte array,..." alt="" coords="285,71,511,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="544,76,512,80,511,75,543,71"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in_provider.html#a8632386b3debc5a796b676e41a644886" title="Reads a sequence of bytes from the current BufferedWaveProvider and advances the position within the ..." alt="" coords="5,13,237,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,28,237,28,237,23,288,23"/>
+</map>

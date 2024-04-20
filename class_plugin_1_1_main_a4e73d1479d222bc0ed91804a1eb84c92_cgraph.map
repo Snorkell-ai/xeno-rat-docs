@@ -1,0 +1,7 @@
+<map id="Plugin.Main.BlueScreen" name="Plugin.Main.BlueScreen">
+<area shape="rect" id="Node000001" title="Triggers a blue screen of death (BSOD) by raising a hard error." alt="" coords="5,31,166,56"/>
+<area shape="rect" id="Node000002" href="$class_plugin_1_1_main.html#aaf451c34eb6585ddab7fecebbdd3875e" title="Calls the NtRaiseHardError function in ntdll.dll to raise a hard error." alt="" coords="214,5,411,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,32,198,28,198,34,166,37"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#a60c93f0b163291b4051bfaa0b8a8faaf" title="Adjusts the specified privilege for the current process or thread." alt="" coords="214,55,411,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,49,198,53,198,58,166,55"/>
+</map>

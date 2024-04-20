@@ -1,0 +1,5 @@
+<map id="NAudio.Midi.MidiEvent.Export" name="NAudio.Midi.MidiEvent.Export">
+<area shape="rect" id="Node000001" title="Exports the MIDI event and updates the absolute time." alt="" coords="5,13,202,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html#aa97dd2bcb275ab1d603ef9984be22c2a" title="Writes a variable&#45;length encoded integer to the specified BinaryWriter." alt="" coords="250,5,438,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
+</map>

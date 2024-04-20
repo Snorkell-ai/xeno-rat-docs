@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.FadeInOutSampleProvider.FadeIn" name="NAudio.Wave.SampleProviders.FadeInOutSampleProvider.FadeIn">
+<area shape="rect" id="Node000001" title="Fades in the audio buffer by multiplying each sample with a multiplier that increases gradually from ..." alt="" coords="262,5,479,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_fade_in_out_sample_provider.html#ab359901594ad340d6eff602c48b3157d" title="Reads audio samples from the source into the buffer and applies any active fade effects." alt="" coords="5,5,214,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,28,214,28,214,23,246,23"/>
+</map>

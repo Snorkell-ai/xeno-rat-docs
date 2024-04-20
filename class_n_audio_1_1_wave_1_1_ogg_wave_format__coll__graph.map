@@ -1,0 +1,13 @@
+<map id="NAudio.Wave.OggWaveFormat" name="NAudio.Wave.OggWaveFormat">
+<area shape="rect" id="Node000001" title=" " alt="" coords="183,762,377,827"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="111,179,310,684"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,698,277,762,271,763,259,699"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,147,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,70,104,154,109,169,104,171,99,155,79,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="190,5,231,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="213,71,213,162,208,162,208,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="324,5,351,71"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="333,71,311,155,308,163,303,162,305,154,328,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="334,399,367,464"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="352,464,345,563,337,624,325,685,304,748,299,746,320,683,332,623,340,562,347,463"/>
+</map>

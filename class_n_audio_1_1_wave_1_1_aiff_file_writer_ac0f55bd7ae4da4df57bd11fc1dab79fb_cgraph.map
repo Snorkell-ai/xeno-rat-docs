@@ -1,0 +1,22 @@
+<map id="NAudio.Wave.AiffFileWriter.CreateAiffFile" name="NAudio.Wave.AiffFileWriter.CreateAiffFile">
+<area shape="rect" id="Node000001" title="Creates an AIFF audio file from the provided WaveStream." alt="" coords="5,125,189,166"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#a38debf484e59f64adfcbf0bf57b6b5ec" title="AiffFileWriter that actually writes to a stream." alt="" coords="257,96,441,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,132,241,126,242,131,189,138"/>
+<area shape="rect" id="Node000010" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="237,161,461,187"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="189,153,221,157,221,162,189,159"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa4e2a77e28e7c0348c06d8b6150a5f21" title="Creates a &#39;COMM&#39; chunk in the WAV file." alt="" coords="509,63,692,103"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="440,102,494,94,494,100,441,107"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#a53b7a367eeb8f26c253b7b8bbb9f489b" title="Writes the SSND chunk header to the output stream." alt="" coords="509,128,692,169"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="441,125,494,132,494,137,440,131"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a5d1b37528c6a93f7bc6bf65c36fa1e3e" title="Converts a double&#45;precision floating&#45;point number to its IEEE 754 extended precision representation." alt="" coords="742,63,922,103"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="692,80,726,80,726,86,692,86"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa752886f7a9c0749b5d62c10cbed4e3c" title="Swaps the endianness of the input integer and returns the result as a byte array." alt="" coords="740,128,924,169"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="676,101,743,121,742,126,674,106"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#acd9d9c5307c2b8226f36934ae3d38d4d" title="Converts a floating&#45;point number to an unsigned long integer." alt="" coords="972,5,1149,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="915,60,961,48,963,53,916,65"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a29c46ad0fe2e6a53381f430342f06120" title="Splits a double&#45;precision floating&#45;point value into a normalized fraction and an integral power of 2." alt="" coords="979,70,1142,96"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="923,80,963,80,963,86,923,86"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_utils_1_1_i_e_e_e.html#a581705619f4fe799b9005f0a91e2cb6c" title="Returns x multiplied by 2 raised to the power of exp." alt="" coords="978,120,1143,145"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="923,100,984,113,982,118,922,105"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="692,146,725,146,725,151,692,151"/>
+</map>

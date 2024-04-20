@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveInterop.waveOutGetVolume" name="NAudio.Wave.WaveInterop.waveOutGetVolume">
+<area shape="rect" id="Node000001" title="Retrieves the current volume level of the specified waveform&#45;audio output device." alt="" coords="244,5,457,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_out_utils.html#a4fc9a2fbfb7eeccbb52dcd8e087d68c7" title="Gets the volume level of the specified wave output device." alt="" coords="5,5,196,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,28,196,28,196,23,228,23"/>
+</map>

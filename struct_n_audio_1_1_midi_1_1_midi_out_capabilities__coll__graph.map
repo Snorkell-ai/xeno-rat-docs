@@ -1,0 +1,13 @@
+<map id="NAudio.Midi.MidiOutCapabilities" name="NAudio.Midi.MidiOutCapabilities">
+<area shape="rect" id="Node000001" title="class representing the capabilities of a MIDI out device MIDIOUTCAPS: http://msdn...." alt="" coords="240,194,444,474"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,47,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="29,70,36,119,44,145,57,168,93,207,135,240,180,268,226,290,223,295,178,272,132,245,89,211,53,171,39,147,30,120,23,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="142,5,169,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,70,166,118,173,144,183,168,205,202,231,234,226,238,200,206,178,171,168,146,160,119,154,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="319,5,365,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="345,70,345,176,339,176,339,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="437,5,489,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="462,71,452,119,437,171,433,179,428,177,431,169,447,117,456,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="523,5,671,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="597,71,587,120,578,146,564,171,542,200,516,226,459,271,456,267,512,222,538,196,560,168,573,144,582,118,592,70"/>
+</map>

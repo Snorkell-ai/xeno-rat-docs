@@ -1,0 +1,9 @@
+<map id="xeno_rat_server.IconInjector.GRPICONDIRENTRY" name="xeno_rat_server.IconInjector.GRPICONDIRENTRY">
+<area shape="rect" id="Node000001" title=" " alt="" coords="43,179,223,259"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,43,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="28,70,35,112,42,133,52,153,61,165,57,168,48,156,37,135,30,113,23,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="109,5,158,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,70,136,162,131,162,131,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="213,5,240,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="226,71,217,113,200,156,192,167,188,164,195,153,212,111,221,70"/>
+</map>

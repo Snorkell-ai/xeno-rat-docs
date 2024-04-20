@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.MediaFoundationEncoder.CreateSinkWriter" name="NAudio.Wave.MediaFoundationEncoder.CreateSinkWriter">
+<area shape="rect" id="Node000001" title="Creates a sink writer for writing media data to the specified output stream with the given transcode ..." alt="" coords="5,41,210,82"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a79bf1b1dffc57fe119fa35b93086cf40" title="Creates a new instance of IMFAttributes with the specified initial size." alt="" coords="278,5,485,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,46,262,39,263,44,211,51"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a64eb8dc6772b30fb8d124de4b8a25566" title="Creates a sink writer for a specified output URL." alt="" coords="258,70,505,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,72,242,77,242,82,210,78"/>
+</map>

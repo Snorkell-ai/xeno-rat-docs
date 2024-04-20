@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.AiffFileWriter.Dispose" name="NAudio.Wave.AiffFileWriter.Dispose">
+<area shape="rect" id="Node000001" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="237,5,420,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_writer.html#aa3d2d3667ef23a234498e0bc46225d8a" title="Finaliser &#45; should only be called if the user forgot to close this AiffFileWriter." alt="" coords="5,5,189,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,28,189,28,189,23,221,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.AiffFileReader.ReadChunkHeader" name="NAudio.Wave.AiffFileReader.ReadChunkHeader">
+<area shape="rect" id="Node000001" title="Reads the header of a chunk from the provided BinaryReader and returns an AiffChunk object." alt="" coords="5,39,197,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#a5eb0fd162292cfaa76e03872ca5d6085" title="Converts a byte array to an unsigned integer." alt="" coords="245,5,436,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,43,229,39,229,44,198,48"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_aiff_file_reader.html#ad88d715be0f8fdfae98df6e51b01c67e" title="Reads a chunk name from the provided BinaryReader and returns it as a string." alt="" coords="245,71,436,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,69,229,74,229,79,197,74"/>
+</map>

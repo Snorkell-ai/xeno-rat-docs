@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveFileWriter.CreateWaveFile" name="NAudio.Wave.WaveFileWriter.CreateWaveFile">
+<area shape="rect" id="Node000001" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,5,446,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_file_writer.html#a2e82a51972b97bf9ca404259146c48b2" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,5,202,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
+</map>

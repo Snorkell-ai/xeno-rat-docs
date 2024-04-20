@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.MixingWaveProvider32.Sum32BitAudio" name="NAudio.Wave.MixingWaveProvider32.Sum32BitAudio">
+<area shape="rect" id="Node000001" title="Sums 32&#45;bit audio samples from the source buffer to the destination buffer." alt="" coords="327,5,569,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#ae960ed32ac8aa1e727af85455b6d0670" title="Reads audio data from the input streams, sums the channels, and stores the result in the provided buf..." alt="" coords="5,13,279,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="311,28,279,28,279,23,311,23"/>
+</map>

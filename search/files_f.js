@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['panningsampleprovider_2ecs_0',['PanningSampleProvider.cs',['../_panning_sample_provider_8cs.html',1,'']]],
+  ['patchchangeevent_2ecs_1',['PatchChangeEvent.cs',['../_patch_change_event_8cs.html',1,'']]],
+  ['pcm16bittosampleprovider_2ecs_2',['Pcm16BitToSampleProvider.cs',['../_pcm16_bit_to_sample_provider_8cs.html',1,'']]],
+  ['pcm24bittosampleprovider_2ecs_3',['Pcm24BitToSampleProvider.cs',['../_pcm24_bit_to_sample_provider_8cs.html',1,'']]],
+  ['pcm32bittosampleprovider_2ecs_4',['Pcm32BitToSampleProvider.cs',['../_pcm32_bit_to_sample_provider_8cs.html',1,'']]],
+  ['pcm8bittosampleprovider_2ecs_5',['Pcm8BitToSampleProvider.cs',['../_pcm8_bit_to_sample_provider_8cs.html',1,'']]],
+  ['physicalconnectortype_2ecs_6',['PhysicalConnectorType.cs',['../_physical_connector_type_8cs.html',1,'']]],
+  ['pitchwheelchangeevent_2ecs_7',['PitchWheelChangeEvent.cs',['../_pitch_wheel_change_event_8cs.html',1,'']]],
+  ['playbackstate_2ecs_8',['PlaybackState.cs',['../_playback_state_8cs.html',1,'']]],
+  ['preset_2ecs_9',['Preset.cs',['../_preset_8cs.html',1,'']]],
+  ['presetbuilder_2ecs_10',['PresetBuilder.cs',['../_preset_builder_8cs.html',1,'']]],
+  ['presetschunk_2ecs_11',['PresetsChunk.cs',['../_presets_chunk_8cs.html',1,'']]],
+  ['process_20handler_2ecs_12',['Process Handler.cs',['../_process_01_handler_8cs.html',1,'']]],
+  ['processmanager_2ecs_13',['ProcessManager.cs',['../_plugins_2_process_manager_2_process_manager_8cs.html',1,'(Global Namespace)'],['../xeno_01rat_01server_2_forms_2_process_manager_8cs.html',1,'(Global Namespace)']]],
+  ['processmanager_2edesigner_2ecs_14',['ProcessManager.Designer.cs',['../_process_manager_8_designer_8cs.html',1,'']]],
+  ['program_2ecs_15',['Program.cs',['../xeno_01rat_01client_2_program_8cs.html',1,'(Global Namespace)'],['../xeno_01rat_01server_2_program_8cs.html',1,'(Global Namespace)']]],
+  ['propertykey_2ecs_16',['PropertyKey.cs',['../_property_key_8cs.html',1,'']]],
+  ['propertykeys_2ecs_17',['PropertyKeys.cs',['../_property_keys_8cs.html',1,'']]],
+  ['propertystore_2ecs_18',['PropertyStore.cs',['../_property_store_8cs.html',1,'']]],
+  ['propertystoreproperty_2ecs_19',['PropertyStoreProperty.cs',['../_property_store_property_8cs.html',1,'']]],
+  ['propvariant_2ecs_20',['PropVariant.cs',['../_prop_variant_8cs.html',1,'']]],
+  ['propvariantnative_2ecs_21',['PropVariantNative.cs',['../_prop_variant_native_8cs.html',1,'']]]
+];

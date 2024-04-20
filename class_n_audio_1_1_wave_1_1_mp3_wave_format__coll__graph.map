@@ -1,0 +1,18 @@
+<map id="NAudio.Wave.Mp3WaveFormat" name="NAudio.Wave.Mp3WaveFormat">
+<area shape="rect" id="Node000001" title="MP3 WaveFormat, MPEGLAYER3WAVEFORMAT from mmreg.h." alt="" coords="671,777,867,842"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="189,179,387,684"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="398,652,442,706,495,751,525,764,569,776,672,794,671,800,567,781,523,769,492,755,439,710,394,655"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,147,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,70,89,110,102,154,138,225,181,292,177,295,134,227,98,156,84,112,76,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="433,5,474,71"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="476,60,496,94,509,139,516,182,519,222,517,260,506,332,490,400,477,466,474,534,478,569,488,605,503,643,526,682,552,714,584,740,620,760,657,776,655,781,618,765,581,744,549,718,522,686,499,645,483,607,473,570,468,534,472,466,485,399,501,331,512,260,514,222,511,182,504,140,491,96,471,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="435,57,416,75,400,96,370,164,365,162,395,93,412,71,431,53"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,5,224,71"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="211,70,211,111,214,154,215,161,210,162,209,155,206,111,206,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="708,399,831,464"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="772,463,772,760,767,760,767,463"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="855,399,999,464"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="921,464,891,564,845,685,802,764,797,762,840,683,886,562,916,463"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1023,399,1073,464"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1055,464,1057,510,1054,568,1040,629,1029,659,1013,686,986,716,954,741,920,761,884,778,882,773,917,757,951,736,982,712,1009,682,1024,656,1035,628,1048,568,1051,510,1049,464"/>
+</map>

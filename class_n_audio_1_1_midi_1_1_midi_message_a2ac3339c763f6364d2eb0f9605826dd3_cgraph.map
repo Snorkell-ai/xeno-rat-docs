@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.MidiMessage.ChangePatch" name="NAudio.Midi.MidiMessage.ChangePatch">
+<area shape="rect" id="Node000001" title="Changes the patch for the specified MIDI channel and returns the corresponding MIDI message." alt="" coords="5,39,183,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_message.html#a63a860819683a2e1870cf25a3d86f1bc" title="Creates a new MIDI message." alt="" coords="231,5,408,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,43,215,38,215,44,183,49"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_midi_1_1_midi_message.html#ab6850072b0d6a250b075bf6a707973f7" title="Validates the channel number to ensure it falls within the range of 1 to 16." alt="" coords="231,71,408,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,69,215,74,215,79,182,74"/>
+</map>

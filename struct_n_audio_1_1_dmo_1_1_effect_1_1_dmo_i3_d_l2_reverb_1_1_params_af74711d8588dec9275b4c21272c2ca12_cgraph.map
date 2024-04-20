@@ -1,0 +1,5 @@
+<map id="NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset" name="NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset">
+<area shape="rect" id="Node000001" title="Sets standard reverberation parameters of a buffer." alt="" coords="5,5,208,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_i3_d_l2_reverb.html#a72b26ce7d72ec5b02361bae0394b190a" title=" " alt="" coords="256,5,470,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,23,240,23,240,28,208,28"/>
+</map>

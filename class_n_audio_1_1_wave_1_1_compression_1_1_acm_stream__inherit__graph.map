@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Compression.AcmStream" name="NAudio.Wave.Compression.AcmStream">
+<area shape="rect" id="Node000001" title="AcmStream encapsulates an Audio Compression Manager Stream used to convert audio from one format to a..." alt="" coords="5,119,183,499"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="53,5,135,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,86,97,119,91,119,91,86"/>
+</map>

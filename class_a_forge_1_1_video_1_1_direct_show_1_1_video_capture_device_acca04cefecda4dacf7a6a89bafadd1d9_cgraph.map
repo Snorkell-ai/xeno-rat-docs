@@ -1,0 +1,19 @@
+<map id="AForge.Video.DirectShow.VideoCaptureDevice.WorkerThread" name="AForge.Video.DirectShow.VideoCaptureDevice.WorkerThread">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,196,232,236"/>
+<area shape="rect" id="Node000002" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a3a06e4d06c5a030b90bee08a620f8563" title="Collects the available video inputs from the specified IAMCrossbar and returns an array of VideoInput..." alt="" coords="298,5,530,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,193,197,137,236,105,278,78,302,65,305,70,281,82,239,110,201,141,141,197"/>
+<area shape="rect" id="Node000003" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_filter_info.html#a39d1fd6eeb6bc8ab895b0b80a3d788cd" title="Creates a filter object based on the provided filter moniker." alt="" coords="623,120,797,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,193,203,154,240,135,279,121,364,106,451,103,534,108,608,117,607,122,534,113,451,108,365,112,280,126,242,140,206,159,147,197"/>
+<area shape="rect" id="Node000004" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#afe4aed1b8dfc4bb4e6e0c89424281fa9" title="Displays the property page for the specified source object in the given parent window." alt="" coords="280,160,548,200"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="232,199,264,195,265,201,232,205"/>
+<area shape="rect" id="Node000005" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a348073a6a3f0b793705d2b08b3311620" title="Gets the current video input from the crossbar." alt="" coords="309,224,519,280"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="232,227,294,235,294,240,232,232"/>
+<area shape="rect" id="Node000006" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a1f0c23bef3288d673acdc606885616f4" title="Gets the pin capabilities and configures size and rate for the specified video capture filter." alt="" coords="287,304,541,360"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="160,234,217,262,281,289,299,296,297,301,279,294,214,267,158,239"/>
+<area shape="rect" id="Node000008" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ac233d55a82dcbdff19a31713c3a8a79b" title="Sets the current crossbar input for the specified video input." alt="" coords="310,384,518,440"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="138,235,196,301,236,338,281,370,297,378,294,383,278,374,233,342,192,305,134,239"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="548,159,607,151,607,156,549,164"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="359,160,356,149,365,140,384,135,414,133,445,135,464,141,463,146,444,140,414,138,385,140,368,145,361,151,364,158"/>
+<area shape="rect" id="Node000007" href="$class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ab3631a5d9efe71eebde1d456faf54728" title="Sets the resolution of the video stream to the specified resolution ." alt="" coords="596,312,823,352"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="541,329,580,329,580,335,541,335"/>
+</map>

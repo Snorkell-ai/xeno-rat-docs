@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.MonoToStereoProvider16.Read" name="NAudio.Wave.MonoToStereoProvider16.Read">
+<area shape="rect" id="Node000001" title="Reads audio data from the source buffer and processes it to the destination buffer." alt="" coords="5,35,195,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_utils_1_1_buffer_helpers.html#a6fcf5a452e6779e71f5dfa9b51a74f1e" title="Ensures that the input buffer has at least the specified number of samples and returns the buffer." alt="" coords="263,5,447,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,41,247,35,248,41,196,47"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="243,70,467,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,63,227,66,227,72,195,68"/>
+</map>

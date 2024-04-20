@@ -1,0 +1,14 @@
+<map id="NAudio.Wave.WaveInEvent.CloseWaveInDevice" name="NAudio.Wave.WaveInEvent.CloseWaveInDevice">
+<area shape="rect" id="Node000001" title="Closes the wave input device and releases associated resources." alt="" coords="682,40,870,81"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a29b989a5b21f61beafa2973638a088e5" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="447,7,634,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,48,634,43,635,38,667,43"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a9acd52251653b2da8c05f923819a8926" title="Opens the wave input device and creates necessary buffers." alt="" coords="447,72,634,113"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="667,78,635,83,634,77,666,73"/>
+<area shape="rect" id="Node000003" href="$class_plugin_1_1_main.html#ad3edeeb801a9b8d82ad07c5a7de4da5b" title="Asynchronously receives data from the specified node and processes it based on the received commands." alt="" coords="5,27,164,52"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,15,325,8,268,9,212,13,133,29,131,23,211,7,268,3,325,3,432,10"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs audio operations." alt="" coords="247,23,364,48"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="431,34,365,36,365,31,431,28"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a31de1b9a63d36392f78ec102cbc081bc" title="Starts recording audio." alt="" coords="212,72,399,113"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="431,95,399,95,399,90,431,90"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="203,71,140,55,142,50,204,66"/>
+</map>

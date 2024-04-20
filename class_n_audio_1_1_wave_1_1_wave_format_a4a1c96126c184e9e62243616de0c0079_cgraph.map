@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveFormat.WaveFormat" name="NAudio.Wave.WaveFormat.WaveFormat">
+<area shape="rect" id="Node000001" title="Reads a new WaveFormat object from a stream." alt="" coords="5,5,222,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_format.html#a84439802a6fe459160467245195969cb" title="Reads the wave format information from the provided BinaryReader." alt="" coords="270,5,484,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,23,254,23,254,28,222,28"/>
+</map>

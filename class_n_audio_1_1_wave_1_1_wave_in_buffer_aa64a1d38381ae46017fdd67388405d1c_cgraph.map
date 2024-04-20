@@ -1,0 +1,4 @@
+<map id="NAudio.Wave.WaveInBuffer.Dispose" name="NAudio.Wave.WaveInBuffer.Dispose">
+<area shape="rect" id="Node000001" title="Releases the managed and unmanaged resources used by the WaveInRecorder." alt="" coords="5,29,193,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="63,29,61,19,67,10,80,5,99,3,119,5,132,11,129,16,118,10,99,8,81,10,71,15,67,20,68,28"/>
+</map>

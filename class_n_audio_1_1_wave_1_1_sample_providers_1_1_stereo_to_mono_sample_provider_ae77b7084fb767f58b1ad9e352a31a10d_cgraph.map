@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.StereoToMonoSampleProvider.Read" name="NAudio.Wave.SampleProviders.StereoToMonoSampleProvider.Read">
+<area shape="rect" id="Node000001" title="Reads audio samples from the source provider and processes them to fill the buffer with the mixed out..." alt="" coords="5,5,237,46"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html#a5d289f74be04dfee607e40fa967072ca" title="Fill the specified buffer with 32 bit floating point samples." alt="" coords="285,13,520,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,23,269,23,269,28,237,28"/>
+</map>

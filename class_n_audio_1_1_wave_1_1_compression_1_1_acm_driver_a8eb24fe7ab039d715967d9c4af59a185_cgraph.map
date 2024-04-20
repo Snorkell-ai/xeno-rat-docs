@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.Compression.AcmDriver.Dispose" name="NAudio.Wave.Compression.AcmDriver.Dispose">
+<area shape="rect" id="Node000001" title="Disposes of the resources used by the current instance." alt="" coords="5,35,192,75"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a9f8f58eea92ab7b97d5a988753126fd7" title="Closes the driver handle if it is not already closed." alt="" coords="240,35,426,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,52,224,52,224,58,192,58"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#af38e9ed6bdaad569c4fa21ac1efea365" title="Closes an Audio Compression Manager (ACM) driver." alt="" coords="474,5,660,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="426,41,458,37,459,42,427,46"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="482,70,653,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="427,63,466,68,466,74,426,69"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="708,70,941,96"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="653,80,693,80,693,86,653,86"/>
+</map>

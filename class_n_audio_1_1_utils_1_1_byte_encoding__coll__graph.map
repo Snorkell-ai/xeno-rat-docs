@@ -1,0 +1,7 @@
+<map id="NAudio.Utils.ByteEncoding" name="NAudio.Utils.ByteEncoding">
+<area shape="rect" id="Node000001" title="An encoding for use with file types that have one byte per character." alt="" coords="5,134,177,319"/>
+<area shape="rect" id="Node000002" href="$class_encoding.html" title=" " alt="" coords="18,5,85,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,84,74,133,69,134,59,86"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="109,5,154,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,71,117,118,112,117,122,70"/>
+</map>

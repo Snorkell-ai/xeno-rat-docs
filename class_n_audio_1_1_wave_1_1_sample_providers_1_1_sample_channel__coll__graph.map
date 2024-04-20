@@ -1,0 +1,29 @@
+<map id="NAudio.Wave.SampleProviders.SampleChannel" name="NAudio.Wave.SampleProviders.SampleChannel">
+<area shape="rect" id="Node000001" title="Utility class that takes an IWaveProvider input at any bit depth and exposes it as an ISampleProvider..." alt="" coords="209,876,409,1036"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,127,115,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,208,29,322,21,396,16,478,19,563,30,650,52,734,68,774,88,812,112,845,142,873,176,896,211,915,208,920,173,901,139,877,108,848,83,815,63,776,47,735,25,651,13,564,11,478,15,396,24,321,46,207"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_volume_sample_provider.html" title="Very simple sample provider supporting adjustable gain." alt="" coords="97,501,297,621"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="78,206,180,500,175,502,73,208"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_metering_sample_provider.html" title="Simple SampleProvider that passes through audio unchanged and raises an event every n samples with th..." alt="" coords="321,491,521,631"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="98,202,143,245,169,265,197,282,228,290,255,290,282,291,296,296,311,306,349,346,377,394,398,444,411,490,406,492,393,446,373,396,345,349,308,310,294,301,281,296,255,295,227,296,195,286,166,269,139,249,94,206"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,620,238,728,273,852,275,860,270,862,267,853,233,729,207,621"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="139,127,333,193"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="223,193,213,225,202,292,196,361,195,484,190,484,191,361,197,292,208,223,218,192"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="255,191,312,307,387,474,383,476,307,309,250,194"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="418,631,402,737,388,796,371,853,367,862,362,860,365,851,383,795,397,736,413,630"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="357,127,395,193"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="378,193,380,284,392,383,407,474,402,475,387,383,375,284,372,193"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="648,127,675,193"/>
+<area shape="poly" id="edge9_Node000005_Node000007" title=" " alt="" coords="650,184,632,202,616,211,601,214,588,217,574,226,544,268,512,331,454,476,449,474,507,329,540,265,570,222,586,212,600,208,614,206,629,198,646,180"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="659,308,858,813"/>
+<area shape="poly" id="edge15_Node000010_Node000007" title=" " alt="" coords="662,192,662,236,666,284,668,291,662,292,661,284,656,236,657,192"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_stream_volume_event_args.html" title="Event args for aggregated stream volume." alt="" coords="419,120,619,200"/>
+<area shape="poly" id="edge10_Node000005_Node000008" title=" " alt="" coords="504,201,495,225,461,355,437,475,432,474,456,354,490,223,499,199"/>
+<area shape="rect" id="Node000009" href="$class_event_args.html" title=" " alt="" coords="482,5,555,71"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="521,85,521,120,516,120,516,85"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="661,690,579,777,532,818,483,855,425,891,422,887,480,850,529,814,575,773,658,687"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="908,127,1049,193"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="973,193,959,237,940,285,906,348,869,408,865,406,902,345,935,283,954,236,968,192"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="831,127,873,193"/>
+<area shape="poly" id="edge14_Node000010_Node000012" title=" " alt="" coords="847,193,824,292,819,291,842,192"/>
+</map>

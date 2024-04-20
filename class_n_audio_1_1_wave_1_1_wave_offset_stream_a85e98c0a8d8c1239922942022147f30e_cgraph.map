@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOffsetStream.Read" name="NAudio.Wave.WaveOffsetStream.Read">
+<area shape="rect" id="Node000001" title="Reads audio data from the source stream into the destination buffer, filling with silence if necessar..." alt="" coords="5,5,257,31"/>
+<area shape="rect" id="Node000002" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="305,5,529,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,16,289,16,289,21,257,21"/>
+</map>

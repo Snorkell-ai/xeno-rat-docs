@@ -1,0 +1,17 @@
+<map id="NAudio.Dsp.WdlResampler.ResampleOut" name="NAudio.Dsp.WdlResampler.ResampleOut">
+<area shape="rect" id="Node000001" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="5,177,191,218"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#ac7881f23e3aea7b35774e35bbc417e8f" title="Applies a filter to the input buffer and stores the result in the output buffer." alt="" coords="250,13,462,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,174,165,120,200,90,237,64,250,57,253,62,240,69,203,94,169,123,118,178"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#aa60e6a4f8c5057ec8e302cf2fa35cd86" title="Builds a lowpass filter based on the given filter position." alt="" coords="263,78,449,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,174,238,129,260,122,262,127,240,134,141,179"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#a3a8818d6e72312920ad0832573772904" title="Sets the parameters for the filter." alt="" coords="239,144,473,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="191,183,223,178,224,184,191,188"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#ad03b87b375e513fedb9afc228db73cdc" title="Performs sample rate conversion using sinc interpolation." alt="" coords="263,209,449,250"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="191,206,248,213,247,218,191,211"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#adeaf32603f012456f0095f7fc326e08b" title="Performs sinc resampling on the input buffer and writes the result to the output buffer at the specif..." alt="" coords="263,274,449,315"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="142,216,240,259,263,267,261,272,238,264,140,221"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler.html#afb22bedf8c8e13d86435293889067753" title="Performs a sinc resampling of the input buffer and stores the result in the output buffer." alt="" coords="263,340,449,380"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="118,216,169,270,203,299,240,324,253,331,251,336,237,329,200,303,165,274,114,220"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#a37e35f342194c9b64bff423dfc244574" title="Filters the input value to prevent denormalization and returns the filtered value." alt="" coords="521,5,752,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="462,31,505,31,505,36,462,36"/>
+</map>

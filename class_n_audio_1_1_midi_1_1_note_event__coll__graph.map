@@ -1,0 +1,16 @@
+<map id="NAudio.Midi.NoteEvent" name="NAudio.Midi.NoteEvent">
+<area shape="rect" id="Node000001" title="Represents a note MIDI event." alt="" coords="134,597,286,782"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="134,149,286,534"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,549,213,597,208,597,208,549"/>
+<area shape="rect" id="Node000003" href="$class_i_cloneable.html" title=" " alt="" coords="364,5,438,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="394,86,385,108,371,127,352,138,334,140,317,141,300,151,288,163,284,159,297,147,316,136,334,134,351,133,367,123,381,105,390,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="104,5,232,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="170,71,172,124,172,131,167,132,166,125,164,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="36,5,62,71"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="43,71,24,155,10,272,8,338,13,404,25,470,46,533,60,560,79,585,123,628,119,631,75,588,56,563,41,535,19,472,7,405,3,338,5,272,19,154,38,70"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="64,59,118,147,129,168,124,170,113,150,60,62"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="276,5,313,71"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="288,71,271,133,266,132,283,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="310,309,356,374"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="333,374,323,449,314,492,301,535,279,583,274,581,296,533,309,491,318,448,328,374"/>
+</map>

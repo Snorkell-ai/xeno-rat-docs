@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates" name="NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates">
+<area shape="rect" id="Node000001" title="Retrieves the array of encoded bitrates for the specified audio subtype, sample rate,..." alt="" coords="5,71,210,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="258,71,462,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,88,242,88,242,94,210,94"/>
+<area shape="rect" id="Node000003" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="510,5,766,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="449,67,533,47,534,53,450,73"/>
+<area shape="rect" id="Node000004" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="510,71,766,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="463,88,495,88,495,94,463,94"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="523,135,753,191"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="442,109,514,128,512,133,441,115"/>
+</map>

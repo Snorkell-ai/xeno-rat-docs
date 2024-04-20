@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.WaveOut.Pause" name="NAudio.Wave.WaveOut.Pause">
+<area shape="rect" id="Node000001" title="Pauses the playback if the current state is playing." alt="" coords="5,13,206,39"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_interop.html#a079c99a507208a238c7159f4d6914b9d" title="Pauses playback on the specified waveform&#45;audio output device." alt="" coords="254,5,467,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,23,238,23,238,28,206,28"/>
+</map>

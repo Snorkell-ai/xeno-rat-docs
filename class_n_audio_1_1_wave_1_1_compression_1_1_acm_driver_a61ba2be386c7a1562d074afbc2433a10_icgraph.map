@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.Compression.AcmDriver.AcmFormatEnumCallback" name="NAudio.Wave.Compression.AcmDriver.AcmFormatEnumCallback">
+<area shape="rect" id="Node000001" title="Callback function for enumerating ACM format details." alt="" coords="240,5,479,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#ac1b15e2e71ad94b9d952bedabdb3e7d9" title="Retrieves a collection of audio formats associated with the specified format tag." alt="" coords="5,5,192,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,28,192,28,192,23,224,23"/>
+</map>

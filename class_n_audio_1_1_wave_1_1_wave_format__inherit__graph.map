@@ -1,0 +1,21 @@
+<map id="NAudio.Wave.WaveFormat" name="NAudio.Wave.WaveFormat">
+<area shape="rect" id="Node000001" title="Represents a Wave file format." alt="" coords="921,5,1120,651"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_adpcm_wave_format.html" title="Microsoft ADPCM See http://icculus.org/SDL_sound/downloads/external_documentation/wavecomp...." alt="" coords="5,699,217,924"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="908,371,767,426,593,501,408,594,317,646,230,701,219,709,216,705,227,696,314,641,405,589,591,496,765,421,906,366"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_gsm610_wave_format.html" title="GSM 610." alt="" coords="241,759,461,864"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="910,400,704,534,587,616,474,701,405,761,402,757,471,697,584,611,701,530,907,396"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_ima_adpcm_wave_format.html" title="IMA/DVI ADPCM Wave Format Work in progress." alt="" coords="485,761,679,861"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="914,450,628,764,624,760,910,447"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_mp3_wave_format.html" title="MP3 WaveFormat, MPEGLAYER3WAVEFORMAT from mmreg.h." alt="" coords="703,729,899,894"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="918,561,840,730,835,728,913,559"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_ogg_wave_format.html" title=" " alt="" coords="923,769,1118,854"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1023,666,1023,769,1018,769,1018,666"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_true_speech_wave_format.html" title="DSP Group TrueSpeech." alt="" coords="1142,761,1342,861"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1129,557,1222,761,1217,763,1124,560"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_wave_format_extensible.html" title="WaveFormatExtensible http://www.microsoft.com/whdc/device/audio/multichaud.mspx." alt="" coords="1366,709,1598,914"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1132,441,1387,707,1383,711,1128,445"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_wave_format_extra_data.html" title="This class used for marshalling from unmanaged code." alt="" coords="1622,739,1851,884"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1134,390,1359,525,1487,609,1612,697,1661,737,1658,741,1608,701,1484,613,1356,530,1132,395"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_wave_1_1_wave_formats_1_1_wma_wave_format.html" title="The WMA wave format. May not be much use because WMA codec is a DirectShow DMO not an ACM." alt="" coords="1875,721,2057,901"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1135,360,1287,411,1475,485,1575,530,1675,580,1773,636,1865,697,1893,720,1890,724,1862,701,1770,640,1673,585,1573,535,1473,490,1285,416,1133,365"/>
+</map>

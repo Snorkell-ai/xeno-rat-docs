@@ -1,0 +1,5 @@
+<map id="NAudio.Wave.SampleProviders.MonoToStereoSampleProvider.EnsureSourceBuffer" name="NAudio.Wave.SampleProviders.MonoToStereoSampleProvider.EnsureSourceBuffer">
+<area shape="rect" id="Node000001" title="Ensures that the source buffer has a minimum capacity of count . If the current buffer is null or has..." alt="" coords="285,5,526,61"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_mono_to_stereo_sample_provider.html#ad096913134f6f652797c10d1a6d39733" title="Reads audio samples from the source and stores them in the buffer." alt="" coords="5,13,237,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,36,237,36,237,31,269,31"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.MainForm.GetAddInfo" name="xeno_rat_server.MainForm.GetAddInfo">
+<area shape="rect" id="Node000001" title="Retrieves additional information and returns a ListViewItem object." alt="" coords="460,5,639,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_main_form.html#a50b1960a103811fc004621bcec9c16f5" title="Handles the connection of a socket and performs necessary setup operations." alt="" coords="233,5,412,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,28,413,28,413,23,445,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_main_form.html#a10da4cbe96d264b615a74b1b89b24101" title=" " alt="" coords="5,5,185,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,28,185,28,185,23,217,23"/>
+</map>

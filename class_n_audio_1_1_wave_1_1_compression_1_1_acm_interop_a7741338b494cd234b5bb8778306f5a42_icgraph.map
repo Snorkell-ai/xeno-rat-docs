@@ -1,0 +1,7 @@
+<map id="NAudio.Wave.Compression.AcmInterop.acmStreamOpen2" name="NAudio.Wave.Compression.AcmInterop.acmStreamOpen2">
+<area shape="rect" id="Node000001" title="Opens a new conversion stream for audio data." alt="" coords="240,39,437,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a809f3ad304af60f6b601c319ae6c4afc" title="Creates a new ACM stream to convert one format to another, using a specified driver identifier and wa..." alt="" coords="5,5,192,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,46,192,41,192,36,224,40"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a63db5a6e10bee35b5796bf199cc5e203" title="Creates a new ACM stream to convert one format to another. Note that not all conversions can be done ..." alt="" coords="5,71,192,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,77,192,81,192,76,224,72"/>
+</map>

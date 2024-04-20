@@ -1,0 +1,99 @@
+<map id="xeno_rat_server.Forms.Hvnc.InitializeComponent" name="xeno_rat_server.Forms.Hvnc.InitializeComponent">
+<area shape="rect" id="Node000001" title="Initializes the components of the form." alt="" coords="5,535,199,576"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a3169c525d5076eac9cc34ad9a4f9084c" title="Handles the click event for button10, starts the Brave browser and displays a message if the browser ..." alt="" coords="247,371,490,412"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,533,171,478,207,448,245,422,259,416,261,421,248,427,210,452,175,482,122,536"/>
+<area shape="rect" id="Node000015" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aeb3271920e2b01eb80ca189ae3b1827a" title="Initiates the process to start the OperaGX browser asynchronously." alt="" coords="247,436,490,477"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="144,532,246,488,269,480,271,485,248,493,146,537"/>
+<area shape="rect" id="Node000017" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aaa4cfcef0c07f942d62ea7022ccfcf77" title="Initiates the process to start the Opera browser asynchronously and displays a message if the browser..." alt="" coords="247,502,490,542"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="199,541,231,537,232,542,200,546"/>
+<area shape="rect" id="Node000019" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a043589b2c7281c973776153475d4ca75" title="Enables the checkbox, starts the asynchronous operation, disables the button, and sets the playing fl..." alt="" coords="250,567,487,608"/>
+<area shape="poly" id="edge21_Node000001_Node000019" title=" " alt="" coords="200,564,235,569,234,574,199,570"/>
+<area shape="rect" id="Node000021" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a62ed21ca4f5099da271dcf2951ef21c4" title="Disables the checkbox, stops the asynchronous operation, enables button1, and disposes the image in c..." alt="" coords="250,632,487,673"/>
+<area shape="poly" id="edge24_Node000001_Node000021" title=" " alt="" coords="146,574,248,617,271,625,270,630,246,622,144,579"/>
+<area shape="rect" id="Node000023" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a744844b91714fdeed353b3d42e2fabdf" title="Sends a signal to the client if the application is currently in a playing state." alt="" coords="538,11,774,52"/>
+<area shape="poly" id="edge27_Node000001_Node000023" title=" " alt="" coords="104,534,120,434,150,292,170,220,192,155,217,102,245,67,276,45,310,29,347,17,384,9,459,3,530,6,530,12,459,8,385,14,348,22,312,34,279,50,248,71,222,104,197,157,175,222,156,294,126,435,109,535"/>
+<area shape="rect" id="Node000024" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aa965aed6eec12d167ccf007efbe8f286" title="Starts a process using the specified file path." alt="" coords="250,828,487,869"/>
+<area shape="poly" id="edge29_Node000001_Node000024" title=" " alt="" coords="111,575,127,624,155,689,195,756,220,787,248,813,255,818,252,823,245,817,216,790,190,759,150,691,122,626,106,577"/>
+<area shape="rect" id="Node000026" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a594ea603bf76a73af3b36cbc9c219641" title="Handles the click event of button5, starts the Edge browser, and displays a message if the browser cl..." alt="" coords="250,80,487,121"/>
+<area shape="poly" id="edge33_Node000001_Node000026" title=" " alt="" coords="102,534,110,461,132,355,150,298,174,241,206,188,245,140,261,127,265,131,249,144,210,191,179,244,155,300,137,357,115,461,107,535"/>
+<area shape="rect" id="Node000028" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a5512166f5465930053a83fe81c097223" title="Starts a new instance of Chrome browser and displays a message if the browser profile data is being c..." alt="" coords="250,154,487,194"/>
+<area shape="poly" id="edge36_Node000001_Node000028" title=" " alt="" coords="104,534,117,474,143,391,162,346,185,301,212,259,245,221,276,199,279,204,248,225,216,262,189,304,167,348,148,393,122,475,109,535"/>
+<area shape="rect" id="Node000030" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a3681e182038141dc4484ba1384032fe2" title="Starts a new instance of Firefox browser and displays a message if the browser profile data is being ..." alt="" coords="250,235,487,276"/>
+<area shape="poly" id="edge39_Node000001_Node000030" title=" " alt="" coords="106,534,123,485,150,420,191,351,216,320,245,292,261,281,264,285,248,296,220,323,195,354,155,422,128,487,111,536"/>
+<area shape="rect" id="Node000032" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#ace859083498d0f66dc281e75e2af4299" title="Initiates a new process for the command prompt." alt="" coords="250,894,487,934"/>
+<area shape="poly" id="edge42_Node000001_Node000032" title=" " alt="" coords="109,576,121,636,146,718,164,761,187,804,215,844,248,879,254,883,250,887,245,883,211,848,183,807,159,764,141,719,116,637,104,577"/>
+<area shape="rect" id="Node000033" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#acb5653bb1603ab9711bef46861f98509" title="Initiates a PowerShell process asynchronously." alt="" coords="250,763,487,804"/>
+<area shape="poly" id="edge44_Node000001_Node000033" title=" " alt="" coords="115,575,135,612,164,659,202,707,248,748,257,754,254,758,245,752,198,711,160,662,130,615,110,577"/>
+<area shape="rect" id="Node000034" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a616d3f2dc69f1660c43f02829a49dcf6" title="Handles the event when the state of the checkbox changes during playback." alt="" coords="254,306,483,346"/>
+<area shape="poly" id="edge46_Node000001_Node000034" title=" " alt="" coords="110,533,130,496,159,448,198,399,245,357,254,351,257,356,248,362,202,403,164,451,135,498,115,536"/>
+<area shape="rect" id="Node000037" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#ae0df7cfef63f112bed4d9aae99817a55" title="Handles the SelectedIndexChanged event of comboBox1. Sets the quality based on the selected index." alt="" coords="252,698,485,738"/>
+<area shape="poly" id="edge51_Node000001_Node000037" title=" " alt="" coords="122,574,175,628,210,658,248,682,262,689,260,694,245,687,207,662,172,632,119,578"/>
+<area shape="rect" id="Node000039" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a8c7c89e502ac9637988023a304788636" title="Event handler for the load event of the Hvnc form." alt="" coords="272,959,465,1000"/>
+<area shape="poly" id="edge56_Node000001_Node000039" title=" " alt="" coords="107,576,116,647,138,746,156,800,180,852,210,901,248,944,259,953,256,957,245,948,206,905,175,855,151,802,133,747,110,647,102,577"/>
+<area shape="rect" id="Node000040" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#ab05e3199d4f91503e68003f6be03ca3d" title="Event handler for the click event of pictureBox1." alt="" coords="252,1024,485,1065"/>
+<area shape="poly" id="edge57_Node000001_Node000040" title=" " alt="" coords="106,576,111,657,118,712,130,773,147,837,172,900,206,958,249,1010,253,1013,249,1017,245,1013,201,961,168,902,142,839,124,775,112,713,105,657,101,576"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aa1d418d1efb72d79990f64aba16d5797" title="Starts the Brave action asynchronously." alt="" coords="560,403,753,444"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="491,402,544,408,544,414,490,408"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="822,468,1005,509"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="740,442,817,461,815,467,738,447"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="1053,568,1271,594"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="972,507,1112,560,1110,565,970,512"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="1059,479,1265,520"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="1005,490,1043,492,1043,497,1005,495"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="1121,569,1113,559,1118,549,1134,543,1162,541,1193,544,1208,551,1206,556,1191,549,1162,547,1135,549,1121,553,1118,559,1125,566"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="1323,447,1521,488"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1265,484,1307,479,1308,484,1266,489"/>
+<area shape="rect" id="Node000012" href="$classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="1319,698,1525,738"/>
+<area shape="poly" id="edge12_Node000006_Node000012" title=" " alt="" coords="1257,518,1273,529,1285,543,1293,557,1300,584,1306,611,1321,641,1346,666,1373,687,1370,691,1342,670,1317,644,1301,613,1295,585,1288,559,1281,546,1269,533,1254,522"/>
+<area shape="rect" id="Node000013" href="$classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="1331,512,1514,553"/>
+<area shape="poly" id="edge13_Node000006_Node000013" title=" " alt="" coords="1266,510,1315,516,1315,522,1265,515"/>
+<area shape="rect" id="Node000014" href="$classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="1319,590,1525,630"/>
+<area shape="poly" id="edge14_Node000006_Node000014" title=" " alt="" coords="1245,518,1272,529,1297,545,1320,562,1356,580,1353,585,1318,567,1294,550,1270,534,1243,523"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1589,350,1787,390"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1467,444,1572,401,1596,393,1598,398,1574,406,1469,449"/>
+<area shape="rect" id="Node000009" href="$classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1589,415,1787,456"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="1522,453,1573,447,1574,452,1522,458"/>
+<area shape="rect" id="Node000010" href="$classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1589,480,1787,521"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="1522,477,1574,484,1573,489,1522,483"/>
+<area shape="rect" id="Node000011" href="$classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1573,546,1803,586"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="1497,486,1527,498,1551,515,1575,530,1591,537,1589,542,1572,535,1548,519,1524,503,1495,491"/>
+<area shape="rect" id="Node000016" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a9ed668fa63edc4b75dbf6557c64764f5" title="Starts the OperaGX application asynchronously." alt="" coords="560,468,753,509"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="491,468,544,474,544,479,490,473"/>
+<area shape="poly" id="edge17_Node000016_Node000004" title=" " alt="" coords="753,486,807,486,807,491,753,491"/>
+<area shape="rect" id="Node000018" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aab97ad9dc95e6dd063af0990fabb039e" title="Starts the opera if not already playing." alt="" coords="560,534,753,574"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="491,533,544,539,544,544,490,538"/>
+<area shape="poly" id="edge20_Node000018_Node000004" title=" " alt="" coords="738,531,815,511,817,516,740,536"/>
+<area shape="rect" id="Node000020" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a983ef3c97056eea357d77ec75c45afa0" title="Asynchronously sends a byte array to the client." alt="" coords="547,599,766,624"/>
+<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="487,595,531,598,531,604,487,600"/>
+<area shape="poly" id="edge23_Node000020_Node000004" title=" " alt="" coords="739,595,773,584,829,552,876,517,879,521,832,557,775,589,741,600"/>
+<area shape="rect" id="Node000022" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#adb26a3da7113afd923395d00686c62d7" title="Stops the asynchronous operation and sends a byte with value 1 using the client." alt="" coords="547,648,765,674"/>
+<area shape="poly" id="edge25_Node000021_Node000022" title=" " alt="" coords="487,653,532,655,531,660,487,659"/>
+<area shape="poly" id="edge26_Node000022_Node000004" title=" " alt="" coords="749,645,773,634,809,610,840,580,889,520,893,524,844,583,812,614,776,639,751,650"/>
+<area shape="poly" id="edge28_Node000023_Node000004" title=" " alt="" coords="759,50,776,63,814,108,845,158,868,213,886,268,907,373,914,453,909,453,901,374,881,270,863,215,840,161,810,111,773,67,756,54"/>
+<area shape="rect" id="Node000025" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a337a4cadb9bbb67045bfb5fb57ccace5" title="Starts a process by sending the specified path to the client." alt="" coords="560,763,753,804"/>
+<area shape="poly" id="edge30_Node000024_Node000025" title=" " alt="" coords="460,825,548,805,549,810,462,830"/>
+<area shape="poly" id="edge32_Node000025_Node000004" title=" " alt="" coords="752,761,773,748,798,724,821,696,858,635,884,574,901,524,906,525,889,576,863,637,825,699,802,727,776,752,755,766"/>
+<area shape="poly" id="edge31_Node000025_Node000012" title=" " alt="" coords="753,773,1303,725,1304,731,754,778"/>
+<area shape="rect" id="Node000027" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#ab2afa701013179d0b80c3e05262682b3" title="Starts the edge and sends a byte array to the client asynchronously." alt="" coords="560,76,753,117"/>
+<area shape="poly" id="edge34_Node000026_Node000027" title=" " alt="" coords="487,96,544,96,544,101,487,102"/>
+<area shape="poly" id="edge35_Node000027_Node000004" title=" " alt="" coords="755,114,776,128,809,165,837,206,859,251,877,296,900,384,911,452,906,453,895,385,872,298,854,253,832,209,805,168,773,132,752,118"/>
+<area shape="rect" id="Node000029" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aaf12e5bb9eaf2088fe9c8cae214ede0b" title="Starts the Chrome process if not already started and sends a byte array to the client." alt="" coords="560,142,753,182"/>
+<area shape="poly" id="edge37_Node000028_Node000029" title=" " alt="" coords="487,167,544,164,544,169,487,172"/>
+<area shape="poly" id="edge38_Node000029_Node000004" title=" " alt="" coords="754,179,776,193,805,222,829,255,867,326,893,395,908,452,903,453,888,397,863,328,825,257,801,225,773,198,751,184"/>
+<area shape="rect" id="Node000031" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a5c06b3b57fd7bb580199dcd336efe5b9" title="Starts the Firefox application asynchronously." alt="" coords="560,207,753,248"/>
+<area shape="poly" id="edge40_Node000030_Node000031" title=" " alt="" coords="487,241,544,236,544,241,487,247"/>
+<area shape="poly" id="edge41_Node000031_Node000004" title=" " alt="" coords="754,246,776,259,821,303,857,356,885,408,903,453,898,455,880,411,853,359,817,307,773,263,752,250"/>
+<area shape="poly" id="edge43_Node000032_Node000025" title=" " alt="" coords="455,891,489,878,554,845,611,810,614,815,557,850,491,883,457,896"/>
+<area shape="poly" id="edge45_Node000033_Node000025" title=" " alt="" coords="487,781,544,781,544,786,487,786"/>
+<area shape="rect" id="Node000035" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a4dda2cb7bca1b6d9b065d0e147cbbb59" title="Disables the cloning of the browser if currently active." alt="" coords="560,338,753,378"/>
+<area shape="poly" id="edge47_Node000034_Node000035" title=" " alt="" coords="483,336,544,343,543,348,482,341"/>
+<area shape="rect" id="Node000036" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#aa0906c5ab27fd38915a98c5298df112d" title="Enables browser cloning if not already enabled and the application is in playing state." alt="" coords="560,272,753,313"/>
+<area shape="poly" id="edge49_Node000034_Node000036" title=" " alt="" coords="482,310,543,303,544,308,483,316"/>
+<area shape="poly" id="edge48_Node000035_Node000004" title=" " alt="" coords="745,377,776,389,831,421,878,456,875,461,828,426,773,394,743,382"/>
+<area shape="poly" id="edge50_Node000036_Node000004" title=" " alt="" coords="752,311,776,324,813,353,846,388,895,454,890,457,842,391,810,357,773,328,749,316"/>
+<area shape="rect" id="Node000038" href="$classxeno__rat__server_1_1_forms_1_1_hvnc.html#a8f59b75e2c0ab64f994c82be88ea365b" title="Sets the quality of the client&#39;s socket and sends the updated quality value." alt="" coords="560,698,753,738"/>
+<area shape="poly" id="edge52_Node000037_Node000038" title=" " alt="" coords="485,715,544,715,544,721,485,721"/>
+<area shape="poly" id="edge55_Node000038_Node000004" title=" " alt="" coords="752,696,773,684,800,657,832,613,890,521,895,524,836,616,804,660,776,688,754,700"/>
+<area shape="poly" id="edge53_Node000038_Node000012" title=" " alt="" coords="753,715,1303,715,1303,721,753,721"/>
+<area shape="poly" id="edge54_Node000038_Node000014" title=" " alt="" coords="753,702,1303,624,1304,629,754,707"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="xeno_rat_server.Forms.InfoGrab.EnableAllButtons" name="xeno_rat_server.Forms.InfoGrab.EnableAllButtons">
+<area shape="rect" id="Node000001" title="Enables all the buttons within the form." alt="" coords="690,136,871,177"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_info_grab.html#a35179a45a5d0c4a11cecd5048f33016f" title="Disables all buttons, sends a byte array to the client, receives a byte array from the client,..." alt="" coords="462,5,642,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="741,128,694,94,641,61,614,49,617,44,644,57,697,90,744,124"/>
+<area shape="rect" id="Node000005" href="$classxeno__rat__server_1_1_forms_1_1_info_grab.html#a2de8e8fabe82dca320dbc28b342c9875" title="Handles the button click event by sending a byte to the client and receiving data asynchronously." alt="" coords="462,71,642,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="692,134,625,115,627,109,694,129"/>
+<area shape="rect" id="Node000006" href="$classxeno__rat__server_1_1_forms_1_1_info_grab.html#ae1a965e3a6a7c1feadd1b41a06e4292c" title="Sends a request to the client and displays the received data in richTextBox3." alt="" coords="462,136,642,177"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="675,159,643,159,643,154,675,154"/>
+<area shape="rect" id="Node000007" href="$classxeno__rat__server_1_1_forms_1_1_info_grab.html#ae3b674b6565d59d838881f6d827557ef" title="Disables all buttons, sends a byte array to the client, receives a byte array from the client,..." alt="" coords="462,201,642,242"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="694,184,627,203,625,198,692,179"/>
+<area shape="rect" id="Node000008" href="$classxeno__rat__server_1_1_forms_1_1_info_grab.html#a65b50fdc3ce678dd2de2841a6da67bfa" title="Sends a request to the client and displays the received data in a rich text box." alt="" coords="462,267,642,307"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="744,189,697,223,644,256,617,268,614,264,641,251,694,218,741,184"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_info_grab.html#a4d2a351c38d239200fcbb840d6bb45af" title="Initializes the components of the form." alt="" coords="234,136,414,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="476,55,463,61,402,100,352,138,348,133,399,95,461,57,474,50"/>
+<area shape="rect" id="Node000004" href="$classxeno__rat__server_1_1_forms_1_1_info_grab.html#ada9eaf7fdd60b9f454b68a93da59a024" title=" " alt="" coords="5,136,186,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,159,186,159,186,154,218,154"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="465,119,398,138,397,133,464,113"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="447,159,414,159,414,154,447,154"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="464,199,397,180,398,175,465,194"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="474,262,461,256,399,217,348,179,352,175,402,213,463,251,476,258"/>
+</map>

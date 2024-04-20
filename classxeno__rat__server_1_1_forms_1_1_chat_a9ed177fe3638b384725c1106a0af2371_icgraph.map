@@ -1,0 +1,7 @@
+<map id="xeno_rat_server.Forms.Chat.textBox2_KeyDown" name="xeno_rat_server.Forms.Chat.textBox2_KeyDown">
+<area shape="rect" id="Node000001" title="Handles the KeyDown event for textBox2 and performs a click on button1 if the Enter key is pressed." alt="" coords="510,5,722,46"/>
+<area shape="rect" id="Node000002" href="$classxeno__rat__server_1_1_forms_1_1_chat.html#a77a5c53dc879fbfdb43b3f6cc79e7e7d" title="Initializes the components of the chat window." alt="" coords="272,5,462,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,28,463,28,463,23,494,23"/>
+<area shape="rect" id="Node000003" href="$classxeno__rat__server_1_1_forms_1_1_chat.html#aaec358851b55c5a14ef894579c1af4ba" title=" " alt="" coords="5,13,224,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="256,28,224,28,224,23,256,23"/>
+</map>

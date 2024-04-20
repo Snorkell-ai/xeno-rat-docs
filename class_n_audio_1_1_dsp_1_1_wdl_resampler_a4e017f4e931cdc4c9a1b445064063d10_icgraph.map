@@ -1,0 +1,5 @@
+<map id="NAudio.Dsp.WdlResampler.ResampleOut" name="NAudio.Dsp.WdlResampler.ResampleOut">
+<area shape="rect" id="Node000001" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="293,5,478,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,5,245,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,28,245,28,245,23,277,23"/>
+</map>

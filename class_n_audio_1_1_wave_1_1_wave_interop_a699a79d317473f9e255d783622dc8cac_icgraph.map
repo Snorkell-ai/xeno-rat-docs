@@ -1,0 +1,16 @@
+<map id="NAudio.Wave.WaveInterop.waveInStop" name="NAudio.Wave.WaveInterop.waveInStop">
+<area shape="rect" id="Node000001" title="Stops audio input on the specified waveform&#45;audio input device." alt="" coords="748,27,962,68"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_wave_in.html#a6ecd599e803867348a6a6f1932cdf894" title="Stops the recording if it is currently in progress." alt="" coords="461,5,700,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="733,37,700,34,701,28,733,32"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#ae1ebb94727fb6b5a87db6b1f6e7be21e" title="Stops the audio recording if it is currently in progress." alt="" coords="487,55,674,96"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="733,63,675,69,674,63,733,57"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_in.html#ab5fbb89bcdf578ec5a5f3c515112fe78" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="212,5,413,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="445,21,413,21,413,16,445,16"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_wave_in_event.html#a29b989a5b21f61beafa2973638a088e5" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="219,109,406,149"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="472,100,407,113,406,108,471,95"/>
+<area shape="rect" id="Node000006" href="$class_plugin_1_1_main.html#ad3edeeb801a9b8d82ad07c5a7de4da5b" title="Asynchronously receives data from the specified node and processes it based on the received commands." alt="" coords="5,63,164,88"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="471,78,164,78,164,73,471,73"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="207,107,142,92,143,86,209,102"/>
+<area shape="rect" id="Node000007" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs audio operations." alt="" coords="26,116,143,142"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="203,132,144,132,144,126,203,126"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NAudio.Midi.MidiEventCollection.AddEvent" name="NAudio.Midi.MidiEventCollection.AddEvent">
+<area shape="rect" id="Node000001" title="Adds a MIDI event to the specified track." alt="" coords="5,5,222,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event_collection.html#a67568e17c4389304170adea56d7fc41e" title="Ensures that the number of tracks in the trackEvents list is at least count &#160;by adding empty lists if..." alt="" coords="270,5,486,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,23,254,23,254,28,222,28"/>
+</map>

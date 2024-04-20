@@ -1,0 +1,6 @@
+<map id="NAudio.Wave.WaveFormatConversionProvider.Dispose" name="NAudio.Wave.WaveFormatConversionProvider.Dispose">
+<area shape="rect" id="Node000001" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,29,251,70"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a9037fe64d3d79067ae4068ffb16ba430" title="Releases the unmanaged resources used by the WaveFormatConverter and optionally releases the managed ..." alt="" coords="299,29,485,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,47,283,47,283,52,251,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="343,29,340,19,348,10,366,5,392,3,420,5,437,11,435,16,419,10,392,8,367,10,351,15,345,21,348,28"/>
+</map>

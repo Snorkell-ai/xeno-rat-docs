@@ -1,0 +1,18 @@
+<map id="NAudio.Wave.Compression.AcmDriver.EnumerateAcmDrivers" name="NAudio.Wave.Compression.AcmDriver.EnumerateAcmDrivers">
+<area shape="rect" id="Node000001" title="Enumerates the available audio compression managers (ACM) drivers and returns a collection of AcmDriv..." alt="" coords="5,104,224,145"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#ac0682264049e1871a10a37af878e201d" title="Enumerates the Audio Compression Manager (ACM) drivers installed on the system." alt="" coords="298,5,485,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,101,271,56,296,48,297,53,273,62,163,106"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#af20823e6eac937878b5d82528310fd77" title=" " alt="" coords="272,71,511,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,109,256,105,256,110,225,114"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a6c0962b932d6f66efd1c05f869cf4007" title="Callback function for enumerating ACM drivers." alt="" coords="288,136,495,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="225,134,273,140,272,145,224,140"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="804,201,976,227"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="157,143,211,167,272,186,411,208,551,218,681,220,789,217,789,223,681,226,551,224,410,213,271,191,209,172,155,148"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#aa4d323709deb552385d8c28c195ceb01" title="Creates a new ACM Driver object." alt="" coords="559,136,745,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="495,154,543,154,543,159,495,159"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a274a894b0cc0ec82be0cfd6b620d41a6" title="Retrieves details about an Audio Compression Manager (ACM) driver." alt="" coords="793,136,987,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="746,154,778,154,778,159,746,159"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="740,175,819,194,818,199,738,180"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="1035,201,1267,227"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="976,211,1019,211,1019,216,976,216"/>
+</map>

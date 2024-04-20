@@ -1,0 +1,5 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IAudioClient.IsFormatSupported" name="NAudio.CoreAudioApi.Interfaces.IAudioClient.IsFormatSupported">
+<area shape="rect" id="Node000001" title=" " alt="" coords="239,5,453,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_client.html#a59d1e63a0184076c66b85db17a53728e" title="Determines if the specified output format is supported in shared mode." alt="" coords="5,5,191,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,28,191,28,191,23,223,23"/>
+</map>

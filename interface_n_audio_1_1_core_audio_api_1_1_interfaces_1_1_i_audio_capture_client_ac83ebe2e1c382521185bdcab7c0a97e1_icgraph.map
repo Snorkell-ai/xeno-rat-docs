@@ -1,0 +1,15 @@
+<map id="NAudio.CoreAudioApi.Interfaces.IAudioCaptureClient.GetBuffer" name="NAudio.CoreAudioApi.Interfaces.IAudioCaptureClient.GetBuffer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1212,39,1426,79"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#ab06f6d8180612a63fa6808bb35751106" title="Gets a pointer to the buffer." alt="" coords="979,5,1164,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1196,45,1164,41,1165,36,1197,40"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html#ae74d4bb48eebb73044d484c5ddce295e" title="Retrieves a pointer to the buffer that is ready for the next capture." alt="" coords="979,71,1164,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1197,78,1165,82,1164,76,1196,72"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a2216734b29bace018dea78a20c0a1d29" title="Reads the next packet from the AudioCaptureClient and invokes the DataAvailable event with the captur..." alt="" coords="735,71,931,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="963,94,931,94,931,88,963,88"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a7cb69793688b5fe4ed40f72ea54f17a8" title="Records audio using the provided client &#160;and manages the capture state." alt="" coords="492,71,687,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="720,94,688,94,688,88,720,88"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#af5115bd377ab8a0c1d17ab0b5146bafd" title="Captures audio using the provided AudioClient and raises an event when recording is stopped." alt="" coords="249,71,444,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="476,94,444,94,444,88,476,88"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html#a9eb95d2da72e384fefe2e071c64784ee" title="Starts the recording process." alt="" coords="5,71,201,111"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="233,94,201,94,201,88,233,88"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="NAudio.Wave.Asio.AsioDriver.Stop" name="NAudio.Wave.Asio.AsioDriver.Stop">
+<area shape="rect" id="Node000001" title="Stops the ASIO driver and returns any error that occurred during the operation." alt="" coords="1183,62,1409,88"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_ext.html#a2a766495e3da6cf139ba6da1e5cddb0a" title="Stops the driver." alt="" coords="939,55,1135,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1168,78,1136,78,1136,72,1168,72"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a7ad3ac0c9287493dc00c97a5f42fac99" title="Releases the resources used by the driver and sets the driver to null." alt="" coords="686,13,891,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="923,55,856,42,857,37,924,50"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a21bb71cb2b2f3ab102f5264915f4d63c" title="Pauses the playback." alt="" coords="692,62,885,88"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="923,78,886,78,886,72,923,72"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a97d84c3f3c2505e7cad7769065c4d68a" title="Stops the playback and resets the playback state to Stopped." alt="" coords="697,112,880,137"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="924,100,857,113,856,108,923,95"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_out.html#ad7b253da516b22892f2b74862c7642eb" title="Releases unmanaged resources and performs other cleanup operations before the AsioOut is reclaimed by..." alt="" coords="466,5,622,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="671,28,623,28,623,23,671,23"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a8338462283585b521b2c37519777b62f" title="Updates the buffer with input and output channels for audio processing." alt="" coords="450,104,638,145"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="681,127,639,127,639,122,681,122"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a27922dfd8af065caf7a2a01d0c139d5f" title="Initializes the record and playback with the specified wave provider, record channels,..." alt="" coords="228,104,402,145"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="435,127,402,127,402,122,435,122"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a9cb17c8419ec5fabc3bfe982974dbf59" title="Initializes the recording and playback with the specified waveProvider ." alt="" coords="5,112,180,137"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="212,127,180,127,180,122,212,122"/>
+</map>

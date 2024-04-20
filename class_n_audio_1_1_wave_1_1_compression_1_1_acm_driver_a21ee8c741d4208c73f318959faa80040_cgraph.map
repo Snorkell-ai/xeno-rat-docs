@@ -1,0 +1,11 @@
+<map id="NAudio.Wave.Compression.AcmDriver.RemoveLocalDriver" name="NAudio.Wave.Compression.AcmDriver.RemoveLocalDriver">
+<area shape="rect" id="Node000001" title="Removes the local driver and frees the associated resources." alt="" coords="5,71,207,111"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a9fb1473acd47f60cc44da5c626b7f230" title="Removes an Audio Compression Manager (ACM) driver." alt="" coords="255,5,456,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,67,260,48,261,53,187,73"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_utils_1_1_native_methods.html#a98a19f8ccb844116b750bf78392483da" title="Frees the loaded dynamic&#45;link library (DLL) module and returns a value indicating success." alt="" coords="260,71,451,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,88,244,88,244,94,207,94"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="270,136,441,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="198,109,282,129,281,134,197,115"/>
+<area shape="rect" id="Node000005" href="$class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="504,136,736,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="441,146,488,146,488,151,441,151"/>
+</map>

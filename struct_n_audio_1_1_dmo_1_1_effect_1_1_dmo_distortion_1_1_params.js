@@ -1,0 +1,26 @@
+var struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params =
+[
+    [ "GetAllParameters", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a6a1334ad217105feb647ca1df67872b1", null ],
+    [ "SetAllParameters", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#ad45b24a93d3d59716d792f4573645242", null ],
+    [ "EdgeDefault", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a0a0a7288b83e74bd22c29a1c65c7a8e7", null ],
+    [ "EdgeMax", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a5f6f48898b7c30636e8cd7bd05d61a2a", null ],
+    [ "EdgeMin", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#abbf5d5b0a57bdb7cb4db7a8bd8a45a93", null ],
+    [ "fxDistortion", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a86f01e0ba324d4580a01759a4c847763", null ],
+    [ "GainDefault", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a87d46e6820cbb1c0ea39684013b197e1", null ],
+    [ "GainMax", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#add284c621eee2b06c02027f5265faadc", null ],
+    [ "GainMin", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#ae45cc846ac1e86179a1550fc0118d266", null ],
+    [ "PostEqBandWidthDefault", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a08467a1f36c181cc2f02b397ebeeaa18", null ],
+    [ "PostEqBandWidthMax", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a874e83d08f95c92d60f596d029aea327", null ],
+    [ "PostEqBandWidthMin", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#ac12715dfe2cd7555c10108049ae59ebd", null ],
+    [ "PostEqCenterFrequencyDefault", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a637c95f2db73c20699e68a69cc551589", null ],
+    [ "PostEqCenterFrequencyMax", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#ae0869925d79a05c8092a8cd6dae45583", null ],
+    [ "PostEqCenterFrequencyMin", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#acf54669ec31fc90c497398f2d86c9701", null ],
+    [ "PreLowPassCutoffDefault", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#ac2afa6f3213b34d77a8009b07be0f367", null ],
+    [ "PreLowPassCutoffMax", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a17ef8031719587c4f7aa5ac10bb2a80f", null ],
+    [ "PreLowPassCutoffMin", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a85d91fd4da67facceef6dca07f69a5a8", null ],
+    [ "Edge", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#afdb121d9763b313a8e5419cc8fe82845", null ],
+    [ "Gain", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a76f536c084d4448b52e2e1b03f0929c3", null ],
+    [ "PostEqBandWidth", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#af3c44dc27634ea28cf413091444d5812", null ],
+    [ "PostEqCenterFrequency", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a1449e4f56d0c197e7b5926c5ab64f4fd", null ],
+    [ "PreLowPassCutoff", "struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_distortion_1_1_params.html#a0c411650c27ee1a44976d9fb0190db1e", null ]
+];

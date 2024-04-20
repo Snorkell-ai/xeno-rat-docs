@@ -1,0 +1,15 @@
+<map id="NAudio.Wave.Compression.AcmDriverDetails" name="NAudio.Wave.Compression.AcmDriverDetails">
+<area shape="rect" id="Node000001" title="Interop structure for ACM driver details (ACMDRIVERDETAILS) http://msdn.microsoft...." alt="" coords="253,239,430,319"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="11,5,37,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="17,71,11,104,8,142,14,180,21,197,31,213,44,223,63,233,113,248,174,260,236,267,235,273,173,265,112,254,61,238,41,228,27,216,16,200,9,181,3,142,5,103,12,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="137,5,189,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,71,149,103,146,141,151,179,166,213,181,229,198,242,238,260,236,265,195,247,177,233,162,216,146,180,141,141,144,103,151,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="234,5,286,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,70,257,139,263,177,276,214,282,224,277,227,271,216,258,178,252,139,253,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="310,5,503,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="408,71,399,138,380,215,376,224,371,222,375,214,394,137,402,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="528,5,573,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="551,71,546,104,536,143,520,182,495,216,473,236,447,251,444,246,470,232,491,213,515,179,531,141,541,103,546,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="599,5,644,71"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="628,71,630,104,626,143,616,182,594,217,570,232,535,246,447,265,446,260,533,240,568,228,590,213,611,180,621,142,624,104,623,71"/>
+</map>

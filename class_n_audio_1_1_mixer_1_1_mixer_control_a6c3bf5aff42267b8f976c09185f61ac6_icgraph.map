@@ -1,0 +1,5 @@
+<map id="NAudio.Mixer.MixerControl.GetDetails" name="NAudio.Mixer.MixerControl.GetDetails">
+<area shape="rect" id="Node000001" title="Retrieves the details using the provided pointer to details." alt="" coords="235,5,416,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a3c93d24af0086526a447ceea83efdd65" title="Retrieves details of the mixer control." alt="" coords="5,5,187,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
+</map>

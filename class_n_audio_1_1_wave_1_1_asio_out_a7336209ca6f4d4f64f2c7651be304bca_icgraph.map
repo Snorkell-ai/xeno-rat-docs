@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.AsioOut.OnDriverResetRequest" name="NAudio.Wave.AsioOut.OnDriverResetRequest">
+<area shape="rect" id="Node000001" title="Raises the DriverResetRequest event." alt="" coords="479,23,687,64"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a6b4c4484adddaf032543156544bb7d12" title="Initializes the object using the provided driver name and sets up the extended driver." alt="" coords="257,23,431,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="463,46,431,46,431,41,463,41"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_asio_out.html#ad1ba13d0e953275fd3c5881c8bb03215" title="Opens an ASIO output device." alt="" coords="5,5,209,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="241,35,209,32,210,26,242,30"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_wave_1_1_asio_out.html#a440b7c7157bfafeecca7a1d706b618eb" title="Initializes a new instance of the AsioOut class with the driver name." alt="" coords="5,55,209,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="242,56,210,60,209,55,241,51"/>
+</map>

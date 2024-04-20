@@ -1,0 +1,4 @@
+var _m_f___s_i_n_k___w_r_i_t_e_r___s_t_a_t_i_s_t_i_c_s_8cs =
+[
+    [ "NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS", "class_n_audio_1_1_media_foundation_1_1_m_f___s_i_n_k___w_r_i_t_e_r___s_t_a_t_i_s_t_i_c_s.html", "class_n_audio_1_1_media_foundation_1_1_m_f___s_i_n_k___w_r_i_t_e_r___s_t_a_t_i_s_t_i_c_s" ]
+];

@@ -1,0 +1,24 @@
+<map id="NAudio.Wave.WaveOutBuffer" name="NAudio.Wave.WaveOutBuffer">
+<area shape="rect" id="Node000001" title="A buffer of Wave samples for streaming to a Wave Output device." alt="" coords="383,337,568,522"/>
+<area shape="rect" id="Node000002" href="$class_i_disposable.html" title=" " alt="" coords="5,179,87,244"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,256,92,285,118,311,182,349,251,378,320,399,383,413,382,418,319,404,250,383,180,354,115,315,88,289,66,259"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_wave_header.html" title="WaveHeader interop structure (WAVEHDR) http://msdn.microsoft.com/en&#45;us/library/dd743837%28VS...." alt="" coords="228,179,400,244"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="332,243,375,312,382,322,378,325,370,314,328,245"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="151,5,197,71"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="161,71,147,109,136,153,135,200,139,222,149,243,168,271,192,297,247,340,308,373,368,397,366,402,305,377,244,344,188,300,164,274,144,245,134,223,129,200,131,152,142,107,156,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,69,204,111,231,153,244,166,241,170,227,156,199,114,181,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="293,5,319,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="308,70,310,155,311,162,305,162,305,155,303,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="373,5,493,71"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="434,71,426,113,417,136,405,156,393,170,389,166,401,153,413,133,420,112,428,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="424,179,465,244"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="436,245,431,268,428,291,431,313,433,320,427,322,426,313,423,291,426,268,431,243"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="490,179,527,244"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="507,244,498,313,497,320,492,320,493,313,502,244"/>
+<area shape="rect" id="Node000009" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="551,179,733,244"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="620,245,558,326,554,322,616,242"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="757,179,805,244"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="759,243,725,279,685,315,635,349,584,379,581,374,633,345,682,311,722,275,755,239"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="849,179,923,244"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="876,245,856,282,826,315,770,352,707,380,645,401,585,415,584,410,643,396,706,375,767,347,823,311,852,278,872,243"/>
+</map>

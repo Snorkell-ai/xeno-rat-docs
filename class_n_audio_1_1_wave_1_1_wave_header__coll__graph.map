@@ -1,0 +1,9 @@
+<map id="NAudio.Wave.WaveHeader" name="NAudio.Wave.WaveHeader">
+<area shape="rect" id="Node000001" title="WaveHeader interop structure (WAVEHDR) http://msdn.microsoft.com/en&#45;us/library/dd743837%28VS...." alt="" coords="45,179,217,244"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,51,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="31,70,38,112,45,133,56,153,65,165,61,169,51,156,40,135,33,113,26,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,5,144,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="133,71,133,162,128,162,128,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="197,5,317,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="259,71,251,114,242,136,230,156,218,170,214,166,226,153,237,134,245,112,253,70"/>
+</map>

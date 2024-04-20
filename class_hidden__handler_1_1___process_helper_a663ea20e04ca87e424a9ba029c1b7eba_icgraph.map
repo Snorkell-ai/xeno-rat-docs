@@ -1,0 +1,14 @@
+<map id="Hidden_handler._ProcessHelper.CloseHandle" name="Hidden_handler._ProcessHelper.CloseHandle">
+<area shape="rect" id="Node000001" title="Closes an open object handle." alt="" coords="1158,5,1368,46"/>
+<area shape="rect" id="Node000002" href="$class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1143,25,1110,24,875,22,639,24,592,25,592,20,639,19,875,17,1110,19,1143,20"/>
+<area shape="rect" id="Node000005" href="$class_hidden__handler_1_1___process_helper.html#a34637f16b886e4b38c1086cd27ce8162" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="900,33,1110,74"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1143,41,1111,45,1110,40,1142,36"/>
+<area shape="rect" id="Node000003" href="$class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
+<area shape="rect" id="Node000004" href="$class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
+<area shape="rect" id="Node000006" href="$class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,33,852,74"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="884,56,852,56,852,51,884,51"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="624,43,591,40,592,34,624,38"/>
+</map>

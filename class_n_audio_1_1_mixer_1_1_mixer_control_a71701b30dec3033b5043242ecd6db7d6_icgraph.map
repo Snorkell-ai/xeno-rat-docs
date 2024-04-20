@@ -1,0 +1,7 @@
+<map id="NAudio.Mixer.MixerControl.IsControlListText" name="NAudio.Mixer.MixerControl.IsControlListText">
+<area shape="rect" id="Node000001" title="Checks if the given MixerControlType is a type of control list text." alt="" coords="464,5,645,46"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a1bf06341334b698003b7f510ebf563ae" title="Retrieves the specified mixer control." alt="" coords="235,5,416,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="449,28,416,28,416,23,449,23"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_mixer_1_1_mixer_control.html#a005659ffbfe9f198212e7f224bf7d897" title="Retrieves the mixer controls associated with the specified mixer line." alt="" coords="5,5,187,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
+</map>

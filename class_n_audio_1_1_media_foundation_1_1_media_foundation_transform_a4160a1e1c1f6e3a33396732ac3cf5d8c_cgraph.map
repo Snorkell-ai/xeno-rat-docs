@@ -1,0 +1,42 @@
+<map id="NAudio.MediaFoundation.MediaFoundationTransform.Read" name="NAudio.MediaFoundation.MediaFoundationTransform.Read">
+<area shape="rect" id="Node000001" title="Reads data from the input buffer and processes it using the transform, returning the number of bytes ..." alt="" coords="5,258,212,299"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#adfd1a9a41d78fd6898c0ae3fbba98d2c" title="Clears the output buffer by resetting the count and offset to zero." alt="" coords="284,5,503,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,256,137,217,168,167,209,115,258,71,269,64,272,69,261,75,213,119,173,170,142,220,122,259"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#aca97b4a24f2bdc81ff1b39d161c4097b" title="Creates and returns a new IMFTransform object." alt="" coords="270,85,517,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,256,179,195,217,163,258,135,269,129,272,134,261,139,220,167,183,199,128,259"/>
+<area shape="rect" id="Node000004" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a4e0410a804ef3b6d090a6f4e4f04d1a7" title="Ends the stream and drains the transform." alt="" coords="260,229,527,270"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="212,265,244,262,244,267,212,271"/>
+<area shape="rect" id="Node000006" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#adf0d8d3679e677e3ea3b64dbef65b195" title="Reads data from the transform and returns the length of the output buffer." alt="" coords="575,229,843,270"/>
+<area shape="poly" id="edge22_Node000001_Node000006" title=" " alt="" coords="212,278,260,279,394,283,452,283,527,279,593,270,593,275,527,284,452,288,393,288,260,284,212,283"/>
+<area shape="rect" id="Node000014" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#ac0e0c080dbb0cce7bfb5b0a4041769d7" title="Initializes the transform for streaming by processing specific messages and setting the initializedFo..." alt="" coords="266,149,521,205"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="157,255,259,215,279,208,281,213,261,220,159,260"/>
+<area shape="rect" id="Node000015" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a6656f55c1878f30f8edfe2c564665e8a" title="Delivers data to an input stream on this Media Foundation transform (MFT)." alt="" coords="265,394,522,435"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="138,297,193,336,261,373,293,386,291,391,259,378,190,340,135,302"/>
+<area shape="rect" id="Node000016" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a21ce056838ce3a6cfb65a9e7694d3177" title="Reads bytes from the output buffer into the provided buffer and returns the number of bytes read." alt="" coords="269,459,518,514"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="125,298,179,370,217,410,261,444,269,449,266,453,258,449,214,414,175,373,121,301"/>
+<area shape="rect" id="Node000017" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#abe03f9a99a95fda9d8919b0a0172772a" title="Reads data from the source provider and creates an IMFSample object." alt="" coords="584,348,834,388"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="213,291,569,344,568,350,212,296"/>
+<area shape="rect" id="Node000005" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#a3a72ff2388586a9855c48aedc86acf62" title="Sends a message to the Media Foundation transform (MFT)." alt="" coords="581,161,838,202"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="491,226,596,203,598,208,492,231"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="527,247,560,247,560,252,527,252"/>
+<area shape="rect" id="Node000007" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a6db3bcdd706d2be46cda93d7be46e3cc" title="Converts the given number of bytes to the corresponding position in nanoseconds based on the provided..." alt="" coords="891,413,1152,454"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="751,268,798,297,845,334,860,352,868,368,877,383,893,398,903,404,900,408,890,402,873,387,864,371,855,355,841,338,795,301,748,272"/>
+<area shape="rect" id="Node000008" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a10e796baf1844183c986b2c88397228a" title="Creates a memory buffer of the specified size and returns it." alt="" coords="907,282,1136,323"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="832,267,892,278,891,283,832,273"/>
+<area shape="rect" id="Node000009" href="$class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#acf45f8cc1d8dbc17ee152df0c7ffef34" title="Creates a new Media Foundation sample." alt="" coords="918,348,1125,388"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="750,268,816,300,892,332,917,340,915,345,890,337,814,305,748,272"/>
+<area shape="rect" id="Node000010" href="$class_n_audio_1_1_utils_1_1_buffer_helpers.html#a6fcf5a452e6779e71f5dfa9b51a74f1e" title="Ensures that the input buffer has at least the specified number of samples and returns the buffer." alt="" coords="930,21,1113,62"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="820,226,842,211,855,195,862,178,865,143,868,108,875,90,890,73,915,56,918,60,893,76,880,93,873,109,870,144,867,180,859,198,845,215,823,231"/>
+<area shape="rect" id="Node000011" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a1af64854b06c4a042646213b10832302" title="Gives the caller access to the memory in the buffer." alt="" coords="907,86,1136,127"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="815,226,842,211,857,194,865,175,873,156,890,138,898,132,901,137,893,142,877,159,870,177,862,197,845,215,818,231"/>
+<area shape="rect" id="Node000012" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html#ae38bc27a19d67ebc4d8cc275bfe2de3f" title="Generates output from the current input data." alt="" coords="893,152,1150,192"/>
+<area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="794,226,921,194,922,199,795,231"/>
+<area shape="rect" id="Node000013" href="$interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a0d299795ca9afd20128108c9d6522557" title="Unlocks a buffer that was previously locked." alt="" coords="907,217,1136,258"/>
+<area shape="poly" id="edge12_Node000006_Node000013" title=" " alt="" coords="844,241,891,239,892,245,844,247"/>
+<area shape="poly" id="edge14_Node000014_Node000005" title=" " alt="" coords="522,176,565,177,565,182,522,181"/>
+<area shape="poly" id="edge18_Node000017_Node000007" title=" " alt="" coords="810,386,907,406,906,412,809,391"/>
+<area shape="poly" id="edge19_Node000017_Node000008" title=" " alt="" coords="809,344,906,324,907,329,810,350"/>
+<area shape="poly" id="edge20_Node000017_Node000009" title=" " alt="" coords="835,365,903,365,903,371,835,371"/>
+<area shape="rect" id="Node000018" href="$interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="909,478,1134,503"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="743,386,810,425,892,463,919,471,918,476,890,468,808,430,740,391"/>
+</map>

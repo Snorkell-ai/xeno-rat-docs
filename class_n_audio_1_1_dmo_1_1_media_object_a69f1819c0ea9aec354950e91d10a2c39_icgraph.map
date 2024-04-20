@@ -1,0 +1,7 @@
+<map id="NAudio.Dmo.MediaObject.SetInputWaveFormat" name="NAudio.Dmo.MediaObject.SetInputWaveFormat">
+<area shape="rect" id="Node000001" title="Sets the input wave format for the specified input stream." alt="" coords="315,49,512,90"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_file_formats_1_1_mp3_1_1_dmo_mp3_frame_decompressor.html#a8d70da9499d742480e80d300af3dbcf2" title="Initializes a new instance of the DMO MP3 Frame decompressor." alt="" coords="5,5,267,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="298,57,267,53,267,48,299,52"/>
+<area shape="rect" id="Node000003" href="$class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html#a79fd72de1823c37903441f8625dca05b" title="WaveStream to resample using the DMO Resampler." alt="" coords="36,85,236,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="299,87,237,95,236,90,299,81"/>
+</map>

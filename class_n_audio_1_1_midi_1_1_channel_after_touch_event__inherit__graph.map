@@ -1,0 +1,7 @@
+<map id="NAudio.Midi.ChannelAfterTouchEvent" name="NAudio.Midi.ChannelAfterTouchEvent">
+<area shape="rect" id="Node000001" title="Represents a MIDI Channel AfterTouch Event." alt="" coords="5,632,181,812"/>
+<area shape="rect" id="Node000002" href="$class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="17,119,169,584"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,599,96,632,91,632,91,599"/>
+<area shape="rect" id="Node000003" href="$class_i_cloneable.html" title=" " alt="" coords="56,5,131,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,85,96,119,91,119,91,85"/>
+</map>
