@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.MediaFoundationEncoder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -114,30 +138,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_media_foundation_encoder.ht
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.MediaFoundationEncoder:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_media_foundation_encoder_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_media_foundation_encoder_inherit__map" id="a_n_audio_8_wave_8_media_foundation_encoder_inherit__map">
-<area shape="rect" title="Media Foundation Encoder class allows you to use Media Foundation to encode an IWaveProvider to any s..." alt="" coords="5,119,201,599"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="63,5,144,71"/>
-<area shape="poly" title=" " alt="" coords="106,86,106,119,101,119,101,86"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.MediaFoundationEncoder:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_media_foundation_encoder_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_media_foundation_encoder_coll__map" id="a_n_audio_8_wave_8_media_foundation_encoder_coll__map">
-<area shape="rect" title="Media Foundation Encoder class allows you to use Media Foundation to encode an IWaveProvider to any s..." alt="" coords="125,997,321,1457"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="5,758,87,824"/>
-<area shape="poly" title=" " alt="" coords="64,837,100,933,128,1000,123,1002,96,935,59,838"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_type.html" title="Media Type helper class, simplifying working with IMFMediaType (will probably change in the future,..." alt="" coords="111,648,336,934"/>
-<area shape="poly" title=" " alt="" coords="226,934,226,980,221,980,221,934"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_type.html" title="Represents a description of a media format. http://msdn.microsoft.com/en&#45;us/library/windows/desktop/m..." alt="" coords="99,320,348,585"/>
-<area shape="poly" title=" " alt="" coords="226,585,226,631,221,631,221,585"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_attributes.html" title="Provides a generic way to store key/value pairs on an object. http://msdn.microsoft...." alt="" coords="161,5,286,271"/>
-<area shape="poly" title=" " alt="" coords="226,285,226,320,221,320,221,285"/>
-<area shape="rect" title=" " alt="" coords="361,758,398,824"/>
-<area shape="poly" title=" " alt="" coords="376,824,351,934,330,1001,325,999,346,933,371,823"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -257,22 +263,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a2e77232b67c6de976fcafd448079030b_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a2e77232b67c6de976fcafd448079030b_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a2e77232b67c6de976fcafd448079030b_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a2e77232b67c6de976fcafd448079030b_icgraph">
-<area shape="rect" title="Creates a new encoder that encodes to the specified output media type." alt="" coords="258,169,477,210"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aae2a75c6e5f44272a0a68646eb300187" title="Helper function to simplify encoding to AAC By default, will only be available on Windows 7 and above..." alt="" coords="5,5,210,46"/>
-<area shape="poly" title=" " alt="" coords="334,160,278,110,244,84,208,61,182,49,184,44,211,57,247,80,281,106,337,156"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a5c204ac228989099d48fb571d9253f85" title="Encodes the input audio data to AAC format and writes the result to the specified output stream." alt="" coords="5,71,210,111"/>
-<area shape="poly" title=" " alt="" coords="304,165,209,127,174,114,176,109,211,122,306,160"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a1504579c5542275a967ec9947bbc4162" title="Helper function to simplify encoding to MP3 By default, will only be available on Windows 8 and above..." alt="" coords="5,136,210,177"/>
-<area shape="poly" title=" " alt="" coords="242,176,210,172,211,167,243,171"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#af2594cd65fab1166a71318ac108d99cd" title="Encodes the input audio data to MP3 format and writes it to the specified output stream using the spe..." alt="" coords="5,201,210,242"/>
-<area shape="poly" title=" " alt="" coords="243,208,211,212,210,206,242,202"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a08101c6630040469930b131a3ceca671" title="Helper function to simplify encoding Window Media Audio Should be supported on Vista and above (not t..." alt="" coords="5,267,210,307"/>
-<area shape="poly" title=" " alt="" coords="305,219,211,256,175,269,173,264,209,251,303,214"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a9b0abd53edf811733737cf98074ab033" title="Encodes the input audio data to WMA format and writes it to the output stream." alt="" coords="5,332,210,373"/>
-<area shape="poly" title=" " alt="" coords="337,223,281,273,247,299,211,321,184,334,182,329,208,317,244,294,278,269,333,219"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a2e77232b67c6de976fcafd448079030b_icgraph.svg" width="483" height="379"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -304,13 +295,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a87d20adca86859934f220685eb59e8bd_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a87d20adca86859934f220685eb59e8bd_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a87d20adca86859934f220685eb59e8bd_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a87d20adca86859934f220685eb59e8bd_cgraph">
-<area shape="rect" title="Finalizer." alt="" coords="5,29,233,70"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ac7ef095b11c3f47a9cdfb88f991afaaf" title="Disposes this instance." alt="" coords="281,29,485,70"/>
-<area shape="poly" title=" " alt="" coords="233,47,265,47,265,52,233,52"/>
-<area shape="poly" title=" " alt="" coords="334,29,331,19,339,10,357,5,383,3,411,5,428,11,426,16,410,10,383,8,358,10,342,15,336,21,339,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a87d20adca86859934f220685eb59e8bd_cgraph.svg" width="491" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -355,18 +340,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_aaef6fd2223fa67f05d404221eec18fc2_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_aaef6fd2223fa67f05d404221eec18fc2_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_aaef6fd2223fa67f05d404221eec18fc2_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_aaef6fd2223fa67f05d404221eec18fc2_icgraph">
-<area shape="rect" title="Converts the specified number of bytes to the corresponding position in nanoseconds based on the prov..." alt="" coords="762,39,967,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a40eaac1682ec94c148ed968e98949f9c" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="510,39,714,79"/>
-<area shape="poly" title=" " alt="" coords="747,62,715,62,715,56,747,56"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a715fad15106b0bd11e29ff3d0de6c996" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="258,39,462,79"/>
-<area shape="poly" title=" " alt="" coords="495,62,462,62,462,56,495,56"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a56428796df5aa6b97bdd8120ee45f8da" title="Encodes a file." alt="" coords="5,5,210,46"/>
-<area shape="poly" title=" " alt="" coords="242,46,210,42,211,37,243,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aebccd4140a11632dc259156dea1f4018" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="5,71,210,111"/>
-<area shape="poly" title=" " alt="" coords="243,77,211,81,210,75,242,71"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_aaef6fd2223fa67f05d404221eec18fc2_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -429,48 +403,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_cgraph">
-<area shape="rect" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="5,361,210,402"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#aa888a0108dedcb8132671b7ac50450b5" title="Adds a buffer to the end of the list of buffers in the sample." alt="" coords="258,5,500,46"/>
-<area shape="poly" title=" " alt="" coords="110,360,123,301,150,219,169,175,193,132,222,92,256,57,261,53,265,57,259,61,226,95,197,135,174,177,155,221,128,302,115,362"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aaef6fd2223fa67f05d404221eec18fc2" title="Converts the specified number of bytes to the corresponding position in nanoseconds based on the prov..." alt="" coords="277,71,481,111"/>
-<area shape="poly" title=" " alt="" coords="112,360,130,311,159,247,201,180,227,149,256,122,263,117,266,121,259,126,230,153,205,183,163,249,135,313,117,362"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a10e796baf1844183c986b2c88397228a" title="Creates a memory buffer of the specified size and returns it." alt="" coords="264,136,494,177"/>
-<area shape="poly" title=" " alt="" coords="117,359,138,322,169,276,209,228,256,188,266,182,268,186,259,192,212,232,173,279,142,325,121,362"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#acf45f8cc1d8dbc17ee152df0c7ffef34" title="Creates a new Media Foundation sample." alt="" coords="276,201,482,242"/>
-<area shape="poly" title=" " alt="" coords="126,359,181,306,217,277,256,253,271,246,273,251,259,257,220,282,184,310,129,363"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a4a078af9d4ac93b072d79ecd925b7e79" title="Retrieves the allocated size of the buffer." alt="" coords="264,267,494,307"/>
-<area shape="poly" title=" " alt="" coords="154,358,257,318,282,310,284,315,259,323,156,363"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a1af64854b06c4a042646213b10832302" title="Gives the caller access to the memory in the buffer." alt="" coords="264,332,494,373"/>
-<area shape="poly" title=" " alt="" coords="210,368,248,364,249,369,210,373"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="267,397,491,423"/>
-<area shape="poly" title=" " alt="" coords="210,390,251,394,251,399,210,395"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a5d7ded3ec01df8d9cc7c257e77d5ef59" title="Sets the length of the valid data in the buffer." alt="" coords="264,447,494,487"/>
-<area shape="poly" title=" " alt="" coords="165,400,258,432,282,439,280,445,257,438,163,405"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ad413a99c862f3a5ed2aa7c12ae8b8bd9" title="Sets the duration of the sample." alt="" coords="258,512,500,553"/>
-<area shape="poly" title=" " alt="" coords="131,401,186,449,222,475,259,497,274,504,272,508,256,501,219,479,183,453,128,405"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ab3aecd2b653d71957f5ffdebf1b2e024" title="Sets the presentation time of the sample." alt="" coords="258,577,500,618"/>
-<area shape="poly" title=" " alt="" coords="122,401,143,436,174,480,213,524,259,562,269,568,266,573,256,567,210,528,170,483,139,439,117,404"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a0d299795ca9afd20128108c9d6522557" title="Unlocks a buffer that was previously locked." alt="" coords="264,643,494,683"/>
-<area shape="poly" title=" " alt="" coords="118,402,136,449,165,510,206,574,231,602,259,628,267,633,264,637,256,632,227,606,202,577,160,512,131,451,113,404"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a32045a9349d913b5f6539a0b66527263" title="Delivers a sample to the sink writer." alt="" coords="269,708,489,749"/>
-<area shape="poly" title=" " alt="" coords="115,402,129,460,156,539,175,581,198,622,226,660,259,693,265,698,262,702,256,697,222,663,194,625,170,583,151,541,124,461,110,403"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_icgraph">
-<area shape="rect" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="510,39,714,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a715fad15106b0bd11e29ff3d0de6c996" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="258,39,462,79"/>
-<area shape="poly" title=" " alt="" coords="495,62,462,62,462,56,495,56"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a56428796df5aa6b97bdd8120ee45f8da" title="Encodes a file." alt="" coords="5,5,210,46"/>
-<area shape="poly" title=" " alt="" coords="242,46,210,42,211,37,243,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aebccd4140a11632dc259156dea1f4018" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="5,71,210,111"/>
-<area shape="poly" title=" " alt="" coords="243,77,211,81,210,75,242,71"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a40eaac1682ec94c148ed968e98949f9c_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -504,16 +442,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a848810bce9785fd7039a6969fba91c08_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a848810bce9785fd7039a6969fba91c08_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a848810bce9785fd7039a6969fba91c08_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a848810bce9785fd7039a6969fba91c08_cgraph">
-<area shape="rect" title=" " alt="" coords="5,77,210,118"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a79bf1b1dffc57fe119fa35b93086cf40" title="Creates a new instance of IMFAttributes with the specified initial size." alt="" coords="278,5,485,46"/>
-<area shape="poly" title=" " alt="" coords="186,74,257,55,284,48,286,53,258,60,187,79"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#acc84ebe5cb639b83a3295de2fa5c9d10" title="Creates a byte stream object based on the provided stream object." alt="" coords="265,70,498,126"/>
-<area shape="poly" title=" " alt="" coords="210,95,249,95,249,100,210,100"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a64eb8dc6772b30fb8d124de4b8a25566" title="Creates a sink writer for a specified output URL." alt="" coords="258,150,505,206"/>
-<area shape="poly" title=" " alt="" coords="180,116,270,142,268,147,179,121"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a848810bce9785fd7039a6969fba91c08_cgraph.svg" width="511" height="211"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -559,26 +488,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_cgraph">
-<area shape="rect" title="Creates a sink writer for writing media data to the specified output stream with the given transcode ..." alt="" coords="5,41,210,82"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a79bf1b1dffc57fe119fa35b93086cf40" title="Creates a new instance of IMFAttributes with the specified initial size." alt="" coords="278,5,485,46"/>
-<area shape="poly" title=" " alt="" coords="210,46,262,39,263,44,211,51"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a64eb8dc6772b30fb8d124de4b8a25566" title="Creates a sink writer for a specified output URL." alt="" coords="258,70,505,126"/>
-<area shape="poly" title=" " alt="" coords="211,72,242,77,242,82,210,78"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_cgraph.svg" width="511" height="131"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_icgraph">
-<area shape="rect" title="Creates a sink writer for writing media data to the specified output stream with the given transcode ..." alt="" coords="258,39,462,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a56428796df5aa6b97bdd8120ee45f8da" title="Encodes a file." alt="" coords="5,5,210,46"/>
-<area shape="poly" title=" " alt="" coords="242,46,210,42,211,37,243,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aebccd4140a11632dc259156dea1f4018" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="5,71,210,111"/>
-<area shape="poly" title=" " alt="" coords="243,77,211,81,210,75,242,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a4b1a69cd09122c174671717702b60e2f_icgraph.svg" width="468" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -610,22 +525,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_cgraph">
-<area shape="rect" title="Disposes this instance." alt="" coords="5,29,210,70"/>
-<area shape="poly" title=" " alt="" coords="69,29,67,19,73,10,87,5,108,3,130,5,143,11,141,16,128,10,107,8,88,10,76,15,72,20,74,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_cgraph.svg" width="215" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_icgraph">
-<area shape="rect" title="Disposes this instance." alt="" coords="281,29,485,70"/>
-<area shape="poly" title=" " alt="" coords="426,16,410,10,383,8,358,10,342,15,336,21,339,28,334,29,331,19,339,10,357,5,383,3,411,5,428,11"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a87d20adca86859934f220685eb59e8bd" title="Finalizer." alt="" coords="5,29,233,70"/>
-<area shape="poly" title=" " alt="" coords="265,52,233,52,233,47,265,47"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ac7ef095b11c3f47a9cdfb88f991afaaf_icgraph.svg" width="491" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -702,48 +607,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a56428796df5aa6b97bdd8120ee45f8da_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a56428796df5aa6b97bdd8120ee45f8da_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a56428796df5aa6b97bdd8120ee45f8da_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a56428796df5aa6b97bdd8120ee45f8da_cgraph">
-<area shape="rect" title="Encodes a file." alt="" coords="5,292,210,333"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a4b1a69cd09122c174671717702b60e2f" title="Creates a sink writer for writing media data to the specified output stream with the given transcode ..." alt="" coords="258,224,462,265"/>
-<area shape="poly" title=" " alt="" coords="185,289,267,267,268,272,186,294"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a715fad15106b0bd11e29ff3d0de6c996" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="258,328,462,369"/>
-<area shape="poly" title=" " alt="" coords="210,324,242,329,242,334,210,330"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a79bf1b1dffc57fe119fa35b93086cf40" title="Creates a new instance of IMFAttributes with the specified initial size." alt="" coords="531,152,737,193"/>
-<area shape="poly" title=" " alt="" coords="438,221,509,202,537,194,538,200,511,207,439,226"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a64eb8dc6772b30fb8d124de4b8a25566" title="Creates a sink writer for a specified output URL." alt="" coords="510,217,757,272"/>
-<area shape="poly" title=" " alt="" coords="463,242,494,242,494,247,463,247"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a34c46486dd9565dbfd8bb6ed8e016b0c" title="Initializes the sink writer for writing." alt="" coords="524,296,744,337"/>
-<area shape="poly" title=" " alt="" coords="462,334,508,328,508,334,463,339"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a40eaac1682ec94c148ed968e98949f9c" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="532,361,736,402"/>
-<area shape="poly" title=" " alt="" coords="463,358,517,365,516,370,462,363"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a0a64976d3d1c8e38361776f5116cd0ca" title="(Finalize) Completes all writing operations on the sink writer." alt="" coords="524,427,744,467"/>
-<area shape="poly" title=" " alt="" coords="405,367,511,411,536,419,534,424,509,416,403,372"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#aa888a0108dedcb8132671b7ac50450b5" title="Adds a buffer to the end of the list of buffers in the sample." alt="" coords="805,5,1048,46"/>
-<area shape="poly" title=" " alt="" coords="734,363,755,347,778,311,787,276,785,240,779,204,772,168,771,131,779,94,803,57,806,54,810,58,807,61,784,96,776,132,778,167,784,203,791,240,792,276,783,313,759,350,738,367"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aaef6fd2223fa67f05d404221eec18fc2" title="Converts the specified number of bytes to the corresponding position in nanoseconds based on the prov..." alt="" coords="824,71,1029,111"/>
-<area shape="poly" title=" " alt="" coords="735,362,755,346,774,319,782,292,782,265,779,237,775,208,776,180,784,151,803,123,810,116,814,120,807,126,789,153,781,181,781,208,784,236,788,264,787,293,779,322,759,350,738,366"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a10e796baf1844183c986b2c88397228a" title="Creates a memory buffer of the specified size and returns it." alt="" coords="812,136,1041,177"/>
-<area shape="poly" title=" " alt="" coords="735,361,755,346,770,328,777,309,779,269,780,228,788,208,803,188,808,184,811,188,807,191,793,210,786,229,784,269,782,310,775,330,759,350,738,365"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#acf45f8cc1d8dbc17ee152df0c7ffef34" title="Creates a new Media Foundation sample." alt="" coords="823,201,1030,242"/>
-<area shape="poly" title=" " alt="" coords="734,360,756,346,773,324,779,301,785,277,803,253,810,248,813,252,807,257,790,279,784,302,777,327,759,350,737,364"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a4a078af9d4ac93b072d79ecd925b7e79" title="Retrieves the allocated size of the buffer." alt="" coords="812,267,1041,307"/>
-<area shape="poly" title=" " alt="" coords="722,358,756,346,780,332,804,318,825,310,826,315,806,323,783,337,758,351,724,363"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a1af64854b06c4a042646213b10832302" title="Gives the caller access to the memory in the buffer." alt="" coords="812,332,1041,373"/>
-<area shape="poly" title=" " alt="" coords="736,369,796,363,796,368,737,374"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="814,397,1039,423"/>
-<area shape="poly" title=" " alt="" coords="737,389,799,395,799,400,736,394"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a5d7ded3ec01df8d9cc7c257e77d5ef59" title="Sets the length of the valid data in the buffer." alt="" coords="812,447,1041,487"/>
-<area shape="poly" title=" " alt="" coords="718,400,758,412,806,432,827,439,825,444,804,438,756,418,717,405"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ad413a99c862f3a5ed2aa7c12ae8b8bd9" title="Sets the duration of the sample." alt="" coords="805,512,1048,553"/>
-<area shape="poly" title=" " alt="" coords="738,400,759,413,777,434,784,456,791,477,807,497,814,502,811,506,804,501,786,480,779,458,772,437,756,417,735,404"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ab3aecd2b653d71957f5ffdebf1b2e024" title="Sets the presentation time of the sample." alt="" coords="805,577,1048,618"/>
-<area shape="poly" title=" " alt="" coords="738,398,759,413,774,432,782,451,784,489,786,527,793,545,807,563,811,566,808,570,803,566,789,547,781,528,779,490,776,452,769,435,755,417,735,402"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a0d299795ca9afd20128108c9d6522557" title="Unlocks a buffer that was previously locked." alt="" coords="812,643,1041,683"/>
-<area shape="poly" title=" " alt="" coords="738,397,759,413,778,440,786,468,787,495,784,523,781,549,782,576,789,602,807,628,811,631,807,635,803,631,784,604,776,577,776,549,779,522,782,495,781,469,774,443,755,417,735,401"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a32045a9349d913b5f6539a0b66527263" title="Delivers a sample to the sink writer." alt="" coords="816,708,1037,749"/>
-<area shape="poly" title=" " alt="" coords="738,396,759,413,783,449,791,485,790,520,784,555,778,590,777,625,785,659,807,693,810,696,806,700,803,697,780,661,771,625,773,590,779,554,785,520,786,485,778,451,755,417,734,401"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a56428796df5aa6b97bdd8120ee45f8da_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -794,48 +658,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_aebccd4140a11632dc259156dea1f4018_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_aebccd4140a11632dc259156dea1f4018_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_aebccd4140a11632dc259156dea1f4018_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_aebccd4140a11632dc259156dea1f4018_cgraph">
-<area shape="rect" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="5,292,210,333"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a4b1a69cd09122c174671717702b60e2f" title="Creates a sink writer for writing media data to the specified output stream with the given transcode ..." alt="" coords="258,224,462,265"/>
-<area shape="poly" title=" " alt="" coords="185,289,267,267,268,272,186,294"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a715fad15106b0bd11e29ff3d0de6c996" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="258,328,462,369"/>
-<area shape="poly" title=" " alt="" coords="210,324,242,329,242,334,210,330"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a79bf1b1dffc57fe119fa35b93086cf40" title="Creates a new instance of IMFAttributes with the specified initial size." alt="" coords="531,152,737,193"/>
-<area shape="poly" title=" " alt="" coords="438,221,509,202,537,194,538,200,511,207,439,226"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a64eb8dc6772b30fb8d124de4b8a25566" title="Creates a sink writer for a specified output URL." alt="" coords="510,217,757,272"/>
-<area shape="poly" title=" " alt="" coords="463,242,494,242,494,247,463,247"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a34c46486dd9565dbfd8bb6ed8e016b0c" title="Initializes the sink writer for writing." alt="" coords="524,296,744,337"/>
-<area shape="poly" title=" " alt="" coords="462,334,508,328,508,334,463,339"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a40eaac1682ec94c148ed968e98949f9c" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="532,361,736,402"/>
-<area shape="poly" title=" " alt="" coords="463,358,517,365,516,370,462,363"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a0a64976d3d1c8e38361776f5116cd0ca" title="(Finalize) Completes all writing operations on the sink writer." alt="" coords="524,427,744,467"/>
-<area shape="poly" title=" " alt="" coords="405,367,511,411,536,419,534,424,509,416,403,372"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#aa888a0108dedcb8132671b7ac50450b5" title="Adds a buffer to the end of the list of buffers in the sample." alt="" coords="805,5,1048,46"/>
-<area shape="poly" title=" " alt="" coords="734,363,755,347,778,311,787,276,785,240,779,204,772,168,771,131,779,94,803,57,806,54,810,58,807,61,784,96,776,132,778,167,784,203,791,240,792,276,783,313,759,350,738,367"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aaef6fd2223fa67f05d404221eec18fc2" title="Converts the specified number of bytes to the corresponding position in nanoseconds based on the prov..." alt="" coords="824,71,1029,111"/>
-<area shape="poly" title=" " alt="" coords="735,362,755,346,774,319,782,292,782,265,779,237,775,208,776,180,784,151,803,123,810,116,814,120,807,126,789,153,781,181,781,208,784,236,788,264,787,293,779,322,759,350,738,366"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a10e796baf1844183c986b2c88397228a" title="Creates a memory buffer of the specified size and returns it." alt="" coords="812,136,1041,177"/>
-<area shape="poly" title=" " alt="" coords="735,361,755,346,770,328,777,309,779,269,780,228,788,208,803,188,808,184,811,188,807,191,793,210,786,229,784,269,782,310,775,330,759,350,738,365"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#acf45f8cc1d8dbc17ee152df0c7ffef34" title="Creates a new Media Foundation sample." alt="" coords="823,201,1030,242"/>
-<area shape="poly" title=" " alt="" coords="734,360,756,346,773,324,779,301,785,277,803,253,810,248,813,252,807,257,790,279,784,302,777,327,759,350,737,364"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a4a078af9d4ac93b072d79ecd925b7e79" title="Retrieves the allocated size of the buffer." alt="" coords="812,267,1041,307"/>
-<area shape="poly" title=" " alt="" coords="722,358,756,346,780,332,804,318,825,310,826,315,806,323,783,337,758,351,724,363"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a1af64854b06c4a042646213b10832302" title="Gives the caller access to the memory in the buffer." alt="" coords="812,332,1041,373"/>
-<area shape="poly" title=" " alt="" coords="736,369,796,363,796,368,737,374"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="814,397,1039,423"/>
-<area shape="poly" title=" " alt="" coords="737,389,799,395,799,400,736,394"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a5d7ded3ec01df8d9cc7c257e77d5ef59" title="Sets the length of the valid data in the buffer." alt="" coords="812,447,1041,487"/>
-<area shape="poly" title=" " alt="" coords="718,400,758,412,806,432,827,439,825,444,804,438,756,418,717,405"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ad413a99c862f3a5ed2aa7c12ae8b8bd9" title="Sets the duration of the sample." alt="" coords="805,512,1048,553"/>
-<area shape="poly" title=" " alt="" coords="738,400,759,413,777,434,784,456,791,477,807,497,814,502,811,506,804,501,786,480,779,458,772,437,756,417,735,404"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ab3aecd2b653d71957f5ffdebf1b2e024" title="Sets the presentation time of the sample." alt="" coords="805,577,1048,618"/>
-<area shape="poly" title=" " alt="" coords="738,398,759,413,774,432,782,451,784,489,786,527,793,545,807,563,811,566,808,570,803,566,789,547,781,528,779,490,776,452,769,435,755,417,735,402"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a0d299795ca9afd20128108c9d6522557" title="Unlocks a buffer that was previously locked." alt="" coords="812,643,1041,683"/>
-<area shape="poly" title=" " alt="" coords="738,397,759,413,778,440,786,468,787,495,784,523,781,549,782,576,789,602,807,628,811,631,807,635,803,631,784,604,776,577,776,549,779,522,782,495,781,469,774,443,755,417,735,401"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a32045a9349d913b5f6539a0b66527263" title="Delivers a sample to the sink writer." alt="" coords="816,708,1037,749"/>
-<area shape="poly" title=" " alt="" coords="738,396,759,413,783,449,791,485,790,520,784,555,778,590,777,625,785,659,807,693,810,696,806,700,803,697,780,661,771,625,773,590,779,554,785,520,786,485,778,451,755,417,734,401"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_aebccd4140a11632dc259156dea1f4018_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -884,22 +707,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_aae2a75c6e5f44272a0a68646eb300187_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_aae2a75c6e5f44272a0a68646eb300187_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_aae2a75c6e5f44272a0a68646eb300187_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_aae2a75c6e5f44272a0a68646eb300187_cgraph">
-<area shape="rect" title="Helper function to simplify encoding to AAC By default, will only be available on Windows 7 and above..." alt="" coords="5,39,210,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a2e77232b67c6de976fcafd448079030b" title="Creates a new encoder that encodes to the specified output media type." alt="" coords="258,5,477,46"/>
-<area shape="poly" title=" " alt="" coords="210,43,242,39,242,44,210,49"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ac773a4287e420450ca87772c27c735a9" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="265,71,470,111"/>
-<area shape="poly" title=" " alt="" coords="210,69,250,74,250,79,210,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="525,71,729,111"/>
-<area shape="poly" title=" " alt="" coords="470,88,509,88,509,94,470,94"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="777,5,1034,46"/>
-<area shape="poly" title=" " alt="" coords="716,67,801,47,802,53,717,73"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="777,71,1034,111"/>
-<area shape="poly" title=" " alt="" coords="730,88,762,88,762,94,730,94"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="790,135,1021,191"/>
-<area shape="poly" title=" " alt="" coords="709,109,781,128,780,133,708,115"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_aae2a75c6e5f44272a0a68646eb300187_cgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -955,22 +763,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a5c204ac228989099d48fb571d9253f85_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a5c204ac228989099d48fb571d9253f85_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a5c204ac228989099d48fb571d9253f85_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a5c204ac228989099d48fb571d9253f85_cgraph">
-<area shape="rect" title="Encodes the input audio data to AAC format and writes the result to the specified output stream." alt="" coords="5,39,210,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a2e77232b67c6de976fcafd448079030b" title="Creates a new encoder that encodes to the specified output media type." alt="" coords="258,5,477,46"/>
-<area shape="poly" title=" " alt="" coords="210,43,242,39,242,44,210,49"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ac773a4287e420450ca87772c27c735a9" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="265,71,470,111"/>
-<area shape="poly" title=" " alt="" coords="210,69,250,74,250,79,210,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="525,71,729,111"/>
-<area shape="poly" title=" " alt="" coords="470,88,509,88,509,94,470,94"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="777,5,1034,46"/>
-<area shape="poly" title=" " alt="" coords="716,67,801,47,802,53,717,73"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="777,71,1034,111"/>
-<area shape="poly" title=" " alt="" coords="730,88,762,88,762,94,730,94"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="790,135,1021,191"/>
-<area shape="poly" title=" " alt="" coords="709,109,781,128,780,133,708,115"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a5c204ac228989099d48fb571d9253f85_cgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1019,22 +812,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a1504579c5542275a967ec9947bbc4162_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a1504579c5542275a967ec9947bbc4162_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a1504579c5542275a967ec9947bbc4162_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a1504579c5542275a967ec9947bbc4162_cgraph">
-<area shape="rect" title="Helper function to simplify encoding to MP3 By default, will only be available on Windows 8 and above..." alt="" coords="5,39,210,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a2e77232b67c6de976fcafd448079030b" title="Creates a new encoder that encodes to the specified output media type." alt="" coords="258,5,477,46"/>
-<area shape="poly" title=" " alt="" coords="210,43,242,39,242,44,210,49"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ac773a4287e420450ca87772c27c735a9" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="265,71,470,111"/>
-<area shape="poly" title=" " alt="" coords="210,69,250,74,250,79,210,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="525,71,729,111"/>
-<area shape="poly" title=" " alt="" coords="470,88,509,88,509,94,470,94"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="777,5,1034,46"/>
-<area shape="poly" title=" " alt="" coords="716,67,801,47,802,53,717,73"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="777,71,1034,111"/>
-<area shape="poly" title=" " alt="" coords="730,88,762,88,762,94,730,94"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="790,135,1021,191"/>
-<area shape="poly" title=" " alt="" coords="709,109,781,128,780,133,708,115"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a1504579c5542275a967ec9947bbc4162_cgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1090,22 +868,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_af2594cd65fab1166a71318ac108d99cd_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_af2594cd65fab1166a71318ac108d99cd_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_af2594cd65fab1166a71318ac108d99cd_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_af2594cd65fab1166a71318ac108d99cd_cgraph">
-<area shape="rect" title="Encodes the input audio data to MP3 format and writes it to the specified output stream using the spe..." alt="" coords="5,39,210,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a2e77232b67c6de976fcafd448079030b" title="Creates a new encoder that encodes to the specified output media type." alt="" coords="258,5,477,46"/>
-<area shape="poly" title=" " alt="" coords="210,43,242,39,242,44,210,49"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ac773a4287e420450ca87772c27c735a9" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="265,71,470,111"/>
-<area shape="poly" title=" " alt="" coords="210,69,250,74,250,79,210,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="525,71,729,111"/>
-<area shape="poly" title=" " alt="" coords="470,88,509,88,509,94,470,94"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="777,5,1034,46"/>
-<area shape="poly" title=" " alt="" coords="716,67,801,47,802,53,717,73"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="777,71,1034,111"/>
-<area shape="poly" title=" " alt="" coords="730,88,762,88,762,94,730,94"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="790,135,1021,191"/>
-<area shape="poly" title=" " alt="" coords="709,109,781,128,780,133,708,115"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_af2594cd65fab1166a71318ac108d99cd_cgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1154,22 +917,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a08101c6630040469930b131a3ceca671_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a08101c6630040469930b131a3ceca671_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a08101c6630040469930b131a3ceca671_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a08101c6630040469930b131a3ceca671_cgraph">
-<area shape="rect" title="Helper function to simplify encoding Window Media Audio Should be supported on Vista and above (not t..." alt="" coords="5,39,210,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a2e77232b67c6de976fcafd448079030b" title="Creates a new encoder that encodes to the specified output media type." alt="" coords="258,5,477,46"/>
-<area shape="poly" title=" " alt="" coords="210,43,242,39,242,44,210,49"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ac773a4287e420450ca87772c27c735a9" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="265,71,470,111"/>
-<area shape="poly" title=" " alt="" coords="210,69,250,74,250,79,210,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="525,71,729,111"/>
-<area shape="poly" title=" " alt="" coords="470,88,509,88,509,94,470,94"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="777,5,1034,46"/>
-<area shape="poly" title=" " alt="" coords="716,67,801,47,802,53,717,73"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="777,71,1034,111"/>
-<area shape="poly" title=" " alt="" coords="730,88,762,88,762,94,730,94"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="790,135,1021,191"/>
-<area shape="poly" title=" " alt="" coords="709,109,781,128,780,133,708,115"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a08101c6630040469930b131a3ceca671_cgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1225,22 +973,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a9b0abd53edf811733737cf98074ab033_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a9b0abd53edf811733737cf98074ab033_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a9b0abd53edf811733737cf98074ab033_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a9b0abd53edf811733737cf98074ab033_cgraph">
-<area shape="rect" title="Encodes the input audio data to WMA format and writes it to the output stream." alt="" coords="5,39,210,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a2e77232b67c6de976fcafd448079030b" title="Creates a new encoder that encodes to the specified output media type." alt="" coords="258,5,477,46"/>
-<area shape="poly" title=" " alt="" coords="210,43,242,39,242,44,210,49"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ac773a4287e420450ca87772c27c735a9" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="265,71,470,111"/>
-<area shape="poly" title=" " alt="" coords="210,69,250,74,250,79,210,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="525,71,729,111"/>
-<area shape="poly" title=" " alt="" coords="470,88,509,88,509,94,470,94"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="777,5,1034,46"/>
-<area shape="poly" title=" " alt="" coords="716,67,801,47,802,53,717,73"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="777,71,1034,111"/>
-<area shape="poly" title=" " alt="" coords="730,88,762,88,762,94,730,94"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="790,135,1021,191"/>
-<area shape="poly" title=" " alt="" coords="709,109,781,128,780,133,708,115"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a9b0abd53edf811733737cf98074ab033_cgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1290,18 +1023,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ad9621532b3f84a3726bb43f326954bb1_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ad9621532b3f84a3726bb43f326954bb1_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ad9621532b3f84a3726bb43f326954bb1_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ad9621532b3f84a3726bb43f326954bb1_cgraph">
-<area shape="rect" title="Retrieves the array of encoded bitrates for the specified audio subtype, sample rate,..." alt="" coords="5,71,210,111"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="258,71,462,111"/>
-<area shape="poly" title=" " alt="" coords="210,88,242,88,242,94,210,94"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="510,5,766,46"/>
-<area shape="poly" title=" " alt="" coords="449,67,533,47,534,53,450,73"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="510,71,766,111"/>
-<area shape="poly" title=" " alt="" coords="463,88,495,88,495,94,463,94"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="523,135,753,191"/>
-<area shape="poly" title=" " alt="" coords="442,109,514,128,512,133,441,115"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ad9621532b3f84a3726bb43f326954bb1_cgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1346,40 +1068,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_cgraph">
-<area shape="rect" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="5,71,210,111"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="258,5,514,46"/>
-<area shape="poly" title=" " alt="" coords="197,67,281,47,282,53,198,73"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="258,71,514,111"/>
-<area shape="poly" title=" " alt="" coords="210,88,242,88,242,94,210,94"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="271,135,501,191"/>
-<area shape="poly" title=" " alt="" coords="190,109,261,128,260,133,188,115"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_cgraph.svg" width="520" height="196"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_icgraph">
-<area shape="rect" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="510,137,714,178"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ad9621532b3f84a3726bb43f326954bb1" title="Retrieves the array of encoded bitrates for the specified audio subtype, sample rate,..." alt="" coords="258,104,462,145"/>
-<area shape="poly" title=" " alt="" coords="494,145,462,141,463,135,495,140"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#ac773a4287e420450ca87772c27c735a9" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="258,169,462,210"/>
-<area shape="poly" title=" " alt="" coords="495,175,463,179,462,174,494,170"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aae2a75c6e5f44272a0a68646eb300187" title="Helper function to simplify encoding to AAC By default, will only be available on Windows 7 and above..." alt="" coords="5,5,210,46"/>
-<area shape="poly" title=" " alt="" coords="262,163,256,158,238,133,231,108,225,84,208,61,190,49,193,44,212,57,230,82,236,107,242,131,260,154,265,159"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a5c204ac228989099d48fb571d9253f85" title="Encodes the input audio data to AAC format and writes the result to the specified output stream." alt="" coords="5,71,210,111"/>
-<area shape="poly" title=" " alt="" coords="272,166,256,159,232,143,208,127,179,114,181,110,211,122,235,138,259,154,274,161"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a1504579c5542275a967ec9947bbc4162" title="Helper function to simplify encoding to MP3 By default, will only be available on Windows 8 and above..." alt="" coords="5,136,210,177"/>
-<area shape="poly" title=" " alt="" coords="242,177,210,173,211,167,243,172"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#af2594cd65fab1166a71318ac108d99cd" title="Encodes the input audio data to MP3 format and writes it to the specified output stream using the spe..." alt="" coords="5,201,210,242"/>
-<area shape="poly" title=" " alt="" coords="243,207,211,211,210,206,242,202"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a08101c6630040469930b131a3ceca671" title="Helper function to simplify encoding Window Media Audio Should be supported on Vista and above (not t..." alt="" coords="5,267,210,307"/>
-<area shape="poly" title=" " alt="" coords="300,219,211,256,176,269,174,264,209,251,298,214"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a9b0abd53edf811733737cf98074ab033" title="Encodes the input audio data to WMA format and writes it to the output stream." alt="" coords="5,332,210,373"/>
-<area shape="poly" title=" " alt="" coords="331,223,278,273,246,299,211,321,185,334,182,329,208,317,242,294,275,269,328,219"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a926e4e8ce4ff1003c38c88555a913182_icgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1429,52 +1123,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_cgraph">
-<area shape="rect" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="5,361,210,402"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a34c46486dd9565dbfd8bb6ed8e016b0c" title="Initializes the sink writer for writing." alt="" coords="258,296,478,337"/>
-<area shape="poly" title=" " alt="" coords="191,358,268,338,270,344,192,363"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a40eaac1682ec94c148ed968e98949f9c" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="266,361,470,402"/>
-<area shape="poly" title=" " alt="" coords="210,379,250,379,250,384,210,384"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a0a64976d3d1c8e38361776f5116cd0ca" title="(Finalize) Completes all writing operations on the sink writer." alt="" coords="258,427,478,467"/>
-<area shape="poly" title=" " alt="" coords="192,400,270,420,268,425,191,405"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#aa888a0108dedcb8132671b7ac50450b5" title="Adds a buffer to the end of the list of buffers in the sample." alt="" coords="526,5,768,46"/>
-<area shape="poly" title=" " alt="" coords="462,359,476,347,499,311,507,275,505,240,499,204,493,168,491,131,500,94,524,57,527,54,531,58,528,61,505,96,496,132,498,167,504,203,511,239,512,276,504,313,480,350,466,363"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aaef6fd2223fa67f05d404221eec18fc2" title="Converts the specified number of bytes to the corresponding position in nanoseconds based on the prov..." alt="" coords="545,71,749,111"/>
-<area shape="poly" title=" " alt="" coords="461,359,476,347,495,319,502,292,502,264,499,236,496,208,496,180,504,151,524,123,531,116,534,120,528,126,509,153,501,180,501,208,504,236,508,264,507,292,499,321,480,350,465,363"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a10e796baf1844183c986b2c88397228a" title="Creates a memory buffer of the specified size and returns it." alt="" coords="533,136,762,177"/>
-<area shape="poly" title=" " alt="" coords="460,359,476,346,490,327,497,308,499,269,501,228,509,208,524,188,529,184,532,188,528,191,513,210,506,229,504,269,503,309,495,330,480,350,464,363"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#acf45f8cc1d8dbc17ee152df0c7ffef34" title="Creates a new Media Foundation sample." alt="" coords="544,201,750,242"/>
-<area shape="poly" title=" " alt="" coords="458,359,476,346,493,324,499,301,506,277,524,253,531,248,534,252,528,257,511,279,504,302,498,326,480,350,460,363"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a4a078af9d4ac93b072d79ecd925b7e79" title="Retrieves the allocated size of the buffer." alt="" coords="533,267,762,307"/>
-<area shape="poly" title=" " alt="" coords="445,358,477,346,501,332,525,318,545,310,547,315,527,323,503,337,479,351,446,363"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a1af64854b06c4a042646213b10832302" title="Gives the caller access to the memory in the buffer." alt="" coords="533,332,762,373"/>
-<area shape="poly" title=" " alt="" coords="470,368,517,363,518,369,471,374"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="535,397,759,423"/>
-<area shape="poly" title=" " alt="" coords="471,389,520,394,519,400,470,395"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a5d7ded3ec01df8d9cc7c257e77d5ef59" title="Sets the length of the valid data in the buffer." alt="" coords="533,447,762,487"/>
-<area shape="poly" title=" " alt="" coords="442,400,479,413,527,432,548,439,546,444,525,438,477,417,440,405"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ad413a99c862f3a5ed2aa7c12ae8b8bd9" title="Sets the duration of the sample." alt="" coords="526,512,768,553"/>
-<area shape="poly" title=" " alt="" coords="460,400,480,413,497,434,504,456,511,477,528,497,535,502,532,506,524,501,507,480,499,458,493,437,476,417,457,405"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sample.html#ab3aecd2b653d71957f5ffdebf1b2e024" title="Sets the presentation time of the sample." alt="" coords="526,577,768,618"/>
-<area shape="poly" title=" " alt="" coords="463,400,480,413,495,432,502,452,504,490,507,527,514,545,528,563,532,566,529,570,524,566,509,547,502,528,499,490,497,453,490,435,476,417,460,405"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_media_buffer.html#a0d299795ca9afd20128108c9d6522557" title="Unlocks a buffer that was previously locked." alt="" coords="533,643,762,683"/>
-<area shape="poly" title=" " alt="" coords="465,401,480,413,499,441,507,468,507,496,504,523,501,550,502,576,510,602,528,628,531,631,528,635,524,631,505,604,497,577,496,549,499,522,502,496,501,469,494,443,476,417,461,405"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_sink_writer.html#a32045a9349d913b5f6539a0b66527263" title="Delivers a sample to the sink writer." alt="" coords="537,708,757,749"/>
-<area shape="poly" title=" " alt="" coords="465,401,480,413,503,449,511,485,510,521,504,556,498,590,497,625,506,659,528,693,531,696,527,700,524,697,501,661,492,625,493,590,499,555,505,520,506,486,498,451,476,417,462,405"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_icgraph">
-<area shape="rect" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="258,39,462,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a56428796df5aa6b97bdd8120ee45f8da" title="Encodes a file." alt="" coords="5,5,210,46"/>
-<area shape="poly" title=" " alt="" coords="242,46,210,42,211,37,243,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aebccd4140a11632dc259156dea1f4018" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="5,71,210,111"/>
-<area shape="poly" title=" " alt="" coords="243,77,211,81,210,75,242,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_a715fad15106b0bd11e29ff3d0de6c996_icgraph.svg" width="468" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1525,38 +1179,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_cgraph">
-<area shape="rect" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="5,71,210,111"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a926e4e8ce4ff1003c38c88555a913182" title="Retrieves the available output media types for the specified audio subtype." alt="" coords="258,71,462,111"/>
-<area shape="poly" title=" " alt="" coords="210,88,242,88,242,94,210,94"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a9d41fa65f70101e011b689d5f34c16e4" title="Retrieves an object in the collection." alt="" coords="510,5,766,46"/>
-<area shape="poly" title=" " alt="" coords="449,67,533,47,534,53,450,73"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_collection.html#a2ff9212c258c6c03a7bbffbf6fd22b63" title="Retrieves the number of objects in the collection." alt="" coords="510,71,766,111"/>
-<area shape="poly" title=" " alt="" coords="463,88,495,88,495,94,463,94"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a9ead2312527c851eb074d4152c5cce21" title="Retrieves the available audio output types for transcoding using the specified subtype and configurat..." alt="" coords="523,135,753,191"/>
-<area shape="poly" title=" " alt="" coords="442,109,514,128,512,133,441,115"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_cgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_icgraph">
-<area shape="rect" title="Selects the media type that best matches the input audio subtype, format, and desired bit rate." alt="" coords="258,169,462,210"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aae2a75c6e5f44272a0a68646eb300187" title="Helper function to simplify encoding to AAC By default, will only be available on Windows 7 and above..." alt="" coords="5,5,210,46"/>
-<area shape="poly" title=" " alt="" coords="328,160,275,110,243,84,208,61,182,49,185,44,211,57,246,80,279,106,332,156"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a5c204ac228989099d48fb571d9253f85" title="Encodes the input audio data to AAC format and writes the result to the specified output stream." alt="" coords="5,71,210,111"/>
-<area shape="poly" title=" " alt="" coords="299,165,209,127,174,114,176,109,211,122,301,160"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a1504579c5542275a967ec9947bbc4162" title="Helper function to simplify encoding to MP3 By default, will only be available on Windows 8 and above..." alt="" coords="5,136,210,177"/>
-<area shape="poly" title=" " alt="" coords="242,177,210,173,211,167,243,172"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#af2594cd65fab1166a71318ac108d99cd" title="Encodes the input audio data to MP3 format and writes it to the specified output stream using the spe..." alt="" coords="5,201,210,242"/>
-<area shape="poly" title=" " alt="" coords="243,207,211,211,210,206,242,202"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a08101c6630040469930b131a3ceca671" title="Helper function to simplify encoding Window Media Audio Should be supported on Vista and above (not t..." alt="" coords="5,267,210,307"/>
-<area shape="poly" title=" " alt="" coords="300,219,211,256,176,269,174,264,209,251,298,214"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a9b0abd53edf811733737cf98074ab033" title="Encodes the input audio data to WMA format and writes it to the output stream." alt="" coords="5,332,210,373"/>
-<area shape="poly" title=" " alt="" coords="331,223,278,273,246,299,211,321,185,334,182,329,208,317,242,294,275,269,328,219"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_encoder_ac773a4287e420450ca87772c27c735a9_icgraph.svg" width="468" height="379"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1611,11 +1239,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html">MediaFoundationEncoder</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

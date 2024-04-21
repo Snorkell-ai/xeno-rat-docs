@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: xeno_rat_server.Forms.KeyLogger Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -109,53 +133,12 @@ $(function(){initNavTree('classxeno__rat__server_1_1_forms_1_1_key_logger.html',
 <div class="dynheader">
 Inheritance diagram for xeno_rat_server.Forms.KeyLogger:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger__inherit__graph.png" border="0" usemap="#axeno__rat__server_8_forms_8_key_logger_inherit__map" alt="Inheritance graph"/></div>
-<map name="axeno__rat__server_8_forms_8_key_logger_inherit__map" id="axeno__rat__server_8_forms_8_key_logger_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,119,232,579"/>
-<area shape="rect" href="class_form.html" title=" " alt="" coords="97,5,140,71"/>
-<area shape="poly" title=" " alt="" coords="121,86,121,119,116,119,116,86"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger__inherit__graph.svg" width="238" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for xeno_rat_server.Forms.KeyLogger:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger__coll__graph.png" border="0" usemap="#axeno__rat__server_8_forms_8_key_logger_coll__map" alt="Collaboration graph"/></div>
-<map name="axeno__rat__server_8_forms_8_key_logger_coll__map" id="axeno__rat__server_8_forms_8_key_logger_coll__map">
-<area shape="rect" title=" " alt="" coords="909,1025,1135,1325"/>
-<area shape="rect" href="class_form.html" title=" " alt="" coords="642,652,685,717"/>
-<area shape="poly" title=" " alt="" coords="665,732,672,807,683,848,699,886,743,950,796,1009,854,1059,910,1102,907,1106,850,1064,792,1012,739,954,694,889,678,850,667,808,660,733"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html" title=" " alt="" coords="709,482,905,887"/>
-<area shape="poly" title=" " alt="" coords="898,886,952,1009,947,1011,893,888"/>
-<area shape="poly" title=" " alt="" coords="907,643,925,658,932,685,929,703,921,716,917,713,924,701,927,685,920,661,903,647"/>
-<area shape="rect" title=" " alt="" coords="5,244,111,309"/>
-<area shape="poly" title=" " alt="" coords="49,310,41,344,37,384,42,423,50,441,61,456,74,463,96,469,163,475,352,474,553,470,636,473,694,482,693,487,635,478,553,476,352,479,162,480,95,474,72,468,58,460,45,443,37,425,32,384,36,343,44,308"/>
-<area shape="rect" title=" " alt="" coords="211,5,249,71"/>
-<area shape="poly" title=" " alt="" coords="226,71,216,142,214,188,215,236,221,285,234,334,255,378,284,417,297,427,315,435,359,446,413,451,474,454,596,459,651,466,695,481,694,486,650,472,596,464,474,459,413,457,358,451,313,440,295,432,280,421,250,381,229,335,216,286,210,236,209,188,211,142,221,70"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html" title=" " alt="" coords="371,134,571,419"/>
-<area shape="poly" title=" " alt="" coords="250,59,296,108,361,172,358,176,292,112,247,63"/>
-<area shape="rect" title=" " alt="" coords="834,236,991,316"/>
-<area shape="poly" title=" " alt="" coords="905,317,866,466,861,465,900,316"/>
-<area shape="rect" title=" " alt="" coords="1015,236,1151,316"/>
-<area shape="poly" title=" " alt="" coords="1065,318,1006,420,918,546,913,542,1001,418,1061,315"/>
-<area shape="rect" title=" " alt="" coords="1176,244,1361,309"/>
-<area shape="poly" title=" " alt="" coords="1250,310,1213,363,1165,421,1145,443,1120,460,1085,471,1055,472,1026,473,993,484,954,510,919,541,916,537,951,506,990,480,1025,467,1055,466,1084,466,1118,456,1142,439,1161,417,1208,360,1246,307"/>
-<area shape="rect" title=" " alt="" coords="1386,236,1519,316"/>
-<area shape="poly" title=" " alt="" coords="1443,317,1418,371,1399,398,1376,421,1336,444,1301,453,1263,455,1217,461,1152,465,1100,462,1051,464,1024,471,993,484,954,508,919,538,916,534,951,504,990,480,1022,466,1050,459,1101,457,1152,460,1216,455,1263,450,1300,448,1334,439,1372,417,1395,395,1414,368,1439,315"/>
-<area shape="poly" title=" " alt="" coords="573,394,608,427,645,456,659,463,672,466,684,471,698,480,699,481,696,485,695,484,682,475,670,472,657,468,642,460,604,431,569,398"/>
-<area shape="rect" title=" " alt="" coords="374,5,427,71"/>
-<area shape="poly" title=" " alt="" coords="413,70,427,117,422,118,407,71"/>
-<area shape="rect" title=" " alt="" coords="453,5,490,71"/>
-<area shape="poly" title=" " alt="" coords="474,71,474,117,469,117,469,71"/>
-<area shape="rect" title=" " alt="" coords="637,5,663,71"/>
-<area shape="poly" title=" " alt="" coords="666,56,686,94,699,142,706,183,707,255,705,328,708,370,717,418,728,465,723,466,711,420,703,370,700,328,701,255,700,184,694,143,681,96,661,58"/>
-<area shape="poly" title=" " alt="" coords="639,55,602,96,582,122,578,119,598,93,635,51"/>
-<area shape="rect" title=" " alt="" coords="1003,652,1049,717"/>
-<area shape="poly" title=" " alt="" coords="1028,717,1026,911,1025,1008,1020,1008,1020,911,1023,717"/>
-<area shape="rect" title=" " alt="" coords="1075,645,1195,725"/>
-<area shape="poly" title=" " alt="" coords="1139,725,1134,849,1125,926,1109,1002,1106,1010,1101,1009,1103,1001,1120,925,1129,849,1133,725"/>
-<area shape="rect" title=" " alt="" coords="1220,652,1277,717"/>
-<area shape="poly" title=" " alt="" coords="1254,717,1255,773,1251,846,1237,926,1225,965,1208,1003,1182,1044,1149,1081,1145,1077,1178,1041,1204,1000,1220,963,1231,925,1245,846,1250,773,1248,717"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -250,53 +233,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_a1cf2782dfb7b174e8f6e312b3416d0ef_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_a1cf2782dfb7b174e8f6e312b3416d0ef_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a1cf2782dfb7b174e8f6e312b3416d0ef_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a1cf2782dfb7b174e8f6e312b3416d0ef_cgraph">
-<area shape="rect" title=" " alt="" coords="5,335,187,375"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#af1e03b8d077f476feb0748cbf61ea417" title="Initializes the components of the KeyLogger form." alt="" coords="235,215,416,255"/>
-<area shape="poly" title=" " alt="" coords="136,332,270,261,273,265,138,336"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#ad9b45a1728b0dde4244f5f1534c386aa" title="Asynchronously receives data from the client and processes it." alt="" coords="235,428,416,469"/>
-<area shape="poly" title=" " alt="" coords="149,373,260,419,258,424,147,378"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a214d14b30750982641761fb79220f522" title="Called when the KeyLogger form is loaded." alt="" coords="481,215,662,255"/>
-<area shape="poly" title=" " alt="" coords="416,232,466,232,466,238,416,238"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a7c36803e25ed5580789386df7262e648" title="Event handler for the Click event of label1." alt="" coords="481,280,662,321"/>
-<area shape="poly" title=" " alt="" coords="405,253,478,273,477,278,404,259"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a2f34e1d052cc0980a52a1e90eebf2319" title="Event handler for the Click event of the label2 control." alt="" coords="481,345,662,386"/>
-<area shape="poly" title=" " alt="" coords="353,254,403,292,465,330,481,337,478,342,463,335,400,296,349,258"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a0ce6cff9b2600bcb4748c8a646d5181c" title="Handles the event when an item in the list view is activated." alt="" coords="473,5,670,46"/>
-<area shape="poly" title=" " alt="" coords="335,213,354,178,383,136,419,93,462,56,469,51,472,56,466,60,423,96,387,139,359,181,340,215"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a39360a42ae605a00e3ac010e81a3e294" title="Occurs when the selected index of the ListView control changes." alt="" coords="469,70,675,126"/>
-<area shape="poly" title=" " alt="" coords="350,212,401,174,463,135,473,130,476,135,465,140,404,178,353,216"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a180b9352ecdc3b6abd6d44f210072ae5" title="Event handler for the TextChanged event of textBox1." alt="" coords="465,149,678,190"/>
-<area shape="poly" title=" " alt="" coords="404,211,477,192,478,197,405,217"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a3b10be9218f737266bc270e621f72916" title="Replaces the placeholders [enter] and [space] in the input string with new line and space characters ..." alt="" coords="746,195,927,235"/>
-<area shape="poly" title=" " alt="" coords="658,44,681,55,721,84,757,117,813,181,809,184,753,121,717,88,678,60,656,49"/>
-<area shape="poly" title=" " alt="" coords="416,440,565,424,632,411,678,395,722,364,760,324,791,284,814,247,819,250,796,287,764,328,726,368,681,400,633,416,565,429,417,445"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="464,461,679,487"/>
-<area shape="poly" title=" " alt="" coords="417,455,449,458,448,464,416,460"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="472,511,672,551"/>
-<area shape="poly" title=" " alt="" coords="382,467,465,496,485,503,484,508,463,502,380,472"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="727,537,946,563"/>
-<area shape="poly" title=" " alt="" coords="673,535,712,538,712,544,672,541"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="733,448,940,489"/>
-<area shape="poly" title=" " alt="" coords="660,507,732,490,734,495,661,513"/>
-<area shape="poly" title=" " alt="" coords="794,538,785,528,790,518,808,512,837,510,869,513,885,520,883,525,867,518,836,515,809,518,794,522,790,528,798,535"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="994,296,1200,337"/>
-<area shape="poly" title=" " alt="" coords="858,446,916,397,953,371,992,347,1006,341,1008,346,995,352,956,375,920,401,862,450"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="1248,484,1454,525"/>
-<area shape="poly" title=" " alt="" coords="940,457,1065,453,1133,455,1200,462,1272,477,1271,482,1200,467,1133,461,1065,459,940,462"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="998,361,1196,402"/>
-<area shape="poly" title=" " alt="" coords="899,445,1018,405,1020,410,901,450"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="1005,476,1189,517"/>
-<area shape="poly" title=" " alt="" coords="940,477,990,482,989,487,940,482"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="994,541,1200,582"/>
-<area shape="poly" title=" " alt="" coords="917,487,947,498,971,512,995,526,1012,533,1010,538,992,531,968,517,945,503,915,492"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="994,607,1200,647"/>
-<area shape="poly" title=" " alt="" coords="930,487,947,498,966,522,972,546,979,569,996,592,1001,596,998,601,992,596,974,572,967,548,961,524,944,502,927,491"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1252,361,1450,402"/>
-<area shape="poly" title=" " alt="" coords="1197,379,1237,379,1237,384,1197,384"/>
-<area shape="poly" title=" " alt="" coords="1190,538,1242,526,1244,531,1191,543"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_a1cf2782dfb7b174e8f6e312b3416d0ef_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -364,34 +301,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_cgraph">
-<area shape="rect" title="Initializes the components of the KeyLogger form." alt="" coords="5,169,187,210"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a214d14b30750982641761fb79220f522" title="Called when the KeyLogger form is loaded." alt="" coords="251,5,432,46"/>
-<area shape="poly" title=" " alt="" coords="112,167,162,113,196,83,233,57,245,50,247,55,236,61,199,87,166,116,116,171"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a7c36803e25ed5580789386df7262e648" title="Event handler for the Click event of label1." alt="" coords="251,71,432,111"/>
-<area shape="poly" title=" " alt="" coords="136,166,234,122,254,114,256,119,236,127,139,171"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a2f34e1d052cc0980a52a1e90eebf2319" title="Event handler for the Click event of the label2 control." alt="" coords="251,136,432,177"/>
-<area shape="poly" title=" " alt="" coords="187,175,235,168,235,173,187,180"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a0ce6cff9b2600bcb4748c8a646d5181c" title="Handles the event when an item in the list view is activated." alt="" coords="243,201,440,242"/>
-<area shape="poly" title=" " alt="" coords="187,199,227,204,227,209,187,204"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a39360a42ae605a00e3ac010e81a3e294" title="Occurs when the selected index of the ListView control changes." alt="" coords="238,266,445,322"/>
-<area shape="poly" title=" " alt="" coords="141,208,236,251,250,257,248,262,234,256,139,213"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a180b9352ecdc3b6abd6d44f210072ae5" title="Event handler for the TextChanged event of textBox1." alt="" coords="235,345,448,386"/>
-<area shape="poly" title=" " alt="" coords="114,209,164,270,198,303,236,331,244,336,242,341,233,336,194,307,160,273,110,212"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a3b10be9218f737266bc270e621f72916" title="Replaces the placeholders [enter] and [space] in the input string with new line and space characters ..." alt="" coords="496,201,677,242"/>
-<area shape="poly" title=" " alt="" coords="440,219,480,219,480,224,440,224"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_cgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_icgraph">
-<area shape="rect" title="Initializes the components of the KeyLogger form." alt="" coords="235,5,416,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a1cf2782dfb7b174e8f6e312b3416d0ef" title=" " alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_af1e03b8d077f476feb0748cbf61ea417_icgraph.svg" width="422" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -427,14 +342,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_a214d14b30750982641761fb79220f522_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_a214d14b30750982641761fb79220f522_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a214d14b30750982641761fb79220f522_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a214d14b30750982641761fb79220f522_icgraph">
-<area shape="rect" title="Called when the KeyLogger form is loaded." alt="" coords="464,5,645,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#af1e03b8d077f476feb0748cbf61ea417" title="Initializes the components of the KeyLogger form." alt="" coords="235,5,416,46"/>
-<area shape="poly" title=" " alt="" coords="449,28,416,28,416,23,449,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a1cf2782dfb7b174e8f6e312b3416d0ef" title=" " alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_a214d14b30750982641761fb79220f522_icgraph.svg" width="651" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -478,14 +386,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_a7c36803e25ed5580789386df7262e648_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_a7c36803e25ed5580789386df7262e648_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a7c36803e25ed5580789386df7262e648_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a7c36803e25ed5580789386df7262e648_icgraph">
-<area shape="rect" title="Event handler for the Click event of label1." alt="" coords="464,5,645,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#af1e03b8d077f476feb0748cbf61ea417" title="Initializes the components of the KeyLogger form." alt="" coords="235,5,416,46"/>
-<area shape="poly" title=" " alt="" coords="449,28,416,28,416,23,449,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a1cf2782dfb7b174e8f6e312b3416d0ef" title=" " alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_a7c36803e25ed5580789386df7262e648_icgraph.svg" width="651" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -529,14 +430,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_a2f34e1d052cc0980a52a1e90eebf2319_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_a2f34e1d052cc0980a52a1e90eebf2319_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a2f34e1d052cc0980a52a1e90eebf2319_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a2f34e1d052cc0980a52a1e90eebf2319_icgraph">
-<area shape="rect" title="Event handler for the Click event of the label2 control." alt="" coords="464,5,645,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#af1e03b8d077f476feb0748cbf61ea417" title="Initializes the components of the KeyLogger form." alt="" coords="235,5,416,46"/>
-<area shape="poly" title=" " alt="" coords="449,28,416,28,416,23,449,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a1cf2782dfb7b174e8f6e312b3416d0ef" title=" " alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_a2f34e1d052cc0980a52a1e90eebf2319_icgraph.svg" width="651" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -580,24 +474,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_cgraph">
-<area shape="rect" title="Handles the event when an item in the list view is activated." alt="" coords="5,5,203,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a3b10be9218f737266bc270e621f72916" title="Replaces the placeholders [enter] and [space] in the input string with new line and space characters ..." alt="" coords="251,5,432,46"/>
-<area shape="poly" title=" " alt="" coords="203,23,235,23,235,28,203,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_cgraph.svg" width="438" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_icgraph">
-<area shape="rect" title="Handles the event when an item in the list view is activated." alt="" coords="464,5,661,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#af1e03b8d077f476feb0748cbf61ea417" title="Initializes the components of the KeyLogger form." alt="" coords="235,5,416,46"/>
-<area shape="poly" title=" " alt="" coords="448,28,416,28,416,23,448,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a1cf2782dfb7b174e8f6e312b3416d0ef" title=" " alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_a0ce6cff9b2600bcb4748c8a646d5181c_icgraph.svg" width="667" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -640,14 +522,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_a39360a42ae605a00e3ac010e81a3e294_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_a39360a42ae605a00e3ac010e81a3e294_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a39360a42ae605a00e3ac010e81a3e294_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a39360a42ae605a00e3ac010e81a3e294_icgraph">
-<area shape="rect" title="Occurs when the selected index of the ListView control changes." alt="" coords="464,5,670,61"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#af1e03b8d077f476feb0748cbf61ea417" title="Initializes the components of the KeyLogger form." alt="" coords="235,13,416,54"/>
-<area shape="poly" title=" " alt="" coords="448,36,416,36,416,31,448,31"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a1cf2782dfb7b174e8f6e312b3416d0ef" title=" " alt="" coords="5,13,187,54"/>
-<area shape="poly" title=" " alt="" coords="219,36,187,36,187,31,219,31"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_a39360a42ae605a00e3ac010e81a3e294_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -686,19 +561,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_a3b10be9218f737266bc270e621f72916_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_a3b10be9218f737266bc270e621f72916_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a3b10be9218f737266bc270e621f72916_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a3b10be9218f737266bc270e621f72916_icgraph">
-<area shape="rect" title="Replaces the placeholders [enter] and [space] in the input string with new line and space characters ..." alt="" coords="709,39,891,79"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a0ce6cff9b2600bcb4748c8a646d5181c" title="Handles the event when an item in the list view is activated." alt="" coords="464,8,661,49"/>
-<area shape="poly" title=" " alt="" coords="694,48,662,44,662,38,694,43"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#ad9b45a1728b0dde4244f5f1534c386aa" title="Asynchronously receives data from the client and processes it." alt="" coords="235,71,416,111"/>
-<area shape="poly" title=" " alt="" coords="694,69,417,88,416,82,693,63"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#af1e03b8d077f476feb0748cbf61ea417" title="Initializes the components of the KeyLogger form." alt="" coords="235,5,416,46"/>
-<area shape="poly" title=" " alt="" coords="448,30,416,29,416,24,448,24"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a1cf2782dfb7b174e8f6e312b3416d0ef" title=" " alt="" coords="5,39,187,79"/>
-<area shape="poly" title=" " alt="" coords="220,44,187,48,187,43,219,38"/>
-<area shape="poly" title=" " alt="" coords="219,79,187,74,187,69,220,74"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_a3b10be9218f737266bc270e621f72916_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -731,46 +594,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_cgraph">
-<area shape="rect" title="Asynchronously receives data from the client and processes it." alt="" coords="5,64,187,105"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="235,14,450,40"/>
-<area shape="poly" title=" " alt="" coords="186,61,268,41,270,47,187,66"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a3b10be9218f737266bc270e621f72916" title="Replaces the placeholders [enter] and [space] in the input string with new line and space characters ..." alt="" coords="252,64,433,105"/>
-<area shape="poly" title=" " alt="" coords="187,82,236,82,236,87,187,87"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="242,129,443,170"/>
-<area shape="poly" title=" " alt="" coords="176,103,249,122,248,127,175,108"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="498,108,716,133"/>
-<area shape="poly" title=" " alt="" coords="443,136,482,131,483,137,443,141"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="504,157,710,198"/>
-<area shape="poly" title=" " alt="" coords="443,158,489,162,488,168,443,163"/>
-<area shape="poly" title=" " alt="" coords="564,109,556,99,561,89,578,83,607,81,639,84,655,91,653,96,638,89,607,86,579,88,564,93,561,98,568,105"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="764,5,971,46"/>
-<area shape="poly" title=" " alt="" coords="697,155,715,144,731,123,738,102,745,79,762,57,769,52,772,56,766,61,750,82,743,103,736,126,718,148,700,159"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="1019,193,1225,234"/>
-<area shape="poly" title=" " alt="" coords="711,166,835,163,904,165,971,171,1043,186,1042,191,970,176,903,170,835,168,711,172"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="768,71,967,111"/>
-<area shape="poly" title=" " alt="" coords="680,154,715,143,796,115,798,120,717,148,682,159"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="776,185,959,226"/>
-<area shape="poly" title=" " alt="" coords="711,186,761,192,760,197,710,191"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="764,251,971,291"/>
-<area shape="poly" title=" " alt="" coords="662,196,765,235,787,243,786,248,763,240,660,201"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="764,316,971,357"/>
-<area shape="poly" title=" " alt="" coords="631,196,689,248,726,276,766,301,779,307,776,312,763,305,723,280,685,252,627,200"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1023,71,1221,111"/>
-<area shape="poly" title=" " alt="" coords="967,88,1007,88,1007,94,967,94"/>
-<area shape="poly" title=" " alt="" coords="960,247,1013,235,1014,241,961,253"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_cgraph.svg" width="100%" height="572"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_icgraph">
-<area shape="rect" title="Asynchronously receives data from the client and processes it." alt="" coords="235,5,416,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a1cf2782dfb7b174e8f6e312b3416d0ef" title=" " alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_ad9b45a1728b0dde4244f5f1534c386aa_icgraph.svg" width="422" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -852,14 +681,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_key_logger_a180b9352ecdc3b6abd6d44f210072ae5_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_key_logger_a180b9352ecdc3b6abd6d44f210072ae5_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a180b9352ecdc3b6abd6d44f210072ae5_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_key_logger_a180b9352ecdc3b6abd6d44f210072ae5_icgraph">
-<area shape="rect" title="Event handler for the TextChanged event of textBox1." alt="" coords="464,5,677,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#af1e03b8d077f476feb0748cbf61ea417" title="Initializes the components of the KeyLogger form." alt="" coords="235,5,416,46"/>
-<area shape="poly" title=" " alt="" coords="448,28,416,28,416,23,448,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html#a1cf2782dfb7b174e8f6e312b3416d0ef" title=" " alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_key_logger_a180b9352ecdc3b6abd6d44f210072ae5_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1071,11 +893,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacexeno__rat__server.html">xeno_rat_server</a></li><li class="navelem"><a class="el" href="namespacexeno__rat__server_1_1_forms.html">Forms</a></li><li class="navelem"><a class="el" href="classxeno__rat__server_1_1_forms_1_1_key_logger.html">KeyLogger</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

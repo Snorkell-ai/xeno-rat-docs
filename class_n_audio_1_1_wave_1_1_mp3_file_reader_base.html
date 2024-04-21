@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.Mp3FileReaderBase Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,63 +137,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html',
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.Mp3FileReaderBase:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_mp3_file_reader_base_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_mp3_file_reader_base_inherit__map" id="a_n_audio_8_wave_8_mp3_file_reader_base_inherit__map">
-<area shape="rect" title="Class for reading from MP3 files." alt="" coords="5,452,220,1057"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="64,119,161,404"/>
-<area shape="poly" title=" " alt="" coords="115,419,115,452,110,452,110,419"/>
-<area shape="rect" title=" " alt="" coords="36,5,91,71"/>
-<area shape="poly" title=" " alt="" coords="76,85,84,118,79,120,71,86"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="115,5,212,71"/>
-<area shape="poly" title=" " alt="" coords="155,86,148,120,142,118,150,85"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.Mp3FileReaderBase:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_mp3_file_reader_base_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_mp3_file_reader_base_coll__map" id="a_n_audio_8_wave_8_mp3_file_reader_base_coll__map">
-<area shape="rect" title="Class for reading from MP3 files." alt="" coords="525,1215,739,1601"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="165,822,262,1107"/>
-<area shape="poly" title=" " alt="" coords="271,1112,294,1153,321,1190,367,1238,420,1281,474,1318,526,1350,524,1355,471,1323,417,1285,364,1242,317,1193,289,1155,266,1115"/>
-<area shape="rect" title=" " alt="" coords="38,414,93,479"/>
-<area shape="poly" title=" " alt="" coords="58,480,31,591,19,667,10,753,9,843,19,935,28,980,41,1024,58,1066,79,1106,119,1160,167,1208,221,1249,279,1285,339,1315,399,1340,509,1376,507,1381,397,1345,337,1320,277,1290,218,1254,164,1212,115,1164,75,1109,53,1068,36,1025,23,981,13,936,4,843,5,752,13,666,26,589,53,478"/>
-<area shape="poly" title=" " alt="" coords="72,493,84,588,107,698,135,782,167,861,162,863,130,784,101,700,78,589,66,494"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="117,414,214,479"/>
-<area shape="poly" title=" " alt="" coords="172,493,203,822,198,823,167,494"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="238,194,437,699"/>
-<area shape="poly" title=" " alt="" coords="306,699,304,798,310,902,328,1007,341,1057,358,1106,388,1165,426,1219,470,1268,514,1311,510,1315,466,1272,422,1222,384,1167,354,1108,336,1059,322,1008,305,903,299,798,301,699"/>
-<area shape="rect" title=" " alt="" coords="5,5,147,71"/>
-<area shape="poly" title=" " alt="" coords="74,70,76,121,84,146,98,168,111,178,125,183,155,183,188,182,206,185,225,193,223,198,205,190,187,187,155,188,124,188,109,183,94,171,79,149,71,122,69,71"/>
-<area shape="rect" title=" " alt="" coords="190,5,231,71"/>
-<area shape="poly" title=" " alt="" coords="209,71,208,118,215,169,220,181,228,192,233,203,228,205,223,195,215,183,209,170,203,118,204,70"/>
-<area shape="rect" title=" " alt="" coords="523,5,549,71"/>
-<area shape="poly" title=" " alt="" coords="532,71,508,189,479,367,466,471,457,579,452,690,454,798,457,954,464,1022,483,1107,499,1158,520,1208,515,1210,494,1160,477,1108,459,1023,452,955,448,798,447,690,452,579,461,470,474,366,503,188,526,70"/>
-<area shape="poly" title=" " alt="" coords="524,44,425,61,372,77,353,86,340,96,327,129,321,177,316,177,322,127,336,93,350,82,370,72,424,56,523,38"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_xing_header.html" title="Represents a Xing VBR header." alt="" coords="492,872,657,1057"/>
-<area shape="poly" title=" " alt="" coords="537,71,533,202,534,386,538,482,546,570,559,644,577,698,583,705,591,708,600,713,608,722,619,754,623,788,622,822,616,856,611,855,616,822,618,788,614,755,603,724,597,717,589,713,580,709,572,700,553,646,540,571,532,482,528,386,528,202,532,70"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_frame.html" title="Represents an MP3 Frame." alt="" coords="666,264,825,629"/>
-<area shape="poly" title=" " alt="" coords="552,54,578,93,587,115,592,133,597,150,609,168,618,175,628,179,638,183,649,192,686,247,681,250,645,195,635,188,626,184,616,180,605,171,592,152,587,134,582,117,574,96,547,57"/>
-<area shape="rect" title=" " alt="" coords="681,932,719,997"/>
-<area shape="poly" title=" " alt="" coords="702,998,695,1052,686,1082,671,1109,662,1118,652,1121,643,1125,636,1133,622,1165,614,1199,609,1198,617,1163,631,1130,640,1120,650,1116,659,1113,667,1106,681,1079,690,1051,697,997"/>
-<area shape="poly" title=" " alt="" coords="541,1058,528,1123,527,1157,531,1191,533,1198,528,1200,526,1192,522,1158,523,1123,536,1057"/>
-<area shape="rect" title=" " alt="" coords="801,5,847,71"/>
-<area shape="poly" title=" " alt="" coords="848,51,870,69,888,93,894,114,894,131,888,170,888,252,892,323,902,445,902,503,894,563,874,627,840,700,813,737,785,759,752,777,712,800,691,811,671,824,639,860,635,857,668,820,688,807,709,796,749,772,782,755,810,733,835,698,869,625,888,561,897,502,897,445,887,323,882,252,883,169,888,131,889,115,883,96,866,72,845,55"/>
-<area shape="poly" title=" " alt="" coords="803,51,773,68,759,81,749,96,734,131,724,169,717,247,712,247,719,168,729,130,744,93,755,77,770,64,800,46"/>
-<area shape="poly" title=" " alt="" coords="699,630,645,799,623,857,618,855,640,797,694,628"/>
-<area shape="rect" title=" " alt="" coords="743,932,780,997"/>
-<area shape="poly" title=" " alt="" coords="765,997,762,1086,755,1139,744,1192,742,1200,736,1199,739,1191,750,1138,757,1085,760,997"/>
-<area shape="rect" title=" " alt="" coords="805,932,1003,997"/>
-<area shape="poly" title=" " alt="" coords="906,997,904,1038,897,1088,884,1142,862,1193,840,1228,813,1262,754,1321,750,1317,809,1258,835,1225,858,1190,879,1140,892,1087,899,1038,901,997"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_mp3_frame_decompressor.html" title="Interface for MP3 frame by frame decoder." alt="" coords="1028,922,1276,1007"/>
-<area shape="poly" title=" " alt="" coords="1132,1009,1074,1098,1036,1148,992,1193,936,1240,875,1282,756,1352,753,1347,872,1278,933,1236,989,1189,1032,1144,1070,1095,1127,1006"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="1111,414,1193,479"/>
-<area shape="poly" title=" " alt="" coords="1155,494,1155,922,1149,922,1149,494"/>
-<area shape="rect" title=" " alt="" coords="1300,932,1337,997"/>
-<area shape="poly" title=" " alt="" coords="1322,997,1315,1052,1305,1082,1290,1109,1263,1128,1216,1154,1138,1194,938,1285,756,1361,753,1356,936,1281,1136,1189,1214,1150,1261,1124,1286,1106,1300,1080,1309,1051,1316,997"/>
-<area shape="rect" title=" " alt="" coords="1377,932,1425,997"/>
-<area shape="poly" title=" " alt="" coords="1409,997,1413,1040,1411,1092,1399,1146,1387,1171,1371,1193,1353,1211,1329,1227,1267,1259,1190,1288,1104,1314,920,1358,756,1390,755,1384,919,1353,1102,1309,1189,1283,1265,1254,1326,1223,1350,1206,1367,1190,1382,1168,1393,1144,1405,1091,1407,1040,1404,997"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -431,32 +404,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ef942cc623142a9827edcff17f55e12_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ef942cc623142a9827edcff17f55e12_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ef942cc623142a9827edcff17f55e12_cgraph" id="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ef942cc623142a9827edcff17f55e12_cgraph">
-<area shape="rect" title=" " alt="" coords="5,237,199,278"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a1c78303cd515a3b9c7f7a0133b7703a5" title="Creates a table of contents for the MP3 file by reading the frames and populating the table of conten..." alt="" coords="257,83,451,123"/>
-<area shape="poly" title=" " alt="" coords="121,235,174,185,208,158,245,134,259,127,261,132,248,139,212,162,178,189,125,239"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_frame.html#aacebf32e12cd788f543c16aa388c827f" title="Loads an MP3 frame from the given input stream and returns the frame." alt="" coords="254,172,454,213"/>
-<area shape="poly" title=" " alt="" coords="183,234,257,215,259,220,184,239"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_xing_header.html#a8360d4066fe6e494ff7ebf6c688d7beb" title="Loads the Xing header from the provided Mp3Frame." alt="" coords="252,237,456,278"/>
-<area shape="poly" title=" " alt="" coords="199,255,236,255,236,260,199,260"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_id3v2_tag.html#a402d29d71aa5d32148f5370e01714e7c" title="Reads an ID3v2 tag from the input stream and returns the tag." alt="" coords="247,302,461,328"/>
-<area shape="poly" title=" " alt="" coords="195,276,280,296,279,301,194,281"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#af88057a5f4bcdc21619aae08f319ab7c" title="Calculates the total seconds based on the total samples and sample rate." alt="" coords="257,352,451,393"/>
-<area shape="poly" title=" " alt="" coords="136,276,187,307,248,338,263,344,261,349,246,343,185,312,133,281"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a3e0ccd190d85f58fc98568e9fcaf5a46" title="Reads the next MP3 frame from the stream and advances the position by one frame." alt="" coords="520,29,713,70"/>
-<area shape="poly" title=" " alt="" coords="450,81,504,70,505,75,451,86"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#ad9f2cd188d2e55f4e4f24307d98a4da5" title="Validates the format of the MP3 frame." alt="" coords="520,95,713,135"/>
-<area shape="poly" title=" " alt="" coords="451,105,505,107,505,113,451,110"/>
-<area shape="poly" title=" " alt="" coords="568,29,565,19,573,10,590,5,617,3,645,5,662,11,660,16,644,10,617,8,591,10,576,15,570,21,573,28"/>
-<area shape="poly" title=" " alt="" coords="307,172,304,162,312,153,329,147,354,145,381,148,397,154,395,159,380,153,354,151,330,153,315,157,309,163,312,171"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_xing_header.html#a79596ac097f7c3e5b33af43e5518c6f4" title="Reads a 32&#45;bit integer from the specified buffer in big&#45;endian format." alt="" coords="513,172,720,213"/>
-<area shape="poly" title=" " alt="" coords="438,234,517,214,518,220,439,239"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_xing_header.html#a541bbfd1063c3accc85660a1ebf1ca75" title="Sees if a frame contains a Xing header." alt="" coords="516,237,718,278"/>
-<area shape="poly" title=" " alt="" coords="456,255,500,255,500,260,456,260"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_id3v2_tag.html#a91dd0a39bebbb29b61a147d93cabf84c" title=" " alt="" coords="509,302,724,328"/>
-<area shape="poly" title=" " alt="" coords="461,312,494,312,494,318,461,318"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ef942cc623142a9827edcff17f55e12_cgraph.svg" width="100%" height="599"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -490,25 +438,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_cgraph" id="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_cgraph">
-<area shape="rect" title="Creates a table of contents for the MP3 file by reading the frames and populating the table of conten..." alt="" coords="5,63,199,103"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a3e0ccd190d85f58fc98568e9fcaf5a46" title="Reads the next MP3 frame from the stream and advances the position by one frame." alt="" coords="247,29,440,70"/>
-<area shape="poly" title=" " alt="" coords="199,67,231,63,232,68,199,72"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#ad9f2cd188d2e55f4e4f24307d98a4da5" title="Validates the format of the MP3 frame." alt="" coords="247,95,440,135"/>
-<area shape="poly" title=" " alt="" coords="199,93,232,97,231,103,199,98"/>
-<area shape="poly" title=" " alt="" coords="298,29,296,19,303,10,319,5,343,3,369,5,385,11,383,16,368,10,343,8,320,10,306,15,301,21,303,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_cgraph.svg" width="446" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_icgraph" id="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_icgraph">
-<area shape="rect" title="Creates a table of contents for the MP3 file by reading the frames and populating the table of conten..." alt="" coords="247,5,440,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ef942cc623142a9827edcff17f55e12" title=" " alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a1c78303cd515a3b9c7f7a0133b7703a5_icgraph.svg" width="446" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -621,17 +556,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ecfcf60c530ed0d893e1b4d9e3113dd_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ecfcf60c530ed0d893e1b4d9e3113dd_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ecfcf60c530ed0d893e1b4d9e3113dd_cgraph" id="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ecfcf60c530ed0d893e1b4d9e3113dd_cgraph">
-<area shape="rect" title="Reads a specified number of bytes from the MP3 file into the sample buffer." alt="" coords="5,95,199,135"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_mp3_frame_decompressor.html#a018b7f5c77e88abb41a10c1ad7426b30" title="Decompress a single MP3 frame." alt="" coords="247,5,506,46"/>
-<area shape="poly" title=" " alt="" coords="152,92,246,56,273,48,275,53,248,62,153,97"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a3e0ccd190d85f58fc98568e9fcaf5a46" title="Reads the next MP3 frame from the stream and advances the position by one frame." alt="" coords="280,95,473,135"/>
-<area shape="poly" title=" " alt="" coords="199,112,264,112,264,118,199,118"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_mp3_frame_decompressor.html#a8471f95738e023cae6ad13fe3a34da2c" title="Tell the decoder that we have repositioned." alt="" coords="247,160,506,201"/>
-<area shape="poly" title=" " alt="" coords="191,133,274,153,272,158,190,139"/>
-<area shape="poly" title=" " alt="" coords="325,95,323,85,331,76,349,70,376,68,406,70,423,77,421,82,405,76,376,73,350,75,334,80,328,86,330,93"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a4ecfcf60c530ed0d893e1b4d9e3113dd_cgraph.svg" width="512" height="207"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -671,26 +596,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_cgraph" id="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_cgraph">
-<area shape="rect" title="Reads the next MP3 frame from the stream and advances the position by one frame." alt="" coords="5,29,199,70"/>
-<area shape="poly" title=" " alt="" coords="65,29,63,19,69,10,82,5,102,3,123,5,136,11,133,16,122,10,102,8,84,10,73,15,69,20,70,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_cgraph.svg" width="204" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_icgraph" id="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_icgraph">
-<area shape="rect" title="Reads the next MP3 frame from the stream and advances the position by one frame." alt="" coords="488,39,681,79"/>
-<area shape="poly" title=" " alt="" coords="624,26,609,20,585,17,562,19,548,24,542,30,544,37,539,39,537,29,545,20,560,14,585,12,611,14,626,21"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a1c78303cd515a3b9c7f7a0133b7703a5" title="Creates a table of contents for the MP3 file by reading the frames and populating the table of conten..." alt="" coords="247,5,440,46"/>
-<area shape="poly" title=" " alt="" coords="472,46,440,42,441,36,473,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ecfcf60c530ed0d893e1b4d9e3113dd" title="Reads a specified number of bytes from the MP3 file into the sample buffer." alt="" coords="247,71,440,111"/>
-<area shape="poly" title=" " alt="" coords="473,76,441,81,440,76,472,71"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ef942cc623142a9827edcff17f55e12" title=" " alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_a3e0ccd190d85f58fc98568e9fcaf5a46_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -723,13 +634,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_abfbcad7d50e469d028937161ec530bc0_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_abfbcad7d50e469d028937161ec530bc0_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_abfbcad7d50e469d028937161ec530bc0_cgraph" id="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_abfbcad7d50e469d028937161ec530bc0_cgraph">
-<area shape="rect" title="Reads the next mp3 frame." alt="" coords="5,29,199,70"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_frame.html#aacebf32e12cd788f543c16aa388c827f" title="Loads an MP3 frame from the given input stream and returns the frame." alt="" coords="247,29,446,70"/>
-<area shape="poly" title=" " alt="" coords="199,47,231,47,231,52,199,52"/>
-<area shape="poly" title=" " alt="" coords="300,29,298,19,306,10,322,5,346,3,373,5,388,11,386,16,371,10,346,8,323,10,309,15,303,21,306,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_abfbcad7d50e469d028937161ec530bc0_cgraph.svg" width="452" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -762,12 +667,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_af88057a5f4bcdc21619aae08f319ab7c_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_af88057a5f4bcdc21619aae08f319ab7c_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_af88057a5f4bcdc21619aae08f319ab7c_icgraph" id="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_af88057a5f4bcdc21619aae08f319ab7c_icgraph">
-<area shape="rect" title="Calculates the total seconds based on the total samples and sample rate." alt="" coords="247,5,440,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ef942cc623142a9827edcff17f55e12" title=" " alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_af88057a5f4bcdc21619aae08f319ab7c_icgraph.svg" width="446" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -812,14 +712,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_ad9f2cd188d2e55f4e4f24307d98a4da5_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_ad9f2cd188d2e55f4e4f24307d98a4da5_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_ad9f2cd188d2e55f4e4f24307d98a4da5_icgraph" id="aclass_n_audio_1_1_wave_1_1_mp3_file_reader_base_ad9f2cd188d2e55f4e4f24307d98a4da5_icgraph">
-<area shape="rect" title="Validates the format of the MP3 frame." alt="" coords="488,5,681,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a1c78303cd515a3b9c7f7a0133b7703a5" title="Creates a table of contents for the MP3 file by reading the frames and populating the table of conten..." alt="" coords="247,5,440,46"/>
-<area shape="poly" title=" " alt="" coords="473,28,440,28,440,23,473,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html#a4ef942cc623142a9827edcff17f55e12" title=" " alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_mp3_file_reader_base_ad9f2cd188d2e55f4e4f24307d98a4da5_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1397,11 +1290,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html">Mp3FileReaderBase</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: Hidden_handler.Process_Handler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -110,12 +134,7 @@ $(function(){initNavTree('class_hidden__handler_1_1_process___handler.html','');
 <div class="dynheader">
 Collaboration diagram for Hidden_handler.Process_Handler:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler__coll__graph.png" border="0" usemap="#a_hidden__handler_8_process___handler_coll__map" alt="Collaboration graph"/></div>
-<map name="a_hidden__handler_8_process___handler_coll__map" id="a_hidden__handler_8_process___handler_coll__map">
-<area shape="rect" title=" " alt="" coords="5,134,187,494"/>
-<area shape="rect" title=" " alt="" coords="73,5,119,71"/>
-<area shape="poly" title=" " alt="" coords="99,71,99,117,93,117,93,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler__coll__graph.svg" width="194" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -272,28 +291,12 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_cgraph" id="aclass_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_cgraph">
-<area shape="rect" title="Clones the Brave browser data to a specified directory." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="216,39,378,79"/>
-<area shape="poly" title=" " alt="" coords="168,56,200,56,200,62,168,62"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="436,5,643,46"/>
-<area shape="poly" title=" " alt="" coords="378,45,420,39,420,45,379,50"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="426,71,652,111"/>
-<area shape="poly" title=" " alt="" coords="379,67,411,71,410,77,378,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_cgraph.svg" width="658" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_icgraph" id="aclass_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_icgraph">
-<area shape="rect" title="Clones the Brave browser data to a specified directory." alt="" coords="421,5,583,46"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="171,13,373,39"/>
-<area shape="poly" title=" " alt="" coords="405,28,373,28,373,23,405,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a70bc25f5028b70f49493e02beb94d1c0_icgraph.svg" width="590" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -327,28 +330,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_cgraph" id="aclass_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_cgraph">
-<area shape="rect" title="Clones the Chrome user data directory to a specified location." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="216,39,378,79"/>
-<area shape="poly" title=" " alt="" coords="168,56,200,56,200,62,168,62"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="436,5,643,46"/>
-<area shape="poly" title=" " alt="" coords="378,45,420,39,420,45,379,50"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="426,71,652,111"/>
-<area shape="poly" title=" " alt="" coords="379,67,411,71,410,77,378,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_cgraph.svg" width="658" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_icgraph" id="aclass_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_icgraph">
-<area shape="rect" title="Clones the Chrome user data directory to a specified location." alt="" coords="433,5,595,46"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="171,13,385,39"/>
-<area shape="poly" title=" " alt="" coords="417,28,385,28,385,23,417,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a5026779693b49e5261dea19ccb9167a9_icgraph.svg" width="602" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -387,28 +374,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_cgraph" id="aclass_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_cgraph">
-<area shape="rect" title="Clones the Microsoft Edge user data to a specified directory." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="216,39,378,79"/>
-<area shape="poly" title=" " alt="" coords="168,56,200,56,200,62,168,62"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="436,5,643,46"/>
-<area shape="poly" title=" " alt="" coords="378,45,420,39,420,45,379,50"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="426,71,652,111"/>
-<area shape="poly" title=" " alt="" coords="379,67,411,71,410,77,378,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_cgraph.svg" width="658" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_icgraph" id="aclass_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_icgraph">
-<area shape="rect" title="Clones the Microsoft Edge user data to a specified directory." alt="" coords="417,5,579,46"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="171,13,369,39"/>
-<area shape="poly" title=" " alt="" coords="401,28,369,28,369,23,401,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a3f653e80f4fa9730c6217ee84d5bba26_icgraph.svg" width="586" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -442,31 +413,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_cgraph" id="aclass_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_cgraph">
-<area shape="rect" title="Clones the Firefox profile data to a specified directory." alt="" coords="5,83,168,123"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="233,37,396,78"/>
-<area shape="poly" title=" " alt="" coords="167,84,218,74,219,79,168,90"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a0aa478a461064948bd41a87f78c93a7d" title="Recursively searches for a file with the specified name in the given directory and its subdirectories..." alt="" coords="216,127,413,167"/>
-<area shape="poly" title=" " alt="" coords="168,116,201,122,200,128,167,121"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="471,5,678,46"/>
-<area shape="poly" title=" " alt="" coords="396,45,455,38,455,43,396,50"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="461,71,687,111"/>
-<area shape="poly" title=" " alt="" coords="396,65,446,72,445,77,396,71"/>
-<area shape="poly" title=" " alt="" coords="271,127,269,117,276,108,291,102,314,100,339,102,354,109,351,114,338,108,314,105,293,107,279,112,274,118,277,125"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_cgraph.svg" width="100%" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_icgraph" id="aclass_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_icgraph">
-<area shape="rect" title="Clones the Firefox profile data to a specified directory." alt="" coords="427,5,589,46"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="171,13,379,39"/>
-<area shape="poly" title=" " alt="" coords="412,28,380,28,380,23,412,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a57909ef2fb8c1b15ef0f52f7a0401084_icgraph.svg" width="595" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -500,28 +452,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_cgraph" id="aclass_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_cgraph">
-<area shape="rect" title="Clones the Opera browser data to a specified directory." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="216,39,378,79"/>
-<area shape="poly" title=" " alt="" coords="168,56,200,56,200,62,168,62"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="436,5,643,46"/>
-<area shape="poly" title=" " alt="" coords="378,45,420,39,420,45,379,50"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="426,71,652,111"/>
-<area shape="poly" title=" " alt="" coords="379,67,411,71,410,77,378,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_cgraph.svg" width="658" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_icgraph" id="aclass_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_icgraph">
-<area shape="rect" title="Clones the Opera browser data to a specified directory." alt="" coords="422,5,584,46"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="171,13,374,39"/>
-<area shape="poly" title=" " alt="" coords="406,28,375,28,375,23,406,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a72151c3db1f9b348fe603e44d390f92d_icgraph.svg" width="590" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -555,28 +491,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_cgraph" id="aclass_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_cgraph">
-<area shape="rect" title="Clones the Opera GX browser data to a specified directory." alt="" coords="5,39,170,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="218,39,380,79"/>
-<area shape="poly" title=" " alt="" coords="170,56,202,56,202,62,170,62"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="438,5,645,46"/>
-<area shape="poly" title=" " alt="" coords="380,45,422,39,422,45,381,50"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="428,71,654,111"/>
-<area shape="poly" title=" " alt="" coords="381,67,413,71,412,77,380,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_cgraph.svg" width="660" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_icgraph" id="aclass_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_icgraph">
-<area shape="rect" title="Clones the Opera GX browser data to a specified directory." alt="" coords="441,5,605,46"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,13,393,39"/>
-<area shape="poly" title=" " alt="" coords="425,28,393,28,393,23,425,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a1153c1ec4e407e17b850e314778a690a_icgraph.svg" width="611" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -621,53 +541,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_cgraph" id="aclass_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_cgraph">
-<area shape="rect" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a4852029b64577933157dde6bc0f13e71" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="225,5,433,46"/>
-<area shape="poly" title=" " alt="" coords="168,45,209,39,210,45,169,50"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a6a32bad5c100cacfd01d88a01d71bf7b" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="216,71,442,111"/>
-<area shape="poly" title=" " alt="" coords="169,67,201,71,200,77,168,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_cgraph.svg" width="448" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_icgraph" id="aclass_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_icgraph">
-<area shape="rect" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="653,169,816,210"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a70bc25f5028b70f49493e02beb94d1c0" title="Clones the Brave browser data to a specified directory." alt="" coords="442,5,604,46"/>
-<area shape="poly" title=" " alt="" coords="706,159,661,109,604,61,582,49,585,44,607,57,665,106,710,155"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a5026779693b49e5261dea19ccb9167a9" title="Clones the Chrome user data directory to a specified location." alt="" coords="442,71,604,111"/>
-<area shape="poly" title=" " alt="" coords="680,164,604,127,576,114,578,109,606,122,683,160"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a3f653e80f4fa9730c6217ee84d5bba26" title="Clones the Microsoft Edge user data to a specified directory." alt="" coords="442,136,604,177"/>
-<area shape="poly" title=" " alt="" coords="638,177,604,172,605,167,638,172"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a57909ef2fb8c1b15ef0f52f7a0401084" title="Clones the Firefox profile data to a specified directory." alt="" coords="442,201,604,242"/>
-<area shape="poly" title=" " alt="" coords="638,207,605,212,604,207,638,202"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a72151c3db1f9b348fe603e44d390f92d" title="Clones the Opera browser data to a specified directory." alt="" coords="442,267,604,307"/>
-<area shape="poly" title=" " alt="" coords="681,220,606,256,578,268,576,264,604,251,679,215"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a1153c1ec4e407e17b850e314778a690a" title="Clones the Opera GX browser data to a specified directory." alt="" coords="441,332,605,373"/>
-<area shape="poly" title=" " alt="" coords="709,224,664,273,607,321,585,334,582,329,604,317,661,269,705,221"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="181,24,383,49"/>
-<area shape="poly" title=" " alt="" coords="427,33,384,35,383,29,426,27"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,181,123,207"/>
-<area shape="poly" title=" " alt="" coords="210,57,172,76,141,101,113,131,76,182,71,179,109,127,137,97,169,71,207,52"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="175,86,389,112"/>
-<area shape="poly" title=" " alt="" coords="427,97,389,98,389,93,426,92"/>
-<area shape="poly" title=" " alt="" coords="219,120,172,137,126,160,88,183,85,178,124,155,170,133,218,115"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="183,148,381,173"/>
-<area shape="poly" title=" " alt="" coords="426,161,381,161,381,156,426,155"/>
-<area shape="poly" title=" " alt="" coords="179,179,123,187,123,182,179,173"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="178,205,386,231"/>
-<area shape="poly" title=" " alt="" coords="426,223,386,222,386,217,427,217"/>
-<area shape="poly" title=" " alt="" coords="162,207,122,203,123,197,163,202"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="180,266,384,292"/>
-<area shape="poly" title=" " alt="" coords="427,286,384,285,384,280,427,281"/>
-<area shape="poly" title=" " alt="" coords="220,263,170,245,91,210,93,205,172,241,222,258"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,324,393,349"/>
-<area shape="poly" title=" " alt="" coords="425,349,393,346,394,341,425,343"/>
-<area shape="poly" title=" " alt="" coords="198,320,169,307,138,283,111,256,72,209,76,205,115,253,142,279,172,302,201,316"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a9882686a3e16c4e644c3917e8f1599d4_icgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -711,43 +590,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a4852029b64577933157dde6bc0f13e71_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a4852029b64577933157dde6bc0f13e71_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a4852029b64577933157dde6bc0f13e71_icgraph" id="aclass_hidden__handler_1_1_process___handler_a4852029b64577933157dde6bc0f13e71_icgraph">
-<area shape="rect" title="Copies all directories from the source directory to the destination directory asynchronously." alt="" coords="864,169,1071,210"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="653,169,816,210"/>
-<area shape="poly" title=" " alt="" coords="848,192,816,192,816,187,848,187"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a70bc25f5028b70f49493e02beb94d1c0" title="Clones the Brave browser data to a specified directory." alt="" coords="442,5,604,46"/>
-<area shape="poly" title=" " alt="" coords="706,159,661,109,604,61,582,49,585,44,607,57,665,106,710,155"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a5026779693b49e5261dea19ccb9167a9" title="Clones the Chrome user data directory to a specified location." alt="" coords="442,71,604,111"/>
-<area shape="poly" title=" " alt="" coords="680,164,604,127,576,114,578,109,606,122,683,160"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a3f653e80f4fa9730c6217ee84d5bba26" title="Clones the Microsoft Edge user data to a specified directory." alt="" coords="442,136,604,177"/>
-<area shape="poly" title=" " alt="" coords="638,177,604,172,605,167,638,172"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a57909ef2fb8c1b15ef0f52f7a0401084" title="Clones the Firefox profile data to a specified directory." alt="" coords="442,201,604,242"/>
-<area shape="poly" title=" " alt="" coords="638,207,605,212,604,207,638,202"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a72151c3db1f9b348fe603e44d390f92d" title="Clones the Opera browser data to a specified directory." alt="" coords="442,267,604,307"/>
-<area shape="poly" title=" " alt="" coords="681,220,606,256,578,268,576,264,604,251,679,215"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a1153c1ec4e407e17b850e314778a690a" title="Clones the Opera GX browser data to a specified directory." alt="" coords="441,332,605,373"/>
-<area shape="poly" title=" " alt="" coords="709,224,664,273,607,321,585,334,582,329,604,317,661,269,705,221"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="181,24,383,49"/>
-<area shape="poly" title=" " alt="" coords="427,33,384,35,383,29,426,27"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,181,123,207"/>
-<area shape="poly" title=" " alt="" coords="210,57,172,76,141,101,113,131,76,182,71,179,109,127,137,97,169,71,207,52"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="175,86,389,112"/>
-<area shape="poly" title=" " alt="" coords="427,97,389,98,389,93,426,92"/>
-<area shape="poly" title=" " alt="" coords="219,120,172,137,126,160,88,183,85,178,124,155,170,133,218,115"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="183,148,381,173"/>
-<area shape="poly" title=" " alt="" coords="426,161,381,161,381,156,426,155"/>
-<area shape="poly" title=" " alt="" coords="179,179,123,187,123,182,179,173"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="178,205,386,231"/>
-<area shape="poly" title=" " alt="" coords="426,223,386,222,386,217,427,217"/>
-<area shape="poly" title=" " alt="" coords="162,207,122,203,123,197,163,202"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="180,266,384,292"/>
-<area shape="poly" title=" " alt="" coords="427,286,384,285,384,280,427,281"/>
-<area shape="poly" title=" " alt="" coords="220,263,170,245,91,210,93,205,172,241,222,258"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,324,393,349"/>
-<area shape="poly" title=" " alt="" coords="425,349,393,346,394,341,425,343"/>
-<area shape="poly" title=" " alt="" coords="198,320,169,307,138,283,111,256,72,209,76,205,115,253,142,279,172,302,201,316"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a4852029b64577933157dde6bc0f13e71_icgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -812,43 +655,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a6a32bad5c100cacfd01d88a01d71bf7b_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a6a32bad5c100cacfd01d88a01d71bf7b_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a6a32bad5c100cacfd01d88a01d71bf7b_icgraph" id="aclass_hidden__handler_1_1_process___handler_a6a32bad5c100cacfd01d88a01d71bf7b_icgraph">
-<area shape="rect" title="Copies files from the source directory to the destination directory in parallel using the specified m..." alt="" coords="864,169,1090,210"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a9882686a3e16c4e644c3917e8f1599d4" title="Asynchronously copies all directories and files from the source directory to the destination director..." alt="" coords="653,169,816,210"/>
-<area shape="poly" title=" " alt="" coords="848,192,816,192,816,187,848,187"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a70bc25f5028b70f49493e02beb94d1c0" title="Clones the Brave browser data to a specified directory." alt="" coords="442,5,604,46"/>
-<area shape="poly" title=" " alt="" coords="706,159,661,109,604,61,582,49,585,44,607,57,665,106,710,155"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a5026779693b49e5261dea19ccb9167a9" title="Clones the Chrome user data directory to a specified location." alt="" coords="442,71,604,111"/>
-<area shape="poly" title=" " alt="" coords="680,164,604,127,576,114,578,109,606,122,683,160"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a3f653e80f4fa9730c6217ee84d5bba26" title="Clones the Microsoft Edge user data to a specified directory." alt="" coords="442,136,604,177"/>
-<area shape="poly" title=" " alt="" coords="638,177,604,172,605,167,638,172"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a57909ef2fb8c1b15ef0f52f7a0401084" title="Clones the Firefox profile data to a specified directory." alt="" coords="442,201,604,242"/>
-<area shape="poly" title=" " alt="" coords="638,207,605,212,604,207,638,202"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a72151c3db1f9b348fe603e44d390f92d" title="Clones the Opera browser data to a specified directory." alt="" coords="442,267,604,307"/>
-<area shape="poly" title=" " alt="" coords="681,220,606,256,578,268,576,264,604,251,679,215"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a1153c1ec4e407e17b850e314778a690a" title="Clones the Opera GX browser data to a specified directory." alt="" coords="441,332,605,373"/>
-<area shape="poly" title=" " alt="" coords="709,224,664,273,607,321,585,334,582,329,604,317,661,269,705,221"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="181,24,383,49"/>
-<area shape="poly" title=" " alt="" coords="427,33,384,35,383,29,426,27"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,181,123,207"/>
-<area shape="poly" title=" " alt="" coords="210,57,172,76,141,101,113,131,76,182,71,179,109,127,137,97,169,71,207,52"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="175,86,389,112"/>
-<area shape="poly" title=" " alt="" coords="427,97,389,98,389,93,426,92"/>
-<area shape="poly" title=" " alt="" coords="219,120,172,137,126,160,88,183,85,178,124,155,170,133,218,115"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="183,148,381,173"/>
-<area shape="poly" title=" " alt="" coords="426,161,381,161,381,156,426,155"/>
-<area shape="poly" title=" " alt="" coords="179,179,123,187,123,182,179,173"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="178,205,386,231"/>
-<area shape="poly" title=" " alt="" coords="426,223,386,222,386,217,427,217"/>
-<area shape="poly" title=" " alt="" coords="162,207,122,203,123,197,163,202"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="180,266,384,292"/>
-<area shape="poly" title=" " alt="" coords="427,286,384,285,384,280,427,281"/>
-<area shape="poly" title=" " alt="" coords="220,263,170,245,91,210,93,205,172,241,222,258"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,324,393,349"/>
-<area shape="poly" title=" " alt="" coords="425,349,393,346,394,341,425,343"/>
-<area shape="poly" title=" " alt="" coords="198,320,169,307,138,283,111,256,72,209,76,205,115,253,142,279,172,302,201,316"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a6a32bad5c100cacfd01d88a01d71bf7b_icgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -888,61 +695,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_cgraph" id="aclass_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_cgraph">
-<area shape="rect" title="Creates a new process using the specified file path." alt="" coords="5,5,168,46"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="216,5,379,46"/>
-<area shape="poly" title=" " alt="" coords="168,23,200,23,200,28,168,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_cgraph.svg" width="384" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_icgraph" id="aclass_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_icgraph">
-<area shape="rect" title="Creates a new process using the specified file path." alt="" coords="651,349,814,389"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,356,123,382"/>
-<area shape="poly" title=" " alt="" coords="722,334,709,282,686,219,651,157,628,130,602,107,545,69,491,40,439,20,387,10,336,10,284,21,229,44,172,79,141,108,116,144,98,183,85,225,71,302,68,356,63,356,66,302,79,223,93,181,111,141,137,105,169,75,227,39,282,16,335,5,388,4,440,15,493,35,548,64,605,103,632,126,655,154,691,217,714,280,728,333"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a3b2869a58885edf9efe4e53cc686428a" title="Starts the Brave browser with specified settings." alt="" coords="441,117,603,157"/>
-<area shape="poly" title=" " alt="" coords="706,338,660,276,601,208,548,160,552,156,605,204,664,272,710,334"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#aad47041603d84e92e96183b64d01ae8a" title="Starts the Chrome browser with specified options and user data directory." alt="" coords="441,218,603,259"/>
-<area shape="poly" title=" " alt="" coords="684,342,555,261,558,257,687,338"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a25f21e60131b5ee2c286afe7d56f371b" title="Starts the Edge browser with specific configurations and user data directory." alt="" coords="441,319,603,360"/>
-<area shape="poly" title=" " alt="" coords="636,358,604,354,604,348,636,353"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="201,377,363,417"/>
-<area shape="poly" title=" " alt="" coords="636,378,363,395,363,389,636,372"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a7769ce118d803b0f67168fb66ec1b8b4" title="Starts the Firefox browser with a specific profile and returns a boolean indicating success." alt="" coords="441,434,603,475"/>
-<area shape="poly" title=" " alt="" coords="667,398,576,436,573,431,665,393"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#ad0d426f0b0d1099e4ad40cbd3ca1590f" title="Starts the Opera browser with specified settings and user data directory." alt="" coords="441,535,603,576"/>
-<area shape="poly" title=" " alt="" coords="700,402,605,488,550,537,546,533,602,484,696,398"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a370f0c3865011b2fb3976cfc5fb92d1a" title="Starts the Opera GX browser with specific configurations." alt="" coords="441,637,603,677"/>
-<area shape="poly" title=" " alt="" coords="718,405,672,492,641,542,605,589,580,616,554,638,550,634,576,612,601,586,636,539,667,489,713,402"/>
-<area shape="poly" title=" " alt="" coords="457,113,393,94,318,82,280,82,242,86,206,96,172,114,143,139,121,169,103,204,90,240,74,308,69,356,63,355,69,307,84,238,98,202,116,166,140,135,169,109,204,91,241,81,280,76,319,77,394,89,459,108"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="181,124,383,150"/>
-<area shape="poly" title=" " alt="" coords="425,140,383,140,383,134,425,134"/>
-<area shape="poly" title=" " alt="" coords="192,159,172,171,150,192,132,216,102,270,82,320,71,357,66,355,77,318,97,267,127,213,147,189,169,167,189,154"/>
-<area shape="poly" title=" " alt="" coords="452,215,389,199,317,189,279,189,242,192,206,201,172,215,152,229,134,246,104,285,84,325,72,357,67,355,79,323,100,283,130,242,148,225,169,211,204,196,241,187,279,183,317,184,390,194,453,210"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="175,225,389,251"/>
-<area shape="poly" title=" " alt="" coords="425,241,389,241,389,236,425,236"/>
-<area shape="poly" title=" " alt="" coords="202,259,172,273,143,292,117,316,78,357,74,354,113,312,140,288,169,268,200,254"/>
-<area shape="poly" title=" " alt="" coords="425,320,367,311,303,306,236,307,171,317,124,335,86,358,83,353,122,330,170,312,236,301,303,300,368,305,426,314"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="183,327,381,352"/>
-<area shape="poly" title=" " alt="" coords="425,342,381,342,381,337,425,337"/>
-<area shape="poly" title=" " alt="" coords="168,358,123,364,122,358,167,352"/>
-<area shape="poly" title=" " alt="" coords="185,387,122,379,123,374,186,382"/>
-<area shape="poly" title=" " alt="" coords="425,461,302,456,235,447,170,431,120,409,81,384,84,380,123,405,172,426,236,442,303,451,425,456"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="178,492,386,518"/>
-<area shape="poly" title=" " alt="" coords="426,477,347,494,346,489,425,472"/>
-<area shape="poly" title=" " alt="" coords="200,489,169,475,139,454,112,429,73,384,77,380,116,425,142,449,172,471,202,484"/>
-<area shape="poly" title=" " alt="" coords="426,573,365,576,299,573,232,559,200,548,169,533,148,517,130,499,100,457,79,415,67,383,72,381,84,413,104,454,134,495,152,513,172,528,202,543,233,554,299,567,365,571,425,568"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="180,593,384,619"/>
-<area shape="poly" title=" " alt="" coords="426,579,347,595,346,590,425,573"/>
-<area shape="poly" title=" " alt="" coords="189,589,169,576,146,554,127,528,96,473,76,421,66,383,71,382,81,419,101,471,131,526,150,550,172,572,192,585"/>
-<area shape="poly" title=" " alt="" coords="426,678,364,683,297,680,230,665,198,651,169,634,140,607,116,574,98,538,85,501,69,431,63,382,69,382,74,431,90,499,103,536,121,571,144,603,172,629,201,647,231,660,297,674,364,677,425,673"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,695,393,720"/>
-<area shape="poly" title=" " alt="" coords="426,680,347,697,346,691,425,675"/>
-<area shape="poly" title=" " alt="" coords="185,690,169,678,139,642,115,602,97,559,83,516,68,437,63,382,68,382,73,436,89,514,102,557,120,600,143,639,172,674,189,686"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a890f9b22a73ac89bbf2cc6d6b0d60e93_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1034,53 +792,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a30828d150d0045cddb7329b262a15d2e_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a30828d150d0045cddb7329b262a15d2e_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a30828d150d0045cddb7329b262a15d2e_icgraph" id="aclass_hidden__handler_1_1_process___handler_a30828d150d0045cddb7329b262a15d2e_icgraph">
-<area shape="rect" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="862,349,1025,389"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="651,349,814,389"/>
-<area shape="poly" title=" " alt="" coords="846,372,814,372,814,366,846,366"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,356,123,382"/>
-<area shape="poly" title=" " alt="" coords="722,334,709,282,686,219,651,157,628,130,602,107,545,69,491,40,439,20,387,10,336,10,284,21,229,44,172,79,141,108,116,144,98,183,85,225,71,302,68,356,63,356,66,302,79,223,93,181,111,141,137,105,169,75,227,39,282,16,335,5,388,4,440,15,493,35,548,64,605,103,632,126,655,154,691,217,714,280,728,333"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a3b2869a58885edf9efe4e53cc686428a" title="Starts the Brave browser with specified settings." alt="" coords="441,117,603,157"/>
-<area shape="poly" title=" " alt="" coords="706,338,660,276,601,208,548,160,552,156,605,204,664,272,710,334"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#aad47041603d84e92e96183b64d01ae8a" title="Starts the Chrome browser with specified options and user data directory." alt="" coords="441,218,603,259"/>
-<area shape="poly" title=" " alt="" coords="684,342,555,261,558,257,687,338"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a25f21e60131b5ee2c286afe7d56f371b" title="Starts the Edge browser with specific configurations and user data directory." alt="" coords="441,319,603,360"/>
-<area shape="poly" title=" " alt="" coords="636,358,604,354,604,348,636,353"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="201,377,363,417"/>
-<area shape="poly" title=" " alt="" coords="636,378,363,395,363,389,636,372"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a7769ce118d803b0f67168fb66ec1b8b4" title="Starts the Firefox browser with a specific profile and returns a boolean indicating success." alt="" coords="441,434,603,475"/>
-<area shape="poly" title=" " alt="" coords="667,398,576,436,573,431,665,393"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#ad0d426f0b0d1099e4ad40cbd3ca1590f" title="Starts the Opera browser with specified settings and user data directory." alt="" coords="441,535,603,576"/>
-<area shape="poly" title=" " alt="" coords="700,402,605,488,550,537,546,533,602,484,696,398"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a370f0c3865011b2fb3976cfc5fb92d1a" title="Starts the Opera GX browser with specific configurations." alt="" coords="441,637,603,677"/>
-<area shape="poly" title=" " alt="" coords="718,405,672,492,641,542,605,589,580,616,554,638,550,634,576,612,601,586,636,539,667,489,713,402"/>
-<area shape="poly" title=" " alt="" coords="457,113,393,94,318,82,280,82,242,86,206,96,172,114,143,139,121,169,103,204,90,240,74,308,69,356,63,355,69,307,84,238,98,202,116,166,140,135,169,109,204,91,241,81,280,76,319,77,394,89,459,108"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="181,124,383,150"/>
-<area shape="poly" title=" " alt="" coords="425,140,383,140,383,134,425,134"/>
-<area shape="poly" title=" " alt="" coords="192,159,172,171,150,192,132,216,102,270,82,320,71,357,66,355,77,318,97,267,127,213,147,189,169,167,189,154"/>
-<area shape="poly" title=" " alt="" coords="452,215,389,199,317,189,279,189,242,192,206,201,172,215,152,229,134,246,104,285,84,325,72,357,67,355,79,323,100,283,130,242,148,225,169,211,204,196,241,187,279,183,317,184,390,194,453,210"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="175,225,389,251"/>
-<area shape="poly" title=" " alt="" coords="425,241,389,241,389,236,425,236"/>
-<area shape="poly" title=" " alt="" coords="202,259,172,273,143,292,117,316,78,357,74,354,113,312,140,288,169,268,200,254"/>
-<area shape="poly" title=" " alt="" coords="425,320,367,311,303,306,236,307,171,317,124,335,86,358,83,353,122,330,170,312,236,301,303,300,368,305,426,314"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="183,327,381,352"/>
-<area shape="poly" title=" " alt="" coords="425,342,381,342,381,337,425,337"/>
-<area shape="poly" title=" " alt="" coords="168,358,123,364,122,358,167,352"/>
-<area shape="poly" title=" " alt="" coords="185,387,122,379,123,374,186,382"/>
-<area shape="poly" title=" " alt="" coords="425,461,302,456,235,447,170,431,120,409,81,384,84,380,123,405,172,426,236,442,303,451,425,456"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="178,492,386,518"/>
-<area shape="poly" title=" " alt="" coords="426,477,347,494,346,489,425,472"/>
-<area shape="poly" title=" " alt="" coords="200,489,169,475,139,454,112,429,73,384,77,380,116,425,142,449,172,471,202,484"/>
-<area shape="poly" title=" " alt="" coords="426,573,365,576,299,573,232,559,200,548,169,533,148,517,130,499,100,457,79,415,67,383,72,381,84,413,104,454,134,495,152,513,172,528,202,543,233,554,299,567,365,571,425,568"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="180,593,384,619"/>
-<area shape="poly" title=" " alt="" coords="426,579,347,595,346,590,425,573"/>
-<area shape="poly" title=" " alt="" coords="189,589,169,576,146,554,127,528,96,473,76,421,66,383,71,382,81,419,101,471,131,526,150,550,172,572,192,585"/>
-<area shape="poly" title=" " alt="" coords="426,678,364,683,297,680,230,665,198,651,169,634,140,607,116,574,98,538,85,501,69,431,63,382,69,382,74,431,90,499,103,536,121,571,144,603,172,629,201,647,231,660,297,674,364,677,425,673"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,695,393,720"/>
-<area shape="poly" title=" " alt="" coords="426,680,347,697,346,691,425,675"/>
-<area shape="poly" title=" " alt="" coords="185,690,169,678,139,642,115,602,97,559,83,516,68,437,63,382,68,382,73,436,89,514,102,557,120,600,143,639,172,674,189,686"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a30828d150d0045cddb7329b262a15d2e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1114,17 +826,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a747cbde9a3abd0004ac71a7c8987cb3e_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a747cbde9a3abd0004ac71a7c8987cb3e_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a747cbde9a3abd0004ac71a7c8987cb3e_icgraph" id="aclass_hidden__handler_1_1_process___handler_a747cbde9a3abd0004ac71a7c8987cb3e_icgraph">
-<area shape="rect" title="Retrieves the installation path of the Brave browser." alt="" coords="631,23,794,64"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a3b2869a58885edf9efe4e53cc686428a" title="Starts the Brave browser with specified settings." alt="" coords="421,23,583,64"/>
-<area shape="poly" title=" " alt="" coords="616,46,584,46,584,41,616,41"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="171,5,373,31"/>
-<area shape="poly" title=" " alt="" coords="405,36,373,32,374,27,406,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="405,46,123,46,123,41,405,41"/>
-<area shape="poly" title=" " alt="" coords="155,35,123,39,123,34,155,30"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a747cbde9a3abd0004ac71a7c8987cb3e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1158,17 +860,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a7663c222b8466b862211758315d530f9_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a7663c222b8466b862211758315d530f9_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a7663c222b8466b862211758315d530f9_icgraph" id="aclass_hidden__handler_1_1_process___handler_a7663c222b8466b862211758315d530f9_icgraph">
-<area shape="rect" title="Retrieves the file path for the installed Chrome browser." alt="" coords="643,23,811,64"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#aad47041603d84e92e96183b64d01ae8a" title="Starts the Chrome browser with specified options and user data directory." alt="" coords="433,23,595,64"/>
-<area shape="poly" title=" " alt="" coords="628,46,596,46,596,41,628,41"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="171,5,385,31"/>
-<area shape="poly" title=" " alt="" coords="417,36,385,32,386,27,418,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="418,46,123,46,123,41,418,41"/>
-<area shape="poly" title=" " alt="" coords="155,35,124,39,123,34,155,30"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a7663c222b8466b862211758315d530f9_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1202,17 +894,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_ad460daca4bc66b21b476efef0d9d86d6_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_ad460daca4bc66b21b476efef0d9d86d6_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_ad460daca4bc66b21b476efef0d9d86d6_icgraph" id="aclass_hidden__handler_1_1_process___handler_ad460daca4bc66b21b476efef0d9d86d6_icgraph">
-<area shape="rect" title="Retrieves the installation path of Microsoft Edge browser." alt="" coords="627,23,790,64"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a25f21e60131b5ee2c286afe7d56f371b" title="Starts the Edge browser with specific configurations and user data directory." alt="" coords="417,23,579,64"/>
-<area shape="poly" title=" " alt="" coords="612,46,580,46,580,41,612,41"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="171,5,369,31"/>
-<area shape="poly" title=" " alt="" coords="401,35,369,32,370,27,402,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="402,46,123,46,123,41,402,41"/>
-<area shape="poly" title=" " alt="" coords="156,35,123,39,123,34,155,30"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_ad460daca4bc66b21b476efef0d9d86d6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1246,17 +928,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a90cbe175bfb9e6d874d68873fd27b33e_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a90cbe175bfb9e6d874d68873fd27b33e_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a90cbe175bfb9e6d874d68873fd27b33e_icgraph" id="aclass_hidden__handler_1_1_process___handler_a90cbe175bfb9e6d874d68873fd27b33e_icgraph">
-<area shape="rect" title="Retrieves the installation path of Mozilla Firefox from the Windows registry." alt="" coords="637,23,802,64"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a7769ce118d803b0f67168fb66ec1b8b4" title="Starts the Firefox browser with a specific profile and returns a boolean indicating success." alt="" coords="427,23,589,64"/>
-<area shape="poly" title=" " alt="" coords="622,46,590,46,590,41,622,41"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="171,5,379,31"/>
-<area shape="poly" title=" " alt="" coords="411,36,379,32,380,27,412,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="412,46,123,46,123,41,412,41"/>
-<area shape="poly" title=" " alt="" coords="155,35,123,39,123,34,155,30"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a90cbe175bfb9e6d874d68873fd27b33e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1290,17 +962,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_af040e423a0b3eb1245441e6a98330d04_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_af040e423a0b3eb1245441e6a98330d04_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_af040e423a0b3eb1245441e6a98330d04_icgraph" id="aclass_hidden__handler_1_1_process___handler_af040e423a0b3eb1245441e6a98330d04_icgraph">
-<area shape="rect" title="Retrieves the installation path of Opera GX browser from the Windows registry." alt="" coords="651,23,830,64"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a370f0c3865011b2fb3976cfc5fb92d1a" title="Starts the Opera GX browser with specific configurations." alt="" coords="441,23,603,64"/>
-<area shape="poly" title=" " alt="" coords="636,46,604,46,604,41,636,41"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,5,393,31"/>
-<area shape="poly" title=" " alt="" coords="425,36,393,33,394,27,426,31"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="426,46,123,46,123,41,426,41"/>
-<area shape="poly" title=" " alt="" coords="156,36,123,39,123,34,155,30"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_af040e423a0b3eb1245441e6a98330d04_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1334,17 +996,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_afe1048462106a655e0e0aa9016e4e131_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_afe1048462106a655e0e0aa9016e4e131_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_afe1048462106a655e0e0aa9016e4e131_icgraph" id="aclass_hidden__handler_1_1_process___handler_afe1048462106a655e0e0aa9016e4e131_icgraph">
-<area shape="rect" title="Retrieves the installation path of the Opera browser." alt="" coords="632,23,795,64"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#ad0d426f0b0d1099e4ad40cbd3ca1590f" title="Starts the Opera browser with specified settings and user data directory." alt="" coords="422,23,584,64"/>
-<area shape="poly" title=" " alt="" coords="617,46,585,46,585,41,617,41"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="171,5,374,31"/>
-<area shape="poly" title=" " alt="" coords="406,36,374,32,375,27,407,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="407,46,123,46,123,41,407,41"/>
-<area shape="poly" title=" " alt="" coords="156,35,123,39,123,34,155,30"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_afe1048462106a655e0e0aa9016e4e131_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1389,26 +1041,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_cgraph" id="aclass_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_cgraph">
-<area shape="rect" title="Recursively searches for a file with the specified name in the given directory and its subdirectories..." alt="" coords="5,29,203,70"/>
-<area shape="poly" title=" " alt="" coords="66,29,65,19,71,10,84,5,104,3,126,5,138,11,136,16,124,10,104,8,85,10,74,15,70,20,72,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_cgraph.svg" width="208" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_icgraph" id="aclass_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_icgraph">
-<area shape="rect" title="Recursively searches for a file with the specified name in the given directory and its subdirectories..." alt="" coords="637,29,835,70"/>
-<area shape="poly" title=" " alt="" coords="773,16,759,10,736,8,714,10,701,15,696,21,698,28,693,29,691,19,698,10,713,5,736,3,761,5,775,11"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a57909ef2fb8c1b15ef0f52f7a0401084" title="Clones the Firefox profile data to a specified directory." alt="" coords="427,29,589,70"/>
-<area shape="poly" title=" " alt="" coords="622,52,590,52,590,47,622,47"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="171,37,379,63"/>
-<area shape="poly" title=" " alt="" coords="412,52,380,52,380,47,412,47"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,37,123,63"/>
-<area shape="poly" title=" " alt="" coords="155,52,123,52,123,47,155,47"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a0aa478a461064948bd41a87f78c93a7d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1442,29 +1080,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_cgraph" id="aclass_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_cgraph">
-<area shape="rect" title="Starts the Brave browser with specified settings." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="216,5,378,46"/>
-<area shape="poly" title=" " alt="" coords="168,43,200,38,201,44,169,49"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a747cbde9a3abd0004ac71a7c8987cb3e" title="Retrieves the installation path of the Brave browser." alt="" coords="216,71,378,111"/>
-<area shape="poly" title=" " alt="" coords="169,69,201,74,200,79,168,74"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="426,5,589,46"/>
-<area shape="poly" title=" " alt="" coords="379,23,410,23,410,28,379,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_cgraph.svg" width="595" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_icgraph" id="aclass_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_icgraph">
-<area shape="rect" title="Starts the Brave browser with specified settings." alt="" coords="421,23,583,64"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ad34b7332e48ad8bf889ebf97b16d92f1" title="Handles the cloning of the Brave browser." alt="" coords="171,5,373,31"/>
-<area shape="poly" title=" " alt="" coords="405,36,373,32,374,27,406,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="405,46,123,46,123,41,405,41"/>
-<area shape="poly" title=" " alt="" coords="155,35,123,39,123,34,155,30"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a3b2869a58885edf9efe4e53cc686428a_icgraph.svg" width="590" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1498,29 +1119,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_cgraph" id="aclass_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_cgraph">
-<area shape="rect" title="Starts the Chrome browser with specified options and user data directory." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="218,5,381,46"/>
-<area shape="poly" title=" " alt="" coords="167,44,202,38,203,43,168,49"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a7663c222b8466b862211758315d530f9" title="Retrieves the file path for the installed Chrome browser." alt="" coords="216,71,383,111"/>
-<area shape="poly" title=" " alt="" coords="168,69,200,73,200,79,167,74"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="431,5,594,46"/>
-<area shape="poly" title=" " alt="" coords="381,23,416,23,416,28,381,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_cgraph.svg" width="600" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_icgraph" id="aclass_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_icgraph">
-<area shape="rect" title="Starts the Chrome browser with specified options and user data directory." alt="" coords="433,23,595,64"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aaae518bc7e1b303b65bd3b9e255138a4" title="Handles the cloning of Chrome browser." alt="" coords="171,5,385,31"/>
-<area shape="poly" title=" " alt="" coords="417,36,385,32,386,27,418,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="418,46,123,46,123,41,418,41"/>
-<area shape="poly" title=" " alt="" coords="155,35,124,39,123,34,155,30"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_aad47041603d84e92e96183b64d01ae8a_icgraph.svg" width="602" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1554,29 +1158,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_cgraph" id="aclass_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_cgraph">
-<area shape="rect" title="Starts the Edge browser with specific configurations and user data directory." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="216,5,378,46"/>
-<area shape="poly" title=" " alt="" coords="168,43,200,38,201,44,169,49"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#ad460daca4bc66b21b476efef0d9d86d6" title="Retrieves the installation path of Microsoft Edge browser." alt="" coords="216,71,378,111"/>
-<area shape="poly" title=" " alt="" coords="169,69,201,74,200,79,168,74"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="426,5,589,46"/>
-<area shape="poly" title=" " alt="" coords="379,23,410,23,410,28,379,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_cgraph.svg" width="595" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_icgraph" id="aclass_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_icgraph">
-<area shape="rect" title="Starts the Edge browser with specific configurations and user data directory." alt="" coords="417,23,579,64"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a0a510c76c3ed344950e1d39f6dc4b60d" title="Handles the cloning of the Edge browser." alt="" coords="171,5,369,31"/>
-<area shape="poly" title=" " alt="" coords="401,35,369,32,370,27,402,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="402,46,123,46,123,41,402,41"/>
-<area shape="poly" title=" " alt="" coords="156,35,123,39,123,34,155,30"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a25f21e60131b5ee2c286afe7d56f371b_icgraph.svg" width="586" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1610,51 +1197,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_cgraph" id="aclass_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_cgraph">
-<area shape="rect" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="5,71,168,111"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="240,5,402,46"/>
-<area shape="poly" title=" " alt="" coords="161,68,230,48,231,53,162,73"/>
-<area shape="rect" href="classxeno__rat__client_1_1_utils.html#a31e3ba86a48b05c2c323c7d50feed60c" title="Checks if the current user is an admin and returns a boolean value indicating the result." alt="" coords="243,71,399,111"/>
-<area shape="poly" title=" " alt="" coords="168,88,228,88,228,94,168,94"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="216,160,426,201"/>
-<area shape="poly" title=" " alt="" coords="143,109,252,152,250,156,141,114"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="499,5,662,46"/>
-<area shape="poly" title=" " alt="" coords="402,23,483,23,483,28,402,28"/>
-<area shape="rect" href="classxeno__rat__client_1_1_utils.html#a1581cd0fb37a96a7490c745efa5ce035" title="Determines whether the current user is a member of the administrator group." alt="" coords="503,71,658,111"/>
-<area shape="poly" title=" " alt="" coords="399,88,487,88,487,94,399,94"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a663ea20e04ca87e424a9ba029c1b7eba" title="Closes an open object handle." alt="" coords="993,223,1203,263"/>
-<area shape="poly" title=" " alt="" coords="426,163,535,152,665,147,806,151,877,159,945,171,1001,189,1050,212,1048,217,999,194,944,176,876,164,806,156,665,152,535,157,427,168"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a001f8668c1ed15d6abda4b7884a5863e" title="Creates a new process using the specified user token and startup information." alt="" coords="475,185,685,226"/>
-<area shape="poly" title=" " alt="" coords="427,188,460,191,459,197,426,193"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="474,348,686,389"/>
-<area shape="poly" title=" " alt="" coords="352,199,540,337,537,341,349,203"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a1fcacc2ad894dbddf51f6db9d37bb317" title="Converts a string representation of a security identifier (SID) to a binary SID and returns a value i..." alt="" coords="734,185,945,226"/>
-<area shape="poly" title=" " alt="" coords="599,346,656,292,693,262,733,237,746,230,749,235,736,241,696,267,659,296,603,349"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a3fa91d6360cdb590996433351b716528" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="734,251,945,291"/>
-<area shape="poly" title=" " alt="" coords="628,345,733,302,755,294,757,299,735,307,630,350"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a34637f16b886e4b38c1086cd27ce8162" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="734,316,945,357"/>
-<area shape="poly" title=" " alt="" coords="686,353,719,349,719,354,687,358"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#af8b61acfaee6a0c034cdbd9fdd415352" title="Closes a SAFER level handle." alt="" coords="734,381,945,422"/>
-<area shape="poly" title=" " alt="" coords="687,379,719,384,719,389,686,385"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a1eb4aabd0fc0cfae5aebbdd9966f7ff7" title="Computes a token from the specified level handle and input access token, and returns the result." alt="" coords="734,447,945,487"/>
-<area shape="poly" title=" " alt="" coords="628,387,735,431,756,439,754,444,733,436,626,392"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a9b567703cdeea8195097dcde8aed9d94" title="Creates a new Safer level and returns a handle to the level." alt="" coords="734,512,945,553"/>
-<area shape="poly" title=" " alt="" coords="602,387,659,441,696,471,736,497,749,503,746,508,733,501,693,475,655,445,598,391"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a0bdf88a53051df6800aa52b8539f790c" title="Sets the token information for a specified token." alt="" coords="734,577,945,618"/>
-<area shape="poly" title=" " alt="" coords="594,387,616,425,648,472,688,520,736,562,744,568,742,572,733,566,684,524,643,475,611,428,590,390"/>
-<area shape="poly" title=" " alt="" coords="907,313,944,300,1031,267,1033,272,946,306,909,318"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_icgraph" id="aclass_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_icgraph">
-<area shape="rect" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a2a64e868fdecaaa3ec30821e41d44360_icgraph.svg" width="339" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1688,29 +1236,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_cgraph" id="aclass_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_cgraph">
-<area shape="rect" title="Starts the Firefox browser with a specific profile and returns a boolean indicating success." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="217,5,379,46"/>
-<area shape="poly" title=" " alt="" coords="167,44,201,38,202,44,168,49"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a90cbe175bfb9e6d874d68873fd27b33e" title="Retrieves the installation path of Mozilla Firefox from the Windows registry." alt="" coords="216,71,380,111"/>
-<area shape="poly" title=" " alt="" coords="168,69,201,74,200,79,168,74"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="428,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="379,23,413,23,413,28,379,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_cgraph.svg" width="598" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_icgraph" id="aclass_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_icgraph">
-<area shape="rect" title="Starts the Firefox browser with a specific profile and returns a boolean indicating success." alt="" coords="427,23,589,64"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a6723900579cc8e603c10c1bff3e066a7" title="Handles the cloning of Firefox browser for automation purposes." alt="" coords="171,5,379,31"/>
-<area shape="poly" title=" " alt="" coords="411,36,379,32,380,27,412,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="412,46,123,46,123,41,412,41"/>
-<area shape="poly" title=" " alt="" coords="155,35,123,39,123,34,155,30"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a7769ce118d803b0f67168fb66ec1b8b4_icgraph.svg" width="595" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1744,29 +1275,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_cgraph" id="aclass_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_cgraph">
-<area shape="rect" title="Starts the Opera browser with specified settings and user data directory." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="216,5,378,46"/>
-<area shape="poly" title=" " alt="" coords="168,43,200,38,201,44,169,49"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#afe1048462106a655e0e0aa9016e4e131" title="Retrieves the installation path of the Opera browser." alt="" coords="216,71,378,111"/>
-<area shape="poly" title=" " alt="" coords="169,69,201,74,200,79,168,74"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="426,5,589,46"/>
-<area shape="poly" title=" " alt="" coords="379,23,410,23,410,28,379,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_cgraph.svg" width="595" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_icgraph" id="aclass_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_icgraph">
-<area shape="rect" title="Starts the Opera browser with specified settings and user data directory." alt="" coords="422,23,584,64"/>
-<area shape="rect" href="class_plugin_1_1_main.html#aec422ddfd189c4140e60d4d21207f073" title="Handles the cloning of the Opera browser." alt="" coords="171,5,374,31"/>
-<area shape="poly" title=" " alt="" coords="406,36,374,32,375,27,407,30"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="407,46,123,46,123,41,407,41"/>
-<area shape="poly" title=" " alt="" coords="156,35,123,39,123,34,155,30"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_ad0d426f0b0d1099e4ad40cbd3ca1590f_icgraph.svg" width="590" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1800,29 +1314,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_cgraph" id="aclass_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_cgraph">
-<area shape="rect" title="Starts the Opera GX browser with specific configurations." alt="" coords="5,39,168,79"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a890f9b22a73ac89bbf2cc6d6b0d60e93" title="Creates a new process using the specified file path." alt="" coords="224,5,386,46"/>
-<area shape="poly" title=" " alt="" coords="168,44,208,38,209,43,169,49"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#af040e423a0b3eb1245441e6a98330d04" title="Retrieves the installation path of Opera GX browser from the Windows registry." alt="" coords="216,71,394,111"/>
-<area shape="poly" title=" " alt="" coords="169,68,200,73,200,78,168,74"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a30828d150d0045cddb7329b262a15d2e" title="Creates a new process and its primary thread. The new process runs in the security context of the cal..." alt="" coords="442,5,605,46"/>
-<area shape="poly" title=" " alt="" coords="387,23,426,23,426,28,387,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_cgraph.svg" width="611" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_icgraph" id="aclass_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_icgraph">
-<area shape="rect" title="Starts the Opera GX browser with specific configurations." alt="" coords="441,23,603,64"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a812dea4759e47ca338a44f8515e795b1" title="Handles the cloning of OperaGX browser." alt="" coords="171,5,393,31"/>
-<area shape="poly" title=" " alt="" coords="425,36,393,33,394,27,426,31"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,31,123,56"/>
-<area shape="poly" title=" " alt="" coords="426,46,123,46,123,41,426,41"/>
-<area shape="poly" title=" " alt="" coords="156,36,123,39,123,34,155,30"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1_process___handler_a370f0c3865011b2fb3976cfc5fb92d1a_icgraph.svg" width="610" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1855,11 +1352,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_hidden__handler.html">Hidden_handler</a></li><li class="navelem"><a class="el" href="class_hidden__handler_1_1_process___handler.html">Process_Handler</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

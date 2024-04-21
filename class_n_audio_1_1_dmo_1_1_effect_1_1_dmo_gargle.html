@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Dmo.Effect.DmoGargle Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -112,43 +136,12 @@ $(function(){initNavTree('class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle.html',
 <div class="dynheader">
 Inheritance diagram for NAudio.Dmo.Effect.DmoGargle:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle__inherit__graph.png" border="0" usemap="#a_n_audio_8_dmo_8_effect_8_dmo_gargle_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_dmo_8_effect_8_dmo_gargle_inherit__map" id="a_n_audio_8_dmo_8_effect_8_dmo_gargle_inherit__map">
-<area shape="rect" title="DMO Gargle Effect." alt="" coords="5,173,203,359"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_effect_1_1_i_dmo_effector.html" title=" " alt="" coords="17,5,191,125"/>
-<area shape="poly" title=" " alt="" coords="107,140,107,174,101,174,101,140"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle__inherit__graph.svg" width="208" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Dmo.Effect.DmoGargle:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle__coll__graph.png" border="0" usemap="#a_n_audio_8_dmo_8_effect_8_dmo_gargle_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_dmo_8_effect_8_dmo_gargle_coll__map" id="a_n_audio_8_dmo_8_effect_8_dmo_gargle_coll__map">
-<area shape="rect" title="DMO Gargle Effect." alt="" coords="299,807,496,932"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_effect_1_1_i_dmo_effector.html" title=" " alt="" coords="5,494,179,614"/>
-<area shape="poly" title=" " alt="" coords="121,626,151,686,171,715,193,742,244,786,300,821,298,826,241,790,189,746,166,718,147,689,116,629"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html" title="Media Object." alt="" coords="403,364,608,744"/>
-<area shape="poly" title=" " alt="" coords="478,744,464,784,459,794,454,791,459,782,473,743"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="325,105,406,171"/>
-<area shape="poly" title=" " alt="" coords="383,184,444,363,439,365,378,186"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object_in_place.html" title="Media Object InPlace." alt="" coords="203,464,379,644"/>
-<area shape="poly" title=" " alt="" coords="364,186,344,340,317,464,312,463,339,339,359,185"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_object.html" title="defined in mediaobj.h" alt="" coords="482,5,651,271"/>
-<area shape="poly" title=" " alt="" coords="550,271,540,340,539,347,534,346,535,339,545,270"/>
-<area shape="rect" title=" " alt="" coords="431,105,457,171"/>
-<area shape="poly" title=" " alt="" coords="446,170,446,295,445,317,446,339,447,346,441,347,440,340,439,317,440,295,441,170"/>
-<area shape="poly" title=" " alt="" coords="302,643,316,712,339,782,343,791,338,793,334,784,311,714,297,644"/>
-<area shape="rect" title=" " alt="" coords="121,78,301,198"/>
-<area shape="poly" title=" " alt="" coords="208,198,207,266,214,339,227,394,246,447,241,449,222,396,208,340,201,266,203,198"/>
-<area shape="rect" href="struct_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_1_1_params.html" title="DMO Gargle Params." alt="" coords="719,484,921,624"/>
-<area shape="poly" title=" " alt="" coords="757,626,693,686,622,746,589,767,555,785,512,809,509,804,552,780,586,762,618,742,690,682,753,622"/>
-<area shape="rect" title=" " alt="" coords="869,105,902,171"/>
-<area shape="poly" title=" " alt="" coords="883,171,836,467,831,466,878,170"/>
-<area shape="rect" title=" " alt="" coords="931,105,1088,171"/>
-<area shape="poly" title=" " alt="" coords="1009,171,995,250,983,296,966,341,930,409,888,472,884,469,926,407,962,339,978,294,990,248,1003,170"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_effect_1_1_i_direct_sound_f_x_gargle.html" title=" " alt="" coords="675,88,845,188"/>
-<area shape="poly" title=" " alt="" coords="770,188,810,467,805,467,764,188"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -227,18 +220,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_ad911aa679e363874d59ffa7136eb9acc_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_ad911aa679e363874d59ffa7136eb9acc_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_ad911aa679e363874d59ffa7136eb9acc_cgraph" id="aclass_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_ad911aa679e363874d59ffa7136eb9acc_cgraph">
-<area shape="rect" title="Create new DMO Gargle." alt="" coords="5,23,215,64"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_dmo_enumerator.html#a634bd8cd4175921212345e425194d75d" title="Retrieves the names of audio effects available and returns them as an enumerable collection of DmoDes..." alt="" coords="263,23,461,64"/>
-<area shape="poly" title=" " alt="" coords="215,41,247,41,247,46,215,46"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_dmo_enumerator.html#a05bf9895be9708c35129dec79fc0a57a" title="Retrieves a collection of DMO descriptors for a specified category." alt="" coords="509,23,707,64"/>
-<area shape="poly" title=" " alt="" coords="462,41,493,41,493,46,462,46"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_dmo_interop.html#a771a4d4ed7887384fc3034c5d0729815" title="Enumerates the DMOs (DirectX Media Objects) that are registered in the system and returns an enumerat..." alt="" coords="755,5,993,31"/>
-<area shape="poly" title=" " alt="" coords="708,31,739,28,740,34,708,37"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_enum_dmo.html#a213cea3e76de2c78396174ad5c05df13" title=" " alt="" coords="775,55,973,80"/>
-<area shape="poly" title=" " alt="" coords="708,50,760,55,759,60,708,55"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_ad911aa679e363874d59ffa7136eb9acc_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -271,14 +253,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_a223a20f59fdf94b5e3f7013c6c1a4d62_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_a223a20f59fdf94b5e3f7013c6c1a4d62_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_a223a20f59fdf94b5e3f7013c6c1a4d62_cgraph" id="aclass_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_a223a20f59fdf94b5e3f7013c6c1a4d62_cgraph">
-<area shape="rect" title="Disposes the media objects if they are not null." alt="" coords="5,27,215,68"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#a3383eff6cf87a8e751e670d64e66c735" title="Releases the unmanaged resources used by the media object." alt="" coords="263,5,488,31"/>
-<area shape="poly" title=" " alt="" coords="215,33,247,30,247,35,215,39"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object_in_place.html#a5b5bf2fc090974c196273a78383882f4" title="Releases the unmanaged resources used by the MediaObjectInPlace and optionally releases the managed r..." alt="" coords="283,55,468,96"/>
-<area shape="poly" title=" " alt="" coords="215,56,268,62,267,67,215,61"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle_a223a20f59fdf94b5e3f7013c6c1a4d62_cgraph.svg" width="494" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -428,11 +403,12 @@ Here is the call graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_dmo.html">Dmo</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_dmo_1_1_effect.html">Effect</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_dmo_1_1_effect_1_1_dmo_gargle.html">DmoGargle</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

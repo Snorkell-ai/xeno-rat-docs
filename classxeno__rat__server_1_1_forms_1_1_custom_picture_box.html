@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: xeno_rat_server.Forms.CustomPictureBox Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -111,49 +135,12 @@ $(function(){initNavTree('classxeno__rat__server_1_1_forms_1_1_custom_picture_bo
 <div class="dynheader">
 Inheritance diagram for xeno_rat_server.Forms.CustomPictureBox:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box__inherit__graph.png" border="0" usemap="#axeno__rat__server_8_forms_8_custom_picture_box_inherit__map" alt="Inheritance graph"/></div>
-<map name="axeno__rat__server_8_forms_8_custom_picture_box_inherit__map" id="axeno__rat__server_8_forms_8_custom_picture_box_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,119,201,579"/>
-<area shape="rect" href="class_picture_box.html" title=" " alt="" coords="65,5,142,71"/>
-<area shape="poly" title=" " alt="" coords="106,86,106,119,101,119,101,86"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box__inherit__graph.svg" width="207" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for xeno_rat_server.Forms.CustomPictureBox:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box__coll__graph.png" border="0" usemap="#axeno__rat__server_8_forms_8_custom_picture_box_coll__map" alt="Collaboration graph"/></div>
-<map name="axeno__rat__server_8_forms_8_custom_picture_box_coll__map" id="axeno__rat__server_8_forms_8_custom_picture_box_coll__map">
-<area shape="rect" title=" " alt="" coords="709,995,905,1375"/>
-<area shape="rect" href="class_picture_box.html" title=" " alt="" coords="607,652,685,717"/>
-<area shape="poly" title=" " alt="" coords="659,731,699,887,736,995,731,996,694,888,653,732"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html" title=" " alt="" coords="709,482,905,887"/>
-<area shape="poly" title=" " alt="" coords="810,887,810,978,805,978,805,887"/>
-<area shape="poly" title=" " alt="" coords="907,643,925,658,932,685,929,703,921,716,917,713,924,701,927,685,920,661,903,647"/>
-<area shape="rect" title=" " alt="" coords="5,244,111,309"/>
-<area shape="poly" title=" " alt="" coords="49,310,41,344,37,384,42,423,50,441,61,456,74,463,96,469,163,475,352,474,553,470,636,473,694,482,693,487,635,478,553,476,352,479,162,480,95,474,72,468,58,460,45,443,37,425,32,384,36,343,44,308"/>
-<area shape="rect" title=" " alt="" coords="211,5,249,71"/>
-<area shape="poly" title=" " alt="" coords="226,71,216,142,214,188,215,236,221,285,234,334,255,378,284,417,297,427,315,435,359,446,413,451,474,454,596,459,651,466,695,481,694,486,650,472,596,464,474,459,413,457,358,451,313,440,295,432,280,421,250,381,229,335,216,286,210,236,209,188,211,142,221,70"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html" title=" " alt="" coords="371,134,571,419"/>
-<area shape="poly" title=" " alt="" coords="250,59,296,108,361,172,358,176,292,112,247,63"/>
-<area shape="rect" title=" " alt="" coords="834,236,991,316"/>
-<area shape="poly" title=" " alt="" coords="905,317,866,466,861,465,900,316"/>
-<area shape="rect" title=" " alt="" coords="1015,236,1151,316"/>
-<area shape="poly" title=" " alt="" coords="1065,318,1006,420,918,546,913,542,1001,418,1061,315"/>
-<area shape="rect" title=" " alt="" coords="1176,244,1361,309"/>
-<area shape="poly" title=" " alt="" coords="1250,310,1213,363,1165,421,1145,443,1120,460,1085,471,1056,472,1027,473,994,484,955,511,919,542,915,538,951,506,991,480,1026,467,1055,466,1084,466,1118,456,1142,439,1161,417,1208,360,1246,307"/>
-<area shape="rect" title=" " alt="" coords="1386,236,1519,316"/>
-<area shape="poly" title=" " alt="" coords="1443,317,1418,371,1399,398,1376,421,1336,444,1301,453,1263,455,1217,461,1153,465,1101,462,1052,464,1025,471,994,484,955,509,919,539,916,535,952,504,991,480,1023,466,1051,459,1101,457,1153,460,1216,455,1263,450,1300,448,1334,439,1372,417,1395,395,1414,368,1439,315"/>
-<area shape="poly" title=" " alt="" coords="573,394,608,427,645,456,659,463,672,466,684,471,698,480,699,481,696,485,695,484,682,475,670,472,657,468,642,460,604,431,569,398"/>
-<area shape="rect" title=" " alt="" coords="374,5,427,71"/>
-<area shape="poly" title=" " alt="" coords="413,70,427,117,422,118,407,71"/>
-<area shape="rect" title=" " alt="" coords="453,5,490,71"/>
-<area shape="poly" title=" " alt="" coords="474,71,474,117,469,117,469,71"/>
-<area shape="rect" title=" " alt="" coords="637,5,663,71"/>
-<area shape="poly" title=" " alt="" coords="666,56,686,94,699,142,706,183,707,255,705,328,708,370,717,418,728,465,723,466,711,420,703,370,700,328,701,255,700,184,694,143,681,96,661,58"/>
-<area shape="poly" title=" " alt="" coords="639,55,602,96,582,122,578,119,598,93,635,51"/>
-<area shape="rect" title=" " alt="" coords="1004,652,1037,717"/>
-<area shape="poly" title=" " alt="" coords="1023,718,1016,796,1007,843,994,888,959,966,917,1040,912,1037,954,964,989,886,1002,842,1010,796,1017,717"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -278,12 +265,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_adef53668f3d9293f3ccd697fcb8045c0_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_adef53668f3d9293f3ccd697fcb8045c0_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_adef53668f3d9293f3ccd697fcb8045c0_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_adef53668f3d9293f3ccd697fcb8045c0_icgraph">
-<area shape="rect" title="Closes the clipboard." alt="" coords="260,5,464,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a282a5371d5672b8ae9583a34ceecb8d9" title="Retrieves the data format currently on the clipboard and performs corresponding actions based on the ..." alt="" coords="5,5,212,46"/>
-<area shape="poly" title=" " alt="" coords="244,28,212,28,212,23,244,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_adef53668f3d9293f3ccd697fcb8045c0_icgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -314,12 +296,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9393c882eb5b491cadf4e14739dfbc78_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9393c882eb5b491cadf4e14739dfbc78_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9393c882eb5b491cadf4e14739dfbc78_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9393c882eb5b491cadf4e14739dfbc78_icgraph">
-<area shape="rect" title="Retrieves data from the clipboard in a specified format." alt="" coords="260,5,464,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a282a5371d5672b8ae9583a34ceecb8d9" title="Retrieves the data format currently on the clipboard and performs corresponding actions based on the ..." alt="" coords="5,5,212,46"/>
-<area shape="poly" title=" " alt="" coords="244,28,212,28,212,23,244,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9393c882eb5b491cadf4e14739dfbc78_icgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -358,18 +335,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a282a5371d5672b8ae9583a34ceecb8d9_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a282a5371d5672b8ae9583a34ceecb8d9_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a282a5371d5672b8ae9583a34ceecb8d9_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a282a5371d5672b8ae9583a34ceecb8d9_cgraph">
-<area shape="rect" title="Retrieves the data format currently on the clipboard and performs corresponding actions based on the ..." alt="" coords="5,104,212,145"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#adef53668f3d9293f3ccd697fcb8045c0" title="Closes the clipboard." alt="" coords="282,5,487,46"/>
-<area shape="poly" title=" " alt="" coords="152,101,259,57,284,48,285,53,261,61,154,106"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a9393c882eb5b491cadf4e14739dfbc78" title="Retrieves data from the clipboard in a specified format." alt="" coords="282,71,487,111"/>
-<area shape="poly" title=" " alt="" coords="212,109,266,103,267,108,213,114"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a070ad1ac015b0b2cfa4f84897dc70bb2" title="Determines whether the specified clipboard format is available." alt="" coords="260,136,509,177"/>
-<area shape="poly" title=" " alt="" coords="213,134,244,137,244,143,212,139"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab885ae269fe9b43d7161f8c81a84f69d" title="Opens the clipboard for examination and prevents other applications from modifying the clipboard cont..." alt="" coords="282,201,487,242"/>
-<area shape="poly" title=" " alt="" coords="155,143,261,186,286,194,284,199,259,191,153,148"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a282a5371d5672b8ae9583a34ceecb8d9_cgraph.svg" width="515" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -409,20 +375,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_aa7addce06628519cadac2c853023fe97_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_aa7addce06628519cadac2c853023fe97_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_aa7addce06628519cadac2c853023fe97_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_aa7addce06628519cadac2c853023fe97_icgraph">
-<area shape="rect" title="Gets the display rectangle for the image in the specified PictureBox." alt="" coords="1287,5,1536,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ad2d6181322edfc502c03b929df4383c2" title="Translates and unzooms the given point based on the zoom factor and displayed image rectangle of the ..." alt="" coords="1013,5,1239,46"/>
-<area shape="poly" title=" " alt="" coords="1271,28,1240,28,1240,23,1271,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a9ba6bd36eae383838cebee58ef3e56ed" title="Translates the coordinates from the original screen size to the target control&#39;s image size and retur..." alt="" coords="751,5,965,46"/>
-<area shape="poly" title=" " alt="" coords="997,28,965,28,965,23,997,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,5,703,46"/>
-<area shape="poly" title=" " alt="" coords="736,28,704,28,704,23,736,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
-<area shape="poly" title=" " alt="" coords="484,28,451,28,451,23,484,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_aa7addce06628519cadac2c853023fe97_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -453,16 +406,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a6fd202b56bb2a04df9637483ef1b2f9c_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a6fd202b56bb2a04df9637483ef1b2f9c_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a6fd202b56bb2a04df9637483ef1b2f9c_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a6fd202b56bb2a04df9637483ef1b2f9c_icgraph">
-<area shape="rect" title="Retrieves the status of the specified virtual key. The status specifies whether the key is up,..." alt="" coords="751,5,956,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,5,703,46"/>
-<area shape="poly" title=" " alt="" coords="736,28,704,28,704,23,736,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
-<area shape="poly" title=" " alt="" coords="484,28,451,28,451,23,484,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a6fd202b56bb2a04df9637483ef1b2f9c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -502,28 +446,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_cgraph">
-<area shape="rect" title="Gets the modified key corresponding to the input character." alt="" coords="5,39,210,79"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a7ef096a40399d0a57be5ccf36b2d469e" title="Translates the specified virtual&#45;key code and keyboard state to the corresponding character or charac..." alt="" coords="258,5,462,46"/>
-<area shape="poly" title=" " alt="" coords="210,43,242,39,242,44,210,48"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ada0c260322500d4349f18549ab012077" title="Translates a Unicode character to the corresponding virtual&#45;key code and shift state for the current ..." alt="" coords="258,71,462,111"/>
-<area shape="poly" title=" " alt="" coords="210,69,242,73,242,79,210,75"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_cgraph.svg" width="468" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_icgraph">
-<area shape="rect" title="Gets the modified key corresponding to the input character." alt="" coords="751,5,956,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,5,703,46"/>
-<area shape="poly" title=" " alt="" coords="736,28,704,28,704,23,736,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
-<area shape="poly" title=" " alt="" coords="484,28,451,28,451,23,484,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a42d8fa8741cbda40c8784fc9ce8b2db7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -562,16 +490,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_abf78a3c35658cf3e755285c3d59ddd59_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_abf78a3c35658cf3e755285c3d59ddd59_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_abf78a3c35658cf3e755285c3d59ddd59_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_abf78a3c35658cf3e755285c3d59ddd59_icgraph">
-<area shape="rect" title="Checks if the input character is alphanumeric." alt="" coords="751,5,956,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,5,703,46"/>
-<area shape="poly" title=" " alt="" coords="736,28,704,28,704,23,736,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
-<area shape="poly" title=" " alt="" coords="484,28,451,28,451,23,484,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_abf78a3c35658cf3e755285c3d59ddd59_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -602,12 +521,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a070ad1ac015b0b2cfa4f84897dc70bb2_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a070ad1ac015b0b2cfa4f84897dc70bb2_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a070ad1ac015b0b2cfa4f84897dc70bb2_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a070ad1ac015b0b2cfa4f84897dc70bb2_icgraph">
-<area shape="rect" title="Determines whether the specified clipboard format is available." alt="" coords="260,5,509,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a282a5371d5672b8ae9583a34ceecb8d9" title="Retrieves the data format currently on the clipboard and performs corresponding actions based on the ..." alt="" coords="5,5,212,46"/>
-<area shape="poly" title=" " alt="" coords="244,28,212,28,212,23,244,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a070ad1ac015b0b2cfa4f84897dc70bb2_icgraph.svg" width="515" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -638,12 +552,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab885ae269fe9b43d7161f8c81a84f69d_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab885ae269fe9b43d7161f8c81a84f69d_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab885ae269fe9b43d7161f8c81a84f69d_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab885ae269fe9b43d7161f8c81a84f69d_icgraph">
-<area shape="rect" title="Opens the clipboard for examination and prevents other applications from modifying the clipboard cont..." alt="" coords="260,5,464,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a282a5371d5672b8ae9583a34ceecb8d9" title="Retrieves the data format currently on the clipboard and performs corresponding actions based on the ..." alt="" coords="5,5,212,46"/>
-<area shape="poly" title=" " alt="" coords="244,28,212,28,212,23,244,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab885ae269fe9b43d7161f8c81a84f69d_icgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -698,19 +607,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a7ef096a40399d0a57be5ccf36b2d469e_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a7ef096a40399d0a57be5ccf36b2d469e_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a7ef096a40399d0a57be5ccf36b2d469e_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a7ef096a40399d0a57be5ccf36b2d469e_icgraph">
-<area shape="rect" title="Translates the specified virtual&#45;key code and keyboard state to the corresponding character or charac..." alt="" coords="1004,35,1208,75"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a42d8fa8741cbda40c8784fc9ce8b2db7" title="Gets the modified key corresponding to the input character." alt="" coords="751,5,956,46"/>
-<area shape="poly" title=" " alt="" coords="988,44,956,40,956,35,989,39"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,35,703,75"/>
-<area shape="poly" title=" " alt="" coords="988,60,956,60,751,60,704,60,704,54,751,55,956,55,988,55"/>
-<area shape="poly" title=" " alt="" coords="736,42,704,46,704,40,736,37"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,35,451,75"/>
-<area shape="poly" title=" " alt="" coords="484,58,451,58,451,52,484,52"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,35,199,75"/>
-<area shape="poly" title=" " alt="" coords="231,58,199,58,199,52,231,52"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a7ef096a40399d0a57be5ccf36b2d469e_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -760,28 +657,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_cgraph">
-<area shape="rect" title="Translates the coordinates from the original screen size to the target control&#39;s image size and retur..." alt="" coords="5,5,219,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ad2d6181322edfc502c03b929df4383c2" title="Translates and unzooms the given point based on the zoom factor and displayed image rectangle of the ..." alt="" coords="267,5,493,46"/>
-<area shape="poly" title=" " alt="" coords="219,23,251,23,251,28,219,28"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#aa7addce06628519cadac2c853023fe97" title="Gets the display rectangle for the image in the specified PictureBox." alt="" coords="541,5,790,46"/>
-<area shape="poly" title=" " alt="" coords="493,23,525,23,525,28,493,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_icgraph">
-<area shape="rect" title="Translates the coordinates from the original screen size to the target control&#39;s image size and retur..." alt="" coords="751,5,965,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,5,703,46"/>
-<area shape="poly" title=" " alt="" coords="736,28,704,28,704,23,736,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
-<area shape="poly" title=" " alt="" coords="484,28,451,28,451,23,484,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a9ba6bd36eae383838cebee58ef3e56ed_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -820,64 +701,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_cgraph">
-<area shape="rect" title="Triggers the window procedure for processing Windows messages." alt="" coords="5,320,210,361"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="258,320,462,361"/>
-<area shape="poly" title=" " alt="" coords="210,338,242,338,242,343,210,343"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="1067,37,1274,78"/>
-<area shape="poly" title=" " alt="" coords="371,318,393,284,424,242,463,199,509,162,574,126,644,98,717,77,790,63,862,53,931,48,1052,47,1052,52,932,53,863,59,791,68,718,83,646,103,576,131,511,167,467,203,428,245,397,287,375,321"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a6fd202b56bb2a04df9637483ef1b2f9c" title="Retrieves the status of the specified virtual key. The status specifies whether the key is up,..." alt="" coords="515,291,719,331"/>
-<area shape="poly" title=" " alt="" coords="462,326,499,322,499,327,463,331"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a42d8fa8741cbda40c8784fc9ce8b2db7" title="Gets the modified key corresponding to the input character." alt="" coords="515,405,719,446"/>
-<area shape="poly" title=" " alt="" coords="424,359,539,397,538,402,422,364"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a7ef096a40399d0a57be5ccf36b2d469e" title="Translates the specified virtual&#45;key code and keyboard state to the corresponding character or charac..." alt="" coords="782,348,987,389"/>
-<area shape="poly" title=" " alt="" coords="463,343,767,359,767,365,462,348"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="1067,233,1274,274"/>
-<area shape="poly" title=" " alt="" coords="400,317,451,295,509,276,654,253,801,242,937,240,1052,243,1052,249,937,245,801,248,655,259,511,282,453,300,402,322"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#abf78a3c35658cf3e755285c3d59ddd59" title="Checks if the input character is alphanumeric." alt="" coords="515,471,719,511"/>
-<area shape="poly" title=" " alt="" coords="384,359,439,407,474,433,511,455,525,462,523,467,509,460,471,437,436,411,380,363"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="526,176,708,217"/>
-<area shape="poly" title=" " alt="" coords="385,317,440,276,509,233,535,220,537,225,511,237,443,280,388,322"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a9ba6bd36eae383838cebee58ef3e56ed" title="Translates the coordinates from the original screen size to the target control&#39;s image size and retur..." alt="" coords="510,536,723,577"/>
-<area shape="poly" title=" " alt="" coords="375,360,396,395,427,438,466,483,512,521,521,526,518,531,508,525,462,486,423,441,392,398,370,363"/>
-<area shape="poly" title=" " alt="" coords="714,402,771,390,772,395,715,407"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ada0c260322500d4349f18549ab012077" title="Translates a Unicode character to the corresponding virtual&#45;key code and shift state for the current ..." alt="" coords="782,413,987,454"/>
-<area shape="poly" title=" " alt="" coords="719,426,767,427,767,433,719,431"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="775,190,994,216"/>
-<area shape="poly" title=" " alt="" coords="708,196,760,197,760,203,708,201"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="781,101,988,142"/>
-<area shape="poly" title=" " alt="" coords="692,173,794,144,795,149,693,178"/>
-<area shape="poly" title=" " alt="" coords="841,192,832,182,837,172,855,166,885,164,918,166,934,174,932,179,917,172,884,169,856,171,840,176,837,181,844,188"/>
-<area shape="poly" title=" " alt="" coords="978,98,1061,79,1063,84,979,103"/>
-<area shape="poly" title=" " alt="" coords="979,140,999,152,1016,169,1024,186,1032,203,1047,218,1056,224,1053,228,1044,222,1028,206,1019,188,1011,172,996,156,977,145"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="1071,103,1270,143"/>
-<area shape="poly" title=" " alt="" coords="988,119,1055,120,1055,125,988,125"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="1079,168,1262,209"/>
-<area shape="poly" title=" " alt="" coords="975,140,1066,161,1065,166,974,145"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1359,5,1557,46"/>
-<area shape="poly" title=" " alt="" coords="1261,100,1294,87,1318,72,1342,57,1360,49,1362,54,1344,61,1320,77,1296,92,1263,105"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1359,71,1557,111"/>
-<area shape="poly" title=" " alt="" coords="1270,109,1342,101,1343,106,1270,115"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1359,136,1557,177"/>
-<area shape="poly" title=" " alt="" coords="1270,132,1343,140,1342,146,1270,137"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1343,201,1572,242"/>
-<area shape="poly" title=" " alt="" coords="1263,141,1296,154,1321,170,1344,186,1361,193,1359,198,1342,191,1318,174,1294,159,1261,146"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ad2d6181322edfc502c03b929df4383c2" title="Translates and unzooms the given point based on the zoom factor and displayed image rectangle of the ..." alt="" coords="771,536,998,577"/>
-<area shape="poly" title=" " alt="" coords="724,554,756,554,756,559,724,559"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#aa7addce06628519cadac2c853023fe97" title="Gets the display rectangle for the image in the specified PictureBox." alt="" coords="1046,536,1295,577"/>
-<area shape="poly" title=" " alt="" coords="998,554,1030,554,1030,559,998,559"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_icgraph">
-<area shape="rect" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_a88f38923ee026a00b6b3300c0bfe65a2_icgraph.svg" width="456" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -922,28 +751,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_cgraph">
-<area shape="rect" title="Translates and unzooms the given point based on the zoom factor and displayed image rectangle of the ..." alt="" coords="5,5,232,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#aa7addce06628519cadac2c853023fe97" title="Gets the display rectangle for the image in the specified PictureBox." alt="" coords="280,5,529,46"/>
-<area shape="poly" title=" " alt="" coords="232,23,264,23,264,28,232,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_cgraph.svg" width="535" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_icgraph">
-<area shape="rect" title="Translates and unzooms the given point based on the zoom factor and displayed image rectangle of the ..." alt="" coords="1013,5,1239,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a9ba6bd36eae383838cebee58ef3e56ed" title="Translates the coordinates from the original screen size to the target control&#39;s image size and retur..." alt="" coords="751,5,965,46"/>
-<area shape="poly" title=" " alt="" coords="997,28,965,28,965,23,997,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,5,703,46"/>
-<area shape="poly" title=" " alt="" coords="736,28,704,28,704,23,736,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
-<area shape="poly" title=" " alt="" coords="484,28,451,28,451,23,484,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ad2d6181322edfc502c03b929df4383c2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -982,18 +795,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ada0c260322500d4349f18549ab012077_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ada0c260322500d4349f18549ab012077_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ada0c260322500d4349f18549ab012077_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ada0c260322500d4349f18549ab012077_icgraph">
-<area shape="rect" title="Translates a Unicode character to the corresponding virtual&#45;key code and shift state for the current ..." alt="" coords="1004,5,1208,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a42d8fa8741cbda40c8784fc9ce8b2db7" title="Gets the modified key corresponding to the input character." alt="" coords="751,5,956,46"/>
-<area shape="poly" title=" " alt="" coords="988,28,956,28,956,23,988,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ab76cecaae3d3e1b0201bbc9dac019e64" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,5,703,46"/>
-<area shape="poly" title=" " alt="" coords="736,28,704,28,704,23,736,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
-<area shape="poly" title=" " alt="" coords="484,28,451,28,451,23,484,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ada0c260322500d4349f18549ab012077_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1032,64 +834,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_cgraph">
-<area shape="rect" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="5,320,210,361"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="815,37,1021,78"/>
-<area shape="poly" title=" " alt="" coords="118,318,140,284,171,242,211,199,256,162,322,126,392,98,464,77,538,63,610,53,679,48,800,47,800,52,679,53,611,59,539,68,466,83,393,103,324,131,259,167,214,203,176,245,145,287,123,321"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a6fd202b56bb2a04df9637483ef1b2f9c" title="Retrieves the status of the specified virtual key. The status specifies whether the key is up,..." alt="" coords="262,291,467,331"/>
-<area shape="poly" title=" " alt="" coords="210,326,247,322,247,327,210,331"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a42d8fa8741cbda40c8784fc9ce8b2db7" title="Gets the modified key corresponding to the input character." alt="" coords="262,405,467,446"/>
-<area shape="poly" title=" " alt="" coords="172,359,287,397,285,402,170,364"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a7ef096a40399d0a57be5ccf36b2d469e" title="Translates the specified virtual&#45;key code and keyboard state to the corresponding character or charac..." alt="" coords="530,348,734,389"/>
-<area shape="poly" title=" " alt="" coords="210,343,515,359,514,365,210,348"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="815,233,1021,274"/>
-<area shape="poly" title=" " alt="" coords="148,317,199,295,257,276,402,253,548,242,685,240,799,243,799,249,685,245,548,248,402,259,258,282,201,300,150,322"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#abf78a3c35658cf3e755285c3d59ddd59" title="Checks if the input character is alphanumeric." alt="" coords="262,471,467,511"/>
-<area shape="poly" title=" " alt="" coords="132,359,187,407,222,433,259,455,273,462,271,467,256,460,219,437,183,411,128,363"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="273,176,456,217"/>
-<area shape="poly" title=" " alt="" coords="132,317,188,276,256,233,283,220,285,225,259,237,191,280,135,322"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a9ba6bd36eae383838cebee58ef3e56ed" title="Translates the coordinates from the original screen size to the target control&#39;s image size and retur..." alt="" coords="258,536,471,577"/>
-<area shape="poly" title=" " alt="" coords="123,360,144,395,175,438,214,483,259,521,268,526,265,531,256,525,210,486,171,441,140,398,118,363"/>
-<area shape="poly" title=" " alt="" coords="462,402,518,390,519,395,463,407"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ada0c260322500d4349f18549ab012077" title="Translates a Unicode character to the corresponding virtual&#45;key code and shift state for the current ..." alt="" coords="530,413,734,454"/>
-<area shape="poly" title=" " alt="" coords="467,426,515,427,514,433,467,431"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="523,190,741,216"/>
-<area shape="poly" title=" " alt="" coords="456,196,507,197,507,203,456,201"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="529,101,735,142"/>
-<area shape="poly" title=" " alt="" coords="440,173,541,144,543,149,441,178"/>
-<area shape="poly" title=" " alt="" coords="588,192,579,182,585,172,603,166,632,164,666,166,682,174,680,179,665,172,632,169,604,171,588,176,585,181,592,188"/>
-<area shape="poly" title=" " alt="" coords="726,98,809,79,810,84,727,103"/>
-<area shape="poly" title=" " alt="" coords="727,140,747,152,763,169,772,186,780,203,795,218,804,224,801,228,792,222,775,206,767,188,759,172,744,156,724,145"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="819,103,1017,143"/>
-<area shape="poly" title=" " alt="" coords="736,119,803,120,803,125,736,125"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="826,168,1010,209"/>
-<area shape="poly" title=" " alt="" coords="723,140,813,161,812,166,722,145"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1106,5,1305,46"/>
-<area shape="poly" title=" " alt="" coords="1008,100,1041,87,1065,72,1089,57,1107,49,1109,54,1092,61,1068,77,1044,92,1010,105"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1106,71,1305,111"/>
-<area shape="poly" title=" " alt="" coords="1017,109,1090,101,1091,106,1018,115"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1106,136,1305,177"/>
-<area shape="poly" title=" " alt="" coords="1018,132,1091,140,1090,146,1017,137"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1091,201,1320,242"/>
-<area shape="poly" title=" " alt="" coords="1011,141,1044,154,1068,170,1092,186,1108,193,1106,198,1089,191,1065,174,1041,159,1009,146"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#ad2d6181322edfc502c03b929df4383c2" title="Translates and unzooms the given point based on the zoom factor and displayed image rectangle of the ..." alt="" coords="519,536,745,577"/>
-<area shape="poly" title=" " alt="" coords="472,554,504,554,504,559,472,559"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#aa7addce06628519cadac2c853023fe97" title="Gets the display rectangle for the image in the specified PictureBox." alt="" coords="793,536,1043,577"/>
-<area shape="poly" title=" " alt="" coords="746,554,778,554,778,559,746,559"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_icgraph">
-<area shape="rect" title="Overrides the WndProc method to handle window messages and sends corresponding data to the client." alt="" coords="499,5,703,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html#a88f38923ee026a00b6b3300c0bfe65a2" title="Triggers the window procedure for processing Windows messages." alt="" coords="247,5,451,46"/>
-<area shape="poly" title=" " alt="" coords="484,28,451,28,451,23,484,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_hvnc.html#a2d6f5b72f78d1a580135a4a704f387d1" title="Processes a command key and triggers the WndProc method for a custom picture box control." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,28,199,28,199,23,231,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_custom_picture_box_ab76cecaae3d3e1b0201bbc9dac019e64_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1210,11 +960,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacexeno__rat__server.html">xeno_rat_server</a></li><li class="navelem"><a class="el" href="namespacexeno__rat__server_1_1_forms.html">Forms</a></li><li class="navelem"><a class="el" href="classxeno__rat__server_1_1_forms_1_1_custom_picture_box.html">CustomPictureBox</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

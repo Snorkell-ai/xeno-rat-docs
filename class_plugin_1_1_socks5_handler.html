@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: Plugin.Socks5Handler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -108,26 +132,7 @@ $(function(){initNavTree('class_plugin_1_1_socks5_handler.html',''); initResizab
 <div class="dynheader">
 Collaboration diagram for Plugin.Socks5Handler:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_socks5_handler__coll__graph.png" border="0" usemap="#a_plugin_8_socks5_handler_coll__map" alt="Collaboration graph"/></div>
-<map name="a_plugin_8_socks5_handler_coll__map" id="a_plugin_8_socks5_handler_coll__map">
-<area shape="rect" title=" " alt="" coords="271,830,435,976"/>
-<area shape="rect" href="classxeno__rat__client_1_1_node.html" title=" " alt="" coords="267,482,438,767"/>
-<area shape="poly" title=" " alt="" coords="355,767,355,813,350,813,350,767"/>
-<area shape="poly" title=" " alt="" coords="439,592,457,603,465,624,462,638,455,648,451,645,457,636,459,625,453,607,437,597"/>
-<area shape="rect" title=" " alt="" coords="5,236,159,316"/>
-<area shape="poly" title=" " alt="" coords="106,315,137,364,173,417,258,519,254,523,169,421,132,367,102,317"/>
-<area shape="rect" title=" " alt="" coords="183,244,365,309"/>
-<area shape="poly" title=" " alt="" coords="284,308,319,465,314,466,279,310"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html" title=" " alt="" coords="389,134,589,419"/>
-<area shape="poly" title=" " alt="" coords="436,420,417,467,412,465,431,418"/>
-<area shape="rect" title=" " alt="" coords="351,5,405,71"/>
-<area shape="poly" title=" " alt="" coords="391,69,407,109,411,117,406,119,402,111,386,71"/>
-<area shape="rect" title=" " alt="" coords="430,5,467,71"/>
-<area shape="poly" title=" " alt="" coords="451,70,453,109,454,116,449,117,448,110,445,71"/>
-<area shape="rect" title=" " alt="" coords="613,5,639,71"/>
-<area shape="poly" title=" " alt="" coords="642,57,659,94,659,110,655,200,653,272,649,305,640,340,625,378,603,420,572,464,535,504,494,538,454,568,451,563,491,534,531,500,568,461,598,418,620,376,635,339,644,304,648,271,650,200,654,110,654,95,637,59"/>
-<area shape="poly" title=" " alt="" coords="615,54,580,96,565,120,560,117,576,93,611,50"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_socks5_handler__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -222,14 +227,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_socks5_handler_a6dc35b6660b5afeef986538e42acb7d4_icgraph.png" border="0" usemap="#aclass_plugin_1_1_socks5_handler_a6dc35b6660b5afeef986538e42acb7d4_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_socks5_handler_a6dc35b6660b5afeef986538e42acb7d4_icgraph" id="aclass_plugin_1_1_socks5_handler_a6dc35b6660b5afeef986538e42acb7d4_icgraph">
-<area shape="rect" title="Creates a new socket with the specified timeout value." alt="" coords="400,5,592,46"/>
-<area shape="rect" href="class_plugin_1_1_socks5_handler.html#a547513c97f841935dd30a4939fd11ded" title="Asynchronously starts the communication process with the specified destination address and port." alt="" coords="171,13,352,39"/>
-<area shape="poly" title=" " alt="" coords="384,28,353,28,353,23,384,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the node communication process." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_socks5_handler_a6dc35b6660b5afeef986538e42acb7d4_icgraph.svg" width="598" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -274,14 +272,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_socks5_handler_aac37b77b4b72307ed70c37779bf7c4d4_icgraph.png" border="0" usemap="#aclass_plugin_1_1_socks5_handler_aac37b77b4b72307ed70c37779bf7c4d4_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_socks5_handler_aac37b77b4b72307ed70c37779bf7c4d4_icgraph" id="aclass_plugin_1_1_socks5_handler_aac37b77b4b72307ed70c37779bf7c4d4_icgraph">
-<area shape="rect" title="Asynchronously disconnects the specified socket." alt="" coords="400,5,619,46"/>
-<area shape="rect" href="class_plugin_1_1_socks5_handler.html#a547513c97f841935dd30a4939fd11ded" title="Asynchronously starts the communication process with the specified destination address and port." alt="" coords="171,13,352,39"/>
-<area shape="poly" title=" " alt="" coords="384,28,353,28,353,23,384,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the node communication process." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_socks5_handler_aac37b77b4b72307ed70c37779bf7c4d4_icgraph.svg" width="626" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -332,67 +323,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_cgraph.png" border="0" usemap="#aclass_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_cgraph" id="aclass_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_cgraph">
-<area shape="rect" title="Asynchronously receives and sends data between the remote socket and subnode using the specified buff..." alt="" coords="5,304,190,345"/>
-<area shape="rect" href="classxeno__rat__client_1_1_node.html#ae4ae581752fcdbda5191a2a55270e88b" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="238,254,449,280"/>
-<area shape="poly" title=" " alt="" coords="187,301,269,281,271,287,188,306"/>
-<area shape="rect" href="classxeno__rat__client_1_1_node.html#a5e2f1397fe3500c1f49ae17e4b91cde4" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="245,304,442,345"/>
-<area shape="poly" title=" " alt="" coords="190,322,229,322,229,327,190,327"/>
-<area shape="rect" href="classxeno__rat__client_1_1_node.html#afe8db11f190f0a3b146e16a7b14ef490" title="Asynchronously sends the specified data over the socket connection." alt="" coords="254,369,433,410"/>
-<area shape="poly" title=" " alt="" coords="177,343,250,362,249,367,176,348"/>
-<area shape="rect" href="classxeno__rat__client_1_1_node.html#aed8a6b3de6ee0efa48945c8b1e6c763e" title="Disconnects the current socket and clears the subNodes list, and invokes the OnDisconnect event if it..." alt="" coords="497,344,711,369"/>
-<area shape="poly" title=" " alt="" coords="442,334,482,339,481,344,442,339"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#ac05e4943d4ffdb6a72fa80e8f4bbede6" title="Asynchronously receives data and performs various operations on it, such as decryption,..." alt="" coords="503,201,705,242"/>
-<area shape="poly" title=" " alt="" coords="417,301,448,290,547,247,549,251,450,295,418,306"/>
-<area shape="poly" title=" " alt="" coords="562,345,554,335,559,325,576,319,604,317,636,320,652,327,649,332,635,325,604,322,577,324,562,329,559,334,566,341"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a08263821429a6c263085688a2b716f44" title="Truncates the input byte array from the specified offset and returns the truncated byte array." alt="" coords="759,267,962,307"/>
-<area shape="poly" title=" " alt="" coords="687,240,764,260,763,265,686,245"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a14771b2d7d9b62c512e15fbd3f7eed2d" title="Converts the specified byte array to an integer." alt="" coords="1023,225,1226,266"/>
-<area shape="poly" title=" " alt="" coords="631,240,687,282,722,302,760,316,815,330,860,333,905,328,961,316,1021,297,1074,271,1077,276,1023,302,962,322,906,333,860,338,815,335,759,322,720,307,684,286,627,245"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#a77db1a3658cab9e1ded20775b02584ad" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="763,5,958,46"/>
-<area shape="poly" title=" " alt="" coords="618,199,674,130,713,91,758,57,768,51,771,55,761,61,717,95,678,134,622,203"/>
-<area shape="rect" href="classxeno__rat__client_1_1_encryption.html#ae86cb9fa23f767be0a3c99e369ecbd30" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="771,71,950,111"/>
-<area shape="poly" title=" " alt="" coords="632,199,689,161,758,122,775,115,777,120,761,127,692,165,635,203"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a77529cf89708fc6f487cd2aaac7e9bac" title="Parses the header from the given byte array and returns the header information." alt="" coords="759,136,962,177"/>
-<area shape="poly" title=" " alt="" coords="686,198,763,178,764,184,687,203"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a8be64178ac717030dea4dbcea7937a83" title="Asynchronously receives all the data of the specified size from the connected socket and returns it a..." alt="" coords="759,201,962,242"/>
-<area shape="poly" title=" " alt="" coords="706,219,744,219,744,224,706,224"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#a9fe0a6ed3a221d799c7e1a7ba004d5fd" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1027,5,1222,46"/>
-<area shape="poly" title=" " alt="" coords="958,23,1012,23,1012,28,958,28"/>
-<area shape="poly" title=" " alt="" coords="926,175,963,187,1050,217,1048,222,961,192,924,180"/>
-<area shape="poly" title=" " alt="" coords="433,376,483,369,484,374,433,381"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a4970cfbc960dd288436a9fe80814531d" title="Asynchronously sends the specified data over the socket after compressing, encrypting,..." alt="" coords="503,447,705,487"/>
-<area shape="poly" title=" " alt="" coords="415,408,519,439,518,444,414,413"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#ab25c4ae61c5c162bdb353676a7d01ca6" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="763,512,958,553"/>
-<area shape="poly" title=" " alt="" coords="687,485,764,505,763,510,686,491"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#aff56eb3e00bf2bb85e2d7696318b4468" title="Concatenates two byte arrays and returns the result." alt="" coords="759,577,962,618"/>
-<area shape="poly" title=" " alt="" coords="635,486,692,524,761,562,777,569,775,574,758,567,689,528,632,490"/>
-<area shape="rect" href="classxeno__rat__client_1_1_encryption.html#a807a6407c09f993138a2684be0899cb3" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="771,381,950,422"/>
-<area shape="poly" title=" " alt="" coords="686,443,763,424,764,429,687,449"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a9b4df15d86fe97e366771e3c0568761d" title="Converts an integer to a byte array." alt="" coords="759,447,962,487"/>
-<area shape="poly" title=" " alt="" coords="706,464,744,464,744,470,706,470"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#abc065f053d0258dd1a7acae93f8332d0" title="Allocates memory in the local heap." alt="" coords="1027,544,1222,585"/>
-<area shape="poly" title=" " alt="" coords="958,541,1012,548,1011,553,958,547"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#a0d2aafc746f145f698a8f1d310ccfbb2" title="Frees the memory block allocated by the LocalAlloc or LocalReAlloc function." alt="" coords="1027,609,1222,650"/>
-<area shape="poly" title=" " alt="" coords="933,551,963,563,987,579,1011,594,1028,601,1026,606,1008,599,984,583,960,568,931,556"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#a9f7d50afed4c3c988eb3e7691cb94581" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1027,413,1222,454"/>
-<area shape="poly" title=" " alt="" coords="931,509,960,497,984,481,1008,465,1025,457,1027,462,1011,469,987,485,963,501,933,514"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#ae6d3ee0c8538f67cd80635e6bc1bad03" title="Retrieves the size of the workspace required for compression." alt="" coords="1010,479,1239,519"/>
-<area shape="poly" title=" " alt="" coords="958,517,994,513,995,518,958,523"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_icgraph.png" border="0" usemap="#aclass_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_icgraph" id="aclass_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_icgraph">
-<area shape="rect" title="Asynchronously receives and sends data between the remote socket and subnode using the specified buff..." alt="" coords="400,5,584,46"/>
-<area shape="rect" href="class_plugin_1_1_socks5_handler.html#a547513c97f841935dd30a4939fd11ded" title="Asynchronously starts the communication process with the specified destination address and port." alt="" coords="171,13,352,39"/>
-<area shape="poly" title=" " alt="" coords="384,28,352,28,352,23,384,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the node communication process." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_socks5_handler_ab8f78f7ae0a2ac192b96ddcaabfd9360_icgraph.svg" width="590" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -432,75 +368,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_cgraph.png" border="0" usemap="#aclass_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_cgraph" id="aclass_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_cgraph">
-<area shape="rect" title="Asynchronously starts the communication process with the specified destination address and port." alt="" coords="5,325,187,350"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a14771b2d7d9b62c512e15fbd3f7eed2d" title="Converts the specified byte array to an integer." alt="" coords="1288,42,1490,83"/>
-<area shape="poly" title=" " alt="" coords="105,322,170,246,222,194,284,139,355,88,434,44,475,27,518,14,562,6,606,3,870,3,1049,7,1226,28,1278,36,1277,42,1226,33,1048,13,870,8,606,8,562,11,519,19,477,32,436,49,358,92,288,143,226,198,174,250,110,326"/>
-<area shape="rect" href="class_plugin_1_1_socks5_handler.html#a6dc35b6660b5afeef986538e42acb7d4" title="Creates a new socket with the specified timeout value." alt="" coords="248,432,441,472"/>
-<area shape="poly" title=" " alt="" coords="120,348,172,378,236,411,266,423,263,428,234,416,169,383,117,353"/>
-<area shape="rect" href="classxeno__rat__client_1_1_node.html#aed8a6b3de6ee0efa48945c8b1e6c763e" title="Disconnects the current socket and clears the subNodes list, and invokes the OnDisconnect event if it..." alt="" coords="761,279,976,305"/>
-<area shape="poly" title=" " alt="" coords="143,321,234,303,371,290,509,284,746,284,746,290,509,289,371,295,235,308,144,327"/>
-<area shape="rect" href="class_plugin_1_1_socks5_handler.html#aac37b77b4b72307ed70c37779bf7c4d4" title="Asynchronously disconnects the specified socket." alt="" coords="235,497,454,538"/>
-<area shape="poly" title=" " alt="" coords="108,349,158,412,194,450,236,482,247,488,244,492,233,486,191,454,154,416,104,352"/>
-<area shape="rect" href="classxeno__rat__client_1_1_node.html#a5e2f1397fe3500c1f49ae17e4b91cde4" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="510,202,706,243"/>
-<area shape="poly" title=" " alt="" coords="114,322,166,289,199,272,234,259,300,242,368,231,494,220,494,225,368,236,301,247,235,264,201,277,169,294,117,326"/>
-<area shape="rect" href="class_plugin_1_1_socks5_handler.html#ab8f78f7ae0a2ac192b96ddcaabfd9360" title="Asynchronously receives and sends data between the remote socket and subnode using the specified buff..." alt="" coords="252,317,437,358"/>
-<area shape="poly" title=" " alt="" coords="187,335,237,335,237,340,187,340"/>
-<area shape="rect" href="classxeno__rat__client_1_1_node.html#afe8db11f190f0a3b146e16a7b14ef490" title="Asynchronously sends the specified data over the socket connection." alt="" coords="519,374,697,415"/>
-<area shape="poly" title=" " alt="" coords="147,348,235,367,375,382,503,389,503,395,374,387,234,372,146,353"/>
-<area shape="poly" title=" " alt="" coords="826,281,818,271,823,261,840,255,869,253,900,255,916,262,914,267,899,260,868,258,841,260,826,265,823,270,830,277"/>
-<area shape="poly" title=" " alt="" coords="688,241,803,272,802,277,686,246"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#ac05e4943d4ffdb6a72fa80e8f4bbede6" title="Asynchronously receives data and performs various operations on it, such as decryption,..." alt="" coords="767,190,970,231"/>
-<area shape="poly" title=" " alt="" coords="706,215,752,213,752,219,706,221"/>
-<area shape="poly" title=" " alt="" coords="912,187,965,164,1023,143,1131,115,1272,84,1273,89,1133,120,1024,148,967,169,915,192"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a08263821429a6c263085688a2b716f44" title="Truncates the input byte array from the specified offset and returns the truncated byte array." alt="" coords="1024,157,1226,198"/>
-<area shape="poly" title=" " alt="" coords="970,195,1008,190,1009,195,970,200"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#a77db1a3658cab9e1ded20775b02584ad" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="1028,353,1222,394"/>
-<area shape="poly" title=" " alt="" coords="961,229,977,241,989,253,996,266,1002,290,1008,315,1015,326,1025,338,1031,342,1027,346,1022,342,1011,330,1004,317,997,292,991,268,985,256,974,245,958,234"/>
-<area shape="rect" href="classxeno__rat__client_1_1_encryption.html#ae86cb9fa23f767be0a3c99e369ecbd30" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="1035,222,1215,263"/>
-<area shape="poly" title=" " alt="" coords="970,221,1020,227,1019,232,970,226"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a77529cf89708fc6f487cd2aaac7e9bac" title="Parses the header from the given byte array and returns the header information." alt="" coords="1024,42,1226,83"/>
-<area shape="poly" title=" " alt="" coords="893,188,951,144,1022,99,1047,87,1049,92,1025,104,954,149,896,192"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a8be64178ac717030dea4dbcea7937a83" title="Asynchronously receives all the data of the specified size from the connected socket and returns it a..." alt="" coords="1024,288,1226,328"/>
-<area shape="poly" title=" " alt="" coords="949,229,977,240,1001,256,1025,272,1040,279,1038,284,1022,277,998,261,974,245,947,234"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#a9fe0a6ed3a221d799c7e1a7ba004d5fd" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1292,353,1486,394"/>
-<area shape="poly" title=" " alt="" coords="1222,371,1276,371,1276,376,1222,376"/>
-<area shape="poly" title=" " alt="" coords="1226,60,1272,60,1272,65,1226,65"/>
-<area shape="poly" title=" " alt="" coords="392,314,544,247,546,252,394,319"/>
-<area shape="rect" href="classxeno__rat__client_1_1_node.html#ae4ae581752fcdbda5191a2a55270e88b" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="502,325,713,350"/>
-<area shape="poly" title=" " alt="" coords="437,335,486,335,486,340,437,340"/>
-<area shape="poly" title=" " alt="" coords="437,355,504,369,502,375,436,360"/>
-<area shape="poly" title=" " alt="" coords="681,371,712,360,826,310,828,314,714,365,683,376"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a4970cfbc960dd288436a9fe80814531d" title="Asynchronously sends the specified data over the socket after compressing, encrypting,..." alt="" coords="767,484,970,524"/>
-<area shape="poly" title=" " alt="" coords="659,413,805,475,803,480,657,418"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#ab25c4ae61c5c162bdb353676a7d01ca6" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="1028,484,1222,524"/>
-<area shape="poly" title=" " alt="" coords="970,501,1012,501,1012,507,970,507"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#aff56eb3e00bf2bb85e2d7696318b4468" title="Concatenates two byte arrays and returns the result." alt="" coords="1024,549,1226,590"/>
-<area shape="poly" title=" " alt="" coords="952,522,1028,542,1027,547,950,528"/>
-<area shape="rect" href="classxeno__rat__client_1_1_encryption.html#a807a6407c09f993138a2684be0899cb3" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="1035,614,1215,655"/>
-<area shape="poly" title=" " alt="" coords="900,523,956,561,1025,599,1041,606,1039,611,1022,604,953,565,897,527"/>
-<area shape="rect" href="classxeno__rat__client_1_1_socket_handler.html#a9b4df15d86fe97e366771e3c0568761d" title="Converts an integer to a byte array." alt="" coords="1024,418,1226,459"/>
-<area shape="poly" title=" " alt="" coords="950,480,1027,461,1028,466,952,486"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#abc065f053d0258dd1a7acae93f8332d0" title="Allocates memory in the local heap." alt="" coords="1292,549,1486,590"/>
-<area shape="poly" title=" " alt="" coords="1211,522,1290,542,1288,547,1209,528"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#a0d2aafc746f145f698a8f1d310ccfbb2" title="Frees the memory block allocated by the LocalAlloc or LocalReAlloc function." alt="" coords="1292,614,1486,655"/>
-<area shape="poly" title=" " alt="" coords="1206,522,1228,535,1244,552,1252,568,1260,584,1276,599,1284,605,1281,609,1272,603,1256,587,1247,571,1239,555,1224,539,1203,527"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#a9f7d50afed4c3c988eb3e7691cb94581" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1292,418,1486,459"/>
-<area shape="poly" title=" " alt="" coords="1209,480,1288,461,1290,466,1211,486"/>
-<area shape="rect" href="classxeno__rat__client_1_1_compression.html#ae6d3ee0c8538f67cd80635e6bc1bad03" title="Retrieves the size of the workspace required for compression." alt="" coords="1274,484,1503,524"/>
-<area shape="poly" title=" " alt="" coords="1222,501,1258,501,1258,507,1222,507"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_icgraph.png" border="0" usemap="#aclass_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_icgraph" id="aclass_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_icgraph">
-<area shape="rect" title="Asynchronously starts the communication process with the specified destination address and port." alt="" coords="171,5,352,31"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the node communication process." alt="" coords="5,5,123,31"/>
-<area shape="poly" title=" " alt="" coords="155,21,123,21,123,16,155,16"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_socks5_handler_a547513c97f841935dd30a4939fd11ded_icgraph.svg" width="358" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -533,11 +406,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_plugin.html">Plugin</a></li><li class="navelem"><a class="el" href="class_plugin_1_1_socks5_handler.html">Socks5Handler</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

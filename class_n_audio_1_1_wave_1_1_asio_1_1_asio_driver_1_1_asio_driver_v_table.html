@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.Asio.AsioDriver.AsioDriverVTable Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -110,52 +134,7 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_1_1_as
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.Asio.AsioDriver.AsioDriverVTable:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_1_1_asio_driver_v_table__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_asio_8_asio_driver_8_asio_driver_v_table_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_asio_8_asio_driver_8_asio_driver_v_table_coll__map" id="a_n_audio_8_wave_8_asio_8_asio_driver_8_asio_driver_v_table_coll__map">
-<area shape="rect" title="Internal VTable structure to store all the delegates to the C++ COM method." alt="" coords="1339,134,1529,414"/>
-<area shape="rect" title=" " alt="" coords="5,5,68,71"/>
-<area shape="poly" title=" " alt="" coords="69,61,82,68,127,86,164,94,251,107,554,158,854,200,1322,258,1321,263,853,206,553,163,250,112,163,99,125,91,80,73,67,66"/>
-<area shape="rect" title=" " alt="" coords="93,5,226,71"/>
-<area shape="poly" title=" " alt="" coords="224,68,274,89,327,107,463,142,604,171,745,196,882,217,1131,246,1322,263,1322,268,1131,251,881,222,744,201,603,176,462,147,325,112,272,94,222,73"/>
-<area shape="rect" title=" " alt="" coords="250,5,391,71"/>
-<area shape="poly" title=" " alt="" coords="378,68,421,89,469,107,584,140,703,169,939,214,1154,243,1322,261,1322,266,1153,249,939,219,702,174,582,145,467,112,419,94,375,73"/>
-<area shape="rect" title=" " alt="" coords="415,5,559,71"/>
-<area shape="poly" title=" " alt="" coords="537,68,575,89,616,107,709,138,806,166,1000,209,1178,239,1322,258,1321,264,1177,245,999,214,805,171,708,143,614,112,572,94,534,73"/>
-<area shape="rect" title=" " alt="" coords="584,5,655,71"/>
-<area shape="poly" title=" " alt="" coords="656,61,668,68,727,91,787,107,1076,184,1323,244,1322,249,1075,190,786,112,725,96,666,73,653,66"/>
-<area shape="rect" title=" " alt="" coords="679,5,749,71"/>
-<area shape="poly" title=" " alt="" coords="750,62,762,68,909,129,1061,180,1203,219,1322,247,1321,252,1202,224,1060,185,908,134,760,73,747,66"/>
-<area shape="rect" title=" " alt="" coords="773,5,890,71"/>
-<area shape="poly" title=" " alt="" coords="891,64,989,107,1164,175,1324,232,1322,237,1163,180,987,112,889,69"/>
-<area shape="rect" title=" " alt="" coords="915,5,1033,71"/>
-<area shape="poly" title=" " alt="" coords="1032,68,1105,107,1325,217,1322,221,1103,112,1029,73"/>
-<area shape="rect" title=" " alt="" coords="1057,5,1181,71"/>
-<area shape="poly" title=" " alt="" coords="1163,68,1327,190,1324,194,1160,72"/>
-<area shape="rect" title=" " alt="" coords="1205,5,1343,71"/>
-<area shape="poly" title=" " alt="" coords="1297,69,1331,118,1327,121,1293,72"/>
-<area shape="rect" title=" " alt="" coords="1367,5,1501,71"/>
-<area shape="poly" title=" " alt="" coords="1437,70,1437,117,1431,117,1431,70"/>
-<area shape="rect" title=" " alt="" coords="1525,5,1660,71"/>
-<area shape="poly" title=" " alt="" coords="1574,72,1540,121,1536,118,1569,69"/>
-<area shape="rect" title=" " alt="" coords="1684,5,1829,71"/>
-<area shape="poly" title=" " alt="" coords="1717,72,1664,112,1544,197,1541,193,1660,108,1714,68"/>
-<area shape="rect" title=" " alt="" coords="1853,5,1991,71"/>
-<area shape="poly" title=" " alt="" coords="1870,73,1798,112,1668,174,1546,228,1543,223,1665,169,1795,107,1868,68"/>
-<area shape="rect" title=" " alt="" coords="2015,5,2168,71"/>
-<area shape="poly" title=" " alt="" coords="2027,73,1935,112,1730,185,1546,242,1545,237,1728,180,1933,107,2025,68"/>
-<area shape="rect" title=" " alt="" coords="2193,5,2326,71"/>
-<area shape="poly" title=" " alt="" coords="2194,73,2096,112,1949,157,1800,196,1547,253,1545,248,1799,191,1948,152,2094,107,2192,68"/>
-<area shape="rect" title=" " alt="" coords="2350,5,2473,71"/>
-<area shape="poly" title=" " alt="" coords="2351,70,2296,92,2237,112,2049,161,1860,203,1687,235,1547,258,1546,253,1686,230,1859,197,2048,156,2236,107,2295,87,2349,65"/>
-<area shape="rect" title=" " alt="" coords="2497,5,2629,71"/>
-<area shape="poly" title=" " alt="" coords="2498,70,2440,93,2377,112,2148,166,1918,208,1710,240,1547,262,1546,257,1709,235,1917,203,2147,160,2376,107,2438,88,2496,65"/>
-<area shape="rect" title=" " alt="" coords="2654,5,2771,71"/>
-<area shape="poly" title=" " alt="" coords="2655,68,2595,92,2528,112,2392,143,2253,170,1979,214,1734,245,1546,265,1546,260,1733,240,1979,208,2253,164,2391,137,2527,107,2593,87,2653,63"/>
-<area shape="rect" title=" " alt="" coords="2795,5,2873,71"/>
-<area shape="poly" title=" " alt="" coords="2797,67,2784,73,2726,97,2664,112,2508,145,2349,173,2035,218,1756,249,1546,267,1546,262,1755,243,2034,213,2348,168,2507,139,2663,107,2724,92,2782,68,2795,62"/>
-<area shape="rect" title=" " alt="" coords="2897,5,3016,71"/>
-<area shape="poly" title=" " alt="" coords="2898,69,2839,93,2773,112,2602,148,2425,179,2249,204,2079,225,1773,254,1546,269,1546,264,1772,249,2078,220,2249,199,2424,174,2601,143,2772,107,2837,88,2896,64"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_1_1_asio_driver_v_table__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -1023,11 +1002,12 @@ Public Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave_1_1_asio.html">Asio</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver.html">AsioDriver</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_asio_1_1_asio_driver_1_1_asio_driver_v_table.html">AsioDriverVTable</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

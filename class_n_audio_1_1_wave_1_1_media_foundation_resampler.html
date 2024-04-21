@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.MediaFoundationResampler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -115,56 +139,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_media_foundation_resampler.
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.MediaFoundationResampler:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_media_foundation_resampler_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_media_foundation_resampler_inherit__map" id="a_n_audio_8_wave_8_media_foundation_resampler_inherit__map">
-<area shape="rect" title="The Media Foundation Resampler Transform." alt="" coords="13,712,213,1047"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html" title="An abstract base class for simplifying working with Media Foundation Transforms You need to override ..." alt="" coords="5,119,221,664"/>
-<area shape="poly" title=" " alt="" coords="116,679,116,712,111,712,111,679"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="9,5,106,71"/>
-<area shape="poly" title=" " alt="" coords="67,85,73,119,67,119,62,86"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="130,5,211,71"/>
-<area shape="poly" title=" " alt="" coords="166,86,160,119,155,119,160,85"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.MediaFoundationResampler:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_media_foundation_resampler_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_media_foundation_resampler_coll__map" id="a_n_audio_8_wave_8_media_foundation_resampler_coll__map">
-<area shape="rect" title="The Media Foundation Resampler Transform." alt="" coords="1285,1165,1485,1420"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html" title="An abstract base class for simplifying working with Media Foundation Transforms You need to override ..." alt="" coords="748,762,964,1087"/>
-<area shape="poly" title=" " alt="" coords="978,1007,1287,1220,1284,1225,975,1011"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="650,399,747,464"/>
-<area shape="poly" title=" " alt="" coords="710,478,732,573,763,683,790,761,785,763,757,685,727,574,705,479"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="1237,399,1318,464"/>
-<area shape="poly" title=" " alt="" coords="1290,478,1297,535,1297,603,1293,639,1285,674,1273,708,1256,740,1227,774,1195,803,1158,829,1120,851,1040,885,964,907,963,902,1038,880,1117,846,1155,825,1191,799,1224,770,1251,736,1268,706,1280,673,1288,638,1292,603,1291,535,1284,479"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="32,399,213,464"/>
-<area shape="poly" title=" " alt="" coords="129,463,141,522,163,596,180,634,200,672,225,706,254,736,309,776,368,810,430,838,494,860,620,893,731,911,731,916,619,898,493,866,428,843,365,814,306,780,251,740,221,710,196,675,175,637,158,598,136,523,124,464"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="238,179,437,684"/>
-<area shape="poly" title=" " alt="" coords="345,683,358,711,374,736,410,775,450,807,495,834,543,857,641,890,732,909,731,914,639,895,541,862,493,839,447,812,406,778,370,740,353,713,340,685"/>
-<area shape="rect" title=" " alt="" coords="5,5,147,71"/>
-<area shape="poly" title=" " alt="" coords="76,70,79,114,87,135,99,153,113,163,126,168,156,168,188,166,206,170,225,178,223,183,205,175,188,172,156,173,125,173,110,168,95,157,82,137,74,115,70,71"/>
-<area shape="rect" title=" " alt="" coords="190,5,231,71"/>
-<area shape="poly" title=" " alt="" coords="210,70,209,111,215,154,220,166,228,177,233,188,228,190,223,180,215,168,209,155,203,111,204,70"/>
-<area shape="rect" title=" " alt="" coords="499,5,525,71"/>
-<area shape="poly" title=" " alt="" coords="525,37,675,41,792,48,921,59,1052,76,1171,101,1223,116,1269,134,1306,154,1333,177,1340,213,1346,296,1360,559,1383,1148,1378,1148,1355,559,1341,296,1334,214,1328,180,1303,158,1266,139,1222,121,1170,106,1051,82,921,64,792,53,675,46,525,42"/>
-<area shape="poly" title=" " alt="" coords="512,71,501,199,494,380,494,472,498,558,509,631,526,683,544,713,566,742,618,792,676,834,734,868,732,873,673,839,615,796,562,745,540,716,521,685,503,632,493,559,488,473,488,379,496,199,506,70"/>
-<area shape="poly" title=" " alt="" coords="499,41,466,43,421,49,376,66,357,79,340,96,322,128,310,163,305,161,317,126,336,93,353,75,374,61,420,44,465,37,499,36"/>
-<area shape="rect" title=" " alt="" coords="772,399,809,464"/>
-<area shape="poly" title=" " alt="" coords="793,464,796,584,801,661,810,738,811,745,806,745,805,738,796,661,790,584,788,464"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_transform.html" title="IMFTransform, defined in mftransform.h." alt="" coords="833,299,1079,564"/>
-<area shape="poly" title=" " alt="" coords="932,564,895,746,890,745,927,563"/>
-<area shape="rect" title=" " alt="" coords="1103,399,1140,464"/>
-<area shape="poly" title=" " alt="" coords="1130,464,1135,511,1135,570,1122,631,1110,660,1093,686,1073,699,1053,701,1033,702,1012,710,966,752,962,748,1009,706,1032,697,1053,696,1071,694,1089,682,1105,657,1117,630,1129,570,1130,512,1125,464"/>
-<area shape="rect" title=" " alt="" coords="1164,399,1201,464"/>
-<area shape="poly" title=" " alt="" coords="1190,463,1194,519,1193,590,1180,667,1167,705,1149,739,1115,783,1073,821,1027,852,981,877,978,873,1024,847,1070,816,1111,779,1144,737,1162,703,1174,666,1187,590,1189,519,1185,464"/>
-<area shape="rect" title=" " alt="" coords="1393,892,1439,957"/>
-<area shape="poly" title=" " alt="" coords="1416,957,1400,1148,1395,1148,1411,957"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_activate.html" title="IMFActivate, defined in mfobjects.h." alt="" coords="1463,792,1697,1057"/>
-<area shape="poly" title=" " alt="" coords="1547,1058,1530,1101,1510,1143,1497,1165,1492,1162,1506,1140,1525,1099,1542,1056"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_attributes.html" title="Provides a generic way to store key/value pairs on an object. http://msdn.microsoft...." alt="" coords="1517,299,1643,564"/>
-<area shape="poly" title=" " alt="" coords="1583,579,1583,792,1577,792,1577,579"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -299,28 +279,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_ab7e85318c5cc7b4040e847577a73ee5a_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_ab7e85318c5cc7b4040e847577a73ee5a_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_ab7e85318c5cc7b4040e847577a73ee5a_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_ab7e85318c5cc7b4040e847577a73ee5a_cgraph">
-<area shape="rect" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,116,255,156"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a87f6fad61c251fff487f285e3dd1a03c" title="Creates and returns a resampler COM object based on the platform." alt="" coords="303,14,558,55"/>
-<area shape="poly" title=" " alt="" coords="182,112,302,68,336,57,338,62,304,73,184,117"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a3a3883bb1914e415144dd8931e9cdc98" title="Releases the specified COM object from memory." alt="" coords="328,82,533,123"/>
-<area shape="poly" title=" " alt="" coords="255,119,313,113,313,118,255,125"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a8b6080212a34c14b6643527b16703d3a" title="Checks if the given WaveFormat is PCM or IEEE Float and returns a boolean value." alt="" coords="328,148,533,188"/>
-<area shape="poly" title=" " alt="" coords="255,146,313,153,313,158,255,152"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a64dbbb824199204c5a8cf57515732a0f" title="Initializes the Media Foundation platform if not already initialized." alt="" coords="327,213,534,254"/>
-<area shape="poly" title=" " alt="" coords="184,154,304,197,331,206,329,211,302,202,182,159"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a8d8f5fbf5318edc19774c40623ad076a" title="Creates a resampler COM object using the Activator." alt="" coords="606,5,861,61"/>
-<area shape="poly" title=" " alt="" coords="558,31,590,31,590,36,558,37"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#aad9c82163178fdbbaefad47ccd1958a7" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="909,13,1147,54"/>
-<area shape="poly" title=" " alt="" coords="862,31,894,31,894,36,862,36"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a99952d1ef154226e93c108c63b3e964e" title="Enumerates Media Foundation transforms (MFTs) that match the specified search criteria." alt="" coords="1195,13,1401,54"/>
-<area shape="poly" title=" " alt="" coords="1147,31,1179,31,1179,36,1147,36"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_activate.html#a68528d22be6f92c31427fd9bc0599478" title="Shuts down the created object." alt="" coords="611,85,857,126"/>
-<area shape="poly" title=" " alt="" coords="533,101,595,101,595,107,533,106"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a97a12e88647b8859903e5be40b3c6b1c" title="Initializes the Media Foundation platform." alt="" coords="631,213,837,254"/>
-<area shape="poly" title=" " alt="" coords="534,231,615,231,615,236,534,236"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_ab7e85318c5cc7b4040e847577a73ee5a_cgraph.svg" width="100%" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -410,14 +369,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a0e5d50a4dbffa871b87b6d6cb61ef141_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a0e5d50a4dbffa871b87b6d6cb61ef141_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a0e5d50a4dbffa871b87b6d6cb61ef141_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a0e5d50a4dbffa871b87b6d6cb61ef141_cgraph">
-<area shape="rect" title="Creates a new WaveFormat for the output based on the input WaveFormat and the specified output sample..." alt="" coords="5,5,212,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a2dd0e9ea4097e54981725d6ad7c3290d" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="260,5,482,46"/>
-<area shape="poly" title=" " alt="" coords="212,23,244,23,244,28,212,28"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="530,5,746,46"/>
-<area shape="poly" title=" " alt="" coords="482,23,515,23,515,28,482,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a0e5d50a4dbffa871b87b6d6cb61ef141_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -450,28 +402,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_cgraph">
-<area shape="rect" title="Creates and returns a resampler COM object based on the platform." alt="" coords="5,13,261,54"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a8d8f5fbf5318edc19774c40623ad076a" title="Creates a resampler COM object using the Activator." alt="" coords="309,5,564,61"/>
-<area shape="poly" title=" " alt="" coords="261,31,293,31,293,36,261,36"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#aad9c82163178fdbbaefad47ccd1958a7" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="612,13,849,54"/>
-<area shape="poly" title=" " alt="" coords="564,31,596,31,596,36,564,36"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a99952d1ef154226e93c108c63b3e964e" title="Enumerates Media Foundation transforms (MFTs) that match the specified search criteria." alt="" coords="897,13,1104,54"/>
-<area shape="poly" title=" " alt="" coords="850,31,882,31,882,36,850,36"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_icgraph">
-<area shape="rect" title="Creates and returns a resampler COM object based on the platform." alt="" coords="303,39,558,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab241afe826a93e01d79dd284f6d70ca4" title="Creates and configures a resampler transform for media format conversion." alt="" coords="28,5,232,46"/>
-<area shape="poly" title=" " alt="" coords="287,46,232,40,233,34,288,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,71,255,111"/>
-<area shape="poly" title=" " alt="" coords="287,77,255,80,255,75,287,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a87f6fad61c251fff487f285e3dd1a03c_icgraph.svg" width="564" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -505,28 +441,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_cgraph">
-<area shape="rect" title="Creates a resampler COM object using the Activator." alt="" coords="5,5,261,61"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#aad9c82163178fdbbaefad47ccd1958a7" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="309,13,546,54"/>
-<area shape="poly" title=" " alt="" coords="261,31,293,31,293,36,261,36"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a99952d1ef154226e93c108c63b3e964e" title="Enumerates Media Foundation transforms (MFTs) that match the specified search criteria." alt="" coords="594,13,800,54"/>
-<area shape="poly" title=" " alt="" coords="547,31,578,31,578,36,547,36"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_icgraph">
-<area shape="rect" title="Creates a resampler COM object using the Activator." alt="" coords="606,31,861,87"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a87f6fad61c251fff487f285e3dd1a03c" title="Creates and returns a resampler COM object based on the platform." alt="" coords="303,39,558,79"/>
-<area shape="poly" title=" " alt="" coords="591,62,559,62,559,56,591,56"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab241afe826a93e01d79dd284f6d70ca4" title="Creates and configures a resampler transform for media format conversion." alt="" coords="28,5,232,46"/>
-<area shape="poly" title=" " alt="" coords="287,46,232,40,233,34,288,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,71,255,111"/>
-<area shape="poly" title=" " alt="" coords="287,77,255,80,255,75,287,72"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a8d8f5fbf5318edc19774c40623ad076a_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -560,22 +480,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_ab241afe826a93e01d79dd284f6d70ca4_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_ab241afe826a93e01d79dd284f6d70ca4_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_ab241afe826a93e01d79dd284f6d70ca4_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_ab241afe826a93e01d79dd284f6d70ca4_cgraph">
-<area shape="rect" title="Creates and configures a resampler transform for media format conversion." alt="" coords="5,49,210,90"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#ad696d151e32131cfe49553e795444462" title="Creates a new IMFMediaType object from the provided WaveFormat." alt="" coords="265,5,506,61"/>
-<area shape="poly" title=" " alt="" coords="210,53,249,48,250,53,210,59"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a87f6fad61c251fff487f285e3dd1a03c" title="Creates and returns a resampler COM object based on the platform." alt="" coords="258,85,513,126"/>
-<area shape="poly" title=" " alt="" coords="210,80,242,84,242,89,210,85"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a87f6600a7b55fae9f4b789e0129bb2b7" title="Creates a new instance of IMFMediaType." alt="" coords="584,13,794,54"/>
-<area shape="poly" title=" " alt="" coords="506,31,568,31,568,36,506,36"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a8d8f5fbf5318edc19774c40623ad076a" title="Creates a resampler COM object using the Activator." alt="" coords="561,77,816,133"/>
-<area shape="poly" title=" " alt="" coords="513,103,545,103,545,108,513,108"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#aad9c82163178fdbbaefad47ccd1958a7" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="864,85,1102,126"/>
-<area shape="poly" title=" " alt="" coords="817,103,849,103,849,108,817,108"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a99952d1ef154226e93c108c63b3e964e" title="Enumerates Media Foundation transforms (MFTs) that match the specified search criteria." alt="" coords="1150,85,1356,126"/>
-<area shape="poly" title=" " alt="" coords="1102,103,1134,103,1134,108,1102,108"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_ab241afe826a93e01d79dd284f6d70ca4_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -616,12 +521,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a6b141f6ffd478016f956ad11dde43a59_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a6b141f6ffd478016f956ad11dde43a59_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a6b141f6ffd478016f956ad11dde43a59_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a6b141f6ffd478016f956ad11dde43a59_cgraph">
-<area shape="rect" title="Releases the unmanaged resources used by the component and optionally releases the managed resources." alt="" coords="5,5,210,46"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_activate.html#a68528d22be6f92c31427fd9bc0599478" title="Shuts down the created object." alt="" coords="258,5,504,46"/>
-<area shape="poly" title=" " alt="" coords="210,23,242,23,242,28,210,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a6b141f6ffd478016f956ad11dde43a59_cgraph.svg" width="510" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -666,22 +566,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_cgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_cgraph">
-<area shape="rect" title="Releases the specified COM object from memory." alt="" coords="5,5,210,46"/>
-<area shape="rect" href="interface_n_audio_1_1_media_foundation_1_1_i_m_f_activate.html#a68528d22be6f92c31427fd9bc0599478" title="Shuts down the created object." alt="" coords="258,5,504,46"/>
-<area shape="poly" title=" " alt="" coords="210,23,242,23,242,28,210,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_cgraph.svg" width="510" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_icgraph">
-<area shape="rect" title="Releases the specified COM object from memory." alt="" coords="303,5,507,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,5,255,46"/>
-<area shape="poly" title=" " alt="" coords="287,28,255,28,255,23,287,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a3a3883bb1914e415144dd8931e9cdc98_icgraph.svg" width="512" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -720,12 +610,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a8b6080212a34c14b6643527b16703d3a_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a8b6080212a34c14b6643527b16703d3a_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a8b6080212a34c14b6643527b16703d3a_icgraph" id="aclass_n_audio_1_1_wave_1_1_media_foundation_resampler_a8b6080212a34c14b6643527b16703d3a_icgraph">
-<area shape="rect" title="Checks if the given WaveFormat is PCM or IEEE Float and returns a boolean value." alt="" coords="303,5,507,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,5,255,46"/>
-<area shape="poly" title=" " alt="" coords="287,28,255,28,255,23,287,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_media_foundation_resampler_a8b6080212a34c14b6643527b16703d3a_icgraph.svg" width="512" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -849,11 +734,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html">MediaFoundationResampler</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

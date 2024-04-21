@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Midi.MetaEvent Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,51 +137,12 @@ $(function(){initNavTree('class_n_audio_1_1_midi_1_1_meta_event.html',''); initR
 <div class="dynheader">
 Inheritance diagram for NAudio.Midi.MetaEvent:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_meta_event__inherit__graph.png" border="0" usemap="#a_n_audio_8_midi_8_meta_event_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_midi_8_meta_event_inherit__map" id="a_n_audio_8_midi_8_meta_event_inherit__map">
-<area shape="rect" title="Represents a MIDI meta event." alt="" coords="751,632,902,837"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_key_signature_event.html" title="Represents a MIDI key signature event event." alt="" coords="5,938,171,1158"/>
-<area shape="poly" title=" " alt="" coords="737,738,617,745,547,754,473,768,397,787,322,813,250,846,184,887,159,911,137,940,133,937,155,908,181,883,248,841,320,808,395,782,472,763,546,749,617,740,736,733"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_raw_meta_event.html" title="Represents a MIDI meta event with raw data." alt="" coords="195,985,373,1111"/>
-<area shape="poly" title=" " alt="" coords="737,751,657,768,565,795,472,834,428,859,387,887,364,909,344,934,312,987,307,984,339,931,360,906,384,883,425,854,469,829,563,790,655,763,736,746"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_sequencer_specific_event.html" title="Represents a Sequencer Specific event." alt="" coords="397,958,595,1138"/>
-<area shape="poly" title=" " alt="" coords="740,787,673,833,609,887,578,922,550,960,546,957,573,919,605,883,670,828,737,783"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_smpte_offset_event.html" title="SMPTE Offset Event." alt="" coords="619,885,815,1211"/>
-<area shape="poly" title=" " alt="" coords="788,853,776,887,771,885,783,851"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_tempo_event.html" title="Represents a MIDI tempo event." alt="" coords="839,955,1035,1141"/>
-<area shape="poly" title=" " alt="" coords="870,850,907,955,902,956,865,852"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_text_event.html" title="Represents a MIDI text event." alt="" coords="1060,955,1207,1141"/>
-<area shape="poly" title=" " alt="" coords="916,779,985,825,1019,853,1050,884,1076,917,1097,954,1093,957,1071,920,1046,887,1016,857,982,830,913,784"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_time_signature_event.html" title="Represents a MIDI time signature event." alt="" coords="1231,888,1417,1208"/>
-<area shape="poly" title=" " alt="" coords="917,751,988,770,1067,797,1147,835,1185,858,1220,883,1233,895,1230,899,1217,887,1182,862,1145,840,1065,802,987,775,916,756"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_track_sequence_number_event.html" title="Represents a MIDI track sequence number event event." alt="" coords="1441,968,1644,1128"/>
-<area shape="poly" title=" " alt="" coords="917,736,1028,747,1161,772,1231,791,1301,815,1368,846,1431,883,1473,922,1506,967,1501,970,1469,925,1428,887,1366,851,1299,820,1230,796,1160,777,1027,753,916,742"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="751,119,903,584"/>
-<area shape="poly" title=" " alt="" coords="829,599,829,632,824,632,824,599"/>
-<area shape="rect" href="class_i_cloneable.html" title=" " alt="" coords="789,5,864,71"/>
-<area shape="poly" title=" " alt="" coords="829,85,829,119,824,119,824,85"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_meta_event__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Midi.MetaEvent:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_meta_event__coll__graph.png" border="0" usemap="#a_n_audio_8_midi_8_meta_event_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_midi_8_meta_event_coll__map" id="a_n_audio_8_midi_8_meta_event_coll__map">
-<area shape="rect" title="Represents a MIDI meta event." alt="" coords="169,597,320,762"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_event.html" title="Represents an individual MIDI event." alt="" coords="168,149,320,534"/>
-<area shape="poly" title=" " alt="" coords="247,549,247,597,242,597,242,549"/>
-<area shape="rect" href="class_i_cloneable.html" title=" " alt="" coords="368,5,443,71"/>
-<area shape="poly" title=" " alt="" coords="403,86,396,107,384,126,371,136,358,140,346,143,334,151,322,164,318,160,331,147,344,138,357,135,369,131,380,123,391,105,398,84"/>
-<area shape="rect" title=" " alt="" coords="108,5,236,71"/>
-<area shape="poly" title=" " alt="" coords="178,70,187,124,189,132,183,133,182,125,173,71"/>
-<area shape="rect" title=" " alt="" coords="40,5,67,71"/>
-<area shape="poly" title=" " alt="" coords="47,71,26,156,17,212,10,274,8,339,13,406,27,471,51,533,71,564,97,591,126,615,156,634,153,639,123,619,93,595,67,567,46,535,22,473,8,407,3,340,5,273,11,211,21,155,41,70"/>
-<area shape="poly" title=" " alt="" coords="69,61,90,92,116,123,134,134,152,147,160,157,156,161,148,151,131,138,112,127,85,95,65,64"/>
-<area shape="rect" title=" " alt="" coords="280,5,318,71"/>
-<area shape="poly" title=" " alt="" coords="296,71,285,133,280,132,291,70"/>
-<area shape="rect" title=" " alt="" coords="344,309,448,374"/>
-<area shape="poly" title=" " alt="" coords="391,375,368,449,335,535,309,584,305,581,330,533,363,447,386,373"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_meta_event__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -277,16 +262,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_meta_event_ac1742de466bb61e6cb2719d569a67392_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_meta_event_ac1742de466bb61e6cb2719d569a67392_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_meta_event_ac1742de466bb61e6cb2719d569a67392_icgraph" id="aclass_n_audio_1_1_midi_1_1_meta_event_ac1742de466bb61e6cb2719d569a67392_icgraph">
-<area shape="rect" title="Empty constructor." alt="" coords="723,5,916,46"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_meta_event.html#a42202bbde63421b85a34a92e4574655b" title="Reads a meta event from the provided BinaryReader and returns the corresponding MetaEvent object." alt="" coords="481,5,675,46"/>
-<area shape="poly" title=" " alt="" coords="708,28,676,28,676,23,708,23"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_event.html#aa07c093ef6d5c60dfc2bf669bd179c86" title="Reads the next MIDI event from the BinaryReader and returns the corresponding MidiEvent." alt="" coords="244,5,433,46"/>
-<area shape="poly" title=" " alt="" coords="465,28,433,28,433,23,465,23"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_file.html#a8b288d8e81803e8a8ad9591ec02533f9" title=" " alt="" coords="5,13,196,39"/>
-<area shape="poly" title=" " alt="" coords="228,28,196,28,196,23,228,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_meta_event_ac1742de466bb61e6cb2719d569a67392_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -411,12 +387,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_meta_event_a7fc62bbe7b31d7b58e27b94b107b1b16_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_meta_event_a7fc62bbe7b31d7b58e27b94b107b1b16_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_meta_event_a7fc62bbe7b31d7b58e27b94b107b1b16_cgraph" id="aclass_n_audio_1_1_midi_1_1_meta_event_a7fc62bbe7b31d7b58e27b94b107b1b16_cgraph">
-<area shape="rect" title="Exports the meta event and its associated data to a binary writer." alt="" coords="5,13,207,39"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_event.html#aa97dd2bcb275ab1d603ef9984be22c2a" title="Writes a variable&#45;length encoded integer to the specified BinaryWriter." alt="" coords="255,5,443,46"/>
-<area shape="poly" title=" " alt="" coords="207,23,239,23,239,28,207,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_meta_event_a7fc62bbe7b31d7b58e27b94b107b1b16_cgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -462,26 +433,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_cgraph" id="aclass_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_cgraph">
-<area shape="rect" title="Reads a meta event from the provided BinaryReader and returns the corresponding MetaEvent object." alt="" coords="5,39,200,79"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_meta_event.html#ac1742de466bb61e6cb2719d569a67392" title="Empty constructor." alt="" coords="248,5,440,46"/>
-<area shape="poly" title=" " alt="" coords="200,43,232,38,233,44,201,48"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_event.html#a027a6257387a9cfaa8b6f1993b75d576" title="Reads a variable&#45;length encoded integer from the provided BinaryReader and returns the result." alt="" coords="249,71,439,111"/>
-<area shape="poly" title=" " alt="" coords="201,69,234,74,233,79,200,75"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_cgraph.svg" width="446" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_icgraph" id="aclass_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_icgraph">
-<area shape="rect" title="Reads a meta event from the provided BinaryReader and returns the corresponding MetaEvent object." alt="" coords="481,5,675,46"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_event.html#aa07c093ef6d5c60dfc2bf669bd179c86" title="Reads the next MIDI event from the BinaryReader and returns the corresponding MidiEvent." alt="" coords="244,5,433,46"/>
-<area shape="poly" title=" " alt="" coords="465,28,433,28,433,23,465,23"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_file.html#a8b288d8e81803e8a8ad9591ec02533f9" title=" " alt="" coords="5,13,196,39"/>
-<area shape="poly" title=" " alt="" coords="228,28,196,28,196,23,228,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_meta_event_a42202bbde63421b85a34a92e4574655b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -567,11 +524,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_midi.html">Midi</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_midi_1_1_meta_event.html">MetaEvent</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

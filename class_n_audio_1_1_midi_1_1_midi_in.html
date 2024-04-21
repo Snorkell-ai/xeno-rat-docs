@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Midi.MidiIn Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -115,30 +139,12 @@ $(function(){initNavTree('class_n_audio_1_1_midi_1_1_midi_in.html',''); initResi
 <div class="dynheader">
 Inheritance diagram for NAudio.Midi.MidiIn:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in__inherit__graph.png" border="0" usemap="#a_n_audio_8_midi_8_midi_in_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_midi_8_midi_in_inherit__map" id="a_n_audio_8_midi_8_midi_in_inherit__map">
-<area shape="rect" title="Represents a MIDI in device." alt="" coords="5,119,155,464"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="39,5,121,71"/>
-<area shape="poly" title=" " alt="" coords="83,86,83,119,77,119,77,86"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in__inherit__graph.svg" width="160" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Midi.MidiIn:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in__coll__graph.png" border="0" usemap="#a_n_audio_8_midi_8_midi_in_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_midi_8_midi_in_coll__map" id="a_n_audio_8_midi_8_midi_in_coll__map">
-<area shape="rect" title="Represents a MIDI in device." alt="" coords="139,492,289,757"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="5,249,87,314"/>
-<area shape="poly" title=" " alt="" coords="66,327,102,413,142,494,137,496,97,415,61,329"/>
-<area shape="rect" title=" " alt="" coords="111,249,157,314"/>
-<area shape="poly" title=" " alt="" coords="133,313,129,385,131,426,138,467,140,475,135,477,133,469,126,427,124,385,127,313"/>
-<area shape="rect" title=" " alt="" coords="275,249,313,314"/>
-<area shape="poly" title=" " alt="" coords="293,314,283,385,267,469,265,477,260,475,262,467,278,384,288,313"/>
-<area shape="rect" title=" " alt="" coords="337,149,489,414"/>
-<area shape="poly" title=" " alt="" coords="367,415,339,469,301,526,297,523,334,467,362,413"/>
-<area shape="rect" title=" " alt="" coords="399,5,426,71"/>
-<area shape="poly" title=" " alt="" coords="415,70,415,132,410,132,410,70"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -251,16 +257,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_aab520b6c8489dd27aedebc0d583f5667_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_aab520b6c8489dd27aedebc0d583f5667_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_aab520b6c8489dd27aedebc0d583f5667_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_aab520b6c8489dd27aedebc0d583f5667_cgraph">
-<area shape="rect" title="Opens a specified MIDI in device." alt="" coords="5,31,176,56"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_in.html#afa6146a75fe3b676b6b65b172eb48c99" title="Callback function for handling MIDI input messages." alt="" coords="224,5,410,31"/>
-<area shape="poly" title=" " alt="" coords="175,31,208,28,208,33,176,37"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="231,55,403,80"/>
-<area shape="poly" title=" " alt="" coords="176,50,216,54,215,59,175,55"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="458,55,690,80"/>
-<area shape="poly" title=" " alt="" coords="403,65,442,65,442,70,403,70"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_aab520b6c8489dd27aedebc0d583f5667_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -292,13 +289,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_a23eb1a86b6f97c0ad5e7e9cfa88f8690_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_a23eb1a86b6f97c0ad5e7e9cfa88f8690_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_a23eb1a86b6f97c0ad5e7e9cfa88f8690_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_a23eb1a86b6f97c0ad5e7e9cfa88f8690_cgraph">
-<area shape="rect" title="Cleanup." alt="" coords="5,22,141,63"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_in.html#a8407f0eb1ffa89b57c45f69dc9cb9f35" title="Releases the unmanaged resources used by the MidiIn class and optionally releases the managed resourc..." alt="" coords="189,29,372,55"/>
-<area shape="poly" title=" " alt="" coords="141,40,173,40,173,45,141,45"/>
-<area shape="poly" title=" " alt="" coords="246,31,239,21,243,11,257,5,280,3,306,5,319,12,316,17,304,10,280,8,258,10,247,15,244,20,250,27"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_a23eb1a86b6f97c0ad5e7e9cfa88f8690_cgraph.svg" width="378" height="68"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -361,12 +352,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_afa6146a75fe3b676b6b65b172eb48c99_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_afa6146a75fe3b676b6b65b172eb48c99_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_afa6146a75fe3b676b6b65b172eb48c99_icgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_afa6146a75fe3b676b6b65b172eb48c99_icgraph">
-<area shape="rect" title="Callback function for handling MIDI input messages." alt="" coords="224,5,410,31"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_in.html#aab520b6c8489dd27aedebc0d583f5667" title="Opens a specified MIDI in device." alt="" coords="5,5,176,31"/>
-<area shape="poly" title=" " alt="" coords="208,21,176,21,176,16,208,16"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_afa6146a75fe3b676b6b65b172eb48c99_icgraph.svg" width="416" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -399,13 +385,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_a1a8d2ef64fe44269fb7b93534bf5196d_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_a1a8d2ef64fe44269fb7b93534bf5196d_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_a1a8d2ef64fe44269fb7b93534bf5196d_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_a1a8d2ef64fe44269fb7b93534bf5196d_cgraph">
-<area shape="rect" title="Closes the current object by calling the Dispose method." alt="" coords="5,29,175,55"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_in.html#a8407f0eb1ffa89b57c45f69dc9cb9f35" title="Releases the unmanaged resources used by the MidiIn class and optionally releases the managed resourc..." alt="" coords="223,29,406,55"/>
-<area shape="poly" title=" " alt="" coords="175,40,207,40,207,45,175,45"/>
-<area shape="poly" title=" " alt="" coords="277,31,270,21,274,11,289,5,314,3,342,5,356,12,353,17,340,10,314,8,291,10,278,15,275,20,281,27"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_a1a8d2ef64fe44269fb7b93534bf5196d_cgraph.svg" width="412" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -455,14 +435,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_acd0823452c62ca12456a47355cf54781_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_acd0823452c62ca12456a47355cf54781_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_acd0823452c62ca12456a47355cf54781_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_acd0823452c62ca12456a47355cf54781_cgraph">
-<area shape="rect" title="Creates sysex buffers for MIDI input." alt="" coords="5,5,180,46"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="228,13,399,39"/>
-<area shape="poly" title=" " alt="" coords="180,23,212,23,212,28,180,28"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="447,13,679,39"/>
-<area shape="poly" title=" " alt="" coords="399,23,431,23,431,28,399,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_acd0823452c62ca12456a47355cf54781_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -507,14 +480,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_a8831251822f5cf28cf5811e1a411e6db_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_a8831251822f5cf28cf5811e1a411e6db_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_a8831251822f5cf28cf5811e1a411e6db_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_a8831251822f5cf28cf5811e1a411e6db_cgraph">
-<area shape="rect" title="Retrieves the capabilities of the specified MIDI input device." alt="" coords="5,5,204,31"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="252,5,423,31"/>
-<area shape="poly" title=" " alt="" coords="204,16,236,16,236,21,204,21"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="471,5,703,31"/>
-<area shape="poly" title=" " alt="" coords="423,16,455,16,455,21,423,21"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_a8831251822f5cf28cf5811e1a411e6db_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -553,24 +519,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_cgraph">
-<area shape="rect" title="Releases the unmanaged resources used by the MidiIn class and optionally releases the managed resourc..." alt="" coords="5,29,189,55"/>
-<area shape="poly" title=" " alt="" coords="66,30,60,21,64,11,76,5,97,3,119,5,131,12,128,16,118,10,97,8,78,10,68,15,65,20,71,27"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_cgraph.svg" width="195" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_icgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_icgraph">
-<area shape="rect" title="Releases the unmanaged resources used by the MidiIn class and optionally releases the managed resourc..." alt="" coords="223,35,406,60"/>
-<area shape="poly" title=" " alt="" coords="353,22,340,16,314,13,291,15,278,20,275,25,281,33,277,36,270,26,274,16,289,10,314,8,342,11,356,18"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_in.html#a1a8d2ef64fe44269fb7b93534bf5196d" title="Closes the current object by calling the Dispose method." alt="" coords="5,5,175,31"/>
-<area shape="poly" title=" " alt="" coords="207,36,175,32,176,27,207,31"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_in.html#a23eb1a86b6f97c0ad5e7e9cfa88f8690" title="Cleanup." alt="" coords="22,55,158,96"/>
-<area shape="poly" title=" " alt="" coords="207,64,159,70,158,64,207,58"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_a8407f0eb1ffa89b57c45f69dc9cb9f35_icgraph.svg" width="412" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -608,14 +562,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_abe9c4d651e710084ad994a2e41bdb477_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_abe9c4d651e710084ad994a2e41bdb477_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_abe9c4d651e710084ad994a2e41bdb477_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_abe9c4d651e710084ad994a2e41bdb477_cgraph">
-<area shape="rect" title="Closes the MIDI out device." alt="" coords="5,5,189,31"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="237,5,408,31"/>
-<area shape="poly" title=" " alt="" coords="189,16,221,16,221,21,189,21"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="456,5,688,31"/>
-<area shape="poly" title=" " alt="" coords="408,16,440,16,440,21,408,21"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_abe9c4d651e710084ad994a2e41bdb477_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -653,14 +600,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_a26146b2fe9cabe7422b48e03d1650756_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_a26146b2fe9cabe7422b48e03d1650756_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_a26146b2fe9cabe7422b48e03d1650756_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_a26146b2fe9cabe7422b48e03d1650756_cgraph">
-<area shape="rect" title="Resets the MIDI input device to its default state." alt="" coords="5,5,176,31"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="224,5,395,31"/>
-<area shape="poly" title=" " alt="" coords="176,16,208,16,208,21,176,21"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="443,5,675,31"/>
-<area shape="poly" title=" " alt="" coords="395,16,427,16,427,21,395,21"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_a26146b2fe9cabe7422b48e03d1650756_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -698,14 +638,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_aedc91a199e68d57d838bf6de15fd6576_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_aedc91a199e68d57d838bf6de15fd6576_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_aedc91a199e68d57d838bf6de15fd6576_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_aedc91a199e68d57d838bf6de15fd6576_cgraph">
-<area shape="rect" title="Starts the MIDI input device." alt="" coords="5,5,169,31"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="217,5,388,31"/>
-<area shape="poly" title=" " alt="" coords="169,16,201,16,201,21,169,21"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="436,5,668,31"/>
-<area shape="poly" title=" " alt="" coords="388,16,420,16,420,21,388,21"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_aedc91a199e68d57d838bf6de15fd6576_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -743,14 +676,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_in_ae76c1adcf7d2dd01d393ebe1bfae7e3a_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_in_ae76c1adcf7d2dd01d393ebe1bfae7e3a_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_in_ae76c1adcf7d2dd01d393ebe1bfae7e3a_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_in_ae76c1adcf7d2dd01d393ebe1bfae7e3a_cgraph">
-<area shape="rect" title="Stops the MIDI input device." alt="" coords="5,5,168,31"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="216,5,387,31"/>
-<area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="435,5,667,31"/>
-<area shape="poly" title=" " alt="" coords="387,16,419,16,419,21,387,21"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_in_ae76c1adcf7d2dd01d393ebe1bfae7e3a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -923,11 +849,12 @@ Here is the call graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_midi.html">Midi</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_midi_1_1_midi_in.html">MidiIn</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

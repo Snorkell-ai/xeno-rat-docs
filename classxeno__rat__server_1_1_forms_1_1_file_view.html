@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: xeno_rat_server.Forms.FileView Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -107,35 +131,7 @@ $(function(){initNavTree('classxeno__rat__server_1_1_forms_1_1_file_view.html','
 <div class="dynheader">
 Collaboration diagram for xeno_rat_server.Forms.FileView:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_file_view__coll__graph.png" border="0" usemap="#axeno__rat__server_8_forms_8_file_view_coll__map" alt="Collaboration graph"/></div>
-<map name="axeno__rat__server_8_forms_8_file_view_coll__map" id="axeno__rat__server_8_forms_8_file_view_coll__map">
-<area shape="rect" title=" " alt="" coords="707,950,907,1056"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html" title=" " alt="" coords="709,482,905,887"/>
-<area shape="poly" title=" " alt="" coords="810,887,810,934,805,934,805,887"/>
-<area shape="poly" title=" " alt="" coords="907,643,925,658,932,685,929,703,921,716,917,713,924,701,927,685,920,661,903,647"/>
-<area shape="rect" title=" " alt="" coords="5,244,111,309"/>
-<area shape="poly" title=" " alt="" coords="51,309,44,343,41,382,45,421,52,440,62,456,79,475,102,493,165,526,244,557,334,585,525,631,693,663,692,668,524,637,333,591,243,563,163,531,100,497,75,479,58,460,47,442,40,423,35,382,38,342,45,308"/>
-<area shape="rect" title=" " alt="" coords="211,5,249,71"/>
-<area shape="poly" title=" " alt="" coords="228,71,222,139,224,230,231,279,242,328,260,375,285,417,325,465,372,508,424,544,479,576,536,602,591,624,693,656,692,661,590,629,534,607,477,580,421,549,369,512,321,469,280,421,255,377,237,329,225,280,219,230,217,139,223,70"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html" title=" " alt="" coords="371,134,571,419"/>
-<area shape="poly" title=" " alt="" coords="250,59,296,108,361,172,358,176,292,112,247,63"/>
-<area shape="rect" title=" " alt="" coords="834,236,991,316"/>
-<area shape="poly" title=" " alt="" coords="905,317,866,466,861,465,900,316"/>
-<area shape="rect" title=" " alt="" coords="1015,236,1151,316"/>
-<area shape="poly" title=" " alt="" coords="1065,318,1006,420,918,546,913,542,1001,418,1061,315"/>
-<area shape="rect" title=" " alt="" coords="1176,244,1361,309"/>
-<area shape="poly" title=" " alt="" coords="1250,310,1213,363,1165,421,1107,478,1044,531,921,618,918,614,1041,526,1104,474,1161,417,1208,360,1246,307"/>
-<area shape="rect" title=" " alt="" coords="1386,236,1519,316"/>
-<area shape="poly" title=" " alt="" coords="1441,317,1416,370,1397,397,1376,421,1324,465,1267,504,1207,539,1146,570,1027,620,923,656,921,651,1025,615,1144,565,1205,534,1264,500,1320,460,1372,417,1393,394,1411,367,1437,315"/>
-<area shape="poly" title=" " alt="" coords="573,397,701,550,697,554,569,400"/>
-<area shape="rect" title=" " alt="" coords="374,5,427,71"/>
-<area shape="poly" title=" " alt="" coords="413,70,427,117,422,118,407,71"/>
-<area shape="rect" title=" " alt="" coords="453,5,490,71"/>
-<area shape="poly" title=" " alt="" coords="474,71,474,117,469,117,469,71"/>
-<area shape="rect" title=" " alt="" coords="637,5,663,71"/>
-<area shape="poly" title=" " alt="" coords="666,56,686,94,699,142,706,183,707,255,705,328,708,370,717,418,728,465,723,466,711,420,703,370,700,328,701,255,700,184,694,143,681,96,661,58"/>
-<area shape="poly" title=" " alt="" coords="639,55,602,96,582,122,578,119,598,93,635,51"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_file_view__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -216,82 +212,12 @@ Public Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_cgraph">
-<area shape="rect" title="Retrieves information about the files and directories at the specified path." alt="" coords="5,169,185,210"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="1013,5,1220,46"/>
-<area shape="poly" title=" " alt="" coords="153,166,261,130,408,86,575,43,661,26,747,12,805,7,850,7,954,12,998,14,997,20,954,18,850,12,805,12,748,18,662,31,576,49,409,91,263,135,155,171"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="233,169,433,210"/>
-<area shape="poly" title=" " alt="" coords="185,187,217,187,217,192,185,192"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="242,243,424,283"/>
-<area shape="poly" title=" " alt="" coords="164,208,250,235,249,240,162,213"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="481,250,699,276"/>
-<area shape="poly" title=" " alt="" coords="408,208,529,243,527,248,406,213"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="487,161,693,202"/>
-<area shape="poly" title=" " alt="" coords="433,184,471,183,471,188,433,189"/>
-<area shape="poly" title=" " alt="" coords="548,252,539,242,544,232,562,226,590,224,622,226,638,233,636,238,621,231,590,229,563,231,548,236,545,241,552,248"/>
-<area shape="poly" title=" " alt="" coords="607,159,664,101,703,72,746,49,809,29,874,18,938,13,998,13,998,18,938,18,875,23,810,34,748,53,706,76,667,105,610,163"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="747,128,954,169"/>
-<area shape="poly" title=" " alt="" coords="693,166,732,161,732,166,694,171"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="751,193,950,234"/>
-<area shape="poly" title=" " alt="" coords="694,192,736,197,735,202,693,197"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="759,259,942,299"/>
-<area shape="poly" title=" " alt="" coords="673,200,701,211,725,227,749,243,764,250,762,255,746,248,722,232,698,216,671,205"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="747,63,954,103"/>
-<area shape="poly" title=" " alt="" coords="637,158,746,114,767,106,769,111,748,119,640,163"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="747,324,954,365"/>
-<area shape="poly" title=" " alt="" coords="684,200,701,212,713,224,720,237,726,261,732,286,738,297,749,309,755,314,752,318,746,313,734,301,727,288,721,263,715,239,708,227,698,216,681,205"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1017,193,1216,234"/>
-<area shape="poly" title=" " alt="" coords="950,211,1002,211,1002,216,950,216"/>
-<area shape="poly" title=" " alt="" coords="947,59,1003,47,1004,52,949,65"/>
-<area shape="poly" title=" " alt="" coords="424,260,465,260,465,266,424,266"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="487,455,693,495"/>
-<area shape="poly" title=" " alt="" coords="361,282,554,442,550,446,357,286"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="751,389,950,430"/>
-<area shape="poly" title=" " alt="" coords="673,451,751,432,752,437,675,457"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="747,455,954,495"/>
-<area shape="poly" title=" " alt="" coords="694,472,732,472,732,478,694,478"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="759,520,942,561"/>
-<area shape="poly" title=" " alt="" coords="675,493,752,513,751,518,673,499"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="747,585,954,626"/>
-<area shape="poly" title=" " alt="" coords="622,494,679,532,749,570,765,577,763,582,746,575,676,536,619,498"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1017,292,1216,333"/>
-<area shape="poly" title=" " alt="" coords="922,386,952,374,976,359,1000,343,1018,336,1020,341,1003,348,979,363,955,379,924,391"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1017,357,1216,398"/>
-<area shape="poly" title=" " alt="" coords="950,395,1001,389,1002,394,951,400"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1017,423,1216,463"/>
-<area shape="poly" title=" " alt="" coords="951,419,1002,426,1001,431,950,425"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1002,488,1231,529"/>
-<area shape="poly" title=" " alt="" coords="925,428,955,441,979,457,1003,473,1019,480,1017,485,1000,477,976,461,952,445,923,433"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_icgraph">
-<area shape="rect" title="Retrieves information about the files and directories at the specified path." alt="" coords="1075,125,1254,166"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#a083a998d5ecaef109c8d416336dfa32a" title="Updates the list view without invoking the UI thread, using the provided file path." alt="" coords="790,125,1027,166"/>
-<area shape="poly" title=" " alt="" coords="1059,148,1027,148,1027,143,1059,143"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#a52b4bc7ed29e3d23318af10975ba41ba" title="Asynchronously updates the list view with the contents of the specified directory without requiring a..." alt="" coords="527,125,706,166"/>
-<area shape="poly" title=" " alt="" coords="775,148,707,148,707,143,775,143"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#aca28d2353ab43040e4910f115f3888e8" title="Deletes the file associated with the selected menu item and updates the list view." alt="" coords="510,7,724,47"/>
-<area shape="poly" title=" " alt="" coords="850,121,741,72,682,50,684,45,743,67,853,116"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#aea9c6d166f9c6f554e8aaa3db9783ab3" title="Initializes the object asynchronously by creating a FileViewer, sending type, and updating the list v..." alt="" coords="248,71,428,111"/>
-<area shape="poly" title=" " alt="" coords="796,125,742,116,575,102,428,95,428,90,576,96,743,111,796,119"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#a02fec52a8333ac9e996db61c9facf5d4" title="Handles the event when the user double&#45;clicks on an item in the list view." alt="" coords="491,191,742,231"/>
-<area shape="poly" title=" " alt="" coords="800,173,711,193,710,187,799,167"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#a58670d546f9e584049d6db1c5c51bcd1" title="Handles the KeyDown event for textBox1 and updates the ListView if the Enter key is pressed." alt="" coords="518,256,715,297"/>
-<area shape="poly" title=" " alt="" coords="866,177,809,212,743,245,709,258,707,253,741,241,807,208,864,173"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#a5494a4a5c5c535545adc45ee3a0d438a" title="Initializes the components of the form, including tab controls, buttons, text boxes,..." alt="" coords="240,136,436,177"/>
-<area shape="poly" title=" " alt="" coords="511,152,437,155,436,150,511,147"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#a7ed7c5b7981d18cefff899f885faa89b" title=" " alt="" coords="5,104,185,145"/>
-<area shape="poly" title=" " alt="" coords="224,144,185,139,186,134,224,139"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#aa875185f0c0df6b530838d86fff9a442" title="Handles the mouse click event on the listView1 control, and displays a context menu with options base..." alt="" coords="233,5,443,46"/>
-<area shape="poly" title=" " alt="" coords="494,29,443,29,443,24,494,24"/>
-<area shape="poly" title=" " alt="" coords="233,108,185,115,185,109,232,103"/>
-<area shape="poly" title=" " alt="" coords="511,253,490,245,424,213,369,179,371,175,426,208,492,241,513,248"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_file_view_a5ce44efa20d5f3a71da3260cbfe2e80f_icgraph.svg" width="100%" height="527"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -324,45 +250,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_cgraph">
-<area shape="rect" title="Sends the specified type using the client&#39;s SendAsync method." alt="" coords="5,175,185,215"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="233,175,415,215"/>
-<area shape="poly" title=" " alt="" coords="185,192,217,192,217,198,185,198"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="463,153,681,179"/>
-<area shape="poly" title=" " alt="" coords="415,182,447,178,448,183,416,187"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="469,203,675,243"/>
-<area shape="poly" title=" " alt="" coords="416,203,454,207,453,212,415,208"/>
-<area shape="poly" title=" " alt="" coords="531,154,523,144,528,134,545,128,572,126,603,129,618,136,616,141,602,134,572,131,546,134,531,138,528,144,535,151"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="733,104,932,145"/>
-<area shape="poly" title=" " alt="" coords="653,200,680,189,704,172,728,155,743,148,746,153,731,160,707,177,683,193,655,205"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="729,169,936,210"/>
-<area shape="poly" title=" " alt="" coords="675,207,714,202,714,207,676,212"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="741,235,924,275"/>
-<area shape="poly" title=" " alt="" coords="676,233,726,239,725,245,675,238"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="729,300,936,341"/>
-<area shape="poly" title=" " alt="" coords="623,241,730,285,751,292,749,297,728,289,621,246"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="999,5,1198,46"/>
-<area shape="poly" title=" " alt="" coords="877,101,983,57,1006,49,1008,54,985,61,879,106"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="999,71,1198,111"/>
-<area shape="poly" title=" " alt="" coords="932,109,983,103,984,108,933,115"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="999,136,1198,177"/>
-<area shape="poly" title=" " alt="" coords="933,134,984,140,983,145,932,139"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="984,201,1213,242"/>
-<area shape="poly" title=" " alt="" coords="906,143,937,155,961,171,985,186,1002,193,1000,198,982,191,958,175,934,160,904,148"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_cgraph.svg" width="100%" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_icgraph">
-<area shape="rect" title="Sends the specified type using the client&#39;s SendAsync method." alt="" coords="460,5,639,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#aea9c6d166f9c6f554e8aaa3db9783ab3" title="Initializes the object asynchronously by creating a FileViewer, sending type, and updating the list v..." alt="" coords="233,5,412,46"/>
-<area shape="poly" title=" " alt="" coords="445,28,413,28,413,23,445,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_file__manager.html#a7ed7c5b7981d18cefff899f885faa89b" title=" " alt="" coords="5,5,185,46"/>
-<area shape="poly" title=" " alt="" coords="217,28,185,28,185,23,217,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_file_view_a9eb6b698d4d699536f31c6b0d6ded9e3_icgraph.svg" width="646" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -387,11 +280,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacexeno__rat__server.html">xeno_rat_server</a></li><li class="navelem"><a class="el" href="namespacexeno__rat__server_1_1_forms.html">Forms</a></li><li class="navelem"><a class="el" href="classxeno__rat__server_1_1_forms_1_1_file_view.html">FileView</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

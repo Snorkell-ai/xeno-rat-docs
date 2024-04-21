@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: Plugin.Chromium Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -112,14 +136,7 @@ $(function(){initNavTree('class_plugin_1_1_chromium.html',''); initResizable(); 
 <div class="dynheader">
 Collaboration diagram for Plugin.Chromium:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium__coll__graph.png" border="0" usemap="#a_plugin_8_chromium_coll__map" alt="Collaboration graph"/></div>
-<map name="a_plugin_8_chromium_coll__map" id="a_plugin_8_chromium_coll__map">
-<area shape="rect" title=" " alt="" coords="27,164,163,449"/>
-<area shape="rect" title=" " alt="" coords="5,5,51,71"/>
-<area shape="poly" title=" " alt="" coords="28,70,28,104,32,139,33,147,28,148,26,140,22,104,23,70"/>
-<area shape="rect" title=" " alt="" coords="139,5,184,71"/>
-<area shape="poly" title=" " alt="" coords="156,71,137,148,132,146,151,70"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium__coll__graph.svg" width="203" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -233,16 +250,7 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a41192d52211640dc8c58deac897d0c94_icgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a41192d52211640dc8c58deac897d0c94_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a41192d52211640dc8c58deac897d0c94_icgraph" id="aclass_plugin_1_1_chromium_a41192d52211640dc8c58deac897d0c94_icgraph">
-<area shape="rect" title="Decrypts the password using the provided buffer and master key." alt="" coords="259,63,488,88"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a4d1c5e452ea006c9af2e6f07698fc53f" title=" " alt="" coords="11,5,205,31"/>
-<area shape="poly" title=" " alt="" coords="295,61,170,34,172,29,296,56"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a83d5541d95f12fe32767b63d8a0dbd63" title=" " alt="" coords="17,55,199,96"/>
-<area shape="poly" title=" " alt="" coords="243,78,199,78,199,73,243,73"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#ac52e16e02ad95b11b537359fc964ed58" title=" " alt="" coords="5,120,211,146"/>
-<area shape="poly" title=" " alt="" coords="296,95,172,122,170,117,295,90"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a41192d52211640dc8c58deac897d0c94_icgraph.svg" width="494" height="151"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -289,24 +297,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_cgraph" id="aclass_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_cgraph">
-<area shape="rect" title="Retrieves cookies from the specified path using the provided master key and returns a list of cookies..." alt="" coords="5,29,200,55"/>
-<area shape="poly" title=" " alt="" coords="61,31,53,21,58,11,75,5,103,3,134,5,149,13,147,17,132,11,102,8,76,10,62,15,58,20,65,27"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a1138e262be907703bf2988551a1fb4c6" title="Retrieves the master key from the specified file path and returns it after decryption." alt="" coords="248,29,457,55"/>
-<area shape="poly" title=" " alt="" coords="200,40,232,40,232,45,200,45"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_cgraph.svg" width="463" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_icgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_icgraph" id="aclass_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_icgraph">
-<area shape="rect" title="Retrieves cookies from the specified path using the provided master key and returns a list of cookies..." alt="" coords="171,29,365,55"/>
-<area shape="poly" title=" " alt="" coords="303,17,291,10,268,8,246,10,235,15,232,20,238,27,234,31,227,21,231,11,245,5,268,3,293,5,306,12"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the specified node and performs various operations based on the received opcode." alt="" coords="5,29,123,55"/>
-<area shape="poly" title=" " alt="" coords="155,45,123,45,123,40,155,40"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a658e3061fee7657ff3581371daea5419_icgraph.svg" width="371" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -340,29 +336,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a4d1c5e452ea006c9af2e6f07698fc53f_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a4d1c5e452ea006c9af2e6f07698fc53f_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a4d1c5e452ea006c9af2e6f07698fc53f_cgraph" id="aclass_plugin_1_1_chromium_a4d1c5e452ea006c9af2e6f07698fc53f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,96,200,122"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a41192d52211640dc8c58deac897d0c94" title="Decrypts the password using the provided buffer and master key." alt="" coords="248,5,477,31"/>
-<area shape="poly" title=" " alt="" coords="128,93,182,67,247,41,275,33,276,38,249,46,184,72,130,98"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#acf694b14619cc5cd016fbfa79012a34a" title="Gets the number of rows in the table." alt="" coords="270,55,455,96"/>
-<area shape="poly" title=" " alt="" coords="200,94,254,87,255,92,201,99"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#af61c386365604d6c3652b44b548c3c3c" title="Retrieves the value at the specified row and field." alt="" coords="270,121,455,161"/>
-<area shape="poly" title=" " alt="" coords="201,118,255,125,254,130,200,123"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a2ede45dfc58996a373e0159446a881e2" title="Reads the specified table and returns a boolean indicating success or failure." alt="" coords="265,186,460,227"/>
-<area shape="poly" title=" " alt="" coords="132,120,249,170,272,178,270,183,247,175,130,125"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a50ac748c0c8463acd55e8767c2abfaf6" title="Reads a table from the specified offset and populates the table entries." alt="" coords="525,186,719,227"/>
-<area shape="poly" title=" " alt="" coords="460,204,510,204,510,209,460,209"/>
-<area shape="poly" title=" " alt="" coords="575,186,573,176,581,167,597,161,622,159,649,162,665,168,663,173,648,167,622,164,598,166,584,171,578,177,580,185"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a49875eb1d8c88c7c501d4f6cdf231f2b" title="Converts a sequence of bytes to an unsigned integer." alt="" coords="767,103,977,144"/>
-<area shape="poly" title=" " alt="" coords="681,183,766,153,786,147,788,152,768,158,682,188"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a633e4f2a42497bab44077194ca88656f" title="Converts a range of bytes to a long integer and returns the result." alt="" coords="777,168,967,194"/>
-<area shape="poly" title=" " alt="" coords="719,194,761,189,762,195,720,199"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#afea6448b1f2f481398b3d8f911049112" title="Returns the index of the first non&#45;128 byte in the array starting from the specified index." alt="" coords="777,217,967,243"/>
-<area shape="poly" title=" " alt="" coords="720,213,762,217,761,222,720,218"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a475267e2c0435ef96e6342edd1492fa6" title="Determines if the given value is odd." alt="" coords="773,267,971,292"/>
-<area shape="poly" title=" " alt="" coords="681,225,768,253,794,260,793,265,767,258,679,230"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a4d1c5e452ea006c9af2e6f07698fc53f_cgraph.svg" width="100%" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -409,24 +383,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_cgraph" id="aclass_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_cgraph">
-<area shape="rect" title="Retrieves credit card information from the specified path using the provided master key for decryptio..." alt="" coords="5,29,187,70"/>
-<area shape="poly" title=" " alt="" coords="50,29,48,19,56,10,72,5,96,3,122,5,138,11,136,16,121,10,96,8,73,10,59,15,53,21,55,28"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a1138e262be907703bf2988551a1fb4c6" title="Retrieves the master key from the specified file path and returns it after decryption." alt="" coords="235,37,444,63"/>
-<area shape="poly" title=" " alt="" coords="187,47,219,47,219,52,187,52"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_cgraph.svg" width="450" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_icgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_icgraph" id="aclass_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_icgraph">
-<area shape="rect" title="Retrieves credit card information from the specified path using the provided master key for decryptio..." alt="" coords="171,29,352,70"/>
-<area shape="poly" title=" " alt="" coords="293,16,281,10,261,8,243,10,231,15,227,20,229,28,224,29,222,19,228,10,241,5,261,3,283,5,296,11"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the specified node and performs various operations based on the received opcode." alt="" coords="5,37,123,63"/>
-<area shape="poly" title=" " alt="" coords="155,52,123,52,123,47,155,47"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a78d6e9339bebbdcb3c8df19d4a945efd_icgraph.svg" width="358" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -460,29 +422,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a83d5541d95f12fe32767b63d8a0dbd63_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a83d5541d95f12fe32767b63d8a0dbd63_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a83d5541d95f12fe32767b63d8a0dbd63_cgraph" id="aclass_plugin_1_1_chromium_a83d5541d95f12fe32767b63d8a0dbd63_cgraph">
-<area shape="rect" title=" " alt="" coords="5,89,187,129"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a41192d52211640dc8c58deac897d0c94" title="Decrypts the password using the provided buffer and master key." alt="" coords="235,5,464,31"/>
-<area shape="poly" title=" " alt="" coords="134,85,181,62,234,41,261,33,263,38,236,46,183,67,137,90"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#acf694b14619cc5cd016fbfa79012a34a" title="Gets the number of rows in the table." alt="" coords="257,55,442,96"/>
-<area shape="poly" title=" " alt="" coords="187,94,241,87,242,92,187,100"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#af61c386365604d6c3652b44b548c3c3c" title="Retrieves the value at the specified row and field." alt="" coords="257,121,442,161"/>
-<area shape="poly" title=" " alt="" coords="187,118,242,125,241,130,187,123"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a2ede45dfc58996a373e0159446a881e2" title="Reads the specified table and returns a boolean indicating success or failure." alt="" coords="252,186,447,227"/>
-<area shape="poly" title=" " alt="" coords="139,127,236,170,258,178,256,183,234,175,137,132"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a50ac748c0c8463acd55e8767c2abfaf6" title="Reads a table from the specified offset and populates the table entries." alt="" coords="512,186,706,227"/>
-<area shape="poly" title=" " alt="" coords="447,204,497,204,497,209,447,209"/>
-<area shape="poly" title=" " alt="" coords="562,186,560,176,568,167,584,161,609,159,636,162,652,168,650,173,635,167,609,164,585,166,571,171,565,177,567,185"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a49875eb1d8c88c7c501d4f6cdf231f2b" title="Converts a sequence of bytes to an unsigned integer." alt="" coords="754,103,964,144"/>
-<area shape="poly" title=" " alt="" coords="668,183,753,153,773,147,775,152,755,158,669,188"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a633e4f2a42497bab44077194ca88656f" title="Converts a range of bytes to a long integer and returns the result." alt="" coords="764,168,954,194"/>
-<area shape="poly" title=" " alt="" coords="706,194,748,189,749,195,707,199"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#afea6448b1f2f481398b3d8f911049112" title="Returns the index of the first non&#45;128 byte in the array starting from the specified index." alt="" coords="764,217,954,243"/>
-<area shape="poly" title=" " alt="" coords="707,213,749,217,748,222,707,218"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a475267e2c0435ef96e6342edd1492fa6" title="Determines if the given value is odd." alt="" coords="760,267,958,292"/>
-<area shape="poly" title=" " alt="" coords="668,225,755,253,781,260,780,265,754,258,666,230"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a83d5541d95f12fe32767b63d8a0dbd63_cgraph.svg" width="100%" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -528,22 +468,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_cgraph" id="aclass_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_cgraph">
-<area shape="rect" title="Retrieves the list of downloads from the specified path." alt="" coords="5,29,217,55"/>
-<area shape="poly" title=" " alt="" coords="76,31,69,21,73,11,87,5,111,3,137,5,150,12,148,17,135,10,111,8,89,10,77,15,74,20,80,27"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_cgraph.svg" width="223" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_icgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_icgraph" id="aclass_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_icgraph">
-<area shape="rect" title="Retrieves the list of downloads from the specified path." alt="" coords="171,29,382,55"/>
-<area shape="poly" title=" " alt="" coords="313,17,301,10,276,8,254,10,242,15,239,20,245,27,241,31,234,21,238,11,253,5,276,3,302,5,316,12"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the specified node and performs various operations based on the received opcode." alt="" coords="5,29,123,55"/>
-<area shape="poly" title=" " alt="" coords="155,45,123,45,123,40,155,40"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a17be9da97d604b5d479ffa6dc667e057_icgraph.svg" width="388" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -573,27 +503,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a65cc1bbba4c38f823713af851ad80eb4_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a65cc1bbba4c38f823713af851ad80eb4_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a65cc1bbba4c38f823713af851ad80eb4_cgraph" id="aclass_plugin_1_1_chromium_a65cc1bbba4c38f823713af851ad80eb4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,78,217,104"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#acf694b14619cc5cd016fbfa79012a34a" title="Gets the number of rows in the table." alt="" coords="270,5,454,46"/>
-<area shape="poly" title=" " alt="" coords="162,75,265,48,267,53,164,80"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#af61c386365604d6c3652b44b548c3c3c" title="Retrieves the value at the specified row and field." alt="" coords="270,71,454,111"/>
-<area shape="poly" title=" " alt="" coords="217,88,254,88,254,94,217,94"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a2ede45dfc58996a373e0159446a881e2" title="Reads the specified table and returns a boolean indicating success or failure." alt="" coords="265,136,459,177"/>
-<area shape="poly" title=" " alt="" coords="164,102,267,129,265,134,162,107"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a50ac748c0c8463acd55e8767c2abfaf6" title="Reads a table from the specified offset and populates the table entries." alt="" coords="507,136,701,177"/>
-<area shape="poly" title=" " alt="" coords="460,154,492,154,492,159,460,159"/>
-<area shape="poly" title=" " alt="" coords="559,136,556,126,564,117,580,111,604,109,630,112,646,118,644,123,629,117,604,115,581,117,567,121,562,127,564,135"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a49875eb1d8c88c7c501d4f6cdf231f2b" title="Converts a sequence of bytes to an unsigned integer." alt="" coords="749,53,959,94"/>
-<area shape="poly" title=" " alt="" coords="663,133,748,103,768,97,770,102,750,108,664,138"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a633e4f2a42497bab44077194ca88656f" title="Converts a range of bytes to a long integer and returns the result." alt="" coords="759,118,949,144"/>
-<area shape="poly" title=" " alt="" coords="701,144,743,140,744,145,702,149"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#afea6448b1f2f481398b3d8f911049112" title="Returns the index of the first non&#45;128 byte in the array starting from the specified index." alt="" coords="759,168,949,193"/>
-<area shape="poly" title=" " alt="" coords="702,163,744,167,743,172,702,168"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a475267e2c0435ef96e6342edd1492fa6" title="Determines if the given value is odd." alt="" coords="755,217,953,243"/>
-<area shape="poly" title=" " alt="" coords="663,175,750,203,776,210,775,215,749,208,661,180"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a65cc1bbba4c38f823713af851ad80eb4_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -640,24 +550,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_cgraph" id="aclass_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_cgraph">
-<area shape="rect" title="Retrieves login data from the specified path using the provided master key for decryption." alt="" coords="5,29,211,55"/>
-<area shape="poly" title=" " alt="" coords="66,31,58,21,63,11,80,5,108,3,140,5,155,13,153,17,138,11,108,8,81,10,66,15,63,20,70,27"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a1138e262be907703bf2988551a1fb4c6" title="Retrieves the master key from the specified file path and returns it after decryption." alt="" coords="259,29,468,55"/>
-<area shape="poly" title=" " alt="" coords="211,40,243,40,243,45,211,45"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_cgraph.svg" width="474" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_icgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_icgraph" id="aclass_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_icgraph">
-<area shape="rect" title="Retrieves login data from the specified path using the provided master key for decryption." alt="" coords="171,29,376,55"/>
-<area shape="poly" title=" " alt="" coords="310,17,297,10,273,8,251,10,239,15,237,20,243,27,238,31,232,21,236,11,250,5,273,3,299,5,312,12"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the specified node and performs various operations based on the received opcode." alt="" coords="5,29,123,55"/>
-<area shape="poly" title=" " alt="" coords="155,45,123,45,123,40,155,40"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_ac9c9ecd3530d212fd034a7176491f554_icgraph.svg" width="382" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -691,29 +589,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_ac52e16e02ad95b11b537359fc964ed58_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_ac52e16e02ad95b11b537359fc964ed58_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_ac52e16e02ad95b11b537359fc964ed58_cgraph" id="aclass_plugin_1_1_chromium_ac52e16e02ad95b11b537359fc964ed58_cgraph">
-<area shape="rect" title=" " alt="" coords="5,96,211,122"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a41192d52211640dc8c58deac897d0c94" title="Decrypts the password using the provided buffer and master key." alt="" coords="259,5,488,31"/>
-<area shape="poly" title=" " alt="" coords="135,93,191,67,258,41,286,33,288,38,260,46,193,72,137,98"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#acf694b14619cc5cd016fbfa79012a34a" title="Gets the number of rows in the table." alt="" coords="281,55,466,96"/>
-<area shape="poly" title=" " alt="" coords="211,93,266,86,266,92,212,99"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#af61c386365604d6c3652b44b548c3c3c" title="Retrieves the value at the specified row and field." alt="" coords="281,121,466,161"/>
-<area shape="poly" title=" " alt="" coords="212,119,266,125,266,131,211,124"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a2ede45dfc58996a373e0159446a881e2" title="Reads the specified table and returns a boolean indicating success or failure." alt="" coords="276,186,471,227"/>
-<area shape="poly" title=" " alt="" coords="139,120,260,170,283,178,281,183,258,175,137,125"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a50ac748c0c8463acd55e8767c2abfaf6" title="Reads a table from the specified offset and populates the table entries." alt="" coords="536,186,730,227"/>
-<area shape="poly" title=" " alt="" coords="471,204,521,204,521,209,471,209"/>
-<area shape="poly" title=" " alt="" coords="586,186,584,176,592,167,608,161,633,159,660,162,676,168,674,173,659,167,633,164,609,166,595,171,589,177,591,185"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a49875eb1d8c88c7c501d4f6cdf231f2b" title="Converts a sequence of bytes to an unsigned integer." alt="" coords="778,103,988,144"/>
-<area shape="poly" title=" " alt="" coords="692,183,777,153,797,147,799,152,779,158,693,188"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a633e4f2a42497bab44077194ca88656f" title="Converts a range of bytes to a long integer and returns the result." alt="" coords="788,168,978,194"/>
-<area shape="poly" title=" " alt="" coords="730,194,772,189,773,195,731,199"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#afea6448b1f2f481398b3d8f911049112" title="Returns the index of the first non&#45;128 byte in the array starting from the specified index." alt="" coords="788,217,978,243"/>
-<area shape="poly" title=" " alt="" coords="731,213,773,217,772,222,731,218"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a475267e2c0435ef96e6342edd1492fa6" title="Determines if the given value is odd." alt="" coords="784,267,982,292"/>
-<area shape="poly" title=" " alt="" coords="692,225,779,253,805,260,804,265,778,258,690,230"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_ac52e16e02ad95b11b537359fc964ed58_cgraph.svg" width="100%" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -760,23 +636,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_a1138e262be907703bf2988551a1fb4c6_icgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_a1138e262be907703bf2988551a1fb4c6_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_a1138e262be907703bf2988551a1fb4c6_icgraph" id="aclass_plugin_1_1_chromium_a1138e262be907703bf2988551a1fb4c6_icgraph">
-<area shape="rect" title="Retrieves the master key from the specified file path and returns it after decryption." alt="" coords="424,111,633,136"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a658e3061fee7657ff3581371daea5419" title="Retrieves cookies from the specified path using the provided master key and returns a list of cookies..." alt="" coords="176,29,371,55"/>
-<area shape="poly" title=" " alt="" coords="480,107,375,70,332,58,334,53,377,65,481,102"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#a78d6e9339bebbdcb3c8df19d4a945efd" title="Retrieves credit card information from the specified path using the provided master key for decryptio..." alt="" coords="183,103,364,144"/>
-<area shape="poly" title=" " alt="" coords="408,126,364,126,364,121,408,121"/>
-<area shape="rect" href="class_plugin_1_1_chromium.html#ac9c9ecd3530d212fd034a7176491f554" title="Retrieves login data from the specified path using the provided master key for decryption." alt="" coords="171,192,376,218"/>
-<area shape="poly" title=" " alt="" coords="472,144,317,194,316,189,470,139"/>
-<area shape="poly" title=" " alt="" coords="310,17,297,10,273,8,251,10,239,15,237,20,243,27,238,31,232,21,236,11,250,5,273,3,299,5,312,12"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the specified node and performs various operations based on the received opcode." alt="" coords="5,111,123,136"/>
-<area shape="poly" title=" " alt="" coords="195,62,172,70,126,91,88,112,85,108,124,86,170,65,193,57"/>
-<area shape="poly" title=" " alt="" coords="167,126,123,126,123,121,167,121"/>
-<area shape="poly" title=" " alt="" coords="307,90,295,84,273,82,253,84,241,88,237,94,239,102,234,103,232,93,238,84,252,79,273,77,296,79,310,85"/>
-<area shape="poly" title=" " alt="" coords="223,188,99,139,100,134,225,183"/>
-<area shape="poly" title=" " alt="" coords="310,180,297,173,273,171,251,173,239,177,237,183,243,190,238,193,232,183,236,174,250,167,273,165,299,168,312,175"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_a1138e262be907703bf2988551a1fb4c6_icgraph.svg" width="639" height="223"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -822,22 +682,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_cgraph" id="aclass_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_cgraph">
-<area shape="rect" title="Retrieves web history from the specified path and returns a list of WebHistory objects." alt="" coords="5,29,220,55"/>
-<area shape="poly" title=" " alt="" coords="77,31,70,21,74,11,89,5,113,3,139,5,152,12,150,17,137,10,112,8,90,10,78,15,75,20,81,27"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_cgraph.svg" width="226" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_icgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_icgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_icgraph" id="aclass_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_icgraph">
-<area shape="rect" title="Retrieves web history from the specified path and returns a list of WebHistory objects." alt="" coords="171,29,385,55"/>
-<area shape="poly" title=" " alt="" coords="315,17,303,10,278,8,255,10,243,15,241,20,246,27,242,31,235,21,239,11,254,5,278,3,304,5,317,12"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Asynchronously runs the specified node and performs various operations based on the received opcode." alt="" coords="5,29,123,55"/>
-<area shape="poly" title=" " alt="" coords="155,45,123,45,123,40,155,40"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_ab11bb52d89cb4c7cb937930f6cff24bd_icgraph.svg" width="391" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -867,27 +717,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_plugin_1_1_chromium_aae704fa742e5a23774102fb6ffb7d8f2_cgraph.png" border="0" usemap="#aclass_plugin_1_1_chromium_aae704fa742e5a23774102fb6ffb7d8f2_cgraph" alt=""/></div>
-<map name="aclass_plugin_1_1_chromium_aae704fa742e5a23774102fb6ffb7d8f2_cgraph" id="aclass_plugin_1_1_chromium_aae704fa742e5a23774102fb6ffb7d8f2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,78,220,104"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#acf694b14619cc5cd016fbfa79012a34a" title="Gets the number of rows in the table." alt="" coords="273,5,457,46"/>
-<area shape="poly" title=" " alt="" coords="164,75,268,48,269,53,166,80"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#af61c386365604d6c3652b44b548c3c3c" title="Retrieves the value at the specified row and field." alt="" coords="273,71,457,111"/>
-<area shape="poly" title=" " alt="" coords="220,88,257,88,257,94,220,94"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a2ede45dfc58996a373e0159446a881e2" title="Reads the specified table and returns a boolean indicating success or failure." alt="" coords="268,136,462,177"/>
-<area shape="poly" title=" " alt="" coords="166,102,269,129,268,134,164,107"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a50ac748c0c8463acd55e8767c2abfaf6" title="Reads a table from the specified offset and populates the table entries." alt="" coords="510,136,704,177"/>
-<area shape="poly" title=" " alt="" coords="463,154,495,154,495,159,463,159"/>
-<area shape="poly" title=" " alt="" coords="562,136,559,126,567,117,583,111,607,109,633,112,649,118,647,123,632,117,607,115,584,117,570,121,565,127,567,135"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a49875eb1d8c88c7c501d4f6cdf231f2b" title="Converts a sequence of bytes to an unsigned integer." alt="" coords="752,53,962,94"/>
-<area shape="poly" title=" " alt="" coords="666,133,751,103,771,97,773,102,753,108,667,138"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a633e4f2a42497bab44077194ca88656f" title="Converts a range of bytes to a long integer and returns the result." alt="" coords="762,118,952,144"/>
-<area shape="poly" title=" " alt="" coords="704,144,746,140,747,145,705,149"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#afea6448b1f2f481398b3d8f911049112" title="Returns the index of the first non&#45;128 byte in the array starting from the specified index." alt="" coords="762,168,952,193"/>
-<area shape="poly" title=" " alt="" coords="705,163,747,167,746,172,705,168"/>
-<area shape="rect" href="class_info_grab_1_1_s_q_lite_handler.html#a475267e2c0435ef96e6342edd1492fa6" title="Determines if the given value is odd." alt="" coords="758,217,956,243"/>
-<area shape="poly" title=" " alt="" coords="666,175,753,203,779,210,778,215,752,208,664,180"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_plugin_1_1_chromium_aae704fa742e5a23774102fb6ffb7d8f2_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -994,11 +824,12 @@ Here is the call graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_plugin.html">Plugin</a></li><li class="navelem"><a class="el" href="class_plugin_1_1_chromium.html">Chromium</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

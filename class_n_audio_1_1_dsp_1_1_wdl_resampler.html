@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Dsp.WdlResampler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,25 +137,7 @@ $(function(){initNavTree('class_n_audio_1_1_dsp_1_1_wdl_resampler.html',''); ini
 <div class="dynheader">
 Collaboration diagram for NAudio.Dsp.WdlResampler:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler__coll__graph.png" border="0" usemap="#a_n_audio_8_dsp_8_wdl_resampler_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_dsp_8_wdl_resampler_coll__map" id="a_n_audio_8_dsp_8_wdl_resampler_coll__map">
-<area shape="rect" title="Fully managed resampler, based on Cockos WDL Resampler." alt="" coords="519,617,692,922"/>
-<area shape="rect" title=" " alt="" coords="24,281,51,346"/>
-<area shape="poly" title=" " alt="" coords="29,347,16,398,8,463,9,497,14,530,24,562,41,591,70,618,115,643,171,666,236,687,375,723,502,748,501,753,374,728,235,692,170,671,112,648,67,622,36,594,19,564,9,532,4,497,3,463,11,397,24,346"/>
-<area shape="rect" title=" " alt="" coords="269,5,320,71"/>
-<area shape="poly" title=" " alt="" coords="289,71,276,134,267,218,266,264,268,311,276,358,289,403,307,445,330,487,386,564,447,632,508,688,504,692,443,635,382,567,326,489,303,448,284,405,270,359,263,312,260,264,261,217,271,133,284,70"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html" title=" " alt="" coords="377,224,562,404"/>
-<area shape="poly" title=" " alt="" coords="317,69,406,208,401,211,312,72"/>
-<area shape="rect" title=" " alt="" coords="587,281,624,346"/>
-<area shape="poly" title=" " alt="" coords="608,346,608,600,603,600,603,346"/>
-<area shape="rect" title=" " alt="" coords="649,281,810,346"/>
-<area shape="poly" title=" " alt="" coords="729,346,715,456,702,525,685,593,683,601,678,600,680,592,697,524,710,456,724,346"/>
-<area shape="rect" title=" " alt="" coords="835,281,992,346"/>
-<area shape="poly" title=" " alt="" coords="906,347,862,460,829,529,789,594,749,643,706,687,702,684,745,639,784,591,824,526,857,458,901,345"/>
-<area shape="poly" title=" " alt="" coords="491,403,514,494,541,592,544,600,539,601,536,593,509,496,486,404"/>
-<area shape="rect" title=" " alt="" coords="1017,281,1055,346"/>
-<area shape="poly" title=" " alt="" coords="1039,346,1037,398,1028,463,1008,532,993,565,973,594,946,624,915,650,847,693,776,725,709,747,708,742,774,720,845,688,912,645,942,620,968,591,988,562,1003,530,1023,462,1032,398,1034,346"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -266,14 +272,7 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_ac090e1c19e0dab4f31959ae8f875581e_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_ac090e1c19e0dab4f31959ae8f875581e_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_ac090e1c19e0dab4f31959ae8f875581e_cgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_ac090e1c19e0dab4f31959ae8f875581e_cgraph">
-<area shape="rect" title="Creates a new Resampler." alt="" coords="5,5,191,46"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a99dfc42acac91699a824b7e507a12a49" title="Resets the history of the resampler by creating a new history array." alt="" coords="239,5,424,46"/>
-<area shape="poly" title=" " alt="" coords="191,23,223,23,223,28,191,28"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#acc2ba6d6469f2f3e3b873156290b058a" title=" " alt="" coords="472,5,685,46"/>
-<area shape="poly" title=" " alt="" coords="424,23,456,23,456,28,424,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_ac090e1c19e0dab4f31959ae8f875581e_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -313,14 +312,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_aa60e6a4f8c5057ec8e302cf2fa35cd86_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_aa60e6a4f8c5057ec8e302cf2fa35cd86_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_aa60e6a4f8c5057ec8e302cf2fa35cd86_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_aa60e6a4f8c5057ec8e302cf2fa35cd86_icgraph">
-<area shape="rect" title="Builds a lowpass filter based on the given filter position." alt="" coords="526,5,711,46"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a4e017f4e931cdc4c9a1b445064063d10" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="293,5,478,46"/>
-<area shape="poly" title=" " alt="" coords="511,28,479,28,479,23,511,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,5,245,46"/>
-<area shape="poly" title=" " alt="" coords="277,28,245,28,245,23,277,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_aa60e6a4f8c5057ec8e302cf2fa35cd86_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -411,34 +403,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_cgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_cgraph">
-<area shape="rect" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="5,177,191,218"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#ac7881f23e3aea7b35774e35bbc417e8f" title="Applies a filter to the input buffer and stores the result in the output buffer." alt="" coords="250,13,462,54"/>
-<area shape="poly" title=" " alt="" coords="114,174,165,120,200,90,237,64,250,57,253,62,240,69,203,94,169,123,118,178"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#aa60e6a4f8c5057ec8e302cf2fa35cd86" title="Builds a lowpass filter based on the given filter position." alt="" coords="263,78,449,119"/>
-<area shape="poly" title=" " alt="" coords="138,174,238,129,260,122,262,127,240,134,141,179"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#a3a8818d6e72312920ad0832573772904" title="Sets the parameters for the filter." alt="" coords="239,144,473,184"/>
-<area shape="poly" title=" " alt="" coords="191,183,223,178,224,184,191,188"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#ad03b87b375e513fedb9afc228db73cdc" title="Performs sample rate conversion using sinc interpolation." alt="" coords="263,209,449,250"/>
-<area shape="poly" title=" " alt="" coords="191,206,248,213,247,218,191,211"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#adeaf32603f012456f0095f7fc326e08b" title="Performs sinc resampling on the input buffer and writes the result to the output buffer at the specif..." alt="" coords="263,274,449,315"/>
-<area shape="poly" title=" " alt="" coords="142,216,240,259,263,267,261,272,238,264,140,221"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#afb22bedf8c8e13d86435293889067753" title="Performs a sinc resampling of the input buffer and stores the result in the output buffer." alt="" coords="263,340,449,380"/>
-<area shape="poly" title=" " alt="" coords="118,216,169,270,203,299,240,324,253,331,251,336,237,329,200,303,165,274,114,220"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#a37e35f342194c9b64bff423dfc244574" title="Filters the input value to prevent denormalization and returns the filtered value." alt="" coords="521,5,752,61"/>
-<area shape="poly" title=" " alt="" coords="462,31,505,31,505,36,462,36"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_cgraph.svg" width="100%" height="589"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_icgraph">
-<area shape="rect" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="293,5,478,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,5,245,46"/>
-<area shape="poly" title=" " alt="" coords="277,28,245,28,245,23,277,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a4e017f4e931cdc4c9a1b445064063d10_icgraph.svg" width="484" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -495,12 +465,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a7f38e0b2f94a7f6f494521af87639334_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a7f38e0b2f94a7f6f494521af87639334_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a7f38e0b2f94a7f6f494521af87639334_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a7f38e0b2f94a7f6f494521af87639334_icgraph">
-<area shape="rect" title="Prepares the resampling process and returns the number of samples required for the resampled output." alt="" coords="293,5,478,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,5,245,46"/>
-<area shape="poly" title=" " alt="" coords="277,28,245,28,245,23,277,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a7f38e0b2f94a7f6f494521af87639334_icgraph.svg" width="484" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -532,22 +497,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_cgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_cgraph">
-<area shape="rect" title="Resets the history of the resampler by creating a new history array." alt="" coords="5,5,191,46"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler_1_1_w_d_l___resampler___i_i_r_filter.html#acc2ba6d6469f2f3e3b873156290b058a" title=" " alt="" coords="239,5,452,46"/>
-<area shape="poly" title=" " alt="" coords="191,23,223,23,223,28,191,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_cgraph.svg" width="458" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_icgraph">
-<area shape="rect" title="Resets the history of the resampler by creating a new history array." alt="" coords="239,5,424,46"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#ac090e1c19e0dab4f31959ae8f875581e" title="Creates a new Resampler." alt="" coords="5,5,191,46"/>
-<area shape="poly" title=" " alt="" coords="223,28,191,28,191,23,223,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a99dfc42acac91699a824b7e507a12a49_icgraph.svg" width="430" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -586,12 +541,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_aa9322aa989bfdd7502dd720a66007d42_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_aa9322aa989bfdd7502dd720a66007d42_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_aa9322aa989bfdd7502dd720a66007d42_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_aa9322aa989bfdd7502dd720a66007d42_icgraph">
-<area shape="rect" title="Sets the feed mode for the system." alt="" coords="285,13,470,54"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#a8ac65db56545c4569f1651e9e54fb143" title="Constructs a new resampler." alt="" coords="5,5,237,61"/>
-<area shape="poly" title=" " alt="" coords="269,36,237,36,237,31,269,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_aa9322aa989bfdd7502dd720a66007d42_icgraph.svg" width="476" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -634,12 +584,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a2ef298d92f0dd748430f0c9860236c25_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a2ef298d92f0dd748430f0c9860236c25_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a2ef298d92f0dd748430f0c9860236c25_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a2ef298d92f0dd748430f0c9860236c25_icgraph">
-<area shape="rect" title="Sets the filter parameters with default values for position and quality factor." alt="" coords="285,13,470,54"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#a8ac65db56545c4569f1651e9e54fb143" title="Constructs a new resampler." alt="" coords="5,5,237,61"/>
-<area shape="poly" title=" " alt="" coords="269,36,237,36,237,31,269,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a2ef298d92f0dd748430f0c9860236c25_icgraph.svg" width="476" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -701,12 +646,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a36a11dcfe3c6846445d3bf7b2e280d84_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a36a11dcfe3c6846445d3bf7b2e280d84_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a36a11dcfe3c6846445d3bf7b2e280d84_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a36a11dcfe3c6846445d3bf7b2e280d84_icgraph">
-<area shape="rect" title="Sets the mode for resampling with optional sinc interpolation and filter count." alt="" coords="285,13,470,54"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#a8ac65db56545c4569f1651e9e54fb143" title="Constructs a new resampler." alt="" coords="5,5,237,61"/>
-<area shape="poly" title=" " alt="" coords="269,36,237,36,237,31,269,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a36a11dcfe3c6846445d3bf7b2e280d84_icgraph.svg" width="476" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -750,12 +690,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a0d2658da0cba6df6c4128c1db63091ac_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a0d2658da0cba6df6c4128c1db63091ac_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a0d2658da0cba6df6c4128c1db63091ac_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_a0d2658da0cba6df6c4128c1db63091ac_icgraph">
-<area shape="rect" title="Sets the input and output rates, ensuring they are at least 1.0, and updates the internal ratio if th..." alt="" coords="285,13,470,54"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#a8ac65db56545c4569f1651e9e54fb143" title="Constructs a new resampler." alt="" coords="5,5,237,61"/>
-<area shape="poly" title=" " alt="" coords="269,36,237,36,237,31,269,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_a0d2658da0cba6df6c4128c1db63091ac_icgraph.svg" width="476" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -841,14 +776,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_ad03b87b375e513fedb9afc228db73cdc_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_ad03b87b375e513fedb9afc228db73cdc_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_ad03b87b375e513fedb9afc228db73cdc_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_ad03b87b375e513fedb9afc228db73cdc_icgraph">
-<area shape="rect" title="Performs sample rate conversion using sinc interpolation." alt="" coords="526,5,711,46"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a4e017f4e931cdc4c9a1b445064063d10" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="293,5,478,46"/>
-<area shape="poly" title=" " alt="" coords="511,28,479,28,479,23,511,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,5,245,46"/>
-<area shape="poly" title=" " alt="" coords="277,28,245,28,245,23,277,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_ad03b87b375e513fedb9afc228db73cdc_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -928,14 +856,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_adeaf32603f012456f0095f7fc326e08b_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_adeaf32603f012456f0095f7fc326e08b_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_adeaf32603f012456f0095f7fc326e08b_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_adeaf32603f012456f0095f7fc326e08b_icgraph">
-<area shape="rect" title="Performs sinc resampling on the input buffer and writes the result to the output buffer at the specif..." alt="" coords="526,5,711,46"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a4e017f4e931cdc4c9a1b445064063d10" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="293,5,478,46"/>
-<area shape="poly" title=" " alt="" coords="511,28,479,28,479,23,511,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,5,245,46"/>
-<area shape="poly" title=" " alt="" coords="277,28,245,28,245,23,277,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_adeaf32603f012456f0095f7fc326e08b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1015,14 +936,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_dsp_1_1_wdl_resampler_afb22bedf8c8e13d86435293889067753_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_dsp_1_1_wdl_resampler_afb22bedf8c8e13d86435293889067753_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_afb22bedf8c8e13d86435293889067753_icgraph" id="aclass_n_audio_1_1_dsp_1_1_wdl_resampler_afb22bedf8c8e13d86435293889067753_icgraph">
-<area shape="rect" title="Performs a sinc resampling of the input buffer and stores the result in the output buffer." alt="" coords="526,5,711,46"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html#a4e017f4e931cdc4c9a1b445064063d10" title="Resamples the input buffer to the output buffer based on the given parameters and returns the number ..." alt="" coords="293,5,478,46"/>
-<area shape="poly" title=" " alt="" coords="511,28,479,28,479,23,511,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="5,5,245,46"/>
-<area shape="poly" title=" " alt="" coords="277,28,245,28,245,23,277,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_dsp_1_1_wdl_resampler_afb22bedf8c8e13d86435293889067753_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1539,11 +1453,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_dsp.html">Dsp</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_dsp_1_1_wdl_resampler.html">WdlResampler</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.ResamplerDmoStream Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,78 +137,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html',
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.ResamplerDmoStream:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_resampler_dmo_stream_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_resampler_dmo_stream_inherit__map" id="a_n_audio_8_wave_8_resampler_dmo_stream_inherit__map">
-<area shape="rect" title="Wave Stream for converting between sample rates." alt="" coords="5,452,193,792"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="51,119,148,404"/>
-<area shape="poly" title=" " alt="" coords="102,419,102,453,97,453,97,419"/>
-<area shape="rect" title=" " alt="" coords="23,5,77,71"/>
-<area shape="poly" title=" " alt="" coords="63,85,70,118,65,120,58,86"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="101,5,199,71"/>
-<area shape="poly" title=" " alt="" coords="142,86,134,120,129,118,137,85"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.ResamplerDmoStream:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_resampler_dmo_stream_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_resampler_dmo_stream_coll__map" id="a_n_audio_8_wave_8_resampler_dmo_stream_coll__map">
-<area shape="rect" title="Wave Stream for converting between sample rates." alt="" coords="525,1310,713,1510"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="5,962,103,1247"/>
-<area shape="poly" title=" " alt="" coords="115,1244,116,1245,162,1282,213,1312,267,1337,322,1357,431,1385,526,1400,525,1405,430,1390,321,1362,265,1342,210,1317,159,1286,112,1249,111,1248"/>
-<area shape="rect" title=" " alt="" coords="151,599,205,664"/>
-<area shape="poly" title=" " alt="" coords="176,679,161,774,138,885,105,985,100,984,133,883,156,773,170,678"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_stream.html" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="127,962,299,1247"/>
-<area shape="poly" title=" " alt="" coords="184,679,205,962,200,963,179,679"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="27,599,124,664"/>
-<area shape="poly" title=" " alt="" coords="76,679,63,962,58,962,71,679"/>
-<area shape="poly" title=" " alt="" coords="88,678,111,773,141,883,165,962,160,963,135,885,106,774,83,679"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="323,1072,505,1137"/>
-<area shape="poly" title=" " alt="" coords="416,1137,424,1208,434,1248,452,1285,480,1319,513,1348,510,1352,476,1322,448,1288,429,1250,418,1209,411,1138"/>
-<area shape="poly" title=" " alt="" coords="301,1231,313,1245,358,1285,408,1319,460,1347,510,1370,508,1375,458,1352,405,1324,354,1290,309,1249,297,1235"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="264,379,463,884"/>
-<area shape="poly" title=" " alt="" coords="465,832,498,906,519,961,535,1041,539,1104,541,1168,556,1247,571,1293,565,1295,550,1248,536,1168,533,1104,530,1041,514,963,493,908,460,834"/>
-<area shape="rect" title=" " alt="" coords="62,105,203,171"/>
-<area shape="poly" title=" " alt="" coords="129,171,125,211,125,259,134,309,143,332,156,353,169,363,184,366,201,368,218,377,256,415,252,418,215,381,199,373,183,371,167,368,152,356,138,334,129,310,119,260,119,211,124,170"/>
-<area shape="rect" title=" " alt="" coords="247,105,288,171"/>
-<area shape="poly" title=" " alt="" coords="267,171,264,254,266,304,271,354,273,361,267,362,266,355,260,305,259,254,262,171"/>
-<area shape="rect" title=" " alt="" coords="542,105,569,171"/>
-<area shape="poly" title=" " alt="" coords="544,150,514,172,475,205,436,247,405,296,381,363,376,361,401,293,432,244,472,201,511,168,541,146"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html" title="Media Object." alt="" coords="1922,441,2127,821"/>
-<area shape="poly" title=" " alt="" coords="554,170,554,195,558,222,567,248,582,268,784,289,1219,323,1655,357,1860,376,1892,399,1920,427,1917,431,1889,403,1858,381,1655,362,1219,328,784,294,579,273,562,250,553,223,549,196,549,170"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_buffer.html" title="Attempting to implement the COM IMediaBuffer interface as a .NET object Not sure what will happen whe..." alt="" coords="499,529,660,734"/>
-<area shape="poly" title=" " alt="" coords="560,170,576,512,571,512,554,171"/>
-<area shape="rect" href="struct_n_audio_1_1_dmo_1_1_dmo_output_data_buffer.html" title="DMO Output Data Buffer." alt="" coords="817,995,1003,1215"/>
-<area shape="poly" title=" " alt="" coords="828,1216,799,1249,727,1319,724,1315,795,1245,824,1213"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="1340,105,1421,171"/>
-<area shape="poly" title=" " alt="" coords="1326,141,1231,147,1174,155,1115,169,1056,189,1000,216,950,251,908,296,896,333,889,398,887,588,894,806,905,995,900,995,889,806,882,588,884,398,891,332,904,293,946,247,997,211,1054,184,1113,164,1173,150,1230,142,1325,136"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_dmo_resampler.html" title="DMO Resampler." alt="" coords="1548,1062,1731,1147"/>
-<area shape="poly" title=" " alt="" coords="1436,145,1534,168,1592,187,1652,211,1713,241,1770,279,1820,324,1862,377,1881,423,1893,483,1899,553,1900,628,1896,704,1888,775,1877,837,1862,885,1831,940,1791,989,1747,1031,1704,1064,1701,1060,1743,1027,1787,985,1827,937,1857,883,1872,836,1883,774,1891,704,1895,628,1894,553,1888,484,1876,424,1857,380,1816,328,1766,283,1710,246,1650,216,1590,192,1532,173,1435,150"/>
-<area shape="poly" title=" " alt="" coords="1436,138,1535,146,1596,155,1660,170,1726,189,1790,216,1851,250,1905,293,1934,325,1958,361,1977,400,1993,441,1988,443,1972,403,1953,364,1930,328,1902,297,1848,254,1788,221,1724,194,1659,175,1595,161,1534,151,1436,143"/>
-<area shape="poly" title=" " alt="" coords="1326,153,1236,173,1121,204,995,245,873,297,848,312,831,327,814,343,788,357,755,365,727,364,701,366,688,371,674,381,646,412,623,450,607,490,596,530,591,528,602,488,619,447,641,409,671,377,686,366,700,361,727,359,755,360,786,352,811,338,828,323,845,308,870,292,994,240,1120,198,1235,168,1324,148"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_buffer.html" title="IMediaBuffer Interface." alt="" coords="685,579,850,684"/>
-<area shape="poly" title=" " alt="" coords="772,683,785,801,798,870,817,937,835,979,830,981,812,939,793,871,780,802,767,684"/>
-<area shape="rect" title=" " alt="" coords="925,599,1100,664"/>
-<area shape="poly" title=" " alt="" coords="1004,664,970,772,935,909,924,978,919,977,930,907,965,770,999,663"/>
-<area shape="rect" title=" " alt="" coords="1125,599,1162,664"/>
-<area shape="poly" title=" " alt="" coords="1151,664,1165,771,1177,908,1178,966,1173,1016,1163,1060,1147,1099,1124,1136,1095,1172,1017,1249,985,1276,950,1299,876,1338,801,1368,731,1389,729,1384,799,1363,874,1333,948,1295,982,1271,1014,1245,1091,1168,1120,1133,1142,1097,1158,1058,1168,1015,1172,966,1171,908,1159,772,1145,664"/>
-<area shape="poly" title=" " alt="" coords="1152,664,1157,711,1156,770,1143,831,1131,860,1113,886,1093,899,1073,901,1052,901,1032,910,1007,938,978,982,974,979,1003,935,1028,906,1051,896,1073,896,1092,894,1109,882,1126,857,1138,830,1151,770,1151,712,1147,664"/>
-<area shape="poly" title=" " alt="" coords="1556,1150,1398,1220,1306,1257,1212,1289,1084,1324,955,1354,731,1395,730,1390,954,1349,1083,1319,1211,1284,1304,1252,1396,1215,1554,1145"/>
-<area shape="poly" title=" " alt="" coords="1974,822,1944,884,1905,940,1870,976,1830,1008,1747,1059,1745,1054,1827,1004,1867,972,1901,936,1939,881,1969,820"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_object.html" title="defined in mediaobj.h" alt="" coords="1940,5,2109,271"/>
-<area shape="poly" title=" " alt="" coords="2027,270,2027,424,2022,424,2022,270"/>
-<area shape="rect" href="interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_property_store.html" title="is defined in propsys.h" alt="" coords="1186,551,1391,711"/>
-<area shape="poly" title=" " alt="" coords="1298,711,1307,764,1323,824,1346,883,1378,936,1411,974,1451,1006,1492,1034,1534,1057,1532,1062,1490,1039,1447,1010,1408,978,1374,940,1341,885,1318,825,1302,766,1293,711"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_w_m_resampler_props.html" title="Windows Media Resampler Props wmcodecdsp.h." alt="" coords="1416,589,1633,674"/>
-<area shape="poly" title=" " alt="" coords="1520,674,1513,728,1509,794,1512,867,1527,937,1539,967,1554,996,1591,1048,1587,1051,1550,999,1534,970,1521,939,1507,867,1503,794,1507,727,1514,674"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_resampler_media_com_object.html" title="From wmcodecsdp.h Implements:" alt="" coords="1658,591,1847,671"/>
-<area shape="poly" title=" " alt="" coords="1746,672,1682,939,1656,1046,1651,1045,1677,937,1741,671"/>
-<area shape="poly" title=" " alt="" coords="607,733,629,843,646,962,654,1105,646,1248,641,1294,636,1293,641,1247,649,1105,641,962,624,844,602,734"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_buffer.html" title="IMediaBuffer Interface." alt="" coords="593,85,742,191"/>
-<area shape="poly" title=" " alt="" coords="663,206,642,355,606,530,601,529,637,354,658,205"/>
-<area shape="rect" title=" " alt="" coords="766,105,811,171"/>
-<area shape="poly" title=" " alt="" coords="787,171,776,219,756,272,736,305,716,327,696,349,675,380,643,446,617,514,612,512,638,444,670,377,692,345,712,323,732,301,752,270,770,218,781,170"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -323,44 +281,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_a79fd72de1823c37903441f8625dca05b_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_a79fd72de1823c37903441f8625dca05b_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_a79fd72de1823c37903441f8625dca05b_cgraph" id="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_a79fd72de1823c37903441f8625dca05b_cgraph">
-<area shape="rect" title="WaveStream to resample using the DMO Resampler." alt="" coords="5,136,206,177"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html#a6fc7123ca5972e1c53beed64016ecda3" title="Converts the input position to the corresponding output position based on the ratio of average bytes ..." alt="" coords="270,5,467,46"/>
-<area shape="poly" title=" " alt="" coords="131,133,186,95,252,57,269,49,271,54,255,61,188,99,135,138"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#a69f1819c0ea9aec354950e91d10a2c39" title="Sets the input wave format for the specified input stream." alt="" coords="270,136,467,177"/>
-<area shape="poly" title=" " alt="" coords="206,154,254,154,254,159,206,159"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#aeedd463b32c463e9f0a25d901d0ec615" title="Sets the output wave format for the specified output stream." alt="" coords="270,267,467,307"/>
-<area shape="poly" title=" " alt="" coords="135,175,188,213,255,251,271,258,269,263,252,256,186,218,131,179"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#a2d155802fe47a0bb1be75f99a2ed8027" title="Checks if the specified input stream supports the given wave format." alt="" coords="254,71,483,111"/>
-<area shape="poly" title=" " alt="" coords="190,133,268,113,270,118,191,138"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#a979aa06634413b6949e1d7a61ff7f356" title="Checks if the specified output stream supports the given wave format." alt="" coords="254,201,483,242"/>
-<area shape="poly" title=" " alt="" coords="191,175,270,194,268,200,190,180"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#a856032d0b88c6753215e37b2a1856cef" title="Creates a DMO media type for the specified WaveFormat." alt="" coords="531,136,747,177"/>
-<area shape="poly" title=" " alt="" coords="468,154,515,154,515,159,468,159"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_dmo_interop.html#ad2f97604a7b1abe4bd3071b60f53f44b" title="Frees the memory associated with the specified Direct Media Object (DMO) media type." alt="" coords="544,201,734,242"/>
-<area shape="poly" title=" " alt="" coords="456,175,538,195,537,200,455,180"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#a14c32884d227752a0c2bb690bd9de140" title="Sets the input type for the specified input stream using the given media type." alt="" coords="541,71,738,111"/>
-<area shape="poly" title=" " alt="" coords="455,133,537,113,538,118,456,138"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_dmo_interop.html#a61ba482bd86a39c209bfd007b0be9f20" title="Initializes a media type using the specified format block size." alt="" coords="798,136,988,177"/>
-<area shape="poly" title=" " alt="" coords="748,154,782,154,782,159,748,159"/>
-<area shape="rect" href="struct_n_audio_1_1_dmo_1_1_dmo_media_type.html#a8500917647fce295eb3f92ba2256daec" title="Sets this object up to point to a wave format." alt="" coords="795,201,991,242"/>
-<area shape="poly" title=" " alt="" coords="722,175,797,194,796,199,720,180"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_object.html#a2e36c935d4862eccb9eaa901b4c78781" title=" " alt="" coords="802,71,984,111"/>
-<area shape="poly" title=" " alt="" coords="738,88,787,88,787,94,738,94"/>
-<area shape="poly" title=" " alt="" coords="459,264,481,252,497,236,505,221,513,204,529,188,538,182,541,186,533,192,518,207,509,223,501,240,485,256,462,268"/>
-<area shape="poly" title=" " alt="" coords="455,263,537,244,538,249,456,269"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#aaa4d3e4180bf6bcba5e505836440bf62" title="Sets the output type for the specified output stream using the provided media type." alt="" coords="541,267,738,307"/>
-<area shape="poly" title=" " alt="" coords="468,284,525,284,525,290,468,290"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_object.html#a42201eddcdc0ad63841c6bbb1da8639c" title=" " alt="" coords="802,267,984,307"/>
-<area shape="poly" title=" " alt="" coords="738,284,787,284,787,290,738,290"/>
-<area shape="poly" title=" " alt="" coords="456,109,538,129,537,134,455,115"/>
-<area shape="poly" title=" " alt="" coords="462,110,485,122,501,138,509,155,518,171,533,186,541,192,538,196,529,190,513,174,505,157,497,142,481,126,459,114"/>
-<area shape="poly" title=" " alt="" coords="483,88,525,88,525,94,483,94"/>
-<area shape="poly" title=" " alt="" coords="455,198,537,178,538,183,456,203"/>
-<area shape="poly" title=" " alt="" coords="483,219,528,219,528,224,483,224"/>
-<area shape="poly" title=" " alt="" coords="456,240,538,260,537,265,455,245"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_a79fd72de1823c37903441f8625dca05b_cgraph.svg" width="100%" height="535"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -400,14 +321,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_aafc93ca0ede34f3fef2e6f959b801697_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_aafc93ca0ede34f3fef2e6f959b801697_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_aafc93ca0ede34f3fef2e6f959b801697_icgraph" id="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_aafc93ca0ede34f3fef2e6f959b801697_icgraph">
-<area shape="rect" title="Releases the unmanaged resources used by the T:System.Media.DmoResampler and optionally releases the ..." alt="" coords="500,5,696,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wasapi_out.html#aafd5947cc526905670cf58f0574f8321" title="Plays the audio using the specified source provider and handles resampling if needed." alt="" coords="253,5,452,46"/>
-<area shape="poly" title=" " alt="" coords="485,28,453,28,453,23,485,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wasapi_out.html#a350978bf7599c806df39426c36c9d8d1" title="Starts playing the audio if the current playback state is not already playing. If the playback state ..." alt="" coords="5,13,205,39"/>
-<area shape="poly" title=" " alt="" coords="237,28,205,28,205,23,237,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_aafc93ca0ede34f3fef2e6f959b801697_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -447,12 +361,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_a6fc7123ca5972e1c53beed64016ecda3_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_a6fc7123ca5972e1c53beed64016ecda3_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_a6fc7123ca5972e1c53beed64016ecda3_icgraph" id="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_a6fc7123ca5972e1c53beed64016ecda3_icgraph">
-<area shape="rect" title="Converts the input position to the corresponding output position based on the ratio of average bytes ..." alt="" coords="254,5,450,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html#a79fd72de1823c37903441f8625dca05b" title="WaveStream to resample using the DMO Resampler." alt="" coords="5,5,206,46"/>
-<area shape="poly" title=" " alt="" coords="238,28,206,28,206,23,238,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_a6fc7123ca5972e1c53beed64016ecda3_icgraph.svg" width="456" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -492,12 +401,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_a21ffac8bc56d8dca8c215cb9b627359d_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_a21ffac8bc56d8dca8c215cb9b627359d_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_a21ffac8bc56d8dca8c215cb9b627359d_icgraph" id="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_a21ffac8bc56d8dca8c215cb9b627359d_icgraph">
-<area shape="rect" title="Converts the output position to the corresponding input position based on the audio format ratios." alt="" coords="250,5,446,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html#ab6da9d010e62d3a6b41ce8a06525f333" title="Reads a specified number of bytes from the input stream and writes them to the buffer." alt="" coords="5,5,202,46"/>
-<area shape="poly" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_a21ffac8bc56d8dca8c215cb9b627359d_icgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -550,32 +454,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_ab6da9d010e62d3a6b41ce8a06525f333_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_ab6da9d010e62d3a6b41ce8a06525f333_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_ab6da9d010e62d3a6b41ce8a06525f333_cgraph" id="aclass_n_audio_1_1_wave_1_1_resampler_dmo_stream_ab6da9d010e62d3a6b41ce8a06525f333_cgraph">
-<area shape="rect" title="Reads a specified number of bytes from the input stream and writes them to the buffer." alt="" coords="5,219,202,259"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#a9d335bbaf2b94e2b46636b66bca6b3ec" title="Checks if the specified input stream is accepting data." alt="" coords="270,5,459,46"/>
-<area shape="poly" title=" " alt="" coords="113,217,134,182,164,138,203,93,248,56,256,51,259,55,251,60,206,97,169,141,139,184,118,219"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_buffer.html#a639d33e8eed3756ae99fca61288cbe85" title="Loads the specified data into the buffer." alt="" coords="250,70,479,96"/>
-<area shape="poly" title=" " alt="" coords="120,216,173,161,209,131,248,106,264,99,266,104,251,111,212,135,177,165,124,220"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html#a21ffac8bc56d8dca8c215cb9b627359d" title="Converts the output position to the corresponding input position based on the audio format ratios." alt="" coords="266,120,463,161"/>
-<area shape="poly" title=" " alt="" coords="146,216,249,171,271,163,273,168,251,176,148,221"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#a3f2053ae18a4f1057cf67e9fd1c9c74b" title="Processes the input data using the specified media buffer and flags." alt="" coords="252,185,477,226"/>
-<area shape="poly" title=" " alt="" coords="202,224,236,219,236,225,202,229"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html#a4916561a92ee170b63630c61870ebe7b" title="Processes the output data buffers using the specified flags and output buffer count." alt="" coords="252,251,477,291"/>
-<area shape="poly" title=" " alt="" coords="202,248,236,253,236,258,202,254"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="252,316,477,341"/>
-<area shape="poly" title=" " alt="" coords="148,258,196,280,251,300,279,309,277,314,249,306,194,285,145,262"/>
-<area shape="rect" href="struct_n_audio_1_1_dmo_1_1_dmo_output_data_buffer.html#a277dfdb5791407f8450807fbe0f4366f" title="Retrives the data in this buffer." alt="" coords="267,365,462,406"/>
-<area shape="poly" title=" " alt="" coords="127,258,181,305,215,330,251,351,263,357,260,362,248,356,212,334,177,309,124,262"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_buffer.html#a1837680ffafa52f4f380aef32acf7c44" title="Set Length." alt="" coords="276,431,453,471"/>
-<area shape="poly" title=" " alt="" coords="118,258,139,293,169,335,207,378,251,415,263,422,260,427,248,420,203,382,165,338,134,295,114,261"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_object.html#a521f4273882c9ecd2d1211908df367ea" title=" " alt="" coords="527,5,708,46"/>
-<area shape="poly" title=" " alt="" coords="459,23,512,23,512,28,459,28"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_object.html#a94cd0f652c020cfff0f32c8909ed465c" title=" " alt="" coords="527,185,708,226"/>
-<area shape="poly" title=" " alt="" coords="477,203,511,203,511,208,477,208"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_i_media_object.html#a535cbed25d31e3b076fe38953258d59f" title=" " alt="" coords="527,251,708,291"/>
-<area shape="poly" title=" " alt="" coords="477,268,511,268,511,274,477,274"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_resampler_dmo_stream_ab6da9d010e62d3a6b41ce8a06525f333_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -815,11 +694,12 @@ Here is the call graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html">ResamplerDmoStream</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

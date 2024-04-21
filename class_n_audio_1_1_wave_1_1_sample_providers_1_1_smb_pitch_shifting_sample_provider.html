@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.SampleProviders.SmbPitchShiftingSampleProvider Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,43 +137,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pi
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.SampleProviders.SmbPitchShiftingSampleProvider:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_sample_providers_8_smb_pitch_shifting_sample_provider_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_sample_providers_8_smb_pitch_shifting_sample_provider_inherit__map" id="a_n_audio_8_wave_8_sample_providers_8_smb_pitch_shifting_sample_provider_inherit__map">
-<area shape="rect" title="Author: Freefall Date: 05.08.16 Based on: the port of Stephan M. Bernsee´s pitch shifting class Port ..." alt="" coords="5,119,229,479"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="63,5,172,71"/>
-<area shape="poly" title=" " alt="" coords="120,86,120,119,115,119,115,86"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider__inherit__graph.svg" width="235" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.SampleProviders.SmbPitchShiftingSampleProvider:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_sample_providers_8_smb_pitch_shifting_sample_provider_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_sample_providers_8_smb_pitch_shifting_sample_provider_coll__map" id="a_n_audio_8_wave_8_sample_providers_8_smb_pitch_shifting_sample_provider_coll__map">
-<area shape="rect" title="Author: Freefall Date: 05.08.16 Based on: the port of Stephan M. Bernsee´s pitch shifting class Port ..." alt="" coords="505,867,729,1027"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,504,115,569"/>
-<area shape="poly" title=" " alt="" coords="62,584,66,631,76,686,96,740,111,765,129,787,169,823,213,853,262,877,312,897,414,924,506,937,505,943,413,929,311,902,260,882,211,857,165,827,125,791,106,768,92,742,71,687,61,632,57,584"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_sample_provider.html" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="139,504,333,569"/>
-<area shape="poly" title=" " alt="" coords="246,568,260,614,281,671,310,731,346,787,377,821,413,850,452,875,491,896,489,901,449,880,410,854,373,825,342,791,305,734,277,673,255,616,241,570"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="357,284,555,789"/>
-<area shape="poly" title=" " alt="" coords="498,788,521,842,527,852,522,854,516,844,493,790"/>
-<area shape="rect" title=" " alt="" coords="111,5,252,71"/>
-<area shape="poly" title=" " alt="" coords="176,71,169,113,167,163,176,214,186,237,201,258,216,270,231,275,264,274,302,271,322,274,344,283,342,288,321,279,302,276,265,280,230,281,213,275,197,262,181,240,171,216,162,164,163,113,170,70"/>
-<area shape="rect" title=" " alt="" coords="295,5,337,71"/>
-<area shape="poly" title=" " alt="" coords="314,71,310,157,315,209,328,259,336,270,346,282,351,289,346,292,342,285,332,274,323,261,310,210,305,158,309,70"/>
-<area shape="rect" title=" " alt="" coords="516,5,543,71"/>
-<area shape="poly" title=" " alt="" coords="544,43,574,62,589,76,601,94,612,137,619,211,626,419,626,654,622,850,617,850,620,654,621,419,614,212,607,138,596,96,585,80,571,66,541,48"/>
-<area shape="poly" title=" " alt="" coords="518,46,480,63,461,77,446,96,436,125,430,165,429,267,424,267,425,165,431,124,441,93,457,74,477,58,515,41"/>
-<area shape="rect" title=" " alt="" coords="715,5,752,71"/>
-<area shape="poly" title=" " alt="" coords="734,71,708,453,692,666,677,790,659,852,654,851,672,788,686,665,703,453,729,70"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_smb_pitch_shifter.html" title="SMB Pitch Shifter." alt="" coords="825,484,1015,589"/>
-<area shape="poly" title=" " alt="" coords="736,70,740,110,747,158,760,210,782,258,794,270,809,282,838,328,863,376,901,467,896,469,859,378,834,330,805,285,791,274,777,261,755,212,742,160,734,111,731,71"/>
-<area shape="rect" title=" " alt="" coords="1076,5,1113,71"/>
-<area shape="poly" title=" " alt="" coords="1109,70,1115,94,1120,141,1121,177,1115,260,1112,343,1114,416,1121,544,1117,603,1103,663,1075,724,1029,791,1000,821,968,846,933,868,896,887,820,915,747,933,745,928,818,910,894,882,931,864,965,842,997,817,1025,787,1070,722,1098,661,1112,602,1116,544,1109,417,1106,343,1109,260,1116,177,1115,141,1109,95,1104,71"/>
-<area shape="poly" title=" " alt="" coords="1078,68,1064,96,1052,140,1047,177,1043,214,1033,260,995,372,954,469,949,467,990,370,1028,259,1038,213,1042,176,1046,139,1060,94,1074,65"/>
-<area shape="poly" title=" " alt="" coords="907,589,869,687,842,740,809,791,778,826,744,858,740,855,774,822,805,787,837,738,864,684,902,588"/>
-<area shape="rect" title=" " alt="" coords="855,5,900,71"/>
-<area shape="poly" title=" " alt="" coords="879,70,878,156,881,259,894,369,910,466,904,467,889,369,876,260,872,156,873,70"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -331,12 +324,7 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a55f3b0e5ce23bff24e3b7463af5258ac_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a55f3b0e5ce23bff24e3b7463af5258ac_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a55f3b0e5ce23bff24e3b7463af5258ac_icgraph" id="aclass_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a55f3b0e5ce23bff24e3b7463af5258ac_icgraph">
-<area shape="rect" title="Applies a limiting function to the input sample and returns the result." alt="" coords="302,5,519,61"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider.html#a5c4b14e77609cbe2d76207702423b36c" title="Reads audio samples from the source stream into the buffer and applies pitch shifting if necessary." alt="" coords="5,13,254,54"/>
-<area shape="poly" title=" " alt="" coords="286,36,254,36,254,31,286,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a55f3b0e5ce23bff24e3b7463af5258ac_icgraph.svg" width="524" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -395,17 +383,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a5c4b14e77609cbe2d76207702423b36c_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a5c4b14e77609cbe2d76207702423b36c_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a5c4b14e77609cbe2d76207702423b36c_cgraph" id="aclass_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a5c4b14e77609cbe2d76207702423b36c_cgraph">
-<area shape="rect" title="Reads audio samples from the source stream into the buffer and applies pitch shifting if necessary." alt="" coords="5,109,254,150"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider.html#a55f3b0e5ce23bff24e3b7463af5258ac" title="Applies a limiting function to the input sample and returns the result." alt="" coords="311,5,528,61"/>
-<area shape="poly" title=" " alt="" coords="193,106,318,64,320,69,194,111"/>
-<area shape="rect" href="class_n_audio_1_1_dsp_1_1_smb_pitch_shifter.html#a8f211a6dbceb7829abf95cb083864398" title="Performs pitch shifting on the input audio data." alt="" coords="322,109,517,150"/>
-<area shape="poly" title=" " alt="" coords="254,127,307,127,307,132,254,132"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_sample_provider.html#a5d289f74be04dfee607e40fa967072ca" title="Fill the specified buffer with 32 bit floating point samples." alt="" coords="302,174,537,199"/>
-<area shape="poly" title=" " alt="" coords="236,147,336,167,335,173,235,153"/>
-<area shape="poly" title=" " alt="" coords="365,109,363,99,372,90,391,84,419,82,450,85,469,91,467,96,449,90,419,87,391,89,374,94,368,100,371,107"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider_a5c4b14e77609cbe2d76207702423b36c_cgraph.svg" width="543" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -687,11 +665,12 @@ Here is the call graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave_1_1_sample_providers.html">SampleProviders</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider.html">SmbPitchShiftingSampleProvider</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

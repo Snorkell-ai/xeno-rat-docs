@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.BwfWriter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -112,36 +136,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_bwf_writer.html',''); initR
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.BwfWriter:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_bwf_writer__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_bwf_writer_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_bwf_writer_inherit__map" id="a_n_audio_8_wave_8_bwf_writer_inherit__map">
-<area shape="rect" title="Broadcast WAVE File Writer." alt="" coords="5,119,165,364"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="45,5,126,71"/>
-<area shape="poly" title=" " alt="" coords="88,85,88,119,83,119,83,85"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_bwf_writer__inherit__graph.svg" width="171" height="370"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.BwfWriter:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_bwf_writer__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_bwf_writer_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_bwf_writer_coll__map" id="a_n_audio_8_wave_8_bwf_writer_coll__map">
-<area shape="rect" title="Broadcast WAVE File Writer." alt="" coords="299,762,453,927"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="6,399,87,464"/>
-<area shape="poly" title=" " alt="" coords="48,479,50,525,58,578,74,633,101,682,144,729,195,766,250,795,301,817,299,822,247,800,192,771,140,733,96,686,69,635,53,579,45,526,43,479"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="111,179,310,684"/>
-<area shape="poly" title=" " alt="" coords="306,683,328,737,332,746,327,748,323,739,301,685"/>
-<area shape="rect" title=" " alt="" coords="5,5,147,71"/>
-<area shape="poly" title=" " alt="" coords="84,70,104,154,109,169,104,171,99,155,79,71"/>
-<area shape="rect" title=" " alt="" coords="190,5,231,71"/>
-<area shape="poly" title=" " alt="" coords="213,71,213,162,208,162,208,71"/>
-<area shape="rect" title=" " alt="" coords="324,5,351,71"/>
-<area shape="poly" title=" " alt="" coords="333,71,311,155,308,163,303,162,305,154,328,70"/>
-<area shape="rect" title=" " alt="" coords="334,399,418,464"/>
-<area shape="poly" title=" " alt="" coords="379,464,379,745,373,745,373,464"/>
-<area shape="rect" title=" " alt="" coords="443,399,480,464"/>
-<area shape="poly" title=" " alt="" coords="463,464,454,586,442,662,424,739,421,747,416,746,419,737,437,661,448,585,458,463"/>
-<area shape="rect" title=" " alt="" coords="609,399,647,464"/>
-<area shape="poly" title=" " alt="" coords="634,464,636,520,631,592,624,631,613,669,598,706,578,740,555,765,528,786,470,818,467,813,525,782,552,761,574,736,594,703,608,667,619,629,625,591,630,520,629,464"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_bwf_writer__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -231,14 +231,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_bwf_writer_aae4b97b92099cb65d217293aec8b96bb_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_bwf_writer_aae4b97b92099cb65d217293aec8b96bb_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_bwf_writer_aae4b97b92099cb65d217293aec8b96bb_cgraph" id="aclass_n_audio_1_1_wave_1_1_bwf_writer_aae4b97b92099cb65d217293aec8b96bb_cgraph">
-<area shape="rect" title="Createa a new BwfWriter." alt="" coords="5,35,194,75"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_bwf_writer.html#ad53e5f214de18add02d5fed376f0bab7" title="Converts the input string to a byte array of the specified size and returns the result." alt="" coords="265,5,452,46"/>
-<area shape="poly" title=" " alt="" coords="194,42,250,35,250,41,194,47"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a21fddf07498dcaee579f2a552ab8e4e8" title="Serializes the wave format data and writes it to the specified BinaryWriter." alt="" coords="242,70,475,96"/>
-<area shape="poly" title=" " alt="" coords="194,63,226,66,226,71,194,68"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_bwf_writer_aae4b97b92099cb65d217293aec8b96bb_cgraph.svg" width="480" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -272,12 +265,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_bwf_writer_a4380dea69781af7bb67c4eaa58a4abb6_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_bwf_writer_a4380dea69781af7bb67c4eaa58a4abb6_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_bwf_writer_a4380dea69781af7bb67c4eaa58a4abb6_cgraph" id="aclass_n_audio_1_1_wave_1_1_bwf_writer_a4380dea69781af7bb67c4eaa58a4abb6_cgraph">
-<area shape="rect" title="Disposes of the current object and releases any resources it is using." alt="" coords="5,13,219,39"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_bwf_writer.html#a0c99aa8f9da83ecfbe7334046499eabf" title="Fixes up the chunk sizes in the WAV file." alt="" coords="267,5,450,46"/>
-<area shape="poly" title=" " alt="" coords="219,23,251,23,251,28,219,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_bwf_writer_a4380dea69781af7bb67c4eaa58a4abb6_cgraph.svg" width="456" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -316,14 +304,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_bwf_writer_a0c99aa8f9da83ecfbe7334046499eabf_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_bwf_writer_a0c99aa8f9da83ecfbe7334046499eabf_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_bwf_writer_a0c99aa8f9da83ecfbe7334046499eabf_icgraph" id="aclass_n_audio_1_1_wave_1_1_bwf_writer_a0c99aa8f9da83ecfbe7334046499eabf_icgraph">
-<area shape="rect" title="Fixes up the chunk sizes in the WAV file." alt="" coords="267,23,450,64"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_bwf_writer.html#a4380dea69781af7bb67c4eaa58a4abb6" title="Disposes of the current object and releases any resources it is using." alt="" coords="5,5,219,31"/>
-<area shape="poly" title=" " alt="" coords="251,35,219,32,219,26,252,30"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_bwf_writer.html#a26e344440e4118221c1112831e52711e" title="Flushes the underlying writer and ensures the WAV file is always playable after the flush operation." alt="" coords="13,55,211,80"/>
-<area shape="poly" title=" " alt="" coords="252,57,211,61,211,55,251,51"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_bwf_writer_a0c99aa8f9da83ecfbe7334046499eabf_icgraph.svg" width="456" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -361,12 +342,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_bwf_writer_a26e344440e4118221c1112831e52711e_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_bwf_writer_a26e344440e4118221c1112831e52711e_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_bwf_writer_a26e344440e4118221c1112831e52711e_cgraph" id="aclass_n_audio_1_1_wave_1_1_bwf_writer_a26e344440e4118221c1112831e52711e_cgraph">
-<area shape="rect" title="Flushes the underlying writer and ensures the WAV file is always playable after the flush operation." alt="" coords="5,13,203,39"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_bwf_writer.html#a0c99aa8f9da83ecfbe7334046499eabf" title="Fixes up the chunk sizes in the WAV file." alt="" coords="251,5,434,46"/>
-<area shape="poly" title=" " alt="" coords="203,23,235,23,235,28,203,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_bwf_writer_a26e344440e4118221c1112831e52711e_cgraph.svg" width="440" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -411,12 +387,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_bwf_writer_ad53e5f214de18add02d5fed376f0bab7_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_bwf_writer_ad53e5f214de18add02d5fed376f0bab7_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_bwf_writer_ad53e5f214de18add02d5fed376f0bab7_icgraph" id="aclass_n_audio_1_1_wave_1_1_bwf_writer_ad53e5f214de18add02d5fed376f0bab7_icgraph">
-<area shape="rect" title="Converts the input string to a byte array of the specified size and returns the result." alt="" coords="242,5,428,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_bwf_writer.html#aae4b97b92099cb65d217293aec8b96bb" title="Createa a new BwfWriter." alt="" coords="5,5,194,46"/>
-<area shape="poly" title=" " alt="" coords="226,28,194,28,194,23,226,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_bwf_writer_ad53e5f214de18add02d5fed376f0bab7_icgraph.svg" width="434" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -588,11 +559,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_bwf_writer.html">BwfWriter</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

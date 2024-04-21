@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: Hidden_handler._ProcessHelper Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -112,12 +136,7 @@ $(function(){initNavTree('class_hidden__handler_1_1___process_helper.html',''); 
 <div class="dynheader">
 Collaboration diagram for Hidden_handler._ProcessHelper:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper__coll__graph.png" border="0" usemap="#a_hidden__handler_8___process_helper_coll__map" alt="Collaboration graph"/></div>
-<map name="a_hidden__handler_8___process_helper_coll__map" id="a_hidden__handler_8___process_helper_coll__map">
-<area shape="rect" title=" " alt="" coords="5,134,217,414"/>
-<area shape="rect" title=" " alt="" coords="77,5,146,71"/>
-<area shape="poly" title=" " alt="" coords="114,70,114,117,109,117,109,70"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper__coll__graph.svg" width="278" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -387,21 +406,7 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a663ea20e04ca87e424a9ba029c1b7eba_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a663ea20e04ca87e424a9ba029c1b7eba_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a663ea20e04ca87e424a9ba029c1b7eba_icgraph" id="aclass_hidden__handler_1_1___process_helper_a663ea20e04ca87e424a9ba029c1b7eba_icgraph">
-<area shape="rect" title="Closes an open object handle." alt="" coords="1158,5,1368,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="1143,25,1110,24,875,22,639,24,592,25,592,20,639,19,875,17,1110,19,1143,20"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a34637f16b886e4b38c1086cd27ce8162" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="900,33,1110,74"/>
-<area shape="poly" title=" " alt="" coords="1143,41,1111,45,1110,40,1142,36"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,33,852,74"/>
-<area shape="poly" title=" " alt="" coords="884,56,852,56,852,51,884,51"/>
-<area shape="poly" title=" " alt="" coords="624,43,591,40,592,34,624,38"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a663ea20e04ca87e424a9ba029c1b7eba_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -451,18 +456,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a1fcacc2ad894dbddf51f6db9d37bb317_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a1fcacc2ad894dbddf51f6db9d37bb317_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a1fcacc2ad894dbddf51f6db9d37bb317_icgraph" id="aclass_hidden__handler_1_1___process_helper_a1fcacc2ad894dbddf51f6db9d37bb317_icgraph">
-<area shape="rect" title="Converts a string representation of a security identifier (SID) to a binary SID and returns a value i..." alt="" coords="900,5,1110,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,5,852,46"/>
-<area shape="poly" title=" " alt="" coords="884,28,852,28,852,23,884,23"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="624,28,592,28,592,23,624,23"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a1fcacc2ad894dbddf51f6db9d37bb317_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -560,16 +554,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a001f8668c1ed15d6abda4b7884a5863e_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a001f8668c1ed15d6abda4b7884a5863e_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a001f8668c1ed15d6abda4b7884a5863e_icgraph" id="aclass_hidden__handler_1_1___process_helper_a001f8668c1ed15d6abda4b7884a5863e_icgraph">
-<area shape="rect" title="Creates a new process using the specified user token and startup information." alt="" coords="639,5,850,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="623,28,592,28,592,23,623,23"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a001f8668c1ed15d6abda4b7884a5863e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -609,40 +594,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_cgraph" id="aclass_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_cgraph">
-<area shape="rect" title="Retrieves a restricted session user token and returns it." alt="" coords="5,201,218,242"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a1fcacc2ad894dbddf51f6db9d37bb317" title="Converts a string representation of a security identifier (SID) to a binary SID and returns a value i..." alt="" coords="266,5,476,46"/>
-<area shape="poly" title=" " alt="" coords="125,199,180,130,220,91,264,57,275,51,278,55,267,61,223,95,184,133,129,203"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a3fa91d6360cdb590996433351b716528" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="266,71,476,111"/>
-<area shape="poly" title=" " alt="" coords="139,198,196,160,264,122,281,115,283,120,267,127,199,165,142,203"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a34637f16b886e4b38c1086cd27ce8162" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="266,136,476,177"/>
-<area shape="poly" title=" " alt="" coords="194,198,272,178,273,184,196,203"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#af8b61acfaee6a0c034cdbd9fdd415352" title="Closes a SAFER level handle." alt="" coords="266,201,476,242"/>
-<area shape="poly" title=" " alt="" coords="218,219,250,219,250,224,218,224"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a1eb4aabd0fc0cfae5aebbdd9966f7ff7" title="Computes a token from the specified level handle and input access token, and returns the result." alt="" coords="266,267,476,307"/>
-<area shape="poly" title=" " alt="" coords="196,240,273,260,272,265,194,245"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a9b567703cdeea8195097dcde8aed9d94" title="Creates a new Safer level and returns a handle to the level." alt="" coords="266,332,476,373"/>
-<area shape="poly" title=" " alt="" coords="142,240,199,278,267,317,283,324,281,328,264,321,196,283,139,245"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a0bdf88a53051df6800aa52b8539f790c" title="Sets the token information for a specified token." alt="" coords="266,397,476,438"/>
-<area shape="poly" title=" " alt="" coords="129,241,184,310,223,349,267,382,278,388,275,393,264,387,220,353,180,313,125,244"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a663ea20e04ca87e424a9ba029c1b7eba" title="Closes an open object handle." alt="" coords="524,136,734,177"/>
-<area shape="poly" title=" " alt="" coords="477,154,508,154,508,159,477,159"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_icgraph" id="aclass_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_icgraph">
-<area shape="rect" title="Retrieves a restricted session user token and returns it." alt="" coords="639,5,852,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="624,28,592,28,592,23,624,23"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a71b728a87d93b62a21f422a707be8a9e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -681,18 +638,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a3fa91d6360cdb590996433351b716528_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a3fa91d6360cdb590996433351b716528_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a3fa91d6360cdb590996433351b716528_icgraph" id="aclass_hidden__handler_1_1___process_helper_a3fa91d6360cdb590996433351b716528_icgraph">
-<area shape="rect" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="900,5,1110,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,5,852,46"/>
-<area shape="poly" title=" " alt="" coords="884,28,852,28,852,23,884,23"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="624,28,592,28,592,23,624,23"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a3fa91d6360cdb590996433351b716528_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -743,43 +689,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_cgraph" id="aclass_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_cgraph">
-<area shape="rect" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="5,81,216,122"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a663ea20e04ca87e424a9ba029c1b7eba" title="Closes an open object handle." alt="" coords="782,69,993,110"/>
-<area shape="poly" title=" " alt="" coords="170,78,276,47,417,17,495,7,575,3,656,6,735,18,790,36,840,59,837,64,788,40,734,23,656,11,575,8,495,13,418,23,277,52,171,83"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a001f8668c1ed15d6abda4b7884a5863e" title="Creates a new process using the specified user token and startup information." alt="" coords="265,81,475,122"/>
-<area shape="poly" title=" " alt="" coords="216,99,249,99,249,104,216,104"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="264,195,476,235"/>
-<area shape="poly" title=" " alt="" coords="160,120,309,186,307,190,158,125"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a1fcacc2ad894dbddf51f6db9d37bb317" title="Converts a string representation of a security identifier (SID) to a binary SID and returns a value i..." alt="" coords="524,32,734,73"/>
-<area shape="poly" title=" " alt="" coords="398,192,474,132,497,106,507,95,523,83,534,77,537,82,525,88,511,99,501,110,478,135,402,196"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a3fa91d6360cdb590996433351b716528" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="524,97,734,138"/>
-<area shape="poly" title=" " alt="" coords="417,191,523,148,545,141,547,146,525,153,419,196"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a34637f16b886e4b38c1086cd27ce8162" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="524,163,734,203"/>
-<area shape="poly" title=" " alt="" coords="476,199,508,195,509,200,477,204"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#af8b61acfaee6a0c034cdbd9fdd415352" title="Closes a SAFER level handle." alt="" coords="524,228,734,269"/>
-<area shape="poly" title=" " alt="" coords="477,226,509,230,508,235,476,231"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a1eb4aabd0fc0cfae5aebbdd9966f7ff7" title="Computes a token from the specified level handle and input access token, and returns the result." alt="" coords="524,293,734,334"/>
-<area shape="poly" title=" " alt="" coords="418,233,525,278,546,285,544,290,523,283,416,238"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a9b567703cdeea8195097dcde8aed9d94" title="Creates a new Safer level and returns a handle to the level." alt="" coords="524,359,734,399"/>
-<area shape="poly" title=" " alt="" coords="392,234,449,288,486,317,525,343,538,350,536,355,523,348,482,322,445,292,388,237"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a0bdf88a53051df6800aa52b8539f790c" title="Sets the token information for a specified token." alt="" coords="524,424,734,465"/>
-<area shape="poly" title=" " alt="" coords="384,234,405,271,437,318,478,367,526,409,534,414,531,419,522,413,474,371,433,322,401,274,379,237"/>
-<area shape="poly" title=" " alt="" coords="697,159,733,147,821,114,823,119,735,152,699,165"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_icgraph" id="aclass_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_icgraph">
-<area shape="rect" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a4a7e7860333785f282419b62936989de_icgraph.svg" width="598" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -819,28 +734,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_cgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_cgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_cgraph" id="aclass_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_cgraph">
-<area shape="rect" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="5,5,216,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a663ea20e04ca87e424a9ba029c1b7eba" title="Closes an open object handle." alt="" coords="264,5,474,46"/>
-<area shape="poly" title=" " alt="" coords="216,23,248,23,248,28,216,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_cgraph.svg" width="480" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_icgraph" id="aclass_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_icgraph">
-<area shape="rect" title="Safely closes the specified handle if it is not a null pointer and returns a boolean value indicating..." alt="" coords="900,5,1110,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,5,852,46"/>
-<area shape="poly" title=" " alt="" coords="884,28,852,28,852,23,884,23"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="624,28,592,28,592,23,624,23"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a34637f16b886e4b38c1086cd27ce8162_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -879,18 +778,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_af8b61acfaee6a0c034cdbd9fdd415352_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_af8b61acfaee6a0c034cdbd9fdd415352_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_af8b61acfaee6a0c034cdbd9fdd415352_icgraph" id="aclass_hidden__handler_1_1___process_helper_af8b61acfaee6a0c034cdbd9fdd415352_icgraph">
-<area shape="rect" title="Closes a SAFER level handle." alt="" coords="900,5,1110,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,5,852,46"/>
-<area shape="poly" title=" " alt="" coords="884,28,852,28,852,23,884,23"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="624,28,592,28,592,23,624,23"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_af8b61acfaee6a0c034cdbd9fdd415352_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -958,18 +846,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a1eb4aabd0fc0cfae5aebbdd9966f7ff7_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a1eb4aabd0fc0cfae5aebbdd9966f7ff7_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a1eb4aabd0fc0cfae5aebbdd9966f7ff7_icgraph" id="aclass_hidden__handler_1_1___process_helper_a1eb4aabd0fc0cfae5aebbdd9966f7ff7_icgraph">
-<area shape="rect" title="Computes a token from the specified level handle and input access token, and returns the result." alt="" coords="900,5,1110,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,5,852,46"/>
-<area shape="poly" title=" " alt="" coords="884,28,852,28,852,23,884,23"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="624,28,592,28,592,23,624,23"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a1eb4aabd0fc0cfae5aebbdd9966f7ff7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1031,18 +908,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a9b567703cdeea8195097dcde8aed9d94_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a9b567703cdeea8195097dcde8aed9d94_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a9b567703cdeea8195097dcde8aed9d94_icgraph" id="aclass_hidden__handler_1_1___process_helper_a9b567703cdeea8195097dcde8aed9d94_icgraph">
-<area shape="rect" title="Creates a new Safer level and returns a handle to the level." alt="" coords="900,5,1110,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,5,852,46"/>
-<area shape="poly" title=" " alt="" coords="884,28,852,28,852,23,884,23"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="624,28,592,28,592,23,624,23"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a9b567703cdeea8195097dcde8aed9d94_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1099,18 +965,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_hidden__handler_1_1___process_helper_a0bdf88a53051df6800aa52b8539f790c_icgraph.png" border="0" usemap="#aclass_hidden__handler_1_1___process_helper_a0bdf88a53051df6800aa52b8539f790c_icgraph" alt=""/></div>
-<map name="aclass_hidden__handler_1_1___process_helper_a0bdf88a53051df6800aa52b8539f790c_icgraph" id="aclass_hidden__handler_1_1___process_helper_a0bdf88a53051df6800aa52b8539f790c_icgraph">
-<area shape="rect" title="Sets the token information for a specified token." alt="" coords="900,5,1110,46"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a71b728a87d93b62a21f422a707be8a9e" title="Retrieves a restricted session user token and returns it." alt="" coords="639,5,852,46"/>
-<area shape="poly" title=" " alt="" coords="884,28,852,28,852,23,884,23"/>
-<area shape="rect" href="class_hidden__handler_1_1___process_helper.html#a4a7e7860333785f282419b62936989de" title="Runs the specified file as a restricted user in a separate desktop session." alt="" coords="381,5,591,46"/>
-<area shape="poly" title=" " alt="" coords="624,28,592,28,592,23,624,23"/>
-<area shape="rect" href="class_hidden__handler_1_1_process___handler.html#a2a64e868fdecaaa3ec30821e41d44360" title="Starts the Windows Explorer process and returns a boolean indicating success." alt="" coords="171,5,333,46"/>
-<area shape="poly" title=" " alt="" coords="365,28,334,28,334,23,365,23"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs various operations based on the received data." alt="" coords="5,13,123,39"/>
-<area shape="poly" title=" " alt="" coords="155,28,123,28,123,23,155,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_hidden__handler_1_1___process_helper_a0bdf88a53051df6800aa52b8539f790c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1143,11 +998,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_hidden__handler.html">Hidden_handler</a></li><li class="navelem"><a class="el" href="class_hidden__handler_1_1___process_helper.html">_ProcessHelper</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.ISampleProvider Interface Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -110,68 +134,12 @@ $(function(){initNavTree('interface_n_audio_1_1_wave_1_1_i_sample_provider.html'
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.ISampleProvider:</div>
 <div class="dyncontent">
-<div class="center"><img src="interface_n_audio_1_1_wave_1_1_i_sample_provider__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_i_sample_provider_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_i_sample_provider_inherit__map" id="a_n_audio_8_wave_8_i_sample_provider_inherit__map">
-<area shape="rect" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="2041,5,2234,71"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_adsr_sample_provider.html" title="ADSR sample provider allowing you to specify attack, decay, sustain and release values." alt="" coords="5,219,205,459"/>
-<area shape="poly" title=" " alt="" coords="2026,44,1587,51,1001,66,719,77,477,89,301,104,246,112,219,121,194,141,173,165,141,220,137,218,169,161,190,137,216,116,245,107,300,99,476,84,718,71,1001,61,1587,46,2026,38"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_concatenating_sample_provider.html" title="Sample Provider to concatenate multiple sample providers together." alt="" coords="229,269,437,409"/>
-<area shape="poly" title=" " alt="" coords="2026,44,1635,54,1126,70,673,93,522,106,475,114,451,121,416,151,388,189,367,230,352,270,347,268,363,228,384,186,412,147,448,116,473,108,521,101,672,87,1125,64,1635,48,2026,39"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_fade_in_out_sample_provider.html" title="Sample Provider to allow fading in and out." alt="" coords="461,189,661,489"/>
-<area shape="poly" title=" " alt="" coords="2026,42,1694,44,1271,54,1066,64,887,78,751,97,704,108,675,121,640,152,613,191,608,187,636,148,672,116,703,103,750,92,886,73,1065,59,1271,49,1694,39,2026,36"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_metering_sample_provider.html" title="Simple SampleProvider that passes through audio unchanged and raises an event every n samples with th..." alt="" coords="685,219,885,459"/>
-<area shape="poly" title=" " alt="" coords="2026,43,1742,48,1389,60,1220,71,1073,84,961,101,923,110,899,121,874,141,854,165,822,220,817,217,849,162,871,137,896,116,921,105,960,95,1072,78,1219,65,1389,55,1741,43,2026,38"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_mixing_sample_provider.html" title="A sample provider mixer, allowing inputs to be added and removed." alt="" coords="909,189,1109,489"/>
-<area shape="poly" title=" " alt="" coords="2026,45,1790,53,1508,67,1375,77,1259,90,1172,104,1142,112,1123,121,1088,152,1061,190,1057,187,1084,148,1120,116,1140,107,1171,99,1259,84,1374,72,1508,62,1790,47,2026,39"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_mono_to_stereo_sample_provider.html" title="No nonsense mono to stereo provider, no volume adjustment, just copies input to left and right." alt="" coords="1133,239,1341,439"/>
-<area shape="poly" title=" " alt="" coords="2026,47,1843,58,1634,75,1453,96,1390,108,1355,121,1326,145,1303,174,1284,207,1268,240,1263,238,1279,204,1298,171,1323,141,1352,116,1389,103,1453,91,1634,69,1843,53,2026,42"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_multiplexing_sample_provider.html" title="Allows any number of inputs to be patched to outputs Uses could include swapping left and right chann..." alt="" coords="1365,199,1565,479"/>
-<area shape="poly" title=" " alt="" coords="2026,46,1906,53,1775,67,1658,89,1612,104,1579,121,1542,157,1513,201,1509,198,1538,153,1576,116,1610,99,1656,84,1774,62,1905,48,2026,40"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_notifying_sample_provider.html" title="Simple class that raises an event on every sample." alt="" coords="1589,259,1789,419"/>
-<area shape="poly" title=" " alt="" coords="2026,45,1970,53,1912,67,1854,89,1803,121,1773,150,1748,186,1728,223,1713,260,1708,258,1724,221,1743,183,1769,147,1800,117,1852,84,1910,62,1969,48,2025,40"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_offset_sample_provider.html" title="Allows you to:" alt="" coords="1813,119,2013,559"/>
-<area shape="poly" title=" " alt="" coords="2072,81,2027,121,2015,135,2011,132,2023,117,2068,77"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_panning_sample_provider.html" title="Converts a mono sample provider to stereo, with a customisable pan strategy." alt="" coords="2037,189,2237,489"/>
-<area shape="poly" title=" " alt="" coords="2140,86,2140,189,2135,189,2135,86"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_channel.html" title="Utility class that takes an IWaveProvider input at any bit depth and exposes it as an ISampleProvider..." alt="" coords="2261,229,2461,449"/>
-<area shape="poly" title=" " alt="" coords="2207,77,2251,117,2290,171,2321,228,2316,230,2286,173,2247,120,2203,81"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_provider_converter_base.html" title="Helper base class for classes converting to ISampleProvider." alt="" coords="2485,249,2696,429"/>
-<area shape="poly" title=" " alt="" coords="2250,40,2305,48,2365,62,2422,85,2475,117,2505,145,2529,178,2550,213,2565,248,2561,250,2545,215,2525,180,2501,148,2472,121,2420,89,2363,68,2304,53,2249,45"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_signal_generator.html" title="Signal Generator Sin, Square, Triangle, SawTooth, White Noise, Pink Noise, Sweep." alt="" coords="2720,129,2920,549"/>
-<area shape="poly" title=" " alt="" coords="2249,40,2372,48,2506,61,2627,84,2675,99,2709,116,2723,127,2719,131,2707,121,2673,104,2626,89,2505,67,2371,53,2248,45"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider.html" title="Author: Freefall Date: 05.08.16 Based on: the port of Stephan M. Bernsee´s pitch shifting class Port ..." alt="" coords="2944,159,3168,519"/>
-<area shape="poly" title=" " alt="" coords="2249,35,2421,38,2621,49,2718,59,2806,73,2880,92,2933,116,2957,135,2978,157,2974,161,2954,139,2931,121,2878,97,2805,78,2718,64,2621,54,2421,43,2249,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo_to_mono_sample_provider.html" title="Takes a stereo input and turns it to mono." alt="" coords="3192,249,3400,429"/>
-<area shape="poly" title=" " alt="" coords="2249,39,2491,47,2781,61,2919,71,3038,84,3129,99,3161,107,3181,116,3213,143,3239,176,3259,212,3274,248,3269,250,3254,214,3234,179,3209,147,3179,121,3159,112,3128,104,3038,89,2918,77,2781,67,2490,52,2249,44"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_volume_sample_provider.html" title="Very simple sample provider supporting adjustable gain." alt="" coords="3424,269,3624,409"/>
-<area shape="poly" title=" " alt="" coords="2249,37,2541,42,2904,54,3079,64,3231,78,3347,95,3387,105,3413,116,3449,148,3476,186,3496,228,3511,268,3506,270,3492,230,3471,189,3445,151,3411,121,3385,110,3346,100,3231,83,3079,70,2904,59,2540,47,2249,43"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html" title="Fully managed resampling sample provider, based on the WDL Resampler." alt="" coords="3648,249,3864,429"/>
-<area shape="poly" title=" " alt="" coords="2249,36,2588,39,3022,49,3233,59,3417,73,3557,92,3606,103,3637,116,3670,143,3696,176,3717,212,3733,248,3728,250,3712,214,3692,179,3666,147,3635,121,3604,108,3556,97,3416,78,3232,64,3022,54,2588,44,2249,42"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_simple_compressor_effect.html" title="A simple compressor." alt="" coords="3888,189,4096,489"/>
-<area shape="poly" title=" " alt="" coords="2249,39,2651,48,3177,64,3645,87,3802,100,3851,108,3877,116,3914,148,3942,187,3938,190,3910,152,3875,121,3850,113,3801,106,3645,92,3176,69,2651,53,2249,44"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_provider32.html" title="Base class for creating a 32 bit floating point wave provider Can also be used as a base class for an..." alt="" coords="4120,256,4312,421"/>
-<area shape="poly" title=" " alt="" coords="2249,38,2700,45,3301,60,3593,70,3842,83,4023,98,4079,107,4109,116,4142,145,4167,179,4187,217,4201,255,4196,257,4182,220,4163,182,4138,148,4107,121,4078,112,4022,104,3841,88,3592,76,3301,65,2700,51,2249,43"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_pcm16_bit_to_sample_provider.html" title="Converts an IWaveProvider containing 16 bit PCM to an ISampleProvider." alt="" coords="1931,607,2131,707"/>
-<area shape="poly" title=" " alt="" coords="2562,443,2546,476,2527,507,2503,536,2475,561,2431,586,2391,599,2353,603,2316,602,2237,597,2193,599,2143,609,2131,613,2130,608,2142,604,2193,594,2238,591,2316,597,2353,598,2390,594,2429,581,2472,556,2499,533,2522,504,2541,473,2557,441"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_pcm24_bit_to_sample_provider.html" title="Converts an IWaveProvider containing 24 bit PCM to an ISampleProvider." alt="" coords="2155,607,2355,707"/>
-<area shape="poly" title=" " alt="" coords="2556,443,2521,505,2500,534,2475,561,2355,614,2353,609,2472,556,2496,531,2517,502,2551,440"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_pcm32_bit_to_sample_provider.html" title="Converts an IWaveProvider containing 32 bit PCM to an ISampleProvider." alt="" coords="2379,607,2579,707"/>
-<area shape="poly" title=" " alt="" coords="2557,443,2498,608,2493,606,2552,442"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_pcm8_bit_to_sample_provider.html" title="Converts an IWaveProvider containing 8 bit PCM to an ISampleProvider." alt="" coords="2603,607,2803,707"/>
-<area shape="poly" title=" " alt="" coords="2630,442,2688,606,2683,608,2625,443"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wave_to_sample_provider.html" title="Helper class turning an already 32 bit floating point IWaveProvider into an ISampleProvider &#45; hopeful..." alt="" coords="2827,607,3027,707"/>
-<area shape="poly" title=" " alt="" coords="2630,440,2664,502,2686,531,2710,556,2828,609,2826,614,2706,561,2682,534,2660,505,2626,443"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wave_to_sample_provider64.html" title="Helper class turning an already 64 bit floating point IWaveProvider into an ISampleProvider &#45; hopeful..." alt="" coords="3051,607,3251,707"/>
-<area shape="poly" title=" " alt="" coords="2625,441,2640,473,2659,504,2682,533,2710,556,2752,581,2791,594,2829,598,2865,597,2944,591,2989,594,3039,604,3052,608,3050,613,3038,609,2988,599,2944,597,2866,602,2828,603,2790,599,2750,586,2706,561,2678,536,2655,507,2635,476,2620,443"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="interface_n_audio_1_1_wave_1_1_i_sample_provider__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.ISampleProvider:</div>
 <div class="dyncontent">
-<div class="center"><img src="interface_n_audio_1_1_wave_1_1_i_sample_provider__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_i_sample_provider_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_i_sample_provider_coll__map" id="a_n_audio_8_wave_8_i_sample_provider_coll__map">
-<area shape="rect" title="Like IWaveProvider, but makes it much simpler to put together a 32 bit floating point mixing engine." alt="" coords="5,5,199,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="interface_n_audio_1_1_wave_1_1_i_sample_provider__coll__graph.svg" width="204" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -228,44 +196,7 @@ Properties</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="interface_n_audio_1_1_wave_1_1_i_sample_provider_a5d289f74be04dfee607e40fa967072ca_icgraph.png" border="0" usemap="#ainterface_n_audio_1_1_wave_1_1_i_sample_provider_a5d289f74be04dfee607e40fa967072ca_icgraph" alt=""/></div>
-<map name="ainterface_n_audio_1_1_wave_1_1_i_sample_provider_a5d289f74be04dfee607e40fa967072ca_icgraph" id="ainterface_n_audio_1_1_wave_1_1_i_sample_provider_a5d289f74be04dfee607e40fa967072ca_icgraph">
-<area shape="rect" title="Fill the specified buffer with 32 bit floating point samples." alt="" coords="558,504,793,529"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_to_wave_provider.html#a2a1e3a11e2caa20d1c97d4d6be4d87ab" title="Reads audio samples from the buffer and returns the number of bytes read." alt="" coords="282,5,490,46"/>
-<area shape="poly" title=" " alt="" coords="670,488,661,404,650,349,635,289,615,227,587,167,552,110,508,61,489,47,492,43,512,57,556,107,592,164,619,225,640,288,656,348,666,404,676,488"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_to_wave_provider16.html#af3adc9824394b7e19e3a42d07469244b" title="Reads audio data from the source provider and writes it to the destination buffer." alt="" coords="281,71,491,111"/>
-<area shape="poly" title=" " alt="" coords="668,489,655,416,627,318,606,266,580,215,547,167,508,126,489,113,492,109,512,122,551,164,584,212,611,263,632,316,660,415,674,488"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_to_wave_provider24.html#a236622363674be058dbcd3fed4168c8d" title="Reads audio samples from the source provider and writes them to the destination buffer." alt="" coords="281,136,491,177"/>
-<area shape="poly" title=" " alt="" coords="666,489,649,427,618,347,597,304,572,263,543,225,508,192,489,179,492,175,512,188,546,221,576,260,602,302,623,344,654,425,671,488"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_simple_compressor_effect.html#a6456b375729571116efd4ecf74b486d2" title="Reads audio samples from the source stream into the specified array." alt="" coords="278,201,494,242"/>
-<area shape="poly" title=" " alt="" coords="662,490,642,439,609,376,565,312,538,283,508,257,487,245,490,240,512,253,542,279,569,308,614,374,646,437,667,488"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_adsr_sample_provider.html#a87963e61c51bdfa46fe53d67f166a9dc" title="Reads audio samples from the source, processes them using the ADSR envelope generator,..." alt="" coords="282,267,490,307"/>
-<area shape="poly" title=" " alt="" coords="657,491,633,453,599,407,557,361,509,323,485,310,487,306,511,318,561,358,603,404,637,450,662,488"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_concatenating_sample_provider.html#a48d121350f10cdbbadf6151041e7af6c" title="Reads data from the providers into the buffer and returns the total number of bytes read." alt="" coords="270,332,502,373"/>
-<area shape="poly" title=" " alt="" coords="649,495,589,441,550,412,509,388,479,376,481,371,511,383,553,408,592,437,653,491"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_fade_in_out_sample_provider.html#ab359901594ad340d6eff602c48b3157d" title="Reads audio samples from the source into the buffer and applies any active fade effects." alt="" coords="282,397,490,438"/>
-<area shape="poly" title=" " alt="" coords="629,500,509,454,469,441,470,436,511,448,631,495"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_metering_sample_provider.html#ac20ec15df5d8cea4e9c8597812e6d316" title="Reads audio samples from the source into the buffer and updates the stream volume." alt="" coords="282,463,490,503"/>
-<area shape="poly" title=" " alt="" coords="543,504,490,498,491,492,544,499"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_mono_to_stereo_sample_provider.html#ad096913134f6f652797c10d1a6d39733" title="Reads audio samples from the source and stores them in the buffer." alt="" coords="270,528,502,569"/>
-<area shape="poly" title=" " alt="" coords="543,534,502,538,502,533,542,528"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_offset_sample_provider.html#a873cea43748c4745f3959455b830eadd" title="Reads audio samples into the buffer and returns the number of samples read." alt="" coords="282,593,490,634"/>
-<area shape="poly" title=" " alt="" coords="630,538,511,583,470,595,468,590,509,578,628,533"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_panning_sample_provider.html#a56c57f8cf46cd6cec93959d1a43188b8" title="Reads audio samples from the source buffer and writes them to the specified buffer." alt="" coords="282,659,490,699"/>
-<area shape="poly" title=" " alt="" coords="653,542,592,595,553,624,511,648,481,661,479,656,509,643,550,619,588,591,649,538"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_smb_pitch_shifting_sample_provider.html#a5c4b14e77609cbe2d76207702423b36c" title="Reads audio samples from the source stream into the buffer and applies pitch shifting if necessary." alt="" coords="262,724,510,765"/>
-<area shape="poly" title=" " alt="" coords="662,544,637,582,603,628,561,674,511,713,487,726,484,721,509,709,557,670,599,624,633,579,657,541"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo_to_mono_sample_provider.html#ae77b7084fb767f58b1ad9e352a31a10d" title="Reads audio samples from the source provider and processes them to fill the buffer with the mixed out..." alt="" coords="270,789,502,830"/>
-<area shape="poly" title=" " alt="" coords="667,545,646,595,613,658,569,723,542,753,512,779,490,791,487,787,508,774,538,749,564,720,609,656,641,593,662,543"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#aa42a813e3913f17ce1ec0fb045b16c12" title="Reads data from the source into the buffer and returns the number of frames read." alt="" coords="266,855,506,895"/>
-<area shape="poly" title=" " alt="" coords="671,545,654,607,623,688,602,730,576,772,546,810,512,844,492,857,489,852,508,840,542,807,572,769,597,728,618,685,649,605,666,543"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_notifying_sample_provider.html#a369c9afb90e114b8aee5e451bd37650e" title="Reads audio samples into a buffer and raises the Sample event for each sample read." alt="" coords="282,920,490,961"/>
-<area shape="poly" title=" " alt="" coords="674,545,660,618,632,716,611,768,584,820,551,867,512,909,492,923,489,918,508,905,547,864,579,817,606,766,627,714,655,617,668,544"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_volume_sample_provider.html#ae1f0877b88116f7c42716dfdfe8807ce" title="Reads audio samples from the source and modifies the volume if necessary." alt="" coords="282,985,490,1026"/>
-<area shape="poly" title=" " alt="" coords="675,545,666,629,655,684,640,744,619,807,592,868,556,925,512,974,492,988,489,984,508,970,552,921,587,865,614,805,635,743,650,683,661,628,670,544"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_channel.html#a1d455da73a7a9a8b65fa183c66c3ee3e" title="Reads audio samples from the volume provider and stores them in the buffer starting at the specified ..." alt="" coords="5,985,214,1026"/>
-<area shape="poly" title=" " alt="" coords="266,1008,214,1008,214,1003,266,1003"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="interface_n_audio_1_1_wave_1_1_i_sample_provider_a5d289f74be04dfee607e40fa967072ca_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -303,11 +234,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="interface_n_audio_1_1_wave_1_1_i_sample_provider.html">ISampleProvider</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

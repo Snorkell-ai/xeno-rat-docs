@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: IDisposable Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -103,121 +127,24 @@ $(function(){initNavTree('class_i_disposable.html',''); initResizable(); });
 <div class="dynheader">
 Inheritance diagram for IDisposable:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_i_disposable__inherit__graph.png" border="0" usemap="#a_i_disposable_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_i_disposable_inherit__map" id="a_i_disposable_inherit__map">
-<area shape="rect" title=" " alt="" coords="3549,5,3630,71"/>
-<area shape="rect" title=" " alt="" coords="5,331,171,611"/>
-<area shape="poly" title=" " alt="" coords="3534,42,2837,48,1721,63,1159,73,674,87,329,103,227,112,184,121,163,141,144,164,117,216,99,274,90,332,85,331,94,273,112,214,140,161,159,137,181,116,226,106,328,97,674,81,1159,68,1721,57,2837,43,3534,37"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_capture_client.html" title="Audio Capture Client." alt="" coords="195,381,381,561"/>
-<area shape="poly" title=" " alt="" coords="3534,42,2876,49,1831,65,1305,75,852,89,529,104,434,112,393,121,367,146,345,175,327,208,314,243,297,315,290,382,284,381,291,314,309,241,323,206,340,172,363,142,391,116,433,107,528,98,851,83,1304,70,1831,59,2876,44,3534,37"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_client.html" title="Windows CoreAudio AudioClient." alt="" coords="405,171,582,771"/>
-<area shape="poly" title=" " alt="" coords="3534,43,2913,50,1935,66,1444,77,1022,90,721,105,632,113,595,121,569,145,548,173,544,170,565,141,592,116,631,107,720,99,1021,85,1444,72,1935,61,2913,45,3534,37"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_clock_client.html" title="Audio Clock Client." alt="" coords="606,371,783,571"/>
-<area shape="poly" title=" " alt="" coords="3534,42,2960,41,2063,48,1610,57,1216,72,1057,81,929,93,840,106,812,113,796,121,771,145,750,173,733,204,720,237,703,306,696,372,690,371,698,305,715,236,728,202,745,170,767,141,793,116,810,108,839,101,929,87,1056,76,1216,67,1610,52,2063,43,2960,36,3534,36"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_endpoint_volume.html" title="Audio Endpoint Volume." alt="" coords="807,281,985,661"/>
-<area shape="poly" title=" " alt="" coords="3534,42,2997,43,2166,51,1749,61,1386,75,1121,95,1039,107,1014,114,999,121,966,154,941,193,922,236,910,282,905,281,917,235,936,190,962,150,996,116,1012,109,1038,102,1121,89,1385,70,1748,55,2166,46,2997,37,3534,37"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_render_client.html" title="Audio Render Client." alt="" coords="1009,401,1191,541"/>
-<area shape="poly" title=" " alt="" coords="3534,42,3035,44,2273,54,1890,64,1558,78,1316,97,1241,108,1204,121,1176,148,1153,181,1135,217,1121,255,1106,333,1101,402,1095,401,1100,332,1116,254,1130,215,1148,178,1172,145,1201,116,1240,103,1315,91,1558,73,1890,59,2272,49,3035,39,3534,37"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_control.html" title="AudioSessionControl object for information regarding an audio session." alt="" coords="1215,261,1417,681"/>
-<area shape="poly" title=" " alt="" coords="3534,42,3078,46,2391,58,2046,68,1748,82,1531,99,1464,110,1431,121,1400,150,1376,184,1356,222,1342,262,1337,260,1352,220,1371,181,1396,146,1428,116,1463,104,1531,94,1748,76,2046,63,2390,53,3078,41,3534,37"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_stream_volume.html" title="Manages the AudioStreamVolume for the AudioClient." alt="" coords="1441,351,1633,591"/>
-<area shape="poly" title=" " alt="" coords="3534,42,3119,48,2502,61,2195,71,1929,84,1736,101,1676,111,1647,121,1623,143,1603,168,1572,227,1553,290,1543,352,1538,351,1548,289,1567,225,1598,165,1619,139,1644,116,1675,105,1735,96,1929,79,2195,66,2502,55,3119,42,3534,37"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_m_m_device.html" title="MM Device." alt="" coords="1658,119,1865,824"/>
-<area shape="poly" title=" " alt="" coords="3534,43,3163,50,2622,64,2354,75,2123,88,1955,103,1903,112,1877,121,1866,130,1863,126,1875,116,1902,107,1954,98,2123,83,2354,70,2622,59,3163,44,3534,37"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_m_m_device_enumerator.html" title="MM Device Enumerator." alt="" coords="1889,337,2095,606"/>
-<area shape="poly" title=" " alt="" coords="3534,43,3208,52,2744,68,2318,91,2175,106,2131,113,2109,121,2087,141,2067,165,2036,219,2015,279,2003,338,1998,337,2010,277,2031,217,2062,162,2083,138,2107,116,2130,108,2175,100,2318,86,2744,63,3208,46,3534,38"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_simple_audio_volume.html" title="Windows CoreAudio SimpleAudioVolume." alt="" coords="2120,391,2304,551"/>
-<area shape="poly" title=" " alt="" coords="3534,42,3258,43,2874,53,2682,62,2514,76,2387,96,2344,108,2318,121,2290,147,2268,179,2250,213,2237,250,2220,324,2214,392,2208,391,2215,323,2232,248,2245,211,2263,176,2286,144,2314,116,2342,103,2386,91,2514,71,2682,57,2873,47,3258,38,3533,36"/>
-<area shape="rect" href="struct_n_audio_1_1_dmo_1_1_dmo_output_data_buffer.html" title="DMO Output Data Buffer." alt="" coords="2328,321,2515,621"/>
-<area shape="poly" title=" " alt="" coords="3534,43,3300,47,2982,59,2825,69,2688,83,2585,100,2550,110,2528,121,2507,140,2490,162,2461,212,2442,267,2431,322,2425,321,2437,265,2457,210,2485,159,2504,137,2525,116,2548,105,2583,95,2688,77,2825,64,2982,54,3300,42,3533,37"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_dmo_resampler.html" title="DMO Resampler." alt="" coords="2539,389,2722,554"/>
-<area shape="poly" title=" " alt="" coords="3534,44,3341,51,3089,65,2966,76,2859,88,2779,104,2752,112,2735,121,2708,147,2687,178,2669,212,2656,248,2639,322,2633,389,2627,389,2634,321,2651,247,2664,210,2682,176,2704,144,2732,117,2749,107,2777,98,2859,83,2966,71,3089,60,3341,46,3533,38"/>
-<area shape="rect" href="interface_n_audio_1_1_dmo_1_1_effect_1_1_i_dmo_effector.html" title="Interface of DMO Effectors." alt="" coords="2746,411,2955,531"/>
-<area shape="poly" title=" " alt="" coords="3534,42,3400,44,3232,55,3148,65,3073,79,3011,97,2968,121,2939,151,2915,185,2895,223,2881,263,2862,343,2855,412,2849,411,2857,342,2876,262,2891,221,2910,182,2935,147,2965,117,3009,92,3072,74,3147,60,3231,50,3400,39,3534,36"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_buffer.html" title="Attempting to implement the COM IMediaBuffer interface as a .NET object Not sure what will happen whe..." alt="" coords="2979,339,3141,604"/>
-<area shape="poly" title=" " alt="" coords="3534,45,3438,52,3325,67,3222,89,3182,104,3155,121,3134,143,3117,167,3090,223,3074,281,3064,339,3059,338,3068,280,3086,221,3112,165,3130,139,3152,117,3180,99,3220,84,3324,61,3437,47,3533,40"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object.html" title="Media Object." alt="" coords="3165,251,3371,691"/>
-<area shape="poly" title=" " alt="" coords="3535,50,3497,59,3457,73,3418,93,3385,121,3361,150,3340,182,3309,253,3304,250,3335,180,3356,147,3381,117,3415,89,3455,68,3496,54,3533,45"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_media_object_in_place.html" title="Media Object InPlace." alt="" coords="3395,381,3571,561"/>
-<area shape="poly" title=" " alt="" coords="3580,86,3507,382,3502,381,3575,85"/>
-<area shape="rect" href="class_n_audio_1_1_dmo_1_1_windows_media_mp3_decoder.html" title="Windows Media MP3 Decoder (as a DMO) WORK IN PROGRESS &#45; DO NOT USE!" alt="" coords="3595,391,3800,551"/>
-<area shape="poly" title=" " alt="" coords="3603,84,3680,391,3675,392,3598,86"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html" title="An abstract base class for simplifying working with Media Foundation Transforms You need to override ..." alt="" coords="3824,191,4040,751"/>
-<area shape="poly" title=" " alt="" coords="3645,43,3686,51,3731,66,3775,87,3814,117,3843,152,3867,190,3862,193,3839,155,3810,121,3773,92,3729,71,3685,57,3644,48"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_in.html" title="Represents a MIDI in device." alt="" coords="4064,299,4213,644"/>
-<area shape="poly" title=" " alt="" coords="3645,39,3747,45,3868,59,3927,69,3980,82,4023,98,4054,117,4087,156,4111,201,4127,249,4138,298,4132,299,4122,251,4106,203,4082,159,4050,121,4021,102,3979,87,3926,74,3867,64,3747,51,3645,44"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_out.html" title="Represents a MIDI out device." alt="" coords="4237,299,4387,644"/>
-<area shape="poly" title=" " alt="" coords="3645,36,3782,37,3955,47,4041,57,4119,71,4183,91,4208,103,4227,117,4261,155,4285,200,4302,249,4312,298,4307,299,4297,250,4280,202,4256,158,4224,121,4205,108,4181,96,4117,77,4040,62,3955,52,3782,43,3645,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_bwf_writer.html" title="Broadcast WAVE File Writer." alt="" coords="4411,349,4571,594"/>
-<area shape="poly" title=" " alt="" coords="3645,38,3828,46,4066,61,4181,72,4282,84,4358,99,4384,107,4400,117,4423,140,4442,166,4470,225,4487,287,4495,348,4489,349,4482,288,4465,226,4438,169,4419,143,4397,121,4382,112,4356,104,4281,89,4181,77,4065,67,3828,52,3645,44"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html" title="Represents an installed ACM Driver." alt="" coords="4595,181,4800,761"/>
-<area shape="poly" title=" " alt="" coords="3645,38,3865,43,4160,56,4306,67,4433,80,4530,96,4563,106,4584,116,4615,146,4639,180,4635,183,4611,149,4581,121,4561,111,4529,101,4432,85,4305,72,4160,62,3864,48,3645,43"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html" title="AcmStream encapsulates an Audio Compression Manager Stream used to convert audio from one format to a..." alt="" coords="4825,281,5002,661"/>
-<area shape="poly" title=" " alt="" coords="3645,37,3911,39,4280,49,4463,58,4623,72,4745,91,4787,103,4814,117,4847,151,4872,191,4891,235,4904,281,4899,282,4886,237,4868,193,4843,154,4810,121,4785,108,4744,97,4623,78,4462,64,4279,54,3910,44,3645,42"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream_header.html" title=" " alt="" coords="5026,291,5203,651"/>
-<area shape="poly" title=" " alt="" coords="3645,38,3959,47,4405,63,4813,86,4950,100,4993,108,5015,116,5050,153,5076,196,5095,243,5108,291,5103,292,5090,244,5072,198,5046,156,5012,121,4991,113,4949,106,4812,92,4405,68,3959,52,3645,43"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_dmo_effect_wave_provider.html" title="Provide WaveProvider that can apply effects in real time using DMO." alt="" coords="5227,374,5421,569"/>
-<area shape="poly" title=" " alt="" coords="3645,38,3999,45,4510,60,4764,71,4982,84,5141,99,5190,107,5216,116,5243,142,5265,171,5283,203,5298,237,5316,308,5325,374,5320,375,5311,309,5293,239,5279,205,5261,174,5239,145,5213,121,5189,112,5140,104,4982,89,4763,76,4510,66,3998,50,3645,43"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_mp3_frame_decompressor.html" title="Interface for MP3 frame by frame decoder." alt="" coords="5445,429,5693,514"/>
-<area shape="poly" title=" " alt="" coords="3645,37,4040,44,4623,58,4913,69,5164,82,5346,98,5404,106,5433,116,5469,148,5498,186,5520,228,5538,272,5560,358,5570,428,5564,429,5555,359,5533,274,5516,230,5493,189,5465,152,5431,121,5402,112,5346,103,5163,87,4913,74,4623,64,4040,49,3645,43"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_in.html" title="Generic interface for wave recording." alt="" coords="5718,429,5863,514"/>
-<area shape="poly" title=" " alt="" coords="3645,37,4093,40,4766,52,5103,62,5395,76,5607,93,5673,104,5707,116,5738,149,5762,187,5778,230,5790,274,5799,359,5798,429,5792,429,5793,359,5784,275,5773,231,5757,190,5734,152,5704,121,5672,109,5606,99,5394,81,5103,67,4766,57,4093,46,3645,42"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_player.html" title="Represents the interface to a device that can play a WaveFile." alt="" coords="5888,389,6059,554"/>
-<area shape="poly" title=" " alt="" coords="3645,37,4125,39,4854,50,5220,60,5537,74,5768,92,5840,103,5877,116,5905,143,5928,175,5945,209,5958,246,5974,320,5979,389,5974,389,5968,321,5953,247,5940,211,5923,177,5901,147,5875,121,5839,109,5768,97,5537,79,5220,65,4854,55,4125,45,3645,42"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html" title="Media Foundation Encoder class allows you to use Media Foundation to encode an IWaveProvider to any s..." alt="" coords="6083,231,6279,711"/>
-<area shape="poly" title=" " alt="" coords="3645,37,4161,38,4955,48,5354,58,5700,72,5953,91,6032,103,6072,116,6098,140,6120,168,6138,198,6152,231,6147,233,6133,201,6116,171,6094,144,6069,121,6030,108,5952,96,5700,77,5354,63,4954,53,4161,44,3645,42"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_conversion_provider.html" title="IWaveProvider that passes through an ACM Codec." alt="" coords="6304,311,6541,631"/>
-<area shape="poly" title=" " alt="" coords="3645,37,4202,37,5068,46,5505,56,5884,70,6162,90,6249,102,6293,116,6335,156,6367,204,6390,257,6406,311,6401,312,6385,259,6362,206,6331,159,6291,121,6247,107,6161,95,5884,75,5505,61,5068,51,4202,43,3645,42"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in_buffer.html" title="A buffer of Wave samples." alt="" coords="6565,289,6741,654"/>
-<area shape="poly" title=" " alt="" coords="3645,37,4260,45,5227,61,5713,72,6130,85,6428,99,6516,108,6555,116,6590,152,6616,194,6635,240,6647,288,6642,289,6630,242,6611,196,6586,155,6552,121,6515,113,6427,105,6130,90,5713,77,5227,66,4260,50,3645,43"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_out_buffer.html" title="A buffer of Wave samples for streaming to a Wave Output device." alt="" coords="6766,289,6951,654"/>
-<area shape="poly" title=" " alt="" coords="3645,37,4297,44,5331,60,5851,70,6299,83,6619,99,6713,107,6755,116,6790,152,6817,194,6837,240,6850,288,6845,290,6832,242,6813,196,6786,155,6752,121,6712,112,6618,104,6299,89,5851,76,5331,65,4297,50,3645,42"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_recorder.html" title="Utility class to intercept audio from an IWaveProvider and save it to disk." alt="" coords="6975,399,7158,544"/>
-<area shape="poly" title=" " alt="" coords="3645,37,4336,43,5441,58,5998,69,6477,82,6820,98,6921,106,6965,116,6995,144,7018,177,7037,213,7050,252,7066,329,7071,399,7066,399,7061,330,7045,253,7032,215,7014,180,6991,148,6963,121,6920,112,6819,103,6477,87,5998,74,5441,63,4336,49,3645,42"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html" title="The Media Foundation Resampler Transform." alt="" coords="3832,1167,4032,1502"/>
-<area shape="poly" title=" " alt="" coords="3935,766,3935,1168,3929,1168,3929,766"/>
-<area shape="rect" href="class_n_audio_1_1_file_formats_1_1_mp3_1_1_dmo_mp3_frame_decompressor.html" title="MP3 Frame decompressor using the Windows Media MP3 Decoder DMO object." alt="" coords="4723,1215,4930,1455"/>
-<area shape="poly" title=" " alt="" coords="5568,529,5556,599,5533,681,5515,722,5493,761,5466,796,5434,826,5414,837,5390,845,5330,852,5260,852,5185,849,5110,845,5041,846,4983,855,4961,863,4943,874,4910,908,4884,947,4863,990,4848,1036,4829,1129,4824,1215,4818,1215,4824,1128,4843,1034,4858,988,4879,945,4906,905,4940,870,4958,858,4982,850,5040,841,5110,840,5185,843,5260,847,5330,847,5389,840,5412,832,5430,822,5462,792,5489,758,5510,719,5528,679,5551,598,5562,529"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html" title="MP3 Frame Decompressor using ACM." alt="" coords="4954,1232,5225,1437"/>
-<area shape="poly" title=" " alt="" coords="5566,529,5553,598,5529,678,5511,719,5490,758,5464,794,5434,826,5408,843,5383,850,5358,852,5334,850,5310,848,5286,850,5263,857,5239,874,5205,912,5176,954,5153,1001,5134,1049,5109,1146,5097,1233,5091,1232,5104,1145,5129,1047,5148,998,5172,952,5201,908,5236,870,5260,853,5285,844,5310,843,5334,845,5358,846,5382,845,5406,838,5430,822,5460,791,5486,755,5507,716,5524,676,5548,597,5561,528"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_wasapi_capture.html" title="Audio Capture using Wasapi See http://msdn.microsoft.com/en&#45;us/library/dd370800%28VS...." alt="" coords="5249,1015,5449,1655"/>
-<area shape="poly" title=" " alt="" coords="5797,529,5795,597,5783,677,5772,718,5756,757,5735,794,5707,826,5676,847,5645,856,5614,855,5583,851,5552,846,5522,846,5493,854,5463,874,5436,905,5413,939,5394,977,5379,1016,5374,1014,5389,974,5408,937,5431,902,5460,870,5490,849,5522,840,5553,841,5584,845,5614,850,5644,850,5674,842,5704,822,5730,791,5751,755,5767,716,5778,676,5790,597,5792,529"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html" title="Allows recording using the Windows waveIn APIs Events are raised as recorded buffers are made availab..." alt="" coords="5474,1032,5646,1637"/>
-<area shape="poly" title=" " alt="" coords="5789,529,5781,592,5766,668,5742,749,5708,825,5695,841,5683,850,5671,859,5660,873,5625,951,5600,1033,5595,1031,5620,949,5655,871,5667,855,5680,846,5692,837,5703,823,5737,747,5761,667,5775,592,5784,528"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in_event.html" title="Recording using waveIn api with event callbacks. Use this for recording in non&#45;gui applications Event..." alt="" coords="5670,1082,5877,1587"/>
-<area shape="poly" title=" " alt="" coords="5792,529,5781,1082,5776,1082,5787,529"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wasapi_loopback_capture.html" title="WASAPI Loopback Capture based on a contribution from &quot;Pygmy&quot; &#45; http://naudio.codeplex...." alt="" coords="5251,1845,5447,2000"/>
-<area shape="poly" title=" " alt="" coords="5352,1669,5352,1846,5347,1846,5347,1669"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_asio_out.html" title="ASIO Out Player. New implementation using an internal C# binding." alt="" coords="5901,882,6081,1787"/>
-<area shape="poly" title=" " alt="" coords="5978,569,5984,882,5979,882,5973,569"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_direct_sound_out.html" title="NativeDirectSoundOut using DirectSound COM interop. Contact author: Alexandre Mutel &#45; alexandre_mutel..." alt="" coords="6105,872,6325,1797"/>
-<area shape="poly" title=" " alt="" coords="5999,568,6032,691,6074,823,6096,871,6107,904,6102,906,6091,873,6070,825,6027,692,5994,569"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wasapi_out.html" title="Support for playback using Wasapi." alt="" coords="6349,982,6528,1687"/>
-<area shape="poly" title=" " alt="" coords="5976,569,5984,633,6001,702,6014,735,6030,767,6050,796,6074,822,6106,843,6139,851,6172,850,6205,844,6239,839,6272,838,6306,847,6339,870,6362,895,6381,922,6411,981,6406,984,6376,925,6358,898,6336,874,6304,852,6272,843,6239,844,6206,850,6172,855,6138,856,6104,848,6070,826,6046,800,6025,770,6009,737,5996,703,5979,634,5971,569"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_out.html" title="Represents a wave out device." alt="" coords="6553,1002,6754,1667"/>
-<area shape="poly" title=" " alt="" coords="5975,569,5982,634,5999,703,6012,736,6028,768,6049,797,6074,822,6103,843,6132,857,6162,864,6190,866,6248,860,6306,844,6364,829,6423,823,6452,826,6482,834,6512,848,6542,870,6570,898,6593,930,6612,965,6627,1002,6622,1004,6607,967,6588,933,6565,902,6538,874,6509,853,6480,839,6451,831,6423,828,6365,835,6308,850,6249,865,6190,872,6161,869,6131,862,6101,848,6070,826,6045,800,6024,771,6007,738,5994,704,5977,635,5970,569"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_out_event.html" title="Alternative WaveOut class, making use of the Event callback." alt="" coords="6778,1042,6979,1627"/>
-<area shape="poly" title=" " alt="" coords="5975,569,5982,634,5998,703,6011,737,6028,769,6048,797,6074,822,6099,837,6132,847,6171,853,6215,856,6313,853,6420,845,6526,836,6625,833,6669,836,6708,843,6742,854,6768,870,6803,906,6831,948,6852,993,6867,1041,6862,1043,6847,995,6826,950,6799,909,6765,874,6740,859,6707,848,6669,842,6625,839,6527,841,6420,850,6314,858,6215,861,6170,859,6131,853,6097,842,6070,826,6044,801,6023,771,6006,739,5993,705,5976,635,5969,569"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_i_disposable__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for IDisposable:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_i_disposable__coll__graph.png" border="0" usemap="#a_i_disposable_coll__map" alt="Collaboration graph"/></div>
-<map name="a_i_disposable_coll__map" id="a_i_disposable_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,87,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_i_disposable__coll__graph.svg" width="92" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/Users/sumansaurabh/Documents/my-startup/xeno-rat/Plugins/WebCam/AForge/Video.DirectShow/Internals/<a class="el" href="_structures_8cs.html">Structures.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_i_disposable.html">IDisposable</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

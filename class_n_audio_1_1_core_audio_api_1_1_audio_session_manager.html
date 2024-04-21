@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.CoreAudioApi.AudioSessionManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,53 +137,7 @@ $(function(){initNavTree('class_n_audio_1_1_core_audio_api_1_1_audio_session_man
 <div class="dynheader">
 Collaboration diagram for NAudio.CoreAudioApi.AudioSessionManager:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager__coll__graph.png" border="0" usemap="#a_n_audio_8_core_audio_api_8_audio_session_manager_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_core_audio_api_8_audio_session_manager_coll__map" id="a_n_audio_8_core_audio_api_8_audio_session_manager_coll__map">
-<area shape="rect" title="AudioSessionManager." alt="" coords="703,1586,880,1826"/>
-<area shape="rect" title=" " alt="" coords="297,827,502,927"/>
-<area shape="poly" title=" " alt="" coords="398,926,395,1009,396,1118,404,1239,413,1300,425,1359,432,1379,442,1397,476,1463,494,1490,521,1521,561,1557,603,1591,690,1647,687,1651,600,1595,557,1561,517,1525,490,1493,472,1466,437,1400,427,1381,419,1360,407,1301,399,1239,390,1118,390,1009,393,926"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html" title="AudioSessionManager." alt="" coords="621,1120,799,1360"/>
-<area shape="poly" title=" " alt="" coords="405,926,412,968,424,1013,445,1057,476,1094,491,1104,505,1109,535,1110,568,1109,606,1117,605,1123,568,1114,535,1115,504,1114,489,1109,473,1098,441,1060,419,1015,406,969,400,927"/>
-<area shape="rect" title=" " alt="" coords="67,777,273,977"/>
-<area shape="poly" title=" " alt="" coords="174,976,182,1071,200,1180,214,1236,233,1293,256,1347,284,1397,323,1449,370,1495,421,1537,476,1573,532,1604,587,1631,687,1670,686,1675,585,1636,529,1609,473,1577,418,1541,366,1499,319,1453,280,1400,251,1349,228,1294,209,1238,195,1181,176,1071,168,977"/>
-<area shape="poly" title=" " alt="" coords="211,975,231,1008,254,1041,282,1070,314,1093,353,1110,388,1116,422,1114,455,1109,489,1103,525,1100,564,1104,606,1117,605,1122,563,1109,525,1105,490,1108,456,1114,422,1120,388,1121,351,1115,311,1098,278,1074,250,1044,226,1011,207,977"/>
-<area shape="rect" title=" " alt="" coords="5,421,180,506"/>
-<area shape="poly" title=" " alt="" coords="106,521,154,776,149,777,101,522"/>
-<area shape="rect" title=" " alt="" coords="532,1423,709,1523"/>
-<area shape="poly" title=" " alt="" coords="659,1521,696,1571,691,1574,654,1524"/>
-<area shape="poly" title=" " alt="" coords="593,1423,590,1403,593,1383,609,1358,613,1361,598,1385,595,1403,598,1422"/>
-<area shape="rect" href="interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_notification.html" title="Windows CoreAudio IAudioSessionNotification interface Defined in AudioPolicy.h." alt="" coords="434,1207,597,1272"/>
-<area shape="poly" title=" " alt="" coords="538,1284,590,1398,601,1422,596,1424,585,1400,533,1287"/>
-<area shape="poly" title=" " alt="" coords="765,1360,763,1380,755,1400,742,1418,725,1432,722,1428,738,1414,750,1397,758,1379,760,1359"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_session_collection.html" title="Collection of sessions." alt="" coords="527,827,717,927"/>
-<area shape="poly" title=" " alt="" coords="702,924,740,954,779,991,814,1033,840,1080,853,1125,861,1182,864,1248,863,1318,854,1456,841,1562,839,1570,834,1569,835,1561,848,1456,858,1318,858,1248,856,1183,848,1126,836,1082,809,1036,775,994,737,958,698,928"/>
-<area shape="poly" title=" " alt="" coords="616,927,611,1007,613,1051,622,1095,625,1103,619,1105,617,1096,608,1052,605,1007,611,926"/>
-<area shape="rect" title=" " alt="" coords="205,414,410,514"/>
-<area shape="poly" title=" " alt="" coords="312,513,319,552,331,595,350,636,379,671,395,681,411,686,444,684,478,681,496,685,515,694,544,719,567,748,602,810,597,813,563,751,540,723,513,699,495,690,478,687,444,689,411,691,393,686,375,675,345,639,326,597,313,554,307,514"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_simple_audio_volume.html" title="Windows CoreAudio SimpleAudioVolume." alt="" coords="1097,807,1281,947"/>
-<area shape="poly" title=" " alt="" coords="1185,947,1172,1040,1149,1156,1113,1280,1089,1342,1062,1400,1025,1460,983,1516,938,1569,894,1615,890,1611,934,1565,979,1513,1021,1457,1057,1397,1084,1340,1108,1279,1143,1155,1167,1039,1180,946"/>
-<area shape="poly" title=" " alt="" coords="1147,948,1103,1005,1049,1059,1008,1087,949,1121,815,1191,812,1186,946,1117,1005,1083,1046,1055,1099,1001,1143,945"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="1187,431,1268,496"/>
-<area shape="poly" title=" " alt="" coords="1227,511,1215,673,1200,807,1195,807,1210,672,1222,511"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_control.html" title="AudioSessionControl object for information regarding an audio session." alt="" coords="843,697,1035,1057"/>
-<area shape="poly" title=" " alt="" coords="1232,511,1230,550,1223,594,1207,637,1181,674,1169,684,1157,689,1134,690,1111,690,1086,699,1037,740,1034,735,1083,694,1110,685,1134,685,1156,684,1167,679,1177,671,1202,635,1218,593,1225,550,1227,511"/>
-<area shape="rect" title=" " alt="" coords="1293,394,1498,534"/>
-<area shape="poly" title=" " alt="" coords="1363,534,1233,793,1228,791,1359,532"/>
-<area shape="poly" title=" " alt="" coords="954,1057,952,1173,942,1302,919,1435,901,1500,878,1563,874,1571,869,1569,873,1561,895,1499,913,1434,937,1301,947,1173,948,1057"/>
-<area shape="poly" title=" " alt="" coords="846,1016,803,1082,788,1106,783,1103,798,1079,841,1013"/>
-<area shape="rect" href="interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_control.html" title="Windows CoreAudio IAudioSessionControl interface Defined in AudioPolicy.h." alt="" coords="663,344,901,584"/>
-<area shape="poly" title=" " alt="" coords="789,583,797,628,809,672,837,732,833,734,805,674,792,629,784,584"/>
-<area shape="rect" href="interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_control2.html" title="Windows CoreAudio IAudioSessionControl interface Defined in AudioPolicy.h." alt="" coords="925,294,1162,634"/>
-<area shape="poly" title=" " alt="" coords="1002,634,996,658,990,681,985,680,991,657,997,633"/>
-<area shape="rect" href="interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_control.html" title="Windows CoreAudio IAudioSessionControl interface Defined in AudioPolicy.h." alt="" coords="925,5,1162,231"/>
-<area shape="poly" title=" " alt="" coords="1046,245,1046,294,1041,294,1041,245"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_events_callback.html" title="AudioSessionEvents callback implementation." alt="" coords="435,354,639,574"/>
-<area shape="poly" title=" " alt="" coords="566,572,592,626,609,650,630,671,654,683,677,685,701,686,730,694,783,726,832,764,829,769,780,731,728,699,700,691,676,691,652,688,627,675,605,653,587,628,561,574"/>
-<area shape="rect" href="interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_events.html" title="Windows CoreAudio IAudioSessionControl interface Defined in AudioPolicy.h." alt="" coords="330,25,522,211"/>
-<area shape="poly" title=" " alt="" coords="462,224,504,353,499,355,457,225"/>
-<area shape="rect" href="interface_n_audio_1_1_core_audio_api_1_1_interfaces_1_1_i_audio_session_events_handler.html" title="interface to receive session related events" alt="" coords="546,18,751,218"/>
-<area shape="poly" title=" " alt="" coords="619,218,580,339,575,337,614,217"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -247,14 +225,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ab2702609da38eb4308b5b2343052957c_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ab2702609da38eb4308b5b2343052957c_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ab2702609da38eb4308b5b2343052957c_cgraph" id="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ab2702609da38eb4308b5b2343052957c_cgraph">
-<area shape="rect" title="Finalizer." alt="" coords="5,5,265,46"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#abffe8651b4e968b2e301b3db07cadc8f" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="313,5,498,46"/>
-<area shape="poly" title=" " alt="" coords="265,23,297,23,297,28,265,28"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#ad6aa53b32989f2761edc48b0d43b131d" title="Unregisters the notifications for audio sessions and sets the sessions to null." alt="" coords="546,5,800,46"/>
-<area shape="poly" title=" " alt="" coords="499,23,530,23,530,28,499,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ab2702609da38eb4308b5b2343052957c_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -288,26 +259,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_cgraph" id="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_cgraph">
-<area shape="rect" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,5,191,46"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#ad6aa53b32989f2761edc48b0d43b131d" title="Unregisters the notifications for audio sessions and sets the sessions to null." alt="" coords="239,5,493,46"/>
-<area shape="poly" title=" " alt="" coords="191,23,223,23,223,28,191,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_cgraph.svg" width="499" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_icgraph" id="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_icgraph">
-<area shape="rect" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="580,39,765,79"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#ac05387903a1ee66c2f48e646da582df1" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="293,5,512,46"/>
-<area shape="poly" title=" " alt="" coords="564,48,512,42,513,37,565,43"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#ab2702609da38eb4308b5b2343052957c" title="Finalizer." alt="" coords="273,71,532,111"/>
-<area shape="poly" title=" " alt="" coords="565,74,533,78,532,73,564,69"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#a95c24da223ab4d8e0af8945e33629c24" title="Finalizer." alt="" coords="5,5,225,46"/>
-<area shape="poly" title=" " alt="" coords="277,28,225,28,225,23,277,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_abffe8651b4e968b2e301b3db07cadc8f_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -346,12 +303,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_adc5e673760805a49b77f04ce86cb8a5e_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_adc5e673760805a49b77f04ce86cb8a5e_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_adc5e673760805a49b77f04ce86cb8a5e_cgraph" id="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_adc5e673760805a49b77f04ce86cb8a5e_cgraph">
-<area shape="rect" title="Refreshes the audio sessions and registers for notifications." alt="" coords="5,5,227,46"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#ad6aa53b32989f2761edc48b0d43b131d" title="Unregisters the notifications for audio sessions and sets the sessions to null." alt="" coords="275,5,529,46"/>
-<area shape="poly" title=" " alt="" coords="227,23,259,23,259,28,227,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_adc5e673760805a49b77f04ce86cb8a5e_cgraph.svg" width="535" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -407,20 +359,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ad6aa53b32989f2761edc48b0d43b131d_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ad6aa53b32989f2761edc48b0d43b131d_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ad6aa53b32989f2761edc48b0d43b131d_icgraph" id="aclass_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ad6aa53b32989f2761edc48b0d43b131d_icgraph">
-<area shape="rect" title="Unregisters the notifications for audio sessions and sets the sessions to null." alt="" coords="849,71,1104,111"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#abffe8651b4e968b2e301b3db07cadc8f" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="598,37,783,78"/>
-<area shape="poly" title=" " alt="" coords="834,77,783,71,784,66,834,72"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#adc5e673760805a49b77f04ce86cb8a5e" title="Refreshes the audio sessions and registers for notifications." alt="" coords="580,103,801,143"/>
-<area shape="poly" title=" " alt="" coords="834,110,802,113,801,108,833,104"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#ac05387903a1ee66c2f48e646da582df1" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="293,5,512,46"/>
-<area shape="poly" title=" " alt="" coords="582,48,512,40,513,35,583,43"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html#ab2702609da38eb4308b5b2343052957c" title="Finalizer." alt="" coords="273,71,532,111"/>
-<area shape="poly" title=" " alt="" coords="583,73,533,79,532,73,582,67"/>
-<area shape="rect" href="class_n_audio_1_1_core_audio_api_1_1_m_m_device.html#a95c24da223ab4d8e0af8945e33629c24" title="Finalizer." alt="" coords="5,5,225,46"/>
-<area shape="poly" title=" " alt="" coords="277,28,225,28,225,23,277,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager_ad6aa53b32989f2761edc48b0d43b131d_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -653,11 +592,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_core_audio_api.html">CoreAudioApi</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_core_audio_api_1_1_audio_session_manager.html">AudioSessionManager</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

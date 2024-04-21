@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: AForge.Video.DirectShow.VideoCaptureDevice Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -115,52 +139,12 @@ $(function(){initNavTree('class_a_forge_1_1_video_1_1_direct_show_1_1_video_capt
 <div class="dynheader">
 Inheritance diagram for AForge.Video.DirectShow.VideoCaptureDevice:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device__inherit__graph.png" border="0" usemap="#a_a_forge_8_video_8_direct_show_8_video_capture_device_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_a_forge_8_video_8_direct_show_8_video_capture_device_inherit__map" id="a_a_forge_8_video_8_direct_show_8_video_capture_device_inherit__map">
-<area shape="rect" title="Video source for local video capture device (for example USB webcam)." alt="" coords="5,239,216,1353"/>
-<area shape="rect" href="interface_a_forge_1_1_video_1_1_i_video_source.html" title="Video source interface." alt="" coords="49,5,172,191"/>
-<area shape="poly" title=" " alt="" coords="113,206,113,239,108,239,108,206"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for AForge.Video.DirectShow.VideoCaptureDevice:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device__coll__graph.png" border="0" usemap="#a_a_forge_8_video_8_direct_show_8_video_capture_device_coll__map" alt="Collaboration graph"/></div>
-<map name="a_a_forge_8_video_8_direct_show_8_video_capture_device_coll__map" id="a_a_forge_8_video_8_direct_show_8_video_capture_device_coll__map">
-<area shape="rect" title="Video source for local video capture device (for example USB webcam)." alt="" coords="729,537,940,1371"/>
-<area shape="rect" href="interface_a_forge_1_1_video_1_1_i_video_source.html" title="Video source interface." alt="" coords="5,181,128,366"/>
-<area shape="poly" title=" " alt="" coords="94,379,121,448,139,481,161,511,224,581,295,645,371,704,450,757,527,804,602,845,731,907,728,912,599,850,525,809,447,762,368,708,292,649,221,585,157,514,135,483,117,450,89,381"/>
-<area shape="rect" title=" " alt="" coords="152,241,197,306"/>
-<area shape="poly" title=" " alt="" coords="172,306,167,349,166,402,174,459,182,486,194,511,244,584,304,650,370,709,442,761,515,807,586,847,715,906,713,911,584,851,512,812,439,766,367,713,300,653,240,587,190,514,177,488,169,460,161,403,161,349,166,306"/>
-<area shape="rect" title=" " alt="" coords="552,5,579,71"/>
-<area shape="poly" title=" " alt="" coords="564,71,558,150,555,260,563,386,573,450,588,512,614,586,647,658,684,727,723,791,718,794,680,730,643,661,609,588,583,513,568,451,558,387,550,260,552,150,559,70"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capabilities.html" title="Capabilities of video device such as frame size and frame rate." alt="" coords="1376,164,1541,384"/>
-<area shape="poly" title=" " alt="" coords="578,37,714,48,938,71,1061,87,1178,108,1282,132,1362,161,1360,166,1280,138,1177,113,1060,93,937,76,713,53,578,43"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_input.html" title="Video input of a capture board." alt="" coords="232,234,397,314"/>
-<area shape="poly" title=" " alt="" coords="554,52,496,100,422,166,364,223,360,219,418,162,492,96,550,48"/>
-<area shape="rect" title=" " alt="" coords="432,241,469,306"/>
-<area shape="poly" title=" " alt="" coords="447,307,441,349,438,401,441,457,454,512,477,563,505,614,537,661,572,707,646,789,719,858,715,861,642,793,568,710,533,665,500,616,472,566,449,514,436,458,432,401,435,348,441,306"/>
-<area shape="poly" title=" " alt="" coords="1439,384,1419,460,1397,514,1351,576,1298,635,1242,689,1182,739,1063,826,956,892,953,887,1060,821,1179,735,1238,685,1295,631,1347,573,1392,511,1414,458,1434,382"/>
-<area shape="rect" title=" " alt="" coords="1439,5,1478,71"/>
-<area shape="poly" title=" " alt="" coords="1461,70,1461,147,1456,147,1456,70"/>
-<area shape="rect" title=" " alt="" coords="692,241,729,306"/>
-<area shape="poly" title=" " alt="" coords="710,307,699,347,689,368,675,386,657,396,638,397,622,399,608,409,596,434,594,457,609,512,630,582,657,651,689,718,723,779,718,782,685,720,653,653,625,584,603,513,589,458,591,433,604,406,620,394,638,392,655,391,672,382,684,365,694,345,705,305"/>
-<area shape="rect" title=" " alt="" coords="769,241,823,306"/>
-<area shape="poly" title=" " alt="" coords="801,306,808,407,815,519,809,520,803,408,796,306"/>
-<area shape="rect" title=" " alt="" coords="847,241,971,306"/>
-<area shape="poly" title=" " alt="" coords="909,307,885,520,880,520,903,306"/>
-<area shape="rect" title=" " alt="" coords="996,241,1041,306"/>
-<area shape="poly" title=" " alt="" coords="1015,307,967,513,947,586,942,584,961,512,1009,306"/>
-<area shape="rect" title=" " alt="" coords="1203,241,1251,306"/>
-<area shape="poly" title=" " alt="" coords="1229,306,1218,401,1206,458,1186,514,1137,605,1078,692,1015,772,954,840,950,837,1011,768,1074,689,1133,603,1182,512,1201,457,1213,400,1223,306"/>
-<area shape="rect" title=" " alt="" coords="1283,241,1352,306"/>
-<area shape="poly" title=" " alt="" coords="1325,306,1330,348,1330,402,1324,459,1306,514,1274,573,1236,629,1192,681,1145,730,1047,815,956,882,952,878,1044,811,1141,726,1188,678,1231,626,1270,570,1302,512,1319,458,1325,401,1324,349,1320,306"/>
-<area shape="poly" title=" " alt="" coords="306,314,297,356,291,407,294,461,300,487,309,512,345,576,389,636,440,691,495,742,553,787,610,827,716,891,713,896,607,832,550,791,492,746,437,695,385,639,340,579,304,514,294,488,289,461,286,407,291,356,300,313"/>
-<area shape="rect" title=" " alt="" coords="213,5,417,71"/>
-<area shape="poly" title=" " alt="" coords="317,70,317,217,312,217,312,70"/>
-<area shape="rect" title=" " alt="" coords="1573,241,1619,306"/>
-<area shape="poly" title=" " alt="" coords="1603,306,1605,350,1602,404,1590,461,1580,489,1566,514,1505,593,1433,663,1354,724,1270,778,1185,824,1102,863,957,919,955,914,1100,858,1183,819,1267,773,1351,720,1430,659,1501,589,1562,511,1575,486,1585,460,1597,403,1599,350,1597,306"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -495,13 +479,7 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af44099a936b1c6795c9e90347d7ec987_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af44099a936b1c6795c9e90347d7ec987_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af44099a936b1c6795c9e90347d7ec987_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af44099a936b1c6795c9e90347d7ec987_cgraph">
-<area shape="rect" title="Checks if the crossbar is available and returns the result." alt="" coords="5,22,250,78"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a6d0f011df4e9d566ba604e6b1522bdaf" title="Worker thread for capturing video and snapshots from a device." alt="" coords="298,29,524,70"/>
-<area shape="poly" title=" " alt="" coords="250,47,282,47,282,52,250,52"/>
-<area shape="poly" title=" " alt="" coords="358,29,355,19,364,10,383,5,411,3,441,5,459,11,457,16,440,10,411,8,384,10,367,15,361,21,363,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af44099a936b1c6795c9e90347d7ec987_cgraph.svg" width="530" height="83"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -541,12 +519,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a3a06e4d06c5a030b90bee08a620f8563_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a3a06e4d06c5a030b90bee08a620f8563_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a3a06e4d06c5a030b90bee08a620f8563_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a3a06e4d06c5a030b90bee08a620f8563_icgraph">
-<area shape="rect" title="Collects the available video inputs from the specified IAMCrossbar and returns an array of VideoInput..." alt="" coords="280,5,512,61"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#acca04cefecda4dacf7a6a89bafadd1d9" title=" " alt="" coords="5,13,232,54"/>
-<area shape="poly" title=" " alt="" coords="264,36,232,36,232,31,264,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a3a06e4d06c5a030b90bee08a620f8563_icgraph.svg" width="518" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -626,24 +599,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_cgraph">
-<area shape="rect" title="Displays the property page for the specified source object in the given parent window." alt="" coords="5,29,274,70"/>
-<area shape="poly" title=" " alt="" coords="89,29,87,19,95,10,113,5,140,3,168,5,186,11,184,16,167,10,139,8,114,10,98,15,92,21,94,28"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_filter_info.html#a39d1fd6eeb6bc8ab895b0b80a3d788cd" title="Creates a filter object based on the provided filter moniker." alt="" coords="322,29,496,70"/>
-<area shape="poly" title=" " alt="" coords="274,47,306,47,306,52,274,52"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_cgraph.svg" width="502" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_icgraph">
-<area shape="rect" title="Displays the property page for the specified source object in the given parent window." alt="" coords="280,29,548,70"/>
-<area shape="poly" title=" " alt="" coords="463,16,444,10,414,8,385,10,368,15,361,21,364,28,359,29,356,19,365,10,384,5,414,3,445,5,464,11"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#acca04cefecda4dacf7a6a89bafadd1d9" title=" " alt="" coords="5,29,232,70"/>
-<area shape="poly" title=" " alt="" coords="264,52,232,52,232,47,264,47"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_afe4aed1b8dfc4bb4e6e0c89424281fa9_icgraph.svg" width="554" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -705,16 +666,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ae2059b862d1485b9ecf485e02a6694be_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ae2059b862d1485b9ecf485e02a6694be_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ae2059b862d1485b9ecf485e02a6694be_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ae2059b862d1485b9ecf485e02a6694be_icgraph">
-<area shape="rect" title="Frees the resources used by the thread and releases the events." alt="" coords="493,27,667,68"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a246d532c8b0b574db65a8e7b1466263e" title="Waits for the thread to stop and then frees any resources associated with it." alt="" coords="228,27,445,68"/>
-<area shape="poly" title=" " alt="" coords="477,50,445,50,445,45,477,45"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="10,5,175,31"/>
-<area shape="poly" title=" " alt="" coords="212,35,175,31,176,25,212,30"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#aea33824ad430b4c5f2f6578871deb4de" title="Stops the running thread if it is currently running." alt="" coords="5,55,180,96"/>
-<area shape="poly" title=" " alt="" coords="212,64,181,68,180,63,212,59"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ae2059b862d1485b9ecf485e02a6694be_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -772,12 +724,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a7854a386aeda16500c51acc5446f4ae1_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a7854a386aeda16500c51acc5446f4ae1_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a7854a386aeda16500c51acc5446f4ae1_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a7854a386aeda16500c51acc5446f4ae1_cgraph">
-<area shape="rect" title="Gets the specified camera property value and control flags." alt="" coords="5,5,218,61"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_filter_info.html#a39d1fd6eeb6bc8ab895b0b80a3d788cd" title="Creates a filter object based on the provided filter moniker." alt="" coords="266,13,440,54"/>
-<area shape="poly" title=" " alt="" coords="218,31,250,31,250,36,218,36"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a7854a386aeda16500c51acc5446f4ae1_cgraph.svg" width="446" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -854,12 +801,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac5a7f541452bc28eb7c91bb85acf9389_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac5a7f541452bc28eb7c91bb85acf9389_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac5a7f541452bc28eb7c91bb85acf9389_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac5a7f541452bc28eb7c91bb85acf9389_cgraph">
-<area shape="rect" title="Retrieves the range of values for a specified camera control property." alt="" coords="5,5,218,61"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_filter_info.html#a39d1fd6eeb6bc8ab895b0b80a3d788cd" title="Creates a filter object based on the provided filter moniker." alt="" coords="266,13,440,54"/>
-<area shape="poly" title=" " alt="" coords="218,31,250,31,250,36,218,36"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac5a7f541452bc28eb7c91bb85acf9389_cgraph.svg" width="446" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -899,12 +841,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a348073a6a3f0b793705d2b08b3311620_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a348073a6a3f0b793705d2b08b3311620_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a348073a6a3f0b793705d2b08b3311620_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a348073a6a3f0b793705d2b08b3311620_icgraph">
-<area shape="rect" title="Gets the current video input from the crossbar." alt="" coords="280,5,489,61"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#acca04cefecda4dacf7a6a89bafadd1d9" title=" " alt="" coords="5,13,232,54"/>
-<area shape="poly" title=" " alt="" coords="264,36,232,36,232,31,264,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a348073a6a3f0b793705d2b08b3311620_icgraph.svg" width="495" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -966,22 +903,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_cgraph">
-<area shape="rect" title="Gets the pin capabilities and configures size and rate for the specified video capture filter." alt="" coords="5,5,259,61"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ab3631a5d9efe71eebde1d456faf54728" title="Sets the resolution of the video stream to the specified resolution ." alt="" coords="307,13,534,54"/>
-<area shape="poly" title=" " alt="" coords="259,31,291,31,291,36,259,36"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_cgraph.svg" width="540" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_icgraph">
-<area shape="rect" title="Gets the pin capabilities and configures size and rate for the specified video capture filter." alt="" coords="280,5,533,61"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#acca04cefecda4dacf7a6a89bafadd1d9" title=" " alt="" coords="5,13,232,54"/>
-<area shape="poly" title=" " alt="" coords="264,36,232,36,232,31,264,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a1f0c23bef3288d673acdc606885616f4_icgraph.svg" width="539" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1026,12 +953,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4327140fbd6f2cb4442268df9a359b51_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4327140fbd6f2cb4442268df9a359b51_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4327140fbd6f2cb4442268df9a359b51_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4327140fbd6f2cb4442268df9a359b51_icgraph">
-<area shape="rect" title="Updates the frame count and bytes received, and triggers the NewFrame event with the provided image." alt="" coords="302,5,528,46"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_1_1_grabber.html#aee32550ace5eeb964d765f40ddf7488a" title="Copies the image data from the buffer to a new Bitmap and notifies the parent." alt="" coords="5,5,254,46"/>
-<area shape="poly" title=" " alt="" coords="286,28,254,28,254,23,286,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4327140fbd6f2cb4442268df9a359b51_icgraph.svg" width="534" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1070,12 +992,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a043f80dd6167e6c129bf40395285a523_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a043f80dd6167e6c129bf40395285a523_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a043f80dd6167e6c129bf40395285a523_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a043f80dd6167e6c129bf40395285a523_icgraph">
-<area shape="rect" title="Handles the snapshot frame event by processing the provided image ." alt="" coords="302,5,556,46"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_1_1_grabber.html#aee32550ace5eeb964d765f40ddf7488a" title="Copies the image data from the buffer to a new Bitmap and notifies the parent." alt="" coords="5,5,254,46"/>
-<area shape="poly" title=" " alt="" coords="286,28,254,28,254,23,286,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a043f80dd6167e6c129bf40395285a523_icgraph.svg" width="562" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1134,12 +1051,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4a48035887aa3c72da60b32ae3415dd3_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4a48035887aa3c72da60b32ae3415dd3_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4a48035887aa3c72da60b32ae3415dd3_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4a48035887aa3c72da60b32ae3415dd3_cgraph">
-<area shape="rect" title="Sets the specified camera property to the given value." alt="" coords="5,5,217,61"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_filter_info.html#a39d1fd6eeb6bc8ab895b0b80a3d788cd" title="Creates a filter object based on the provided filter moniker." alt="" coords="265,13,439,54"/>
-<area shape="poly" title=" " alt="" coords="217,31,249,31,249,36,217,36"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a4a48035887aa3c72da60b32ae3415dd3_cgraph.svg" width="444" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1183,12 +1095,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac233d55a82dcbdff19a31713c3a8a79b_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac233d55a82dcbdff19a31713c3a8a79b_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac233d55a82dcbdff19a31713c3a8a79b_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac233d55a82dcbdff19a31713c3a8a79b_icgraph">
-<area shape="rect" title="Sets the current crossbar input for the specified video input." alt="" coords="280,5,488,61"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#acca04cefecda4dacf7a6a89bafadd1d9" title=" " alt="" coords="5,13,232,54"/>
-<area shape="poly" title=" " alt="" coords="264,36,232,36,232,31,264,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ac233d55a82dcbdff19a31713c3a8a79b_icgraph.svg" width="494" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1232,14 +1139,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3631a5d9efe71eebde1d456faf54728_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3631a5d9efe71eebde1d456faf54728_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3631a5d9efe71eebde1d456faf54728_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3631a5d9efe71eebde1d456faf54728_icgraph">
-<area shape="rect" title="Sets the resolution of the video stream to the specified resolution ." alt="" coords="581,13,808,54"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a1f0c23bef3288d673acdc606885616f4" title="Gets the pin capabilities and configures size and rate for the specified video capture filter." alt="" coords="280,5,533,61"/>
-<area shape="poly" title=" " alt="" coords="565,36,533,36,533,31,565,31"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#acca04cefecda4dacf7a6a89bafadd1d9" title=" " alt="" coords="5,13,232,54"/>
-<area shape="poly" title=" " alt="" coords="264,36,232,36,232,31,264,31"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3631a5d9efe71eebde1d456faf54728_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1274,14 +1174,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af5be9fddfa4ec538004dee11bbe5379d_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af5be9fddfa4ec538004dee11bbe5379d_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af5be9fddfa4ec538004dee11bbe5379d_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af5be9fddfa4ec538004dee11bbe5379d_icgraph">
-<area shape="rect" title="Signals the thread to stop." alt="" coords="218,23,440,64"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="5,5,170,31"/>
-<area shape="poly" title=" " alt="" coords="202,33,170,29,170,24,203,28"/>
-<area shape="rect" href="class_plugin_1_1_main.html#ae51f6500ea51e702d748ba9c59cfad01" title="Runs the specified node and performs necessary operations, such as sending a byte array to indicate c..." alt="" coords="29,55,146,80"/>
-<area shape="poly" title=" " alt="" coords="203,59,147,64,146,59,202,53"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_af5be9fddfa4ec538004dee11bbe5379d_icgraph.svg" width="446" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1349,23 +1242,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_cgraph">
-<area shape="rect" title="Starts the video capture process." alt="" coords="5,29,180,70"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a6d0f011df4e9d566ba604e6b1522bdaf" title="Worker thread for capturing video and snapshots from a device." alt="" coords="228,29,454,70"/>
-<area shape="poly" title=" " alt="" coords="180,47,212,47,212,52,180,52"/>
-<area shape="poly" title=" " alt="" coords="294,29,292,19,300,10,316,5,341,3,368,5,383,11,382,16,366,10,341,8,317,10,303,15,297,21,299,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_cgraph.svg" width="460" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_icgraph">
-<area shape="rect" title="Starts the video capture process." alt="" coords="218,5,392,46"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="5,13,170,39"/>
-<area shape="poly" title=" " alt="" coords="202,28,170,28,170,23,202,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_ab3c665b4d2e664d067321b2a43edd01b_icgraph.svg" width="398" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1406,14 +1288,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_aea33824ad430b4c5f2f6578871deb4de_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_aea33824ad430b4c5f2f6578871deb4de_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_aea33824ad430b4c5f2f6578871deb4de_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_aea33824ad430b4c5f2f6578871deb4de_cgraph">
-<area shape="rect" title="Stops the running thread if it is currently running." alt="" coords="5,5,180,46"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a246d532c8b0b574db65a8e7b1466263e" title="Waits for the thread to stop and then frees any resources associated with it." alt="" coords="228,5,445,46"/>
-<area shape="poly" title=" " alt="" coords="180,23,212,23,212,28,180,28"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ae2059b862d1485b9ecf485e02a6694be" title="Frees the resources used by the thread and releases the events." alt="" coords="493,5,667,46"/>
-<area shape="poly" title=" " alt="" coords="446,23,477,23,477,28,446,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_aea33824ad430b4c5f2f6578871deb4de_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1448,24 +1323,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_cgraph">
-<area shape="rect" title="Waits for the thread to stop and then frees any resources associated with it." alt="" coords="5,5,223,46"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ae2059b862d1485b9ecf485e02a6694be" title="Frees the resources used by the thread and releases the events." alt="" coords="271,5,445,46"/>
-<area shape="poly" title=" " alt="" coords="223,23,255,23,255,28,223,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_cgraph.svg" width="451" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_icgraph">
-<area shape="rect" title="Waits for the thread to stop and then frees any resources associated with it." alt="" coords="228,27,445,68"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="10,5,175,31"/>
-<area shape="poly" title=" " alt="" coords="212,35,175,31,176,25,212,30"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#aea33824ad430b4c5f2f6578871deb4de" title="Stops the running thread if it is currently running." alt="" coords="5,55,180,96"/>
-<area shape="poly" title=" " alt="" coords="212,64,181,68,180,63,212,59"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a246d532c8b0b574db65a8e7b1466263e_icgraph.svg" width="451" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1510,26 +1373,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_cgraph">
-<area shape="rect" title="Worker thread for capturing video and snapshots from a device." alt="" coords="5,29,232,70"/>
-<area shape="poly" title=" " alt="" coords="76,29,74,19,81,10,96,5,119,3,143,5,158,11,155,16,142,10,118,8,97,10,84,15,79,21,81,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_cgraph.svg" width="238" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_icgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_icgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_icgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_icgraph">
-<area shape="rect" title="Worker thread for capturing video and snapshots from a device." alt="" coords="510,49,736,90"/>
-<area shape="poly" title=" " alt="" coords="670,36,652,30,623,27,596,29,579,34,573,40,576,47,570,49,568,39,576,30,595,24,623,22,654,25,672,31"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#af44099a936b1c6795c9e90347d7ec987" title="Checks if the crossbar is available and returns the result." alt="" coords="218,5,462,61"/>
-<area shape="poly" title=" " alt="" coords="494,55,462,51,463,46,495,50"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ab3c665b4d2e664d067321b2a43edd01b" title="Starts the video capture process." alt="" coords="253,85,427,126"/>
-<area shape="poly" title=" " alt="" coords="495,88,428,97,427,91,495,83"/>
-<area shape="rect" href="class_plugin_1_1_main.html#a3b672ab007c36dceaf59d07b7e6b8698" title="Asynchronous method to handle receiving data from a node." alt="" coords="5,92,170,118"/>
-<area shape="poly" title=" " alt="" coords="237,108,170,108,170,103,237,103"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_a6d0f011df4e9d566ba604e6b1522bdaf_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1559,26 +1408,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_acca04cefecda4dacf7a6a89bafadd1d9_cgraph.png" border="0" usemap="#aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_acca04cefecda4dacf7a6a89bafadd1d9_cgraph" alt=""/></div>
-<map name="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_acca04cefecda4dacf7a6a89bafadd1d9_cgraph" id="aclass_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_acca04cefecda4dacf7a6a89bafadd1d9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,196,232,236"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a3a06e4d06c5a030b90bee08a620f8563" title="Collects the available video inputs from the specified IAMCrossbar and returns an array of VideoInput..." alt="" coords="298,5,530,61"/>
-<area shape="poly" title=" " alt="" coords="137,193,197,137,236,105,278,78,302,65,305,70,281,82,239,110,201,141,141,197"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_filter_info.html#a39d1fd6eeb6bc8ab895b0b80a3d788cd" title="Creates a filter object based on the provided filter moniker." alt="" coords="623,120,797,160"/>
-<area shape="poly" title=" " alt="" coords="144,193,203,154,240,135,279,121,364,106,451,103,534,108,608,117,607,122,534,113,451,108,365,112,280,126,242,140,206,159,147,197"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#afe4aed1b8dfc4bb4e6e0c89424281fa9" title="Displays the property page for the specified source object in the given parent window." alt="" coords="280,160,548,200"/>
-<area shape="poly" title=" " alt="" coords="232,199,264,195,265,201,232,205"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a348073a6a3f0b793705d2b08b3311620" title="Gets the current video input from the crossbar." alt="" coords="309,224,519,280"/>
-<area shape="poly" title=" " alt="" coords="232,227,294,235,294,240,232,232"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#a1f0c23bef3288d673acdc606885616f4" title="Gets the pin capabilities and configures size and rate for the specified video capture filter." alt="" coords="287,304,541,360"/>
-<area shape="poly" title=" " alt="" coords="160,234,217,262,281,289,299,296,297,301,279,294,214,267,158,239"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ac233d55a82dcbdff19a31713c3a8a79b" title="Sets the current crossbar input for the specified video input." alt="" coords="310,384,518,440"/>
-<area shape="poly" title=" " alt="" coords="138,235,196,301,236,338,281,370,297,378,294,383,278,374,233,342,192,305,134,239"/>
-<area shape="poly" title=" " alt="" coords="548,159,607,151,607,156,549,164"/>
-<area shape="poly" title=" " alt="" coords="359,160,356,149,365,140,384,135,414,133,445,135,464,141,463,146,444,140,414,138,385,140,368,145,361,151,364,158"/>
-<area shape="rect" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html#ab3631a5d9efe71eebde1d456faf54728" title="Sets the resolution of the video stream to the specified resolution ." alt="" coords="596,312,823,352"/>
-<area shape="poly" title=" " alt="" coords="541,329,580,329,580,335,541,335"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device_acca04cefecda4dacf7a6a89bafadd1d9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2592,11 +2422,12 @@ Here is the call graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_a_forge.html">AForge</a></li><li class="navelem"><a class="el" href="namespace_a_forge_1_1_video.html">Video</a></li><li class="navelem"><a class="el" href="namespace_a_forge_1_1_video_1_1_direct_show.html">DirectShow</a></li><li class="navelem"><a class="el" href="class_a_forge_1_1_video_1_1_direct_show_1_1_video_capture_device.html">VideoCaptureDevice</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

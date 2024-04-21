@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.WaveStream Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -110,54 +134,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_wave_stream.html',''); init
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.WaveStream:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_stream__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_wave_stream_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_wave_stream_inherit__map" id="a_n_audio_8_wave_8_wave_stream_inherit__map">
-<area shape="rect" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="1252,119,1424,404"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_aiff_file_reader.html" title="A read&#45;only stream of AIFF data based on an aiff file with an associated WaveFormat originally contri..." alt="" coords="5,542,185,967"/>
-<area shape="poly" title=" " alt="" coords="1237,269,991,284,840,298,682,316,529,340,391,371,330,389,277,409,233,430,198,454,162,495,136,544,131,541,158,492,195,450,230,426,275,404,329,384,389,366,528,335,682,311,839,292,991,279,1237,264"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_block_align_reduction_stream.html" title="Helper stream that lets us read from compressed audio files with large block alignment as though we c..." alt="" coords="209,585,427,925"/>
-<area shape="poly" title=" " alt="" coords="1237,275,1042,297,805,334,689,359,585,387,499,418,466,436,440,454,412,482,389,514,370,549,355,586,350,584,365,547,385,511,408,479,436,450,463,431,497,414,584,381,688,353,804,329,1041,292,1237,269"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html" title="Class for reading any file that Media Foundation can play Will only work in Windows Vista and above A..." alt="" coords="451,465,647,1045"/>
-<area shape="poly" title=" " alt="" coords="1238,266,1108,277,1033,289,954,306,875,330,798,362,725,403,660,454,647,467,643,463,656,450,722,399,795,358,873,325,953,301,1032,283,1108,271,1237,260"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_file_reader_base.html" title="Class for reading from MP3 files." alt="" coords="671,452,885,1057"/>
-<area shape="poly" title=" " alt="" coords="1238,285,1157,308,1067,343,1021,365,978,391,937,420,900,454,887,468,883,465,896,450,933,416,975,386,1019,361,1065,338,1155,303,1237,280"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_raw_source_wave_stream.html" title="WaveStream that simply passes on data from its source stream (e.g. a MemoryStream)" alt="" coords="910,655,1107,855"/>
-<area shape="poly" title=" " alt="" coords="1242,332,1178,387,1148,419,1122,454,1093,502,1068,554,1034,656,1029,654,1063,552,1088,500,1117,450,1144,416,1175,384,1239,327"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_resampler_dmo_stream.html" title="Wave Stream for converting between sample rates." alt="" coords="1132,585,1320,925"/>
-<area shape="poly" title=" " alt="" coords="1305,419,1267,585,1262,584,1300,418"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave32_to16_stream.html" title="WaveStream that converts 32 bit audio back down to 16 bit, clipping if necessary." alt="" coords="1345,562,1558,947"/>
-<area shape="poly" title=" " alt="" coords="1377,418,1410,562,1405,563,1371,419"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_channel32.html" title="Represents Channel for the WaveMixerStream 32 bit output and 16 bit input It&#39;s output is always stere..." alt="" coords="1582,482,1774,1027"/>
-<area shape="poly" title=" " alt="" coords="1437,322,1509,380,1542,414,1572,450,1592,481,1587,484,1568,454,1538,417,1505,383,1434,326"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_reader.html" title="This class supports the reading of WAV files, providing a repositionable WaveStream that returns the ..." alt="" coords="1799,552,1992,957"/>
-<area shape="poly" title=" " alt="" coords="1439,278,1523,301,1616,335,1662,358,1708,385,1750,415,1788,450,1824,498,1851,551,1846,553,1819,500,1784,454,1747,419,1705,389,1660,363,1614,340,1521,306,1437,283"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html" title="WaveStream that passes through an ACM Codec." alt="" coords="2017,565,2254,945"/>
-<area shape="poly" title=" " alt="" coords="1439,263,1565,276,1638,289,1715,307,1792,331,1868,362,1940,402,2005,450,2030,475,2051,503,2085,564,2081,566,2047,506,2026,478,2002,454,1937,406,1866,367,1790,336,1713,312,1637,294,1564,281,1439,268"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html" title="WaveStream that can mix together multiple 32 bit input streams (Normally used with stereo input chann..." alt="" coords="2279,552,2496,957"/>
-<area shape="poly" title=" " alt="" coords="1439,269,1641,291,1886,327,2006,352,2115,380,2204,413,2240,431,2268,450,2290,472,2310,496,2341,551,2336,554,2305,499,2286,475,2264,454,2237,435,2202,418,2113,385,2005,357,1885,333,1640,296,1439,274"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_offset_stream.html" title="Simply shifts the input stream in time, optionally clipping its start and end. (n...." alt="" coords="2521,512,2729,997"/>
-<area shape="poly" title=" " alt="" coords="1439,264,1690,279,1845,292,2007,311,2165,335,2309,366,2372,384,2427,404,2474,426,2510,450,2539,478,2562,511,2558,514,2535,482,2507,454,2471,430,2425,409,2370,389,2307,371,2164,340,2007,316,1845,298,1689,284,1439,269"/>
-<area shape="rect" title=" " alt="" coords="1261,5,1316,71"/>
-<area shape="poly" title=" " alt="" coords="1302,85,1309,118,1304,120,1296,86"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="1340,5,1437,71"/>
-<area shape="poly" title=" " alt="" coords="1381,86,1373,120,1368,118,1376,85"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html" title="MediaFoundationReader supporting reading from a stream." alt="" coords="430,1108,667,1208"/>
-<area shape="poly" title=" " alt="" coords="551,1059,551,1108,546,1108,546,1059"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_cue_wave_file_reader.html" title="A wave file reader supporting cue reading." alt="" coords="1787,1105,2004,1211"/>
-<area shape="poly" title=" " alt="" coords="1898,972,1898,1106,1893,1106,1893,972"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_stream__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.WaveStream:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_stream__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_wave_stream_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_wave_stream_coll__map" id="a_n_audio_8_wave_8_wave_stream_coll__map">
-<area shape="rect" title="Base class for all WaveStream classes. Derives from stream." alt="" coords="5,119,177,404"/>
-<area shape="rect" title=" " alt="" coords="15,5,69,71"/>
-<area shape="poly" title=" " alt="" coords="55,85,62,118,57,120,50,86"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html" title="Generic interface for all WaveProviders." alt="" coords="93,5,191,71"/>
-<area shape="poly" title=" " alt="" coords="134,86,126,120,121,118,129,85"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_stream__coll__graph.svg" width="196" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -276,14 +258,7 @@ Properties</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_stream_abf31cb28d1aefd4a1a5c5d3824e99bf9_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_stream_abf31cb28d1aefd4a1a5c5d3824e99bf9_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_stream_abf31cb28d1aefd4a1a5c5d3824e99bf9_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_stream_abf31cb28d1aefd4a1a5c5d3824e99bf9_icgraph">
-<area shape="rect" title="Checks if there is data available at the current position." alt="" coords="274,46,510,72"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_channel32.html#ae67b47df9ea6c61f8b1e9233a2ccbbe8" title="Checks if the source stream has data available based on the specified count." alt="" coords="13,5,218,46"/>
-<area shape="poly" title=" " alt="" coords="265,46,218,41,218,35,265,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_offset_stream.html#aa77f5f5c07edbb42c1139e9c0765bcad" title="Checks if the source stream has data available." alt="" coords="5,71,226,111"/>
-<area shape="poly" title=" " alt="" coords="261,77,227,81,226,76,260,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_stream_abf31cb28d1aefd4a1a5c5d3824e99bf9_icgraph.svg" width="516" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -632,11 +607,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_wave_stream.html">WaveStream</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

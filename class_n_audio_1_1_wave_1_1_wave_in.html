@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.WaveIn Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -115,64 +139,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_wave_in.html',''); initResi
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.WaveIn:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_wave_in_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_wave_in_inherit__map" id="a_n_audio_8_wave_8_wave_in_inherit__map">
-<area shape="rect" title="Allows recording using the Windows waveIn APIs Events are raised as recorded buffers are made availab..." alt="" coords="5,252,177,857"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_in.html" title="Generic interface for wave recording." alt="" coords="32,119,151,204"/>
-<area shape="poly" title=" " alt="" coords="94,219,94,252,89,252,89,219"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="51,5,132,71"/>
-<area shape="poly" title=" " alt="" coords="94,85,94,119,89,119,89,85"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.WaveIn:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_wave_in_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_wave_in_coll__map" id="a_n_audio_8_wave_8_wave_in_coll__map">
-<area shape="rect" title="Allows recording using the Windows waveIn APIs Events are raised as recorded buffers are made availab..." alt="" coords="613,845,785,1311"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_in.html" title="Generic interface for wave recording." alt="" coords="121,627,240,712"/>
-<area shape="poly" title=" " alt="" coords="247,719,615,1008,612,1012,243,724"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="58,389,140,454"/>
-<area shape="poly" title=" " alt="" coords="117,467,169,626,164,628,112,469"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in_buffer.html" title="A buffer of Wave samples." alt="" coords="446,557,622,782"/>
-<area shape="poly" title=" " alt="" coords="126,465,152,505,175,531,210,546,242,552,272,550,302,545,332,539,363,537,397,541,435,555,447,562,445,566,433,559,396,546,363,542,332,545,303,550,273,555,242,557,208,551,172,535,147,509,121,468"/>
-<area shape="rect" title=" " alt="" coords="166,105,211,171"/>
-<area shape="poly" title=" " alt="" coords="168,171,107,261,75,319,48,380,28,440,14,495,9,545,11,592,22,638,42,684,71,731,110,781,163,834,223,881,287,922,353,957,420,988,484,1013,597,1049,596,1054,482,1018,418,992,351,962,284,926,220,885,160,838,106,784,67,734,37,687,17,640,6,593,3,545,9,494,22,438,43,378,70,317,103,259,163,168"/>
-<area shape="poly" title=" " alt="" coords="182,171,169,230,162,307,164,348,170,388,183,427,202,462,225,489,250,505,275,514,303,519,364,527,397,537,433,555,431,559,395,542,363,533,302,524,274,519,247,509,222,493,198,466,178,429,165,390,159,348,157,307,164,230,177,170"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_header.html" title="WaveHeader interop structure (WAVEHDR) http://msdn.microsoft.com/en&#45;us/library/dd743837%28VS...." alt="" coords="304,389,476,454"/>
-<area shape="poly" title=" " alt="" coords="204,169,249,255,279,306,314,353,337,376,333,380,310,356,275,309,244,258,200,172"/>
-<area shape="rect" title=" " alt="" coords="384,637,422,702"/>
-<area shape="poly" title=" " alt="" coords="410,702,420,741,436,781,472,839,514,894,603,988,599,992,510,897,468,842,431,784,415,742,405,703"/>
-<area shape="poly" title=" " alt="" coords="581,781,609,849,604,851,576,783"/>
-<area shape="poly" title=" " alt="" coords="401,453,415,491,434,532,440,542,435,544,430,534,410,493,396,455"/>
-<area shape="rect" title=" " alt="" coords="627,105,654,171"/>
-<area shape="poly" title=" " alt="" coords="655,170,687,262,703,319,715,378,727,492,732,609,731,723,726,829,721,828,726,723,727,609,722,493,710,379,698,321,682,263,650,171"/>
-<area shape="poly" title=" " alt="" coords="629,156,431,378,427,374,625,152"/>
-<area shape="rect" title=" " alt="" coords="330,105,450,171"/>
-<area shape="poly" title=" " alt="" coords="392,170,392,371,387,371,387,170"/>
-<area shape="rect" title=" " alt="" coords="500,389,541,454"/>
-<area shape="poly" title=" " alt="" coords="503,454,489,489,486,514,487,540,482,541,480,514,484,487,498,452"/>
-<area shape="rect" title=" " alt="" coords="566,389,603,454"/>
-<area shape="poly" title=" " alt="" coords="580,454,563,541,557,540,575,453"/>
-<area shape="rect" title=" " alt="" coords="628,389,701,454"/>
-<area shape="poly" title=" " alt="" coords="655,455,620,534,615,543,611,541,615,532,650,453"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html" title="MME Wave function interop." alt="" coords="1009,5,1194,271"/>
-<area shape="poly" title=" " alt="" coords="1011,270,978,324,948,380,913,461,871,573,782,830,777,828,866,571,908,459,943,378,973,322,1007,268"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_window.html" title=" " alt="" coords="957,379,1134,464"/>
-<area shape="poly" title=" " alt="" coords="1055,271,1050,295,1045,362,1040,362,1045,294,1050,270"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_window_native.html" title=" " alt="" coords="1158,379,1373,464"/>
-<area shape="poly" title=" " alt="" coords="1133,270,1151,313,1175,353,1186,366,1182,369,1171,356,1146,316,1128,272"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_callback_info.html" title="Wave Callback Info." alt="" coords="956,557,1159,782"/>
-<area shape="poly" title=" " alt="" coords="972,784,940,823,798,978,794,974,936,820,968,781"/>
-<area shape="poly" title=" " alt="" coords="1050,464,1054,540,1049,540,1045,464"/>
-<area shape="rect" href="class_form.html" title=" " alt="" coords="942,105,984,171"/>
-<area shape="poly" title=" " alt="" coords="977,184,1000,270,1034,378,1029,380,995,271,972,186"/>
-<area shape="poly" title=" " alt="" coords="1233,466,1165,546,1161,542,1229,462"/>
-<area shape="rect" href="class_native_window.html" title=" " alt="" coords="1229,105,1326,171"/>
-<area shape="poly" title=" " alt="" coords="1278,186,1270,379,1265,379,1273,186"/>
-<area shape="rect" title=" " alt="" coords="1183,637,1335,702"/>
-<area shape="poly" title=" " alt="" coords="1241,704,1211,744,1173,784,1080,859,981,926,885,983,801,1029,798,1025,883,979,978,921,1077,855,1169,780,1207,741,1237,701"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -380,16 +352,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a043c5349593ff969fe96c7a4b91d4533_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a043c5349593ff969fe96c7a4b91d4533_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a043c5349593ff969fe96c7a4b91d4533_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a043c5349593ff969fe96c7a4b91d4533_cgraph">
-<area shape="rect" title="Prepares a Wave input device for recording." alt="" coords="5,46,203,72"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a5d6d09fc232b02f67063410e809b6e0b" title="Callback method for handling wave input messages." alt="" coords="251,46,455,72"/>
-<area shape="poly" title=" " alt="" coords="203,56,235,56,235,62,203,62"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#acb9f7cdc0183b104eaa6560639367c50" title="Raises the DataAvailable event with the provided WaveInBuffer data." alt="" coords="503,5,690,46"/>
-<area shape="poly" title=" " alt="" coords="451,43,487,38,488,43,452,48"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a85b8f08d114ae526f79f53155889bf4e" title="Raises the RecordingStopped event with the specified exception." alt="" coords="503,71,690,111"/>
-<area shape="poly" title=" " alt="" coords="456,70,488,74,487,79,455,75"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a043c5349593ff969fe96c7a4b91d4533_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -452,24 +415,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_cgraph">
-<area shape="rect" title="Callback method for handling wave input messages." alt="" coords="5,46,210,72"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#acb9f7cdc0183b104eaa6560639367c50" title="Raises the DataAvailable event with the provided WaveInBuffer data." alt="" coords="258,5,445,46"/>
-<area shape="poly" title=" " alt="" coords="206,43,242,38,243,43,207,48"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a85b8f08d114ae526f79f53155889bf4e" title="Raises the RecordingStopped event with the specified exception." alt="" coords="258,71,445,111"/>
-<area shape="poly" title=" " alt="" coords="210,70,242,74,242,79,210,75"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_cgraph.svg" width="451" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_icgraph">
-<area shape="rect" title="Callback method for handling wave input messages." alt="" coords="251,5,455,31"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a043c5349593ff969fe96c7a4b91d4533" title="Prepares a Wave input device for recording." alt="" coords="5,5,203,31"/>
-<area shape="poly" title=" " alt="" coords="235,21,203,21,203,16,235,16"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a5d6d09fc232b02f67063410e809b6e0b_icgraph.svg" width="460" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -502,31 +453,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_cgraph">
-<area shape="rect" title="Closes the wave input device and releases associated resources." alt="" coords="5,95,193,135"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in_buffer.html#aa64a1d38381ae46017fdd67388405d1c" title="Releases the managed and unmanaged resources used by the WaveInRecorder." alt="" coords="254,29,441,70"/>
-<area shape="poly" title=" " alt="" coords="178,91,252,72,253,77,180,97"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#a700f666e57095399600aeb93c05150e2" title="Closes the specified waveform&#45;audio input device." alt="" coords="241,95,454,135"/>
-<area shape="poly" title=" " alt="" coords="193,112,225,112,225,118,193,118"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#af3d2e5654fc9d1235350d9867e429293" title="Resets the specified waveform&#45;audio input device." alt="" coords="241,160,454,201"/>
-<area shape="poly" title=" " alt="" coords="180,133,253,153,252,158,178,139"/>
-<area shape="poly" title=" " alt="" coords="301,29,298,19,306,10,322,5,347,3,374,5,390,11,388,16,373,10,347,8,324,10,309,15,304,21,306,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_cgraph.svg" width="460" height="207"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_icgraph">
-<area shape="rect" title="Closes the wave input device and releases associated resources." alt="" coords="500,27,687,68"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#ab5fbb89bcdf578ec5a5f3c515112fe78" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="243,5,444,31"/>
-<area shape="poly" title=" " alt="" coords="484,37,444,33,445,27,485,32"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a7028a5b04609d26c7ce802dab87147f1" title="Opens the wave input device and creates necessary buffers." alt="" coords="235,55,452,96"/>
-<area shape="poly" title=" " alt="" coords="485,62,453,66,452,61,484,57"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#ac73083af2ea40dab1577caf35c79c7cd" title="Starts the audio recording process." alt="" coords="5,55,187,96"/>
-<area shape="poly" title=" " alt="" coords="219,78,187,78,187,73,219,73"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a922184988b1134142e62fc9198eceffa_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -559,14 +491,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a8d74adb609b32636b268f6b89bf13cd9_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a8d74adb609b32636b268f6b89bf13cd9_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a8d74adb609b32636b268f6b89bf13cd9_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a8d74adb609b32636b268f6b89bf13cd9_icgraph">
-<area shape="rect" title="Creates audio buffers for capturing audio data." alt="" coords="500,5,692,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a7028a5b04609d26c7ce802dab87147f1" title="Opens the wave input device and creates necessary buffers." alt="" coords="235,5,452,46"/>
-<area shape="poly" title=" " alt="" coords="484,28,453,28,453,23,484,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#ac73083af2ea40dab1577caf35c79c7cd" title="Starts the audio recording process." alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a8d74adb609b32636b268f6b89bf13cd9_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -598,20 +523,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_cgraph">
-<area shape="rect" title="Dispose method." alt="" coords="5,29,207,55"/>
-<area shape="poly" title=" " alt="" coords="72,31,66,21,70,11,83,5,106,3,131,5,143,12,141,17,129,10,106,8,85,10,73,15,71,20,77,27"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_cgraph.svg" width="212" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_icgraph">
-<area shape="rect" title="Dispose method." alt="" coords="5,29,207,55"/>
-<area shape="poly" title=" " alt="" coords="141,17,129,10,106,8,85,10,73,15,71,20,77,27,72,31,66,21,70,11,83,5,106,3,131,5,143,12"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a9f17d25f21f9d1f41716ae10eca82ef5_icgraph.svg" width="212" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -644,31 +561,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_ab5fbb89bcdf578ec5a5f3c515112fe78_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_ab5fbb89bcdf578ec5a5f3c515112fe78_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_ab5fbb89bcdf578ec5a5f3c515112fe78_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_ab5fbb89bcdf578ec5a5f3c515112fe78_cgraph">
-<area shape="rect" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,233,207,259"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a922184988b1134142e62fc9198eceffa" title="Closes the wave input device and releases associated resources." alt="" coords="281,128,468,169"/>
-<area shape="poly" title=" " alt="" coords="143,230,301,172,303,177,145,235"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a6ecd599e803867348a6a6f1932cdf894" title="Stops the recording if it is currently in progress." alt="" coords="255,298,494,324"/>
-<area shape="poly" title=" " alt="" coords="162,256,304,291,303,297,161,262"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in_buffer.html#aa64a1d38381ae46017fdd67388405d1c" title="Releases the managed and unmanaged resources used by the WaveInRecorder." alt="" coords="555,29,742,70"/>
-<area shape="poly" title=" " alt="" coords="425,125,541,80,564,73,566,78,543,86,427,130"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#a700f666e57095399600aeb93c05150e2" title="Closes the specified waveform&#45;audio input device." alt="" coords="542,95,755,135"/>
-<area shape="poly" title=" " alt="" coords="468,134,526,127,527,132,469,140"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#af3d2e5654fc9d1235350d9867e429293" title="Resets the specified waveform&#45;audio input device." alt="" coords="542,160,755,201"/>
-<area shape="poly" title=" " alt="" coords="469,157,527,163,526,169,468,162"/>
-<area shape="poly" title=" " alt="" coords="598,29,596,19,604,10,622,5,649,3,678,5,695,11,693,16,677,10,649,8,623,10,607,15,601,21,603,28"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#acb9f7cdc0183b104eaa6560639367c50" title="Raises the DataAvailable event with the provided WaveInBuffer data." alt="" coords="555,225,742,266"/>
-<area shape="poly" title=" " alt="" coords="431,295,545,268,546,273,432,300"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a85b8f08d114ae526f79f53155889bf4e" title="Raises the RecordingStopped event with the specified exception." alt="" coords="555,291,742,331"/>
-<area shape="poly" title=" " alt="" coords="494,308,539,308,539,314,494,314"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="563,356,734,381"/>
-<area shape="poly" title=" " alt="" coords="440,322,569,349,568,354,439,327"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#a699a79d317473f9e255d783622dc8cac" title="Stops audio input on the specified waveform&#45;audio input device." alt="" coords="542,405,755,446"/>
-<area shape="poly" title=" " alt="" coords="401,322,464,355,543,391,560,397,558,402,541,396,462,360,398,327"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="803,356,1036,381"/>
-<area shape="poly" title=" " alt="" coords="735,366,788,366,788,371,735,371"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_ab5fbb89bcdf578ec5a5f3c515112fe78_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -701,12 +594,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a13ff7fffb6a57c459668565ec3c38555_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a13ff7fffb6a57c459668565ec3c38555_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a13ff7fffb6a57c459668565ec3c38555_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a13ff7fffb6a57c459668565ec3c38555_icgraph">
-<area shape="rect" title="Enqueues the reusable buffers." alt="" coords="235,5,439,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#ac73083af2ea40dab1577caf35c79c7cd" title="Starts the audio recording process." alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a13ff7fffb6a57c459668565ec3c38555_icgraph.svg" width="444" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -751,16 +639,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a195de81ee0766e6c345980f88689349a_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a195de81ee0766e6c345980f88689349a_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a195de81ee0766e6c345980f88689349a_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a195de81ee0766e6c345980f88689349a_cgraph">
-<area shape="rect" title="Retrieves the capabilities of the specified audio input device." alt="" coords="5,35,248,60"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="317,5,488,31"/>
-<area shape="poly" title=" " alt="" coords="248,32,301,26,302,32,248,37"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#abbc3209e7a8a1f28cf8af76140f2b2cf" title="Retrieves the capabilities of a specified input device." alt="" coords="296,55,509,96"/>
-<area shape="poly" title=" " alt="" coords="248,57,281,60,280,66,248,62"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="557,5,789,31"/>
-<area shape="poly" title=" " alt="" coords="489,16,542,16,542,21,489,21"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a195de81ee0766e6c345980f88689349a_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -828,16 +707,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_af3824acf0dcd1f7dce3a8f8b07912bdd_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_af3824acf0dcd1f7dce3a8f8b07912bdd_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_af3824acf0dcd1f7dce3a8f8b07912bdd_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_af3824acf0dcd1f7dce3a8f8b07912bdd_cgraph">
-<area shape="rect" title="Retrieves the current input position of the audio device in bytes." alt="" coords="5,35,227,60"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="296,5,467,31"/>
-<area shape="poly" title=" " alt="" coords="227,33,280,27,281,32,228,38"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#aa95274e5f510f4e5ac9840d198d643c9" title="Retrieves the current position in the audio stream being played or recorded." alt="" coords="275,55,488,96"/>
-<area shape="poly" title=" " alt="" coords="227,57,260,60,259,65,227,62"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="536,5,768,31"/>
-<area shape="poly" title=" " alt="" coords="468,16,521,16,521,21,468,21"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_af3824acf0dcd1f7dce3a8f8b07912bdd_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -876,35 +746,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_cgraph">
-<area shape="rect" title="Opens the wave input device and creates necessary buffers." alt="" coords="5,160,223,201"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a922184988b1134142e62fc9198eceffa" title="Closes the wave input device and releases associated resources." alt="" coords="273,95,461,135"/>
-<area shape="poly" title=" " alt="" coords="195,157,270,137,271,142,196,162"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a8d74adb609b32636b268f6b89bf13cd9" title="Creates audio buffers for capturing audio data." alt="" coords="271,160,463,201"/>
-<area shape="poly" title=" " alt="" coords="223,178,255,178,255,183,223,183"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="281,225,453,251"/>
-<area shape="poly" title=" " alt="" coords="207,199,292,218,291,223,206,204"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in_buffer.html#aa64a1d38381ae46017fdd67388405d1c" title="Releases the managed and unmanaged resources used by the WaveInRecorder." alt="" coords="534,29,721,70"/>
-<area shape="poly" title=" " alt="" coords="450,91,528,72,529,77,451,97"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#a700f666e57095399600aeb93c05150e2" title="Closes the specified waveform&#45;audio input device." alt="" coords="521,95,734,135"/>
-<area shape="poly" title=" " alt="" coords="461,112,505,112,505,118,461,118"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#af3d2e5654fc9d1235350d9867e429293" title="Resets the specified waveform&#45;audio input device." alt="" coords="521,160,734,201"/>
-<area shape="poly" title=" " alt="" coords="451,133,529,153,528,158,450,139"/>
-<area shape="poly" title=" " alt="" coords="578,29,576,19,584,10,601,5,627,3,655,5,672,11,670,16,654,10,627,8,602,10,587,15,581,21,584,28"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="511,225,743,251"/>
-<area shape="poly" title=" " alt="" coords="453,235,496,235,496,240,453,240"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_cgraph.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_icgraph">
-<area shape="rect" title="Opens the wave input device and creates necessary buffers." alt="" coords="235,5,452,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#ac73083af2ea40dab1577caf35c79c7cd" title="Starts the audio recording process." alt="" coords="5,5,187,46"/>
-<area shape="poly" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a7028a5b04609d26c7ce802dab87147f1_icgraph.svg" width="458" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -949,18 +796,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_acb9f7cdc0183b104eaa6560639367c50_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_acb9f7cdc0183b104eaa6560639367c50_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_acb9f7cdc0183b104eaa6560639367c50_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_acb9f7cdc0183b104eaa6560639367c50_icgraph">
-<area shape="rect" title="Raises the DataAvailable event with the provided WaveInBuffer data." alt="" coords="542,23,729,64"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a5d6d09fc232b02f67063410e809b6e0b" title="Callback method for handling wave input messages." alt="" coords="272,5,477,31"/>
-<area shape="poly" title=" " alt="" coords="526,36,477,31,477,25,527,30"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a6ecd599e803867348a6a6f1932cdf894" title="Stops the recording if it is currently in progress." alt="" coords="255,55,494,80"/>
-<area shape="poly" title=" " alt="" coords="527,56,495,59,494,54,526,51"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a043c5349593ff969fe96c7a4b91d4533" title="Prepares a Wave input device for recording." alt="" coords="7,5,205,31"/>
-<area shape="poly" title=" " alt="" coords="257,21,205,21,205,16,257,16"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#ab5fbb89bcdf578ec5a5f3c515112fe78" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,55,207,80"/>
-<area shape="poly" title=" " alt="" coords="239,70,207,70,207,65,239,65"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_acb9f7cdc0183b104eaa6560639367c50_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1005,18 +841,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a85b8f08d114ae526f79f53155889bf4e_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a85b8f08d114ae526f79f53155889bf4e_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a85b8f08d114ae526f79f53155889bf4e_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a85b8f08d114ae526f79f53155889bf4e_icgraph">
-<area shape="rect" title="Raises the RecordingStopped event with the specified exception." alt="" coords="542,23,729,64"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a5d6d09fc232b02f67063410e809b6e0b" title="Callback method for handling wave input messages." alt="" coords="272,5,477,31"/>
-<area shape="poly" title=" " alt="" coords="526,36,477,31,477,25,527,30"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a6ecd599e803867348a6a6f1932cdf894" title="Stops the recording if it is currently in progress." alt="" coords="255,55,494,80"/>
-<area shape="poly" title=" " alt="" coords="527,56,495,59,494,54,526,51"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a043c5349593ff969fe96c7a4b91d4533" title="Prepares a Wave input device for recording." alt="" coords="7,5,205,31"/>
-<area shape="poly" title=" " alt="" coords="257,21,205,21,205,16,257,16"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#ab5fbb89bcdf578ec5a5f3c515112fe78" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,55,207,80"/>
-<area shape="poly" title=" " alt="" coords="239,70,207,70,207,65,239,65"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a85b8f08d114ae526f79f53155889bf4e_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1057,32 +882,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_ac73083af2ea40dab1577caf35c79c7cd_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_ac73083af2ea40dab1577caf35c79c7cd_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_ac73083af2ea40dab1577caf35c79c7cd_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_ac73083af2ea40dab1577caf35c79c7cd_cgraph">
-<area shape="rect" title="Starts the audio recording process." alt="" coords="5,189,187,230"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a13ff7fffb6a57c459668565ec3c38555" title="Enqueues the reusable buffers." alt="" coords="241,95,446,135"/>
-<area shape="poly" title=" " alt="" coords="140,186,234,146,255,138,257,143,236,151,142,191"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a7028a5b04609d26c7ce802dab87147f1" title="Opens the wave input device and creates necessary buffers." alt="" coords="235,160,452,201"/>
-<area shape="poly" title=" " alt="" coords="187,196,219,192,219,198,187,202"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="511,225,682,251"/>
-<area shape="poly" title=" " alt="" coords="187,212,495,229,495,235,187,217"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#a9781279707ba943e6b6149801ca3d0ef" title="Starts input on the specified waveform&#45;audio input device." alt="" coords="237,275,450,315"/>
-<area shape="poly" title=" " alt="" coords="158,228,269,267,267,272,156,233"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a922184988b1134142e62fc9198eceffa" title="Closes the wave input device and releases associated resources." alt="" coords="503,95,690,135"/>
-<area shape="poly" title=" " alt="" coords="424,157,499,137,501,142,426,162"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a8d74adb609b32636b268f6b89bf13cd9" title="Creates audio buffers for capturing audio data." alt="" coords="500,160,692,201"/>
-<area shape="poly" title=" " alt="" coords="453,178,484,178,484,183,453,183"/>
-<area shape="poly" title=" " alt="" coords="437,199,522,218,521,223,435,204"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in_buffer.html#aa64a1d38381ae46017fdd67388405d1c" title="Releases the managed and unmanaged resources used by the WaveInRecorder." alt="" coords="763,29,950,70"/>
-<area shape="poly" title=" " alt="" coords="679,91,757,72,758,77,681,97"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#a700f666e57095399600aeb93c05150e2" title="Closes the specified waveform&#45;audio input device." alt="" coords="750,95,963,135"/>
-<area shape="poly" title=" " alt="" coords="690,112,734,112,734,118,690,118"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#af3d2e5654fc9d1235350d9867e429293" title="Resets the specified waveform&#45;audio input device." alt="" coords="750,160,963,201"/>
-<area shape="poly" title=" " alt="" coords="681,133,758,153,757,158,679,139"/>
-<area shape="poly" title=" " alt="" coords="808,29,805,19,813,10,831,5,857,3,884,5,901,11,899,16,883,10,856,8,832,10,816,15,811,21,813,28"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="740,225,973,251"/>
-<area shape="poly" title=" " alt="" coords="682,235,725,235,725,240,682,240"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_ac73083af2ea40dab1577caf35c79c7cd_cgraph.svg" width="100%" height="541"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1123,30 +923,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_cgraph">
-<area shape="rect" title="Stops the recording if it is currently in progress." alt="" coords="5,108,245,133"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#acb9f7cdc0183b104eaa6560639367c50" title="Raises the DataAvailable event with the provided WaveInBuffer data." alt="" coords="306,5,493,46"/>
-<area shape="poly" title=" " alt="" coords="160,104,292,56,315,49,317,54,294,62,162,109"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#a85b8f08d114ae526f79f53155889bf4e" title="Raises the RecordingStopped event with the specified exception." alt="" coords="306,71,493,111"/>
-<area shape="poly" title=" " alt="" coords="245,105,290,100,290,105,245,110"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="314,136,485,161"/>
-<area shape="poly" title=" " alt="" coords="245,130,299,135,298,141,245,135"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_interop.html#a699a79d317473f9e255d783622dc8cac" title="Stops audio input on the specified waveform&#45;audio input device." alt="" coords="293,185,506,226"/>
-<area shape="poly" title=" " alt="" coords="168,131,293,171,315,178,314,183,292,176,167,136"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="554,136,786,161"/>
-<area shape="poly" title=" " alt="" coords="486,146,539,146,539,151,486,151"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_cgraph.svg" width="100%" height="474"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_icgraph">
-<area shape="rect" title="Stops the recording if it is currently in progress." alt="" coords="255,5,494,31"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_in.html#ab5fbb89bcdf578ec5a5f3c515112fe78" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="5,5,207,31"/>
-<area shape="poly" title=" " alt="" coords="239,21,207,21,207,16,239,16"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_in_a6ecd599e803867348a6a6f1932cdf894_icgraph.svg" width="500" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1467,11 +1249,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_wave_in.html">WaveIn</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

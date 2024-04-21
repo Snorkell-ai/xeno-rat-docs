@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Midi.MidiMessage Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,12 +137,7 @@ $(function(){initNavTree('class_n_audio_1_1_midi_1_1_midi_message.html',''); ini
 <div class="dynheader">
 Collaboration diagram for NAudio.Midi.MidiMessage:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_message__coll__graph.png" border="0" usemap="#a_n_audio_8_midi_8_midi_message_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_midi_8_midi_message_coll__map" id="a_n_audio_8_midi_8_midi_message_coll__map">
-<area shape="rect" title="Represents a MIDI message." alt="" coords="5,134,177,339"/>
-<area shape="rect" title=" " alt="" coords="78,5,105,71"/>
-<area shape="poly" title=" " alt="" coords="94,70,94,117,89,117,89,70"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_message__coll__graph.svg" width="183" height="344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -212,18 +231,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_message_a63a860819683a2e1870cf25a3d86f1bc_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_message_a63a860819683a2e1870cf25a3d86f1bc_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_message_a63a860819683a2e1870cf25a3d86f1bc_icgraph" id="aclass_n_audio_1_1_midi_1_1_midi_message_a63a860819683a2e1870cf25a3d86f1bc_icgraph">
-<area shape="rect" title="Creates a new MIDI message." alt="" coords="231,104,408,145"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a6be0ba89281f1eabaee979c66adf91e8" title="Changes the control value for a specific MIDI controller on the specified channel and returns the cor..." alt="" coords="5,5,183,46"/>
-<area shape="poly" title=" " alt="" coords="262,99,182,61,151,49,153,44,184,57,265,94"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a2ac3339c763f6364d2eb0f9605826dd3" title="Changes the patch for the specified MIDI channel and returns the corresponding MIDI message." alt="" coords="5,71,183,111"/>
-<area shape="poly" title=" " alt="" coords="215,112,183,107,184,102,216,106"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#adfde7a62de9fa0bcc203015df298951e" title="Starts a note with the specified parameters and returns the corresponding MIDI message." alt="" coords="5,136,183,177"/>
-<area shape="poly" title=" " alt="" coords="216,142,184,146,183,141,215,136"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a5b9abd4ddbd0ddc7fec00b923fe45f70" title="Stops the specified note on the given channel with the specified volume." alt="" coords="5,201,183,242"/>
-<area shape="poly" title=" " alt="" coords="264,154,184,191,153,203,151,198,182,186,261,149"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_message_a63a860819683a2e1870cf25a3d86f1bc_icgraph.svg" width="414" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -314,14 +322,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_message_a6be0ba89281f1eabaee979c66adf91e8_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_message_a6be0ba89281f1eabaee979c66adf91e8_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_message_a6be0ba89281f1eabaee979c66adf91e8_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_message_a6be0ba89281f1eabaee979c66adf91e8_cgraph">
-<area shape="rect" title="Changes the control value for a specific MIDI controller on the specified channel and returns the cor..." alt="" coords="5,39,183,79"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a63a860819683a2e1870cf25a3d86f1bc" title="Creates a new MIDI message." alt="" coords="231,5,408,46"/>
-<area shape="poly" title=" " alt="" coords="182,43,215,38,215,44,183,49"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#ab6850072b0d6a250b075bf6a707973f7" title="Validates the channel number to ensure it falls within the range of 1 to 16." alt="" coords="231,71,408,111"/>
-<area shape="poly" title=" " alt="" coords="183,69,215,74,215,79,182,74"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_message_a6be0ba89281f1eabaee979c66adf91e8_cgraph.svg" width="414" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -372,14 +373,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_message_a2ac3339c763f6364d2eb0f9605826dd3_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_message_a2ac3339c763f6364d2eb0f9605826dd3_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_message_a2ac3339c763f6364d2eb0f9605826dd3_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_message_a2ac3339c763f6364d2eb0f9605826dd3_cgraph">
-<area shape="rect" title="Changes the patch for the specified MIDI channel and returns the corresponding MIDI message." alt="" coords="5,39,183,79"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a63a860819683a2e1870cf25a3d86f1bc" title="Creates a new MIDI message." alt="" coords="231,5,408,46"/>
-<area shape="poly" title=" " alt="" coords="182,43,215,38,215,44,183,49"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#ab6850072b0d6a250b075bf6a707973f7" title="Validates the channel number to ensure it falls within the range of 1 to 16." alt="" coords="231,71,408,111"/>
-<area shape="poly" title=" " alt="" coords="183,69,215,74,215,79,182,74"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_message_a2ac3339c763f6364d2eb0f9605826dd3_cgraph.svg" width="414" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -436,16 +430,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_message_adfde7a62de9fa0bcc203015df298951e_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_message_adfde7a62de9fa0bcc203015df298951e_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_message_adfde7a62de9fa0bcc203015df298951e_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_message_adfde7a62de9fa0bcc203015df298951e_cgraph">
-<area shape="rect" title="Starts a note with the specified parameters and returns the corresponding MIDI message." alt="" coords="5,39,183,79"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a63a860819683a2e1870cf25a3d86f1bc" title="Creates a new MIDI message." alt="" coords="231,5,408,46"/>
-<area shape="poly" title=" " alt="" coords="182,43,215,38,215,44,183,49"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a3f2acf86a674a258b0711e048f85750e" title="Validates the note, volume, and channel parameters for MIDI messages." alt="" coords="231,71,408,111"/>
-<area shape="poly" title=" " alt="" coords="183,69,215,74,215,79,182,74"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#ab6850072b0d6a250b075bf6a707973f7" title="Validates the channel number to ensure it falls within the range of 1 to 16." alt="" coords="456,71,633,111"/>
-<area shape="poly" title=" " alt="" coords="408,88,440,88,440,94,408,94"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_message_adfde7a62de9fa0bcc203015df298951e_cgraph.svg" width="639" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -502,16 +487,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_message_a5b9abd4ddbd0ddc7fec00b923fe45f70_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_message_a5b9abd4ddbd0ddc7fec00b923fe45f70_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_message_a5b9abd4ddbd0ddc7fec00b923fe45f70_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_message_a5b9abd4ddbd0ddc7fec00b923fe45f70_cgraph">
-<area shape="rect" title="Stops the specified note on the given channel with the specified volume." alt="" coords="5,39,183,79"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a63a860819683a2e1870cf25a3d86f1bc" title="Creates a new MIDI message." alt="" coords="231,5,408,46"/>
-<area shape="poly" title=" " alt="" coords="182,43,215,38,215,44,183,49"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a3f2acf86a674a258b0711e048f85750e" title="Validates the note, volume, and channel parameters for MIDI messages." alt="" coords="231,71,408,111"/>
-<area shape="poly" title=" " alt="" coords="183,69,215,74,215,79,182,74"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#ab6850072b0d6a250b075bf6a707973f7" title="Validates the channel number to ensure it falls within the range of 1 to 16." alt="" coords="456,71,633,111"/>
-<area shape="poly" title=" " alt="" coords="408,88,440,88,440,94,408,94"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_message_a5b9abd4ddbd0ddc7fec00b923fe45f70_cgraph.svg" width="639" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -556,20 +532,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_message_ab6850072b0d6a250b075bf6a707973f7_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_message_ab6850072b0d6a250b075bf6a707973f7_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_message_ab6850072b0d6a250b075bf6a707973f7_icgraph" id="aclass_n_audio_1_1_midi_1_1_midi_message_ab6850072b0d6a250b075bf6a707973f7_icgraph">
-<area shape="rect" title="Validates the channel number to ensure it falls within the range of 1 to 16." alt="" coords="456,71,633,111"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a6be0ba89281f1eabaee979c66adf91e8" title="Changes the control value for a specific MIDI controller on the specified channel and returns the cor..." alt="" coords="231,5,408,46"/>
-<area shape="poly" title=" " alt="" coords="457,68,391,49,393,44,458,63"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a2ac3339c763f6364d2eb0f9605826dd3" title="Changes the patch for the specified MIDI channel and returns the corresponding MIDI message." alt="" coords="231,71,408,111"/>
-<area shape="poly" title=" " alt="" coords="441,94,409,94,409,88,441,88"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a3f2acf86a674a258b0711e048f85750e" title="Validates the note, volume, and channel parameters for MIDI messages." alt="" coords="231,136,408,177"/>
-<area shape="poly" title=" " alt="" coords="458,119,393,138,391,133,457,114"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#adfde7a62de9fa0bcc203015df298951e" title="Starts a note with the specified parameters and returns the corresponding MIDI message." alt="" coords="5,103,183,143"/>
-<area shape="poly" title=" " alt="" coords="215,144,183,139,184,134,216,138"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a5b9abd4ddbd0ddc7fec00b923fe45f70" title="Stops the specified note on the given channel with the specified volume." alt="" coords="5,168,183,209"/>
-<area shape="poly" title=" " alt="" coords="216,174,184,178,183,173,215,168"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_message_ab6850072b0d6a250b075bf6a707973f7_icgraph.svg" width="639" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -625,24 +588,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_cgraph" id="aclass_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_cgraph">
-<area shape="rect" title="Validates the note, volume, and channel parameters for MIDI messages." alt="" coords="5,5,183,46"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#ab6850072b0d6a250b075bf6a707973f7" title="Validates the channel number to ensure it falls within the range of 1 to 16." alt="" coords="231,5,408,46"/>
-<area shape="poly" title=" " alt="" coords="183,23,215,23,215,28,183,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_cgraph.svg" width="414" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_icgraph" id="aclass_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_icgraph">
-<area shape="rect" title="Validates the note, volume, and channel parameters for MIDI messages." alt="" coords="231,39,408,79"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#adfde7a62de9fa0bcc203015df298951e" title="Starts a note with the specified parameters and returns the corresponding MIDI message." alt="" coords="5,5,183,46"/>
-<area shape="poly" title=" " alt="" coords="215,46,183,41,184,36,216,41"/>
-<area shape="rect" href="class_n_audio_1_1_midi_1_1_midi_message.html#a5b9abd4ddbd0ddc7fec00b923fe45f70" title="Stops the specified note on the given channel with the specified volume." alt="" coords="5,71,183,111"/>
-<area shape="poly" title=" " alt="" coords="216,76,184,81,183,76,215,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_midi_1_1_midi_message_a3f2acf86a674a258b0711e048f85750e_icgraph.svg" width="414" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -700,11 +651,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_midi.html">Midi</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_midi_1_1_midi_message.html">MidiMessage</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

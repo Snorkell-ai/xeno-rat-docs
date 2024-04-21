@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.WaveFormat Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,42 +137,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_wave_format.html',''); init
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.WaveFormat:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_wave_format_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_wave_format_inherit__map" id="a_n_audio_8_wave_8_wave_format_inherit__map">
-<area shape="rect" title="Represents a Wave file format." alt="" coords="921,5,1120,651"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_adpcm_wave_format.html" title="Microsoft ADPCM See http://icculus.org/SDL_sound/downloads/external_documentation/wavecomp...." alt="" coords="5,699,217,924"/>
-<area shape="poly" title=" " alt="" coords="908,371,767,426,593,501,408,594,317,646,230,701,219,709,216,705,227,696,314,641,405,589,591,496,765,421,906,366"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_gsm610_wave_format.html" title="GSM 610." alt="" coords="241,759,461,864"/>
-<area shape="poly" title=" " alt="" coords="910,400,704,534,587,616,474,701,405,761,402,757,471,697,584,611,701,530,907,396"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_ima_adpcm_wave_format.html" title="IMA/DVI ADPCM Wave Format Work in progress." alt="" coords="485,761,679,861"/>
-<area shape="poly" title=" " alt="" coords="914,450,628,764,624,760,910,447"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mp3_wave_format.html" title="MP3 WaveFormat, MPEGLAYER3WAVEFORMAT from mmreg.h." alt="" coords="703,729,899,894"/>
-<area shape="poly" title=" " alt="" coords="918,561,840,730,835,728,913,559"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_ogg_wave_format.html" title=" " alt="" coords="923,769,1118,854"/>
-<area shape="poly" title=" " alt="" coords="1023,666,1023,769,1018,769,1018,666"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_true_speech_wave_format.html" title="DSP Group TrueSpeech." alt="" coords="1142,761,1342,861"/>
-<area shape="poly" title=" " alt="" coords="1129,557,1222,761,1217,763,1124,560"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_extensible.html" title="WaveFormatExtensible http://www.microsoft.com/whdc/device/audio/multichaud.mspx." alt="" coords="1366,709,1598,914"/>
-<area shape="poly" title=" " alt="" coords="1132,441,1387,707,1383,711,1128,445"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_extra_data.html" title="This class used for marshalling from unmanaged code." alt="" coords="1622,739,1851,884"/>
-<area shape="poly" title=" " alt="" coords="1134,390,1359,525,1487,609,1612,697,1661,737,1658,741,1608,701,1484,613,1356,530,1132,395"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_formats_1_1_wma_wave_format.html" title="The WMA wave format. May not be much use because WMA codec is a DirectShow DMO not an ACM." alt="" coords="1875,721,2057,901"/>
-<area shape="poly" title=" " alt="" coords="1135,360,1287,411,1475,485,1575,530,1675,580,1773,636,1865,697,1893,720,1890,724,1862,701,1770,640,1673,585,1573,535,1473,490,1285,416,1133,365"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.WaveFormat:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_wave_format_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_wave_format_coll__map" id="a_n_audio_8_wave_8_wave_format_coll__map">
-<area shape="rect" title="Represents a Wave file format." alt="" coords="111,179,310,684"/>
-<area shape="rect" title=" " alt="" coords="5,5,147,71"/>
-<area shape="poly" title=" " alt="" coords="84,70,104,154,109,169,104,171,99,155,79,71"/>
-<area shape="rect" title=" " alt="" coords="190,5,231,71"/>
-<area shape="poly" title=" " alt="" coords="213,71,213,162,208,162,208,71"/>
-<area shape="rect" title=" " alt="" coords="324,5,351,71"/>
-<area shape="poly" title=" " alt="" coords="333,71,311,155,308,163,303,162,305,154,328,70"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -289,81 +283,7 @@ Private Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a9efee93326fe1770b4e474c7afa3dc72_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a9efee93326fe1770b4e474c7afa3dc72_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a9efee93326fe1770b4e474c7afa3dc72_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a9efee93326fe1770b4e474c7afa3dc72_icgraph">
-<area shape="rect" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="1167,749,1383,790"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a7920e585a037dc2424eb31b985161996" title="Creates a custom WaveFormat with the specified parameters." alt="" coords="896,71,1118,111"/>
-<area shape="poly" title=" " alt="" coords="1268,734,1256,636,1229,499,1209,422,1184,345,1154,269,1116,198,1099,173,1078,150,1036,114,1040,110,1082,146,1103,170,1121,195,1158,267,1189,343,1215,421,1234,498,1261,635,1273,733"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a2dd0e9ea4097e54981725d6ad7c3290d" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="896,749,1118,790"/>
-<area shape="poly" title=" " alt="" coords="1151,772,1119,772,1119,767,1151,767"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_extensible.html#a5f1ab3ebeb48290713b76b1e055f81d5" title="Converts the current audio format to a standard WaveFormat." alt="" coords="598,1411,842,1451"/>
-<area shape="poly" title=" " alt="" coords="1160,796,897,855,885,874,876,899,868,963,868,1040,873,1124,878,1208,879,1286,871,1352,862,1378,849,1399,835,1412,832,1408,845,1396,857,1376,866,1351,874,1286,873,1208,868,1125,863,1041,862,963,871,898,880,871,894,850,1159,791"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#ad0c3a21355da530c5f0d41289d53e236" title="Determines whether the current WaveFormat object is equal to another object." alt="" coords="895,209,1119,235"/>
-<area shape="poly" title=" " alt="" coords="1254,736,1012,236,1017,234,1259,734"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_reader.html#a4807ccf086367552c2516ab1f7b221cd" title=" " alt="" coords="905,864,1109,905"/>
-<area shape="poly" title=" " alt="" coords="1222,800,1120,848,1073,866,1071,861,1118,843,1220,795"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a3cf806d66afc112657210397ed814dcd" title="Creates a new WaveFormat with A&#45;Law encoding." alt="" coords="609,71,831,111"/>
-<area shape="poly" title=" " alt="" coords="880,94,832,94,832,88,880,88"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a435b552e0bedaa17ea2d92cafb461ad6" title="Creates a new WaveFormat with MuLaw encoding." alt="" coords="609,5,831,46"/>
-<area shape="poly" title=" " alt="" coords="899,69,812,49,813,44,900,64"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#a36cddc41fc702b48e6730b6262e0e847" title="Adds an input audio stream to the mixer." alt="" coords="599,201,841,242"/>
-<area shape="poly" title=" " alt="" coords="1003,734,997,639,989,577,975,510,956,442,928,374,892,312,846,257,829,245,832,240,849,253,896,309,933,372,961,440,981,509,994,576,1003,638,1008,734"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#a80c4032e16125acba88f0a7b5c28d48e" title="Adds an input audio stream to the mixer." alt="" coords="605,136,835,177"/>
-<area shape="poly" title=" " alt="" coords="998,735,978,613,945,449,924,367,900,293,874,232,845,192,830,179,833,175,849,188,878,230,905,291,929,366,950,448,983,612,1003,734"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a0e5d50a4dbffa871b87b6d6cb61ef141" title="Creates a new WaveFormat for the output based on the input WaveFormat and the specified output sample..." alt="" coords="617,1345,823,1386"/>
-<area shape="poly" title=" " alt="" coords="906,801,897,810,886,830,878,854,871,917,871,992,875,1072,880,1153,879,1227,871,1290,862,1315,849,1335,825,1354,822,1350,845,1332,857,1313,866,1289,874,1227,874,1153,870,1072,866,992,865,917,873,853,881,827,893,807,902,797"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#aaa3e900d0b52b1ab72e069196676e99e" title="Retrieves the current wave format from the specified IMFSourceReader." alt="" coords="618,267,822,307"/>
-<area shape="poly" title=" " alt="" coords="1001,734,992,650,982,596,967,539,947,480,921,422,887,369,846,322,821,306,824,302,849,318,891,366,925,420,952,478,972,537,987,595,997,649,1007,734"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_asio_out.html#a27922dfd8af065caf7a2a01d0c139d5f" title="Initializes the record and playback with the specified wave provider, record channels,..." alt="" coords="633,332,807,373"/>
-<area shape="poly" title=" " alt="" coords="999,734,985,661,958,567,938,518,913,470,882,426,846,388,827,375,806,366,808,361,830,370,849,384,886,423,917,468,943,516,963,566,991,660,1004,733"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#ae76bc34d9fa114e6ce893148420c2978" title="Creates a new MixingWaveProvider32." alt="" coords="599,397,841,438"/>
-<area shape="poly" title=" " alt="" coords="996,735,979,673,949,596,929,556,906,518,878,482,846,452,829,441,832,436,849,448,882,479,910,515,934,554,954,594,984,671,1001,733"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_mono_to_stereo_sample_provider.html#ac794dd60fb835102d80d1a008388bb17" title="Initializes a new instance of MonoToStereoSampleProvider." alt="" coords="604,462,836,518"/>
-<area shape="poly" title=" " alt="" coords="989,736,968,690,936,635,895,579,846,532,828,520,831,516,849,528,899,576,941,632,972,687,994,734"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_multiplexing_sample_provider.html#a7d233143ba15b6d47c23bdfe46d32c8a" title="Creates a multiplexing sample provider, allowing re&#45;patching of input channels to different output ch..." alt="" coords="593,542,847,598"/>
-<area shape="poly" title=" " alt="" coords="979,739,923,674,886,641,846,612,824,600,826,596,849,607,889,637,926,671,983,735"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_multiplexing_wave_provider.html#a7a8715180a7e0261e1b225e764bd8de6" title="Creates a multiplexing wave provider, allowing re&#45;patching of input channels to different output chan..." alt="" coords="617,622,824,678"/>
-<area shape="poly" title=" " alt="" coords="954,744,846,692,816,681,818,676,848,687,957,739"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_panning_sample_provider.html#a7696addde12a6057bdc8d701656d6fd9" title="Initialises a new instance of the PanningSampleProvider." alt="" coords="593,702,847,758"/>
-<area shape="poly" title=" " alt="" coords="880,755,847,750,848,745,881,749"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_provider_converter_base.html#a21c5afb46e5e0e51881081c8f26ad11a" title="Initialises a new instance of SampleProviderConverterBase." alt="" coords="596,782,844,838"/>
-<area shape="poly" title=" " alt="" coords="881,790,845,795,845,790,880,785"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_provider32.html#a5abc5f918b546814f10f6a4b926c27ab" title="Sets the wave format using the specified sample rate and number of channels." alt="" coords="618,861,822,902"/>
-<area shape="poly" title=" " alt="" coords="920,799,897,811,883,821,874,831,864,842,849,852,822,863,820,858,846,847,860,838,870,828,879,817,894,806,918,794"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_signal_generator.html#ad30c622356c8a56de9fef5cb972699a2" title="Initializes a new instance for the Generator (UserDef SampleRate &amp; Channels)" alt="" coords="615,927,825,967"/>
-<area shape="poly" title=" " alt="" coords="910,800,897,810,886,823,880,836,874,862,869,889,861,903,849,916,827,930,824,925,846,912,857,899,864,887,869,861,875,834,882,820,894,806,907,796"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo_to_mono_sample_provider.html#a3da8483621e77ce2223507f853eac3a0" title="Creates a new mono ISampleProvider based on a stereo input." alt="" coords="601,991,839,1047"/>
-<area shape="poly" title=" " alt="" coords="908,800,897,810,882,831,875,852,874,894,873,937,865,959,849,981,835,993,832,988,845,977,861,957,868,936,869,894,870,851,878,829,893,807,905,796"/>
-<area shape="poly" title=" " alt="" coords="905,801,897,810,885,832,876,860,868,930,870,1014,875,1104,881,1194,882,1278,873,1348,863,1377,849,1399,835,1412,832,1408,845,1396,858,1374,868,1347,876,1278,876,1194,870,1104,864,1014,863,930,871,859,880,830,893,807,901,798"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave16_to_float_provider.html#a53c78006a0441ac9a2c85ae6f3d49e01" title="Creates a new Wave16toFloatProvider." alt="" coords="615,1071,825,1111"/>
-<area shape="poly" title=" " alt="" coords="907,801,897,810,878,841,870,872,871,903,875,935,880,966,880,997,871,1029,849,1061,827,1077,824,1073,845,1057,866,1027,875,997,875,966,870,935,865,904,865,872,873,839,893,807,903,797"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_channel32.html#a6cbcb644a4c757316eeab67d0c3dca02" title="Creates a new WaveChannel32." alt="" coords="618,1136,822,1177"/>
-<area shape="poly" title=" " alt="" coords="906,801,897,810,883,830,874,850,866,889,868,928,876,967,883,1006,885,1045,875,1085,865,1105,849,1125,824,1144,821,1139,845,1121,860,1102,870,1083,879,1044,878,1006,870,968,863,928,860,888,869,848,879,827,893,807,903,797"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#ab88e1fceb548dbe6dfccf67b6cb9ab77" title="Creates a new 32 bit WaveMixerStream." alt="" coords="605,1201,835,1242"/>
-<area shape="poly" title=" " alt="" coords="906,801,897,810,881,834,870,858,863,882,861,906,865,953,876,999,886,1046,890,1094,887,1118,880,1142,867,1166,849,1190,835,1203,831,1199,845,1187,863,1163,875,1140,882,1116,884,1093,881,1047,871,1001,860,953,856,906,858,881,865,857,876,832,893,807,903,797"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#a8ac65db56545c4569f1651e9e54fb143" title="Constructs a new resampler." alt="" coords="605,1266,836,1322"/>
-<area shape="poly" title=" " alt="" coords="906,801,897,810,878,839,865,867,858,895,856,922,862,977,875,1031,888,1086,893,1141,891,1169,883,1198,870,1226,849,1255,837,1267,833,1264,845,1252,865,1224,878,1196,885,1168,888,1141,883,1087,870,1032,856,978,851,922,853,894,860,865,873,836,893,807,902,797"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#a9f4a7b29e35effa58de222c2d85c3b34" title="Creates a new 32 bit MixingWaveProvider32." alt="" coords="303,201,545,242"/>
-<area shape="poly" title=" " alt="" coords="584,224,545,224,545,219,584,219"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#a395ec8a09ca71b0f58fc4534270faca7" title="Creates a new 32 bit WaveMixerStream." alt="" coords="309,136,539,177"/>
-<area shape="poly" title=" " alt="" coords="589,159,539,159,539,154,589,154"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a030e2baaaa4d3a16ebe5430fdc06332f" title="Initializes the MediaFoundationReader with the specified settings." alt="" coords="322,267,526,307"/>
-<area shape="poly" title=" " alt="" coords="602,290,527,290,527,284,602,284"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#afaf4f9f9600398af89c9f57a52d78653" title="Reads a sequence of bytes from the current stream and advances the position within the stream by the ..." alt="" coords="322,332,526,373"/>
-<area shape="poly" title=" " alt="" coords="610,314,520,334,519,329,609,309"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a478c60af06406213cd899a93ec6c51ab" title="Creates a new MediaFoundationReader based on the supplied file." alt="" coords="26,235,234,275"/>
-<area shape="poly" title=" " alt="" coords="306,277,234,269,234,264,306,272"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html#ad4b042f9d2fb5e83ae115deac0a104ac" title="Constructs a new media foundation reader from a stream." alt="" coords="5,300,255,341"/>
-<area shape="poly" title=" " alt="" coords="306,303,255,309,255,304,306,298"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_asio_out.html#a9cb17c8419ec5fabc3bfe982974dbf59" title="Initializes the recording and playback with the specified waveProvider ." alt="" coords="337,397,511,423"/>
-<area shape="poly" title=" " alt="" coords="618,375,495,399,494,394,617,369"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_provider32.html#a313167800d96d0e6f854e7c7b6f63e56" title="Initializes a new instance of the WaveProvider32 class with the specified sample rate and number of c..." alt="" coords="322,861,526,902"/>
-<area shape="poly" title=" " alt="" coords="602,884,527,884,527,879,602,879"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_extension_methods.html#a509ebdd972bca76e50c0268ef847f0b3" title="Converts the input WaveFormat to standard WaveFormat and returns the result." alt="" coords="315,1411,533,1451"/>
-<area shape="poly" title=" " alt="" coords="582,1434,533,1434,533,1428,582,1428"/>
-<area shape="poly" title=" " alt="" coords="880,224,842,224,842,219,880,219"/>
-<area shape="poly" title=" " alt="" coords="932,207,812,180,813,175,933,202"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a9efee93326fe1770b4e474c7afa3dc72_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -475,12 +395,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a4a1c96126c184e9e62243616de0c0079_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a4a1c96126c184e9e62243616de0c0079_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a4a1c96126c184e9e62243616de0c0079_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a4a1c96126c184e9e62243616de0c0079_cgraph">
-<area shape="rect" title="Reads a new WaveFormat object from a stream." alt="" coords="5,5,222,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a84439802a6fe459160467245195969cb" title="Reads the wave format information from the provided BinaryReader." alt="" coords="270,5,484,46"/>
-<area shape="poly" title=" " alt="" coords="222,23,254,23,254,28,222,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a4a1c96126c184e9e62243616de0c0079_cgraph.svg" width="490" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -521,16 +436,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_af046f7ad8a6841a7f10cabf6bec945d7_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_af046f7ad8a6841a7f10cabf6bec945d7_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_af046f7ad8a6841a7f10cabf6bec945d7_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_af046f7ad8a6841a7f10cabf6bec945d7_icgraph">
-<area shape="rect" title="Converts the given latency in milliseconds to the corresponding byte size based on the average bytes ..." alt="" coords="508,23,737,64"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_out.html#a0c9137c7a5bc8394b9e3b01db0cfa1df" title="Initializes the audio output with the specified wave provider." alt="" coords="262,5,443,31"/>
-<area shape="poly" title=" " alt="" coords="492,34,443,29,444,24,493,29"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_out_event.html#a59f8399d92816fb1170ce3e8586c357e" title="Initializes the WaveOut device with the specified wave provider." alt="" coords="245,55,460,80"/>
-<area shape="poly" title=" " alt="" coords="493,58,461,61,460,55,492,52"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_audio_player.html#a50e278569d197c1ba2d6bae4df19f251" title=" " alt="" coords="5,47,197,88"/>
-<area shape="poly" title=" " alt="" coords="229,70,197,70,197,65,229,65"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_af046f7ad8a6841a7f10cabf6bec945d7_icgraph.svg" width="100%" height="370"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -574,14 +480,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a3cf806d66afc112657210397ed814dcd_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a3cf806d66afc112657210397ed814dcd_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a3cf806d66afc112657210397ed814dcd_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a3cf806d66afc112657210397ed814dcd_cgraph">
-<area shape="rect" title="Creates a new WaveFormat with A&#45;Law encoding." alt="" coords="5,5,228,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a7920e585a037dc2424eb31b985161996" title="Creates a custom WaveFormat with the specified parameters." alt="" coords="276,5,498,46"/>
-<area shape="poly" title=" " alt="" coords="228,23,260,23,260,28,228,28"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="546,5,762,46"/>
-<area shape="poly" title=" " alt="" coords="498,23,531,23,531,28,498,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a3cf806d66afc112657210397ed814dcd_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -649,24 +548,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_cgraph">
-<area shape="rect" title="Creates a custom WaveFormat with the specified parameters." alt="" coords="5,5,228,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="276,5,492,46"/>
-<area shape="poly" title=" " alt="" coords="228,23,260,23,260,28,228,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_cgraph.svg" width="498" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_icgraph">
-<area shape="rect" title="Creates a custom WaveFormat with the specified parameters." alt="" coords="276,39,498,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a3cf806d66afc112657210397ed814dcd" title="Creates a new WaveFormat with A&#45;Law encoding." alt="" coords="5,5,228,46"/>
-<area shape="poly" title=" " alt="" coords="260,46,228,42,228,37,260,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a435b552e0bedaa17ea2d92cafb461ad6" title="Creates a new WaveFormat with MuLaw encoding." alt="" coords="5,71,228,111"/>
-<area shape="poly" title=" " alt="" coords="260,77,228,80,228,75,260,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a7920e585a037dc2424eb31b985161996_icgraph.svg" width="504" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -710,76 +597,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_cgraph">
-<area shape="rect" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="5,5,228,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="276,5,492,46"/>
-<area shape="poly" title=" " alt="" coords="228,23,260,23,260,28,228,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_cgraph.svg" width="498" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_icgraph">
-<area shape="rect" title="Creates a new IEEE float wave format with the specified sample rate and number of channels." alt="" coords="895,644,1118,685"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#a36cddc41fc702b48e6730b6262e0e847" title="Adds an input audio stream to the mixer." alt="" coords="599,5,841,46"/>
-<area shape="poly" title=" " alt="" coords="998,629,979,502,946,331,925,245,901,167,875,104,860,79,845,61,830,49,833,44,849,57,865,76,879,101,906,165,930,244,952,330,984,501,1003,628"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#a80c4032e16125acba88f0a7b5c28d48e" title="Adds an input audio stream to the mixer." alt="" coords="605,71,835,111"/>
-<area shape="poly" title=" " alt="" coords="1003,629,999,530,991,465,978,394,959,322,931,250,894,184,845,126,829,114,832,110,849,122,898,181,936,248,964,320,984,393,997,464,1004,529,1009,629"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a0e5d50a4dbffa871b87b6d6cb61ef141" title="Creates a new WaveFormat for the output based on the input WaveFormat and the specified output sample..." alt="" coords="617,136,823,177"/>
-<area shape="poly" title=" " alt="" coords="1002,629,993,540,984,483,970,422,950,359,923,298,889,241,846,192,822,176,825,171,849,188,893,238,928,296,955,358,975,421,989,482,999,539,1007,628"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#aaa3e900d0b52b1ab72e069196676e99e" title="Retrieves the current wave format from the specified IMFSourceReader." alt="" coords="618,201,822,242"/>
-<area shape="poly" title=" " alt="" coords="999,629,987,551,961,451,941,398,916,346,884,299,846,257,821,241,824,237,849,253,888,295,920,344,946,396,966,449,993,550,1005,628"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_asio_out.html#a27922dfd8af065caf7a2a01d0c139d5f" title="Initializes the record and playback with the specified wave provider, record channels,..." alt="" coords="633,267,807,307"/>
-<area shape="poly" title=" " alt="" coords="997,630,981,564,952,480,932,437,908,395,879,356,846,322,827,310,807,301,809,297,830,306,849,318,883,353,913,392,937,435,957,478,986,562,1002,628"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#ae76bc34d9fa114e6ce893148420c2978" title="Creates a new MixingWaveProvider32." alt="" coords="599,332,841,373"/>
-<area shape="poly" title=" " alt="" coords="993,630,974,576,943,510,901,443,875,413,846,386,828,375,831,371,849,382,879,409,905,440,948,507,979,574,998,628"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_mono_to_stereo_sample_provider.html#ac794dd60fb835102d80d1a008388bb17" title="Initializes a new instance of MonoToStereoSampleProvider." alt="" coords="604,397,836,452"/>
-<area shape="poly" title=" " alt="" coords="985,632,961,593,929,549,891,504,846,467,826,455,829,450,849,462,894,501,934,545,966,590,989,629"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_multiplexing_sample_provider.html#a7d233143ba15b6d47c23bdfe46d32c8a" title="Creates a multiplexing sample provider, allowing re&#45;patching of input channels to different output ch..." alt="" coords="593,477,847,532"/>
-<area shape="poly" title=" " alt="" coords="970,636,914,590,846,547,821,535,823,530,849,542,917,586,974,632"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_multiplexing_wave_provider.html#a7a8715180a7e0261e1b225e764bd8de6" title="Creates a multiplexing wave provider, allowing re&#45;patching of input channels to different output chan..." alt="" coords="617,557,824,612"/>
-<area shape="poly" title=" " alt="" coords="916,642,822,615,823,610,917,637"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_panning_sample_provider.html#a7696addde12a6057bdc8d701656d6fd9" title="Initialises a new instance of the PanningSampleProvider." alt="" coords="593,637,847,692"/>
-<area shape="poly" title=" " alt="" coords="879,667,848,667,848,662,879,662"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_sample_provider_converter_base.html#a21c5afb46e5e0e51881081c8f26ad11a" title="Initialises a new instance of SampleProviderConverterBase." alt="" coords="596,717,844,772"/>
-<area shape="poly" title=" " alt="" coords="917,692,823,718,822,713,916,687"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_provider32.html#a5abc5f918b546814f10f6a4b926c27ab" title="Sets the wave format using the specified sample rate and number of channels." alt="" coords="618,796,822,837"/>
-<area shape="poly" title=" " alt="" coords="975,697,918,743,884,767,848,787,821,798,819,793,846,782,882,762,915,739,971,693"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_signal_generator.html#ad30c622356c8a56de9fef5cb972699a2" title="Initializes a new instance for the Generator (UserDef SampleRate &amp; Channels)" alt="" coords="615,861,825,902"/>
-<area shape="poly" title=" " alt="" coords="988,699,964,735,932,776,893,816,849,851,824,863,822,858,846,846,889,812,928,773,959,732,983,696"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_stereo_to_mono_sample_provider.html#a3da8483621e77ce2223507f853eac3a0" title="Creates a new mono ISampleProvider based on a stereo input." alt="" coords="601,926,839,982"/>
-<area shape="poly" title=" " alt="" coords="995,700,973,749,942,807,900,865,876,892,849,916,831,928,828,923,846,912,872,888,896,862,937,804,968,746,990,698"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_extensible.html#a5f1ab3ebeb48290713b76b1e055f81d5" title="Converts the current audio format to a standard WaveFormat." alt="" coords="598,1005,842,1046"/>
-<area shape="poly" title=" " alt="" coords="1001,700,985,764,955,844,935,886,911,926,882,963,849,996,832,1007,829,1003,846,992,878,960,907,923,931,883,951,842,979,763,996,699"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave16_to_float_provider.html#a53c78006a0441ac9a2c85ae6f3d49e01" title="Creates a new Wave16toFloatProvider." alt="" coords="615,1071,825,1111"/>
-<area shape="poly" title=" " alt="" coords="1004,700,991,775,964,872,944,923,919,973,887,1019,849,1060,827,1074,824,1070,846,1056,883,1016,914,970,939,921,959,871,986,774,999,699"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_channel32.html#a6cbcb644a4c757316eeab67d0c3dca02" title="Creates a new WaveChannel32." alt="" coords="618,1136,822,1177"/>
-<area shape="poly" title=" " alt="" coords="1006,700,997,786,988,841,973,901,953,961,926,1021,892,1076,849,1125,824,1142,821,1137,846,1121,888,1073,922,1018,948,959,968,899,982,840,992,785,1001,699"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#ab88e1fceb548dbe6dfccf67b6cb9ab77" title="Creates a new 32 bit WaveMixerStream." alt="" coords="605,1201,835,1242"/>
-<area shape="poly" title=" " alt="" coords="1008,700,1003,797,995,860,982,929,962,1000,934,1069,897,1134,849,1190,832,1203,829,1199,845,1186,892,1131,929,1067,957,998,976,928,990,860,998,797,1003,700"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_sample_providers_1_1_wdl_resampling_sample_provider.html#a8ac65db56545c4569f1651e9e54fb143" title="Constructs a new resampler." alt="" coords="605,1266,836,1322"/>
-<area shape="poly" title=" " alt="" coords="1003,701,983,824,949,990,928,1074,904,1150,878,1212,849,1255,835,1267,832,1263,845,1252,873,1210,899,1148,923,1072,944,989,978,823,997,700"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#a9f4a7b29e35effa58de222c2d85c3b34" title="Creates a new 32 bit MixingWaveProvider32." alt="" coords="303,5,545,46"/>
-<area shape="poly" title=" " alt="" coords="584,28,545,28,545,23,584,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#a395ec8a09ca71b0f58fc4534270faca7" title="Creates a new 32 bit WaveMixerStream." alt="" coords="309,71,539,111"/>
-<area shape="poly" title=" " alt="" coords="589,94,539,94,539,88,589,88"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a030e2baaaa4d3a16ebe5430fdc06332f" title="Initializes the MediaFoundationReader with the specified settings." alt="" coords="322,140,526,181"/>
-<area shape="poly" title=" " alt="" coords="603,200,525,184,526,179,604,195"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#afaf4f9f9600398af89c9f57a52d78653" title="Reads a sequence of bytes from the current stream and advances the position within the stream by the ..." alt="" coords="322,205,526,246"/>
-<area shape="poly" title=" " alt="" coords="602,226,527,227,527,222,602,221"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a478c60af06406213cd899a93ec6c51ab" title="Creates a new MediaFoundationReader based on the supplied file." alt="" coords="26,108,234,149"/>
-<area shape="poly" title=" " alt="" coords="306,150,234,142,234,137,306,145"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html#ad4b042f9d2fb5e83ae115deac0a104ac" title="Constructs a new media foundation reader from a stream." alt="" coords="5,173,255,214"/>
-<area shape="poly" title=" " alt="" coords="306,176,255,182,255,177,306,171"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_asio_out.html#a9cb17c8419ec5fabc3bfe982974dbf59" title="Initializes the recording and playback with the specified waveProvider ." alt="" coords="337,274,511,300"/>
-<area shape="poly" title=" " alt="" coords="618,290,511,290,511,284,618,284"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_provider32.html#a313167800d96d0e6f854e7c7b6f63e56" title="Initializes a new instance of the WaveProvider32 class with the specified sample rate and number of c..." alt="" coords="322,796,526,837"/>
-<area shape="poly" title=" " alt="" coords="602,819,527,819,527,814,602,814"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_extension_methods.html#a509ebdd972bca76e50c0268ef847f0b3" title="Converts the input WaveFormat to standard WaveFormat and returns the result." alt="" coords="315,1005,533,1046"/>
-<area shape="poly" title=" " alt="" coords="582,1028,533,1028,533,1023,582,1023"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a2dd0e9ea4097e54981725d6ad7c3290d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -823,14 +646,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a435b552e0bedaa17ea2d92cafb461ad6_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a435b552e0bedaa17ea2d92cafb461ad6_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a435b552e0bedaa17ea2d92cafb461ad6_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a435b552e0bedaa17ea2d92cafb461ad6_cgraph">
-<area shape="rect" title="Creates a new WaveFormat with MuLaw encoding." alt="" coords="5,5,228,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a7920e585a037dc2424eb31b985161996" title="Creates a custom WaveFormat with the specified parameters." alt="" coords="276,5,498,46"/>
-<area shape="poly" title=" " alt="" coords="228,23,260,23,260,28,228,28"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="546,5,762,46"/>
-<area shape="poly" title=" " alt="" coords="498,23,531,23,531,28,498,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a435b552e0bedaa17ea2d92cafb461ad6_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -869,28 +685,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_cgraph">
-<area shape="rect" title="Determines whether the current WaveFormat object is equal to another object." alt="" coords="5,13,229,39"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a9efee93326fe1770b4e474c7afa3dc72" title="Creates a new PCM 44.1Khz stereo 16 bit format." alt="" coords="277,5,493,46"/>
-<area shape="poly" title=" " alt="" coords="229,23,261,23,261,28,229,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_cgraph.svg" width="499" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_icgraph">
-<area shape="rect" title="Determines whether the current WaveFormat object is equal to another object." alt="" coords="586,46,809,72"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#a36cddc41fc702b48e6730b6262e0e847" title="Adds an input audio stream to the mixer." alt="" coords="296,5,538,46"/>
-<area shape="poly" title=" " alt="" coords="570,47,538,43,539,37,571,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#a80c4032e16125acba88f0a7b5c28d48e" title="Adds an input audio stream to the mixer." alt="" coords="302,71,532,111"/>
-<area shape="poly" title=" " alt="" coords="571,76,533,80,532,75,570,71"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_mixing_wave_provider32.html#a9f4a7b29e35effa58de222c2d85c3b34" title="Creates a new 32 bit MixingWaveProvider32." alt="" coords="5,5,248,46"/>
-<area shape="poly" title=" " alt="" coords="280,28,248,28,248,23,280,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_mixer_stream32.html#a395ec8a09ca71b0f58fc4534270faca7" title="Creates a new 32 bit WaveMixerStream." alt="" coords="11,71,242,111"/>
-<area shape="poly" title=" " alt="" coords="286,94,242,94,242,88,286,88"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_ad0c3a21355da530c5f0d41289d53e236_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -935,12 +735,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a65702ab5f488edc3644710e38ffb889f_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a65702ab5f488edc3644710e38ffb889f_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a65702ab5f488edc3644710e38ffb889f_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a65702ab5f488edc3644710e38ffb889f_icgraph">
-<area shape="rect" title="Reads the wave format and extra data from the specified binary reader and returns the WaveFormatExtra..." alt="" coords="285,5,498,46"/>
-<area shape="rect" href="class_n_audio_1_1_file_formats_1_1_wav_1_1_wave_file_chunk_reader.html#aa0a4b8337e549d69198662c6247c1f74" title="Reads the wave header from the provided stream and initializes the necessary fields." alt="" coords="5,5,237,46"/>
-<area shape="poly" title=" " alt="" coords="269,28,237,28,237,23,269,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a65702ab5f488edc3644710e38ffb889f_icgraph.svg" width="504" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1008,22 +803,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a4ae1cf5fe788f4ef0bb18fe03ab6e114_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a4ae1cf5fe788f4ef0bb18fe03ab6e114_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a4ae1cf5fe788f4ef0bb18fe03ab6e114_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a4ae1cf5fe788f4ef0bb18fe03ab6e114_icgraph">
-<area shape="rect" title="Marshals a WaveFormat structure from the specified pointer." alt="" coords="626,104,855,145"/>
-<area shape="rect" href="struct_n_audio_1_1_dmo_1_1_dmo_media_type.html#a800e5ec448a2e74d68c813eb7f8b5b04" title="Gets the structure as a Wave format (if it is one)" alt="" coords="359,5,555,46"/>
-<area shape="poly" title=" " alt="" coords="677,100,577,62,538,49,539,44,579,56,679,95"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_custom_marshaler.html#a7c3bb0f4f8c20275a078b42548ddd2ab" title="Marshals a native pointer to a managed WaveFormat object." alt="" coords="341,71,573,111"/>
-<area shape="poly" title=" " alt="" coords="610,112,573,107,574,102,611,106"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#ab70565206d742ba2611fec56df210808" title="Displays a format selection dialog and returns the selected format and description." alt="" coords="336,136,578,177"/>
-<area shape="poly" title=" " alt="" coords="611,142,579,145,578,140,610,136"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a8560106a6c931d00eca5a850b6cb8fb7" title="Suggests a PCM format based on the given compressed format." alt="" coords="352,201,562,242"/>
-<area shape="poly" title=" " alt="" coords="677,154,579,191,539,203,537,198,577,186,675,149"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html#ad3e5eb993d92babbfe51b30952e086bf" title="Creates a new ACM frame decompressor." alt="" coords="5,168,288,209"/>
-<area shape="poly" title=" " alt="" coords="336,211,288,206,288,201,337,206"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a1d996e11940523e891d0fbe86731daca" title="Creates a PCM stream from the given source stream." alt="" coords="24,233,269,274"/>
-<area shape="poly" title=" " alt="" coords="337,237,270,244,269,238,336,231"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a4ae1cf5fe788f4ef0bb18fe03ab6e114_icgraph.svg" width="100%" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1063,22 +843,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a8ac2acc4d7ca485fca7c3077f25a6814_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a8ac2acc4d7ca485fca7c3077f25a6814_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a8ac2acc4d7ca485fca7c3077f25a6814_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a8ac2acc4d7ca485fca7c3077f25a6814_icgraph">
-<area shape="rect" title="Marshals the WaveFormat structure to a pointer." alt="" coords="616,104,845,145"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a809f3ad304af60f6b601c319ae6c4afc" title="Creates a new ACM stream to convert one format to another, using a specified driver identifier and wa..." alt="" coords="359,5,545,46"/>
-<area shape="poly" title=" " alt="" coords="666,100,567,62,529,49,530,44,569,56,668,95"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a63db5a6e10bee35b5796bf199cc5e203" title="Creates a new ACM stream to convert one format to another. Note that not all conversions can be done ..." alt="" coords="359,71,545,111"/>
-<area shape="poly" title=" " alt="" coords="600,111,545,105,546,99,601,106"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_custom_marshaler.html#a32e10256f22b4aed730563e14d6f657e" title="Marshals a managed object to its native representation." alt="" coords="336,136,568,177"/>
-<area shape="poly" title=" " alt="" coords="601,142,569,146,568,140,600,137"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_stream.html#a8560106a6c931d00eca5a850b6cb8fb7" title="Suggests a PCM format based on the given compressed format." alt="" coords="347,201,557,242"/>
-<area shape="poly" title=" " alt="" coords="667,154,569,191,530,203,528,198,567,186,665,149"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_acm_mp3_frame_decompressor.html#ad3e5eb993d92babbfe51b30952e086bf" title="Creates a new ACM frame decompressor." alt="" coords="5,168,288,209"/>
-<area shape="poly" title=" " alt="" coords="331,211,288,206,288,201,331,206"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format_conversion_stream.html#a1d996e11940523e891d0fbe86731daca" title="Creates a PCM stream from the given source stream." alt="" coords="24,233,269,274"/>
-<area shape="poly" title=" " alt="" coords="332,237,270,243,269,238,331,232"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a8ac2acc4d7ca485fca7c3077f25a6814_icgraph.svg" width="100%" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1128,12 +893,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a84439802a6fe459160467245195969cb_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a84439802a6fe459160467245195969cb_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a84439802a6fe459160467245195969cb_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a84439802a6fe459160467245195969cb_icgraph">
-<area shape="rect" title="Reads the wave format information from the provided BinaryReader." alt="" coords="270,5,484,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a4a1c96126c184e9e62243616de0c0079" title="Reads a new WaveFormat object from a stream." alt="" coords="5,5,222,46"/>
-<area shape="poly" title=" " alt="" coords="254,28,222,28,222,23,254,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a84439802a6fe459160467245195969cb_icgraph.svg" width="490" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1174,20 +934,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_format_a21fddf07498dcaee579f2a552ab8e4e8_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_format_a21fddf07498dcaee579f2a552ab8e4e8_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_format_a21fddf07498dcaee579f2a552ab8e4e8_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_format_a21fddf07498dcaee579f2a552ab8e4e8_icgraph">
-<area shape="rect" title="Serializes the wave format data and writes it to the specified BinaryWriter." alt="" coords="738,46,972,72"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_bwf_writer.html#aae4b97b92099cb65d217293aec8b96bb" title="Createa a new BwfWriter." alt="" coords="498,5,686,46"/>
-<area shape="poly" title=" " alt="" coords="733,46,686,40,687,35,734,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="494,71,690,111"/>
-<area shape="poly" title=" " alt="" coords="729,77,691,82,691,76,729,72"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a564655abe5b5fb0f90e4b10bf5f83270" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,37,446,78"/>
-<area shape="poly" title=" " alt="" coords="478,78,446,74,447,68,479,73"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aa314b7eff712e1e522f2b481dbbad6e7" title="Writes the audio data from the specified sourceProvider &#160;to the outStream &#160;in WAV format." alt="" coords="250,103,446,143"/>
-<area shape="poly" title=" " alt="" coords="479,109,447,113,446,107,478,103"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a2e82a51972b97bf9ca404259146c48b2" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,37,202,78"/>
-<area shape="poly" title=" " alt="" coords="234,60,202,60,202,55,234,55"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_format_a21fddf07498dcaee579f2a552ab8e4e8_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1564,11 +1311,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_wave_format.html">WaveFormat</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

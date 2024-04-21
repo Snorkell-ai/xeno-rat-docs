@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.Compression.AcmDriver Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -115,43 +139,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.Compression.AcmDriver:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_compression_8_acm_driver_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_compression_8_acm_driver_inherit__map" id="a_n_audio_8_wave_8_compression_8_acm_driver_inherit__map">
-<area shape="rect" title="Represents an installed ACM Driver." alt="" coords="5,119,211,699"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="67,5,149,71"/>
-<area shape="poly" title=" " alt="" coords="111,85,111,119,105,119,105,85"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.Compression.AcmDriver:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_compression_8_acm_driver_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_compression_8_acm_driver_coll__map" id="a_n_audio_8_wave_8_compression_8_acm_driver_coll__map">
-<area shape="rect" title="Represents an installed ACM Driver." alt="" coords="561,382,766,822"/>
-<area shape="rect" href="class_i_disposable.html" title=" " alt="" coords="275,246,356,311"/>
-<area shape="poly" title=" " alt="" coords="362,319,563,504,559,508,358,323"/>
-<area shape="rect" title=" " alt="" coords="381,246,426,311"/>
-<area shape="poly" title=" " alt="" coords="428,306,552,459,548,462,424,310"/>
-<area shape="rect" href="struct_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_details.html" title="Interop structure for ACM driver details (ACMDRIVERDETAILS) http://msdn.microsoft...." alt="" coords="451,239,628,319"/>
-<area shape="poly" title=" " alt="" coords="557,318,575,365,570,367,552,320"/>
-<area shape="rect" title=" " alt="" coords="405,5,431,71"/>
-<area shape="poly" title=" " alt="" coords="413,71,409,103,408,140,414,178,428,213,440,228,436,231,424,216,409,180,403,140,404,102,408,70"/>
-<area shape="rect" title=" " alt="" coords="5,5,57,71"/>
-<area shape="poly" title=" " alt="" coords="25,71,19,105,18,143,26,181,34,198,45,213,66,221,105,227,217,232,341,234,434,237,434,242,341,239,217,237,104,232,64,226,42,217,29,201,20,183,13,144,14,104,20,70"/>
-<area shape="rect" title=" " alt="" coords="111,5,163,71"/>
-<area shape="poly" title=" " alt="" coords="136,70,135,105,140,143,152,181,162,198,175,213,194,223,221,230,290,234,367,233,434,236,434,242,366,239,290,239,220,235,192,228,172,217,158,201,147,184,135,145,130,105,131,70"/>
-<area shape="rect" title=" " alt="" coords="187,5,380,71"/>
-<area shape="poly" title=" " alt="" coords="282,71,280,104,284,143,294,180,316,213,341,230,367,234,397,233,435,236,434,241,397,238,366,239,339,235,312,217,290,183,278,144,275,104,276,71"/>
-<area shape="rect" title=" " alt="" coords="650,5,695,71"/>
-<area shape="poly" title=" " alt="" coords="684,70,689,94,692,155,689,215,682,364,677,364,683,215,686,155,683,95,679,71"/>
-<area shape="poly" title=" " alt="" coords="657,71,646,96,637,129,634,157,629,184,615,216,607,228,602,225,610,213,624,183,629,156,631,128,640,94,652,69"/>
-<area shape="rect" title=" " alt="" coords="517,5,562,71"/>
-<area shape="poly" title=" " alt="" coords="542,70,542,222,537,222,537,70"/>
-<area shape="rect" title=" " alt="" coords="817,239,1027,319"/>
-<area shape="poly" title=" " alt="" coords="893,320,779,462,774,459,889,317"/>
-<area shape="rect" title=" " alt="" coords="1051,239,1262,319"/>
-<area shape="poly" title=" " alt="" coords="1099,321,781,527,778,522,1096,316"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -285,34 +278,12 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_cgraph">
-<area shape="rect" title="Creates a new ACM Driver object." alt="" coords="5,35,192,75"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a274a894b0cc0ec82be0cfd6b620d41a6" title="Retrieves details about an Audio Compression Manager (ACM) driver." alt="" coords="240,5,433,46"/>
-<area shape="poly" title=" " alt="" coords="192,41,224,37,224,42,192,46"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="251,70,422,96"/>
-<area shape="poly" title=" " alt="" coords="192,63,236,69,235,74,192,69"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="481,70,713,96"/>
-<area shape="poly" title=" " alt="" coords="423,80,465,80,465,86,423,86"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_icgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_icgraph">
-<area shape="rect" title="Creates a new ACM Driver object." alt="" coords="767,39,954,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a03a504f0493dca9c60cb90438edacdd4" title="Adds a local driver from the specified file and returns the driver information." alt="" coords="523,5,709,46"/>
-<area shape="poly" title=" " alt="" coords="751,47,709,41,710,36,752,42"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a6c0962b932d6f66efd1c05f869cf4007" title="Callback function for enumerating ACM drivers." alt="" coords="513,71,719,111"/>
-<area shape="poly" title=" " alt="" coords="752,76,720,80,720,75,752,71"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#ade7c4fbd4962b8b84487d6d24d55364b" title="Enumerates the available audio compression managers (ACM) drivers and returns a collection of AcmDriv..." alt="" coords="247,71,465,111"/>
-<area shape="poly" title=" " alt="" coords="498,94,466,94,466,88,498,88"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a7dd757372be5fbfc5da0112ad982245d" title="Finds an AcmDriver by its short name." alt="" coords="5,37,199,78"/>
-<area shape="poly" title=" " alt="" coords="231,77,199,73,199,68,231,72"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#afc543c9e0bee05c2c046a37bb4554c25" title="Checks if a codec with the specified short name is installed." alt="" coords="9,103,195,143"/>
-<area shape="poly" title=" " alt="" coords="231,109,196,114,195,109,231,104"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_aa4d323709deb552385d8c28c195ceb01_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -370,12 +341,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a61ba2be386c7a1562d074afbc2433a10_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a61ba2be386c7a1562d074afbc2433a10_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a61ba2be386c7a1562d074afbc2433a10_icgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a61ba2be386c7a1562d074afbc2433a10_icgraph">
-<area shape="rect" title="Callback function for enumerating ACM format details." alt="" coords="240,5,479,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#ac1b15e2e71ad94b9d952bedabdb3e7d9" title="Retrieves a collection of audio formats associated with the specified format tag." alt="" coords="5,5,192,46"/>
-<area shape="poly" title=" " alt="" coords="224,28,192,28,192,23,224,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a61ba2be386c7a1562d074afbc2433a10_icgraph.svg" width="484" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -474,26 +440,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a03a504f0493dca9c60cb90438edacdd4_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a03a504f0493dca9c60cb90438edacdd4_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a03a504f0493dca9c60cb90438edacdd4_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a03a504f0493dca9c60cb90438edacdd4_cgraph">
-<area shape="rect" title="Adds a local driver from the specified file and returns the driver information." alt="" coords="5,164,192,205"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#aa4d323709deb552385d8c28c195ceb01" title="Creates a new ACM Driver object." alt="" coords="242,33,429,74"/>
-<area shape="poly" title=" " alt="" coords="124,161,175,123,238,85,253,78,255,83,241,89,178,128,127,166"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#aa417c08a27708d4605ca9e19e14d9aaf" title="Adds an Audio Compression Manager (ACM) driver to the system." alt="" coords="242,99,429,139"/>
-<area shape="poly" title=" " alt="" coords="174,161,244,141,245,147,175,166"/>
-<area shape="rect" href="class_n_audio_1_1_utils_1_1_native_methods.html#a98a19f8ccb844116b750bf78392483da" title="Frees the loaded dynamic&#45;link library (DLL) module and returns a value indicating success." alt="" coords="240,164,431,205"/>
-<area shape="poly" title=" " alt="" coords="192,182,224,182,224,187,192,187"/>
-<area shape="rect" href="class_n_audio_1_1_utils_1_1_native_methods.html#af80ca568c0e08168b3eb1e0d52f76657" title="Retrieves the address of an exported function or variable from the specified dynamic&#45;link library (DL..." alt="" coords="240,229,431,270"/>
-<area shape="poly" title=" " alt="" coords="175,203,245,222,244,227,174,208"/>
-<area shape="rect" href="class_n_audio_1_1_utils_1_1_native_methods.html#a3ec01e1819d787535271dacd58844c44" title="Loads the specified dynamic&#45;link library (DLL) into the address space of the calling process." alt="" coords="240,295,431,335"/>
-<area shape="poly" title=" " alt="" coords="127,203,178,241,241,279,255,286,253,291,238,284,175,245,124,207"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a274a894b0cc0ec82be0cfd6b620d41a6" title="Retrieves details about an Audio Compression Manager (ACM) driver." alt="" coords="479,5,672,46"/>
-<area shape="poly" title=" " alt="" coords="429,40,463,36,464,41,429,45"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="490,70,661,96"/>
-<area shape="poly" title=" " alt="" coords="429,62,475,68,474,73,429,68"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="720,70,953,96"/>
-<area shape="poly" title=" " alt="" coords="662,80,705,80,705,86,662,86"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a03a504f0493dca9c60cb90438edacdd4_cgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -532,26 +479,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_cgraph">
-<area shape="rect" title="Closes the driver handle if it is not already closed." alt="" coords="5,35,192,75"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#af38e9ed6bdaad569c4fa21ac1efea365" title="Closes an Audio Compression Manager (ACM) driver." alt="" coords="240,5,426,46"/>
-<area shape="poly" title=" " alt="" coords="192,41,224,37,224,42,192,46"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="247,70,419,96"/>
-<area shape="poly" title=" " alt="" coords="192,63,232,68,231,74,192,69"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="474,70,706,96"/>
-<area shape="poly" title=" " alt="" coords="419,80,458,80,458,86,419,86"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_icgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_icgraph">
-<area shape="rect" title="Closes the driver handle if it is not already closed." alt="" coords="240,5,426,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a8eb24fe7ab039d715967d9c4af59a185" title="Disposes of the resources used by the current instance." alt="" coords="5,5,192,46"/>
-<area shape="poly" title=" " alt="" coords="224,28,192,28,192,23,224,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a9f8f58eea92ab7b97d5a988753126fd7_icgraph.svg" width="432" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -584,18 +517,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a8eb24fe7ab039d715967d9c4af59a185_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a8eb24fe7ab039d715967d9c4af59a185_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a8eb24fe7ab039d715967d9c4af59a185_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a8eb24fe7ab039d715967d9c4af59a185_cgraph">
-<area shape="rect" title="Disposes of the resources used by the current instance." alt="" coords="5,35,192,75"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a9f8f58eea92ab7b97d5a988753126fd7" title="Closes the driver handle if it is not already closed." alt="" coords="240,35,426,75"/>
-<area shape="poly" title=" " alt="" coords="192,52,224,52,224,58,192,58"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#af38e9ed6bdaad569c4fa21ac1efea365" title="Closes an Audio Compression Manager (ACM) driver." alt="" coords="474,5,660,46"/>
-<area shape="poly" title=" " alt="" coords="426,41,458,37,459,42,427,46"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="482,70,653,96"/>
-<area shape="poly" title=" " alt="" coords="427,63,466,68,466,74,426,69"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="708,70,941,96"/>
-<area shape="poly" title=" " alt="" coords="653,80,693,80,693,86,653,86"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a8eb24fe7ab039d715967d9c4af59a185_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -646,32 +568,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_cgraph">
-<area shape="rect" title="Callback function for enumerating ACM drivers." alt="" coords="5,35,212,75"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#aa4d323709deb552385d8c28c195ceb01" title="Creates a new ACM Driver object." alt="" coords="260,35,446,75"/>
-<area shape="poly" title=" " alt="" coords="212,52,244,52,244,58,212,58"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a274a894b0cc0ec82be0cfd6b620d41a6" title="Retrieves details about an Audio Compression Manager (ACM) driver." alt="" coords="494,5,687,46"/>
-<area shape="poly" title=" " alt="" coords="446,41,478,37,479,42,447,46"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="505,70,676,96"/>
-<area shape="poly" title=" " alt="" coords="447,63,490,69,489,74,446,69"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="735,70,968,96"/>
-<area shape="poly" title=" " alt="" coords="677,80,720,80,720,86,677,86"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_icgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_icgraph">
-<area shape="rect" title="Callback function for enumerating ACM drivers." alt="" coords="513,39,719,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#ade7c4fbd4962b8b84487d6d24d55364b" title="Enumerates the available audio compression managers (ACM) drivers and returns a collection of AcmDriv..." alt="" coords="247,39,465,79"/>
-<area shape="poly" title=" " alt="" coords="498,62,466,62,466,56,498,56"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a7dd757372be5fbfc5da0112ad982245d" title="Finds an AcmDriver by its short name." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,45,199,41,199,36,231,40"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#afc543c9e0bee05c2c046a37bb4554c25" title="Checks if a codec with the specified short name is installed." alt="" coords="9,71,195,111"/>
-<area shape="poly" title=" " alt="" coords="231,77,196,82,195,77,231,72"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a6c0962b932d6f66efd1c05f869cf4007_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -711,37 +613,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_cgraph">
-<area shape="rect" title="Enumerates the available audio compression managers (ACM) drivers and returns a collection of AcmDriv..." alt="" coords="5,104,224,145"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#ac0682264049e1871a10a37af878e201d" title="Enumerates the Audio Compression Manager (ACM) drivers installed on the system." alt="" coords="298,5,485,46"/>
-<area shape="poly" title=" " alt="" coords="161,101,271,56,296,48,297,53,273,62,163,106"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#af20823e6eac937878b5d82528310fd77" title=" " alt="" coords="272,71,511,111"/>
-<area shape="poly" title=" " alt="" coords="224,109,256,105,256,110,225,114"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a6c0962b932d6f66efd1c05f869cf4007" title="Callback function for enumerating ACM drivers." alt="" coords="288,136,495,177"/>
-<area shape="poly" title=" " alt="" coords="225,134,273,140,272,145,224,140"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="804,201,976,227"/>
-<area shape="poly" title=" " alt="" coords="157,143,211,167,272,186,411,208,551,218,681,220,789,217,789,223,681,226,551,224,410,213,271,191,209,172,155,148"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#aa4d323709deb552385d8c28c195ceb01" title="Creates a new ACM Driver object." alt="" coords="559,136,745,177"/>
-<area shape="poly" title=" " alt="" coords="495,154,543,154,543,159,495,159"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a274a894b0cc0ec82be0cfd6b620d41a6" title="Retrieves details about an Audio Compression Manager (ACM) driver." alt="" coords="793,136,987,177"/>
-<area shape="poly" title=" " alt="" coords="746,154,778,154,778,159,746,159"/>
-<area shape="poly" title=" " alt="" coords="740,175,819,194,818,199,738,180"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="1035,201,1267,227"/>
-<area shape="poly" title=" " alt="" coords="976,211,1019,211,1019,216,976,216"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_cgraph.svg" width="100%" height="474"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_icgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_icgraph">
-<area shape="rect" title="Enumerates the available audio compression managers (ACM) drivers and returns a collection of AcmDriv..." alt="" coords="247,39,465,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a7dd757372be5fbfc5da0112ad982245d" title="Finds an AcmDriver by its short name." alt="" coords="5,5,199,46"/>
-<area shape="poly" title=" " alt="" coords="231,45,199,41,199,36,231,40"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#afc543c9e0bee05c2c046a37bb4554c25" title="Checks if a codec with the specified short name is installed." alt="" coords="9,71,195,111"/>
-<area shape="poly" title=" " alt="" coords="231,77,196,82,195,77,231,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ade7c4fbd4962b8b84487d6d24d55364b_icgraph.svg" width="471" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -780,27 +657,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a7dd757372be5fbfc5da0112ad982245d_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a7dd757372be5fbfc5da0112ad982245d_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a7dd757372be5fbfc5da0112ad982245d_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a7dd757372be5fbfc5da0112ad982245d_cgraph">
-<area shape="rect" title="Finds an AcmDriver by its short name." alt="" coords="5,104,199,145"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#ade7c4fbd4962b8b84487d6d24d55364b" title="Enumerates the available audio compression managers (ACM) drivers and returns a collection of AcmDriv..." alt="" coords="247,104,465,145"/>
-<area shape="poly" title=" " alt="" coords="199,122,231,122,231,127,199,127"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#ac0682264049e1871a10a37af878e201d" title="Enumerates the Audio Compression Manager (ACM) drivers installed on the system." alt="" coords="540,5,726,46"/>
-<area shape="poly" title=" " alt="" coords="402,101,512,56,537,48,539,53,514,62,404,106"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#af20823e6eac937878b5d82528310fd77" title=" " alt="" coords="513,71,752,111"/>
-<area shape="poly" title=" " alt="" coords="465,109,497,105,498,110,466,114"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a6c0962b932d6f66efd1c05f869cf4007" title="Callback function for enumerating ACM drivers." alt="" coords="530,136,736,177"/>
-<area shape="poly" title=" " alt="" coords="466,134,514,140,514,145,465,140"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="1046,201,1217,227"/>
-<area shape="poly" title=" " alt="" coords="398,143,452,167,514,186,652,208,793,218,923,220,1030,217,1030,223,923,226,792,224,652,213,512,191,450,172,396,148"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#aa4d323709deb552385d8c28c195ceb01" title="Creates a new ACM Driver object." alt="" coords="800,136,987,177"/>
-<area shape="poly" title=" " alt="" coords="736,154,785,154,785,159,736,159"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a274a894b0cc0ec82be0cfd6b620d41a6" title="Retrieves details about an Audio Compression Manager (ACM) driver." alt="" coords="1035,136,1228,177"/>
-<area shape="poly" title=" " alt="" coords="987,154,1019,154,1019,159,987,159"/>
-<area shape="poly" title=" " alt="" coords="981,175,1061,194,1060,199,980,180"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="1276,201,1508,227"/>
-<area shape="poly" title=" " alt="" coords="1218,211,1260,211,1260,216,1218,216"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a7dd757372be5fbfc5da0112ad982245d_cgraph.svg" width="100%" height="474"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -846,18 +703,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ac1b15e2e71ad94b9d952bedabdb3e7d9_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ac1b15e2e71ad94b9d952bedabdb3e7d9_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ac1b15e2e71ad94b9d952bedabdb3e7d9_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ac1b15e2e71ad94b9d952bedabdb3e7d9_cgraph">
-<area shape="rect" title="Retrieves a collection of audio formats associated with the specified format tag." alt="" coords="5,71,192,111"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a6aed096a03f4aaf93b243eac152eac05" title="Enumerates the available formats for an ACM driver." alt="" coords="263,5,456,46"/>
-<area shape="poly" title=" " alt="" coords="182,67,260,48,261,53,183,73"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a61ba2be386c7a1562d074afbc2433a10" title="Callback function for enumerating ACM format details." alt="" coords="240,71,479,111"/>
-<area shape="poly" title=" " alt="" coords="192,88,224,88,224,94,192,94"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="274,136,445,161"/>
-<area shape="poly" title=" " alt="" coords="191,109,240,120,280,129,279,134,239,126,190,115"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="527,136,759,161"/>
-<area shape="poly" title=" " alt="" coords="445,146,512,146,512,151,445,151"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ac1b15e2e71ad94b9d952bedabdb3e7d9_cgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -896,27 +742,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc543c9e0bee05c2c046a37bb4554c25_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc543c9e0bee05c2c046a37bb4554c25_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc543c9e0bee05c2c046a37bb4554c25_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc543c9e0bee05c2c046a37bb4554c25_cgraph">
-<area shape="rect" title="Checks if a codec with the specified short name is installed." alt="" coords="5,104,192,145"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#ade7c4fbd4962b8b84487d6d24d55364b" title="Enumerates the available audio compression managers (ACM) drivers and returns a collection of AcmDriv..." alt="" coords="240,104,458,145"/>
-<area shape="poly" title=" " alt="" coords="192,122,224,122,224,127,192,127"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#ac0682264049e1871a10a37af878e201d" title="Enumerates the Audio Compression Manager (ACM) drivers installed on the system." alt="" coords="533,5,719,46"/>
-<area shape="poly" title=" " alt="" coords="395,101,505,56,530,48,532,53,507,62,397,106"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#af20823e6eac937878b5d82528310fd77" title=" " alt="" coords="506,71,745,111"/>
-<area shape="poly" title=" " alt="" coords="458,109,490,105,491,110,459,114"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#a6c0962b932d6f66efd1c05f869cf4007" title="Callback function for enumerating ACM drivers." alt="" coords="523,136,729,177"/>
-<area shape="poly" title=" " alt="" coords="459,134,507,140,507,145,458,140"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="1039,201,1210,227"/>
-<area shape="poly" title=" " alt="" coords="391,143,445,167,507,186,645,208,786,218,916,220,1023,217,1023,223,916,226,785,224,645,213,505,191,443,172,389,148"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html#aa4d323709deb552385d8c28c195ceb01" title="Creates a new ACM Driver object." alt="" coords="793,136,980,177"/>
-<area shape="poly" title=" " alt="" coords="729,154,778,154,778,159,729,159"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a274a894b0cc0ec82be0cfd6b620d41a6" title="Retrieves details about an Audio Compression Manager (ACM) driver." alt="" coords="1028,136,1221,177"/>
-<area shape="poly" title=" " alt="" coords="980,154,1012,154,1012,159,980,159"/>
-<area shape="poly" title=" " alt="" coords="974,175,1054,194,1053,199,973,180"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="1269,201,1501,227"/>
-<area shape="poly" title=" " alt="" coords="1211,211,1253,211,1253,216,1211,216"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc543c9e0bee05c2c046a37bb4554c25_cgraph.svg" width="100%" height="474"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -955,16 +781,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc5564cfc6b143fa3ce5a86977ea8abf_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc5564cfc6b143fa3ce5a86977ea8abf_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc5564cfc6b143fa3ce5a86977ea8abf_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc5564cfc6b143fa3ce5a86977ea8abf_cgraph">
-<area shape="rect" title="Opens the audio driver if it is not already open." alt="" coords="5,35,192,75"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a4ea465b0a03c8ff6716654e3f86cd1d5" title="Opens an Audio Compression Manager (ACM) driver and returns a handle to the driver." alt="" coords="240,5,426,46"/>
-<area shape="poly" title=" " alt="" coords="192,41,224,37,224,42,192,46"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="247,70,419,96"/>
-<area shape="poly" title=" " alt="" coords="192,63,232,68,231,74,192,69"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="474,70,706,96"/>
-<area shape="poly" title=" " alt="" coords="419,80,458,80,458,86,419,86"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_afc5564cfc6b143fa3ce5a86977ea8abf_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1009,18 +826,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a21ee8c741d4208c73f318959faa80040_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a21ee8c741d4208c73f318959faa80040_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a21ee8c741d4208c73f318959faa80040_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a21ee8c741d4208c73f318959faa80040_cgraph">
-<area shape="rect" title="Removes the local driver and frees the associated resources." alt="" coords="5,71,207,111"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a9fb1473acd47f60cc44da5c626b7f230" title="Removes an Audio Compression Manager (ACM) driver." alt="" coords="255,5,456,46"/>
-<area shape="poly" title=" " alt="" coords="186,67,260,48,261,53,187,73"/>
-<area shape="rect" href="class_n_audio_1_1_utils_1_1_native_methods.html#a98a19f8ccb844116b750bf78392483da" title="Frees the loaded dynamic&#45;link library (DLL) module and returns a value indicating success." alt="" coords="260,71,451,111"/>
-<area shape="poly" title=" " alt="" coords="207,88,244,88,244,94,207,94"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a1ca263e295226b2dff8fda80043242d2" title="Throws an exception if the specified result is not equal to MmResult.NoError." alt="" coords="270,136,441,161"/>
-<area shape="poly" title=" " alt="" coords="198,109,282,129,281,134,197,115"/>
-<area shape="rect" href="class_n_audio_1_1_mm_exception.html#a674e0bb89c4e2aeb1f4ea96514710947" title="Creates a new MmException." alt="" coords="504,136,736,161"/>
-<area shape="poly" title=" " alt="" coords="441,146,488,146,488,151,441,151"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_a21ee8c741d4208c73f318959faa80040_cgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1095,14 +901,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ab70565206d742ba2611fec56df210808_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ab70565206d742ba2611fec56df210808_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ab70565206d742ba2611fec56df210808_cgraph" id="aclass_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ab70565206d742ba2611fec56df210808_cgraph">
-<area shape="rect" title="Displays a format selection dialog and returns the selected format and description." alt="" coords="5,39,248,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_interop.html#a56d5114e7c8f0390c899b13273b1b15e" title="Displays the ACM Format Chooser common dialog box to enable a user to select a waveform&#45;audio format." alt="" coords="309,5,512,46"/>
-<area shape="poly" title=" " alt="" coords="248,42,293,37,293,42,249,47"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a4ae1cf5fe788f4ef0bb18fe03ab6e114" title="Marshals a WaveFormat structure from the specified pointer." alt="" coords="296,71,525,111"/>
-<area shape="poly" title=" " alt="" coords="249,70,280,74,280,79,248,75"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver_ab70565206d742ba2611fec56df210808_cgraph.svg" width="531" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1416,11 +1215,12 @@ Here is the call graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave_1_1_compression.html">Compression</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_compression_1_1_acm_driver.html">AcmDriver</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

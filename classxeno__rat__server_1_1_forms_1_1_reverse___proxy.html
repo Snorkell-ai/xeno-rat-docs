@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: xeno_rat_server.Forms.Reverse_Proxy Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -111,54 +135,12 @@ $(function(){initNavTree('classxeno__rat__server_1_1_forms_1_1_reverse___proxy.h
 <div class="dynheader">
 Inheritance diagram for xeno_rat_server.Forms.Reverse_Proxy:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy__inherit__graph.png" border="0" usemap="#axeno__rat__server_8_forms_8_reverse___proxy_inherit__map" alt="Inheritance graph"/></div>
-<map name="axeno__rat__server_8_forms_8_reverse___proxy_inherit__map" id="axeno__rat__server_8_forms_8_reverse___proxy_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,119,204,719"/>
-<area shape="rect" href="class_form.html" title=" " alt="" coords="83,5,126,71"/>
-<area shape="poly" title=" " alt="" coords="107,85,107,119,102,119,102,85"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for xeno_rat_server.Forms.Reverse_Proxy:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy__coll__graph.png" border="0" usemap="#axeno__rat__server_8_forms_8_reverse___proxy_coll__map" alt="Collaboration graph"/></div>
-<map name="axeno__rat__server_8_forms_8_reverse___proxy_coll__map" id="axeno__rat__server_8_forms_8_reverse___proxy_coll__map">
-<area shape="rect" title=" " alt="" coords="1281,1040,1479,1420"/>
-<area shape="rect" href="class_form.html" title=" " alt="" coords="5,652,48,717"/>
-<area shape="poly" title=" " alt="" coords="19,732,12,796,12,872,18,911,29,949,45,984,69,1014,106,1045,157,1073,218,1098,289,1119,452,1156,633,1183,820,1202,998,1214,1281,1225,1281,1230,998,1219,819,1207,632,1188,451,1161,287,1125,216,1103,154,1078,103,1050,65,1018,41,986,24,951,13,912,7,872,6,796,14,732"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html" title=" " alt="" coords="739,482,935,887"/>
-<area shape="poly" title=" " alt="" coords="937,782,1271,1116,1267,1120,933,786"/>
-<area shape="poly" title=" " alt="" coords="937,643,955,658,962,685,959,703,951,716,947,713,954,701,957,685,950,661,933,647"/>
-<area shape="rect" title=" " alt="" coords="266,244,371,309"/>
-<area shape="poly" title=" " alt="" coords="331,308,353,361,386,417,421,458,460,495,503,528,548,558,640,607,724,643,722,648,638,612,546,562,500,532,457,499,417,462,382,421,348,364,326,310"/>
-<area shape="rect" title=" " alt="" coords="425,5,463,71"/>
-<area shape="poly" title=" " alt="" coords="426,42,374,45,305,58,269,70,235,86,204,108,178,135,155,173,138,208,128,242,125,276,128,309,139,344,155,380,179,417,203,450,231,479,293,531,364,573,439,606,515,631,590,650,723,673,722,678,589,656,514,637,437,611,361,577,290,535,227,483,199,453,174,421,151,382,134,346,123,310,120,276,123,241,133,206,150,170,174,132,200,104,232,81,267,65,304,53,373,40,425,37"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html" title=" " alt="" coords="737,134,937,419"/>
-<area shape="poly" title=" " alt="" coords="463,45,536,74,631,107,677,115,699,120,724,131,722,136,697,125,676,121,630,112,534,79,461,50"/>
-<area shape="rect" title=" " alt="" coords="556,236,713,316"/>
-<area shape="poly" title=" " alt="" coords="656,315,734,471,729,473,652,317"/>
-<area shape="rect" title=" " alt="" coords="396,236,532,316"/>
-<area shape="poly" title=" " alt="" coords="484,315,512,365,546,417,588,467,634,515,728,598,725,602,631,519,584,471,542,421,507,368,480,317"/>
-<area shape="rect" title=" " alt="" coords="1275,244,1461,309"/>
-<area shape="poly" title=" " alt="" coords="1371,309,1380,1023,1375,1023,1366,309"/>
-<area shape="poly" title=" " alt="" coords="1352,310,1314,365,1265,421,1188,484,1107,541,1026,590,952,630,949,626,1023,585,1104,536,1185,480,1261,417,1310,361,1347,307"/>
-<area shape="rect" title=" " alt="" coords="1117,236,1251,316"/>
-<area shape="poly" title=" " alt="" coords="1166,317,1137,368,1101,421,1026,507,949,585,945,582,1022,504,1097,417,1133,365,1162,315"/>
-<area shape="poly" title=" " alt="" coords="840,419,840,465,835,465,835,419"/>
-<area shape="rect" title=" " alt="" coords="132,5,185,71"/>
-<area shape="poly" title=" " alt="" coords="144,72,130,102,120,134,97,226,81,301,79,336,84,373,95,412,115,457,164,540,222,617,287,690,358,756,434,818,514,875,596,927,680,974,848,1054,1007,1118,1150,1166,1265,1199,1264,1204,1148,1171,1005,1123,846,1059,678,978,594,931,511,879,431,822,355,760,283,693,218,621,160,543,110,459,90,414,78,374,74,336,76,300,92,225,115,133,125,100,139,69"/>
-<area shape="poly" title=" " alt="" coords="186,42,338,71,544,107,594,111,635,110,676,113,724,131,722,136,674,119,634,115,593,116,544,112,337,76,185,47"/>
-<area shape="rect" title=" " alt="" coords="736,5,773,71"/>
-<area shape="poly" title=" " alt="" coords="755,70,759,109,761,117,756,118,754,110,750,71"/>
-<area shape="rect" title=" " alt="" coords="972,5,999,71"/>
-<area shape="poly" title=" " alt="" coords="999,37,1094,42,1239,56,1315,68,1383,85,1439,105,1460,118,1475,132,1494,161,1508,197,1518,240,1524,289,1527,399,1519,523,1503,654,1482,786,1433,1024,1428,1023,1477,785,1498,653,1514,523,1521,399,1519,289,1512,241,1503,199,1489,163,1471,135,1457,122,1437,110,1382,90,1314,74,1239,62,1094,47,998,42"/>
-<area shape="poly" title=" " alt="" coords="988,70,982,222,971,321,952,420,938,466,933,465,947,418,966,320,977,222,983,70"/>
-<area shape="poly" title=" " alt="" coords="973,45,930,62,906,77,886,96,871,120,866,117,882,93,903,73,927,58,971,40"/>
-<area shape="rect" title=" " alt="" coords="1536,652,1581,717"/>
-<area shape="poly" title=" " alt="" coords="1562,717,1561,775,1555,850,1543,934,1520,1017,1490,1081,1485,1079,1515,1015,1537,933,1550,850,1556,774,1557,717"/>
-<area shape="rect" title=" " alt="" coords="1650,652,1707,717"/>
-<area shape="poly" title=" " alt="" coords="1686,717,1690,776,1690,853,1677,937,1665,979,1648,1018,1617,1063,1579,1104,1537,1140,1495,1170,1492,1165,1534,1135,1575,1100,1613,1060,1643,1015,1660,977,1672,936,1684,853,1685,776,1680,717"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -292,121 +274,7 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_afa100a6189f5dff458dfd7da71caaa97_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_afa100a6189f5dff458dfd7da71caaa97_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_afa100a6189f5dff458dfd7da71caaa97_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_afa100a6189f5dff458dfd7da71caaa97_cgraph">
-<area shape="rect" title=" " alt="" coords="5,791,213,831"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a501bd644312d1dd491c46f8f5e90713f" title="Adds a function to the list of actions to be executed when a node is disconnected." alt="" coords="277,725,452,766"/>
-<area shape="poly" title=" " alt="" coords="191,787,267,768,268,773,192,793"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,791,468,831"/>
-<area shape="poly" title=" " alt="" coords="213,808,245,808,245,814,213,814"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#aac67927b84309f9f7c3131d73088bd98" title="Handles the disconnection of a node." alt="" coords="261,856,468,897"/>
-<area shape="poly" title=" " alt="" coords="192,829,268,849,267,854,191,835"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,575,723,615"/>
-<area shape="poly" title=" " alt="" coords="444,788,467,775,508,741,544,702,597,627,601,630,548,705,511,745,469,780,447,792"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a3c6b44d5b987550f5fbb0a4cc6421c88" title="Clears the killnodes list, disconnects each node, closes the new_socket if not null,..." alt="" coords="1041,831,1248,871"/>
-<area shape="poly" title=" " alt="" coords="469,814,1025,842,1025,848,468,819"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#aafa70de60fd0b4e768346dfdb7c684d8" title="Handles the form closing event and disconnects all nodes in the killnodes list, clears the killnodes ..." alt="" coords="1027,765,1262,806"/>
-<area shape="poly" title=" " alt="" coords="468,805,1011,787,1012,793,469,810"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a9f05eef99211d284aec1d35a180c8a44" title="Sets the DoubleBuffered property of the listView1 control to true, which reduces flickering during re..." alt="" coords="516,873,723,914"/>
-<area shape="poly" title=" " alt="" coords="431,829,469,842,541,866,540,871,467,847,429,834"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,415,979,455"/>
-<area shape="poly" title=" " alt="" coords="653,572,826,462,829,466,655,576"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a79e710ba4ac86bdeb4122d8f7cd1a982" title="Binds the specified socket to the given local port and address." alt="" coords="771,541,979,582"/>
-<area shape="poly" title=" " alt="" coords="723,579,756,575,756,580,724,584"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5a57fe6225af05846d8991303409a623" title="Creates a new socket with the specified address family, socket type, and protocol type,..." alt="" coords="771,607,979,647"/>
-<area shape="poly" title=" " alt="" coords="724,605,756,609,756,615,723,611"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a92b90a45f1a1a80eaf827a18151f3272" title="Asynchronously disconnects the specified socket." alt="" coords="1569,5,1777,46"/>
-<area shape="poly" title=" " alt="" coords="908,412,1015,346,1175,253,1367,150,1468,101,1568,57,1587,49,1589,54,1570,61,1470,106,1369,155,1177,258,1017,351,910,416"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1041,415,1248,455"/>
-<area shape="poly" title=" " alt="" coords="979,432,1025,432,1025,438,979,438"/>
-<area shape="poly" title=" " alt="" coords="1173,412,1326,292,1424,208,1519,117,1533,101,1541,86,1551,71,1568,57,1577,51,1580,56,1571,61,1555,75,1546,89,1537,104,1523,121,1428,212,1329,296,1176,416"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="1310,415,1521,455"/>
-<area shape="poly" title=" " alt="" coords="1248,432,1294,432,1294,438,1248,438"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a791720080915c8d82d3cd1713da6589c" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="1312,657,1519,698"/>
-<area shape="poly" title=" " alt="" coords="1170,454,1382,644,1378,648,1167,458"/>
-<area shape="poly" title=" " alt="" coords="1428,413,1472,340,1519,245,1527,217,1531,191,1533,146,1539,103,1549,80,1567,57,1570,54,1574,58,1571,61,1554,83,1544,104,1538,146,1537,192,1533,218,1524,247,1477,343,1433,416"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a74e02078cbdaf63d36cd8ec75b45367e" title="Creates a sub&#45;sub node for the given client node and returns the created node." alt="" coords="1569,380,1777,421"/>
-<area shape="poly" title=" " alt="" coords="1521,418,1554,414,1554,419,1522,423"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="2097,539,2297,579"/>
-<area shape="poly" title=" " alt="" coords="1462,453,1530,483,1620,517,1721,550,1825,574,1885,581,1932,582,2041,574,2081,571,2081,576,2041,579,1932,587,1885,586,1824,579,1719,555,1618,522,1528,488,1460,458"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="2352,673,2571,699"/>
-<area shape="poly" title=" " alt="" coords="1437,454,1493,511,1530,542,1571,570,1697,615,1825,658,1898,673,1956,681,2089,690,2197,693,2304,690,2337,689,2337,694,2304,695,2197,698,2089,695,1956,686,1898,678,1824,663,1695,620,1568,575,1527,547,1489,515,1433,457"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="2106,329,2288,370"/>
-<area shape="poly" title=" " alt="" coords="1444,412,1508,368,1600,314,1708,261,1766,239,1824,222,1885,208,1934,201,1983,205,2042,222,2080,240,2115,264,2170,316,2167,320,2112,269,2078,245,2040,227,1982,210,1934,206,1886,213,1825,227,1767,244,1710,266,1602,319,1511,373,1447,416"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="2619,151,2825,191"/>
-<area shape="poly" title=" " alt="" coords="1432,412,1500,332,1538,292,1568,265,1634,225,1690,203,1824,167,2029,112,2114,95,2194,85,2275,82,2361,86,2458,97,2571,115,2618,127,2661,142,2660,147,2616,132,2570,120,2457,102,2361,91,2275,87,2195,90,2115,100,2030,117,1825,172,1692,208,1636,230,1571,269,1541,295,1504,335,1436,416"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a7f678a0df40d5d9619a8e4160ff843e7" title="Receives all the data from the socket of the specified size and returns it as a byte array." alt="" coords="1569,723,1777,763"/>
-<area shape="poly" title=" " alt="" coords="1428,455,1493,589,1534,661,1554,689,1571,708,1577,712,1574,716,1568,712,1550,692,1530,664,1488,592,1424,457"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a959e847d977940852803aca4160e2407" title="Asynchronously receives and sends data between the client socket and the subnode using the specified ..." alt="" coords="1829,481,2037,522"/>
-<area shape="poly" title=" " alt="" coords="1522,446,1814,484,1813,489,1521,451"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5c173a005e10d95dd971ca61810c4638" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="1569,657,1777,698"/>
-<area shape="poly" title=" " alt="" coords="1429,454,1451,493,1482,541,1523,592,1571,637,1588,648,1585,652,1568,641,1519,596,1478,545,1446,495,1425,457"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0a49349336eba588c326e037a09df979" title="Replies with an error to the request on the specified socket." alt="" coords="1569,71,1777,111"/>
-<area shape="poly" title=" " alt="" coords="1427,413,1469,339,1519,245,1531,211,1537,183,1546,156,1567,128,1580,118,1583,122,1571,132,1551,158,1542,184,1536,213,1524,247,1474,342,1432,416"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a74e11089eb6a14e6921d8f024e40f85b" title="Creates a sub node asynchronously and returns the created node." alt="" coords="1837,416,2029,457"/>
-<area shape="poly" title=" " alt="" coords="1777,412,1822,418,1822,424,1777,417"/>
-<area shape="poly" title=" " alt="" coords="1692,419,1747,478,1784,508,1826,531,1889,551,1955,563,2020,567,2081,567,2081,573,2020,573,1954,568,1888,557,1824,536,1781,512,1743,482,1688,423"/>
-<area shape="poly" title=" " alt="" coords="1688,420,1709,455,1740,497,1780,539,1826,574,1888,605,1954,630,2022,649,2091,663,2223,680,2337,686,2337,691,2223,686,2090,669,2021,654,1953,635,1886,610,1823,579,1776,543,1736,500,1705,458,1683,423"/>
-<area shape="poly" title=" " alt="" coords="1777,388,2090,357,2091,363,1778,393"/>
-<area shape="poly" title=" " alt="" coords="1683,378,1704,343,1735,299,1775,256,1823,222,1872,199,1922,180,2027,151,2135,134,2242,125,2345,124,2442,129,2604,147,2603,152,2442,134,2345,130,2242,131,2135,139,2028,156,1924,185,1874,204,1826,227,1779,260,1739,302,1708,345,1687,381"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#a030bdf9f1fd71038666ffc036e855412" title="Asynchronously sets the ID for type 2 node and returns the set ID." alt="" coords="1849,236,2017,277"/>
-<area shape="poly" title=" " alt="" coords="1696,378,1752,333,1823,287,1839,280,1841,285,1826,292,1755,337,1699,382"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#aa71da7ab50cb922a86010128ab2b94f1" title="Sends a byte array with opcode 3 to the specified subNode if the SockType is 2." alt="" coords="1825,301,2041,342"/>
-<area shape="poly" title=" " alt="" coords="1742,377,1848,344,1850,350,1744,382"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="2089,456,2304,481"/>
-<area shape="poly" title=" " alt="" coords="2029,445,2074,451,2073,456,2028,451"/>
-<area shape="poly" title=" " alt="" coords="2009,455,2042,467,2150,528,2147,532,2040,472,2008,460"/>
-<area shape="poly" title=" " alt="" coords="1997,413,2117,373,2119,378,1998,418"/>
-<area shape="poly" title=" " alt="" coords="2242,578,2420,663,2418,668,2240,582"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="2358,556,2565,597"/>
-<area shape="poly" title=" " alt="" coords="2298,563,2343,566,2343,571,2297,568"/>
-<area shape="poly" title=" " alt="" coords="2419,674,2410,664,2415,654,2433,648,2462,646,2494,649,2510,656,2508,661,2492,654,2461,651,2434,654,2419,658,2415,664,2423,671"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="2619,556,2825,597"/>
-<area shape="poly" title=" " alt="" coords="2565,574,2603,574,2603,579,2565,579"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="2885,548,3091,589"/>
-<area shape="poly" title=" " alt="" coords="2550,595,2619,606,2722,613,2825,606,2902,591,2903,596,2825,611,2722,619,2618,611,2549,600"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="2623,671,2821,711"/>
-<area shape="poly" title=" " alt="" coords="2504,595,2620,650,2649,662,2647,667,2618,655,2502,599"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="2630,736,2814,777"/>
-<area shape="poly" title=" " alt="" coords="2515,595,2545,612,2573,635,2589,658,2596,680,2604,701,2621,721,2627,726,2623,730,2617,725,2599,703,2591,682,2584,660,2569,638,2542,617,2512,599"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="2619,425,2825,466"/>
-<area shape="poly" title=" " alt="" coords="2490,553,2548,515,2617,477,2634,470,2636,474,2620,481,2550,520,2493,558"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="2619,491,2825,531"/>
-<area shape="poly" title=" " alt="" coords="2545,553,2622,533,2624,538,2546,558"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="2889,671,3087,711"/>
-<area shape="poly" title=" " alt="" coords="2822,688,2873,688,2873,694,2822,694"/>
-<area shape="poly" title=" " alt="" coords="2796,464,2826,477,2851,492,2874,509,2930,538,2927,543,2872,513,2848,497,2824,481,2794,469"/>
-<area shape="poly" title=" " alt="" coords="2232,368,2271,400,2307,442,2319,465,2326,487,2330,526,2335,565,2342,585,2354,607,2385,639,2421,663,2418,667,2382,643,2350,610,2337,587,2329,566,2325,527,2320,488,2314,467,2302,444,2267,404,2229,373"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="2358,295,2565,335"/>
-<area shape="poly" title=" " alt="" coords="2288,335,2343,328,2344,333,2289,340"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="2623,360,2821,401"/>
-<area shape="poly" title=" " alt="" coords="2546,333,2624,353,2622,358,2545,339"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="2619,229,2825,270"/>
-<area shape="poly" title=" " alt="" coords="2545,291,2622,272,2624,277,2546,297"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="2630,295,2814,335"/>
-<area shape="poly" title=" " alt="" coords="2565,312,2615,312,2615,318,2565,318"/>
-<area shape="poly" title=" " alt="" coords="2492,292,2550,255,2617,215,2657,196,2659,201,2620,220,2552,259,2495,296"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="2889,393,3087,434"/>
-<area shape="poly" title=" " alt="" coords="2822,390,2873,397,2873,402,2821,395"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="2889,459,3087,499"/>
-<area shape="poly" title=" " alt="" coords="2796,399,2826,411,2850,428,2874,443,2891,450,2889,455,2872,448,2847,432,2824,416,2794,404"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="2889,263,3087,303"/>
-<area shape="poly" title=" " alt="" coords="2794,357,2824,345,2848,329,2872,314,2890,307,2892,311,2874,319,2850,334,2826,349,2796,362"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="2873,328,3102,369"/>
-<area shape="poly" title=" " alt="" coords="2821,366,2857,361,2858,367,2822,371"/>
-<area shape="poly" title=" " alt="" coords="2019,270,2043,288,2061,314,2070,339,2072,364,2071,389,2070,439,2076,465,2091,492,2110,512,2132,528,2129,533,2106,516,2087,495,2071,467,2065,440,2066,389,2067,364,2065,340,2057,316,2039,292,2016,275"/>
-<area shape="poly" title=" " alt="" coords="2004,275,2042,287,2131,321,2129,326,2040,292,2003,280"/>
-<area shape="poly" title=" " alt="" coords="2018,253,2603,248,2603,253,2018,258"/>
-<area shape="poly" title=" " alt="" coords="2017,243,2089,234,2603,180,2603,185,2089,239,2018,248"/>
-<area shape="poly" title=" " alt="" coords="2042,331,2090,336,2090,341,2041,336"/>
-<area shape="poly" title=" " alt="" coords="2037,486,2074,481,2075,486,2037,491"/>
-<area shape="poly" title=" " alt="" coords="2030,520,2086,532,2085,537,2029,525"/>
-<area shape="poly" title=" " alt="" coords="2011,478,2040,466,2106,423,2161,379,2164,383,2109,428,2042,471,2014,483"/>
-<area shape="poly" title=" " alt="" coords="1499,696,1576,716,1575,721,1498,701"/>
-<area shape="poly" title=" " alt="" coords="1520,675,1554,675,1554,680,1520,680"/>
-<area shape="poly" title=" " alt="" coords="1248,848,1672,848,1934,848,2040,848,2123,841,2204,824,2303,789,2340,771,2375,749,2432,707,2435,711,2378,754,2343,776,2305,793,2205,829,2124,847,2041,853,1934,854,1672,854,1248,854"/>
-<area shape="poly" title=" " alt="" coords="1263,788,1454,794,1672,798,1934,798,2002,795,2070,787,2204,762,2321,730,2409,702,2411,707,2322,735,2205,767,2071,793,2002,800,1934,803,1672,803,1454,800,1263,793"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_afa100a6189f5dff458dfd7da71caaa97_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -446,113 +314,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_cgraph">
-<area shape="rect" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="5,149,213,190"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a92b90a45f1a1a80eaf827a18151f3272" title="Asynchronously disconnects the specified socket." alt="" coords="775,5,983,46"/>
-<area shape="poly" title=" " alt="" coords="213,148,759,45,760,50,214,153"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="261,177,468,218"/>
-<area shape="poly" title=" " alt="" coords="213,178,246,182,245,187,213,184"/>
-<area shape="poly" title=" " alt="" coords="468,197,530,193,597,182,664,162,726,131,742,116,750,99,758,81,774,62,791,51,794,56,777,66,762,83,755,101,746,119,729,136,666,167,598,187,531,198,469,203"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="516,323,727,363"/>
-<area shape="poly" title=" " alt="" coords="403,216,572,312,569,317,401,221"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a791720080915c8d82d3cd1713da6589c" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="518,635,725,675"/>
-<area shape="poly" title=" " alt="" coords="380,217,604,620,599,622,375,220"/>
-<area shape="poly" title=" " alt="" coords="639,320,681,267,725,199,739,161,743,128,751,96,759,80,773,62,785,52,789,57,777,66,764,82,756,98,748,129,744,162,730,202,686,270,643,324"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a74e02078cbdaf63d36cd8ec75b45367e" title="Creates a sub&#45;sub node for the given client node and returns the created node." alt="" coords="775,323,983,363"/>
-<area shape="poly" title=" " alt="" coords="728,340,760,340,760,346,728,346"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="1303,501,1503,542"/>
-<area shape="poly" title=" " alt="" coords="641,362,697,424,735,458,777,489,843,527,898,550,956,565,1031,579,1092,589,1139,593,1187,590,1246,579,1270,570,1294,558,1326,545,1328,550,1296,563,1273,575,1248,584,1187,595,1139,598,1091,594,1030,584,955,570,896,555,841,531,774,493,732,463,693,428,637,365"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="1558,321,1777,347"/>
-<area shape="poly" title=" " alt="" coords="645,320,702,279,737,259,774,243,882,208,976,183,1061,167,1142,160,1223,163,1308,176,1403,198,1511,230,1549,245,1585,266,1642,308,1639,312,1582,270,1547,250,1509,235,1401,203,1307,181,1222,169,1142,166,1062,172,978,188,884,214,776,248,739,264,705,284,648,325"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="1312,381,1494,422"/>
-<area shape="poly" title=" " alt="" coords="711,361,776,372,916,386,1057,395,1296,400,1296,405,1057,400,916,392,775,378,710,367"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="1825,319,2031,359"/>
-<area shape="poly" title=" " alt="" coords="638,320,694,259,732,225,774,195,868,141,947,106,986,94,1030,86,1137,80,1404,80,1464,82,1515,88,1559,98,1600,111,1680,151,1778,207,1813,230,1845,256,1899,306,1895,309,1842,260,1810,234,1775,212,1678,156,1598,116,1558,103,1514,93,1464,88,1404,86,1138,86,1030,91,988,99,949,111,871,146,777,200,735,229,697,263,641,324"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a7f678a0df40d5d9619a8e4160ff843e7" title="Receives all the data from the socket of the specified size and returns it as a byte array." alt="" coords="775,635,983,675"/>
-<area shape="poly" title=" " alt="" coords="632,363,649,413,679,481,722,552,748,585,777,614,791,625,788,629,774,618,744,589,717,555,674,483,644,415,627,365"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a959e847d977940852803aca4160e2407" title="Asynchronously receives and sends data between the client socket and the subnode using the specified ..." alt="" coords="1035,503,1243,543"/>
-<area shape="poly" title=" " alt="" coords="661,361,715,389,776,417,909,462,1033,496,1032,501,908,467,774,421,712,394,658,366"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5c173a005e10d95dd971ca61810c4638" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="775,700,983,741"/>
-<area shape="poly" title=" " alt="" coords="632,363,657,435,694,532,736,625,757,661,777,685,782,689,779,693,773,689,753,664,731,627,689,534,652,437,627,365"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0a49349336eba588c326e037a09df979" title="Replies with an error to the request on the specified socket." alt="" coords="775,257,983,298"/>
-<area shape="poly" title=" " alt="" coords="704,319,781,300,782,305,705,325"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a74e11089eb6a14e6921d8f024e40f85b" title="Creates a sub node asynchronously and returns the created node." alt="" coords="1043,437,1235,478"/>
-<area shape="poly" title=" " alt="" coords="928,361,1078,428,1076,433,926,366"/>
-<area shape="poly" title=" " alt="" coords="890,363,908,406,938,459,979,512,1004,535,1032,553,1061,566,1088,572,1111,574,1135,573,1184,563,1247,552,1305,543,1306,548,1247,558,1185,568,1135,578,1111,580,1087,578,1060,571,1029,557,1001,539,975,516,933,462,903,408,885,365"/>
-<area shape="poly" title=" " alt="" coords="957,320,981,307,995,295,1004,282,1013,269,1029,258,1070,243,1111,233,1196,223,1282,225,1366,235,1445,252,1516,273,1624,312,1622,317,1514,278,1443,257,1365,241,1282,230,1196,228,1112,238,1071,249,1032,263,1017,273,1008,285,999,299,984,312,959,325"/>
-<area shape="poly" title=" " alt="" coords="983,351,1247,379,1297,385,1296,390,1247,384,983,356"/>
-<area shape="poly" title=" " alt="" coords="962,320,981,308,997,287,1003,264,1010,242,1017,231,1029,222,1084,195,1141,175,1200,162,1261,156,1322,154,1383,158,1504,176,1618,206,1721,241,1808,277,1875,309,1873,314,1806,282,1719,246,1616,211,1503,181,1382,163,1322,160,1261,161,1201,168,1142,180,1086,200,1032,227,1021,235,1014,244,1008,266,1001,289,984,312,965,324"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#a030bdf9f1fd71038666ffc036e855412" title="Asynchronously sets the ID for type 2 node and returns the set ID." alt="" coords="1055,668,1223,709"/>
-<area shape="poly" title=" " alt="" coords="892,363,945,468,986,534,1033,597,1064,629,1097,657,1094,661,1061,633,1029,601,981,537,941,470,887,365"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#aa71da7ab50cb922a86010128ab2b94f1" title="Sends a byte array with opcode 3 to the specified subNode if the SockType is 2." alt="" coords="1031,272,1247,313"/>
-<area shape="poly" title=" " alt="" coords="983,320,1016,314,1017,319,984,325"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="1295,448,1510,473"/>
-<area shape="poly" title=" " alt="" coords="1235,456,1280,456,1280,462,1235,461"/>
-<area shape="poly" title=" " alt="" coords="1226,476,1302,495,1301,500,1225,481"/>
-<area shape="poly" title=" " alt="" coords="1234,435,1296,422,1297,427,1235,440"/>
-<area shape="poly" title=" " alt="" coords="1479,498,1509,483,1550,454,1588,420,1645,357,1648,361,1591,424,1553,458,1512,488,1481,503"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="1564,864,1771,905"/>
-<area shape="poly" title=" " alt="" coords="1421,541,1645,850,1640,853,1417,544"/>
-<area shape="poly" title=" " alt="" coords="1625,322,1616,312,1621,302,1639,296,1668,294,1700,297,1716,304,1714,309,1698,302,1667,299,1640,302,1625,306,1621,312,1629,319"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="1825,995,2031,1035"/>
-<area shape="poly" title=" " alt="" coords="1699,903,1756,941,1826,979,1842,986,1840,991,1823,984,1754,946,1696,907"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="2091,925,2297,966"/>
-<area shape="poly" title=" " alt="" coords="1683,903,1705,937,1737,977,1778,1016,1801,1032,1826,1045,1881,1063,1926,1067,1973,1060,2030,1044,2065,1031,2099,1013,2155,974,2158,978,2102,1018,2068,1036,2032,1050,1974,1065,1926,1073,1880,1068,1824,1049,1798,1036,1775,1020,1733,980,1701,940,1678,906"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="1829,733,2027,774"/>
-<area shape="poly" title=" " alt="" coords="1696,861,1754,823,1823,785,1840,778,1842,782,1826,789,1756,828,1699,866"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="1836,864,2020,905"/>
-<area shape="poly" title=" " alt="" coords="1771,882,1821,882,1821,887,1771,887"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="1825,799,2031,839"/>
-<area shape="poly" title=" " alt="" coords="1751,861,1828,841,1830,846,1752,866"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="1825,929,2031,970"/>
-<area shape="poly" title=" " alt="" coords="1752,903,1830,922,1828,928,1751,908"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="2095,733,2293,774"/>
-<area shape="poly" title=" " alt="" coords="2028,751,2079,751,2079,756,2028,756"/>
-<area shape="poly" title=" " alt="" coords="2000,837,2032,850,2095,882,2150,915,2147,919,2092,886,2030,855,1998,842"/>
-<area shape="poly" title=" " alt="" coords="1484,378,1599,348,1600,353,1485,383"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="1564,607,1771,647"/>
-<area shape="poly" title=" " alt="" coords="1489,420,1512,433,1556,470,1595,512,1626,555,1650,592,1645,595,1622,558,1590,516,1552,473,1509,437,1486,425"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="1829,603,2027,643"/>
-<area shape="poly" title=" " alt="" coords="1771,623,1813,622,1813,627,1771,628"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="1825,668,2031,709"/>
-<area shape="poly" title=" " alt="" coords="1757,645,1825,661,1823,667,1756,651"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="1836,537,2020,578"/>
-<area shape="poly" title=" " alt="" coords="1746,603,1833,580,1835,585,1748,609"/>
-<area shape="poly" title=" " alt="" coords="1746,604,1775,586,1798,556,1833,498,1905,372,1910,375,1838,501,1802,559,1778,590,1749,608"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="2095,603,2293,643"/>
-<area shape="poly" title=" " alt="" coords="2028,620,2079,620,2079,626,2028,626"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="2095,668,2293,709"/>
-<area shape="poly" title=" " alt="" coords="2014,641,2094,661,2093,666,2013,647"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="2095,472,2293,513"/>
-<area shape="poly" title=" " alt="" coords="2008,600,2029,588,2044,572,2053,556,2061,540,2077,524,2086,518,2089,522,2081,528,2065,543,2057,559,2049,575,2033,592,2011,604"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="2079,537,2308,578"/>
-<area shape="poly" title=" " alt="" coords="2013,599,2093,580,2094,585,2014,605"/>
-<area shape="poly" title=" " alt="" coords="1218,665,1245,648,1262,626,1268,604,1276,581,1293,558,1308,547,1311,552,1297,562,1280,584,1274,606,1266,629,1249,652,1221,670"/>
-<area shape="poly" title=" " alt="" coords="1158,666,1201,617,1245,554,1258,520,1263,490,1271,462,1293,433,1298,429,1302,433,1297,437,1276,464,1269,492,1263,522,1249,556,1205,620,1162,669"/>
-<area shape="poly" title=" " alt="" coords="1224,686,1809,686,1809,691,1224,691"/>
-<area shape="poly" title=" " alt="" coords="1204,665,1346,616,1509,551,1613,503,1715,452,1876,365,1878,370,1717,457,1615,508,1511,556,1348,621,1206,670"/>
-<area shape="poly" title=" " alt="" coords="1201,311,1248,329,1346,372,1344,377,1246,333,1199,316"/>
-<area shape="poly" title=" " alt="" coords="1227,499,1330,475,1331,480,1228,505"/>
-<area shape="poly" title=" " alt="" coords="1243,520,1287,520,1287,525,1243,525"/>
-<area shape="poly" title=" " alt="" coords="1222,500,1245,487,1260,474,1269,461,1278,447,1293,433,1304,427,1306,431,1297,437,1282,450,1273,464,1264,478,1249,492,1225,504"/>
-<area shape="poly" title=" " alt="" coords="726,652,760,652,760,658,726,658"/>
-<area shape="poly" title=" " alt="" coords="705,673,782,693,781,698,704,679"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_icgraph">
-<area shape="rect" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,5,979,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a90f9b25ac9fdd020960cd8f32cd47547_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -597,16 +364,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a79e710ba4ac86bdeb4122d8f7cd1a982_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a79e710ba4ac86bdeb4122d8f7cd1a982_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a79e710ba4ac86bdeb4122d8f7cd1a982_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a79e710ba4ac86bdeb4122d8f7cd1a982_icgraph">
-<area shape="rect" title="Binds the specified socket to the given local port and address." alt="" coords="771,5,979,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a79e710ba4ac86bdeb4122d8f7cd1a982_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -657,117 +415,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_cgraph">
-<area shape="rect" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="5,201,213,242"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="261,136,468,177"/>
-<area shape="poly" title=" " alt="" coords="191,198,267,178,268,184,192,203"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a79e710ba4ac86bdeb4122d8f7cd1a982" title="Binds the specified socket to the given local port and address." alt="" coords="261,201,468,242"/>
-<area shape="poly" title=" " alt="" coords="213,219,245,219,245,224,213,224"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5a57fe6225af05846d8991303409a623" title="Creates a new socket with the specified address family, socket type, and protocol type,..." alt="" coords="261,267,468,307"/>
-<area shape="poly" title=" " alt="" coords="192,240,268,260,267,265,191,245"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a92b90a45f1a1a80eaf827a18151f3272" title="Asynchronously disconnects the specified socket." alt="" coords="1031,5,1238,46"/>
-<area shape="poly" title=" " alt="" coords="468,136,1015,43,1016,48,469,141"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="516,177,723,218"/>
-<area shape="poly" title=" " alt="" coords="469,171,501,176,500,181,468,176"/>
-<area shape="poly" title=" " alt="" coords="724,197,785,193,852,182,919,162,981,131,997,116,1005,99,1013,81,1029,62,1046,51,1049,56,1032,66,1017,83,1010,101,1001,119,984,136,921,167,854,187,786,198,724,203"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="771,323,983,363"/>
-<area shape="poly" title=" " alt="" coords="659,216,827,312,825,317,656,221"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a791720080915c8d82d3cd1713da6589c" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="773,635,981,675"/>
-<area shape="poly" title=" " alt="" coords="635,217,859,620,854,622,630,220"/>
-<area shape="poly" title=" " alt="" coords="895,320,937,267,980,199,994,161,998,128,1006,96,1015,80,1029,62,1040,52,1044,57,1033,66,1019,82,1011,98,1004,129,999,162,985,202,941,270,899,324"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a74e02078cbdaf63d36cd8ec75b45367e" title="Creates a sub&#45;sub node for the given client node and returns the created node." alt="" coords="1031,323,1238,363"/>
-<area shape="poly" title=" " alt="" coords="983,340,1015,340,1015,346,983,346"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="1558,501,1758,542"/>
-<area shape="poly" title=" " alt="" coords="896,362,953,424,991,458,1032,489,1098,527,1153,550,1211,565,1286,579,1347,589,1394,593,1442,590,1502,579,1526,570,1549,558,1582,545,1584,550,1551,563,1528,575,1503,584,1442,595,1394,598,1346,594,1286,584,1210,570,1151,555,1096,531,1029,493,987,463,949,428,892,365"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="1814,317,2032,343"/>
-<area shape="poly" title=" " alt="" coords="901,320,957,279,992,259,1030,243,1138,209,1232,183,1316,167,1397,161,1478,164,1563,176,1658,197,1767,228,1804,243,1840,263,1896,304,1893,309,1837,268,1802,248,1765,234,1656,203,1562,181,1477,169,1397,166,1317,173,1233,188,1139,214,1032,248,995,264,960,284,904,325"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="1567,381,1749,422"/>
-<area shape="poly" title=" " alt="" coords="966,361,1031,372,1172,386,1313,395,1552,400,1551,405,1312,400,1171,392,1030,378,965,367"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="2080,319,2286,359"/>
-<area shape="poly" title=" " alt="" coords="893,320,949,259,987,225,1029,195,1124,141,1202,106,1242,94,1285,86,1393,80,1659,80,1720,82,1770,88,1815,98,1855,111,1936,151,2033,207,2068,230,2101,256,2154,306,2151,309,2097,260,2065,234,2031,212,1933,156,1853,116,1813,103,1770,93,1719,88,1659,86,1393,86,1286,91,1243,99,1204,111,1126,146,1032,200,991,229,953,263,897,324"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a7f678a0df40d5d9619a8e4160ff843e7" title="Receives all the data from the socket of the specified size and returns it as a byte array." alt="" coords="1031,635,1238,675"/>
-<area shape="poly" title=" " alt="" coords="887,363,905,413,934,481,977,552,1003,585,1032,614,1047,625,1044,629,1029,618,999,589,973,555,930,483,900,415,882,365"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a959e847d977940852803aca4160e2407" title="Asynchronously receives and sends data between the client socket and the subnode using the specified ..." alt="" coords="1291,503,1498,543"/>
-<area shape="poly" title=" " alt="" coords="916,361,970,389,1032,417,1164,462,1289,496,1287,501,1163,467,1030,421,968,394,914,366"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5c173a005e10d95dd971ca61810c4638" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="1031,700,1238,741"/>
-<area shape="poly" title=" " alt="" coords="888,363,912,435,949,532,992,625,1013,661,1033,685,1038,689,1034,693,1029,689,1008,664,987,627,944,534,907,437,883,365"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0a49349336eba588c326e037a09df979" title="Replies with an error to the request on the specified socket." alt="" coords="1031,257,1238,298"/>
-<area shape="poly" title=" " alt="" coords="959,319,1036,300,1037,305,961,325"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a74e11089eb6a14e6921d8f024e40f85b" title="Creates a sub node asynchronously and returns the created node." alt="" coords="1299,437,1490,478"/>
-<area shape="poly" title=" " alt="" coords="1183,361,1333,428,1331,433,1181,366"/>
-<area shape="poly" title=" " alt="" coords="1145,363,1163,406,1193,459,1234,512,1259,535,1287,553,1317,566,1343,572,1367,574,1390,573,1440,563,1502,552,1561,543,1561,548,1503,558,1441,568,1391,578,1367,580,1342,578,1315,571,1285,557,1256,539,1230,516,1189,462,1159,408,1140,365"/>
-<area shape="poly" title=" " alt="" coords="1212,320,1236,307,1250,295,1259,282,1268,269,1285,258,1325,243,1366,233,1451,223,1537,224,1620,234,1699,250,1770,270,1879,308,1877,313,1769,275,1698,255,1619,239,1536,229,1451,228,1367,238,1326,249,1287,263,1272,273,1263,285,1255,299,1240,312,1215,325"/>
-<area shape="poly" title=" " alt="" coords="1239,351,1503,379,1552,385,1551,390,1502,384,1238,356"/>
-<area shape="poly" title=" " alt="" coords="1217,320,1236,308,1252,287,1258,264,1265,242,1273,231,1285,222,1339,195,1396,175,1455,162,1516,156,1577,154,1638,158,1759,176,1873,206,1976,241,2064,277,2130,309,2128,314,2061,282,1974,246,1872,211,1758,181,1638,163,1577,160,1516,161,1456,168,1398,180,1341,200,1287,227,1276,235,1270,244,1263,266,1257,289,1240,312,1220,324"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#a030bdf9f1fd71038666ffc036e855412" title="Asynchronously sets the ID for type 2 node and returns the set ID." alt="" coords="1310,668,1478,709"/>
-<area shape="poly" title=" " alt="" coords="1147,363,1201,468,1241,534,1288,597,1319,629,1353,657,1349,661,1316,633,1284,601,1237,537,1196,470,1142,365"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#aa71da7ab50cb922a86010128ab2b94f1" title="Sends a byte array with opcode 3 to the specified subNode if the SockType is 2." alt="" coords="1286,272,1502,313"/>
-<area shape="poly" title=" " alt="" coords="1238,320,1271,314,1272,319,1239,325"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="1550,448,1766,473"/>
-<area shape="poly" title=" " alt="" coords="1490,456,1535,456,1535,462,1490,461"/>
-<area shape="poly" title=" " alt="" coords="1482,476,1557,495,1556,500,1480,481"/>
-<area shape="poly" title=" " alt="" coords="1490,435,1551,422,1552,427,1491,440"/>
-<area shape="poly" title=" " alt="" coords="1734,498,1764,483,1806,453,1844,418,1900,353,1904,357,1847,422,1809,457,1767,488,1736,503"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="1820,864,2026,905"/>
-<area shape="poly" title=" " alt="" coords="1676,541,1900,850,1896,853,1672,544"/>
-<area shape="poly" title=" " alt="" coords="1880,318,1872,308,1877,298,1894,292,1923,290,1955,293,1971,300,1969,305,1954,298,1923,295,1895,298,1880,302,1877,308,1884,315"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="2080,995,2286,1035"/>
-<area shape="poly" title=" " alt="" coords="1954,903,2012,941,2081,979,2097,986,2095,991,2079,984,2009,946,1951,907"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="2346,925,2552,966"/>
-<area shape="poly" title=" " alt="" coords="1938,903,1960,937,1993,977,2033,1016,2056,1032,2081,1045,2136,1063,2182,1067,2228,1060,2286,1044,2321,1031,2354,1013,2411,974,2414,978,2357,1018,2323,1036,2287,1050,2229,1065,2182,1073,2135,1068,2079,1049,2054,1036,2030,1020,1989,980,1956,940,1934,906"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="2084,733,2282,774"/>
-<area shape="poly" title=" " alt="" coords="1951,861,2009,823,2079,785,2095,778,2097,782,2081,789,2012,828,1954,866"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="2092,864,2275,905"/>
-<area shape="poly" title=" " alt="" coords="2026,882,2076,882,2076,887,2026,887"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="2080,799,2286,839"/>
-<area shape="poly" title=" " alt="" coords="2006,861,2084,841,2085,846,2007,866"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="2080,929,2286,970"/>
-<area shape="poly" title=" " alt="" coords="2007,903,2085,922,2084,928,2006,908"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="2350,733,2548,774"/>
-<area shape="poly" title=" " alt="" coords="2283,751,2334,751,2334,756,2283,756"/>
-<area shape="poly" title=" " alt="" coords="2256,837,2287,850,2350,882,2405,915,2402,919,2347,886,2285,855,2254,842"/>
-<area shape="poly" title=" " alt="" coords="1735,378,1857,345,1859,350,1736,383"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="1820,605,2026,646"/>
-<area shape="poly" title=" " alt="" coords="1744,420,1767,433,1811,469,1850,511,1881,554,1905,590,1900,593,1877,557,1845,515,1807,473,1764,437,1742,425"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="2084,603,2282,643"/>
-<area shape="poly" title=" " alt="" coords="2026,622,2068,622,2068,627,2026,627"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="2080,668,2286,709"/>
-<area shape="poly" title=" " alt="" coords="2011,644,2082,661,2081,666,2010,649"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="2092,537,2275,578"/>
-<area shape="poly" title=" " alt="" coords="2003,602,2087,580,2089,585,2004,607"/>
-<area shape="poly" title=" " alt="" coords="2001,603,2030,585,2062,548,2098,490,2162,372,2167,375,2103,493,2066,551,2034,589,2004,607"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="2350,603,2548,643"/>
-<area shape="poly" title=" " alt="" coords="2283,620,2334,620,2334,626,2283,626"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="2350,668,2548,709"/>
-<area shape="poly" title=" " alt="" coords="2269,641,2349,661,2348,666,2268,647"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="2350,472,2548,513"/>
-<area shape="poly" title=" " alt="" coords="2263,600,2285,588,2300,572,2308,556,2316,540,2333,524,2342,518,2344,522,2336,528,2321,543,2313,559,2304,575,2288,592,2266,604"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="2334,537,2564,578"/>
-<area shape="poly" title=" " alt="" coords="2268,599,2348,580,2349,585,2269,605"/>
-<area shape="poly" title=" " alt="" coords="1473,665,1501,648,1517,626,1524,604,1531,581,1548,558,1564,547,1567,552,1552,562,1536,584,1529,606,1522,629,1504,652,1476,670"/>
-<area shape="poly" title=" " alt="" coords="1413,666,1456,617,1500,554,1514,520,1519,490,1527,462,1548,433,1554,429,1557,433,1552,437,1532,464,1524,492,1519,522,1505,556,1460,620,1417,669"/>
-<area shape="poly" title=" " alt="" coords="1479,686,2064,686,2064,691,1479,691"/>
-<area shape="poly" title=" " alt="" coords="1460,665,1601,616,1765,551,1868,503,1970,452,2131,365,2134,370,1972,457,1871,508,1767,556,1603,621,1462,670"/>
-<area shape="poly" title=" " alt="" coords="1457,311,1503,329,1601,372,1599,377,1501,333,1455,316"/>
-<area shape="poly" title=" " alt="" coords="1482,499,1585,475,1587,480,1483,505"/>
-<area shape="poly" title=" " alt="" coords="1498,520,1542,520,1542,525,1498,525"/>
-<area shape="poly" title=" " alt="" coords="1477,500,1501,487,1515,474,1524,461,1533,447,1549,433,1559,427,1562,431,1552,437,1537,450,1529,464,1519,478,1504,492,1480,504"/>
-<area shape="poly" title=" " alt="" coords="981,652,1015,652,1015,658,981,658"/>
-<area shape="poly" title=" " alt="" coords="961,673,1037,693,1036,698,959,679"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_icgraph">
-<area shape="rect" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a1700c2286e91f23dfdacc46888ac46ca_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -804,25 +457,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_cgraph">
-<area shape="rect" title="Clears the killnodes list, disconnects each node, closes the new_socket if not null,..." alt="" coords="5,22,213,63"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="261,29,479,55"/>
-<area shape="poly" title=" " alt="" coords="213,40,245,40,245,45,213,45"/>
-<area shape="poly" title=" " alt="" coords="327,31,318,21,324,11,341,5,370,3,402,5,418,13,416,17,401,11,370,8,342,10,327,15,324,20,331,27"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_cgraph.svg" width="484" height="68"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_icgraph">
-<area shape="rect" title="Clears the killnodes list, disconnects each node, closes the new_socket if not null,..." alt="" coords="516,5,723,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a3c6b44d5b987550f5fbb0a4cc6421c88_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -861,16 +501,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5a57fe6225af05846d8991303409a623_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5a57fe6225af05846d8991303409a623_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5a57fe6225af05846d8991303409a623_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5a57fe6225af05846d8991303409a623_icgraph">
-<area shape="rect" title="Creates a new socket with the specified address family, socket type, and protocol type,..." alt="" coords="771,5,979,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5a57fe6225af05846d8991303409a623_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -917,90 +548,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_cgraph">
-<area shape="rect" title="Creates a sub&#45;sub node for the given client node and returns the created node." alt="" coords="5,439,213,479"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a74e11089eb6a14e6921d8f024e40f85b" title="Creates a sub node asynchronously and returns the created node." alt="" coords="273,324,465,365"/>
-<area shape="poly" title=" " alt="" coords="147,436,260,381,291,368,293,373,262,385,150,440"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="533,381,733,422"/>
-<area shape="poly" title=" " alt="" coords="198,435,260,424,393,410,517,403,517,408,393,416,261,430,199,441"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="788,389,1007,415"/>
-<area shape="poly" title=" " alt="" coords="121,437,144,406,175,370,214,336,260,310,346,305,507,307,741,316,776,328,810,344,867,378,864,382,808,349,774,333,740,322,507,313,346,311,261,315,217,340,179,374,148,410,126,440"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="542,447,724,487"/>
-<area shape="poly" title=" " alt="" coords="194,477,261,488,369,495,477,488,526,483,526,488,477,494,369,500,260,494,193,483"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="1055,577,1261,618"/>
-<area shape="poly" title=" " alt="" coords="126,478,148,508,179,544,217,578,262,603,313,622,367,637,477,658,589,667,699,667,804,660,902,648,1059,619,1060,625,902,653,805,665,699,672,588,672,476,663,366,642,312,627,260,608,214,582,175,548,144,512,121,481"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#a030bdf9f1fd71038666ffc036e855412" title="Asynchronously sets the ID for type 2 node and returns the set ID." alt="" coords="285,553,453,594"/>
-<area shape="poly" title=" " alt="" coords="150,478,262,533,293,545,291,550,260,537,147,482"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#aa71da7ab50cb922a86010128ab2b94f1" title="Sends a byte array with opcode 3 to the specified subNode if the SockType is 2." alt="" coords="261,439,477,479"/>
-<area shape="poly" title=" " alt="" coords="213,456,245,456,245,462,213,462"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="525,332,740,357"/>
-<area shape="poly" title=" " alt="" coords="465,342,510,342,510,347,465,347"/>
-<area shape="poly" title=" " alt="" coords="465,363,521,375,520,380,464,368"/>
-<area shape="poly" title=" " alt="" coords="403,363,459,397,526,431,544,438,542,443,524,436,457,402,400,368"/>
-<area shape="poly" title=" " alt="" coords="733,399,773,399,773,404,733,404"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="794,201,1001,242"/>
-<area shape="poly" title=" " alt="" coords="716,378,739,367,777,341,812,311,868,252,872,256,816,315,780,346,742,372,719,383"/>
-<area shape="poly" title=" " alt="" coords="855,390,846,380,851,370,869,364,898,362,930,365,946,372,944,377,928,370,897,367,870,370,855,374,851,380,859,387"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="1055,267,1261,307"/>
-<area shape="poly" title=" " alt="" coords="982,240,1060,260,1058,265,981,245"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="1321,160,1527,201"/>
-<area shape="poly" title=" " alt="" coords="924,240,981,282,1017,302,1055,316,1113,332,1159,339,1205,334,1260,317,1275,308,1285,297,1307,270,1382,208,1385,212,1311,274,1289,301,1279,312,1262,321,1206,340,1159,344,1112,337,1054,322,1015,307,979,286,921,245"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="1059,5,1257,46"/>
-<area shape="poly" title=" " alt="" coords="911,199,968,130,1008,91,1053,57,1064,51,1067,55,1056,61,1012,95,972,134,915,203"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="1066,136,1250,177"/>
-<area shape="poly" title=" " alt="" coords="981,198,1058,178,1060,184,982,203"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="1055,71,1261,111"/>
-<area shape="poly" title=" " alt="" coords="926,199,984,160,1053,122,1070,115,1072,120,1056,127,986,165,929,203"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="1055,201,1261,242"/>
-<area shape="poly" title=" " alt="" coords="1001,219,1039,219,1039,224,1001,224"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1325,5,1523,46"/>
-<area shape="poly" title=" " alt="" coords="1258,23,1309,23,1309,28,1258,28"/>
-<area shape="poly" title=" " alt="" coords="1225,109,1262,122,1349,152,1347,157,1260,127,1223,115"/>
-<area shape="poly" title=" " alt="" coords="717,443,827,416,828,421,719,449"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="794,447,1001,487"/>
-<area shape="poly" title=" " alt="" coords="724,464,779,464,779,470,724,470"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="1059,381,1257,422"/>
-<area shape="poly" title=" " alt="" coords="981,443,1058,424,1060,429,982,449"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="1055,512,1261,553"/>
-<area shape="poly" title=" " alt="" coords="982,485,1060,505,1058,510,981,491"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="1066,447,1250,487"/>
-<area shape="poly" title=" " alt="" coords="1001,464,1051,464,1051,470,1001,470"/>
-<area shape="poly" title=" " alt="" coords="929,486,986,524,1056,562,1072,569,1070,574,1053,567,984,528,926,490"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1325,284,1523,325"/>
-<area shape="poly" title=" " alt="" coords="1217,378,1260,361,1308,335,1328,328,1330,333,1310,340,1262,365,1219,383"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1325,349,1523,390"/>
-<area shape="poly" title=" " alt="" coords="1257,387,1309,381,1309,386,1258,392"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1325,415,1523,455"/>
-<area shape="poly" title=" " alt="" coords="1258,411,1309,418,1309,423,1257,417"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1309,480,1538,521"/>
-<area shape="poly" title=" " alt="" coords="1232,420,1262,433,1286,449,1310,465,1327,472,1325,477,1308,469,1283,453,1260,437,1230,425"/>
-<area shape="poly" title=" " alt="" coords="399,551,436,522,475,489,498,460,507,446,523,433,534,427,536,431,527,437,511,450,502,463,479,493,440,527,402,555"/>
-<area shape="poly" title=" " alt="" coords="430,550,476,533,524,510,567,491,569,496,526,515,478,537,432,555"/>
-<area shape="poly" title=" " alt="" coords="453,564,525,559,1039,534,1039,539,525,564,453,569"/>
-<area shape="poly" title=" " alt="" coords="454,574,1039,591,1039,597,453,579"/>
-<area shape="poly" title=" " alt="" coords="478,460,526,461,526,466,477,465"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_icgraph">
-<area shape="rect" title="Creates a sub&#45;sub node for the given client node and returns the created node." alt="" coords="1541,5,1749,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="1282,5,1493,46"/>
-<area shape="poly" title=" " alt="" coords="1525,28,1494,28,1494,23,1525,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,5,1234,46"/>
-<area shape="poly" title=" " alt="" coords="1267,28,1234,28,1234,23,1267,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,5,979,46"/>
-<area shape="poly" title=" " alt="" coords="1011,28,979,28,979,23,1011,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a74e02078cbdaf63d36cd8ec75b45367e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1046,24 +599,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a92b90a45f1a1a80eaf827a18151f3272_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a92b90a45f1a1a80eaf827a18151f3272_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a92b90a45f1a1a80eaf827a18151f3272_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a92b90a45f1a1a80eaf827a18151f3272_icgraph">
-<area shape="rect" title="Asynchronously disconnects the specified socket." alt="" coords="1541,33,1749,74"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,5,979,46"/>
-<area shape="poly" title=" " alt="" coords="1545,32,1493,24,1354,15,1215,13,979,21,979,15,1215,7,1354,9,1494,19,1546,27"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="1282,33,1493,74"/>
-<area shape="poly" title=" " alt="" coords="1525,56,1494,56,1494,51,1525,51"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,33,1234,74"/>
-<area shape="poly" title=" " alt="" coords="1546,80,1494,88,1388,96,1282,88,1215,77,1215,72,1282,83,1388,90,1493,83,1545,75"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-<area shape="poly" title=" " alt="" coords="1267,56,1234,56,1234,51,1267,51"/>
-<area shape="poly" title=" " alt="" coords="1011,43,979,40,979,34,1011,38"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a92b90a45f1a1a80eaf827a18151f3272_icgraph.svg" width="100%" height="374"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1142,107 +678,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_cgraph">
-<area shape="rect" title="Handles the connection and proxy for the given client socket." alt="" coords="5,573,217,614"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a74e02078cbdaf63d36cd8ec75b45367e" title="Creates a sub&#45;sub node for the given client node and returns the created node." alt="" coords="265,396,472,437"/>
-<area shape="poly" title=" " alt="" coords="141,571,323,444,326,448,144,575"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="792,195,992,235"/>
-<area shape="poly" title=" " alt="" coords="117,572,135,522,166,456,209,384,234,350,263,320,320,271,373,235,425,211,478,196,533,188,593,187,737,194,776,197,776,202,736,199,593,192,534,194,479,201,427,216,376,240,323,275,267,324,238,354,213,387,171,458,140,524,122,574"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="1048,145,1266,171"/>
-<area shape="poly" title=" " alt="" coords="112,573,125,508,151,419,171,370,196,323,226,279,263,241,354,171,438,121,521,89,603,73,689,69,782,75,1000,106,1058,119,1110,136,1108,141,1056,124,999,111,781,80,689,74,604,78,522,94,441,126,357,175,266,245,230,283,200,326,176,373,156,420,130,509,118,574"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="801,397,983,438"/>
-<area shape="poly" title=" " alt="" coords="217,590,349,586,499,578,638,563,693,553,735,541,772,522,806,498,861,448,864,452,809,502,775,526,737,545,695,558,638,568,500,583,350,592,217,595"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="1314,591,1520,631"/>
-<area shape="poly" title=" " alt="" coords="217,600,475,620,784,636,916,638,1048,638,1157,641,1205,642,1266,638,1308,632,1309,637,1266,643,1205,647,1157,647,1048,643,916,644,784,642,475,625,217,605"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a92b90a45f1a1a80eaf827a18151f3272" title="Asynchronously disconnects the specified socket." alt="" coords="265,656,472,697"/>
-<area shape="poly" title=" " alt="" coords="177,612,289,648,287,653,176,617"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a7f678a0df40d5d9619a8e4160ff843e7" title="Receives all the data from the socket of the specified size and returns it as a byte array." alt="" coords="265,721,472,762"/>
-<area shape="poly" title=" " alt="" coords="137,612,193,659,266,706,280,713,278,718,263,711,190,663,133,617"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a959e847d977940852803aca4160e2407" title="Asynchronously receives and sends data between the client socket and the subnode using the specified ..." alt="" coords="525,245,732,286"/>
-<area shape="poly" title=" " alt="" coords="119,572,140,532,172,481,213,428,263,382,321,346,385,318,449,297,509,282,510,287,450,302,387,323,324,351,266,386,217,432,176,484,145,535,124,574"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5c173a005e10d95dd971ca61810c4638" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="265,787,472,827"/>
-<area shape="poly" title=" " alt="" coords="126,613,181,690,220,734,266,771,275,777,273,782,263,776,217,737,177,693,122,616"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0a49349336eba588c326e037a09df979" title="Replies with an error to the request on the specified socket." alt="" coords="265,852,472,893"/>
-<area shape="poly" title=" " alt="" coords="122,614,141,660,171,720,213,783,238,812,266,837,273,842,270,846,263,841,235,815,209,786,167,723,136,662,117,616"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a74e11089eb6a14e6921d8f024e40f85b" title="Creates a sub node asynchronously and returns the created node." alt="" coords="533,311,724,351"/>
-<area shape="poly" title=" " alt="" coords="432,393,548,354,550,359,433,398"/>
-<area shape="poly" title=" " alt="" coords="377,394,397,357,428,312,469,267,493,247,519,231,582,208,649,196,715,192,777,195,776,200,715,198,650,201,583,213,521,236,496,251,473,270,433,315,402,360,382,397"/>
-<area shape="poly" title=" " alt="" coords="374,395,392,350,422,295,464,239,490,214,519,194,589,162,664,140,741,126,818,120,892,120,962,124,1077,139,1077,144,961,130,892,126,818,126,741,132,665,145,591,167,521,199,493,218,468,242,427,297,397,353,379,397"/>
-<area shape="poly" title=" " alt="" coords="472,412,520,411,736,411,786,412,785,417,736,416,520,416,472,417"/>
-<area shape="poly" title=" " alt="" coords="388,435,443,490,480,518,521,541,622,576,727,602,835,619,941,629,1043,633,1139,632,1298,622,1299,628,1139,637,1043,638,941,634,834,624,726,607,620,581,519,545,477,523,440,494,385,439"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#a030bdf9f1fd71038666ffc036e855412" title="Asynchronously sets the ID for type 2 node and returns the set ID." alt="" coords="544,491,712,531"/>
-<area shape="poly" title=" " alt="" coords="419,435,521,475,544,483,542,488,519,480,417,440"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#aa71da7ab50cb922a86010128ab2b94f1" title="Sends a byte array with opcode 3 to the specified subNode if the SockType is 2." alt="" coords="520,425,736,466"/>
-<area shape="poly" title=" " alt="" coords="473,425,505,429,504,434,472,431"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="784,289,1000,315"/>
-<area shape="poly" title=" " alt="" coords="724,318,769,313,769,318,724,323"/>
-<area shape="poly" title=" " alt="" coords="702,308,735,295,791,269,842,241,844,246,794,274,737,300,704,313"/>
-<area shape="poly" title=" " alt="" coords="694,349,814,389,812,395,692,355"/>
-<area shape="poly" title=" " alt="" coords="989,191,1079,172,1080,177,990,197"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="1054,195,1260,235"/>
-<area shape="poly" title=" " alt="" coords="993,212,1038,212,1038,218,993,218"/>
-<area shape="poly" title=" " alt="" coords="1114,146,1106,136,1111,126,1128,120,1157,118,1189,121,1205,128,1203,133,1188,126,1157,123,1129,126,1114,130,1111,136,1118,143"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="1314,5,1520,46"/>
-<area shape="poly" title=" " alt="" coords="1249,192,1264,181,1277,166,1283,152,1288,121,1292,89,1299,73,1312,57,1317,53,1321,57,1316,61,1304,76,1297,91,1293,122,1288,153,1281,169,1268,185,1252,196"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="1580,161,1786,202"/>
-<area shape="poly" title=" " alt="" coords="1229,191,1314,171,1378,165,1443,163,1564,167,1564,173,1443,169,1378,171,1314,176,1231,197"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="1318,71,1516,111"/>
-<area shape="poly" title=" " alt="" coords="1244,192,1265,181,1279,168,1288,155,1297,141,1312,128,1332,116,1335,120,1316,132,1301,145,1292,158,1283,172,1267,185,1246,196"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="1326,251,1509,291"/>
-<area shape="poly" title=" " alt="" coords="1255,233,1311,245,1310,251,1254,239"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="1314,185,1520,226"/>
-<area shape="poly" title=" " alt="" coords="1260,209,1299,207,1299,213,1260,214"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="1314,316,1520,357"/>
-<area shape="poly" title=" " alt="" coords="1192,234,1249,267,1315,301,1333,308,1331,313,1313,305,1246,272,1189,238"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1584,71,1782,111"/>
-<area shape="poly" title=" " alt="" coords="1517,88,1568,88,1568,94,1517,94"/>
-<area shape="poly" title=" " alt="" coords="1520,194,1564,190,1564,195,1521,199"/>
-<area shape="poly" title=" " alt="" coords="925,395,963,364,997,325,1008,306,1013,287,1016,251,1022,216,1031,198,1046,181,1051,177,1054,181,1050,185,1035,201,1027,218,1022,251,1019,288,1013,308,1002,329,966,368,928,399"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="1054,440,1260,481"/>
-<area shape="poly" title=" " alt="" coords="984,430,1039,439,1038,444,983,435"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="1318,381,1516,422"/>
-<area shape="poly" title=" " alt="" coords="1250,437,1309,423,1310,429,1251,442"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="1314,512,1520,553"/>
-<area shape="poly" title=" " alt="" coords="1234,479,1327,505,1325,510,1232,484"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="1326,447,1509,487"/>
-<area shape="poly" title=" " alt="" coords="1260,460,1310,462,1310,467,1260,466"/>
-<area shape="poly" title=" " alt="" coords="1188,479,1246,519,1315,562,1354,582,1351,586,1313,567,1243,524,1185,483"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1584,415,1782,455"/>
-<area shape="poly" title=" " alt="" coords="1517,411,1569,418,1568,423,1517,417"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1584,480,1782,521"/>
-<area shape="poly" title=" " alt="" coords="1492,420,1522,433,1546,449,1570,465,1586,472,1584,477,1567,469,1543,453,1519,437,1490,425"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1584,284,1782,325"/>
-<area shape="poly" title=" " alt="" coords="1489,378,1519,366,1543,351,1567,335,1585,328,1587,333,1570,340,1546,355,1522,371,1491,383"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1568,349,1798,390"/>
-<area shape="poly" title=" " alt="" coords="1517,387,1552,383,1553,388,1517,392"/>
-<area shape="poly" title=" " alt="" coords="711,493,734,476,752,452,760,428,762,404,761,380,760,329,767,302,782,275,800,256,821,241,824,246,803,260,786,278,772,304,765,330,766,379,767,404,765,429,757,454,738,480,714,497"/>
-<area shape="poly" title=" " alt="" coords="698,488,735,475,824,442,826,447,737,480,700,493"/>
-<area shape="poly" title=" " alt="" coords="713,511,1298,526,1298,532,713,516"/>
-<area shape="poly" title=" " alt="" coords="713,519,1299,593,1298,599,713,524"/>
-<area shape="poly" title=" " alt="" coords="737,432,785,426,786,432,737,437"/>
-<area shape="poly" title=" " alt="" coords="733,277,778,283,778,289,732,282"/>
-<area shape="poly" title=" " alt="" coords="732,243,776,234,777,240,733,248"/>
-<area shape="poly" title=" " alt="" coords="709,284,738,297,804,340,859,385,856,389,801,344,735,301,707,289"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_icgraph">
-<area shape="rect" title="Handles the connection and proxy for the given client socket." alt="" coords="1282,5,1493,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,5,1234,46"/>
-<area shape="poly" title=" " alt="" coords="1267,28,1234,28,1234,23,1267,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,5,979,46"/>
-<area shape="poly" title=" " alt="" coords="1011,28,979,28,979,23,1011,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a26302acffe4c2620161fcb0e2ab18068_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1282,112 +723,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_cgraph">
-<area shape="rect" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="5,424,213,465"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a92b90a45f1a1a80eaf827a18151f3272" title="Asynchronously disconnects the specified socket." alt="" coords="520,5,727,46"/>
-<area shape="poly" title=" " alt="" coords="125,422,184,355,276,259,391,155,454,106,519,62,541,50,543,55,521,67,457,110,394,159,280,263,188,358,129,425"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="261,424,472,465"/>
-<area shape="poly" title=" " alt="" coords="213,442,245,442,245,447,213,447"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a791720080915c8d82d3cd1713da6589c" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="263,732,470,773"/>
-<area shape="poly" title=" " alt="" coords="129,463,340,718,336,722,125,467"/>
-<area shape="poly" title=" " alt="" coords="373,423,518,63,531,52,534,56,522,66,378,425"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a74e02078cbdaf63d36cd8ec75b45367e" title="Creates a sub&#45;sub node for the given client node and returns the created node." alt="" coords="520,393,727,434"/>
-<area shape="poly" title=" " alt="" coords="472,429,504,425,505,430,473,434"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="1047,516,1248,557"/>
-<area shape="poly" title=" " alt="" coords="408,463,476,495,566,533,669,569,776,594,836,603,884,606,931,603,991,594,1042,580,1090,561,1092,566,1044,585,992,599,932,609,884,611,836,608,775,599,667,574,564,538,474,500,406,468"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="1303,440,1521,465"/>
-<area shape="poly" title=" " alt="" coords="384,463,407,493,438,529,477,563,521,590,587,616,645,632,698,639,749,640,856,627,991,611,1128,605,1185,594,1254,566,1269,556,1278,545,1301,520,1373,471,1376,476,1305,524,1282,549,1272,560,1256,571,1187,599,1128,610,992,616,857,633,749,645,698,645,644,637,586,621,519,595,474,567,434,533,402,497,379,467"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="1056,304,1239,345"/>
-<area shape="poly" title=" " alt="" coords="386,421,444,369,519,314,586,274,641,246,699,225,775,207,836,195,885,189,933,192,993,207,1029,223,1063,245,1118,291,1115,295,1060,249,1027,228,991,212,932,197,885,194,837,200,776,212,700,230,643,251,589,278,521,319,447,373,390,425"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="1569,131,1776,171"/>
-<area shape="poly" title=" " alt="" coords="377,422,432,340,472,292,518,249,609,176,647,147,685,123,725,105,770,91,821,83,882,80,1149,80,1254,82,1336,89,1522,116,1567,124,1566,130,1521,122,1335,94,1254,88,1149,86,882,86,822,88,771,96,727,110,688,128,650,152,612,180,522,253,476,296,436,344,382,425"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a7f678a0df40d5d9619a8e4160ff843e7" title="Receives all the data from the socket of the specified size and returns it as a byte array." alt="" coords="520,732,727,773"/>
-<area shape="poly" title=" " alt="" coords="376,464,394,514,424,580,467,650,493,683,522,712,536,722,533,726,518,716,489,686,462,653,420,583,389,516,371,466"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a959e847d977940852803aca4160e2407" title="Asynchronously receives and sends data between the client socket and the subnode using the specified ..." alt="" coords="780,516,987,557"/>
-<area shape="poly" title=" " alt="" coords="473,460,765,513,764,518,472,466"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5c173a005e10d95dd971ca61810c4638" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="520,797,727,838"/>
-<area shape="poly" title=" " alt="" coords="377,464,402,536,439,631,481,723,502,759,522,782,527,787,524,791,518,786,498,762,476,726,434,633,397,537,372,466"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0a49349336eba588c326e037a09df979" title="Replies with an error to the request on the specified socket." alt="" coords="520,328,727,369"/>
-<area shape="poly" title=" " alt="" coords="415,421,519,379,541,372,542,377,521,384,417,426"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a74e11089eb6a14e6921d8f024e40f85b" title="Creates a sub node asynchronously and returns the created node." alt="" coords="788,451,979,491"/>
-<area shape="poly" title=" " alt="" coords="720,432,774,444,773,449,718,437"/>
-<area shape="poly" title=" " alt="" coords="639,433,661,465,692,502,731,539,776,566,814,578,853,585,893,588,933,586,1009,576,1075,559,1076,564,1010,581,933,592,893,593,852,591,812,583,774,571,728,543,688,506,657,468,635,436"/>
-<area shape="poly" title=" " alt="" coords="728,416,1287,444,1287,449,728,421"/>
-<area shape="poly" title=" " alt="" coords="703,390,726,378,740,364,748,349,757,335,774,322,807,309,841,300,910,292,979,292,1041,299,1040,304,978,298,910,297,842,306,808,314,777,327,761,338,753,352,744,367,729,382,705,395"/>
-<area shape="poly" title=" " alt="" coords="710,391,725,379,740,358,747,336,746,293,745,271,747,249,756,228,774,208,799,191,832,176,915,154,1015,140,1127,132,1243,130,1357,131,1554,140,1554,145,1357,136,1243,135,1127,138,1016,145,916,159,834,181,802,195,777,212,760,231,753,250,751,271,752,293,752,337,745,360,729,382,713,395"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#a030bdf9f1fd71038666ffc036e855412" title="Asynchronously sets the ID for type 2 node and returns the set ID." alt="" coords="799,221,968,262"/>
-<area shape="poly" title=" " alt="" coords="708,391,726,378,736,367,743,355,749,330,755,304,762,291,774,278,787,268,791,272,777,282,766,294,760,306,754,331,748,357,741,370,729,382,711,395"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#aa71da7ab50cb922a86010128ab2b94f1" title="Sends a byte array with opcode 3 to the specified subNode if the SockType is 2." alt="" coords="775,336,992,377"/>
-<area shape="poly" title=" " alt="" coords="718,390,773,378,774,383,720,395"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="1040,462,1255,488"/>
-<area shape="poly" title=" " alt="" coords="980,470,1024,470,1024,476,979,475"/>
-<area shape="poly" title=" " alt="" coords="969,489,1048,509,1047,514,968,495"/>
-<area shape="poly" title=" " alt="" coords="920,448,1095,350,1097,355,923,453"/>
-<area shape="poly" title=" " alt="" coords="1213,513,1354,468,1355,473,1215,518"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="1309,533,1515,574"/>
-<area shape="poly" title=" " alt="" coords="1248,540,1294,543,1293,549,1248,546"/>
-<area shape="poly" title=" " alt="" coords="1369,441,1361,431,1366,421,1383,415,1412,413,1444,416,1460,423,1458,428,1443,421,1412,418,1384,420,1369,425,1366,430,1373,437"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="1569,411,1776,451"/>
-<area shape="poly" title=" " alt="" coords="1444,531,1501,496,1568,462,1586,455,1588,460,1570,467,1503,501,1447,535"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="1835,599,2042,639"/>
-<area shape="poly" title=" " alt="" coords="1516,553,1641,561,1776,576,1850,592,1849,597,1775,582,1640,566,1516,559"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="1573,476,1772,517"/>
-<area shape="poly" title=" " alt="" coords="1507,530,1562,518,1563,523,1508,535"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="1581,591,1764,631"/>
-<area shape="poly" title=" " alt="" coords="1508,572,1566,585,1565,590,1507,577"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="1569,656,1776,697"/>
-<area shape="poly" title=" " alt="" coords="1447,572,1503,606,1570,641,1588,648,1586,653,1568,645,1501,611,1444,577"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="1569,721,1776,762"/>
-<area shape="poly" title=" " alt="" coords="1431,573,1488,638,1527,674,1571,706,1582,712,1579,717,1568,711,1524,679,1484,642,1427,576"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1839,476,2038,517"/>
-<area shape="poly" title=" " alt="" coords="1772,494,1824,494,1824,499,1772,499"/>
-<area shape="poly" title=" " alt="" coords="1769,653,1825,641,1826,646,1771,658"/>
-<area shape="poly" title=" " alt="" coords="1193,343,1371,430,1369,435,1190,348"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="1309,280,1515,321"/>
-<area shape="poly" title=" " alt="" coords="1239,313,1293,308,1294,314,1239,319"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="1573,280,1772,321"/>
-<area shape="poly" title=" " alt="" coords="1516,298,1558,298,1558,303,1516,303"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="1569,215,1776,255"/>
-<area shape="poly" title=" " alt="" coords="1495,277,1573,257,1574,262,1497,282"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="1581,345,1764,386"/>
-<area shape="poly" title=" " alt="" coords="1497,319,1574,338,1573,344,1495,324"/>
-<area shape="poly" title=" " alt="" coords="1444,277,1568,201,1614,176,1616,181,1571,205,1447,282"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1839,313,2038,354"/>
-<area shape="poly" title=" " alt="" coords="1773,310,1824,317,1823,322,1772,315"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1839,379,2038,419"/>
-<area shape="poly" title=" " alt="" coords="1747,319,1777,331,1801,348,1825,363,1841,370,1839,375,1822,368,1798,352,1774,336,1745,324"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1839,183,2038,223"/>
-<area shape="poly" title=" " alt="" coords="1744,277,1774,265,1798,249,1822,234,1840,227,1842,231,1825,239,1801,254,1777,269,1746,282"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1824,248,2053,289"/>
-<area shape="poly" title=" " alt="" coords="1772,286,1808,281,1808,287,1773,291"/>
-<area shape="poly" title=" " alt="" coords="925,260,961,287,994,323,1007,348,1013,372,1014,415,1018,457,1026,477,1042,499,1049,505,1045,509,1038,502,1021,480,1012,458,1009,416,1008,372,1002,350,989,326,958,291,922,265"/>
-<area shape="poly" title=" " alt="" coords="952,260,1066,296,1065,301,950,265"/>
-<area shape="poly" title=" " alt="" coords="968,238,1554,233,1554,239,968,244"/>
-<area shape="poly" title=" " alt="" coords="968,228,1039,219,1553,161,1554,166,1040,224,968,233"/>
-<area shape="poly" title=" " alt="" coords="992,341,1040,335,1041,340,993,346"/>
-<area shape="poly" title=" " alt="" coords="973,513,1073,489,1075,494,975,518"/>
-<area shape="poly" title=" " alt="" coords="988,534,1032,534,1032,539,988,539"/>
-<area shape="poly" title=" " alt="" coords="967,513,990,501,1117,355,1121,358,993,505,969,518"/>
-<area shape="poly" title=" " alt="" coords="471,750,504,750,504,755,471,755"/>
-<area shape="poly" title=" " alt="" coords="450,771,527,790,525,796,449,776"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_icgraph">
-<area shape="rect" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,5,1234,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,5,979,46"/>
-<area shape="poly" title=" " alt="" coords="1011,28,979,28,979,23,1011,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0f3cfb17ec6b1468b17cc3c2556a7502_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1420,125 +761,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_cgraph">
-<area shape="rect" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="5,773,213,814"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="261,641,468,682"/>
-<area shape="poly" title=" " alt="" coords="149,770,308,687,311,692,152,775"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a3c6b44d5b987550f5fbb0a4cc6421c88" title="Clears the killnodes list, disconnects each node, closes the new_socket if not null,..." alt="" coords="785,813,993,854"/>
-<area shape="poly" title=" " alt="" coords="213,796,770,825,770,830,213,802"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#aafa70de60fd0b4e768346dfdb7c684d8" title="Handles the form closing event and disconnects all nodes in the killnodes list, clears the killnodes ..." alt="" coords="771,748,1007,789"/>
-<area shape="poly" title=" " alt="" coords="213,788,756,770,756,775,213,793"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a9f05eef99211d284aec1d35a180c8a44" title="Sets the DoubleBuffered property of the listView1 control to true, which reduces flickering during re..." alt="" coords="261,856,468,897"/>
-<area shape="poly" title=" " alt="" coords="175,812,285,848,284,853,173,817"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="516,417,723,458"/>
-<area shape="poly" title=" " alt="" coords="387,639,582,466,585,470,391,643"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a79e710ba4ac86bdeb4122d8f7cd1a982" title="Binds the specified socket to the given local port and address." alt="" coords="516,600,723,641"/>
-<area shape="poly" title=" " alt="" coords="468,642,500,637,501,642,469,647"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5a57fe6225af05846d8991303409a623" title="Creates a new socket with the specified address family, socket type, and protocol type,..." alt="" coords="516,665,723,706"/>
-<area shape="poly" title=" " alt="" coords="469,669,501,672,500,677,468,674"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a92b90a45f1a1a80eaf827a18151f3272" title="Asynchronously disconnects the specified socket." alt="" coords="1314,5,1521,46"/>
-<area shape="poly" title=" " alt="" coords="647,414,814,296,931,222,1053,154,1124,121,1181,100,1313,56,1335,49,1337,54,1315,62,1183,105,1126,126,1056,159,934,227,817,301,650,419"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="785,417,993,458"/>
-<area shape="poly" title=" " alt="" coords="724,435,770,435,770,440,724,440"/>
-<area shape="poly" title=" " alt="" coords="906,415,967,347,1062,251,1180,148,1245,99,1313,57,1325,50,1327,55,1315,61,1248,104,1184,152,1065,255,971,351,910,419"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="1055,417,1266,458"/>
-<area shape="poly" title=" " alt="" coords="993,435,1039,435,1039,440,993,440"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a791720080915c8d82d3cd1713da6589c" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="1057,640,1264,681"/>
-<area shape="poly" title=" " alt="" coords="917,457,1124,628,1121,632,914,461"/>
-<area shape="poly" title=" " alt="" coords="1171,416,1214,334,1263,225,1275,177,1278,136,1285,97,1295,78,1312,57,1316,54,1319,57,1316,61,1300,81,1290,99,1283,137,1280,177,1269,227,1219,336,1176,418"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a74e02078cbdaf63d36cd8ec75b45367e" title="Creates a sub&#45;sub node for the given client node and returns the created node." alt="" coords="1314,369,1521,410"/>
-<area shape="poly" title=" " alt="" coords="1266,415,1298,409,1299,414,1267,421"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="1841,539,2042,579"/>
-<area shape="poly" title=" " alt="" coords="1207,456,1276,485,1365,519,1466,551,1570,575,1630,582,1677,583,1785,575,1825,572,1826,577,1786,580,1677,588,1629,588,1569,580,1464,557,1363,524,1274,490,1205,461"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="2097,673,2315,699"/>
-<area shape="poly" title=" " alt="" coords="1181,457,1237,514,1274,545,1315,571,1344,585,1370,593,1417,600,1465,606,1492,614,1523,626,1537,635,1547,644,1556,653,1570,661,1641,682,1699,689,1758,688,1834,690,1941,692,2049,690,2082,689,2082,694,2049,695,1941,698,1834,695,1758,694,1698,694,1640,687,1568,665,1553,657,1543,648,1534,639,1520,631,1490,619,1464,612,1416,605,1369,598,1343,590,1313,576,1271,549,1233,518,1177,460"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="1850,331,2033,371"/>
-<area shape="poly" title=" " alt="" coords="1188,415,1252,371,1344,315,1452,262,1510,239,1569,222,1629,207,1678,201,1727,205,1787,222,1825,240,1860,265,1915,317,1911,321,1857,269,1822,245,1785,227,1726,210,1679,206,1630,213,1570,227,1512,244,1454,266,1346,320,1255,375,1191,419"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="2363,151,2570,191"/>
-<area shape="poly" title=" " alt="" coords="1173,415,1229,343,1268,302,1312,266,1379,227,1435,205,1569,170,1774,115,1859,98,1939,88,2020,85,2106,88,2203,99,2316,116,2362,127,2405,142,2403,147,2360,132,2315,122,2202,104,2105,94,2019,90,1939,93,1860,103,1775,120,1570,175,1436,210,1381,232,1316,271,1272,306,1233,347,1177,419"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a7f678a0df40d5d9619a8e4160ff843e7" title="Receives all the data from the socket of the specified size and returns it as a byte array." alt="" coords="1314,705,1521,746"/>
-<area shape="poly" title=" " alt="" coords="1175,457,1250,590,1290,655,1316,690,1323,695,1319,700,1312,694,1285,658,1245,592,1171,460"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a959e847d977940852803aca4160e2407" title="Asynchronously receives and sends data between the client socket and the subnode using the specified ..." alt="" coords="1574,481,1781,522"/>
-<area shape="poly" title=" " alt="" coords="1267,448,1559,484,1558,490,1266,453"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5c173a005e10d95dd971ca61810c4638" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="1314,640,1521,681"/>
-<area shape="poly" title=" " alt="" coords="1176,457,1230,535,1270,580,1316,620,1334,631,1331,635,1312,624,1266,584,1226,538,1171,460"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0a49349336eba588c326e037a09df979" title="Replies with an error to the request on the specified socket." alt="" coords="1314,71,1521,111"/>
-<area shape="poly" title=" " alt="" coords="1169,416,1312,128,1326,117,1329,121,1316,131,1174,418"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a74e11089eb6a14e6921d8f024e40f85b" title="Creates a sub node asynchronously and returns the created node." alt="" coords="1582,416,1773,457"/>
-<area shape="poly" title=" " alt="" coords="1522,406,1567,414,1566,419,1521,411"/>
-<area shape="poly" title=" " alt="" coords="1435,409,1458,438,1489,472,1527,505,1570,531,1633,552,1699,564,1765,569,1825,568,1826,574,1765,574,1699,569,1632,558,1568,536,1524,510,1485,476,1454,442,1431,412"/>
-<area shape="poly" title=" " alt="" coords="1431,409,1452,446,1483,492,1523,538,1571,575,1633,607,1698,632,1766,652,1835,666,1967,683,2082,687,2082,693,1967,688,1834,671,1765,657,1697,637,1630,612,1568,580,1519,542,1478,495,1447,449,1427,411"/>
-<area shape="poly" title=" " alt="" coords="1522,379,1835,356,1835,361,1522,385"/>
-<area shape="poly" title=" " alt="" coords="1428,367,1450,334,1481,293,1521,254,1568,222,1668,181,1773,153,1880,136,1987,128,2090,126,2187,131,2348,148,2347,153,2186,136,2090,132,1987,133,1881,141,1774,159,1669,186,1571,227,1525,258,1485,297,1454,337,1433,370"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#a030bdf9f1fd71038666ffc036e855412" title="Asynchronously sets the ID for type 2 node and returns the set ID." alt="" coords="1593,236,1762,277"/>
-<area shape="poly" title=" " alt="" coords="1444,367,1499,327,1568,287,1585,280,1587,285,1571,292,1502,331,1447,371"/>
-<area shape="rect" href="classxeno__rat__server_1_1_utils.html#aa71da7ab50cb922a86010128ab2b94f1" title="Sends a byte array with opcode 3 to the specified subNode if the SockType is 2." alt="" coords="1569,301,1786,342"/>
-<area shape="poly" title=" " alt="" coords="1498,366,1582,344,1583,349,1499,371"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="1834,456,2049,481"/>
-<area shape="poly" title=" " alt="" coords="1774,445,1819,451,1818,456,1773,451"/>
-<area shape="poly" title=" " alt="" coords="1754,455,1787,467,1894,528,1892,532,1785,472,1752,460"/>
-<area shape="poly" title=" " alt="" coords="1742,413,1861,374,1863,379,1744,418"/>
-<area shape="poly" title=" " alt="" coords="1987,578,2165,663,2163,668,1985,582"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="2103,556,2309,597"/>
-<area shape="poly" title=" " alt="" coords="2042,563,2088,566,2087,571,2042,568"/>
-<area shape="poly" title=" " alt="" coords="2163,674,2155,664,2160,654,2177,648,2206,646,2238,649,2254,656,2252,661,2237,654,2206,651,2178,654,2163,658,2160,664,2167,671"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="2363,556,2570,597"/>
-<area shape="poly" title=" " alt="" coords="2310,574,2348,574,2348,579,2310,579"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="2629,548,2836,589"/>
-<area shape="poly" title=" " alt="" coords="2294,595,2364,606,2467,613,2569,606,2647,591,2648,596,2570,611,2467,619,2363,611,2294,600"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="2367,671,2566,711"/>
-<area shape="poly" title=" " alt="" coords="2249,595,2364,650,2394,662,2392,667,2362,655,2246,599"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="2375,736,2558,777"/>
-<area shape="poly" title=" " alt="" coords="2259,595,2289,612,2317,635,2334,658,2341,680,2348,701,2365,721,2371,726,2368,730,2361,725,2344,703,2336,682,2329,660,2313,638,2286,617,2257,599"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="2363,425,2570,466"/>
-<area shape="poly" title=" " alt="" coords="2235,553,2292,515,2362,477,2379,470,2381,474,2365,481,2295,520,2238,558"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="2363,491,2570,531"/>
-<area shape="poly" title=" " alt="" coords="2289,553,2367,533,2368,538,2291,558"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="2633,671,2832,711"/>
-<area shape="poly" title=" " alt="" coords="2566,688,2618,688,2618,694,2566,694"/>
-<area shape="poly" title=" " alt="" coords="2541,464,2571,477,2595,492,2619,509,2675,538,2672,543,2616,513,2593,497,2568,481,2539,469"/>
-<area shape="poly" title=" " alt="" coords="1977,370,2016,401,2051,441,2064,465,2070,487,2075,526,2079,565,2086,585,2099,607,2130,639,2166,663,2163,667,2127,643,2095,610,2082,587,2074,566,2069,527,2065,488,2059,467,2047,445,2012,405,1974,374"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="2103,295,2309,335"/>
-<area shape="poly" title=" " alt="" coords="2033,336,2088,328,2088,334,2033,341"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="2367,360,2566,401"/>
-<area shape="poly" title=" " alt="" coords="2291,333,2368,353,2367,358,2289,339"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="2363,229,2570,270"/>
-<area shape="poly" title=" " alt="" coords="2289,291,2367,272,2368,277,2291,297"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="2375,295,2558,335"/>
-<area shape="poly" title=" " alt="" coords="2310,312,2359,312,2359,318,2310,318"/>
-<area shape="poly" title=" " alt="" coords="2237,292,2294,255,2362,215,2401,196,2404,201,2365,220,2297,259,2240,296"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="2633,393,2832,434"/>
-<area shape="poly" title=" " alt="" coords="2567,390,2618,397,2617,402,2566,395"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="2633,459,2832,499"/>
-<area shape="poly" title=" " alt="" coords="2541,399,2571,411,2595,428,2619,443,2635,450,2633,455,2616,448,2592,432,2568,416,2539,404"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="2633,263,2832,303"/>
-<area shape="poly" title=" " alt="" coords="2538,357,2568,345,2592,329,2616,314,2634,307,2636,311,2619,319,2595,334,2571,349,2540,362"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="2618,328,2847,369"/>
-<area shape="poly" title=" " alt="" coords="2566,366,2602,361,2602,367,2567,371"/>
-<area shape="poly" title=" " alt="" coords="1764,270,1788,288,1806,314,1815,339,1817,364,1816,389,1815,439,1821,465,1836,492,1855,512,1877,528,1874,533,1851,516,1832,495,1816,467,1809,440,1810,389,1812,364,1810,340,1801,316,1784,292,1761,275"/>
-<area shape="poly" title=" " alt="" coords="1749,275,1787,287,1877,322,1875,327,1785,292,1748,280"/>
-<area shape="poly" title=" " alt="" coords="1762,253,2348,248,2348,253,1762,258"/>
-<area shape="poly" title=" " alt="" coords="1762,243,1833,234,2347,180,2348,185,1834,239,1762,248"/>
-<area shape="poly" title=" " alt="" coords="1786,331,1835,337,1834,342,1786,336"/>
-<area shape="poly" title=" " alt="" coords="1781,486,1819,481,1819,486,1782,491"/>
-<area shape="poly" title=" " alt="" coords="1775,520,1830,532,1829,537,1774,525"/>
-<area shape="poly" title=" " alt="" coords="1756,478,1784,466,1851,424,1905,380,1909,384,1854,428,1787,471,1758,483"/>
-<area shape="poly" title=" " alt="" coords="1244,679,1321,698,1319,704,1243,684"/>
-<area shape="poly" title=" " alt="" coords="1265,658,1298,658,1298,663,1265,663"/>
-<area shape="poly" title=" " alt="" coords="993,831,1416,831,1679,831,1785,830,1867,822,1948,805,2048,773,2116,741,2173,706,2176,710,2119,745,2050,777,1949,810,1868,828,1785,835,1679,836,1416,836,993,836"/>
-<area shape="poly" title=" " alt="" coords="1007,771,1199,777,1416,780,1679,780,1745,778,1811,772,1942,751,2058,725,2147,701,2148,706,2059,730,1943,756,1812,777,1745,783,1679,786,1416,786,1199,782,1007,776"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_icgraph">
-<area shape="rect" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a95f59e9e3ef961e4a4937bf2c822757c_icgraph.svg" width="474" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1589,25 +817,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a7f678a0df40d5d9619a8e4160ff843e7_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a7f678a0df40d5d9619a8e4160ff843e7_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a7f678a0df40d5d9619a8e4160ff843e7_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a7f678a0df40d5d9619a8e4160ff843e7_icgraph">
-<area shape="rect" title="Receives all the data from the socket of the specified size and returns it as a byte array." alt="" coords="1541,39,1749,79"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="1282,5,1493,46"/>
-<area shape="poly" title=" " alt="" coords="1525,46,1494,42,1494,37,1526,41"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a791720080915c8d82d3cd1713da6589c" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="1284,71,1491,111"/>
-<area shape="poly" title=" " alt="" coords="1526,76,1492,81,1491,75,1526,71"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,39,1234,79"/>
-<area shape="poly" title=" " alt="" coords="1267,44,1235,48,1234,43,1266,39"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,39,979,79"/>
-<area shape="poly" title=" " alt="" coords="1011,62,979,62,979,56,1011,56"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,39,723,79"/>
-<area shape="poly" title=" " alt="" coords="756,62,724,62,724,56,756,56"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,39,468,79"/>
-<area shape="poly" title=" " alt="" coords="500,62,468,62,468,56,500,56"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,39,213,79"/>
-<area shape="poly" title=" " alt="" coords="245,62,213,62,213,56,245,56"/>
-<area shape="poly" title=" " alt="" coords="1268,79,1234,75,1235,69,1269,74"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a7f678a0df40d5d9619a8e4160ff843e7_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1664,75 +874,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_cgraph">
-<area shape="rect" title="Asynchronously receives and sends data between the client socket and the subnode using the specified ..." alt="" coords="5,304,213,345"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a18e3b7528d2c6e45bb38ce24e319484e" title="Checks if the socket is connected and returns a boolean value indicating the connection status." alt="" coords="261,254,476,280"/>
-<area shape="poly" title=" " alt="" coords="204,301,291,281,292,286,205,306"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a3dcb832502d4cd1dd580897265b2da7b" title="Asynchronously receives data from the socket and returns the received data as a byte array." alt="" coords="268,304,469,345"/>
-<area shape="poly" title=" " alt="" coords="213,322,253,322,253,327,213,327"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a816e267eb31862d38c21e5faaae3061d" title="Sends the provided data asynchronously and returns a boolean indicating the success of the operation." alt="" coords="277,369,460,410"/>
-<area shape="poly" title=" " alt="" coords="193,343,271,362,269,368,192,348"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="524,344,742,369"/>
-<area shape="poly" title=" " alt="" coords="469,334,509,339,508,344,469,339"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a40a6f3b7eb555e8d688ea5c0074ffa2c" title="Asynchronously receives data and processes it according to the protocol, then returns the processed d..." alt="" coords="530,201,736,242"/>
-<area shape="poly" title=" " alt="" coords="443,301,475,290,575,247,577,251,477,295,445,306"/>
-<area shape="poly" title=" " alt="" coords="590,345,582,335,587,325,604,319,633,317,665,320,681,327,679,332,664,325,633,322,605,324,590,329,587,334,594,341"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a53169a2098514698865b69c8fab12f77" title="Truncates the input byte array starting from the specified offset and returns the truncated byte arra..." alt="" coords="790,267,997,307"/>
-<area shape="poly" title=" " alt="" coords="718,240,795,260,794,265,716,245"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a68836e871124cbda8a644223a73421d0" title="Converts the specified byte array to an integer value." alt="" coords="1056,225,1263,266"/>
-<area shape="poly" title=" " alt="" coords="660,240,717,282,753,302,791,316,848,330,893,333,939,328,996,316,1056,297,1109,271,1112,276,1058,302,997,322,939,333,893,338,847,335,790,322,751,307,714,286,657,245"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ad992bb75126d7c346fe7884dbbcf8ad8" title="Decompresses the input buffer using the LZNT1 compression format and returns the decompressed data." alt="" coords="794,5,993,46"/>
-<area shape="poly" title=" " alt="" coords="647,199,704,130,744,91,789,57,800,51,802,55,792,61,747,95,708,134,651,203"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#ae2a6537578e2140511afe92f8ad5e964" title="Decrypts the input data using the provided key and returns the decrypted result." alt="" coords="802,71,985,111"/>
-<area shape="poly" title=" " alt="" coords="662,199,719,160,789,122,806,115,808,120,792,127,722,165,665,203"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#aeefcafd750efab21954bd772b8ae565d" title="Parses the header from the provided byte array and returns the parsed header object." alt="" coords="790,136,997,177"/>
-<area shape="poly" title=" " alt="" coords="716,198,794,178,795,184,718,203"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#acc7e34649fee5060867a2321dd15d854" title="Asynchronously receives all the data of the specified size from the connected socket and returns the ..." alt="" coords="790,201,997,242"/>
-<area shape="poly" title=" " alt="" coords="737,219,775,219,775,224,737,224"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1c901d319793d3855012549e6a18fe53" title="Decompresses a buffer using the specified compression format and returns the decompressed data." alt="" coords="1060,5,1259,46"/>
-<area shape="poly" title=" " alt="" coords="993,23,1045,23,1045,28,993,28"/>
-<area shape="poly" title=" " alt="" coords="960,175,998,187,1085,217,1083,222,996,192,959,180"/>
-<area shape="poly" title=" " alt="" coords="460,376,511,369,511,374,460,381"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a85ca8385d023521cdb86ff8ae688adee" title="Sends the provided data asynchronously over the socket." alt="" coords="530,447,736,487"/>
-<area shape="poly" title=" " alt="" coords="441,408,547,439,546,444,440,413"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a0f3f31a2fe34d92bf04538b2fdf529e0" title="Compresses the input buffer using the LZNT1 compression format and returns the compressed data." alt="" coords="794,512,993,553"/>
-<area shape="poly" title=" " alt="" coords="718,485,795,505,794,510,716,491"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a4f2e993b63cf1bba877781c9be2ed496" title="Concatenates two byte arrays and returns the result." alt="" coords="790,577,997,618"/>
-<area shape="poly" title=" " alt="" coords="665,486,722,524,792,562,808,569,806,574,789,567,719,528,662,490"/>
-<area shape="rect" href="classxeno__rat__server_1_1_encryption.html#a0fafecaba804cb57663bdbb4dcc4e93f" title="Encrypts the input data using the provided key and returns the encrypted result." alt="" coords="802,381,985,422"/>
-<area shape="poly" title=" " alt="" coords="716,443,794,424,795,429,718,449"/>
-<area shape="rect" href="classxeno__rat__server_1_1_socket_handler.html#a7d019c5e4cbd0138d155156c7a7c5a8f" title="Converts an integer to a byte array." alt="" coords="790,447,997,487"/>
-<area shape="poly" title=" " alt="" coords="737,464,775,464,775,470,737,470"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ae86c8cb19fb340173e6b06816907c485" title="Allocates the specified number of bytes in the local heap and returns a pointer to the allocated memo..." alt="" coords="1060,544,1259,585"/>
-<area shape="poly" title=" " alt="" coords="994,542,1045,548,1044,553,993,547"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#ab527e0a594d96bbaa1a4b1541888aa74" title="Frees the memory block allocated by LocalAlloc and LocalReAlloc and invalidates the handle." alt="" coords="1060,609,1259,650"/>
-<area shape="poly" title=" " alt="" coords="967,551,998,563,1022,579,1046,594,1063,601,1061,606,1043,599,1019,583,995,568,965,556"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a1f9bb20d96d13bdc4d0f90e2b68d4343" title="Compresses the input buffer using the specified compression format and returns the compressed data in..." alt="" coords="1060,413,1259,454"/>
-<area shape="poly" title=" " alt="" coords="966,509,995,497,1019,481,1043,465,1060,457,1062,462,1046,469,1022,485,998,501,968,514"/>
-<area shape="rect" href="classxeno__rat__server_1_1_compression.html#a5ca090d7b0887e40753bad9800c321e7" title="Retrieves the size of the workspace required for compression." alt="" coords="1045,479,1274,519"/>
-<area shape="poly" title=" " alt="" coords="993,517,1029,513,1029,518,994,523"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_icgraph">
-<area shape="rect" title="Asynchronously receives and sends data between the client socket and the subnode using the specified ..." alt="" coords="1541,5,1749,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="1282,5,1493,46"/>
-<area shape="poly" title=" " alt="" coords="1525,28,1494,28,1494,23,1525,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,5,1234,46"/>
-<area shape="poly" title=" " alt="" coords="1267,28,1234,28,1234,23,1267,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,5,979,46"/>
-<area shape="poly" title=" " alt="" coords="1011,28,979,28,979,23,1011,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a959e847d977940852803aca4160e2407_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1777,25 +924,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5c173a005e10d95dd971ca61810c4638_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5c173a005e10d95dd971ca61810c4638_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5c173a005e10d95dd971ca61810c4638_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5c173a005e10d95dd971ca61810c4638_icgraph">
-<area shape="rect" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="1541,39,1749,79"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="1282,5,1493,46"/>
-<area shape="poly" title=" " alt="" coords="1525,46,1494,42,1494,37,1526,41"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a791720080915c8d82d3cd1713da6589c" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="1284,71,1491,111"/>
-<area shape="poly" title=" " alt="" coords="1526,76,1492,81,1491,75,1526,71"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,39,1234,79"/>
-<area shape="poly" title=" " alt="" coords="1267,44,1235,48,1234,43,1266,39"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,39,979,79"/>
-<area shape="poly" title=" " alt="" coords="1011,62,979,62,979,56,1011,56"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,39,723,79"/>
-<area shape="poly" title=" " alt="" coords="756,62,724,62,724,56,756,56"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,39,468,79"/>
-<area shape="poly" title=" " alt="" coords="500,62,468,62,468,56,500,56"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,39,213,79"/>
-<area shape="poly" title=" " alt="" coords="245,62,213,62,213,56,245,56"/>
-<area shape="poly" title=" " alt="" coords="1268,79,1234,75,1235,69,1269,74"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a5c173a005e10d95dd971ca61810c4638_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1840,22 +969,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0a49349336eba588c326e037a09df979_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0a49349336eba588c326e037a09df979_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0a49349336eba588c326e037a09df979_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0a49349336eba588c326e037a09df979_icgraph">
-<area shape="rect" title="Replies with an error to the request on the specified socket." alt="" coords="1541,5,1749,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a26302acffe4c2620161fcb0e2ab18068" title="Handles the connection and proxy for the given client socket." alt="" coords="1282,5,1493,46"/>
-<area shape="poly" title=" " alt="" coords="1525,28,1494,28,1494,23,1525,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,5,1234,46"/>
-<area shape="poly" title=" " alt="" coords="1267,28,1234,28,1234,23,1267,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,5,979,46"/>
-<area shape="poly" title=" " alt="" coords="1011,28,979,28,979,23,1011,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a0a49349336eba588c326e037a09df979_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1899,25 +1013,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_cgraph">
-<area shape="rect" title="Handles the form closing event and disconnects all nodes in the killnodes list, clears the killnodes ..." alt="" coords="5,22,241,63"/>
-<area shape="rect" href="classxeno__rat__server_1_1_node.html#a8814edd98b6463f49812be32d5928763" title="Sets the isDisposed flag to true and disconnects the socket, disposes resources, and triggers the OnD..." alt="" coords="289,29,507,55"/>
-<area shape="poly" title=" " alt="" coords="241,40,273,40,273,45,241,45"/>
-<area shape="poly" title=" " alt="" coords="353,31,344,21,349,11,367,5,398,3,433,6,449,13,447,18,431,11,398,8,368,10,353,15,349,20,357,27"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_cgraph.svg" width="512" height="68"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_icgraph">
-<area shape="rect" title="Handles the form closing event and disconnects all nodes in the killnodes list, clears the killnodes ..." alt="" coords="516,5,751,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_aafa70de60fd0b4e768346dfdb7c684d8_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1960,14 +1061,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a9f05eef99211d284aec1d35a180c8a44_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a9f05eef99211d284aec1d35a180c8a44_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a9f05eef99211d284aec1d35a180c8a44_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a9f05eef99211d284aec1d35a180c8a44_icgraph">
-<area shape="rect" title="Sets the DoubleBuffered property of the listView1 control to true, which reduces flickering during re..." alt="" coords="516,5,723,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a9f05eef99211d284aec1d35a180c8a44_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2007,32 +1101,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_cgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_cgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_cgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_cgraph">
-<area shape="rect" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="5,39,213,79"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a7f678a0df40d5d9619a8e4160ff843e7" title="Receives all the data from the socket of the specified size and returns it as a byte array." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="213,43,245,39,246,44,213,48"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a5c173a005e10d95dd971ca61810c4638" title="Sends a reply method selection to the specified socket and returns a boolean indicating the success o..." alt="" coords="261,71,468,111"/>
-<area shape="poly" title=" " alt="" coords="213,69,246,73,245,79,213,75"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_cgraph.svg" width="474" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_icgraph">
-<area shape="rect" title="Starts the negotiation process with the client socket for SOCKS5 protocol." alt="" coords="1282,5,1489,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a0f3cfb17ec6b1468b17cc3c2556a7502" title="Handles the creation of a proxy for the given client socket by initiating negotiations,..." alt="" coords="1027,5,1234,46"/>
-<area shape="poly" title=" " alt="" coords="1266,28,1234,28,1234,23,1266,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a90f9b25ac9fdd020960cd8f32cd47547" title="Asynchronously accepts incoming connections and handles proxy creation." alt="" coords="771,5,979,46"/>
-<area shape="poly" title=" " alt="" coords="1011,28,979,28,979,23,1011,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a1700c2286e91f23dfdacc46888ac46ca" title="Handles the button click event to create and bind a socket to the specified port, and start an accept..." alt="" coords="516,5,723,46"/>
-<area shape="poly" title=" " alt="" coords="756,28,724,28,724,23,756,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#a95f59e9e3ef961e4a4937bf2c822757c" title="Initializes the components of the form including text boxes, labels, buttons, and list view." alt="" coords="261,5,468,46"/>
-<area shape="poly" title=" " alt="" coords="500,28,468,28,468,23,500,23"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_a791720080915c8d82d3cd1713da6589c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2071,12 +1145,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_aac67927b84309f9f7c3131d73088bd98_icgraph.png" border="0" usemap="#aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_aac67927b84309f9f7c3131d73088bd98_icgraph" alt=""/></div>
-<map name="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_aac67927b84309f9f7c3131d73088bd98_icgraph" id="aclassxeno__rat__server_1_1_forms_1_1_reverse___proxy_aac67927b84309f9f7c3131d73088bd98_icgraph">
-<area shape="rect" title="Handles the disconnection of a node." alt="" coords="261,5,468,46"/>
-<area shape="rect" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html#afa100a6189f5dff458dfd7da71caaa97" title=" " alt="" coords="5,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="245,28,213,28,213,23,245,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classxeno__rat__server_1_1_forms_1_1_reverse___proxy_aac67927b84309f9f7c3131d73088bd98_icgraph.svg" width="474" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2393,11 +1462,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacexeno__rat__server.html">xeno_rat_server</a></li><li class="navelem"><a class="el" href="namespacexeno__rat__server_1_1_forms.html">Forms</a></li><li class="navelem"><a class="el" href="classxeno__rat__server_1_1_forms_1_1_reverse___proxy.html">Reverse_Proxy</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

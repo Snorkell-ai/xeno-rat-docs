@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Codecs.G722Codec Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -111,12 +135,7 @@ $(function(){initNavTree('class_n_audio_1_1_codecs_1_1_g722_codec.html',''); ini
 <div class="dynheader">
 Collaboration diagram for NAudio.Codecs.G722Codec:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_codecs_1_1_g722_codec__coll__graph.png" border="0" usemap="#a_n_audio_8_codecs_8_g722_codec_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_codecs_8_g722_codec_coll__map" id="a_n_audio_8_codecs_8_g722_codec_coll__map">
-<area shape="rect" title="SpanDSP &#45; a series of DSP components for telephony." alt="" coords="5,284,183,489"/>
-<area shape="rect" title=" " alt="" coords="71,5,117,71"/>
-<area shape="poly" title=" " alt="" coords="97,71,97,267,91,267,91,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_codecs_1_1_g722_codec__coll__graph.svg" width="188" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -223,24 +242,12 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_cgraph" id="aclass_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_cgraph">
-<area shape="rect" title="Performs various operations related to G722 codec state for a specific band and input value." alt="" coords="5,5,196,46"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#a706ff80aae4ddc20dc5f042fde92aa50" title="Converts an integer amplitude to a 16&#45;bit signed integer, saturating the result if necessary." alt="" coords="244,5,434,46"/>
-<area shape="poly" title=" " alt="" coords="196,23,228,23,228,28,196,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_cgraph.svg" width="440" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_icgraph" id="aclass_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_icgraph">
-<area shape="rect" title="Performs various operations related to G722 codec state for a specific band and input value." alt="" coords="244,39,434,79"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#ab6035ffd28f76a6143a34775778d0d3d" title="Decodes the input G722 data and returns the decoded output in the output buffer." alt="" coords="5,5,196,46"/>
-<area shape="poly" title=" " alt="" coords="228,46,196,42,196,36,228,41"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#a25441ab8ca66d98499102d8852c7c0cd" title="Encodes the input PCM samples using the G.722 algorithm and stores the result in the output buffer." alt="" coords="5,71,196,111"/>
-<area shape="poly" title=" " alt="" coords="228,77,196,81,196,76,228,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_codecs_1_1_g722_codec_af579e8312d5f18f37823e2f8f07ba0b1_icgraph.svg" width="440" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -297,14 +304,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_codecs_1_1_g722_codec_ab6035ffd28f76a6143a34775778d0d3d_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_codecs_1_1_g722_codec_ab6035ffd28f76a6143a34775778d0d3d_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_codecs_1_1_g722_codec_ab6035ffd28f76a6143a34775778d0d3d_cgraph" id="aclass_n_audio_1_1_codecs_1_1_g722_codec_ab6035ffd28f76a6143a34775778d0d3d_cgraph">
-<area shape="rect" title="Decodes the input G722 data and returns the decoded output in the output buffer." alt="" coords="5,5,196,46"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#af579e8312d5f18f37823e2f8f07ba0b1" title="Performs various operations related to G722 codec state for a specific band and input value." alt="" coords="244,5,434,46"/>
-<area shape="poly" title=" " alt="" coords="196,23,228,23,228,28,196,28"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#a706ff80aae4ddc20dc5f042fde92aa50" title="Converts an integer amplitude to a 16&#45;bit signed integer, saturating the result if necessary." alt="" coords="482,5,672,46"/>
-<area shape="poly" title=" " alt="" coords="435,23,467,23,467,28,435,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_codecs_1_1_g722_codec_ab6035ffd28f76a6143a34775778d0d3d_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -361,15 +361,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_codecs_1_1_g722_codec_a25441ab8ca66d98499102d8852c7c0cd_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_codecs_1_1_g722_codec_a25441ab8ca66d98499102d8852c7c0cd_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_codecs_1_1_g722_codec_a25441ab8ca66d98499102d8852c7c0cd_cgraph" id="aclass_n_audio_1_1_codecs_1_1_g722_codec_a25441ab8ca66d98499102d8852c7c0cd_cgraph">
-<area shape="rect" title="Encodes the input PCM samples using the G.722 algorithm and stores the result in the output buffer." alt="" coords="5,35,196,75"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#af579e8312d5f18f37823e2f8f07ba0b1" title="Performs various operations related to G722 codec state for a specific band and input value." alt="" coords="244,5,434,46"/>
-<area shape="poly" title=" " alt="" coords="196,41,228,37,229,42,197,46"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#a706ff80aae4ddc20dc5f042fde92aa50" title="Converts an integer amplitude to a 16&#45;bit signed integer, saturating the result if necessary." alt="" coords="482,35,672,75"/>
-<area shape="poly" title=" " alt="" coords="196,54,244,55,434,55,467,55,467,60,434,60,244,60,196,60"/>
-<area shape="poly" title=" " alt="" coords="435,35,467,39,466,44,434,40"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_codecs_1_1_g722_codec_a25441ab8ca66d98499102d8852c7c0cd_cgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -408,17 +400,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_codecs_1_1_g722_codec_a706ff80aae4ddc20dc5f042fde92aa50_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_codecs_1_1_g722_codec_a706ff80aae4ddc20dc5f042fde92aa50_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_codecs_1_1_g722_codec_a706ff80aae4ddc20dc5f042fde92aa50_icgraph" id="aclass_n_audio_1_1_codecs_1_1_g722_codec_a706ff80aae4ddc20dc5f042fde92aa50_icgraph">
-<area shape="rect" title="Converts an integer amplitude to a 16&#45;bit signed integer, saturating the result if necessary." alt="" coords="482,43,672,83"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#af579e8312d5f18f37823e2f8f07ba0b1" title="Performs various operations related to G722 codec state for a specific band and input value." alt="" coords="244,13,434,54"/>
-<area shape="poly" title=" " alt="" coords="466,52,434,48,435,43,467,47"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#a25441ab8ca66d98499102d8852c7c0cd" title="Encodes the input PCM samples using the G.722 algorithm and stores the result in the output buffer." alt="" coords="5,71,196,111"/>
-<area shape="poly" title=" " alt="" coords="467,72,196,88,196,83,467,67"/>
-<area shape="rect" href="class_n_audio_1_1_codecs_1_1_g722_codec.html#ab6035ffd28f76a6143a34775778d0d3d" title="Decodes the input G722 data and returns the decoded output in the output buffer." alt="" coords="5,5,196,46"/>
-<area shape="poly" title=" " alt="" coords="228,33,196,32,196,26,228,27"/>
-<area shape="poly" title=" " alt="" coords="237,61,189,73,187,67,236,56"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_codecs_1_1_g722_codec_a706ff80aae4ddc20dc5f042fde92aa50_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -759,11 +741,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_codecs.html">Codecs</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_codecs_1_1_g722_codec.html">G722Codec</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

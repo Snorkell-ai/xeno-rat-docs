@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.Wave.WaveFileWriter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -114,41 +138,12 @@ $(function(){initNavTree('class_n_audio_1_1_wave_1_1_wave_file_writer.html','');
 <div class="dynheader">
 Inheritance diagram for NAudio.Wave.WaveFileWriter:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer__inherit__graph.png" border="0" usemap="#a_n_audio_8_wave_8_wave_file_writer_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_n_audio_8_wave_8_wave_file_writer_inherit__map" id="a_n_audio_8_wave_8_wave_file_writer_inherit__map">
-<area shape="rect" title="This class writes WAV data to a .wav file on disk." alt="" coords="17,119,203,944"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_cue_wave_file_writer.html" title="A wave file writer that adds cue support." alt="" coords="5,992,215,1117"/>
-<area shape="poly" title=" " alt="" coords="113,959,113,992,107,992,107,959"/>
-<area shape="rect" title=" " alt="" coords="83,5,137,71"/>
-<area shape="poly" title=" " alt="" coords="113,86,113,119,107,119,107,86"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NAudio.Wave.WaveFileWriter:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer__coll__graph.png" border="0" usemap="#a_n_audio_8_wave_8_wave_file_writer_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_wave_8_wave_file_writer_coll__map" id="a_n_audio_8_wave_8_wave_file_writer_coll__map">
-<area shape="rect" title="This class writes WAV data to a .wav file on disk." alt="" coords="136,777,321,1442"/>
-<area shape="rect" title=" " alt="" coords="5,399,60,464"/>
-<area shape="poly" title=" " alt="" coords="29,479,23,535,20,604,24,679,37,752,56,811,80,869,139,976,134,978,75,872,51,813,31,754,19,679,15,604,18,535,23,478"/>
-<area shape="poly" title=" " alt="" coords="41,463,66,590,106,752,133,841,128,842,101,754,61,591,36,464"/>
-<area shape="rect" title=" " alt="" coords="101,399,185,464"/>
-<area shape="poly" title=" " alt="" coords="150,463,186,753,187,760,182,761,181,753,145,464"/>
-<area shape="rect" title=" " alt="" coords="210,399,247,464"/>
-<area shape="poly" title=" " alt="" coords="231,464,231,760,226,760,226,464"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html" title="Represents a Wave file format." alt="" coords="272,179,471,684"/>
-<area shape="poly" title=" " alt="" coords="371,684,361,754,329,871,324,869,355,752,366,683"/>
-<area shape="rect" title=" " alt="" coords="166,5,307,71"/>
-<area shape="poly" title=" " alt="" coords="245,70,265,154,269,169,264,171,259,155,240,71"/>
-<area shape="rect" title=" " alt="" coords="351,5,392,71"/>
-<area shape="poly" title=" " alt="" coords="374,71,374,162,369,162,369,71"/>
-<area shape="rect" title=" " alt="" coords="485,5,511,71"/>
-<area shape="poly" title=" " alt="" coords="493,71,471,155,469,163,464,162,466,154,488,70"/>
-<area shape="rect" title=" " alt="" coords="495,399,541,464"/>
-<area shape="poly" title=" " alt="" coords="520,464,513,564,502,625,486,685,454,762,416,837,375,908,333,972,329,969,370,905,412,834,449,760,481,683,497,624,507,563,515,464"/>
-<area shape="rect" title=" " alt="" coords="575,399,613,464"/>
-<area shape="poly" title=" " alt="" coords="597,464,595,520,586,595,569,676,556,716,539,754,495,828,444,898,389,961,336,1016,332,1012,385,957,439,894,491,825,534,752,551,714,564,674,581,594,589,520,592,464"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -322,32 +317,12 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_cgraph">
-<area shape="rect" title="WaveFileWriter that actually writes to a stream." alt="" coords="5,63,202,103"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a878304d9021095d970bced3f7a13b98d" title="Creates a fact chunk in the output stream if it does not already exist." alt="" coords="268,5,465,46"/>
-<area shape="poly" title=" " alt="" coords="199,59,255,47,256,52,200,65"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a21fddf07498dcaee579f2a552ab8e4e8" title="Serializes the wave format data and writes it to the specified BinaryWriter." alt="" coords="250,70,483,96"/>
-<area shape="poly" title=" " alt="" coords="202,80,234,80,234,86,202,86"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#adad938c56bbade273ab89ad84fd3024c" title="Writes the data chunk header to the output stream." alt="" coords="268,120,465,161"/>
-<area shape="poly" title=" " alt="" coords="200,101,256,114,255,119,199,107"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="531,5,727,46"/>
-<area shape="poly" title=" " alt="" coords="465,23,515,23,515,28,465,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_cgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_icgraph">
-<area shape="rect" title="WaveFileWriter that actually writes to a stream." alt="" coords="494,39,690,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a564655abe5b5fb0f90e4b10bf5f83270" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="478,46,446,42,447,36,479,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aa314b7eff712e1e522f2b481dbbad6e7" title="Writes the audio data from the specified sourceProvider &#160;to the outStream &#160;in WAV format." alt="" coords="250,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="479,77,447,81,446,75,478,71"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a2e82a51972b97bf9ca404259146c48b2" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,5,202,46"/>
-<area shape="poly" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a4c203fd25befc1c773f4a3818d3b968d_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -417,22 +392,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a1fb5e2e471f0015a03c9b203900374d9_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a1fb5e2e471f0015a03c9b203900374d9_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a1fb5e2e471f0015a03c9b203900374d9_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a1fb5e2e471f0015a03c9b203900374d9_cgraph">
-<area shape="rect" title="Finaliser &#45; should only be called if the user forgot to close this WaveFileWriter." alt="" coords="5,71,202,111"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aea4aae5af23f69630e9a4028555462b6" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="250,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="202,88,234,88,234,94,202,94"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ab50c1f10814b936065f8d7f5d3584fa2" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="494,71,690,111"/>
-<area shape="poly" title=" " alt="" coords="446,88,478,88,478,94,446,94"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ae2171b19388f0cac6b6d6fc9db3b1a6b" title="Updates the data chunk size in the binary writer at the specified position." alt="" coords="738,5,935,46"/>
-<area shape="poly" title=" " alt="" coords="670,68,742,48,744,53,671,73"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ad95029cf35ce3067e0443e3442d88971" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="738,71,935,111"/>
-<area shape="poly" title=" " alt="" coords="691,88,723,88,723,94,691,94"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aaadca2c6d420c19cf9c5642a7c2a6cda" title="Updates the RIFF chunk in the output stream with the correct size." alt="" coords="738,136,935,177"/>
-<area shape="poly" title=" " alt="" coords="671,109,744,129,742,134,670,114"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="983,71,1179,111"/>
-<area shape="poly" title=" " alt="" coords="935,88,967,88,967,94,935,94"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a1fb5e2e471f0015a03c9b203900374d9_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -466,28 +426,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_cgraph">
-<area shape="rect" title="Creates a fact chunk in the output stream if it does not already exist." alt="" coords="5,5,202,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_cgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_icgraph">
-<area shape="rect" title="Creates a fact chunk in the output stream if it does not already exist." alt="" coords="738,39,935,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="494,39,690,79"/>
-<area shape="poly" title=" " alt="" coords="723,62,691,62,691,56,723,56"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a564655abe5b5fb0f90e4b10bf5f83270" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="478,46,446,42,447,36,479,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aa314b7eff712e1e522f2b481dbbad6e7" title="Writes the audio data from the specified sourceProvider &#160;to the outStream &#160;in WAV format." alt="" coords="250,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="479,77,447,81,446,75,478,71"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a2e82a51972b97bf9ca404259146c48b2" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,5,202,46"/>
-<area shape="poly" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a878304d9021095d970bced3f7a13b98d_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -537,32 +481,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_cgraph">
-<area shape="rect" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="5,35,202,75"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="250,13,474,39"/>
-<area shape="poly" title=" " alt="" coords="202,41,234,38,234,43,203,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="264,63,460,103"/>
-<area shape="poly" title=" " alt="" coords="203,63,248,68,248,73,202,68"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a878304d9021095d970bced3f7a13b98d" title="Creates a fact chunk in the output stream if it does not already exist." alt="" coords="541,5,737,46"/>
-<area shape="poly" title=" " alt="" coords="460,60,525,46,526,52,461,65"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a21fddf07498dcaee579f2a552ab8e4e8" title="Serializes the wave format data and writes it to the specified BinaryWriter." alt="" coords="522,70,755,96"/>
-<area shape="poly" title=" " alt="" coords="461,80,506,80,506,86,461,86"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#adad938c56bbade273ab89ad84fd3024c" title="Writes the data chunk header to the output stream." alt="" coords="541,120,737,161"/>
-<area shape="poly" title=" " alt="" coords="461,101,526,114,525,120,460,106"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="803,5,1000,46"/>
-<area shape="poly" title=" " alt="" coords="737,23,788,23,788,28,737,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_cgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_icgraph">
-<area shape="rect" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,5,446,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a2e82a51972b97bf9ca404259146c48b2" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,5,202,46"/>
-<area shape="poly" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a564655abe5b5fb0f90e4b10bf5f83270_icgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -606,24 +530,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a2e82a51972b97bf9ca404259146c48b2_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a2e82a51972b97bf9ca404259146c48b2_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a2e82a51972b97bf9ca404259146c48b2_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a2e82a51972b97bf9ca404259146c48b2_cgraph">
-<area shape="rect" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,35,202,75"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a564655abe5b5fb0f90e4b10bf5f83270" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,35,446,75"/>
-<area shape="poly" title=" " alt="" coords="202,52,234,52,234,58,202,58"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="494,13,718,39"/>
-<area shape="poly" title=" " alt="" coords="446,41,478,38,479,43,447,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="508,63,704,103"/>
-<area shape="poly" title=" " alt="" coords="447,63,493,68,492,73,446,68"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a878304d9021095d970bced3f7a13b98d" title="Creates a fact chunk in the output stream if it does not already exist." alt="" coords="785,5,981,46"/>
-<area shape="poly" title=" " alt="" coords="704,60,769,46,770,52,705,65"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a21fddf07498dcaee579f2a552ab8e4e8" title="Serializes the wave format data and writes it to the specified BinaryWriter." alt="" coords="766,70,1000,96"/>
-<area shape="poly" title=" " alt="" coords="705,80,751,80,751,86,705,86"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#adad938c56bbade273ab89ad84fd3024c" title="Writes the data chunk header to the output stream." alt="" coords="785,120,981,161"/>
-<area shape="poly" title=" " alt="" coords="705,101,770,114,769,120,704,106"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="1048,5,1244,46"/>
-<area shape="poly" title=" " alt="" coords="982,23,1032,23,1032,28,982,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a2e82a51972b97bf9ca404259146c48b2_cgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -668,32 +575,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_cgraph">
-<area shape="rect" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="5,71,202,111"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ab50c1f10814b936065f8d7f5d3584fa2" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="250,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="202,88,234,88,234,94,202,94"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ae2171b19388f0cac6b6d6fc9db3b1a6b" title="Updates the data chunk size in the binary writer at the specified position." alt="" coords="494,5,690,46"/>
-<area shape="poly" title=" " alt="" coords="426,68,498,48,499,53,427,73"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ad95029cf35ce3067e0443e3442d88971" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="494,71,690,111"/>
-<area shape="poly" title=" " alt="" coords="446,88,478,88,478,94,446,94"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aaadca2c6d420c19cf9c5642a7c2a6cda" title="Updates the RIFF chunk in the output stream with the correct size." alt="" coords="494,136,690,177"/>
-<area shape="poly" title=" " alt="" coords="427,109,499,129,498,134,426,114"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="738,71,935,111"/>
-<area shape="poly" title=" " alt="" coords="691,88,723,88,723,94,691,94"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_icgraph">
-<area shape="rect" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="250,39,446,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_recorder.html#aed186a830758160c74ec883780dc79b8" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="6,5,201,46"/>
-<area shape="poly" title=" " alt="" coords="234,46,201,42,201,36,235,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a1fb5e2e471f0015a03c9b203900374d9" title="Finaliser &#45; should only be called if the user forgot to close this WaveFileWriter." alt="" coords="5,71,202,111"/>
-<area shape="poly" title=" " alt="" coords="235,77,203,81,202,75,234,71"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_aea4aae5af23f69630e9a4028555462b6_icgraph.svg" width="452" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -726,20 +613,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a36afa5daa41363d0303dd37a363f16d9_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a36afa5daa41363d0303dd37a363f16d9_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a36afa5daa41363d0303dd37a363f16d9_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a36afa5daa41363d0303dd37a363f16d9_cgraph">
-<area shape="rect" title="Updates the header and flushes the underlying stream." alt="" coords="5,71,202,111"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ab50c1f10814b936065f8d7f5d3584fa2" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="250,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="202,88,234,88,234,94,202,94"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ae2171b19388f0cac6b6d6fc9db3b1a6b" title="Updates the data chunk size in the binary writer at the specified position." alt="" coords="494,5,690,46"/>
-<area shape="poly" title=" " alt="" coords="426,68,498,48,499,53,427,73"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ad95029cf35ce3067e0443e3442d88971" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="494,71,690,111"/>
-<area shape="poly" title=" " alt="" coords="446,88,478,88,478,94,446,94"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aaadca2c6d420c19cf9c5642a7c2a6cda" title="Updates the RIFF chunk in the output stream with the correct size." alt="" coords="494,136,690,177"/>
-<area shape="poly" title=" " alt="" coords="427,109,499,129,498,134,426,114"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="738,71,935,111"/>
-<area shape="poly" title=" " alt="" coords="691,88,723,88,723,94,691,94"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a36afa5daa41363d0303dd37a363f16d9_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -772,32 +646,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a0047565b461416dc21ee46699518a98d_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a0047565b461416dc21ee46699518a98d_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a0047565b461416dc21ee46699518a98d_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a0047565b461416dc21ee46699518a98d_icgraph">
-<area shape="rect" title="Checks if the wave format has a fact chunk." alt="" coords="983,104,1179,145"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a878304d9021095d970bced3f7a13b98d" title="Creates a fact chunk in the output stream if it does not already exist." alt="" coords="738,71,935,111"/>
-<area shape="poly" title=" " alt="" coords="967,111,935,107,936,102,968,106"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ad95029cf35ce3067e0443e3442d88971" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="738,136,935,177"/>
-<area shape="poly" title=" " alt="" coords="968,142,936,146,935,141,967,137"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="494,71,690,111"/>
-<area shape="poly" title=" " alt="" coords="723,94,691,94,691,88,723,88"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a564655abe5b5fb0f90e4b10bf5f83270" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="498,69,426,49,428,44,500,64"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aa314b7eff712e1e522f2b481dbbad6e7" title="Writes the audio data from the specified sourceProvider &#160;to the outStream &#160;in WAV format." alt="" coords="250,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="479,94,447,94,447,88,479,88"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a2e82a51972b97bf9ca404259146c48b2" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,5,202,46"/>
-<area shape="poly" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ab50c1f10814b936065f8d7f5d3584fa2" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="494,136,690,177"/>
-<area shape="poly" title=" " alt="" coords="723,159,691,159,691,154,723,154"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aea4aae5af23f69630e9a4028555462b6" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="250,136,446,177"/>
-<area shape="poly" title=" " alt="" coords="479,159,447,159,447,154,479,154"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a36afa5daa41363d0303dd37a363f16d9" title="Updates the header and flushes the underlying stream." alt="" coords="250,201,446,242"/>
-<area shape="poly" title=" " alt="" coords="500,184,428,203,426,198,498,179"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_recorder.html#aed186a830758160c74ec883780dc79b8" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="6,71,201,111"/>
-<area shape="poly" title=" " alt="" coords="254,134,182,115,183,109,255,129"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a1fb5e2e471f0015a03c9b203900374d9" title="Finaliser &#45; should only be called if the user forgot to close this WaveFileWriter." alt="" coords="5,136,202,177"/>
-<area shape="poly" title=" " alt="" coords="234,159,202,159,202,154,234,154"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a0047565b461416dc21ee46699518a98d_icgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -963,20 +812,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_ae2171b19388f0cac6b6d6fc9db3b1a6b_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_ae2171b19388f0cac6b6d6fc9db3b1a6b_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ae2171b19388f0cac6b6d6fc9db3b1a6b_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ae2171b19388f0cac6b6d6fc9db3b1a6b_icgraph">
-<area shape="rect" title="Updates the data chunk size in the binary writer at the specified position." alt="" coords="738,72,935,113"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ab50c1f10814b936065f8d7f5d3584fa2" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="494,72,690,113"/>
-<area shape="poly" title=" " alt="" coords="723,95,691,95,691,90,723,90"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aea4aae5af23f69630e9a4028555462b6" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="250,39,446,79"/>
-<area shape="poly" title=" " alt="" coords="478,79,446,75,447,70,479,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a36afa5daa41363d0303dd37a363f16d9" title="Updates the header and flushes the underlying stream." alt="" coords="250,104,446,145"/>
-<area shape="poly" title=" " alt="" coords="479,110,447,114,446,109,478,105"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_recorder.html#aed186a830758160c74ec883780dc79b8" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="6,5,201,46"/>
-<area shape="poly" title=" " alt="" coords="234,46,201,42,201,36,235,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a1fb5e2e471f0015a03c9b203900374d9" title="Finaliser &#45; should only be called if the user forgot to close this WaveFileWriter." alt="" coords="5,71,202,111"/>
-<area shape="poly" title=" " alt="" coords="235,77,203,81,202,75,234,71"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_ae2171b19388f0cac6b6d6fc9db3b1a6b_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1015,30 +851,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_cgraph">
-<area shape="rect" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="5,5,202,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_cgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_icgraph">
-<area shape="rect" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="738,72,935,113"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ab50c1f10814b936065f8d7f5d3584fa2" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="494,72,690,113"/>
-<area shape="poly" title=" " alt="" coords="723,95,691,95,691,90,723,90"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aea4aae5af23f69630e9a4028555462b6" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="250,39,446,79"/>
-<area shape="poly" title=" " alt="" coords="478,79,446,75,447,70,479,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a36afa5daa41363d0303dd37a363f16d9" title="Updates the header and flushes the underlying stream." alt="" coords="250,104,446,145"/>
-<area shape="poly" title=" " alt="" coords="479,110,447,114,446,109,478,105"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_recorder.html#aed186a830758160c74ec883780dc79b8" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="6,5,201,46"/>
-<area shape="poly" title=" " alt="" coords="234,46,201,42,201,36,235,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a1fb5e2e471f0015a03c9b203900374d9" title="Finaliser &#45; should only be called if the user forgot to close this WaveFileWriter." alt="" coords="5,71,202,111"/>
-<area shape="poly" title=" " alt="" coords="235,77,203,81,202,75,234,71"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_ad95029cf35ce3067e0443e3442d88971_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1079,34 +897,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_cgraph">
-<area shape="rect" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="5,71,202,111"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ae2171b19388f0cac6b6d6fc9db3b1a6b" title="Updates the data chunk size in the binary writer at the specified position." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="181,68,254,48,255,53,183,73"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ad95029cf35ce3067e0443e3442d88971" title="Updates the &#39;fact&#39; chunk in the WAV file with the sample count information." alt="" coords="250,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="202,88,234,88,234,94,202,94"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aaadca2c6d420c19cf9c5642a7c2a6cda" title="Updates the RIFF chunk in the output stream with the correct size." alt="" coords="250,136,446,177"/>
-<area shape="poly" title=" " alt="" coords="183,109,255,129,254,134,181,114"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="494,71,690,111"/>
-<area shape="poly" title=" " alt="" coords="446,88,478,88,478,94,446,94"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_icgraph">
-<area shape="rect" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="494,72,690,113"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aea4aae5af23f69630e9a4028555462b6" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="250,39,446,79"/>
-<area shape="poly" title=" " alt="" coords="478,79,446,75,447,70,479,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a36afa5daa41363d0303dd37a363f16d9" title="Updates the header and flushes the underlying stream." alt="" coords="250,104,446,145"/>
-<area shape="poly" title=" " alt="" coords="479,110,447,114,446,109,478,105"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_recorder.html#aed186a830758160c74ec883780dc79b8" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="6,5,201,46"/>
-<area shape="poly" title=" " alt="" coords="234,46,201,42,201,36,235,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a1fb5e2e471f0015a03c9b203900374d9" title="Finaliser &#45; should only be called if the user forgot to close this WaveFileWriter." alt="" coords="5,71,202,111"/>
-<area shape="poly" title=" " alt="" coords="235,77,203,81,202,75,234,71"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_ab50c1f10814b936065f8d7f5d3584fa2_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1145,20 +941,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_aaadca2c6d420c19cf9c5642a7c2a6cda_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_aaadca2c6d420c19cf9c5642a7c2a6cda_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_aaadca2c6d420c19cf9c5642a7c2a6cda_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_aaadca2c6d420c19cf9c5642a7c2a6cda_icgraph">
-<area shape="rect" title="Updates the RIFF chunk in the output stream with the correct size." alt="" coords="738,72,935,113"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#ab50c1f10814b936065f8d7f5d3584fa2" title="Updates the header of the audio file by flushing the writer and updating the RIFF,..." alt="" coords="494,72,690,113"/>
-<area shape="poly" title=" " alt="" coords="723,95,691,95,691,90,723,90"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aea4aae5af23f69630e9a4028555462b6" title="Releases the unmanaged resources used by the ClassName and optionally releases the managed resources." alt="" coords="250,39,446,79"/>
-<area shape="poly" title=" " alt="" coords="478,79,446,75,447,70,479,74"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a36afa5daa41363d0303dd37a363f16d9" title="Updates the header and flushes the underlying stream." alt="" coords="250,104,446,145"/>
-<area shape="poly" title=" " alt="" coords="479,110,447,114,446,109,478,105"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_recorder.html#aed186a830758160c74ec883780dc79b8" title="Performs application&#45;defined tasks associated with freeing, releasing, or resetting unmanaged resourc..." alt="" coords="6,5,201,46"/>
-<area shape="poly" title=" " alt="" coords="234,46,201,42,201,36,235,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a1fb5e2e471f0015a03c9b203900374d9" title="Finaliser &#45; should only be called if the user forgot to close this WaveFileWriter." alt="" coords="5,71,202,111"/>
-<area shape="poly" title=" " alt="" coords="235,77,203,81,202,75,234,71"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_aaadca2c6d420c19cf9c5642a7c2a6cda_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1214,14 +997,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_abe1e7f80f004e380654748b8fe285608_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_abe1e7f80f004e380654748b8fe285608_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_abe1e7f80f004e380654748b8fe285608_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_abe1e7f80f004e380654748b8fe285608_icgraph">
-<area shape="rect" title="Writes the specified bytes to the WAV file." alt="" coords="279,27,475,68"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_recorder.html#a0d02f5acc3d236e59434a5e214072c75" title="Reads a specified number of bytes from the source and writes them to the writer, returning the number..." alt="" coords="5,5,231,31"/>
-<area shape="poly" title=" " alt="" coords="263,37,231,34,231,28,264,32"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#acf71cbab14e7ac258b860ebc6b146813" title="Writes the specified number of samples from the given array, starting at the specified offset." alt="" coords="20,55,216,96"/>
-<area shape="poly" title=" " alt="" coords="264,62,217,68,216,62,263,57"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_abe1e7f80f004e380654748b8fe285608_icgraph.svg" width="480" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1276,12 +1052,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_acf71cbab14e7ac258b860ebc6b146813_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_acf71cbab14e7ac258b860ebc6b146813_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_acf71cbab14e7ac258b860ebc6b146813_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_acf71cbab14e7ac258b860ebc6b146813_cgraph">
-<area shape="rect" title="Writes the specified number of samples from the given array, starting at the specified offset." alt="" coords="5,5,202,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#abe1e7f80f004e380654748b8fe285608" title="Writes the specified bytes to the WAV file." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_acf71cbab14e7ac258b860ebc6b146813_cgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1330,14 +1101,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a80042849d0a47659334b9a6e86579ee8_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a80042849d0a47659334b9a6e86579ee8_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a80042849d0a47659334b9a6e86579ee8_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a80042849d0a47659334b9a6e86579ee8_cgraph">
-<area shape="rect" title="Writes 16 bit samples to the Wave file." alt="" coords="5,5,202,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a3760a90fc51cb812d42e7e0b0a15f26e" title="Writes audio samples to the output stream based on the specified format and data." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a47df1434a2be24742e459b7818799e57" title="Writes the specified audio sample to the wave file." alt="" coords="494,5,690,46"/>
-<area shape="poly" title=" " alt="" coords="446,23,478,23,478,28,446,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a80042849d0a47659334b9a6e86579ee8_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1370,18 +1134,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_adad938c56bbade273ab89ad84fd3024c_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_adad938c56bbade273ab89ad84fd3024c_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_adad938c56bbade273ab89ad84fd3024c_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_adad938c56bbade273ab89ad84fd3024c_icgraph">
-<area shape="rect" title="Writes the data chunk header to the output stream." alt="" coords="738,39,935,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="494,39,690,79"/>
-<area shape="poly" title=" " alt="" coords="723,62,691,62,691,56,723,56"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a564655abe5b5fb0f90e4b10bf5f83270" title="Creates a wave file with the specified filename using the provided wave provider." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="478,46,446,42,447,36,479,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#aa314b7eff712e1e522f2b481dbbad6e7" title="Writes the audio data from the specified sourceProvider &#160;to the outStream &#160;in WAV format." alt="" coords="250,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="479,77,447,81,446,75,478,71"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a2e82a51972b97bf9ca404259146c48b2" title="Creates a 16&#45;bit wave file from the provided sourceProvider &#160;and saves it with the specified filename..." alt="" coords="5,5,202,46"/>
-<area shape="poly" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_adad938c56bbade273ab89ad84fd3024c_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1426,14 +1179,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a47df1434a2be24742e459b7818799e57_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a47df1434a2be24742e459b7818799e57_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a47df1434a2be24742e459b7818799e57_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a47df1434a2be24742e459b7818799e57_icgraph">
-<area shape="rect" title="Writes the specified audio sample to the wave file." alt="" coords="494,5,690,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a3760a90fc51cb812d42e7e0b0a15f26e" title="Writes audio samples to the output stream based on the specified format and data." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="479,28,447,28,447,23,479,23"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a80042849d0a47659334b9a6e86579ee8" title="Writes 16 bit samples to the Wave file." alt="" coords="5,5,202,46"/>
-<area shape="poly" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a47df1434a2be24742e459b7818799e57_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1489,22 +1235,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_cgraph">
-<area shape="rect" title="Writes audio samples to the output stream based on the specified format and data." alt="" coords="5,5,202,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a47df1434a2be24742e459b7818799e57" title="Writes the specified audio sample to the wave file." alt="" coords="250,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="202,23,234,23,234,28,202,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_cgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_icgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_icgraph">
-<area shape="rect" title="Writes audio samples to the output stream based on the specified format and data." alt="" coords="250,5,446,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a80042849d0a47659334b9a6e86579ee8" title="Writes 16 bit samples to the Wave file." alt="" coords="5,5,202,46"/>
-<area shape="poly" title=" " alt="" coords="234,28,202,28,202,23,234,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_a3760a90fc51cb812d42e7e0b0a15f26e_icgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1598,22 +1334,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_wave_1_1_wave_file_writer_aa314b7eff712e1e522f2b481dbbad6e7_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_wave_1_1_wave_file_writer_aa314b7eff712e1e522f2b481dbbad6e7_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_wave_1_1_wave_file_writer_aa314b7eff712e1e522f2b481dbbad6e7_cgraph" id="aclass_n_audio_1_1_wave_1_1_wave_file_writer_aa314b7eff712e1e522f2b481dbbad6e7_cgraph">
-<area shape="rect" title="Writes the audio data from the specified sourceProvider &#160;to the outStream &#160;in WAV format." alt="" coords="5,35,202,75"/>
-<area shape="rect" href="interface_n_audio_1_1_wave_1_1_i_wave_provider.html#a1592be8cd7da05cc1a773b8d4ed979c0" title="Fill the specified buffer with wave data." alt="" coords="250,13,474,39"/>
-<area shape="poly" title=" " alt="" coords="202,41,234,38,234,43,203,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a4c203fd25befc1c773f4a3818d3b968d" title="WaveFileWriter that actually writes to a stream." alt="" coords="264,63,460,103"/>
-<area shape="poly" title=" " alt="" coords="203,63,248,68,248,73,202,68"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a878304d9021095d970bced3f7a13b98d" title="Creates a fact chunk in the output stream if it does not already exist." alt="" coords="541,5,737,46"/>
-<area shape="poly" title=" " alt="" coords="460,60,525,46,526,52,461,65"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_format.html#a21fddf07498dcaee579f2a552ab8e4e8" title="Serializes the wave format data and writes it to the specified BinaryWriter." alt="" coords="522,70,755,96"/>
-<area shape="poly" title=" " alt="" coords="461,80,506,80,506,86,461,86"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#adad938c56bbade273ab89ad84fd3024c" title="Writes the data chunk header to the output stream." alt="" coords="541,120,737,161"/>
-<area shape="poly" title=" " alt="" coords="461,101,526,114,525,120,460,106"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html#a0047565b461416dc21ee46699518a98d" title="Checks if the wave format has a fact chunk." alt="" coords="803,5,1000,46"/>
-<area shape="poly" title=" " alt="" coords="737,23,788,23,788,28,737,28"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_wave_1_1_wave_file_writer_aa314b7eff712e1e522f2b481dbbad6e7_cgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1993,11 +1714,12 @@ Here is the call graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_wave.html">Wave</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_wave_1_1_wave_file_writer.html">WaveFileWriter</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>

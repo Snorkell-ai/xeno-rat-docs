@@ -1,15 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Xeno-rat: NAudio.MediaFoundation.MediaFoundationApi Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -18,46 +42,46 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-  $(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Xeno-rat
    </div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
 </div>
-<!-- end header part -->
-<!-- Generated by Doxygen 1.10.0 -->
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -110,12 +134,7 @@ $(function(){initNavTree('class_n_audio_1_1_media_foundation_1_1_media_foundatio
 <div class="dynheader">
 Collaboration diagram for NAudio.MediaFoundation.MediaFoundationApi:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api__coll__graph.png" border="0" usemap="#a_n_audio_8_media_foundation_8_media_foundation_api_coll__map" alt="Collaboration graph"/></div>
-<map name="a_n_audio_8_media_foundation_8_media_foundation_api_coll__map" id="a_n_audio_8_media_foundation_8_media_foundation_api_coll__map">
-<area shape="rect" title="Main interface for using Media Foundation with NAudio." alt="" coords="5,134,243,408"/>
-<area shape="rect" title=" " alt="" coords="101,5,147,71"/>
-<area shape="poly" title=" " alt="" coords="127,70,127,117,121,117,121,70"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api__coll__graph.svg" width="248" height="414"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -194,18 +213,7 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a79bf1b1dffc57fe119fa35b93086cf40_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a79bf1b1dffc57fe119fa35b93086cf40_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a79bf1b1dffc57fe119fa35b93086cf40_icgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a79bf1b1dffc57fe119fa35b93086cf40_icgraph">
-<area shape="rect" title="Creates a new instance of IMFAttributes with the specified initial size." alt="" coords="510,39,716,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a848810bce9785fd7039a6969fba91c08" title=" " alt="" coords="258,5,462,46"/>
-<area shape="poly" title=" " alt="" coords="494,46,462,42,463,36,495,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a4b1a69cd09122c174671717702b60e2f" title="Creates a sink writer for writing media data to the specified output stream with the given transcode ..." alt="" coords="258,71,462,111"/>
-<area shape="poly" title=" " alt="" coords="495,77,463,81,462,75,494,71"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a56428796df5aa6b97bdd8120ee45f8da" title="Encodes a file." alt="" coords="5,37,210,78"/>
-<area shape="poly" title=" " alt="" coords="242,78,210,74,211,69,243,73"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aebccd4140a11632dc259156dea1f4018" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="5,103,210,143"/>
-<area shape="poly" title=" " alt="" coords="243,109,211,113,210,107,242,103"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a79bf1b1dffc57fe119fa35b93086cf40_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -250,22 +258,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_cgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_cgraph">
-<area shape="rect" title="Creates an IMFByteStream from the given stream object." alt="" coords="5,13,222,54"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#acc84ebe5cb639b83a3295de2fa5c9d10" title="Creates a byte stream object based on the provided stream object." alt="" coords="270,5,503,61"/>
-<area shape="poly" title=" " alt="" coords="222,31,254,31,254,36,222,36"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_cgraph.svg" width="508" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_icgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_icgraph">
-<area shape="rect" title="Creates an IMFByteStream from the given stream object." alt="" coords="300,5,516,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html#a00de24df139f58814872dbc2352ea783" title="Creates a new instance of IMFSourceReader with the specified settings." alt="" coords="5,5,252,46"/>
-<area shape="poly" title=" " alt="" coords="284,28,252,28,252,23,284,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a04b0f89a8551e3d593bf2ca839013114_icgraph.svg" width="522" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -299,18 +297,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a87f6600a7b55fae9f4b789e0129bb2b7_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a87f6600a7b55fae9f4b789e0129bb2b7_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a87f6600a7b55fae9f4b789e0129bb2b7_icgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a87f6600a7b55fae9f4b789e0129bb2b7_icgraph">
-<area shape="rect" title="Creates a new instance of IMFMediaType." alt="" coords="548,73,758,114"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#ad696d151e32131cfe49553e795444462" title="Creates a new IMFMediaType object from the provided WaveFormat." alt="" coords="260,30,500,86"/>
-<area shape="poly" title=" " alt="" coords="532,80,500,76,501,71,533,75"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_type.html#a720d1ca853211980bf2610728a63f189" title="Creates and wraps a new IMFMediaType object." alt="" coords="277,109,483,150"/>
-<area shape="poly" title=" " alt="" coords="533,112,484,119,483,113,532,107"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab241afe826a93e01d79dd284f6d70ca4" title="Creates and configures a resampler transform for media format conversion." alt="" coords="6,5,211,46"/>
-<area shape="poly" title=" " alt="" coords="244,44,211,40,212,35,244,39"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_type.html#afd99cd108ce044f3347da6f842dcfa11" title="Creates and wraps a new IMFMediaType object based on a WaveFormat." alt="" coords="5,71,212,111"/>
-<area shape="poly" title=" " alt="" coords="244,77,212,81,212,76,244,72"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a87f6600a7b55fae9f4b789e0129bb2b7_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -350,24 +337,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_cgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_cgraph">
-<area shape="rect" title="Creates a new IMFMediaType object from the provided WaveFormat." alt="" coords="5,5,246,61"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html#a87f6600a7b55fae9f4b789e0129bb2b7" title="Creates a new instance of IMFMediaType." alt="" coords="294,13,504,54"/>
-<area shape="poly" title=" " alt="" coords="246,31,278,31,278,36,246,36"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_cgraph.svg" width="510" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_icgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_icgraph">
-<area shape="rect" title="Creates a new IMFMediaType object from the provided WaveFormat." alt="" coords="260,31,500,87"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab241afe826a93e01d79dd284f6d70ca4" title="Creates and configures a resampler transform for media format conversion." alt="" coords="6,5,211,46"/>
-<area shape="poly" title=" " alt="" coords="244,45,211,41,212,36,244,40"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_type.html#afd99cd108ce044f3347da6f842dcfa11" title="Creates and wraps a new IMFMediaType object based on a WaveFormat." alt="" coords="5,71,212,111"/>
-<area shape="poly" title=" " alt="" coords="244,78,212,81,212,76,244,72"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_ad696d151e32131cfe49553e795444462_icgraph.svg" width="506" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -407,30 +382,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a10e796baf1844183c986b2c88397228a_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a10e796baf1844183c986b2c88397228a_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a10e796baf1844183c986b2c88397228a_icgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a10e796baf1844183c986b2c88397228a_icgraph">
-<area shape="rect" title="Creates a memory buffer of the specified size and returns it." alt="" coords="895,109,1125,150"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a40eaac1682ec94c148ed968e98949f9c" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="611,48,815,89"/>
-<area shape="poly" title=" " alt="" coords="893,108,814,92,816,87,894,103"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#abe03f9a99a95fda9d8919b0a0172772a" title="Reads data from the source provider and creates an IMFSample object." alt="" coords="272,109,523,150"/>
-<area shape="poly" title=" " alt="" coords="880,132,523,132,523,127,880,127"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#adf0d8d3679e677e3ea3b64dbef65b195" title="Reads data from the transform and returns the length of the output buffer." alt="" coords="579,167,847,207"/>
-<area shape="poly" title=" " alt="" coords="887,156,823,169,822,163,886,151"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a715fad15106b0bd11e29ff3d0de6c996" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="295,44,500,85"/>
-<area shape="poly" title=" " alt="" coords="595,70,500,68,500,63,595,64"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a56428796df5aa6b97bdd8120ee45f8da" title="Encodes a file." alt="" coords="8,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="279,51,213,42,214,37,280,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aebccd4140a11632dc259156dea1f4018" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="8,71,213,111"/>
-<area shape="poly" title=" " alt="" coords="280,78,213,84,213,79,279,73"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a4160a1e1c1f6e3a33396732ac3cf5d8c" title="Reads data from the input buffer and processes it using the transform, returning the number of bytes ..." alt="" coords="7,163,214,203"/>
-<area shape="poly" title=" " alt="" coords="270,156,215,166,214,161,269,151"/>
-<area shape="poly" title=" " alt="" coords="564,189,214,186,214,181,564,183"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a4e0410a804ef3b6d090a6f4e4f04d1a7" title="Ends the stream and drains the transform." alt="" coords="264,224,531,265"/>
-<area shape="poly" title=" " alt="" coords="583,213,514,226,513,221,582,208"/>
-<area shape="poly" title=" " alt="" coords="284,223,208,207,209,201,285,218"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#abb46cfa8fc0e34a2068cf0ceacaa0234" title="Repositions the object for streaming if it is initialized for streaming, by ending the stream and dra..." alt="" coords="5,228,216,269"/>
-<area shape="poly" title=" " alt="" coords="248,249,216,250,216,244,248,244"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a10e796baf1844183c986b2c88397228a_icgraph.svg" width="100%" height="506"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -463,30 +415,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_acf45f8cc1d8dbc17ee152df0c7ffef34_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_acf45f8cc1d8dbc17ee152df0c7ffef34_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_acf45f8cc1d8dbc17ee152df0c7ffef34_icgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_acf45f8cc1d8dbc17ee152df0c7ffef34_icgraph">
-<area shape="rect" title="Creates a new Media Foundation sample." alt="" coords="895,109,1102,150"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a40eaac1682ec94c148ed968e98949f9c" title="Converts data from the inputProvider to a memory buffer and writes it to the sink writer at the speci..." alt="" coords="611,48,815,89"/>
-<area shape="poly" title=" " alt="" coords="885,108,810,92,812,87,886,103"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#abe03f9a99a95fda9d8919b0a0172772a" title="Reads data from the source provider and creates an IMFSample object." alt="" coords="272,109,523,150"/>
-<area shape="poly" title=" " alt="" coords="880,132,523,132,523,127,880,127"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#adf0d8d3679e677e3ea3b64dbef65b195" title="Reads data from the transform and returns the length of the output buffer." alt="" coords="579,167,847,207"/>
-<area shape="poly" title=" " alt="" coords="880,156,819,169,817,163,879,151"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a715fad15106b0bd11e29ff3d0de6c996" title="Performs encoding of the input audio data using the specified sink writer and wave provider." alt="" coords="295,44,500,85"/>
-<area shape="poly" title=" " alt="" coords="595,70,500,68,500,63,595,64"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#a56428796df5aa6b97bdd8120ee45f8da" title="Encodes a file." alt="" coords="8,5,213,46"/>
-<area shape="poly" title=" " alt="" coords="279,51,213,42,214,37,280,46"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_encoder.html#aebccd4140a11632dc259156dea1f4018" title="Encodes the input audio data from inputProvider &#160;into the specified transcodeContainerType &#160;and write..." alt="" coords="8,71,213,111"/>
-<area shape="poly" title=" " alt="" coords="280,78,213,84,213,79,279,73"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a4160a1e1c1f6e3a33396732ac3cf5d8c" title="Reads data from the input buffer and processes it using the transform, returning the number of bytes ..." alt="" coords="7,163,214,203"/>
-<area shape="poly" title=" " alt="" coords="270,156,215,166,214,161,269,151"/>
-<area shape="poly" title=" " alt="" coords="564,189,214,186,214,181,564,183"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#a4e0410a804ef3b6d090a6f4e4f04d1a7" title="Ends the stream and drains the transform." alt="" coords="264,224,531,265"/>
-<area shape="poly" title=" " alt="" coords="583,213,514,226,513,221,582,208"/>
-<area shape="poly" title=" " alt="" coords="284,223,208,207,209,201,285,218"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_transform.html#abb46cfa8fc0e34a2068cf0ceacaa0234" title="Repositions the object for streaming if it is initialized for streaming, by ending the stream and dra..." alt="" coords="5,228,216,269"/>
-<area shape="poly" title=" " alt="" coords="248,249,216,250,216,244,248,244"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_acf45f8cc1d8dbc17ee152df0c7ffef34_icgraph.svg" width="100%" height="506"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -526,22 +455,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_cgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_cgraph">
-<area shape="rect" title="Creates a source reader from the specified byte stream." alt="" coords="5,5,236,61"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a2fee1f3ff137e3cbbe44c6b545097189" title="Creates a source reader from a byte stream." alt="" coords="284,5,512,61"/>
-<area shape="poly" title=" " alt="" coords="236,31,268,31,268,36,236,36"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_cgraph.svg" width="518" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_icgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_icgraph">
-<area shape="rect" title="Creates a source reader from the specified byte stream." alt="" coords="300,5,530,61"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html#a00de24df139f58814872dbc2352ea783" title="Creates a new instance of IMFSourceReader with the specified settings." alt="" coords="5,13,252,54"/>
-<area shape="poly" title=" " alt="" coords="284,36,252,36,252,31,284,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64cc923ba18f727765207097cb26198a_icgraph.svg" width="536" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -581,28 +500,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_cgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_cgraph">
-<area shape="rect" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="5,5,243,46"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a99952d1ef154226e93c108c63b3e964e" title="Enumerates Media Foundation transforms (MFTs) that match the specified search criteria." alt="" coords="291,5,497,46"/>
-<area shape="poly" title=" " alt="" coords="243,23,275,23,275,28,243,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_cgraph.svg" width="503" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_icgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_icgraph">
-<area shape="rect" title="Enumerates and returns a collection of IMFActivate interfaces for the specified category." alt="" coords="909,39,1147,79"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a8d8f5fbf5318edc19774c40623ad076a" title="Creates a resampler COM object using the Activator." alt="" coords="606,31,861,87"/>
-<area shape="poly" title=" " alt="" coords="894,62,862,62,862,56,894,56"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#a87f6fad61c251fff487f285e3dd1a03c" title="Creates and returns a resampler COM object based on the platform." alt="" coords="303,39,558,79"/>
-<area shape="poly" title=" " alt="" coords="591,62,559,62,559,56,591,56"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab241afe826a93e01d79dd284f6d70ca4" title="Creates and configures a resampler transform for media format conversion." alt="" coords="28,5,232,46"/>
-<area shape="poly" title=" " alt="" coords="287,46,232,40,233,34,288,41"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="5,71,255,111"/>
-<area shape="poly" title=" " alt="" coords="287,77,255,80,255,75,287,72"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_aad9c82163178fdbbaefad47ccd1958a7_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -635,12 +538,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a413028e5457c346b3a67052aa1e12567_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a413028e5457c346b3a67052aa1e12567_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a413028e5457c346b3a67052aa1e12567_cgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a413028e5457c346b3a67052aa1e12567_cgraph">
-<area shape="rect" title="Shuts down the Media Foundation platform if it has been initialized." alt="" coords="5,5,212,46"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a8d314cb551de464557dc07b0c70f23ff" title="Shuts down the Media Foundation platform." alt="" coords="260,5,466,46"/>
-<area shape="poly" title=" " alt="" coords="212,23,244,23,244,28,212,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a413028e5457c346b3a67052aa1e12567_cgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -673,28 +571,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_cgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_cgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_cgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_cgraph">
-<area shape="rect" title="Initializes the Media Foundation platform if not already initialized." alt="" coords="5,5,212,46"/>
-<area shape="rect" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_interop.html#a97a12e88647b8859903e5be40b3c6b1c" title="Initializes the Media Foundation platform." alt="" coords="260,5,466,46"/>
-<area shape="poly" title=" " alt="" coords="212,23,244,23,244,28,212,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_cgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_icgraph.png" border="0" usemap="#aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_icgraph" alt=""/></div>
-<map name="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_icgraph" id="aclass_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_icgraph">
-<area shape="rect" title="Initializes the Media Foundation platform if not already initialized." alt="" coords="600,72,806,113"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a030e2baaaa4d3a16ebe5430fdc06332f" title="Initializes the MediaFoundationReader with the specified settings." alt="" coords="325,39,530,79"/>
-<area shape="poly" title=" " alt="" coords="584,81,530,74,530,69,585,75"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_resampler.html#ab7e85318c5cc7b4040e847577a73ee5a" title="Creates the Media Foundation Resampler, allowing modifying of sample rate, bit depth and channel coun..." alt="" coords="303,104,552,145"/>
-<area shape="poly" title=" " alt="" coords="584,109,553,112,552,107,584,103"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_media_foundation_reader.html#a478c60af06406213cd899a93ec6c51ab" title="Creates a new MediaFoundationReader based on the supplied file." alt="" coords="26,5,234,46"/>
-<area shape="poly" title=" " alt="" coords="309,48,234,40,234,35,310,43"/>
-<area shape="rect" href="class_n_audio_1_1_wave_1_1_stream_media_foundation_reader.html#ad4b042f9d2fb5e83ae115deac0a104ac" title="Constructs a new media foundation reader from a stream." alt="" coords="5,71,255,111"/>
-<area shape="poly" title=" " alt="" coords="310,74,256,80,255,75,309,69"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_n_audio_1_1_media_foundation_1_1_media_foundation_api_a64dbbb824199204c5a8cf57515732a0f_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -727,11 +609,12 @@ Here is the caller graph for this function:</div>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_audio.html">NAudio</a></li><li class="navelem"><a class="el" href="namespace_n_audio_1_1_media_foundation.html">MediaFoundation</a></li><li class="navelem"><a class="el" href="class_n_audio_1_1_media_foundation_1_1_media_foundation_api.html">MediaFoundationApi</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="footer">Generated by <a href="https://www.snorkell.ai/"><img class="footer" src="https://www.snorkell.ai/_next/static/media/snorkell-dark-logo.7eaa0305.svg" width="104" height="31" alt="doxygen"/></a> </li>
   </ul>
 </div>
 </body>
